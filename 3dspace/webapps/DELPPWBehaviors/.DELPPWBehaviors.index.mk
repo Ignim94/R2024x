@@ -1,0 +1,9 @@
+m|DELPPWBehaviors\DELPPWBehaviors.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.6.24169|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELPPWBehaviors\DELPPWBehaviors.js|1718657312|4276
+s|DELPPWBehaviors\DELPPWBehaviors.mweb\src\Behaviors.js|1718023990|5914
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

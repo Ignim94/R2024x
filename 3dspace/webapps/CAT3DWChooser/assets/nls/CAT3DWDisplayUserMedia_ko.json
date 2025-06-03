@@ -1,0 +1,18 @@
+{
+  "recentPublishedContent": "최근에 게시된 콘텐츠",
+  "noPublishedContent": "게시된 콘텐츠가 없습니다.",
+  "draft": "초안",
+  "noWhiteboard": "화이트보드가 없습니다.",
+  "noSketch": "스케치가 없습니다.",
+  "deleteConfirmationModalTitle": "프로젝트 삭제",
+  "deleteConfirmationModalBody": "이 프로젝트를 삭제하시겠습니까?",
+  "deleteConfirmationModalConfirmButton": "예",
+  "deleteConfirmationModalRejectButton": "아니요",
+  "dropmenuEditOption": "편집",
+  "dropmenuDeleteOption": "삭제",
+  "dropmenuShareableLinkOption": "링크 복사",
+  "shareableLinkCopyMessage": "링크가 클립보드에 복사되었습니다.",
+  "MyWhiteboardsButtonNotClickedError": "검색하기 전에 내 화이트보드 탭을 클릭하십시오.",
+  "personalSpace": "개인 공간",
+  "searchWhiteboardsNoResults": "결과가 없습니다. 검색 텍스트를 변경하고 다시 시도하십시오."
+}

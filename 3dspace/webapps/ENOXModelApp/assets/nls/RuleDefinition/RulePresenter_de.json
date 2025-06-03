@@ -1,0 +1,12 @@
+{
+  "_variability_dictionary": "Variabilitätswörterbuch",
+  "UPDATE_RULE_FAILED": "Fehler beim Aktualisieren der Regel",
+  "UPDATE_RULE_SUCCESSFUL": "Aktualisieren der Regel erfolgreich",
+  "CONFLICT_HIDDEN": "Durch Filter verdeckten Konflikt erkannt",
+  "UPGRADE_FILTER": "Filter wurde zurückgesetzt. Sie können die neuen Filterfunktionen verwenden.",
+  "MODEL_VERSION_VARIABILITY": "Modellversionsvariabilität",
+  "ADD_CRITERIA": "Kriterien Hinzufügen",
+  "TIME_OUT_SESSION": "Ihre Sitzung ist abgelaufen. Laden Sie die Modellversion erneut",
+  "SERVICE_OUT": "Fehler beim Ausführen der Anforderung. Laden Sie die Modellversion erneut. Wenn der Fehler weiterhin besteht, wenden Sie sich an Ihren Administrator",
+  "LOCKED_INFO_ALERT": "Das Objekt ist gesperrt durch "
+}

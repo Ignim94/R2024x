@@ -1,0 +1,35 @@
+{
+    "STATUS_DEFAULT" : "Default",
+    "STATUS_INCOMPATIBLE" : "Incompatible",
+    "STATUS_REQUIRED" : "Required",
+    "STATUS_SELECTED" : "Selected",
+    "STATUS_UNSELECTED" : "Unselected",
+    "STATUS_CHOSEN" : "Chosen",
+    "STATUS_DISMISSED" : "Dismissed",
+
+  	"ERROR_DELETE_PC": "Error while deleting Product Configuration/s.",
+
+    "_pc_restore_success_message" : "Restored Previous Configurations",
+    "_pc_save_success_message" : "Configurations saved successfully",
+    "_pc_save_failure_message" : "Failed to save Configurations",
+    "_pc_complete_mode_warning_message" : "Values with Suggested criteria will be saved as 'Chosen' criteria",
+    "_pc_save_warning_popup_title" : "Save Changes",
+    "_pc_causing_rules" : "Causing Rules",
+    "_pc_save_warning_popup_content" : "Changes to the current Product Configuration are not saved. Do you want to save them before opening the selected Product Configuration?",
+    "_pc_selection_update_msg_title" : "Updates in Rule Deduced Selections",
+    "_pc_selection_update_msg_message" : "Some rule deduced selections are updated. Please validate rule deduced selections",
+    "_ok" : "OK",
+
+    "ContentLabel" : "Content",
+    "SaveButtonLabel" : "Save",
+    "ResetButtonLabel" : "Reset",
+    "physical_product_select_title" : "Select Configured Physical Product",
+    "TIME_OUT_SESSION": "You session have been expired. Please reload the Model Version",
+    "SERVICE_OUT" : "Error to perform the request. Please reload the Model Version. If the error persists, please contact your administrator",
+    "FillterAlertLabel" : "Applying filter in {0} seconds",
+    "ApplyFilterLabel" : "Apply Now",
+    "filter150Label" : "Consider all options for Variants and Options not selected",
+    "filter150TooltipTitle" : "Consider all options for Variants and Options not selected",
+    "filter150TooltipHelp" : "150% filter: Consider all valid values for Variants and Option Groups not selected",
+    "LOCKED_INFO_ALERT":"The object is locked by "
+}

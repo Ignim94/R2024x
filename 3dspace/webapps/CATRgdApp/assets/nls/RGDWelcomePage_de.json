@@ -1,0 +1,17 @@
+{
+  "WelcomeScreen.Title": "Berichtsvorlagendesign",
+  "WelcomeScreen.linksCategories.ContentAndKnowledge": "Inhalt & Wissen",
+  "WelcomeScreen.linksCategories.SocialNetworks": "Soziale Netzwerke",
+  "WelcomeScreen.ContentAndKnowledge.linkText": "Benutzerhilfe",
+  "WelcomeScreen.WhatsNew.linkText": "Neue Funktionen",
+  "WelcomeScreen.SocialNetworks.linkText": "Communitys",
+  "WelcomeScreen.Buttons.New": "Vorlage erstellen",
+  "WelcomeScreen.Buttons.Open": "Vorlagen öffnen",
+  "WelcomeScreen.Buttons.Templates": "Vorlagen",
+  "WelcomeScreen.Buttons.ImportTemplates": "Vorlagen importieren",
+  "WelcomeScreen.Buttons.Config": "Konfigurieren",
+  "WelcomeScreen.InputTypes.Done": "Fertig",
+  "loader": "Wird geladen...",
+  "quitConfiguration": "Konfiguration beenden",
+  "message_quitConfiguration": "Aktuelle Änderungen gehen möglicherweise verloren. Fortfahren?"
+}

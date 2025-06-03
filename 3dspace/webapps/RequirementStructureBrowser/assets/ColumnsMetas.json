@@ -1,0 +1,153 @@
+{
+    "common_column": {
+        "tree": {
+            "options": {
+                "editableFlag": "true",
+                "editionPolicy": "EditionOnDoubleClick",
+                "typeRepresentation": "string",
+                "hyperlinkTarget": "_self",
+                "dataIndex": "tree",
+                "alwaysVisibleFlag": "true",
+                "pinned": "left",
+                "width": "250"
+            }
+        },
+        "ds6w:type": {
+            "options": {
+                "dataIndex": "ds6w:type",
+                "editableFlag": "false",
+                "editionPolicy": "EditionOnDoubleClick"
+            }
+        },
+        "ds6wg:revision": {
+            "options": {
+                "dataIndex": "ds6wg:revision",
+                "typeRepresentation": "url",
+                "hyperlinkTarget": "_self",
+                "alignment": "center"
+            }
+        },
+        "ds6wg:Content Text":{
+            "options":{
+                "dataIndex": "ds6wg:Content Text",
+                "alignment": "left",
+                "width": "250"
+            }
+        },
+        "ds6w:isLastRevision": {
+            "options": {
+                "dataIndex": "ds6w:isLastRevision",
+                "typeRepresentation": "radio",
+                "alignment": "center"
+            }
+        },
+        "paramContent": {
+            "options": {
+                "dataIndex": "paramContent",
+                "typeRepresentation": "string",
+                "alignment": "center"
+            }
+        },
+        "ds6w:priority": {
+            "options": {
+                "dataIndex": "ds6w:priority",
+                "typeRepresentation": "enumString",
+                "alignment": "center"
+            }
+        },
+        "ds6w:difficulty": {
+            "options": {
+                "dataIndex": "ds6w:difficulty",
+                "typeRepresentation": "enumString",
+                "alignment": "center"
+            }
+        },
+        "ds6w:importance": {
+            "options": {
+                "dataIndex": "ds6w:importance",
+                "typeRepresentation": "enumString",
+                "alignment": "center"
+            }
+        },
+        "ds6w:classification": {
+            "options": {
+                "dataIndex": "ds6w:classification",
+                "typeRepresentation": "enumString",
+                "alignment": "center"
+            }
+        },
+        "ds6w:refinedInto": {
+            "options":{
+                "dataIndex": "ds6w:refinedInto",
+                "typeRepresentation": "tag"
+            }
+        },
+        "ds6w:covers": {
+            "options":{
+                "dataIndex": "ds6w:covers",
+                "typeRepresentation": "tag"
+            }
+        },
+        "ds6wg:requirement category": {
+            "options": {
+                "editableFlag": "true",
+                "dataIndex": "ds6wg:requirement category",
+                "typeRepresentation": "string",
+                "alignment": "center"
+            }
+        },
+        "ds6w:responsible": {
+            "options": {
+                "dataIndex": "ds6w:responsible",
+                "typeRepresentation": "url",
+                "hyperlinkTarget": "_self"
+            }
+        },
+        "ds6w:status": {
+            "options": {
+                "dataIndex": "ds6w:status",
+                "typeRepresentation": "url",
+                "hyperlinkTarget": "_self"
+            }
+        },
+        "ds6w:reserved": {
+            "options": {
+                "dataIndex": "ds6w:reserved",
+                "typeRepresentation": "image",
+                "alignment": "center"
+            }
+        },
+        "ds6w:description": {
+            "options": {
+                "dataIndex": "ds6w:description",
+                "editableFlag": "true",
+                "editionPolicy": "EditionOnDoubleClick"
+            }
+        }
+    },
+    "Spec-group-list": {},
+    "structure-editor-view": {
+        "ds6w:priority": {
+            "options": {
+                "dataIndex": "ds6w:priority",
+                "typeRepresentation": "enumString",
+                "alignment": "center"
+            }
+        },
+        "ds6w:difficulty": {
+            "options": {
+                "dataIndex": "ds6w:priority",
+                "typeRepresentation": "enumString",
+                "alignment": "center"
+            }
+        },
+        "ds6w:importance": {
+            "options": {
+                "dataIndex": "ds6w:priority",
+                "typeRepresentation": "enumString",
+                "alignment": "center"
+            }
+        }
+
+    }
+}

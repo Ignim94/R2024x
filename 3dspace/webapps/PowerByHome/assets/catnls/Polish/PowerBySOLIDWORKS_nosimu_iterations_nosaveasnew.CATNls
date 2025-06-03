@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XSCViews.Title="Widok";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XSCTools.Title="Narzędzia";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.Lifecycle.Title="Stan w cyklu";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.Collaboration.Title="Współpraca";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.SaveSession.Title="Zapisz aktywne okno";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ShareAsPicture.Title="Opublikuj jako obraz";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ShareAs3D.Title="Opublikuj jako 3D";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.RefreshHome.Title="Odśwież";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReloadAll.Title="Załaduj ponownie wszystko";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReserveHdr.Title="Zablokuj";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.UnreserveHdr.Title="Odblokuj";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.PropertiesHdr.Title="Właściwości";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.GetRevisionHdr.Title="Pobierz wersję";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReplaceByRevisionHdr.Title="Zastąp wersją";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReplaceByLatestRevisionHdr.Title="Zastąp najnowszą wersją";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.UpdateRevisionsHdr.Title="Aktualizuj poprawki";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.RevisionsHdr.Title="Poprawki";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReloadFromServerHdr.Title="Załaduj ponownie z serwera";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReplaceContentHdr.Title="Zastąp zawartość";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.RelationIPExplorer.Title="Relacje";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.OptionsHdr.Title="Opcje...";
+
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.View.Title="Widok";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.Tools.Title="Narzędzia";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XCADExport.Title="Eksport w formacie X-CAD";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XCADImport.Title="Import w formacie X-CAD";

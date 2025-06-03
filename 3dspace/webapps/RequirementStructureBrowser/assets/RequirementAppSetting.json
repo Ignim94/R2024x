@@ -1,0 +1,862 @@
+{
+    "Customized_types": [
+        "Requirement",
+        "Chapter",
+        "Comment",
+        "Requirement Specification",
+        "Requirement Group"
+    ],
+    "authorized_types": [
+        "Requirement Group",
+        "Requirement Specification",
+        "Chapter",
+        "Requirement",
+        "Comment",
+        "PlmParameter"
+    ],
+    "authorized_root_type": [
+        "Requirement Group",
+        "Requirement Specification",
+        "Requirement"
+    ],
+    "type_filter_bo": [
+        "Requirement Specification",
+        "Chapter",
+        "Requirement",
+        "Comment",
+        "PlmParameter"
+    ],
+    "type_filter_bo_req_folder": [
+        "Requirement Specification",
+        "Requirement Group"
+    ],
+    "root_type": [
+        "Requirement Group",
+        "Requirement Specification",
+        "Requirement"
+    ],
+    "DefaultRangeAttribute": [
+        "Priority",
+        "User Requirement Importance",
+        "Difficulty",
+        "Requirement Classification"
+    ],
+    "My_Requirement_Specification_query": "[ds6w:type]:Requirement Specification OR [ds6w:type]:Requirement Group AND [ds6w:responsible]:",
+    "FETCH_PREDICATE": [
+        "physicalid",
+        "ds6w:project",
+        "ds6w:label",
+        "ds6w:reserved",
+        "ds6w:status",
+        "ds6w:type",
+        "ds6w:responsible",
+        "ds6w:state",
+        "ds6w:modified",
+        "ds6w:created",
+        "ds6wg:revision",
+        "ds6w:organizationResponsible",
+        "interface"
+    ],
+    "My_Requirements_query": "[ds6w:type]:Requirement",
+    "Icons": {
+        "Chapter": "iconReqTypeChapter.png",
+        "Comment": "iconReqTypeComment.png",
+        "Requirement": "iconReqTypeRequirement.png",
+        "Requirement Specification": "iconReqTypeRequirementSpecification.png",
+        "Requirement Group": "iconReqTypeSpecificationFolder.png",
+        "PlmParameter": "I_PLMParameter.png"
+    },
+    "defaultSelectors": [
+        "ds6w:refinedInto",
+        "ds6w:covers",
+        "ds6w:type",
+        "ds6wg:revision",
+        "ds6w:identifier",
+        "physicalid",
+        "policy",
+        "cestamp",
+        "interface"
+    ],
+    "defaultDBSelectors": [
+        "type",
+        "revision",
+        "name",
+        "physicalid",
+        "policy",
+        "cestamp",
+        "interface"
+    ],
+    "defaultSetLocalFilterColumns": [
+        "ds6wg:revision",
+        "ds6w:type",
+        "ds6w:status",
+        "ds6w:classification",
+        "ds6w:reserved",
+        "ds6w:responsible",
+        "ds6w:isLastRevision"
+    ],
+    "excludedLocalFilterColumns": [
+        "paramContent",
+        "ConfigurationContext",
+        "ProjectedEvolutionEffectivity",
+        "CurrentEvolutionEffectivity",
+        "VariantEffectivity",
+        "Effectivity",
+        "ChangeContext",
+        "ds6w:covers",
+        "ds6w:refinedInto"
+    ],
+    "expand": {
+        "mql_expand_data": {
+            "select_level": "0",
+            "object_selects": [
+                "type",
+                "name",
+                "revision",
+                "physicalid",
+                "attribute[Title]",
+                "attribute[Content Text]",
+                "attribute[Priority]",
+                "attribute[Requirement Classification]",
+                "attribute[Difficulty]",
+                "attribute[User Requirement Importance]",
+                "attribute[Requirement Category]",
+                "owner",
+                "revision",
+                "project",
+                "policy",
+                "reserved",
+                "originated",
+                "modified",
+                "organization",
+                "description",
+                "current",
+                "interface",
+                "level",
+                "type.kindof",
+                "attribute[Change Id]",
+                "interface[Change Control]"
+            ],
+            "relationship_selects": [
+                "physicalid[connection]",
+                "level",
+                "attribute[TreeOrder]",
+                "type[connection]"
+            ]
+        },
+        "cv_expand_data": {
+            "folder_expand": {
+                "type_filter_bo": [
+                    "Requirement Specification",
+                    "Requirement Group",
+                    "Chapter",
+                    "Requirement",
+                    "Comment",
+                    "PlmParameter"
+                ],
+                "type_filter_rel": [
+                    "Requirement Group Content",
+                    "Sub Requirement Group",
+                    "Specification Structure",
+                    "Sub Requirement",
+                    "ParameterAggregation"
+                ],
+                "select_bo": [
+                    "name",
+                    "ds6w:project",
+                    "ds6wg:revision",
+                    "physicalid",
+                    "ds6w:responsible",
+                    "ds6w:policy",
+                    "ds6w:organizationResponsible",
+                    "ds6w:label",
+                    "ds6w:reserved",
+                    "ds6w:description",
+                    "ds6w:modified",
+                    "ds6w:created",
+                    "ds6w:type",
+                    "ds6w:status",
+                    "ds6w:priority",
+                    "ds6w:classification",
+                    "ds6w:difficulty",
+                    "ds6w:realizedChangeAction",
+                    "ds6w:importance",
+                    "ds6wg:requirement category"
+                ],
+                "select_rel": [
+                    "physicalid",
+                    "ds6w:type",
+                    "spec.TreeOrder",
+                    "ds6w:businessType"
+                ]
+            },
+            "no_folder_expand": {
+                "type_filter_bo": [
+                    "Requirement Specification",
+                    "Chapter",
+                    "Requirement",
+                    "Comment",
+                    "PlmParameter"
+                ],
+                "type_filter_rel": [
+                    "Specification Structure",
+                    "Sub Requirement",
+                    "ParameterAggregation"
+                ],
+                "select_bo": [
+                    "name",
+                    "ds6w:type",
+                    "ds6w:project",
+                    "ds6wg:revision",
+                    "physicalid",
+                    "ds6w:responsible",
+                    "ds6w:policy",
+                    "ds6w:organizationResponsible",
+                    "ds6w:label",
+                    "ds6w:reserved",
+                    "ds6w:created",
+                    "ds6w:description",
+                    "ds6w:modified",
+                    "ds6w:refinedInto",
+                    "ds6w:covers",
+                    "ds6w:status",
+                    "ds6w:priority",
+                    "ds6w:classification",
+                    "ds6w:difficulty",
+                    "ds6w:realizedChangeAction",
+                    "ds6w:importance",
+                    "ds6wg:requirement category"
+                ],
+                "select_rel": [
+                    "physicalid",
+                    "ds6w:type",
+                    "spec.TreeOrder",
+                    "ds6w:businessType"
+                ]
+            }
+        }
+    },
+    "rdfClassWithNslProp": [
+        "ds6w:type",
+        "ds6w:status"
+    ],
+    "fetch": {
+        "MQL_fetch": "type,attribute[Title],name,revision,physicalid,physicalid[connection],attribute[Originator],owner,project,policy,reserved,originated,modified,organization,description,current,interface,level,type.kindof,interface[Change Control]",
+        "CV_fetch": [
+            "name",
+            "ds6w:project",
+            "ds6wg:revision",
+            "physicalid",
+            "interface",
+            "ds6w:responsible",
+            "ds6w:policy",
+            "ds6w:organizationResponsible",
+            "ds6w:label",
+            "ds6w:reserved",
+            "ds6w:description",
+            "ds6w:modified",
+            "ds6w:created",
+            "ds6w:type",
+            "ds6w:realizedChangeAction"
+        ]
+    },
+    "Icon": {
+        "Chapter": "iconReqTypeChapter.png",
+        "Comment": "iconReqTypeComment.png",
+        "Requirement": "iconReqTypeRequirement.png",
+        "Requirement Specification": "iconReqTypeRequirementSpecification.png",
+        "Requirement Group": "iconReqTypeSpecificationFolder.png",
+        "Requirement Proxy": "iconReqTypeRequirementProxy.png",
+        "PlmParameter": "I_PLMParameter.png"
+    },
+    "thumbnail": {
+        "Chapter": "iconLargeDefault.png",
+        "Comment": "iconLargeDefault.png",
+        "Requirement": "iconLargeDefault.png",
+        "Requirement Specification": "I_CDM_Document108x144.png",
+        "Requirement Group": "iconLargeDefault.png"
+    },
+    "tileview_thumbnails": {
+        "Chapter": "iconLargeDefault.png",
+        "Comment": "iconLargeDefault.png",
+        "Requirement": "iconTypeRequirement108x144.png",
+        "Requirement Specification": "iconTypeRequirementSpecification108x144.png",
+        "Requirement Group": "iconTypeSpecificationFolder108x144.png"
+    },
+    "mql_colmuns": {
+        "type": "ds6w:type",
+        "revision": "ds6wg:revision",
+        "current": "ds6w:status",
+        "description": "ds6w:description",
+        "project": "ds6w:project",
+        "policy": "ds6w:policy",
+        "reserved": "ds6w:reserved",
+        "Title": "ds6w:title",
+        "attribute[Difficulty]": "ds6w:difficulty",
+        "attribute[Priority]": "ds6w:priority",
+        "attribute[User Requirement Importance]": "ds6w:importance",
+        "attribute[Requirement Classification]": "ds6w:classification",
+        "attribute[Requirement Category]": "ds6wg:requirement category",
+        "owner": "ds6w:responsible",
+        "organization": "ds6w:organizationResponsible",
+        "originated": "ds6w:created",
+        "modified": "ds6w:modified",
+        "LastVersion": "ds6w:isLastRevision",
+        "attribute[CustoAttIntSubReq1]": "CustoAttIntSubReq1"
+    },
+    "list_column": {
+        "Title": "ds6w:title",
+        "type": "ds6w:type",
+        "revision": "ds6wg:revision",
+        "current": "ds6w:status",
+        "description": "ds6w:description",
+        "policy": "ds6w:policy",
+        "reserved": "ds6w:reserved",
+        "owner": "ds6w:responsible",
+        "project": "ds6w:project",
+        "organization": "ds6w:organizationResponsible",
+        "originated": "ds6w:created",
+        "modified": "ds6w:modified"
+    },
+    "attributes_exportRMC": {
+        "attribute_level": "Level",
+        "attribute_type": "Type",
+        "attribute_name": "Name",
+        "attribute_revision": "Revision",
+        "attribute_title": "Title",
+        "attribute_priority": "Priority",
+        "attribute_requirement_category": "Requirement Category",
+        "attribute_sponsoring_customer": "Sponsoring Customer",
+        "attribute_access_type": "Access Type",
+        "attribute_designated_user": "Designated User",
+        "attribute_difficulty": "Difficulty",
+        "attribute_requirement_classification": "Requirement Classification",
+        "attribute_originator": "Originator",
+        "attribute_user_requirement_importance": "Importance",
+        "attribute_propagate_access": "Propagate Access",
+        "attribute_id": "ID"
+    },
+    "attributesWithoutNls": [
+        "ds6w:identifier",
+        "ds6wg:revision",
+        "paramContent",
+        "ds6w:reserved",
+        "ds6w:responsible"
+    ],
+    "columnsProviders": [
+        {
+            "loader": "DS/CfgWebAppEffectivityUX/scripts/CfgEffectivityColumns",
+            "loadingPolicy": "visible",
+            "isTargetingOnlyInstance": true,
+            "ID": "effectivityColumnsProvider"
+        },
+        {
+            "loader": "DS/CfgWebAppEffectivityUX/scripts/CfgConfigurationContextColumn",
+            "loadingPolicy": "visible",
+            "isTargetingOnlyInstance": true,
+            "ID": "configColumnsProvider"
+        },
+        {
+            "loader": "DS/RequirementStructureBrowser/providers/ChangeContextColumn",
+            "loadingPolicy": "visible",
+            "isTargetingOnlyInstance": true,
+            "ID": "changeContextColumnsProvider"
+        },
+        {
+            "loader": "DS/RequirementStructureBrowser/providers/CoverRefineColumn",
+            "loadingPolicy": "visible",
+            "isTargetingOnlyInstance": true,
+            "ID": "CoverRefineColumnsProvider"
+        }
+    ],
+    "defaultSelectedExtensions": [],
+    "baseExtentions": [
+        "XP_RequirementSpecification_Ext",
+        "XP_RequirementGroup_Ext",
+        "XP_Chapter_Ext",
+        "XP_Comment_Ext",
+        "XP_Requirement_Ext"
+    ],
+    "baseInstanceTypes": [],
+    "defaultSelectedTypes": [
+        "Requirement",
+        "Requirement Specification",
+        "Comment",
+        "Chapter",
+        "Requirement Group"
+    ],
+    "baseReferenceTypes": [
+        "Requirement",
+        "Requirement Specification",
+        "Comment",
+        "Chapter",
+        "Requirement Group"
+    ],
+    "computedIndex": {
+        "paramContent": [
+            "plmparam.value",
+            "plmparam.max",
+            "plmparam.min",
+            "plmparam.displayunit",
+            "plmparam.itf",
+            "plmparam.minrangeprop",
+            "plmparam.maxrangeprop",
+            "plmparam.multivalue"
+        ]
+    },
+    "computedAuthor": {
+        "ds6w:realizedChangeAction": [
+            "attribute[Change Id]",
+            "interface[Change Control]"
+        ]
+    },
+    "dgvOptions": {
+        "viewMode": "compact",
+        "rowsHeader": true,
+        "dgv": {
+            "defaultColumnDef": {
+                "width": "auto",
+                "typeRepresentation": "string"
+            },
+            "showContextualMenuColumnFlag": false,
+            "showRowBorderFlag": false,
+            "cellDragEnabledFlag": true,
+            "rowDragEnabledFlag": true,
+            "rowReorderEnabledFlag": true,
+            "rowGroupingEnabledFlag": false,
+            "alternateBackgroundFlag": false,
+            "showRowIndexFlag": true,
+            "rowSelection": "multiple",
+            "cellSelection": "none",
+            "columnSelection": "none",
+            "showSelectionCheckBoxesFlag": "OnOver",
+            "rowGroupingOptions": {
+                "depth": 1,
+                "hideGroupedColumns": false
+            },
+            "treeNodeCellOptions": {
+                "buildLinks": true,
+                "expanderStyle": "classic",
+                "depthIncrement": 25
+            },
+            "selectionBehavior": {
+                "canInteractiveMultiselectWithCheckboxClick": true,
+                "canMultiSelect": true,
+                "enableFeedbackForActiveCell": true,
+                "enableShiftSelection": true,
+                "toggle": false,
+                "unselectAllOnEmptyArea": true
+            },
+            "columns": []
+        },
+        "dgvLayout": {
+            "rowsHeader": true,
+            "useLastColumnWidthAutoFlag": true
+        }
+    },
+    "basicAttrList": [
+        "ds6w:identifier",
+        "ds6wg:revision",
+        "ds6w:type",
+        "ds6w:status",
+        "ds6w:reserved",
+        "ds6w:responsible",
+        "ds6w:project",
+        "ds6w:organizationResponsible",
+        "ds6w:modified",
+        "ds6w:description",
+        "ds6w:isLastRevision"
+    ],
+    "defaultAttributes": [
+        {
+            "dataIndex": "tree",
+            "ds6w": "ds6w:label",
+            "kind": "string",
+            "dbName": "Title",
+            "nature": "attribute",
+            "visibleFlag": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": false,
+                    "groupingLocked": true,
+                    "canBeGrouped": false,
+                    "removable": false
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:identifier",
+            "ds6w": "ds6w:identifier",
+            "kind": "string",
+            "dbName": "name",
+            "nature": "basic",
+            "visibleFlag": false,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6wg:revision",
+            "ds6w": "ds6wg:revision",
+            "kind": "string",
+            "dbName": "revision",
+            "nature": "basic",
+            "visibleFlag": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:type",
+            "ds6w": "ds6w:type",
+            "kind": "string",
+            "dbName": "type",
+            "nature": "basic",
+            "visibleFlag": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true,
+                    "canBeGrouped": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6wg:Content Text",
+            "ds6w": "ds6wg:Content Text",
+            "kind": "string",
+            "dbName": "Content Text",
+            "nature": "attribute",
+            "visibleFlag": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:refinedInto",
+            "ds6w": "ds6w:refinedInto",
+            "kind": "string",
+            "dbName": "refineInto",
+            "visibleFlag": true,
+            "nature": "attribute",
+            "isAdditionalColumn": true,
+            "provider": "CoverRefineColumnsProvider",
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:covers",
+            "ds6w": "ds6w:covers",
+            "kind": "string",
+            "visibleFlag": true,
+            "dbName": "covers",
+            "nature": "attribute",
+            "isAdditionalColumn": true,
+            "provider": "CoverRefineColumnsProvider",
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "paramContent",
+            "ds6w": "paramContent",
+            "kind": "string",
+            "visibleFlag": true,
+            "nature": "computed",
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:status",
+            "ds6w": "ds6w:status",
+            "kind": "string",
+            "dbName": "current",
+            "nature": "basic",
+            "visibleFlag": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:priority",
+            "ds6w": "ds6w:priority",
+            "kind": "enumString",
+            "dbName": "Priority",
+            "nature": "attribute",
+            "visibleFlag": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:difficulty",
+            "ds6w": "ds6w:difficulty",
+            "kind": "enumString",
+            "dbName": "Difficulty",
+            "nature": "attribute",
+            "visibleFlag": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:importance",
+            "ds6w": "ds6w:importance",
+            "kind": "enumString",
+            "dbName": "User Requirement Importance",
+            "nature": "attribute",
+            "visibleFlag": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true,
+                    "canBeGrouped": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6wg:requirement category",
+            "ds6w": "ds6wg:requirement category",
+            "kind": "string",
+            "dbName": "Requirement Category",
+            "nature": "attribute",
+            "visibleFlag": false,
+            "editableFlag": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true,
+                    "canBeGrouped": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:classification",
+            "ds6w": "ds6w:classification",
+            "kind": "string",
+            "dbName": "Requirement Classification",
+            "nature": "attribute",
+            "visibleFlag": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true,
+                    "canBeGrouped": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:reserved",
+            "ds6w": "ds6w:reserved",
+            "kind": "boolean",
+            "dbName": "reserved",
+            "nature": "basic",
+            "visibleFlag": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true,
+                    "canBeGrouped": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:responsible",
+            "ds6w": "ds6w:responsible",
+            "kind": "string",
+            "dbName": "owner",
+            "nature": "basic",
+            "visibleFlag": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true,
+                    "canBeGrouped": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:project",
+            "ds6w": "ds6w:project",
+            "kind": "string",
+            "dbName": "project",
+            "nature": "basic",
+            "visibleFlag": true,
+            "editableFlag": false,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:organizationResponsible",
+            "ds6w": "ds6w:organizationResponsible",
+            "kind": "string",
+            "dbName": "organization",
+            "nature": "basic",
+            "visibleFlag": true,
+            "editableFlag": false,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:modified",
+            "ds6w": "ds6w:modified",
+            "kind": "datetime",
+            "dbName": "modified",
+            "nature": "basic",
+            "editableFlag": false,
+            "visibleFlag": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:description",
+            "ds6w": "ds6w:description",
+            "kind": "string",
+            "dbName": "description",
+            "editableFlag": true,
+            "nature": "basic",
+            "visibleFlag": false,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "ds6w:isLastRevision",
+            "ds6w": "ds6w:isLastRevision",
+            "visibleFlag": true,
+            "editableFlag": false,
+            "nature": "basic",
+            "kind": "string",
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": true
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        }
+    ]
+}

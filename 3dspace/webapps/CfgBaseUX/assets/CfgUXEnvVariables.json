@@ -1,0 +1,22 @@
+{
+  "pcImageEnabled": true,
+  "isWUXDialogEnabled": true,
+  "isOccurrenceEnabled": true,
+  "isAutocompleteNameEnabled": false,
+  "showInheritedToggle": false,
+  "showImplicitToggleForCA": false,
+  "showInheritedToggleForInstances": false,
+  "isCRBasedOnInstanceEnabled": false,
+  "isCRColumnVisible": false,
+  "isCFGCRCompositionEnabled": false,
+  "isCRGroupByEnabled": false,
+  "filterXMLWithoutDescriptionInSetInfo": false,
+  "isWebUXAutocompleteEnabled": true,
+  "isCustomAttributesEnabled": true,
+  "readServiceLimit": 20,
+  "ConfiguratorInDefaultBuildMode": false,
+  "isMassVariant_customAttribute_Enabled": false,
+  "isDGVUnitLayout": false,
+  "CFGClearVariantsOnMVSelect": false,
+  "isXrevisionColumnsEnabled": false
+}

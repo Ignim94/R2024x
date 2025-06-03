@@ -1,0 +1,1 @@
+define("DS/CATRelatedData3DGrid/CATRelatedData3DGrid_ko",{});define("DS/CATRelatedData3DGrid/assets/nls/CATRelatedData3DGrid",{lblOk:"확인",lblApply:"적용",lblClose:"닫기",lblPitch:"피치",lblDirection1:"첫 번째 방향 레이블",lblDirection2:"두 번째 방향 레이블",lblDirection3:"세 번째 방향 레이블"});

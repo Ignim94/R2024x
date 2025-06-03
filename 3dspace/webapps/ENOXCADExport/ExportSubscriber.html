@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:widget="http://www.netvibes.com/ns/">
+<!-- Copyright 2016 , Dassault Systemes. All rights reserved. -->
+
+<head>
+
+<title>ENOVIA XCAD Export</title>
+
+<!-- Application Metas Start -->
+
+<meta name="description" content="ENOVIA XCAD Export" />
+<meta name="brand" content="ENOVIA" />
+
+<!-- Application Metas End -->
+
+<!-- AMDLoader -->
+<script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+
+<!-- UWA -->
+<link rel="stylesheet" type="text/css"
+	href="../c/UWA/assets/css/standalone.css" />
+<script type="text/javascript" src="../c/UWA/js/UWA_Standalone_Alone.js"></script>
+<link rel="stylesheet" type="text/css" href="../UIKIT/UIKIT.css" />
+<script type="text/javascript" src="../UIKIT/UIKIT.js"></script>
+<script type="text/javascript" src="../WebUX/WebUX.js"></script>
+
+<!--Application Javascript -->
+<script type="text/javascript">
+	require([ 'DS/PlatformAPI/PlatformAPI', 'DS/ENOXCADExport/ENOXCADExport',
+			'DS/ENOXCADUtils/utils/XCADModelEvents' ],
+			function(PlatformAPI, ENOXCADExport, XCADModelEvents) {
+				'use strict';
+
+				var myWidget = {
+					onLoad : function() {
+
+						ENOXCADExport.onLoad();
+						PlatformAPI.subscribe('ExportSubscriber.dev',
+								myWidget.publish);
+					},
+
+					publish : function(data) {
+						XCADModelEvents.publish({
+							event : 'webinwin:win:notification',
+							data : data
+						});
+					},
+					onRefresh : function() {
+						window.location.reload();
+					}
+
+				};
+
+				widget.addEvent('onLoad', myWidget.onLoad);
+				widget.addEvent('onRefresh', myWidget.onRefresh);
+			});
+</script>
+
+</head>
+<body>
+	<div class="spinner spinner-lg spinning fade in"
+		style="transform: translate3d(0px, 0px, 0px); display: inline-block; margin-top: 20%; margin-left: 45%;">
+		<span class="spinner-bar"></span> <span
+			class="spinner-bar spinner-bar1"></span> <span
+			class="spinner-bar spinner-bar2"></span> <span
+			class="spinner-bar spinner-bar3"></span>
+	</div>
+</body>
+</html>

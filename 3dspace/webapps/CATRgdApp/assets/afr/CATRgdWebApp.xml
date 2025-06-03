@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+	<Template syp:name="CATRgdWebAppAfrWorkshopInterface" Target="CATCmdInterface">
+		<CATCmdInterface WkbInterface= "CATRgdWebAppAfrWorkshopConfiguration"/>
+	</Template>
+	<Template syp:name="CATRgdWebAppAfrWorkshopHeaders" Target="CATCmdHeadersList">
+		<CATCmdHeadersList>
+			<CATCommandHeader ID="CreateTemplateCmd" ClassName="DS/CATRgdApp/commands/CreateTemplateCmd" ResourceFile="CATRgdApp/CATRgdWebApp" Available="1"/>
+			<CATCommandHeader ID="RemoveTemplateCmd" ClassName="DS/CATRgdApp/commands/RemoveTemplateCmd" ResourceFile="CATRgdApp/CATRgdWebApp" Available="1"/>
+			<CATCommandHeader ID="EditTemplateCmd" ClassName="DS/CATRgdApp/commands/EditTemplateCmd" ResourceFile="CATRgdApp/CATRgdWebApp" Available="1"/>
+			<CATCommandHeader ID="ExportTemplateCmd" ClassName="DS/CATRgdApp/commands/ExportTemplateCmd" ResourceFile="CATRgdApp/CATRgdWebApp" Available="1"/>
+			<CATCommandHeader ID="ImportTemplateCmd" ClassName="DS/CATRgdApp/commands/ImportTemplateCmd" ResourceFile="CATRgdApp/CATRgdWebApp" Available="1"/>
+			<CATCommandHeader ID="DuplicateTemplateCmd" ClassName="DS/CATRgdApp/commands/DuplicateTemplateCmd" ResourceFile="CATRgdApp/CATRgdWebApp" Available="1"/>
+			<CATCommandHeader ID="ConfigureAppCmd" ClassName="DS/CATRgdApp/commands/ConfigureAppCmd" ResourceFile="CATRgdApp/CATRgdWebApp" Available="1"/>
+			
+			<!-- LIFECYCLE SECTION -->
+			<CATCommandHeader ID="Lifecycle_Maturity" HelpResourceFile="LifecycleWidget/LifecycleCmd" ClassName="DS/LifecycleCmd/MaturityCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1"/>
+			<CATCommandHeader ID="Lifecycle_Revision" HelpResourceFile="LifecycleWidget/LifecycleCmd" ClassName="DS/LifecycleCmd/ReviseCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1"/>
+			<CATCommandHeader ID="Lifecycle_Delete" HelpResourceFile="LifecycleWidget/LifecycleCmd" ClassName="DS/LifecycleCmd/DeleteCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1"/>
+			<CATCommandHeader ID="Lifecycle_History" HelpResourceFile="LifecycleWidget/LifecycleCmd" ClassName="DS/LifecycleCmd/HistoryCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1"/>
+			<!-- <CATCommandHeader ID="Lifecycle_ReviseFrom" HelpResourceFile="LifecycleWidget/LifecycleCmd" ClassName="DS/LifecycleCmd/ReviseFromCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1"/>
+			<CATCommandHeader ID="Lifecycle_Duplicate" HelpResourceFile="LifecycleWidget/LifecycleCmd" ClassName="DS/LifecycleCmd/DuplicateCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1"/>
+			<CATCommandHeader ID="Lifecycle_Compare" HelpResourceFile="LifecycleWidget/LifecycleCmd" ClassName="DS/CompareCmd/CompareCmd" ResourceFile="CompareCmd/CompareCmd" Available="1"/>
+			<CATCommandHeader ID="Lifecycle_Iterations" HelpResourceFile="LifecycleWidget/LifecycleCmd" ClassName="DS/LifecycleCmd/IterationsCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1"/> -->
+			
+			<!-- COLLABORATION SECTION -->
+			<CATCommandHeader ID="ENO_Properties" HelpResourceFile="ENOCollabSharingCmds/CollaborationCmd" ClassName="DS/ENOCollabSharingCmds/commands/EditPropCmd/ActionBar_EditPropCmd" ResourceFile="ENOCollabSharingCmds/CollabSharing_Workbench" Available="1" >
+				<CATAfrCommandHeaderArgs>
+					<CATCommandHeaderArg appId="CATRTW_AP" Value="true" Mode="In" />
+					<CATCommandHeaderArg disableAddExtensionButton ="true" Value="true" Mode="In" />
+					<!--<CATCommandHeaderArg indexModeParameter="true" Value="true" Mode="In" />
+					<CATCommandHeaderArg disableAddExtensionButton ="true" Value="true" Mode="In" />-->
+				</CATAfrCommandHeaderArgs>
+			</CATCommandHeader>
+			<!-- <CATCommandHeader ID="ENO_AccessRightCmd" HelpResourceFile="ENOCollabSharingCmds/CollaborationCmd" ClassName="DS/ENOCollabSharingCmds/commands/AccessRightCmd/ActionBar_AccessRightCmd" ResourceFile="ENOCollabSharingCmds/CollabSharing_Workbench" Available="1"/>
+			<CATCommandHeader ID="ENO_ChangeOwner" HelpResourceFile="ENOCollabSharingCmds/CollaborationCmd" ClassName="DS/ENOCollabSharingCmds/commands/TransferOwnershipCmd/ActionBar_ChangeOwnerCmd" ResourceFile="ENOCollabSharingCmds/CollabSharing_Workbench" Available="1"/>
+			<CATCommandHeader ID="ENO_ReserveCmd" HelpResourceFile="ENOCollabSharingCmds/CollaborationCmd" ClassName="DS/ENOCollabSharingCmds/commands/ReserveCmd/ActionBar_ReserveCmd" ResourceFile="ENOCollabSharingCmds/CollabSharing_Workbench" Available="1"/>
+			<CATCommandHeader ID="ENO_UnreserveCmd" HelpResourceFile="ENOCollabSharingCmds/CollaborationCmd" ClassName="DS/ENOCollabSharingCmds/commands/UnreserveCmd/ActionBar_UnreserveCmd" ResourceFile="ENOCollabSharingCmds/CollabSharing_Workbench" Available="1"/> -->
+
+		</CATCmdHeadersList>
+	</Template>
+	<Template syp:name="CATRgdWebAppAfrWorkshopAccess" Target="CATCmdWorkbench">
+		<CATCmdWorkbench Name="CATRgdWebAppWorkbench">
+		</CATCmdWorkbench>
+	</Template>
+</Styles>

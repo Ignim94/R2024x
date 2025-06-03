@@ -1,0 +1,21 @@
+{
+  "_baselines": "ベースライン",
+  "_computing": "計算しています...",
+  "_product_specifications": "Product Specifications",
+  "_no_data_in_preview": "プレビューにデータがありません。",
+  "_configurationPreviewMessage": "プレビューする製品構成またはベース構成を選択してください...",
+  "_PCPreviewMessage": "プレビューする製品構成を選択してください...",
+  "_MultiSelectionOfTypes": "タイプの複数選択は均一である必要があります。",
+  "_product_configurations": "製品構成",
+  "_rules": "ルール",
+  "_variability": "バリアビリティ",
+  "_variability_complexity": "バリアビリティの複雑さ",
+  "GET_MODEL_DETAILS_ERROR": "モデル情報の取得中にエラーが発生しました。",
+  "GET_MODEL_VARIABILITY_ERROR": "モデルのバリアビリティ情報の取得中にエラーが発生しました。",
+  "DELETE_MODELS_ERROR": "モデル バージョンの削除中にエラーが発生しました。",
+  "_backlog": "要求",
+  "MSG_LOADING_UPDATED_VARIABILITY": "更新されたターゲット バリアビリティを取得しています...",
+  "_manufacturingPlans": "製造計画",
+  "_specifications": "仕様",
+  "_configurations": "構成"
+}

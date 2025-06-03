@@ -1,0 +1,23 @@
+{
+  "notSpecified": "指定なし",
+  "title": "タイトル",
+  "titleerrortext": "タイトルを入力します。",
+  "titleplaceholder": "ここにタイトルを入力",
+  "description": "説明",
+  "descplaceholder": "ここに短い説明を入力",
+  "targetype": "ターゲット 3DEXPERIENCE タイプ",
+  "targettypeerrortext": "ターゲット 3DEXPERIENCE タイプを指定してください。",
+  "file": "ファイル",
+  "fileerror": "ファイルを選択します。",
+  "fileplaceholder": "ファイルを選択",
+  "browse": "参照",
+  "cancel": "取消し",
+  "save": "保存",
+  "createshared": "リリース済みとして作成",
+  "createprivate": "ドラフトとして作成",
+  "reset": "リセット",
+  "createtemplate": "テンプレートを作成",
+  "edittemplate": "テンプレートを編集",
+  "createAs": "名前を付けて作成 ",
+  "createAsInWork": "作業中として作成"
+}

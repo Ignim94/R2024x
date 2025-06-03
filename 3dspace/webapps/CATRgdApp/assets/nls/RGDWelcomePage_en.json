@@ -1,0 +1,18 @@
+{
+	"WelcomeScreen.Title": "Report Template Design",
+    "WelcomeScreen.linksCategories.ContentAndKnowledge": "Content & Knowledge",
+    "WelcomeScreen.linksCategories.SocialNetworks": "Social Networks",
+    "WelcomeScreen.ContentAndKnowledge.linkText": "User Assistance",
+	"WelcomeScreen.WhatsNew.linkText": "What's New",
+    "WelcomeScreen.SocialNetworks.linkText": "Communities",
+    "WelcomeScreen.Buttons.New": "Create Template",
+    "WelcomeScreen.Buttons.Open": "Open Templates",
+    "WelcomeScreen.Buttons.Templates": "Templates",
+    "WelcomeScreen.Buttons.ImportTemplates": "Import Templates",
+    "WelcomeScreen.Buttons.Config": "Configure",
+    "WelcomeScreen.InputTypes.Done": "Done",
+    "loader": "Loading...",
+    "quitConfiguration": "Quit Configuration",
+    "message_quitConfiguration": "Current changes may be lost, continue?"
+}
+

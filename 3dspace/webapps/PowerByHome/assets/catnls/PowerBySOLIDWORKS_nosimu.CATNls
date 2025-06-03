@@ -1,0 +1,27 @@
+PowerBySOLIDWORKS_nosimu.XSCViews.Title = "View";
+PowerBySOLIDWORKS_nosimu.XSCTools.Title = "Tools";
+PowerBySOLIDWORKS_nosimu.Lifecycle.Title="Lifecycle";
+PowerBySOLIDWORKS_nosimu.Collaboration.Title="Collaboration";
+PowerBySOLIDWORKS_nosimu.SaveSession.Title="Save Active Window";
+PowerBySOLIDWORKS_nosimu.SaveSessionAsNew.Title="Save Active Window As New";
+PowerBySOLIDWORKS_nosimu.ShareAsPicture.Title="Publish as Picture";
+PowerBySOLIDWORKS_nosimu.ShareAs3D.Title="Publish as 3D";
+PowerBySOLIDWORKS_nosimu.RefreshHome.Title="Refresh";
+PowerBySOLIDWORKS_nosimu.ReloadAll.Title="Reload all";
+PowerBySOLIDWORKS_nosimu.ReserveHdr.Title="Lock";
+PowerBySOLIDWORKS_nosimu.UnreserveHdr.Title="Unlock";
+PowerBySOLIDWORKS_nosimu.PropertiesHdr.Title="Properties";
+PowerBySOLIDWORKS_nosimu.GetRevisionHdr.Title="Get Revision";
+PowerBySOLIDWORKS_nosimu.ReplaceByRevisionHdr.Title="Replace by Revision";
+PowerBySOLIDWORKS_nosimu.ReplaceByLatestRevisionHdr.Title = "Replace by Latest Revision";
+PowerBySOLIDWORKS_nosimu.UpdateRevisionsHdr.Title = "Update Revisions";
+PowerBySOLIDWORKS_nosimu.RevisionsHdr.Title = "Revisions";
+PowerBySOLIDWORKS_nosimu.ReloadFromServerHdr.Title="Reload from Server";
+PowerBySOLIDWORKS_nosimu.ReplaceContentHdr.Title="Replace Content";
+PowerBySOLIDWORKS_nosimu.RelationIPExplorer.Title = "Relations";
+PowerBySOLIDWORKS_nosimu.OptionsHdr.Title = "Options...";
+
+PowerBySOLIDWORKS_nosimu.View.Title = "View";
+PowerBySOLIDWORKS_nosimu.Tools.Title = "Tools";
+PowerBySOLIDWORKS_nosimu.XCADExport.Title = "X-CAD Export";
+PowerBySOLIDWORKS_nosimu.XCADImport.Title = "X-CAD Import";

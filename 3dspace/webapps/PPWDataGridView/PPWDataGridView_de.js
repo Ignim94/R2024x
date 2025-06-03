@@ -1,0 +1,1 @@
+define("DS/PPWDataGridView/PPWDataGridView_de",{});define("DS/PPWDataGridView/assets/nls/ContextualMenu",{"ContextualMenu.DisplayColumns.Title":"Spalten anzeigen","ContextualMenu.GroupBy.Title":"Gruppieren nach","ContextualMenu.ClearGroupBy.Title":"Gruppierung löschen"});

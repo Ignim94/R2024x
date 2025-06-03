@@ -1,0 +1,21 @@
+{
+  "Nb_New": "{nbNew} 新对象",
+  "Nb_Mod": "{nbMod} 已修改对象",
+  "Nb_Exc": "{nbExc} 已排除对象",
+  "Nb_Inc": "{nbInc} 已包含对象",
+  "Save_stats": "保存范围包括： ",
+  "Unreserve_checkbox": "解锁",
+  "PGP_checkbox": "添加产品图形属性",
+  "PMR_checkbox": "添加产品柔性属性",
+  "KeepIteration_checkbox": "保留上一迭代",
+  "Async_checkbox": "后台保存",
+  "Work_Under": "在更改操作下保存： ",
+  "No_DefaultBookmark": "未找到默认书签。",
+  "Not_AllObjectsInBookmark": "请为所有对象分配书签",
+  "Not_AllLocked": "请锁定所有包含的对象",
+  "No_ReadAccess": "没有对某些对象的读取权限",
+  "SaveComment_checkbox": "添加评论",
+  "ExposePublication_checkbox": "公开发布",
+  "AddComment_textbox": "在此处输入备注...",
+  "ApplyMaterial_checkbox": "在 3DEXPERIENCE 上应用材料"
+}

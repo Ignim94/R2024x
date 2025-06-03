@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="SpecificationManagement">
+    <Domain id="SpecificationManagement">
+        <Family id="SpecificationMgmtConfig">
+            <Parameter id="SpecificationTemplateOptional" implementation="com.dassault_systemes.ootbConfiguration.specparameters.impl.SpecManagementParameter">
+                <Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+                <Constant id="className" value="com.dassault_systemes.ootbConfiguration.specparameters.impl.SpecTemplateOptional"/>
+                <Constant id="valueChecked" value="EnableSpecTemplate"/>
+                <Constant id="valueUnchecked" value="DisableSpecTemplate"/>
+            </Parameter>
+            <Parameter id="ProductSpecificationCreateOptional" implementation="com.dassault_systemes.ootbConfiguration.specparameters.impl.SpecManagementParameter">
+                <Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+                <Constant id="className" value="com.dassault_systemes.ootbConfiguration.specparameters.impl.XSRProdSpecOptional"/>
+                <Constant id="valueChecked" value="EnableCreatePrdSpec"/>
+                <Constant id="valueUnchecked" value="DisableCreatePrdSpec"/>
+            </Parameter>
+            <Parameter id="EnableOOTBProductSpecTypes" implementation="com.dassault_systemes.ootbConfiguration.specparameters.impl.SpecManagementParameter">
+                <Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+                <Constant id="className" value="com.dassault_systemes.ootbConfiguration.specparameters.impl.XSRProdSpeTypesOptional"/>
+                <Constant id="valueChecked" value="EnableCreatePrdSpecSubTyes"/>
+                <Constant id="valueUnchecked" value="DisableCreatePrdSpecSubTypes"/>
+            </Parameter>
+            <Parameter id="FormulaBOMUnits" implementation="com.dassault_systemes.ootbConfiguration.specparameters.impl.XSRFormulatedProdUnits">
+    			<Argument id="Argument" type="string" input="combobox" default="Percentage" maxLength="123">		
+					<Value id="Weight"/>
+					<Value id="Percentage"/>
+    			</Argument>				
+			</Parameter> 
+        </Family>
+    </Domain>
+</OOTBParameterization>

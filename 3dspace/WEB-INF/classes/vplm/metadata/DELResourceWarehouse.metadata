@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR Target values extensions -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2018, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+	ModelerType="Top"
+	Name="DELResourceWarehouse"
+	BelongsToModeler="DELRmiResourceModel"
+	Uuid="5EADD676-54E4-4043-B4A2-91AA563305EE"
+	UseNames="PLMSpacePlanning"
+	CustomerExposition="Programmer">
+
+  <Class Name="ResourceWarehouseReference"
+    SuperName="SPP_SpaceConceptRoot"
+    Abstract="No"
+    Discipline="Yes"
+    CustomerExposition="Programmer"
+    Uuid="C68582D3-1D35-4ACF-8915-5A435A21765A"
+    Specializable="No" 
+    CreateInstName="VPMInstance"
+    CustomerExtensible="Yes"
+  Abbreviation="whz">
+  <Property Name="ChangeManagementSupport" Value="Yes"/>
+    <Property Name="ChangeManagementReferential" Value="Yes"/> 
+    <Property Name="ChangeManagementContext" Value="Yes"/>
+    <Property Name="IconName" Value="I_RscWarehouse"/>
+    <Property Name="3DIconName" Value="I_RscWarehouse.cgr"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="KweNew_InstanciationMethod" Value="DELResourceWHDelegateInstanciation"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    
+    <CAAComment>
+      <ShortRole>PLM DELMIA Resource Warehouse Reference</ShortRole>
+      <Role>PLM DELMIA Resource Warehouse Reference</Role>
+    </CAAComment>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+    </Method>
+  </Class>
+
+  
+  <Class Name="ResourceWarehouseZoneReference"
+    SuperName="SPP_SpaceRef"
+    Abstract="No"
+    Discipline="Yes"
+    CustomerExposition="Programmer"
+    Uuid="017CF83E-BCAE-496B-8241-E08FF7C3AB57"
+    Specializable="No"
+    CreateInstName="SPP_SpaceInstance"
+    CustomerExtensible="Yes"
+    Abbreviation="whzz"
+    InstantiationOwnerTypes="ResourceWarehouseReference">
+    <Property Name="ChangeManagementSupport" Value="Yes"/>
+    <Property Name="ChangeManagementReferential" Value="Yes"/>
+    <Property Name="ChangeManagementContext" Value="Yes"/>
+    <Property Name="IconName" Value="I_RscWarehouseZone"/>
+    <Property Name="3DIconName" Value="I_RscWarehouseZone.cgr"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="KweNew_InstanciationMethod" Value="DELResourceZoneAndLocDelegateInstanciation"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <CAAComment>
+      <ShortRole>PLM DELMIA Resource Warehouse Zone Reference</ShortRole>
+      <Role>PLM DELMIA Resource Warehouse Zone Reference</Role>
+    </CAAComment>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+    </Method>
+  </Class>
+
+  <Class Name="ResourceWarehouseLocationReference"
+    SuperName="SPP_SpaceRef"
+    Abstract="No"
+    Discipline="Yes"
+    CustomerExposition="Programmer"
+    Uuid="99624734-2D80-4CF2-931F-60C182E60B26"
+    Specializable="No"
+    CreateInstName="SPP_SpaceInstance"
+    CustomerExtensible="Yes"
+    Abbreviation="whzl"
+    InstantiationOwnerTypes="ResourceWarehouseReference;ResourceWarehouseZoneReference">
+    <Property Name="ChangeManagementSupport" Value="Yes"/>
+    <Property Name="ChangeManagementReferential" Value="Yes"/>
+    <Property Name="ChangeManagementContext" Value="Yes"/>
+    <Property Name="IconName" Value="I_RscWarehouseLocation"/>
+    <Property Name="3DIconName" Value="I_RscWarehouseLocation.cgr"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="KweNew_InstanciationMethod" Value="DELResourceZoneAndLocDelegateInstanciation"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <CAAComment>
+      <ShortRole>PLM DELMIA Resource Warehouse Location Reference</ShortRole>
+      <Role>PLM DELMIA Resource Warehouse Location Reference</Role>
+    </CAAComment>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+    </Method>
+  </Class>
+
+</Package>

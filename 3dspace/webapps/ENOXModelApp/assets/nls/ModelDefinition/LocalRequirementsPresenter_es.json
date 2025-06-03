@@ -1,0 +1,23 @@
+{
+  "_create": "Nuevo",
+  "_delete": "Suprimir",
+  "_information": "Información",
+  "_item": "Elemento",
+  "_contentFacet": "Contenido",
+  "_new_requirement": "Nuevo requisito",
+  "_error_get_req": "Se ha producido un error al recuperar los requisitos",
+  "_error_create_req": "Se ha producido un error al crear el requisito",
+  "_error_remove_req": "Se ha producido un error al eliminar los requisitos",
+  "_req_update_succ": "El contenido del requisito se ha actualizado correctamente",
+  "_error_req_update": "Se ha producido un error al actualizar el requisito",
+  "_error_req_content_load": "Se ha producido un error al cargar el requisito",
+  "_error_add_existing": "Se ha producido un error al adjuntar el requisito",
+  "_priority": "Prioridad",
+  "_sequence_order": "Orden secuencial",
+  "_add_existing": "Agregar existente",
+  "priority_preAssigned": "Preasignada",
+  "priority_low": "Baja",
+  "priority_medium": "Media",
+  "priority_high": "Alta",
+  "priority_urgent": "Urgente"
+}

@@ -1,0 +1,1 @@
+define("DS/DELWebViewerUtils/DELWebViewerUtils_fr",{});define("DS/DELWebViewerUtils/assets/nls/CustomCodes",{"Error.InvalidInput.Message":"Entrée non valide fournie.","Error.BuildupInitializationFailed.Message":"L'initialisation du contenu ou du contexte de la séquence a échoué.","Error.ConnectionFailed.Message":"La connexion au nœud a été perdue dans l'environnement cloud."});

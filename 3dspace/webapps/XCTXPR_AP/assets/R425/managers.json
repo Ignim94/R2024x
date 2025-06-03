@@ -1,0 +1,10 @@
+{
+    "VCXWeb3DPlayManager": {
+        "impl": "DS/VCXWeb3DPlay/VCXWeb3DPlayManager",
+        "extensions": {
+            "W3AIManager": "DS/WebApplicationBase/W3AAManager",
+            "XCTEWSIExperienceMgr": "DS/VCXWeb3DPlay/VCXWebExperienceMgr",
+            "XCTEWSIPlayerOptionsMgr": "DS/VCXWeb3DPlay/VCXWebPlayerOptionsMgr"
+        }
+    }
+}

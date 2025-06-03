@@ -1,0 +1,15 @@
+{
+	"_title" : "List of Engineering Items",
+	"_priority" : "Priority",
+	"_items" : "Items",
+	"_item" : "Item",
+	"_associate" : "Associate",
+	"_open" : "Open",
+	"_physicalProduct" : "Physical Product",
+	"_inWork" : "In Work",
+	"_private" : "Private",
+	"_frozen" : "Frozen",
+	"_released" : "Released",
+	"_obsolete" : "Obsolete",
+	"_emptyPanelMessage" : "Your don’t have any configured Physical Product to your Model Version"
+}

@@ -1,0 +1,270 @@
+{
+	"dsprcs:MfgProcess":{
+		"expand":{
+			"maxPathCount":10000,
+			"defaultMask":"dsprcs:MfgProcess.ExpandMask.Default.V1",
+			"deprecatedMask":"dsprcs:MfgProcess.ExpandMask.Default"
+		}
+	},
+	"dsprcs:MfgProcessInstance": {
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:MfgProcessInstanceLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from parent process reference",
+					"filterKey": "source",
+					"pathToNavigate": [
+						{
+							"navigateToRel": {
+								"relTypes": [
+									"PLMInstance"
+								],
+								"mode": "stop_at_rel"
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from child process reference",
+					"filterKey": "target",
+					"pathToNavigate": [
+						{
+							"navigateFromRel": {
+								"relTypes": [
+									"PLMInstance"
+								],
+								"mode": "stop_at_rel"
+							}
+						}
+					]
+				}
+			]
+		},
+		"create": {}
+	},
+	"dsprcs:MfgOperationInstance": {
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:MfgOperationInstanceLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from parent process or operation reference",
+					"filterKey": "source",
+					"pathToNavigate": [
+						{
+							"navigateToRel": {
+								"relTypes": [
+									"PLMInstance"
+								],
+								"mode": "stop_at_rel"
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from child operation reference",
+					"filterKey": "target",
+					"pathToNavigate": [
+						{
+							"navigateFromRel": {
+								"relTypes": [
+									"PLMInstance"
+								],
+								"mode": "stop_at_rel"
+							}
+						}
+					]
+				}
+			]
+		},
+		"create": {}
+	},
+	"dsprcs:ItemSpecification": {
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:ItemSpecificationLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "mfgitem or operation",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"52",
+									"51"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"create": {}
+	},
+	"dsprcs:AssignedRequirement": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				{
+					"requirement": {
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					"URI_RootId": {
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				}
+			]
+		}
+	},
+	"dsprcs:TimeConstraint": {
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:TimeConstraintLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "operation/process instance",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"248",
+									"249"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "operation/process reference",
+					"pathToNavigate": [
+						{
+							"navigateFromRel": {
+								"relTypes": [
+									"PLMInstance"
+								],
+								"mode": "stop_at_rel"
+							}
+						},
+						{
+							"navigateFromSR": {
+								"roles": [
+									"248",
+									"249"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"create": {
+			"onCloudLimit": 1,
+			"onPremiseLimit": 10,
+			"mandKeys": [
+				{
+					"fromOperationOcc": {
+						"payloadType": "linkableOccurence"
+					},
+					"toOperationOcc": {
+						"payloadType": "linkableOccurence"
+					},
+					"URI_RootId": {
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				}
+			]
+		}
+	},
+	"dsprcs:ResourceParameterRow": {
+		"create": {
+			"onCloudLimit": 1,
+			"onPremiseLimit": 10,
+			"mandKeys": [{
+				"operationObject": {
+					"payloadType": "linkableObject"
+				},
+				"resourceParameterObject": {
+					"payloadType": "linkableObject"
+				},
+				"URI_RootId": {
+					"crudKey":"From_IDs",
+					"payloadType": "URI_RootId"
+				}
+			}],
+			"returnResponse": true
+		}
+	},
+	"dsprcs:PrimaryCapableResource": {
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:PrimaryCapableResourceLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "resource or mfgprocess/operation",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"204",
+									"203"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "secondary capable link",
+					"pathToNavigate": [
+						{
+							"navigateToSR": {
+								"roles": [
+									"461"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"create": {}
+	},
+	"dsprcs:SecondaryCapableResource": {
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:SecondaryCapableResourceLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "resource or primary capable link",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"247",
+									"461"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "mfgoperation",
+					"pathToNavigate": [
+						{
+							"navigateToRel": {
+								"boTypes": [
+									"SecondaryCandidateResourceLink"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"create": {}
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "_variability_dictionary": "Diccionario de variabilidad",
+  "UPDATE_RULE_FAILED": "Se ha producido un error al actualizar la regla.",
+  "UPDATE_RULE_SUCCESSFUL": "La actualización de la regla se ha realizado correctamente.",
+  "CONFLICT_HIDDEN": "Conflicto detectado oculto por el filtro",
+  "UPGRADE_FILTER": "El filtro se ha restablecido, puede utilizar las nuevas capacidades de filtrado.",
+  "MODEL_VERSION_VARIABILITY": "Variabilidad de versión de modelo",
+  "ADD_CRITERIA": "Agregar criterios",
+  "TIME_OUT_SESSION": "La sesión ha caducado. Vuelva a cargar la versión del modelo",
+  "SERVICE_OUT": "Error al realizar la solicitud. Vuelva a cargar la versión del modelo. Si el error persiste, póngase en contacto con el administrador",
+  "LOCKED_INFO_ALERT": "El objeto está bloqueado por "
+}

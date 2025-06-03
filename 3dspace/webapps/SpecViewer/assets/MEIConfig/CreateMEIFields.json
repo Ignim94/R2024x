@@ -1,0 +1,57 @@
+{
+	"fields": [{
+		"clearButton": false,
+		"disabled": false,
+		"label": "label_Title",
+		"mandatory": true,
+		"name": "title",
+		"placeholder": "placeholder_Title",
+		"type": "text"
+	},
+	{
+		"clearButton": false,
+		"disabled": false,
+		"label": "label_MEIPartNumber",
+		"mandatory": true,
+		"name": "partNumber",
+		"placeholder": "placeholder_MEIPartNo",
+		"type": "text"
+	},
+	{
+		"clearButton": true,
+		"disabled": true,
+		"label": "label_Manufacturer",
+		"mandatory": true,
+		"name": "manufacturer",
+		"placeholder": "placeholder_SelectMft",
+		"type": "specSearchField"
+	},
+	{
+		"clearButton": false,
+		"disabled": false,
+		"label": "label_Description",
+		"mandatory": false,
+		"name": "description",
+		"placeholder": "placeholder_Description",
+		"type": "textarea"
+	},
+	{
+		"clearButton": false,
+		"disabled": false,
+		"label": "label_PartSource",
+		"mandatory": false,
+		"name": "partSource",
+		"placeholder": "placeholder_PartSource",
+		"type": "text"
+	},
+	{
+		"clearButton": false,
+		"disabled": false,
+		"label": "label_PartSourceURL",
+		"mandatory": false,
+		"name": "partSourceURL",
+		"placeholder": "placeholder_PartSourceURL",
+		"type": "text"
+	}
+ ]
+}

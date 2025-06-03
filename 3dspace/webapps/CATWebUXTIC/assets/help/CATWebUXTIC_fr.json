@@ -1,0 +1,14 @@
+{
+"CATWebUXGenerateIssueHdr.Title":"Générer un sujet",
+"CATWebUXGenerateIssueHdr.ShortHelp":"Vous permet de générer un sujet.",
+"CATWebUXGenerateCAHdr.Title":"Générer une action de modification",
+"CATWebUXGenerateCAHdr.ShortHelp":"Vous permet de générer une action de modification.",
+"CATWebUXGenerateIssueTemplateHdr.Title":"Générer un sujet à partir du modèle",
+"CATWebUXGenerateIssueTemplateHdr.ShortHelp":"Vous permet de générer un sujet à partir d'un modèle.",
+"PIMWebUXGenerateCAHdr.Title":"Générer une action de modification",
+"PIMWebUXGenerateCAHdr.ShortHelp":"Vous permet de générer une action de modification.",
+"PIMWebUXGenerateIssueHdr.Title":"Générer un problème",
+"PIMWebUXGenerateIssueHdr.ShortHelp":"Vous permet de générer un problème.",
+"PIMWebUXGenerateIssueTemplateHdr.Title":"Générer un sujet à partir du modèle",
+"PIMWebUXGenerateIssueTemplateHdr.ShortHelp":"Vous permet de générer un problème à partir d'un modèle."
+}

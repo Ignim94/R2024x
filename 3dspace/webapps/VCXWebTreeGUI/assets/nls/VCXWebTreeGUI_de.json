@@ -1,0 +1,13 @@
+{
+  "VCXAssembly.PanelTitle": "Baugruppe",
+  "CIDAssembly.PanelTitle": "Inhalt",
+  "VCXDesign.PanelTitle": "Entwicklung",
+  "SelectionSets": "Auswahlsets",
+  "Hotspots": "Hotspots",
+  "VCXStyles.PanelTitle": "Darstellungen",
+  "VCXTreeToolbarSelectLeaves": "Untergeordnete Blätter auswählen",
+  "VCXTreeToolbarChgSelectionVis": "Sichtbarkeit der Auswahl umschalten",
+  "VCXTreeToolbarNewSelectionSet": "Erstellt einen neuen Auswahlsatz mit der aktuellen Auswahl",
+  "VCXHideDressupsCmd": "Alle zugeordneten Komponenten ausblenden",
+  "VCXTreeToolbarCollapseAll": "Struktur falten"
+}

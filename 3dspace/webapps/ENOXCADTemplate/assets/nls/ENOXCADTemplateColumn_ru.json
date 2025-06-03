@@ -1,0 +1,8 @@
+{
+  "tree": "Заголовок",
+  "name": "Имя",
+  "maturity": "Готовность",
+  "desc": "Описание",
+  "type3dx": "Целевой тип 3DEXPERIENCE",
+  "ContextualMenuColumn": "Действие"
+}

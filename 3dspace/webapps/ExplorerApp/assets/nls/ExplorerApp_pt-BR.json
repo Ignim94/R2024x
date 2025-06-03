@@ -1,0 +1,15 @@
+{
+  "appLoading": "Carregando aplicativo...",
+  "apptoosmall": "O aplicativo é muito pequeno. Aumente o tamanho.",
+  "welcomescreen": {
+    "description": "Explore sua estrutura de forma fácil e eficiente",
+    "recent": "Recente",
+    "openContent": "Abrir conteúdo",
+    "openProducts": "Abrir produtos",
+    "openFilters": "Abrir filtros",
+    "linkUserAssistance": "Assistência ao usuário",
+    "linkUserCommunity": "Comunidade de usuários"
+  },
+  "appMainLoading": "Criando aplicativo...",
+  "msg_readonly_dashboard": "Você está no leitor do seu painel. Os recentes não serão atualizados"
+}

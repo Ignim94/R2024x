@@ -1,0 +1,28 @@
+#CONTENT_VIEW  .compare-view-toolbar-container  .wux-controls-toolbar  .wux-toolbar-dropdown  .wux-controls-toolbar-nearContainer .wux-toolbar-items-near .wux-generated-toolbar-items-tweaker  .wux-tweakers-color-square {
+  width: 16px;
+  height: 16px;
+}
+#CONTENT_VIEW  .compare-view-toolbar-container  .wux-controls-toolbar  .wux-toolbar-dropdown  .wux-controls-toolbar-nearContainer .wux-toolbar-items-near .wux-generated-toolbar-items-tweaker .wux-tweakers-string-label{
+  padding-right: 2rem;
+  padding-top: 0.24rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+#CONTENT_VIEW  .compare-view-toolbar-container  .wux-controls-toolbar  .wux-toolbar-dropdown  .wux-controls-toolbar-nearContainer{
+  display: grid;
+  grid-template-columns: 2rem fit-content(35%) 2rem fit-content(35%);
+}
+#CONTENT_VIEW  .compare-view-toolbar-container  .wux-controls-toolbar  .wux-toolbar-dropdown{
+  display: grid;
+  grid-template-columns: 90% 0% 0%;
+}
+#CONTENT_VIEW  .compare-view-toolbar-container  .wux-controls-toolbar  .wux-toolbar-dropdown  .wux-controls-toolbar-nearContainer .wux-toolbar-items-near {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: grid;
+  grid-template-columns: 100%;
+}
+

@@ -1,0 +1,18 @@
+{
+  "cadsubtypefield": "3DEXPERIENCE 類型",
+  "cadtypefield": "CAD 類型",
+  "templatefield": "範本",
+  "managetemplates": "管理範本",
+  "newfromok": "確定",
+  "newfromcancel": "取消",
+  "newfromtemplate": "從範本新增",
+  "msg_success_templatecreate": "成功建立範本。",
+  "msg_success_edittemplate": "成功修改範本。",
+  "msg_error_editmodifyaccess": "您必須有權限才能修改此範本。請確認您的認證，或聯絡您的管理員以取得支援。",
+  "msg_success_listtemplate": "已成功載入範本清單",
+  "msg_success_notemplate": "此類型沒有可用的範本",
+  "msg_error_mandfieldempty": "必要欄位為空白",
+  "msg_error_templateempty": "範本欄位為空白",
+  "msg_error_cadtypeempty": "CAD 類型欄位為空白",
+  "mysession_newfromdlg_title": "從範本新增"
+}

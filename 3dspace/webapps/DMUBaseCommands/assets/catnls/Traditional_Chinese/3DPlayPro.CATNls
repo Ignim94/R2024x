@@ -1,0 +1,14 @@
+<meta charset="UTF-8"/>
+3DPlayPro.measureCmdHdr.Title="量測";
+3DPlayPro.measureCmdHdr2.Title="量測";
+3DPlayPro.measure2CmdHdr.Title="量測";
+3DPlayPro.measure3CmdHdr.Title="量測";
+3DPlayPro.measure2DCmdHdr.Title="量測";
+
+3DPlayPro.sectionCmdHdr.Title="編輯剪裁";
+3DPlayPro.section2CmdHdr.Title="編輯剪裁";
+3DPlayPro.thicknessCmdHdr.Title="厚度";
+3DPlayPro.LockUnlockSectionHdr.Title="啟動剪裁";
+
+3DPlayPro.DMU3DReviewDisplaySubMenu.Title="顯示";
+3DPlayPro.DMU3DReviewAmbiencesSubMenu.Title="環境";

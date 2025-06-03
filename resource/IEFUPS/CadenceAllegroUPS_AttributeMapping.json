@@ -1,0 +1,97 @@
+{
+    "attributes": {
+        "listOfNonPSTypesToShowOnConsole": "OrCADDesign",
+        "listOfCADTypesToShowOnConsole": "PrintedCircuitBoard,PrintedCircuitBoardAssembly,ElectronicPhysicalComponent",
+        "listOfCADTypeDisplayName": {
+            "OrCADDesign" : "OrCAD PCB Project",
+            "PrintedCircuitBoardAssembly": "Printed Circuit Board Assembly",
+            "PrintedCircuitBoard": "Printed Circuit Board",
+            "ElectronicPhysicalComponent": "Electronic Physical Component"
+        },
+        "defaultSupportedAttributesForType": {
+            "ElectronicPhysicalComponent|VPMReference": [ {
+                    "attributeName": "current",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "revision",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_versionComment",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "PLM_ExternalID",
+                    "direction": "MxToCAD"
+                }
+            ],
+            "OrCADDesign|XCADNonPSBaseRepReference": [{
+                    "attributeName": "revision",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_versionComment",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "current",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_description",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_Name",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "PLM_ExternalID",
+                    "direction": "MxToCAD"
+                }
+            ],
+            "PrintedCircuitBoardAssembly|VPMReference": [{
+                    "attributeName": "EnterpriseExtension.V_PartNumber",
+                    "direction": "MxToCAD",
+                    "honorDirection": "true"
+                }, {
+                    "attributeName": "revision",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_versionComment",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "current",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_description",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_Name",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "PLM_ExternalID",
+                    "direction": "MxToCAD"
+                }
+            ],
+            "PrintedCircuitBoard|VPMReference": [{
+                    "attributeName": "EnterpriseExtension.V_PartNumber",
+                    "direction": "MxToCAD",
+                    "honorDirection": "true"
+                }, {
+                    "attributeName": "revision",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_versionComment",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "current",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_description",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_Name",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "PLM_ExternalID",
+                    "direction": "MxToCAD",
+                    "honorDirection": "true"
+                }
+            ]
+        }
+    }
+}

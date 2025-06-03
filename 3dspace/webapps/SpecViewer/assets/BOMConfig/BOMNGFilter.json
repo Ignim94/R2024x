@@ -1,0 +1,40 @@
+{
+	"mandatorySixwForBO": [
+		"ds6w:label",
+		"ds6w:identifier",
+		"ds6w:modified",
+		"ds6w:created",
+		"ds6w:description",
+		"ds6wg:revision",
+		"ds6w:responsible",
+		"ds6w:status",
+		"ds6w:type",
+		"ds6wg:EnterpriseExtension.V_PartNumber",
+		"physicalid",
+		"ds6w:reservedBy",
+		"ds6w:globalType",
+		"name",
+		"ds6w:description",
+		"ds6w:cadMaster",
+		"unit",
+		"quantity",
+		"masterTitle",
+		"masterIdentifier"
+	],
+	"mandatorySixwForRel": [
+		"ds6w:label",
+		"ds6w:type",
+		"physicalid"
+	],
+	"compute_select_bo": [
+		"icon",
+		"thumbnail_2d"
+	],
+	"multiexpand": {
+		"url": "/cvservlet/multiexpand",
+		"method": "POST",
+		"type": "json",
+		"targetService": "3DSpace",
+		"isChangeControlled": false
+	}
+}

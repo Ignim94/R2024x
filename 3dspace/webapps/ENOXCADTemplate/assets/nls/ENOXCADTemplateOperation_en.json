@@ -1,0 +1,11 @@
+{
+    "edit"              : "Edit",
+    "download"          : "Download",
+    "publish"           : "Maturity",
+    "delete"            : "Delete",
+    "add_template"      : "Add Template",
+    "edit_template"     : "Edit Template",
+    "download_template" : "Download Template",
+    "delete_template"   : "Delete Template",
+    "reload_template"   : "Reload Template"
+}

@@ -1,0 +1,16 @@
+PowerByCREO.XSCViews.Title = "View";
+PowerByCREO.XSCTools.Title = "Tools";
+PowerByCREO.Lifecycle.Title="Lifecycle";
+PowerByCREO.Collaboration.Title="Collaboration";
+PowerByCREO.SaveSession.Title="Save Active Window";
+PowerByCREO.RefreshHome.Title="Refresh";
+PowerByCREO.ReloadAll.Title="Reload all";
+PowerByCREO.ReserveHdr.Title="Lock";
+PowerByCREO.UnreserveHdr.Title="Unlock";
+PowerByCREO.PropertiesHdr.Title="Properties";
+PowerByCREO.ReplaceByRevisionHdr.Title="Replace by Revision";
+PowerByCREO.ReloadFromServerHdr.Title="Reload from Server";
+PowerByCREO.RelationIPExplorer.Title = "Relations";
+PowerByCREO.OptionsHdr.Title = "Options...";
+PowerByCREO.View.Title = "View";
+PowerByCREO.Tools.Title = "Tools";

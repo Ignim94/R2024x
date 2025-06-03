@@ -1,0 +1,1 @@
+define("DS/RequirementCompareIntegration/RequirementCompareIntegration_ko",{});define("DS/RequirementCompareIntegration/assets/nls/ReqCompareWidgetNLS",{objectNotSupported:"<h4>개체가 지원되지 않습니다.</h4>",noContentData:"<h4>콘텐츠가 비어 있습니다.</h4>",noContentToCompare:"<h4>비교할 콘텐츠가 없습니다.</h4>",onlyIn:"다음에서만: ",contentPanel:"콘텐츠"});

@@ -1,0 +1,16 @@
+{
+  "AltiumPCBProject.label": "Проект Altium PCB",
+  "AltiumSchematic.label": "Схема Altium",
+  "PrintedCircuitBoard.label": "Компоновка Altium",
+  "AltiumPCBProjectTemplate.label": "Проект Altium PCB",
+  "AltiumSchematicTemplate.label": "Схема Altium",
+  "AltiumLayoutTemplate.label": "Компоновка Altium",
+  "field.title.label": "Заголовок",
+  "field.title.placeholder": "Введите название здесь",
+  "field.description.label": "Описание",
+  "field.description.placeholder": "Введите краткое описание здесь",
+  "field.name.label": "Имя",
+  "field.name.AltiumPCBProject.placeholder": "Введите имя проекта Altium PCB здесь",
+  "field.name.AltiumSchematic.placeholder": "Введите имя схемы Altium здесь",
+  "field.name.PrintedCircuitBoard.placeholder": "Введите имя компоновки Altium здесь"
+}

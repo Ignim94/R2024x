@@ -1,0 +1,27 @@
+{
+	"catiav5": [
+		"catpart",
+		"catproduct",
+		"catdrawing",
+		"catanalysis",
+		"catanalysisresults",
+		"catanalysiscomputations",
+		"catprocess",
+		"catshape",
+		"model",
+		"catmaterial",
+		"catalog",
+		"cgr",
+		"xlsx",
+		"xls",
+		"txt",
+		"xlsm",
+		"tif",
+		"tiff",
+		"rgb",
+		"jpg",
+		"jpeg",
+		"marker",
+		"bmp"
+	]
+}

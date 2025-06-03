@@ -1,0 +1,17 @@
+m|ENONewWebUI\ENONewWidgetWinTop.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.4.24097|3.2
+r|G:\R426\BSF\.
+t|ENONewWebUI\ENONewWidgetWinTop.mweb\LocalGenerated\win_b64\ENONewWinTop.css|1712384960|598
+s|ENONewWebUI\ENONewWidgetWinTop.mweb\src\ENONewWinTop.scss|1709122009|572
+t|win_b64\webapps\ENONewWidgetWinTop\ENONewWidgetWinTop.css|1712385232|349
+g|ENONewWebUI\ENONewWidgetWinTop.mweb\LocalGenerated\win_b64\ENONewWinTop.css|1712384960|598
+t|win_b64\webapps\ENONewWidgetWinTop\ENONewWidgetWinTop.js|1712385232|2267
+s|ENONewWebUI\ENONewWidgetWinTop.mweb\src\CommandAdaptor.js|1711367510|695
+t|win_b64\webapps\ENONewWidgetWinTop\ENONewWintop.html|1712385232|5274
+s|ENONewWebUI\ENONewWidgetWinTop.mweb\src\ENONewWintop.html|1711359393|5274
+u|ENONewWebUI\ENONewWidgetWinTop.mweb\src\WintopAdaptor.js|1711367518|3302
+u|win_b64\code\toolcmds\csscompressor.bat|1685139395|38
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

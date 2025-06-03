@@ -1,0 +1,155 @@
+    {
+            "authorized_types": ["Requirement Specification","Chapter","Requirement","Comment"],
+            "authorized_root_type":["Requirement Specification","Requirement"],
+            "root_type":["Requirement Specification"],
+            "Icons":{
+                "Chapter": "iconReqTypeChapter.png",
+                "Comment": "iconReqTypeComment.png",
+                "Requirement": "iconReqTypeRequirement.png",
+                "Requirement Specification": "iconReqTypeRequirementSpecification.png",
+                "Requirement Group": "iconReqTypeSpecificationFolder.png",
+                "Requirement Proxy" : "iconReqTypeRequirementProxy.png",
+                "PlmParameter" : "I_PLMParameter.png"
+            },
+            "commands":{
+                "Requirement Specification":"InsertRequirementSpecification",
+                "Requirement Group":"InsertSpecificationFolder"
+            },
+            "expand":{
+                 "mql_expand_data":{
+                     "select_level": "0",
+                     "object_selects": ["id","type", "name", "revision", "physicalid", "attribute[Title]", "attribute[Content Text]","attribute[Priority]","owner","revision","project","policy","reserved","originated","modified","organization","description","current","interface", "cestamp"],
+                     "relationship_selects": ["physicalid[connection]", "level", "attribute[TreeOrder]", "type[connection]"]    
+                    },
+                  "cv_expand_data":{
+                    "folder_expand":{
+                                    "type_filter_bo":["Requirement Specification","Requirement Group"],
+                                    "select_bo":["id","name","ds6w:project","ds6wg:revision","physicalid","ds6w:responsible","ds6w:policy","ds6w:organizationResponsible", "ds6w:label","ds6w:reserved", "ds6w:description", "ds6w:modified", "ds6w:created","ds6w:type","ds6w:status"],
+                                    "select_rel":["physicalid", "ds6w:type","spec.TreeOrder","ds6w:businessType","level"],
+                                    "type_filter_rel": ["Requirement Group Content","Sub Requirement Group"]
+                    },
+                    "no_folder_expand":{
+                                   "type_filter_bo": ["Requirement Specification","Chapter","Requirement","Comment"] ,              
+                                    "type_filter_rel": ["Specification Structure","Sub Requirement"],
+                                    "select_bo":["id","name","ds6w:type","ds6w:project","ds6wg:revision","physicalid","ds6w:responsible","ds6w:policy","ds6w:organizationResponsible", "ds6w:label","ds6w:reserved","ds6w:created", "ds6w:modified","ds6w:status","cestamp"],
+                                    "select_rel":["physicalid", "ds6w:type","spec.TreeOrder","ds6w:businessType"]
+                    }
+                }
+            },
+            "selectable":{
+                 "cv_select":"physicalid,ds6w:type,name,ds6wg:revision,ds6w:label,ds6w:status,ds6w:responsible,modified",
+                 "db_select":"id,physicalid,type,name,revision,attribute[Title],type.kindof,current,cestamp,owner,modified"
+            },
+            "authorised_apps": ["CATTRA_AP", "CATSMM_AP", "CATTRL_AP", "CATTRLC_AP", "CATTRC_AP" ],
+            "thumbnail":{
+                "Chapter": "iconLargeDefault.png",
+                "Comment": "iconLargeDefault.png",
+                "Requirement": "iconLargeDefault.png",
+                "Requirement Specification": "I_CDM_Document108x144.png",
+                "Requirement Group": "iconLargeDefault.png"
+            },
+            "mql_colmuns":{
+                "attribute[Priority]":"ds6w:priority",
+                "attribute[User Requirement Importance]":"ds6w:importance",
+                "attribute[Requirement Classification]":"ds6w:classification",
+                "attribute[Sponsoring Customer]":"ds6w:customer",
+                "attribute[Difficulty]":"ds6w:difficulty",
+                "attribute[Estimated Cost]":"ds6w:estimatedCost",
+                "attribute[Content Text]":"ds6wg:Content_Text",
+                "type":"ds6w:type",
+                "owner":"ds6w:responsible",
+                "revision":"ds6wg:revision",
+                "description":"ds6w:description",
+                "project":"ds6w:project",
+                "policy":"ds6w:policy",
+                "reserved":"ds6w:reserved",
+                "originated":"ds6w:created",
+                "modified":"ds6w:modified",
+                "organization":"ds6w:organizationResponsible",
+                "current":"ds6w:status",
+                "attribute[CustoAttIntSubReq1]":"CustoAttIntSubReq1"
+            },
+            "attributeInfo":[
+                {
+                    "dataIndex":"ds6w:label",
+                    "ds6w":"ds6w:label",
+                    "dbName":"attribute[Title]"
+                },
+                {
+                    "dataIndex":"ds6w:type",
+                    "dbName": "type",
+                    "ds6w": "ds6w:type"
+                },
+                {
+                    "dataIndex": "ds6w:status",
+                    "dbName": "current",
+                    "ds6w": "ds6w:status"
+                },
+                {
+                    "dataIndex":"ds6wg:contentData",
+                    "ds6w":"ds6wg:contentData",
+                    "dbName":"attribute[Content Data]"
+                },
+                {
+                    "dataIndex":"ds6wg:contentType",
+                    "ds6w":"ds6wg:contentType",
+                    "dbName":"attribute[Content Type]"
+                },
+                {
+                    "dataIndex":"ds6wg:contentText",
+                    "ds6w":"ds6wg:contentText",
+                    "dbName":"attribute[Content Text]"
+                },{
+                    "dataIndex":"ds6wg:revision",
+                    "ds6w":"ds6wg:revision",
+                    "dbName":"revision"
+                },{
+                    "dataIndex":"ds6w:responsible",
+                    "ds6w":"ds6w:responsible",
+                    "dbName":"owner"
+                }
+            ],
+            "rich": "Requirement,Comment",
+            "container": "Chapter",
+            "droppable": {
+                "Requirement": {
+                    "Requirement": "before,after,over",
+                    "Comment": "before,after",
+                    "Chapter": "before,after",
+                    "Files": "over",
+                    "text/plain": "before,after,over",
+                    "text/html": "before,after,over",
+                    "text/searchitems": "before,after,over",
+                    "Text": "before,after,over"
+                },
+                "Comment": {
+                    "Requirement": "before,after",
+                    "Comment": "before,after",
+                    "Chapter": "before,after",
+                    "Files": "over",
+                    "text/plain": "before,after",
+                    "text/html": "before,after",
+                    "text/searchitems": "before,after,over",
+                    "Text": "before,after,over"
+                },
+                "Chapter": {
+                    "Chapter": "before,after,over",
+                    "Requirement": "before,after,over",
+                    "Comment": "before,after,over",
+                    "text/plain": "over",
+                    "text/html": "over",
+                    "text/searchitems": "before,after,over",
+                    "Text": "before,after,over"
+                },
+                "Requirement Specification": {
+                    "Chapter": "over",
+                    "Requirement": "over",
+                    "Comment": "over"
+                }
+            },
+            "relationship": {
+                "Requirement": "Sub Requirement",
+                "Chapter": "Specification Structure",
+                "Requirement Specification": "Specification Structure"
+            }
+    }

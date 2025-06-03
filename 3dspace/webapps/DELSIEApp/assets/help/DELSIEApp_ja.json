@@ -1,0 +1,22 @@
+{
+"CreateAssemblyAndScope.Title":"サービス アセンブリーおよび有効範囲リンクを作成",
+"CreateAssemblyAndScope.ShortHelp":"プロダクトまたはパーツへの有効範囲リンクを持つサービス アセンブリーを作成します。",
+"CreateAssemblyAndScope.LongHelp":"プロダクトまたはパーツを選択し、[<uicontrol>サービス アセンブリーおよび有効範囲リンクを作成</uicontrol>] をクリックして、プロダクトまたはパーツへの有効範囲リンクを持つサービス アセンブリーを作成します。",
+"CreateProvideAndScope.Title":"サービス パーツおよび有効範囲リンクを作成",
+"CreateProvideAndScope.ShortHelp":"プロダクトまたはパーツへの有効範囲リンクを持つサービス パーツを作成します。",
+"CreateProvideAndScope.LongHelp":"プロダクトまたはパーツを選択し、[<uicontrol>サービス パーツおよび有効範囲リンクを作成</uicontrol>] をクリックして、プロダクトまたはパーツへの有効範囲リンクを持つサービス パーツを作成します。",
+"CreateMaterialAndScope.Title":"マニュファクチャリング マテリアルおよび有効範囲リンクを作成",
+"CreateMaterialAndScope.ShortHelp":"プロダクトまたはパーツへの有効範囲リンクを持つマニュファクチャード マテリアルを作成します。",
+"CreateMaterialAndScope.LongHelp":"プロダクトまたはパーツを選択し、[<uicontrol>マニュファクチャード マテリアルおよび有効範囲リンクを作成</uicontrol>] をクリックして、プロダクトまたはパーツへの有効範囲リンクを持つマニュファクチャード マテリアルを作成します。",
+"CreateKitAndScope.Title":"サービス キットおよび有効範囲リンクを作成",
+"CreateKitAndScope.ShortHelp":"プロダクトまたはパーツへの有効範囲リンクを持つサービス キットを作成します。",
+"CreateKitAndScope.LongHelp":"プロダクトまたはパーツを選択し、[<uicontrol>サービス キットおよび有効範囲リンクを作成</uicontrol>] をクリックして、プロダクトまたはパーツへの有効範囲リンクを持つサービス キットを作成します。",
+"CreateServiceAttachingAndScope.Title":"サービス添付パーツおよび有効範囲リンクを作成",
+"CreateServiceAttachingAndScope.ShortHelp":"プロダクトまたはパーツへの有効範囲リンクを持つサービス添付パーツを作成します。",
+"CreateServiceAttachingAndScope.LongHelp":"プロダクトまたはパーツを選択し、[<uicontrol>サービス添付項目および有効範囲リンクを作成</uicontrol>] をクリックして、プロダクトまたはパーツへの有効範囲リンクを持つサービス添付パーツを作成します。",
+"CreateServiceSpareAndScope.Title":"スペア アイテムおよび有効範囲リンクを作成",
+"CreateServiceSpareAndScope.ShortHelp":"プロダクトまたはパーツへの有効範囲リンクを持つスペア アイテムを作成します。",
+"CreateServiceSpareAndScope.LongHelp":"プロダクトまたはパーツを選択し、[<uicontrol>スペア アイテムおよび有効範囲リンクを作成</uicontrol>] をクリックして、プロダクトまたはパーツへの有効範囲リンクを持つスペア アイテムを作成します。",
+"Show3DOperationViewerCmd.Title":"3DOperations ビューアーを起動し",
+"Show3DOperationViewerCmd.ShortHelp":"<wintitle>3DOperations ビューアー</wintitle> アプリケーションをプレビュー モードで開きます。"
+}

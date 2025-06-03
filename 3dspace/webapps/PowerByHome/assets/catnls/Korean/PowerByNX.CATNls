@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+PowerByNX.XSCViews.Title="보기";
+PowerByNX.XSCTools.Title="도구";
+PowerByNX.Lifecycle.Title="라이프사이클";
+PowerByNX.Collaboration.Title="협업";
+PowerByNX.SaveSession.Title="활성 창 저장";
+PowerByNX.RefreshHome.Title="새로 고침";
+PowerByNX.ReloadAll.Title="모두 다시 로드";
+PowerByNX.ReserveHdr.Title="잠금";
+PowerByNX.UnreserveHdr.Title="잠금 해제";
+PowerByNX.PropertiesHdr.Title="속성";
+PowerByNX.ReplaceByRevisionHdr.Title="리비전으로 대치";
+PowerByNX.ReloadFromServerHdr.Title="서버에서 다시 로드";
+PowerByNX.RelationIPExplorer.Title="관계";
+PowerByNX.OptionsHdr.Title="옵션...";
+PowerByNX.View.Title="보기";
+PowerByNX.Tools.Title="도구";

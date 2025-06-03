@@ -1,0 +1,12 @@
+m|WebVisualization\WebVisu360.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.6.24194|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\WebVisu360\WebVisu360.js|1720827107|53882
+s|WebVisualization\WebVisu360.mweb\src\DynamicNode.js|1698317995|11047
+u|WebVisualization\WebVisu360.mweb\src\Viewer360Manager.js|1720022667|111914
+u|WebVisualization\WebVisu360.mweb\src\Vis360MarkerHandle.js|1701066826|14473
+u|WebVisualization\WebVisu360.mweb\src\WebVisu360.js|1680777565|0
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

@@ -1,0 +1,58 @@
+/*
+ *	Requirement Connector Customization
+ */
+
+// PACKAGE <ConnectorQualicationPrefix>;
+PACKAGE PLM;
+
+/*
+ *	Requirement Specification Extensions
+ */
+ 
+METHOD `Requirement Specification`.getAllChapters() -doc :
+	THIS.`rel_Specification Structure`.`to_Chapter`.*(`rel_Specification Structure`.`to_Chapter`)
+CATEGORY I18N("Category.Extensions")
+LABEL I18N("Method.Extension.GetAllChapters")
+HELPTEXT I18N("Method.Tooltip.GetAllChapters");
+
+METHOD `Requirement Specification`.getAllRequirements() -doc : {
+	TMP reqSpecReqs := `rel_Specification Structure`.`to_Requirement`;
+	TMP allChapterReqs := getAllChapters().`rel_Specification Structure`.`to_Requirement`;
+	reqSpecReqs $+ allChapterReqs;
+}
+CATEGORY I18N("Category.Extensions")
+LABEL I18N("Method.Extension.GetAllRequirements")
+HELPTEXT I18N("Method.Tooltip.GetAllRequirements");
+
+//Compatibility method for Legacy Effectivity Expression
+METHOD Requirement.getFromRelId() :{
+	$LAST(STRTOKENS(getOccurrence().getPathInformation("physicalid",","), ","));
+} LABEL "incoming rel";
+
+METHOD Requirement.effectivity() -doc : {
+	TMP parentRelId := getFromRelId();
+	`rel_Specification Structure_from`[id=parentRelId].effectivity();
+}
+CATEGORY I18N("Category.Navigation")
+LABEL I18N("Method.Effectivity")
+HELPTEXT I18N("Method.Effectivity_Description");
+
+METHOD Requirement.EffectivityExpression() -doc : {
+	effectivity().effectivityExpression(FALSE);
+}
+CATEGORY I18N("Category.Attributes")
+LABEL I18N("Method.Effectivity_Expression")
+HELPTEXT I18N("Method.Effectivity_Expression_Description");
+
+METHOD Chapter.EffectivityExpression() -doc : {
+	`rel_Specification Structure_from`.effectivity().effectivityExpression(FALSE);
+}
+LABEL I18N("Method.Effectivity_Expression")
+HELPTEXT I18N("Method.Effectivity_Expression_Description");
+
+
+METHOD Comment.EffectivityExpression() -doc : {
+	`rel_Specification Structure_from`.effectivity().effectivityExpression(FALSE);
+}
+LABEL I18N("Method.Effectivity_Expression")
+HELPTEXT I18N("Method.Effectivity_Expression_Description");

@@ -1,0 +1,16 @@
+{
+  "Facets": {
+    "Change_Facet": {
+      "context": [
+        "ManufacturingPlans"
+      ],
+      "module": "DS/ENOChgActionProp/facets/ChangePropertiesFacet",
+      "name": "ChangeFacet",
+      "icon": "change",
+      "nlskey": "changeFacet",
+      "options": {
+        "readOnly": false
+      }
+    }
+  }
+}

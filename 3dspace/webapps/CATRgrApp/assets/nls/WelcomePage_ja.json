@@ -1,0 +1,13 @@
+{
+  "WelcomeScreen.Title": "レポート生成",
+  "WelcomeScreen.linksCategories.ContentAndKnowledge": "コンテンツとナレッジ",
+  "WelcomeScreen.linksCategories.SocialNetworks": "ソーシャル ネットワーク",
+  "WelcomeScreen.ContentAndKnowledge.linkText": "ユーザー アシスタンス",
+  "WelcomeScreen.WhatsNew.linkText": "最新情報",
+  "WelcomeScreen.SocialNetworks.linkText": "コミュニティ",
+  "WelcomeScreen.Buttons.AddReport": "レポートを追加",
+  "WelcomeScreen.Buttons.Open": "レポートを開く",
+  "WelcomeScreen.Buttons.Reports": "レポート",
+  "WelcomeScreen.Buttons.OutputFormats": "出力形式",
+  "WelcomeScreen.InvalidFileFormat": "ファイル形式が無効です"
+}

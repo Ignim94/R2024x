@@ -1,0 +1,77 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+
+        <script type="text/javascript" src="../WebappsUtils/WebappsUtils.js"></script>
+
+        <script type="text/javascript" src="../c/UWA/js/UWA_W3C_Alone.js"></script>
+
+        <script type="text/javascript" src="../UIKIT/UIKIT.js"></script>
+        <link rel="stylesheet" type="text/css" href="../UIKIT/UIKIT.css" />
+        <script type="text/javascript" src="../../common/scripts/emxUICore.js"></script>
+		<script type="text/javascript" src="../../common/scripts/emxUIConstants.js"></script>
+		<script type="text/javascript" src="../../common/scripts/emxUIModal.js"></script>
+
+
+    </head>
+    <body onload="initializeApp()">
+        <div id="charPageHeadDiv" class="charPageHead">
+			<table id="charContentHeader">
+				<tbody>
+					<tr>
+						<td class="char-page-title">
+							<h2 id  ="char-title-header"></h2>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+    </body>
+    <script type="text/javascript">
+		var app         = null;
+     function initializeApp(){
+		var objectId    = null;
+        require([ "DS/ENOCharacteristicsWebApp/controls/CharacteristicTestMethod",
+                  "i18n!DS/ENOCharacteristicsWebApp/assets/nls/ENOCharacteristicsWebAppNLS",
+				  "css!DS/ENOCharacteristicsWebApp/ENOCharacteristicsWebApp.css"
+         ], function(App,NLS) {
+            var query = window.location.search.substring(1);
+            
+            var parameters = query.split("&");
+            
+            objectId    = parameters[0].split("=");
+            hasModifyAccess    = parameters[1].split("=");
+            hasFromConnectAccess    = parameters[2].split("=");
+            hasFromDisconnectAccess    = parameters[3].split("=");
+            
+            app         = new App(objectId[1],document.body, {
+                		Modify : hasModifyAccess[1] === "false" ? false : true,
+                        FromConnect : hasFromConnectAccess[1] === "false" ? false : true,
+                        FromDisconnect : hasFromDisconnectAccess[1] === "false" ? false : true
+                    });
+            
+            //var pageHeader = NLS.TestMethod;					// EI8: IR-498403-3DEXPERIENCER2017x
+            var pageHeader = NLS.TestMethodsPageHeader;			// EI8: IR-498403-3DEXPERIENCER2017x
+            document.getElementById('char-title-header').innerHTML = pageHeader;
+        }); 
+	}
+
+function addFromSelectedObjects(action,object){
+		if("AddTestMethodToChar" === action){
+		window.app.testMethods =  object;
+		 require([ "DS/ENOCharacteristicsWebApp/renderers/TestMethodRenderers"], 
+				 function(TestMethodRenderers) {
+			 TestMethodRenderers.addTestMethods();
+		 });
+	}
+	
+	}
+    </script>
+
+<iframe name="listHidden" id="ENOCharSearchFrame" style="display:none;">
+</iframe>
+
+</html>

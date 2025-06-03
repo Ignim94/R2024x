@@ -1,0 +1,12 @@
+{
+  "_variability_dictionary": "变体库",
+  "UPDATE_RULE_FAILED": "更新规则时出错！",
+  "UPDATE_RULE_SUCCESSFUL": "规则更新成功。",
+  "CONFLICT_HIDDEN": "过滤器检测到隐藏的冲突",
+  "UPGRADE_FILTER": "过滤器已重置，您可以使用新的过滤功能。",
+  "MODEL_VERSION_VARIABILITY": "模型版本可变性",
+  "ADD_CRITERIA": "添加标准",
+  "TIME_OUT_SESSION": "您的会话已过期。请重新加载模型版本",
+  "SERVICE_OUT": "执行请求时出错。请重新加载模型版本。如果错误仍然存在，请联系您的管理员",
+  "LOCKED_INFO_ALERT": "对象已由以下项锁定 "
+}

@@ -1,0 +1,7 @@
+{
+  "assembly.label": "产品",
+  "component.label": "零件",
+  "drawing.label": "工程图",
+  "PartNumber": "零件编号",
+  "FileName": "文件名"
+}

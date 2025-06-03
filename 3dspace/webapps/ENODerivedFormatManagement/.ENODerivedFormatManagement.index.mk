@@ -1,0 +1,17 @@
+m|ENODerivedFormatMgtClient\ENODerivedFormatManagement.mweb
+b|j|n,m
+b|c|n,m
+v|6.426.4.24120|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\ENODerivedFormatManagement\ENODerivedFormatManagement.css|1710195946|5241
+s|ENODerivedFormatMgtClient\ENODerivedFormatManagement.mweb\src\ENODerivedFormatManagement.css|1709810131|7262
+t|win_b64\webapps\ENODerivedFormatManagement\ENODerivedFormatManagement.html|1685324041|1490
+s|ENODerivedFormatMgtClient\ENODerivedFormatManagement.mweb\src\ENODerivedFormatManagement.html|1591334194|1490
+t|win_b64\webapps\ENODerivedFormatManagement\ENODerivedFormatManagement.js|1713904719|502
+s|ENODerivedFormatMgtClient\ENODerivedFormatManagement.mweb\src\ENODerivedFormatManagement.js|1711711742|758
+t|win_b64\webapps\ENODerivedFormatManagement\ENODerivedFormatManagementInfra.js|1713904719|1190
+s|ENODerivedFormatMgtClient\ENODerivedFormatManagement.mweb\src\ENODerivedFormatManagementInfra.js|1713543127|4614
+t|win_b64\webapps\ENODerivedFormatManagement\assets\templates\edfm.common.facet.html|1713904719|495
+s|ENODerivedFormatMgtClient\ENODerivedFormatManagement.mweb\src\assets\templates\edfm.common.facet.html|1711217907|495
+u|win_b64\code\toolcmds\csscompressor.bat|1685139395|38
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

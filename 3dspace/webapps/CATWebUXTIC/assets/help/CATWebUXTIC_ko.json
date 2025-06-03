@@ -1,0 +1,14 @@
+{
+"CATWebUXGenerateIssueHdr.Title":"문제 생성",
+"CATWebUXGenerateIssueHdr.ShortHelp":"사용자가 문제를 생성할 수 있습니다.",
+"CATWebUXGenerateCAHdr.Title":"Change Action 생성",
+"CATWebUXGenerateCAHdr.ShortHelp":"사용자가 Change Action을 생성할 수 있습니다.",
+"CATWebUXGenerateIssueTemplateHdr.Title":"템플릿에서 이슈 생성",
+"CATWebUXGenerateIssueTemplateHdr.ShortHelp":"템플릿에서 이슈를 생성할 수 있습니다.",
+"PIMWebUXGenerateCAHdr.Title":"Change Action 생성",
+"PIMWebUXGenerateCAHdr.ShortHelp":"사용자가 Change Action을 생성할 수 있습니다.",
+"PIMWebUXGenerateIssueHdr.Title":"이슈 생성",
+"PIMWebUXGenerateIssueHdr.ShortHelp":"사용자가 이슈를 생성할 수 있습니다.",
+"PIMWebUXGenerateIssueTemplateHdr.Title":"템플릿에서 이슈 생성",
+"PIMWebUXGenerateIssueTemplateHdr.ShortHelp":"템플릿에서 이슈를 생성할 수 있습니다."
+}

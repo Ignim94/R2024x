@@ -1,0 +1,1 @@
+define("DS/ENOXCompareRules/presenter/ConstrainedStructurePanel",["DS/CustomizableLayout/View","DS/CompareWidget2/plugins/STRUCTURE/ViewPanel/structComparePanel","i18n!DS/ENOXCompareRules/assets/nls/CompareRulesNLS"],function(e,t,n){"use strict";return t.extend({getLabel:function(){return n.Constrained_Criteria},getName:function(){return n.Constrained_Criteria}})});

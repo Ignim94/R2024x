@@ -1,0 +1,14 @@
+{
+  "hasSync": "Etat de synchronisation CAD",
+  "RequestSynchronization": "Demande de synchronisation",
+  "ReqJob_Success": "La demande de synchronisation a été créée avec succès. Actualisez pour afficher l'état dans la colonne Etat de synchronisation CAD.",
+  "ReqJob_Failure": "Erreur lors de la création de la demande de synchronisation.",
+  "status_Sync": "Synchronisé",
+  "status_Unsync": "Non synchronisé",
+  "status_JobRunning": "La tâche de synchronisation est en cours d'exécution",
+  "status_JobFail": "La tâche de synchronisation a échoué",
+  "status_NA": "Non applicable",
+  "MSG_JOB_CREATED_FOR_SOME_NODES": "Tâche de synchronisation créée pour un ou plusieurs nœuds sélectionnés. Actualiser pour afficher l'état dans la colonne Etat de synchronisation CAD.",
+  "MSG_JOB_EXISTS_FOR_ALL_NODES": "La tâche de synchronisation existe déjà pour le(s) nœud(s) sélectionné(s). Actualiser pour afficher l'état dans la colonne Etat de synchronisation CAD.",
+  "indexing_failed_message": "Les objets nouveaux ou modifiés n'ont pas encore été indexés. Recommencez l'opération dans quelques minutes."
+}

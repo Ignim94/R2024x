@@ -1,0 +1,13 @@
+m|Web3DXCityUtils\xCityPlatformUtils.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.0.23248|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\xCityPlatformUtils\xCityPlatformUtils.js|1693946623|21999
+s|Web3DXCityUtils\xCityPlatformUtils.mweb\src\xCityCredentials.js|1673065900|6114
+u|Web3DXCityUtils\xCityPlatformUtils.mweb\src\xCityDocumentManagement.js|1669411903|26464
+u|Web3DXCityUtils\xCityPlatformUtils.mweb\src\xCityPlatformIntegration.js|1693938220|34429
+u|Web3DXCityUtils\xCityPlatformUtils.mweb\src\xCityPlatformUtils.js|1669411903|0
+u|Web3DXCityUtils\xCityPlatformUtils.mweb\src\xCitySearchInContext.js|1669411903|4521
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1685139395|240

@@ -1,0 +1,15 @@
+m|CAT3DPlayWebWidget\MobileAppProxy.mweb
+b|j|c,m
+b|c|n,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\MobileAppProxy\MobileAppProxy.html|1685324230|1229
+s|CAT3DPlayWebWidget\MobileAppProxy.mweb\src\MobileAppProxy.html|1567413185|1229
+t|win_b64\webapps\MobileAppProxy\MobileAppProxy.js|1700692142|1644
+s|CAT3DPlayWebWidget\MobileAppProxy.mweb\src\MobileAppProxy.js|1612461134|5284
+t|win_b64\webapps\MobileAppProxy\assets\3DPlay.json|1685324230|33
+s|CAT3DPlayWebWidget\MobileAppProxy.mweb\src\assets\3DPlay.json|1567413147|33
+t|win_b64\webapps\MobileAppProxy\assets\3DPlay.png|1685324230|16273
+s|CAT3DPlayWebWidget\MobileAppProxy.mweb\src\assets\3DPlay.png|1542897594|16273
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

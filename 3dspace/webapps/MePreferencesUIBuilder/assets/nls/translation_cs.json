@@ -1,0 +1,20 @@
+{
+  "Preferences.Title": "Předvolby",
+  "3DSApp.TECMEPA_AP": "Společné",
+  "SaveButton.Label": "Uložit",
+  "ResetButton.Label": "Resetovat",
+  "PreferencesTab.Title": "Předvolby",
+  "CollectionViewLabel.Label": "Výchozí",
+  "CollectionViewDescription.Label": "",
+  "AdminSaveSuccessNotification.Label": "Výchozí profil byl uložen",
+  "AdminSaveFailureNotification.Label": "Něco se pokazilo",
+  "AdminNotification.Title": "Výchozí profil byl upraven",
+  "AdminNotification.SubTitle": "Upravené předvolby můžete načíst znovu.\n Některé z vašich úprav mohou být ztraceny.\n Pokud provedete uložení, vaše úpravy přepíšou aktuální profil.",
+  "adminUserNotification.SubTitle": "Pokud provedete uložení, některé z vašich úprav nemusí být vzaty v úvahu.",
+  "adminUserNotification.Title": "Předvolby jsou upraveny správcem",
+  "userNotification.Title": "Preference se upravují odjinud.",
+  "reset.Title": "Resetovat profil",
+  "reset.SubTitle": "Chcete resetovat všechny předvolby pro tento profil?",
+  "AdminSaveReqEmptyNotification.Label": "Nic nelze uložit",
+  "AdminPartialSaveNotification.Label": "Předvolby byly částečně uloženy"
+}

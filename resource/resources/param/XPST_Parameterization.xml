@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="PhysicalProductSubTypeSpecification">
+	<Domain id="AttributeDef">
+	
+		<Family id="AppliedLabel">
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="AppliedLabel"/>
+			<Constant id="package" value="SpecificationManagement"/>
+		</Family>
+		
+		<Family id="FinishedProduct">
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="FinishedProduct"/>
+			<Constant id="package" value="SpecificationManagement"/>
+		</Family>
+		
+		<Family id="CustomerUnit">
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="CustomerUnit"/>
+			<Constant id="package" value="SpecificationManagement"/>
+		</Family>
+		
+		<Family id="ConsumerUnit">
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="ConsumerUnit"/>
+			<Constant id="package" value="SpecificationManagement"/>
+		</Family>
+		
+		<Family id="ConsumerProduct">
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="ConsumerProduct"/>
+			<Constant id="package" value="SpecificationManagement"/>
+		</Family>
+		
+		<Family id="PackagingAssembly">
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="PackagingAssembly"/>
+			<Constant id="package" value="SpecificationManagement"/>
+		</Family>
+		
+		<Family id="PackagingComponent">
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="PackagingComponent"/>
+			<Constant id="package" value="SpecificationManagement"/>
+		</Family>
+		
+		<Family id="PromotionalProduct">
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="PromotionalProduct"/>
+			<Constant id="package" value="SpecificationManagement"/>
+		</Family>
+		
+		<Family id="TradeUnit">
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="TradeUnit"/>
+			<Constant id="package" value="SpecificationManagement"/>
+		</Family>
+		
+		<Family id="ConsumerKit">
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="ConsumerKit"/>
+			<Constant id="package" value="SpecificationManagement"/>
+		</Family>
+	</Domain>
+
+	<Domain id="ObjectIdentification">
+		<Family id="ObjectIdentifier">
+		
+			<Parameter id="AppliedLabelPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="apl" />
+				<Argument id="SuffixArg" type="string" default="01" />
+				<Constant id="type" value="AppliedLabel" />
+				<Constant id="appType" value="VPM" />
+			</Parameter>
+			
+			<Parameter id="FinishedProductPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="fp" />
+				<Argument id="SuffixArg" type="string" default="01" />
+				<Constant id="type" value="FinishedProduct" />
+				<Constant id="appType" value="VPM" />
+			</Parameter>
+			
+			<Parameter id="CustomerUnitPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="cusu" />
+				<Argument id="SuffixArg" type="string" default="01" />
+				<Constant id="type" value="CustomerUnit" />
+				<Constant id="appType" value="VPM" />
+			</Parameter>
+			
+			<Parameter id="ConsumerUnitPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="conu" />
+				<Argument id="SuffixArg" type="string" default="01" />
+				<Constant id="type" value="ConsumerUnit" />
+				<Constant id="appType" value="VPM" />
+			</Parameter>
+			
+			<Parameter id="ConsumerProductPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="conp" />
+				<Argument id="SuffixArg" type="string" default="01" />
+				<Constant id="type" value="ConsumerProduct" />
+				<Constant id="appType" value="VPM" />
+			</Parameter>
+			
+			<Parameter id="PackagingAssemblyPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="pka" />
+				<Argument id="SuffixArg" type="string" default="01" />
+				<Constant id="type" value="PackagingAssembly" />
+				<Constant id="appType" value="VPM" />
+			</Parameter>
+			
+			<Parameter id="PackagingComponentPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="pkc" />
+				<Argument id="SuffixArg" type="string" default="01" />
+				<Constant id="type" value="PackagingComponent" />
+				<Constant id="appType" value="VPM" />
+			</Parameter>
+			
+			<Parameter id="PromotionalProductPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="pi" />
+				<Argument id="SuffixArg" type="string" default="01" />
+				<Constant id="type" value="PromotionalProduct" />
+				<Constant id="appType" value="VPM" />
+			</Parameter>
+			
+			<Parameter id="TradeUnitPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="tu" />
+				<Argument id="SuffixArg" type="string" default="01" />
+				<Constant id="type" value="TradeUnit" />
+				<Constant id="appType" value="VPM" />
+			</Parameter>
+			
+			<Parameter id="ConsumerKitPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="conk" />
+				<Argument id="SuffixArg" type="string" default="01" />
+				<Constant id="type" value="ConsumerKit" />
+				<Constant id="appType" value="VPM" />
+			</Parameter>
+			
+		</Family>
+	</Domain>
+
+</OOTBParameterization>

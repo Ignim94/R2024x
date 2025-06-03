@@ -1,0 +1,13 @@
+{
+"DELWebOERTableViewCompExpandAll.Title":"全部展开",
+"DELWebOERTableViewCompCollapseAll.Title":"全部折叠",
+"DELWebOERTableViewCompReframe.Title":"重新构造",
+"DELWebOERTableViewCompShowAll.Title":"全部显示",
+"DELWebOERTableViewCompShowOnly.Title":"仅显示",
+"DELWebOERTableViewCompRemoveRoot.Title":"移除根",
+"DELWebOERTableViewCompOpenWith.Title":"打开方式",
+"DELWebOERTableViewCompLoadFTA.Title":"加载 FTA",
+"DELWebOERTableViewCompRemoveFTA.Title":"移除 FTA",
+"DELWebOERTableViewCompLoadAllFTA.Title":"加载所有 FTA",
+"DELWebOERTableViewCompRemoveAllFTA.Title":"移除所有 FTA"
+}

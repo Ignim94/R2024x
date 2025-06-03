@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="9">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="PLMFastening_EngSpecification" />
+    <m1.package name="PLMFastening_EngSpecification" />
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_AnchorNutPartFilter" />
+      <m1.type name="Fst_AnchorNutPartFilter" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_Base_Table" />
+      <m1.type name="Fst_Base_Table" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_FstTableID" />
+        <m1.attribute name="Fst_Base_Table.V_FstTableID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_ComponentSelectionSpecification" />
+      <m1.type name="Fst_ComponentSelectionSpecification" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_NutPartFilter" />
+      <m1.type name="Fst_NutPartFilter" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_RivetPartFilter" />
+      <m1.type name="Fst_RivetPartFilter" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_RivetTailPartFilter" />
+      <m1.type name="Fst_RivetTailPartFilter" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_ScrewPartFilter" />
+      <m1.type name="Fst_ScrewPartFilter" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_StandardSpecification" />
+      <m1.type name="Fst_StandardSpecification" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_WasherPartFilter" />
+      <m1.type name="Fst_WasherPartFilter" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_All_ComponentTypes" />
+      <m1.type name="Fst_All_ComponentTypes" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_All_Diameters" />
+      <m1.type name="Fst_All_Diameters" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_All_Fastener_Component_Attributes" />
+      <m1.type name="Fst_All_Fastener_Component_Attributes" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_All_ProcessCategory_ProcessTypes" />
+      <m1.type name="Fst_All_ProcessCategory_ProcessTypes" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_Available_ProcessCategory_ProcessTypes" />
+      <m1.type name="Fst_Available_ProcessCategory_ProcessTypes" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_ComponentConfigurationDependency" />
+      <m1.type name="Fst_ComponentConfigurationDependency" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_ComponentLogicalFamily" />
+      <m1.type name="Fst_ComponentLogicalFamily" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_Component_Compatibility" />
+      <m1.type name="Fst_Component_Compatibility" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_Component_Compatibility_Attr_Mapping" />
+      <m1.type name="Fst_Component_Compatibility_Attr_Mapping" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_Diameters_Available" />
+      <m1.type name="Fst_Diameters_Available" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_LogicalFamilyIdentification" />
+      <m1.type name="Fst_LogicalFamilyIdentification" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_SpotFastenerShapeDefinitionDependency" />
+      <m1.type name="Fst_SpotFastenerShapeDefinitionDependency" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_Washer_Applicability" />
+      <m1.type name="Fst_Washer_Applicability" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Fst_Washer_Applicability_Mapping" />
+      <m1.type name="Fst_Washer_Applicability_Mapping" />
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

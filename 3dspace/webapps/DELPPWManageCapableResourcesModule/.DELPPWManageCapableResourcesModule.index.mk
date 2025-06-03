@@ -1,0 +1,15 @@
+m|DELPPWModules\DELPPWManageCapableResourcesModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.7.24222|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELPPWManageCapableResourcesModule\DELPPWManageCapableResourcesModule.js|1723253203|18564
+s|DELPPWModules\DELPPWManageCapableResourcesModule.mweb\src\ManageCapableResourcesBaseUI.js|1722583327|20753
+t|win_b64\webapps\DELPPWManageCapableResourcesModule\assets\json\ManageCapableRscTLVOption.json|1712977767|3341
+s|DELPPWModules\DELPPWManageCapableResourcesModule.mweb\src\assets\json\ManageCapableRscTLVOption.json|1711108417|3341
+u|DELPPWModules\DELPPWManageCapableResourcesModule.mweb\src\ManageCapableResourcesModule.js|1722583384|17338
+u|DELPPWModules\DELPPWManageCapableResourcesModule.mweb\src\ManageCapableResourcesUI.js|1712123525|11874
+u|DELPPWModules\DELPPWManageCapableResourcesModule.mweb\src\ManageStepOperationsUsageBaseUI.js|1711452648|5382
+u|DELPPWModules\DELPPWManageCapableResourcesModule.mweb\src\ManageStepOperationsUsageUI.js|1711517320|10018
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

@@ -1,0 +1,12 @@
+{
+  "_variability_dictionary": "Dictionnaire de variabilité",
+  "UPDATE_RULE_FAILED": "Erreur lors de la mise à jour de la règle !",
+  "UPDATE_RULE_SUCCESSFUL": "Règle mise à jour.",
+  "CONFLICT_HIDDEN": "Conflit détecté masqué par le filtre",
+  "UPGRADE_FILTER": "Le filtre a été réinitialisé, vous pouvez utiliser les nouvelles fonctionnalités de filtration.",
+  "MODEL_VERSION_VARIABILITY": "Variabilité de la version de modèle",
+  "ADD_CRITERIA": "Ajouter critères",
+  "TIME_OUT_SESSION": "Votre session a expiré. Veuillez recharger la version du modèle",
+  "SERVICE_OUT": "Erreur lors de l'exécution de la demande. Veuillez recharger la version du modèle. Si l'erreur persiste, contactez votre administrateur",
+  "LOCKED_INFO_ALERT": "L'objet est verrouillé par "
+}

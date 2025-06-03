@@ -1,0 +1,1 @@
+define("DS/PPWDataGridView/PPWDataGridView_zh",{});define("DS/PPWDataGridView/assets/nls/ContextualMenu",{"ContextualMenu.DisplayColumns.Title":"显示列","ContextualMenu.GroupBy.Title":"分组依据","ContextualMenu.ClearGroupBy.Title":"清除分组"});

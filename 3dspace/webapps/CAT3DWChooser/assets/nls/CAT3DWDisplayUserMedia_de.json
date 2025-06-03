@@ -1,0 +1,18 @@
+{
+  "recentPublishedContent": "Zuletzt veröffentlichte Inhalte",
+  "noPublishedContent": "Keine veröffentlichten Inhalte gefunden",
+  "draft": "ENTWURF",
+  "noWhiteboard": "Kein Whiteboard gefunden",
+  "noSketch": "Keine Skizze gefunden",
+  "deleteConfirmationModalTitle": "Projekt löschen",
+  "deleteConfirmationModalBody": "Möchten Sie dieses Projekt wirklich löschen?",
+  "deleteConfirmationModalConfirmButton": "Ja",
+  "deleteConfirmationModalRejectButton": "Nein",
+  "dropmenuEditOption": "Bearbeiten",
+  "dropmenuDeleteOption": "Löschen",
+  "dropmenuShareableLinkOption": "Link kopieren",
+  "shareableLinkCopyMessage": "Link in Zwischenablage kopiert",
+  "MyWhiteboardsButtonNotClickedError": "Bitte klicken Sie vor der Suche auf die Registerkarte Meine Whiteboards.",
+  "personalSpace": "Persönlicher Bereich",
+  "searchWhiteboardsNoResults": "Keine Ergebnisse gefunden. Ändern Sie den Suchtext und versuchen Sie es erneut."
+}

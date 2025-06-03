@@ -1,0 +1,12 @@
+m|DMUPlayWeb\DMUPlayMeasure.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.3.24041|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DMUPlayMeasure\DMUPlayMeasure.js|1707543903|164075
+s|DMUPlayWeb\DMUPlayMeasure.mweb\src\DMUMeasure.js|1704779618|146600
+u|DMUPlayWeb\DMUPlayMeasure.mweb\src\DMUMeasureImport.js|1674536257|1374
+u|DMUPlayWeb\DMUPlayMeasure.mweb\src\DMUMeasureNode3D.js|1706858588|278134
+u|DMUPlayWeb\DMUPlayMeasure.mweb\src\DMUPlayMeasure.js|1476855256|100
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

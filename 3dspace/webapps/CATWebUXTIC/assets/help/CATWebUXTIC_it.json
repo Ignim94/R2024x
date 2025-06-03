@@ -1,0 +1,14 @@
+{
+"CATWebUXGenerateIssueHdr.Title":"Generate Issue",
+"CATWebUXGenerateIssueHdr.ShortHelp":"Lets you generate an issue.",
+"CATWebUXGenerateCAHdr.Title":"Generate Change Action",
+"CATWebUXGenerateCAHdr.ShortHelp":"Lets you generate a change action.",
+"CATWebUXGenerateIssueTemplateHdr.Title":"Genera problema dal modello",
+"CATWebUXGenerateIssueTemplateHdr.ShortHelp":"Consente di generare un problema dal modello.",
+"PIMWebUXGenerateCAHdr.Title":"Genera azione di modifica",
+"PIMWebUXGenerateCAHdr.ShortHelp":"Consente di generare un'azione di modifica.",
+"PIMWebUXGenerateIssueHdr.Title":"Genera problema",
+"PIMWebUXGenerateIssueHdr.ShortHelp":"Permette di creare un problema.",
+"PIMWebUXGenerateIssueTemplateHdr.Title":"Genera problema dal modello",
+"PIMWebUXGenerateIssueTemplateHdr.ShortHelp":"Consente di generare un problema dal modello."
+}

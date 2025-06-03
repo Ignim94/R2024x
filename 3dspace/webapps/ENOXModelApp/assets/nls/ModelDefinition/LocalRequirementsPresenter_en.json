@@ -1,0 +1,23 @@
+{
+	"_create": "New",
+	"_delete": "Remove",
+	"_information": "Information",
+  "_item" : "Item",
+	"_contentFacet" : "Content",
+	"_new_requirement" : "New Requirement",
+	"_error_get_req" : "Error while fetching Requirements",
+	"_error_create_req" :"Error while creating Requirement",
+	"_error_remove_req":"Error while removing Requirements",
+	"_req_update_succ" : "Requirement Content updated successfully",
+	"_error_req_update" :"Error while updating Requirement",
+	"_error_req_content_load":"Error while loading Requirement",
+	"_error_add_existing":"Error while attaching Requirement",
+	"_priority":"Priority",
+	"_sequence_order":"Sequence Order",
+	"_add_existing":"Add Existing",
+	"priority_preAssigned" :"Pre-assigned",
+	"priority_low" : "Low",
+	"priority_medium" : "Medium",
+	"priority_high": "High",
+	"priority_urgent" : "Urgent"
+}

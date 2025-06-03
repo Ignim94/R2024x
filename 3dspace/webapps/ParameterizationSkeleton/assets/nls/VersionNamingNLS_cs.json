@@ -1,0 +1,22 @@
+{
+  "SelectAFile": "Vyberte soubor...",
+  "BrowseButtonText": "Procházet",
+  "UploadButtonText": "Odeslat",
+  "ResetButtonText": "Resetovat všechny rozšířené sekvence",
+  "DownloadButtonText": "Stáhnout",
+  "DownloadFailedAlert": "Stahování selhalo",
+  "NoFileToUpload": "Nic k odeslání, nejprve vyberte soubor",
+  "UploadSuccessAlert": "Soubor byl úspěšně odeslán",
+  "UploadFailedAlert": "Odeslání souboru se nezdařilo",
+  "ResetSuccessAlert": "Resetování proběhlo úspěšně",
+  "ResetFailedAlert": "Resetování se nezdařilo",
+  "VersionNamingExtHeader": "Odeslat/stáhnout definice rozšířených pořadí revizí",
+  "VersionNamingLogHeader": "Odeslat/stáhnout logické definice rozšířených sekvencí revizí",
+  "VersionNamingExtTooltip": "1. Stáhněte si soubor JSON s rozšířenými sekvencemi revizí, které jsou již deklarovány.<br/>2. V souboru JSON přidejte, upravte nebo odeberte rozšířené sekvence revizí podle svého výběru.<br/>3. Nahrajte aktualizovaný soubor.",
+  "VersionNamingExtTypeHeader": "Přiřadit rozšířenou sekvenci revizí k typům",
+  "VersionNamingExtTypeTooltip": "1. Rozbalte typ stromu ve sloupci Typ.<br/>2. Vyberte typ, pro který chcete nastavit nebo resetovat sekvenci.<br/>3. Ve sloupci Rozšířené sekvence revizí vyberte sekvenci, kterou chcete nastavit.",
+  "ERSAssociationSuccessAlert": "ERS (Rozšířená sekvence revizí) úspěšně nastavena",
+  "VersionNamingLogTypeHeader": "Přiřadit logiku sekvence revizí k typům",
+  "VersionNamingLogTypeTooltip": "1. Rozbalte typ stromu ve sloupci Typ.<br/>2. Vyberte typ, pro který chcete nastavit nebo resetovat sekvenci.<br/>3. Ve sloupci Logika sekvence revizí vyberte sekvenci, kterou chcete nastavit.",
+  "RSLAssociationSuccessAlert": "RSL (Logika sekvence revizí) úspěšně nastavena"
+}

@@ -1,0 +1,1 @@
+define(["require","exports","DS/RequirementCompareIntegration/HTMLCompareLib/HTMLDiff"],function(e,r,t){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),r.HTMLDiff=void 0,Object.defineProperty(r,"HTMLDiff",{enumerable:!0,get:function(){return t.default}})});

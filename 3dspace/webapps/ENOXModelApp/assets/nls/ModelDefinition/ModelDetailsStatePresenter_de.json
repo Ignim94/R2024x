@@ -1,0 +1,21 @@
+{
+  "_baselines": "Referenzlinien",
+  "_computing": "wird berechnet ...",
+  "_product_specifications": "Produktspezifikationen",
+  "_no_data_in_preview": "Keine Daten in der Vorschau.",
+  "_configurationPreviewMessage": "Wählen Sie Produktkonfigurationen oder Basiskonfigurationen für die Vorschau aus...",
+  "_PCPreviewMessage": "Wählen Sie Produktkonfigurationen für die Vorschau aus ...",
+  "_MultiSelectionOfTypes": "Mehrfachauswahl von Typen sollte einheitlich sein.",
+  "_product_configurations": "Produktkonfigurationen",
+  "_rules": "Regeln",
+  "_variability": "Variabilität",
+  "_variability_complexity": "Komplexität der Variabilität",
+  "GET_MODEL_DETAILS_ERROR": "Fehler beim Abrufen der Modelldaten.",
+  "GET_MODEL_VARIABILITY_ERROR": "Fehler beim Abruf der Variabilitätsinformationen für das Modell.",
+  "DELETE_MODELS_ERROR": "Fehler beim Löschen der Modellversion(en).",
+  "_backlog": "Anforderungen",
+  "MSG_LOADING_UPDATED_VARIABILITY": "Aktualisierte Zielvariabilität wird abgerufen...",
+  "_manufacturingPlans": "Fertigungspläne",
+  "_specifications": "Spezifikationen",
+  "_configurations": "Konfigurationen"
+}

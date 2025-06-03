@@ -1,0 +1,11 @@
+{
+  "edit": "Modifica",
+  "download": "Download",
+  "publish": "Maturità",
+  "delete": "Elimina",
+  "add_template": "Aggiungi modello",
+  "edit_template": "Modifica modello",
+  "download_template": "Scarica modello",
+  "delete_template": "Elimina modello",
+  "reload_template": "Ricarica modello"
+}

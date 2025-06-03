@@ -1,0 +1,12 @@
+{
+  "NbDigits": "Numero di cifre",
+  "NbDigitsInfo": "Il numero di cifre deve essere un numero intero positivo >= 6 e la lunghezza della formula non può essere > 40 caratteri",
+  "PrefixValueEmptyInfo": "Il prefisso non può essere vuoto",
+  "NbDigitsNaN": "Il numero di cifre è un numero intero positivo maggiore di 6",
+  "Dash": "-",
+  "Under_Score": "_",
+  "Dot": ".",
+  "Plus": "+",
+  "Slash": "/",
+  "Empty": ""
+}

@@ -1,0 +1,11 @@
+{
+  "edit": "编辑",
+  "download": "下载",
+  "publish": "成熟度",
+  "delete": "删除",
+  "add_template": "添加模板",
+  "edit_template": "编辑模板",
+  "download_template": "下载模板",
+  "delete_template": "删除模板",
+  "reload_template": "重新加载模板"
+}

@@ -1,0 +1,1 @@
+define("DS/CATWebUXComponents/CATWebUXComponents_pt-BR",{});define("DS/CATWebUXComponents/assets/nls/CATWebUXComponents",{validationPanelOk:"OK",validationPanelCancel:"Cancelar",replyButtonLabel:"Responder",addButtonLabel:"Novo comentário",pointedPageRemoved:"A página apontada foi removida",commentDeleted:"Este comentário foi excluído",slideDeleted:"Este slide foi excluído"});

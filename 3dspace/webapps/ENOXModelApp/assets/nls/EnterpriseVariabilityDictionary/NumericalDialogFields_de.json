@@ -1,0 +1,18 @@
+{
+  "_panelTitle": "Numerischen Parameter erstellen",
+  "_titleLabel": "Titel",
+  "_dimensionLabel": "Abmessung",
+  "_unitLabel": "Einheit",
+  "_kindLabel": "Art",
+  "_rangeLabel": "Bereich",
+  "_integerKindLabel": "Ganzzahl",
+  "_realKindLable": "Reelle Zahl",
+  "_minValueLabel": "Mindestwert",
+  "_maxValueLabel": "Höchstwert",
+  "_noDimensionLabel": "Keine Abmessung",
+  "_okAction": "OK",
+  "_cancelAction": "Abbrechen",
+  "_mandatoryFieldError": "Füllen Sie die Pflichtfelder aus.",
+  "_incorrectRangeError": "Der Mindestwert muss niedriger als der Maximalwert sein",
+  "_uniqueNameError": "Numerischer Parametername (Titel) ist bereits vorhanden"
+}

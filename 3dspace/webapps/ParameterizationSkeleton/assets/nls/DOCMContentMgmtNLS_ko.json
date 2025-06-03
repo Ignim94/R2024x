@@ -1,0 +1,15 @@
+{
+  "intro": "Document Management Experience 구성",
+  "DownloadRules": "문서 다운로드 규칙",
+  "rule1": "여러 문서 다운로드: ",
+  "option1": "한 디렉터리의 한 파일. 디렉터리 이름은 \"<문서 이름><문서 리비전>\"으로 지정됩니다(예: DOC-00000001 0).",
+  "option2": "디렉터리 구조가 없는 모든 파일. 충돌하는 파일 이름은 이름 뒤에 일련 번호가 붙습니다.",
+  "defaultOption": "OneFileOneDirectory",
+  "Flatlist": "Flatlist",
+  "ApplySuccess": "변경 내용이 적용되었습니다.",
+  "ApplyError": "변경 내용을 적용하지 못했습니다.",
+  "ResetSuccess": "재설정 성공",
+  "Enable_Work_Under_Setting": "작업 조건 활성화",
+  "Work_Under_Accordion_Title": "작업 조건 사양",
+  "Failed_Load": "사양을 로드하지 못했습니다."
+}

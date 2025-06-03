@@ -1,0 +1,69 @@
+  <style>
+
+    #{{name}}TextArea {
+        height:auto
+    }
+
+  </style>
+  {{#if label}}
+    <label>{{label}}
+    {{~#if required~}}
+          <span class="required-field-indicator">*</span>
+      {{~/if~}}
+      {{~#if customButtons~}}
+      <span class="actions">
+         {{~#each customButtons~}}
+            <button class="btn custom-button" data-custom-button-index="{{@index}}" title= "{{toolTip}}">
+                <span class="fonticon {{iconClass}}"></span>
+            </button>
+         {{~/each~}}
+      </span>
+      {{~/if~}}
+   </label>
+  {{/if}}
+  <div class="field-group">
+  <div class="input-group-wrapper">
+    <div class="input-group">
+      <div class="input-element">
+        {{~#if readWrite~}}
+            \{{~#if canEdit~}}
+                <textarea class="form-control content" {{#if fieldHTMLId}}id="{{fieldHTMLId}}TextArea{{viewId}}"{{else}}id="{{name}}TextArea{{viewId}}"{{/if}}>\{{ {{name}} }}</textarea>
+                <textarea class="form-control height-calculator" >\{{ {{name}} }}</textarea>
+	        \{{~else~}}
+	            <span class="content read-only">\{{~ readOnlyValue {{name}} ~}}</span>
+              <span class="height-calculator">\{{~  readOnlyValue {{name}} ~}}</span>
+	        \{{~/if~}}
+         {{~else~}}
+        {{#E6Wif name 'tagsData'}}
+          <div class = 'explicit-tags'>
+          \{{~#if userTagsData}}
+            \{{~#each userTagsData as |tag|~}}
+              <div class = 'tag-data'>
+                <span class = "\{{concat "tag-content fonticon fonticon-3ds-" tag.type}}"></span>
+                <span class="tag-content">\{{~ readOnlyValue tag.value ~}}</span>
+              </div>
+              \{{~/each~}}
+          \{{~else if tagsData~}}
+            \{{~#each tagsData as |tag|~}}
+              <div class = 'tag-data'>
+                <span class = "\{{concat "tag-content fonticon fonticon-3ds-" tag.type}}"></span>
+                <span class="tag-content">\{{~ readOnlyValue tag.value ~}}</span>
+              </div>
+            \{{~/each~}}
+          \{{~else~}}
+            <div class = 'read-only'> -- </div>
+          \{{~/if}}
+          </div>
+          {{~else~}}
+                   <span class="content read-only">\{{~ readOnlyValue {{name}} ~}}</span>
+                    <span class="height-calculator">\{{~  readOnlyValue {{name}} ~}}</span>
+        {{/E6Wif}}
+        {{~/if~}}
+        <span class="link">
+        	<a class="show-more">{{i18n "emxFoundation.Label.showMore"}}</a>
+            <a class="show-less">{{i18n "emxFoundation.Label.showLess"}}</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

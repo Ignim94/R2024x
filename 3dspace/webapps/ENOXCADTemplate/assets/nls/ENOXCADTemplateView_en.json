@@ -1,0 +1,18 @@
+{
+    "cadsubtypefield": "3DEXPERIENCE Type",
+    "cadtypefield": "CAD Type",
+    "templatefield": "Templates",
+    "managetemplates": "Manage Templates",
+    "newfromok": "OK",
+    "newfromcancel": "Cancel",
+    "newfromtemplate": "New From Template",
+    "msg_success_templatecreate": "Creation of template is successful.",
+    "msg_success_edittemplate": "Modification of template is successful.",
+    "msg_error_editmodifyaccess": "You must have permission to modify this template. Verify your credentials, or contact your administrator for support.",
+    "msg_success_listtemplate": "Template list is loaded succesfully",
+    "msg_success_notemplate": "No template available for this type",
+    "msg_error_mandfieldempty": "Mandatory Fields are Empty",
+    "msg_error_templateempty": "Templates field is empty",
+    "msg_error_cadtypeempty": "CAD Type field is empty",
+    "mysession_newfromdlg_title": "New From Template"
+}

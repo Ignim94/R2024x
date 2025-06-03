@@ -1,0 +1,126 @@
+{
+	"columns": [{
+			"dataIndex": "tree",
+			"text": "label_Title",
+			"typeRepresentation": "string",
+			"pinned": "left",
+			"width": 150,
+			"alwaysVisibleFlag": true,
+			"editableFlag": true,
+			"forbiddenCheck" : false,
+			"allowUnsafeHTMLContent" : false,
+			"autoRowHeightFlag" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "menu",
+			"text": "ColumnActions",
+			"width": 60,
+			"pinned": "left",
+			"alwaysVisibleFlag": true,
+			"sortableFlag": false,
+			"groupableFlag": false,
+			"typeRepresentation": "contextMenu",
+			"editableFlag" : false,
+			"editionPolicy"  : "EditionOnClick",
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : false,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "manufacturerPartNo",
+			"text": "label_MEIPartNumber",
+			"typeRepresentation": "string",
+			"editableFlag": true,
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "name",
+			"text": "label_Name",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "ds6w:description",
+			"text": "label_Description",
+			"typeRepresentation": "string",
+			"editableFlag": true,
+			"allowUnsafeHTMLContent" : false,
+			"autoRowHeightFlag" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "manufacturer",
+			"text": "label_Manufacturer",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "partSource",
+			"text": "label_PartSource",
+			"typeRepresentation": "string",
+			"editableFlag": true,
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "partSourceURL",
+			"text": "label_PartSourceURL",
+			"typeRepresentation": "string",
+			"editableFlag": true,
+			"allowUnsafeHTMLContent" : false,
+			"autoRowHeightFlag" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "ds6w:status",
+			"text": "label_Maturity",
+			"typeRepresentation": "url",
+			"hyperlinkTarget": "_self",
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "ds6w:responsible",
+			"text": "label_Owner",
+			"typeRepresentation": "url",
+			"hyperlinkTarget": "_self",
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "ds6w:created",
+			"text": "label_CreationDate",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "ds6w:modified",
+			"text": "label_LastModified",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		}
+
+	]
+}
+

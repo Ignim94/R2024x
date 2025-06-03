@@ -1,0 +1,19 @@
+[
+	{
+		"text": "Title",
+		"dataIndex": "tree",
+		"typeRepresentation": "string",
+		"pinned": "left"
+	},
+	{
+		"text": "Revision",
+		"dataIndex": "rev"
+	},
+	{
+		"text": "Purpose",
+		"dataIndex": "purpose",
+		"typeRepresentation": "purpose",
+		"editableFlag": true,
+		"editionPolicy": "EditionInPlace"
+	}
+]

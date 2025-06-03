@@ -1,0 +1,18 @@
+{
+  "titleLabel": "Název",
+  "typeLabel": "Typ",
+  "sequenceNoLabel": "Pořadové číslo",
+  "selectionMode": "Zahrnuje / nezahrnuje",
+  "configurationLabel": "Konfigurace",
+  "variantType": "Varianta",
+  "valueType": "Hodnota",
+  "variabilityGroupType": "Skupina možností",
+  "optionType": "Doplněk",
+  "parameterType": "Parametr",
+  "loadingStatusLabel": "Načítání konfigurací výrobku",
+  "totalPCLabel": "Celkový počet konfigurací výrobku",
+  "totalVariablityLabel": "Celková variabilita",
+  "applySelectionAction": "Použít na výběr",
+  "openPCAction": "Otevřít",
+  "differentRuleModelMsg": "Zdrojová konfigurace výrobku má jinou úroveň vyhodnocení pravidla"
+}

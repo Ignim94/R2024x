@@ -1,0 +1,28 @@
+{
+    "MIL": [
+      "EBOM",
+      "MBOM"
+    ],
+    "BIPlugin": [
+      "EBOM",
+      "MBOM"
+    ],
+    "MBOM": [
+      "MBOM",
+      "EBOM"
+    ],
+    "EBOM": [
+      "EBOM",
+      "MBOM"
+    ],
+    "AUXILIARY": [
+      "AUXILIARY"
+    ],
+  	"MFG3DVIEWERMOD": [
+      "MBOM"
+    ],
+    "UDECMDMOD": [
+      "MBOM",
+      "EBOM"
+    ]
+}

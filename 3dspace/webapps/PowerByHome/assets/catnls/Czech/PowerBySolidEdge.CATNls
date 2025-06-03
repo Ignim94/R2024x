@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySolidEdge.XSCViews.Title="Zobrazení";
+PowerBySolidEdge.XSCTools.Title="Nástroje";
+PowerBySolidEdge.Lifecycle.Title="Životní cyklus";
+PowerBySolidEdge.SaveSession.Title="Uložit aktivní okno";
+PowerBySolidEdge.RefreshHome.Title="Obnovit";
+PowerBySolidEdge.ReloadAll.Title="Znovu načíst vše";
+PowerBySolidEdge.ReserveHdr.Title="Zamknout";
+PowerBySolidEdge.UnreserveHdr.Title="Odemknout";
+PowerBySolidEdge.PropertiesHdr.Title="Vlastnosti";
+PowerBySolidEdge.GetRevisionHdr.Title="Načíst revizi";
+PowerBySolidEdge.ReplaceByRevisionHdr.Title="Nahradit revizí";
+PowerBySolidEdge.ReloadFromServerHdr.Title="Znovu načíst ze serveru";
+PowerBySolidEdge.ReplaceContentHdr.Title="Nahradit obsah";
+PowerBySolidEdge.RelationIPExplorer.Title="Vztahy";
+PowerBySolidEdge.OptionsHdr.Title="Možnosti...";
+PowerBySolidEdge.OpenWebInWinHdr.Title="Spustit Open Panel";
+PowerBySolidEdge.Simulation.Title="Simulace";
+PowerBySolidEdge.CreateStructuralSimulationHdr.Title="Vytvořit strukturální simulaci";
+PowerBySolidEdge.Views.Title="Zobrazení";
+PowerBySolidEdge.Tools.Title="Nástroje";
+PowerBySolidEdge.InsertUnderActiveDocumentHdr.Title="Vložit pod aktivní dokument";
+PowerBySolidEdge.ManageLocalFilesHdr.Title="Spravovat místní soubory";
+PowerBySolidEdge.GetAttributesForAllHdr.Title="Načíst atributy pro vše";
+PowerBySolidEdge.XCADExport.Title="Exportovat X-CAD";
+PowerBySolidEdge.XCADImport.Title="Importovat X-CAD";
+

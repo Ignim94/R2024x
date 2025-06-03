@@ -1,0 +1,1 @@
+define("DS/DMUBaseUIComponents/DMUBaseUIComponents_de",{});define("DS/DMUBaseUIComponents/assets/nls/DMUBaseUIComponents",{replyButtonLabel:"Antworten",addButtonLabel:"Neuer Kommentar",pointedPageRemoved:"Die Seite, auf die verwiesen wird, wurde entfernt",commentDeleted:"Dieser Kommentar wurde gelöscht"});

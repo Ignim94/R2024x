@@ -1,0 +1,6 @@
+<meta charset="UTF-8"/>
+ValidationCheck1.Title="Seul RéférenceSystèmeAxes peut être agrégé sous RéférenceSystèmeAxes.";
+ValidationCheck2.Title="RéférenceSystemAxesShell ne peut pas être agrégé sous RéférenceSystèmeAxesShell .";
+ValidationCheck3.Title="Un seul RéférenceSystèmeAxes peut être agrégé sous RéférenceSystèmeAxesShell.";
+ValidationCheck4.Title="Seul RéférenceSystèmeAxes peut être agrégé sous RéférenceSystèmeAxesShell.";
+ValidationCheck5.Title="VPMPosExtRéférence n'a pas pu instancier 3DShape.";

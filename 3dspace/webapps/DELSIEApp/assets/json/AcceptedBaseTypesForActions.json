@@ -1,0 +1,13 @@
+{
+  "CREATION": [
+    "CreateKit",
+    "CreateAssembly",
+    "CreateMaterial",
+    "DELServiceKitReference",
+    "DELServicePartReference",
+    "DELContinuousServicePartReference",
+    "DELServiceAssemblyReference",
+    "DELServiceAttachingItemReference",
+    "DELServiceSpareItemReference"
+  ]
+}

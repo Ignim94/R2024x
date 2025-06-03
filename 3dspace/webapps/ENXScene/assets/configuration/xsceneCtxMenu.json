@@ -1,0 +1,37 @@
+{
+    "version": "0.1",
+    "ctxMenu": [
+        "OpenWith",
+        "SeparatorItem",
+        "ExpandThumbsCmd",
+        "CollapseThumbsCmd",
+        "ShowIn3DCmd",
+        "HideIn3DCmd",
+        "FocusOnCmd",
+        "FindCmd",
+        "SeparatorItem",
+        "GroupByBSHdr",
+        {
+            "id": "BSDMenu",
+            "childOnly": true,
+            "withDefaultCmd": "AssociateTermsCommand",
+            "cmds": [ "AssociateTermsCommand", "TerminologyManagementCommand" ]
+        },
+        {
+            "type": "cmd",
+            "rootOnly": true,
+            "cmd": "TerminologyManagementCommand"
+        },
+        "SeparatorItem",
+        {
+            "id": "expandMenu",
+            "withDefaultCmd": "ExpandAll",
+            "cmds": [ "ExpandAll", "ExpandN", "CollapseAll" ]
+        },
+        "SeparatorItem",
+        "CopyLink",
+        "ActionBar_Attributes",
+        "SeparatorItem",
+        "CloseSelectedCmd"
+    ]
+}

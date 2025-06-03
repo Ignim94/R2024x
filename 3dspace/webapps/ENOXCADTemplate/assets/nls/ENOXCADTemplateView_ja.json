@@ -1,0 +1,18 @@
+{
+  "cadsubtypefield": "3DExperience タイプ",
+  "cadtypefield": "CAD タイプ",
+  "templatefield": "テンプレート",
+  "managetemplates": "テンプレートを管理",
+  "newfromok": "OK",
+  "newfromcancel": "キャンセル",
+  "newfromtemplate": "テンプレートから新規作成",
+  "msg_success_templatecreate": "テンプレートの作成に成功しました。",
+  "msg_success_edittemplate": "テンプレートの変更に成功しました。",
+  "msg_error_editmodifyaccess": "このテンプレートを変更する権限が必要です。資格情報を確認するか、サポートについて管理者にお問い合わせください。",
+  "msg_success_listtemplate": "テンプレート リストが正常にロードされました",
+  "msg_success_notemplate": "このタイプで使用できるテンプレートはありません",
+  "msg_error_mandfieldempty": "必須フィールドが空です",
+  "msg_error_templateempty": "テンプレート フィールドが空です",
+  "msg_error_cadtypeempty": "CAD タイプ フィールドが空です",
+  "mysession_newfromdlg_title": "テンプレートから新規作成"
+}

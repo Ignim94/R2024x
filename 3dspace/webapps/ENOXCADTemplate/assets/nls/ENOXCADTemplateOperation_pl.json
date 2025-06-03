@@ -1,0 +1,11 @@
+{
+  "edit": "Edytuj",
+  "download": "Pobierz",
+  "publish": "Dojrzałość",
+  "delete": "Usuń",
+  "add_template": "Dodaj szablon",
+  "edit_template": "Edycja szablonu",
+  "download_template": "Pobierz szablon",
+  "delete_template": "Usuń szablon",
+  "reload_template": "Załaduj szablon ponownie"
+}

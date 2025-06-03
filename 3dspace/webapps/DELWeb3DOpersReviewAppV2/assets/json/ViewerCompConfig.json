@@ -1,0 +1,49 @@
+{
+    "delviewer": {
+        "version": "1.0",
+        "viewerType": 2,
+        "defaultViewerMode": "WorkInstructions",
+        "dynamicBuildUp": true,
+        "forceLoad": true,
+        "quickToolBar": true,
+        "removeMaterial": true,
+        "defaultPickability": "SHAPE",
+        "requirementFTA": true,
+        "startUpView": {
+            "setViewpoint": true,
+            "enable": true
+        },
+        "statusBar": {
+            "commands": [
+                "LastIndexingTime",
+                "StartUpView"
+            ]
+        },
+        "persistBuildUpSettings": true,
+        "performanceLogging": false,
+        "displayLastIndexedTimeStamp": {
+            "format": "%I:%M:%S %p",
+            "service": "EXPAND_3D",
+            "value": true
+        },
+        "itemProductConnectionTypes": [
+            "DELFmiProcessImplementCnx",
+            "DELFmiProcessOutputPrereqMaterializationCnx",
+            "PLMReqSpecifyHowToCnx"
+        ],
+        "orientationViewer": {
+            "defaultDisplay": true,
+            "model": {
+                "assetsPath": "images/DEL3DViewerOV.cgr",
+                "module": "DEL3DViewer"
+            },
+            "position": "top-right",
+            "ratio": 1.0
+        },
+        "wkiview_opts": {
+            "panelOptions": {
+                "currentDockArea": 8
+            }
+        }
+    }
+}

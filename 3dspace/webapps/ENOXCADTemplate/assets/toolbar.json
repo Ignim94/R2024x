@@ -1,0 +1,194 @@
+{
+  "fullaccesmode": {
+    "entries": [
+      {
+        "id": "addtemplateId",
+        "dataElements": {
+          "typeRepresentation": "functionIcon",
+          "icon": {
+            "iconName": "plus",
+            "fontIconFamily": 1
+          },
+          "action": {
+            "module": "DS/ENOXCADTemplate/Controllers/ENOXCADTemplateToolbarController",
+            "func": "createTemplate"
+          },
+          "tooltip": "add_template",
+          "position": "far"
+        }
+      },
+      {
+        "id": "edittemplateId",
+        "dataElements": {
+          "typeRepresentation": "functionIcon",
+          "icon": {
+            "iconName": "pencil",
+            "fontIconFamily": 1
+          },
+          "action": {
+            "module": "DS/ENOXCADTemplate/Controllers/ENOXCADTemplateToolbarController",
+            "func": "editTemplate"
+          },
+          "disabled": true,
+          "tooltip": "edit_template",
+          "position": "far"
+        }
+      },
+      {
+        "id": "downloadId",
+        "dataElements": {
+          "typeRepresentation": "functionIcon",
+          "icon": {
+            "iconName": "download",
+            "fontIconFamily": 1
+          },
+          "action": {
+            "module": "DS/ENOXCADTemplate/Controllers/ENOXCADTemplateToolbarController",
+            "func": "downloadTemplate"
+          },
+          "disabled": true,
+          "tooltip": "download_template",
+          "position": "far"
+        }
+      },
+      {
+        "id": "publishId",
+        "dataElements": {
+          "typeRepresentation": "functionIcon",
+          "icon": {
+            "iconName": "collaborative-lifecycle-management",
+            "fontIconFamily": 1
+          },
+          "action": {
+            "module": "DS/ENOXCADTemplate/Controllers/ENOXCADTemplateToolbarController",
+            "func": "publishTemplate"
+          },
+          "disabled": true,
+          "tooltip": "publish",
+          "position": "far"
+        }
+      },
+      {
+        "id": "deleteTemplateId",
+        "dataElements": {
+          "typeRepresentation": "functionIcon",
+          "icon": {
+            "iconName": "close",
+            "fontIconFamily": 1
+          },
+          "action": {
+            "module": "DS/ENOXCADTemplate/Controllers/ENOXCADTemplateToolbarController",
+            "func": "deleteTemplate"
+          },
+          "disabled": true,
+          "tooltip": "delete_template",
+          "position": "far"
+        }
+      },
+      {
+        "id": "refreshId",
+        "dataElements": {
+          "typeRepresentation": "functionIcon",
+          "icon": {
+            "iconName": "reload",
+            "fontIconFamily": 1
+          },
+          "action": {
+            "module": "DS/ENOXCADTemplate/Controllers/ENOXCADTemplateToolbarController",
+            "func": "refreshTemplate"
+          },
+          "tooltip": "reload_template",
+          "position": "far"
+        }
+      }
+    ]
+  },
+  "viewmode": {
+    "entries": [
+      {
+        "id": "edittemplateId",
+        "dataElements": {
+          "typeRepresentation": "functionIcon",
+          "icon": {
+            "iconName": "pencil",
+            "fontIconFamily": 1
+          },
+          "action": {
+            "module": "DS/ENOXCADTemplate/Controllers/ENOXCADTemplateToolbarController",
+            "func": "editTemplate"
+          },
+          "disabled": true,
+          "tooltip": "edit_template",
+          "position": "far"
+        }
+      },
+      {
+        "id": "downloadId",
+        "dataElements": {
+          "typeRepresentation": "functionIcon",
+          "icon": {
+            "iconName": "download",
+            "fontIconFamily": 1
+          },
+          "action": {
+            "module": "DS/ENOXCADTemplate/Controllers/ENOXCADTemplateToolbarController",
+            "func": "downloadTemplate"
+          },
+          "disabled": true,
+          "tooltip": "download_template",
+          "position": "far"
+        }
+      },
+      {
+        "id": "publishId",
+        "dataElements": {
+          "typeRepresentation": "functionIcon",
+          "icon": {
+            "iconName": "collaborative-lifecycle-management",
+            "fontIconFamily": 1
+          },
+          "action": {
+            "module": "DS/ENOXCADTemplate/Controllers/ENOXCADTemplateToolbarController",
+            "func": "publishTemplate"
+          },
+          "disabled": true,
+          "tooltip": "publish",
+          "position": "far"
+        }
+      },
+      {
+        "id": "deleteTemplateId",
+        "dataElements": {
+          "typeRepresentation": "functionIcon",
+          "icon": {
+            "iconName": "close",
+            "fontIconFamily": 1
+          },
+          "action": {
+            "module": "DS/ENOXCADTemplate/Controllers/ENOXCADTemplateToolbarController",
+            "func": "deleteTemplate"
+          },
+          "disabled": true,
+          "tooltip": "delete_template",
+          "position": "far"
+        }
+      },
+      {
+        "id": "refreshId",
+        "dataElements": {
+          "typeRepresentation": "functionIcon",
+          "icon": {
+            "iconName": "reload",
+            "fontIconFamily": 1
+          },
+          "action": {
+            "module": "DS/ENOXCADTemplate/Controllers/ENOXCADTemplateToolbarController",
+            "func": "refreshTemplate"
+          },
+          "tooltip": "reload_template",
+          "position": "far"
+        }
+      }
+    ]
+  }
+}

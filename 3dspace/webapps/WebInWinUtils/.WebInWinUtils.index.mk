@@ -1,0 +1,13 @@
+m|WebInWinUtils\WebInWinUtils.mweb
+b|j|c,m
+b|c|n,m
+v|6.426.6.24160|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\WebInWinUtils\WebInWinUtils.js|1717822121|6684
+s|WebInWinUtils\WebInWinUtils.mweb\src\_dscef.js|1716157852|2500
+u|WebInWinUtils\WebInWinUtils.mweb\src\FramingLog.js|1716110486|2099
+u|WebInWinUtils\WebInWinUtils.mweb\src\FramingService.js|1716158626|17996
+u|WebInWinUtils\WebInWinUtils.mweb\src\FramingValidator.js|1716142254|3870
+u|WebInWinUtils\WebInWinUtils.mweb\src\dscef.js|1712321149|2625
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

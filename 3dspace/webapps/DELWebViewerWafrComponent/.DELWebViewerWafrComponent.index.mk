@@ -1,0 +1,11 @@
+m|DELWebViewerController\DELWebViewerWafrComponent.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.4.24107|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELWebViewerWafrComponent\DELWebViewerWafrComponent.js|1713299108|3696
+s|DELWebViewerController\DELWebViewerWafrComponent.mweb\src\DELWeb3DViewerComponent.js|1712591560|13239
+t|win_b64\webapps\DELWebViewerWafrComponent\assets\json\ViewerConfig.json|1713299107|1238
+s|DELWebViewerController\DELWebViewerWafrComponent.mweb\src\assets\json\ViewerConfig.json|1710337439|1238
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

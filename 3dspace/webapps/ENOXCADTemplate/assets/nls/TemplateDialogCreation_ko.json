@@ -1,0 +1,23 @@
+{
+  "notSpecified": "지정되지 않음",
+  "title": "제목",
+  "titleerrortext": "제목을 입력합니다.",
+  "titleplaceholder": "여기에 제목 입력",
+  "description": "설명",
+  "descplaceholder": "여기에 간단한 설명 입력",
+  "targetype": "대상 3DEXPERIENCE 유형",
+  "targettypeerrortext": "대상 3DEXPERIENCE 유형을 지정합니다.",
+  "file": "파일",
+  "fileerror": "파일을 선택합니다.",
+  "fileplaceholder": "파일 선택",
+  "browse": "찾아보기",
+  "cancel": "취소",
+  "save": "저장",
+  "createshared": "릴리즈된 대로 생성",
+  "createprivate": "초안 상태로 생성",
+  "reset": "재설정",
+  "createtemplate": "템플릿 생성",
+  "edittemplate": "템플릿 편집",
+  "createAs": "생성 상태 ",
+  "createAsInWork": "작업 중 상태로 생성"
+}

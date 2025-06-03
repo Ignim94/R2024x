@@ -1,0 +1,13 @@
+m|CAT3DAnnotationInsightWebUX\CAT3DAnnotationExpController.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.4.24097|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\CAT3DAnnotationExpController\CAT3DAnnotationExpController.js|1712386333|19415
+s|CAT3DAnnotationInsightWebUX\CAT3DAnnotationExpController.mweb\src\_copyright.js|1480428882|63
+t|win_b64\webapps\CAT3DAnnotationExpController\assets\json\CAT3DAnnotationExpController.json|1685324943|2048
+s|CAT3DAnnotationInsightWebUX\CAT3DAnnotationExpController.mweb\src\assets\json\CAT3DAnnotationExpController.json|1638803205|2048
+u|CAT3DAnnotationInsightWebUX\CAT3DAnnotationExpController.mweb\src\CAT3DAnnotExpControllerInstance.js|1709137919|52376
+u|CAT3DAnnotationInsightWebUX\CAT3DAnnotationExpController.mweb\src\CAT3DAnnotationExpController.js|1620393418|107
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

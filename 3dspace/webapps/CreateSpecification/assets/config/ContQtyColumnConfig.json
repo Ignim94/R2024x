@@ -1,0 +1,58 @@
+{
+	"columns": [{
+						"dataIndex": "Title",
+						"text": "Title",
+						"typeRepresentation": "UWAObject",
+						"pinned": "left",
+						"alwaysVisibleFlag": true,
+						"editableFlag": true,
+						"allowUnsafeHTMLContent" : true,
+						"autoRowHeightFlag" : false,
+						"exportFlag" : true,
+						"visibleFlag" : true,
+						"width" : "30%"
+					},
+					{
+						"dataIndex": "quantity",
+						"text": "Quantity",
+						"typeRepresentation": "float",
+						"editableFlag": true,
+						"allowUnsafeHTMLContent" : false,
+						"autoRowHeightFlag" : false,
+						"exportFlag" : true,
+						"visibleFlag" : true
+					},
+					{
+						"dataIndex": "uom",
+						"text": "UOM",
+						"typeRepresentation": "string",
+						"editableFlag": true,
+						"allowUnsafeHTMLContent" : false,
+						"autoRowHeightFlag" : false,
+						"exportFlag" : true,
+						"visibleFlag" : true,
+						"editionPolicy" : "EditionInPlace"
+					},
+					{
+						"dataIndex": "as_required",
+						"text": "As Required",
+						"typeRepresentation": "independantBoolean",
+						"type":"switch",
+						"editableFlag": true,
+						"allowUnsafeHTMLContent" : false,
+						"autoRowHeightFlag" : false,
+						"exportFlag" : true,
+						"visibleFlag" : true,
+						"editionPolicy" : "EditionInPlace"
+					},
+					{
+						"dataIndex": "type",
+						"text": "Type",
+						"typeRepresentation": "string",
+						"editableFlag": false,
+						"allowUnsafeHTMLContent" : false,
+						"autoRowHeightFlag" : false,
+						"exportFlag" : true,
+						"visibleFlag" : true
+					}]
+}

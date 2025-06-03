@@ -1,0 +1,65 @@
+{
+	"dsreq:RequirementUsage": {
+        "summary": "Requirement Item Instance",
+        "description": "Requirement Item Instance",
+        "PUBLICMasks": ["dsreq:RequirementUsageMask.Details","dsreq:RequirementUsageMask.Filterable"],
+        "PROTECTEDMasks": [],
+        "PUBLICExtensions": ["dscfg:Filterable"],
+        "PUBLICExcludedURIs": ["GET", "PATCH", "GETAll", "BULKUPDATE", "bulkfetch", "getItems", "DELETEBulk"]
+    },
+    
+	"dsreq:ChapterUsage": {
+        "summary": "Chapter Item Instance",
+        "description": "Chapter Item Instance",
+        "PUBLICMasks": ["dsreq:ChapterUsageMask.Details","dsreq:ChapterUsageMask.Filterable"],
+        "PROTECTEDMasks": [],
+        "PUBLICExtensions": ["dscfg:Filterable"],
+        "PUBLICExcludedURIs": ["GET", "PATCH", "GETAll", "BULKUPDATE", "bulkfetch", "getItems", "DELETEBulk"]
+    },
+    
+    	"dsreq:SubRequirementUsage": {
+        "summary": "Requirement Item Instance",
+        "description": "Requirement Item Instance",
+        "PUBLICMasks": ["dsreq:SubRequirementUsageMask.Details","dsreq:SubRequirementUsageMask.Filterable"],
+        "PROTECTEDMasks": [],
+        "PUBLICExtensions": ["dscfg:Filterable"],
+        "PUBLICExcludedURIs": ["GET", "PATCH", "GETAll", "BULKUPDATE", "bulkfetch", "getItems", "DELETEBulk"]
+    },
+        
+	"dsreq:RequirementSpecification":{
+		"summary":"Requirement Specification",
+		"description":"Requirement Specification with an attributes list.",
+		"PUBLICMasks":["dsreq:RequirementSpecificationBaseMask", "dsreq:RequirementSpecificationMask.Config"],
+		"PROTECTEDMasks":[],
+		"PRIVATEMasks":[],
+		"PUBLICExtensions": ["dslc:changeControl", "dscfg:Configured"],
+		"PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["GETAll", "BULKUPDATE", "bulkfetch", "getItems", "DELETEBulk"]
+	},
+	
+	"dsreq:Requirement":{
+		"summary":"Requirement",
+		"description":"Requirement with an attributes list.",
+		"PUBLICMasks":["dsreq:RequirementBaseMask","dsreq:RequirementMask.Config"],
+		"PROTECTEDMasks":[],
+		"PRIVATEMasks":[],
+		"PUBLICExtensions": ["dslc:changeControl", "dscfg:Configured"],
+		"PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["GETAll", "BULKUPDATE", "bulkfetch", "getItems", "DELETEBulk"]
+	},
+
+	"dsreq:Chapter":{
+		"summary":"Chapter",
+		"description":"Chapter with an attributes list.",
+		"PUBLICMasks":["dsreq:ChapterBaseMask", "dsreq:ChapterMask.Config"],
+		"PROTECTEDMasks":[],
+		"PRIVATEMasks":[],
+		"PUBLICExtensions": ["dslc:changeControl", "dscfg:Configured"],
+		"PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["GETAll", "BULKUPDATE", "bulkfetch", "getItems", "DELETEBulk"]
+	}
+
+}

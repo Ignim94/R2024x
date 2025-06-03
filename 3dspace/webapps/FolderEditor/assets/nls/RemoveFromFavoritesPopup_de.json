@@ -1,0 +1,7 @@
+{
+  "popuptitle": "Aus Favoriten entfernen – {favname}",
+  "title": "Zugriff auf {favname} nicht möglich.",
+  "subtitle": "Das Lesezeichen ist nicht mehr verfügbar: Es wurde möglicherweise gelöscht oder Sie verfügen nicht über die erforderliche Zuständigkeit im Teamarbeitsbereich, um das Lesezeichen anzuzeigen.",
+  "question": "Möchten Sie {favname} aus dem Abschnitt Favoriten entfernen?",
+  "buttonRemove": "Entfernen"
+}

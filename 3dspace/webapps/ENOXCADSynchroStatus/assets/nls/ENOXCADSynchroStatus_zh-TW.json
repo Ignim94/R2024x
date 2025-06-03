@@ -1,0 +1,14 @@
+{
+  "hasSync": "CAD 同步狀態",
+  "RequestSynchronization": "要求同步處理",
+  "ReqJob_Success": "同步處理要求已成功建立。重新整理以檢視 CAD 同步狀態欄中的狀態。",
+  "ReqJob_Failure": "建立同步處理要求時發生錯誤。",
+  "status_Sync": "同步化",
+  "status_Unsync": "未同步化",
+  "status_JobRunning": "同步化工作正在執行中",
+  "status_JobFail": "同步化工作失敗",
+  "status_NA": "不適用",
+  "MSG_JOB_CREATED_FOR_SOME_NODES": "已為一或多個選取節點建立同步工作。請重新整理以在 CAD 同步狀態欄中檢視狀態。",
+  "MSG_JOB_EXISTS_FOR_ALL_NODES": "選取之節點已存在同步工作。請重新整理以在 CAD 同步狀態欄中檢視狀態。",
+  "indexing_failed_message": "新物件或修改的物件尚未建立索引。請在幾分鐘後重試操作。"
+}

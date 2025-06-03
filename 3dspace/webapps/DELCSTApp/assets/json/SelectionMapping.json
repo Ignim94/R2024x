@@ -1,0 +1,128 @@
+{
+  "selection": {
+    "IMPMOD":[
+        "IMPMOD"
+    ],
+    "RESULTINGMOD": [
+        "EBOM"
+    ],
+    "CBOM": [
+      "EBOM"
+    ],
+    "EBOM": [
+      "CBOM"
+    ],
+    "ORIGIN": [
+      "ORIGIN",
+      "CBOM"
+    ],
+    "ALTERNATES_AND_SUBSTITUTES": [
+      "ALTERNATES_AND_SUBSTITUTES",
+      "CBOM"
+    ],
+    "ALTERNATE": [
+      "ALTERNATE",
+      "CBOM"
+    ],
+    "SUBSTITUTES": [
+      "SUBSTITUTES",
+      "CBOM"
+    ],
+    "RESULTING_PRODUCT_VIEW": [
+      "RESULTING_PRODUCT_VIEW",
+      "CBOM"
+    ],
+    "RESPONSIBILITY": [
+      "RESPONSIBILITY",
+      "CBOM"
+    ],
+    "CAPRESOURCE": [
+      "CAPRESOURCE",
+      "CBOM"
+    ],
+    "AUXILIARY": [
+      "EBOM",
+      "CBOM"
+    ],
+    "INSTCMDMOD": [
+      "CBOM",
+      "AUXILIARY"
+    ],
+    "INSTCMDV2MOD": [
+      "CBOM",
+      "AUXILIARY"
+    ],
+    "MFGITEMREPLACEMOD": [
+      "CBOM",
+      "AUXILIARY"
+    ],  
+    "UDECMDMOD": [
+      "EBOM",
+      "CBOM"
+    ],
+    "DELCMDMOD": [
+      "CBOM",
+      "AUXILIARY",
+      "ALTERNATE",
+      "SUBSTITUTES",
+      "ORIGIN",
+      "CAPRESOURCE",
+      "RESPONSIBILITY"
+    ],
+    "CMDS": [
+      "CBOM",
+      "EBOM",
+      "AUXILIARY",
+      "ALTERNATE",
+      "SUBSTITUTES",
+      "ORIGIN",
+      "CAPRESOURCE",
+      "RESPONSIBILITY"
+    ],
+    "LINKS": [
+      "CBOM",
+      "EBOM",
+      "AUXILIARY"
+    ],
+    "AUTHORLINKMOD": [
+      "CBOM",
+      "EBOM",
+      "AUXILIARY"
+    ],
+    "ExternalService" :[
+      "CBOM",
+      "EBOM",
+      "AUXILIARY"
+    ],
+    "FilterService" :[
+      "CBOM",
+      "EBOM"
+    ],
+    "IMPLEMENTMOD" : [
+      "EBOM",
+      "CBOM"
+    ],
+    "MFGSTRUCTUREMOD" : [
+      "EBOM",
+      "CBOM"
+    ],
+    "PROPERTIES" :  [
+      "CBOM",
+      "EBOM",
+      "AUXILIARY",
+      "ALTERNATE",
+      "SUBSTITUTES",
+      "ORIGIN",
+      "CAPRESOURCE",
+      "RESPONSIBILITY"
+    ],
+    "GROUPINGMOD": [
+        "EBOM",
+        "CBOM",
+        "AUXILIARY"
+    ],
+	"MFG3DVIEWERMOD": [
+	  "CBOM"
+    ]
+  }
+}

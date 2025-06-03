@@ -1,0 +1,28 @@
+{
+  "ImportView": "Импорт данных",
+  "Loader": "Подождите",
+  "xcad.ui.button.ok": "ОК",
+  "xcad.ui.button.cancel": "Отмена",
+  "BrowseDialogTitle": "Выбрать папку 3DDrive",
+  "myfiles": "Мои файлы",
+  "sharedwithme": "Поделились со мной",
+  "OKButton": "OK",
+  "Tenant1": {
+    "service": {
+      "platformId": "Tenant1",
+      "url": "http://localhost:8081/fake_3DDrive_TenantURL"
+    },
+    "name": "DS - ODT_Tenant1"
+  },
+  "Tenant2": {
+    "service": {
+      "platformId": "Tenant2",
+      "url": "http://localhost:8081/fake_3DDrive_TenantURL"
+    },
+    "name": "DS - ODT_Tenant2"
+  },
+  "search_previous": "Назад",
+  "search_next": "Далее",
+  "search_all": "Выбрать все совпадающие элементы",
+  "search_close": "Закрыть"
+}

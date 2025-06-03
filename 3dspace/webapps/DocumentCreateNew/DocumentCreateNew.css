@@ -1,0 +1,46 @@
+.doco-create-new2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.doco-create-new2 .header1 {
+    margin: 0px;
+}
+
+.doco-create-new2 .header2 {
+    margin: 0 0 12px 0;
+}
+
+.doco-create-new2 .form-group > label {
+    margin: 0px 3px 9px 0px;
+}
+
+.doco-create-new2 .form-group {
+    margin-bottom: 10px;
+}
+
+/* .doco-create-new2 .item-sections {
+padding: 0px;
+margin: 5px 0 0 0;
+} */
+
+
+.doco-create-new2 .attribute-accordeon {
+    width: 100%;
+}
+
+.doco-create-new2 .wux-tweakers-array-inline-editor {
+    max-width: unset;
+}
+
+.doco-create-new2 .multifile-grid {
+    flex-grow: 1;
+    position: relative;
+    min-height: 0;
+}
+
+.document-createNew-modal {
+    z-index: 50000;
+}
+

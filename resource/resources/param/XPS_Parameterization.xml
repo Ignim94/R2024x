@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="PerformanceSpec">
+
+    <Domain id="AttributeDef">
+        <Family id="PerformanceSpec">
+                <Constant id="appType" value="CBP"/>
+                <Constant id="type" value="PerformanceSpec"/>
+                <Constant id="package" value="PerformanceSpec"/>
+        </Family>
+    </Domain>
+
+    <Domain id="ObjectIdentification" >
+        <Family id="ObjectIdentifier">
+            <Parameter id="PerformanceSpecPrefixSuffix" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+                <Argument id="PrefixArg" type="string" default="PS" />
+                <Argument id="SuffixArg" type="string" default="01" />
+                <Constant id="type" value="PerformanceSpec" />
+                <Constant id="appType" value="CBP" />
+                <Constant id="sogName" value="type_PerformanceSpec" />
+                <Constant id="sogRevision" value="1" />
+            </Parameter>
+        </Family>
+    </Domain>
+
+    <Domain id="AttributeDef">
+        <Family id="PerformanceChar">
+                <Constant id="appType" value="CBP"/>
+                <Constant id="type" value="PerformanceChar"/>
+                <Constant id="package" value="PerformanceSpec"/>
+        </Family>
+    </Domain>
+
+    <Domain id="ObjectIdentification" >
+        <Family id="ObjectIdentifier">
+            <Parameter id="PerformanceCharPrefixSuffix" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+                <Argument id="PrefixArg" type="string" default="PC" />
+                <Argument id="SuffixArg" type="string" default="01" />
+                <Constant id="type" value="PerformanceChar" />
+                <Constant id="appType" value="CBP" />
+                <Constant id="sogName" value="type_PerformanceChar" />
+                <Constant id="sogRevision" value="1" />
+            </Parameter>
+        </Family>
+    </Domain>
+
+	<Domain id="PerformanceSpecification">
+		<Family id="MeasurementCharacteristic">
+			<Parameter id="RoutineReleaseLimits" implementation="com.dassault_systemes.enovia.performance_spec.admin_rules.MeasurementCharacteristicLimitsConfiguration">
+				<Argument id="RoutineReleaseLimitsArgument" type="boolean" input="checkbox" default="Disabled" />
+				<Constant id="expression" value="DisableRoutineReleaseLimitsOnMeasurementCharacteristic" />
+			</Parameter>
+			<Parameter id="SpecificationLimits" implementation="com.dassault_systemes.enovia.performance_spec.admin_rules.MeasurementCharacteristicLimitsConfiguration">
+				<Argument id="SpecificationLimitsArgument" type="boolean" input="checkbox" default="Disabled" />
+				<Constant id="expression" value="DisableSpecificationLimitsOnMeasurementCharacteristic" />
+			</Parameter>
+		</Family>
+	</Domain>
+
+</OOTBParameterization>

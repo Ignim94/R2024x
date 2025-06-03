@@ -1,0 +1,7 @@
+{
+  "review.mentionned.setting": "Qualcuno mi menziona in un commento di revisione",
+  "review.mentionned.new": "<strong>###FROM_USER###</strong> ti ha menzionato in un commento di revisione su <strong>###OBJECT_TITLE###</strong>",
+  "review.mentionned.new.mail.subject": "<strong>###FROM_USER###</strong> ti ha menzionato in un commento di revisione su <strong>###OBJECT_TITLE###</strong>",
+  "review.mentionned.new.mail.content": "<strong>###FROM_USER###</strong> ti ha menzionato in un commento di revisione su <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+  "review.mentionned.new.mail.title": "Qualcuno ti ha menzionato in una revisione"
+}

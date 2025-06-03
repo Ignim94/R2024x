@@ -1,0 +1,12 @@
+{
+  "CATIAV5UPS.assembly.label": "Produkt",
+  "CATIAV5UPS.component.label": "Díl",
+  "CATIAV5UPS.drawing.label": "Výkres",
+  "CATIAV5UPS.analysis.label": "Analýza",
+  "CATIAV5UPS.analysis.icon": "I_CATAnalysis.png",
+  "CATIAV5CUSTOMUPS.assembly.label": "Produkt",
+  "CATIAV5CUSTOMUPS.component.label": "Díl",
+  "CATIAV5CUSTOMUPS.drawing.label": "Výkres",
+  "CATIAV5CUSTOMUPS.analysis.label": "Analýza",
+  "CATIAV5CUSTOMUPS.analysis.icon": "I_CATAnalysis.png"
+}

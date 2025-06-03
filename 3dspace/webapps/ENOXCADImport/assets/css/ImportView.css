@@ -1,0 +1,67 @@
+.importGridView-container {
+	height: inherit;
+	width: inherit;
+}
+
+.export-grid-container .wux-layouts-collectionview.wux-controls-abstract
+	{
+	display: inline-block;
+	width: 25% !important;
+	border-right: gray solid 1px;
+	top: 32px;
+}
+
+.platform-grid-container .wux-layouts-collectionview.wux-controls-abstract
+	{
+	display: inline-block;
+	left: 25% !important;
+	width: 45% !important;
+	border-right: gray solid 1px;
+	top: 32px;
+}
+
+.supplier-grid-container .wux-layouts-collectionview.wux-controls-abstract
+	{
+	display: inline-block;
+	left: 70% !important;
+	width: 30% !important;
+	top: 32px;
+}
+
+.export-grid-modify .wux-layouts-collectionview.wux-controls-abstract
+	{
+	width: 50% !important;
+}
+
+.supplier-grid-modify .wux-layouts-collectionview.wux-controls-abstract
+	{
+	left: 50% !important;
+	width: 50% !important;
+}
+
+.wux-ui-3ds-check {
+	color: #57b847;
+	font-size: 1.1em;
+}
+
+.divmaxwidth{
+	max-width: 70%;	
+}
+
+.toolbar-container .toolbar-view-container .information-panel .fonticon-2x
+	{
+	font-size: 1.1em;
+}
+
+.toolbar-container .toolbar-view-container .link-panel .fonticon-2x {
+	font-size: 1.1em;
+}
+
+.toolbar-container .toolbar-view-container .import-panel .fonticon-2x {
+	font-size: 1.1em;
+}
+
+.toolbar-container .toolbar-view-container .importzip-panel .fonticon-2x {
+	font-size: 1.1em;
+}
+

@@ -1,0 +1,19 @@
+{
+	"sourcing.notification.event.request.statusChange.setting": "My request or assigned request is approved/rejected",
+	"sourcing.notification.event.request.duedate.setting": "My request or assigned request approaches its due date",
+	"sourcing.notification.event.request.needclarification.setting": "My request or assigned request requires clarification",
+	"sourcing.notification.event.request.submit.setting": "My request or assigned request is submitted",
+	"sourcing.notification.event.memberAccessUpdate.setting": "Members are added to or removed from my request or assigned request",
+	"sourcing.notification.event.request.promoted.setting": "My request or assigned request changes maturity",
+	"sourcing.notification.person.request.submit.msg": "<strong>###REQUESTOWNER###</strong> assigned you <strong>###REQUESTNAME###</strong>. It is due on <strong>###DUEDATE###</strong> for the required action.",
+	"sourcing.notification.person.request.promote.msg": "<strong>###REQUESTOWNER###</strong> promoted <strong>###REQUESTNAME###</strong> request to <strong>###STATE###</strong> state.",
+	"sourcing.notification.person.request.demote.msg": "<strong>###REQUESTOWNER###</strong> demoted <strong>###REQUESTNAME###</strong> request to <strong>###STATE###</strong> state.",
+	"sourcing.notification.person.request.duedate.msg": "<strong>###REQUESTNAME###</strong> has passed its due date. Due date <strong>###DUEDATE###</strong>.",
+	"sourcing.notification.person.request.approve.msg": "<strong>###REQUESTOWNER###</strong> approved the request <strong>###REQUESTNAME###</strong>.",
+	"sourcing.notification.person.request.reject.msg": "<strong>###REQUESTOWNER###</strong> rejected the request <strong>###REQUESTNAME###</strong>.",
+	"sourcing.notification.person.request.cancel.msg": "<strong>###REQUESTOWNER###</strong> cancelled the request <strong>###REQUESTNAME###</strong>.",
+	"sourcing.notification.person.request.needsclarification.msg": "<strong>###requestAsignee###</strong> has sent the request <strong>###REQUESTNAME###</strong> for needs clarification.",
+	"sourcing.notification.person.request.submitclarification.msg": "<strong>###REQUESTOWNER###</strong> has submitted the clarification for the request <strong>###REQUESTNAME###</strong>",
+	"sourcing.notification.person.memberAccessUpdate.msg": "<strong>###GRANTOR###</strong> added you as <strong>###REQUESACCESS###</strong> on <strong>###REQUESTNAME###</strong>",
+	"sourcing.notification.person.memberAccessDelete.msg": "<strong>###GRANTOR###</strong> removed you as <strong>###REQUESACCESS###</strong> on <strong>###REQUESTNAME###</strong>"
+}

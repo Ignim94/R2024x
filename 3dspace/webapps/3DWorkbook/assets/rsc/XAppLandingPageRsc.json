@@ -1,0 +1,30 @@
+{
+    "Home.Background.Image": [
+    	{
+            "url": "3DWorkbook/assets/images/WkbStartPage2560x1600.jpg",
+            "width": 2560
+        }, 
+        {
+            "url": "3DWorkbook/assets/images/WkbStartPage1920x1200.jpg",
+            "width": 1920
+        },
+        {
+            "url": "3DWorkbook/assets/images/WkbStartPage1280x800.jpg",
+            "width": 1280
+        },
+        {
+            "url": "3DWorkbook/assets/images/WkbStartPage900x600.jpg",
+            "width": 900
+        },
+        {
+            "url": "3DWorkbook/assets/images/WkbStartPage600x400.jpg",
+            "width": 600
+        }, 
+        {
+            "url": "3DWorkbook/assets/images/WkbStartPage.jpeg",
+            "width": 5092
+        }
+    ],
+
+    "Waiting.Background.Image": "3DWorkbook/assets/images/WkbStartPage.jpeg"
+}

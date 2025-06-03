@@ -1,0 +1,26 @@
+{
+    "VARIABILITY": "Variability",
+    "BASE_CONFIG": "Base Configuration",
+    "BC_SUCCESS_SAVE": "Base Configuration Saved Succesfully.",
+    "BC_FAILURE_SAVE": "Error while saving Base Configuration",
+    "GetRuleDetailsError": "Error while fetching Rule Information.",
+    "HighlightDifferences" : "Highlight Differences",
+    "PAINTER": "Painter",
+    "SELECTED": "Selected",
+    "AVAILABLE": "Available",
+    "NA": "Not Available",
+    "DEFAULT": "Default",
+    "NONE": "None",
+    "CONFLICT" : "is in conflict.",
+    "StateValidity_C" : "conflicting ",
+    "StateValidity_U" : "required due to current states. ",
+    "StateValidity_RE" : "required ",
+    "StateValidity_ATI" : "incompatible ",
+    "ReasonString"  : "The value is ",
+    "ImpliedRulesString" : "implied rules :",
+    "StateValidity_C_Rule" : "conflicting ",
+    "Due_to" : "due to ",
+    "Current_Selection" : "current selection ",
+    "And" : "and "
+    
+}

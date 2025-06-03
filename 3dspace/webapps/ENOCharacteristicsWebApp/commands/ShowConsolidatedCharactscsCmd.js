@@ -1,0 +1,1 @@
+define("DS/ENOCharacteristicsWebApp/commands/ShowConsolidatedCharactscsCmd",["DS/ENOCharacteristicsWebApp/commands/ShowCharacteristicsCmd"],function(t){"use strict";return t.extend({init:function(t){this._parent(t)}})});

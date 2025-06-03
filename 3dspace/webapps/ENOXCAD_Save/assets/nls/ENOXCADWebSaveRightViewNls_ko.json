@@ -1,0 +1,21 @@
+{
+  "Nb_New": "{nbNew}개 새 개체",
+  "Nb_Mod": "{nbMod} 수정된 개체",
+  "Nb_Exc": "{nbExc} 제외된 개체",
+  "Nb_Inc": "{nbInc} 포함된 개체",
+  "Save_stats": "저장 범위: ",
+  "Unreserve_checkbox": "잠금 해제",
+  "PGP_checkbox": "제품 그래픽 속성 추가",
+  "PMR_checkbox": "제품 유연성 속성 추가",
+  "KeepIteration_checkbox": "이전 버전 유지",
+  "Async_checkbox": "배경 저장",
+  "Work_Under": "Change Action 아래 저장: ",
+  "No_DefaultBookmark": "기본 북마크가 없습니다.",
+  "Not_AllObjectsInBookmark": "모든 개체에 북마크를 지정하십시오.",
+  "Not_AllLocked": "포함된 모든 개체를 잠그십시오.",
+  "No_ReadAccess": "일부 개체에 대한 읽기 액세스가 없습니다.",
+  "SaveComment_checkbox": "코멘트 추가",
+  "ExposePublication_checkbox": "게시물 노출",
+  "AddComment_textbox": "여기에 코멘트 입력...",
+  "ApplyMaterial_checkbox": "3DEXPERIENCE에 재질 적용"
+}

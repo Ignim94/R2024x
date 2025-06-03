@@ -1,0 +1,216 @@
+<meta charset="UTF-8"/>
+//=============================================================================
+// 								Fixed
+//=============================================================================
+DELSIEApp.LandingPage.Title="主页";
+DELSIEApp.Refresh.Title="刷新选定项";
+DELSIEApp.Hide.Title="移除选定对象";
+DELSIEApp.Authoring.Title="创作";
+DELSIEApp.HideAll.Title="移除所有对象";
+DELSIEApp.Refresh.Title="刷新选定对象";
+DELSIEApp.RefreshAll.Title="全部刷新";
+
+DELSIEApp.ToggleAuxiliaryView.Title="辅助视图";
+DELSIEApp.ProductsParts.Title="产品和零件";
+DELSIEApp.ServiceItems.Title="服务项目";
+
+//=============================================================================
+// 								Authoring
+//=============================================================================
+DELSIEApp.Authoring.Title="创作";
+
+//-------------------------------------------------
+//				Create
+//-------------------------------------------------
+DELSIEApp.InsertCreateAssembly.Title="服务装配体";
+DELSIEApp.InsertCreateKit.Title="服务套件";
+DELSIEApp.InsertProvide.Title="服务零件";
+DELSIEApp.InsertInstallation.Title="安装";
+DELSIEApp.InsertContinuousServiceMaterial.Title="创建服务连续零件";
+DELSIEApp.CreateContinuousServiceMaterialAndScope.Title="创建服务连续零件和范围链接";
+DELSIEApp.InsertCreateServiceAttaching.Title="创建服务附加零件";
+DELSIEApp.InsertCreateServiceSpare.Title="创建备用项目";
+
+//-------------------------------------------------
+//				Create Process & Scope
+//-------------------------------------------------
+DELSIEApp.CreateAssemblyAndScope.Title="创建服务装配体和范围";
+DELSIEApp.CreateMaterialAndScope.Title="创建服务材料和范围";
+DELSIEApp.CreateKitAndScope.Title="创建服务套件和范围";
+DELSIEApp.CreateProvideAndScope.Title="创建服务零件和范围";
+DELSIEApp.CreateServiceAttachingAndScope.Title="创建服务附加零件和范围链接";
+DELSIEApp.CreateServiceSpareAndScope.Title="创建备用项目和范围链接";
+//-------------------------------------------------
+//				Create Process & Resulting Product Link
+//-------------------------------------------------
+DELSIEApp.CreateAssemblyAndResultingProduct.Title="创建服务装配体和结果产品链接";
+DELSIEApp.CreateMaterialAndResultingProduct.Title="创建服务材料和结果产品链接";
+DELSIEApp.CreateKitAndResultingProduct.Title="创建服务套件和结果产品链接";
+DELSIEApp.CreateProvideAndResultingProduct.Title="创建服务零件和结果产品链接";
+DELSIEApp.CreateServiceAttachingAndResultingProduct.Title="创建服务附加零件和结果产品链接";
+DELSIEApp.CreateServiceSpareAndResultingProduct.Title="创建备用项目和结果产品链接";
+//-----------------------------------------------------------------------------
+//				Create Process & Scope/ResultingProduct Link for Alternate Substitutes
+//-----------------------------------------------------------------------------
+DELSIEApp.CreateAssemblyAndScopeAltSubst.Title="创建服务装配体和范围";
+DELSIEApp.CreateKitAndScopeAltSubst.Title="创建服务套件和范围";
+DELSIEApp.CreateProvideAndScopeAltSubst.Title="创建服务零件和范围";
+DELSIEApp.CreateServiceAttachingAndScopeAltSubst.Title="创建服务附加零件和范围";
+DELSIEApp.CreateServiceSpareAndScopeAltSubst.Title="创建备用项目和范围";
+//----------------------------------------------------
+DELSIEApp.CreateAssemblyAndResultingProductAltSubst.Title="创建服务装配体和结果产品链接";
+DELSIEApp.CreateKitAndResultingProductAltSubst.Title="创建服务套件和结果产品链接";
+DELSIEApp.CreateProvideAndResultingProductAltSubst.Title="创建服务零件和结果产品链接";
+DELSIEApp.CreateServiceAttachingAndResultingProductAltSubst.Title="创建服务附加零件和结果产品链接";
+DELSIEApp.CreateServiceSpareAndSResultingProductAltSubst.Title="创建备用项目和结果产品链接";
+
+//-------------------------------------------------
+//				Product Assignation
+//-------------------------------------------------
+DELSIEApp.AssignAssembly.Title="将产品分配给服务装配体";
+DELSIEApp.AssignKit.Title="将产品分配给服务套件";
+DELSIEApp.AssignProvide.Title="将产品分配给服务零件 ";
+DELSIEApp.AssignServiceAttaching.Title="将产品分配给服务附加零件";
+DELSIEApp.AssignServiceSpare.Title="将产品分配给服务备用项目";
+DELSIEApp.UnassignProduct.Title="取消分配产品";
+
+//-------------------------------------------------
+//				Scope
+//-------------------------------------------------
+DELSIEApp.CreateScopeLink.Title="创建范围";
+DELSIEApp.ReconnectScope.Title="重新连接范围";
+DELSIEApp.ReviseAndReconnectScope.Title="修订并重新连接范围";
+DELSIEApp.DeleteScopeLink.Title="删除范围";
+DELSIEApp.CreatePartialScopeLink.Title="创建部分范围";
+DELSIEApp.DeletePartialScopeLink.Title="删除部分范围";
+DELSIEApp.StretchPartialScopeLink.Title="拉伸部分范围";
+DELSIEApp.SwitchToFullScopeLink.Title="将部分范围切换为完整范围";
+
+//-------------------------------------------------
+//-------------------------------------------------
+DELSIEApp.AddExisting.Title="添加现有项";
+DELSIEApp.DetachInstance.Title="拆离";
+
+//-------------------------------------------------
+//				Replace
+//-------------------------------------------------
+DELSIEApp.ReplaceByLatestRevision.Title="替换为最新修订版";
+DELSIEApp.ReplaceByExisting.Title="替换为现有项";
+DELSIEApp.ReplaceByNewRevision.Title="替换为新修订版";
+DELSIEApp.ReplaceByNewReference.Title="替换为新项";
+DELSIEApp.ReplaceWhereUsed.Title="替换使用位置";
+
+//-------------------------------------------------
+//				Cut Copy
+//-------------------------------------------------
+DELSIEApp.Cut.Title="剪切";
+DELSIEApp.Copy.Title="复制";
+DELSIEApp.Paste.Title="粘贴";
+
+//-------------------------------------------------
+DELSIEApp.CreateUpdateProcessStructure.Title="创建/更新流程结构";
+DELSIEApp.ChangeImpactAnalysis.Title="更改影响分析";
+
+DELSIEApp.Relations.Title="关系";
+DELSIEApp.DisplayProperties.Title="信息";
+CollabSharing_Workbench.ActionBar_ChangeOwner.Title="移动";
+CollabSharing_Workbench.ActionBar_TransferOwnership.Title="更改所有者";
+DELSIEApp.ShowCharacteristicsCmd.Title="特性管理";
+DELSIEApp.ShowConsolidatedCharactscsCmd.Title="特性管理：合并的视图";
+
+//=============================================================================
+// 								Item Management
+//=============================================================================
+DELSIEApp.ItemManagement.Title="项目管理";
+
+//-------------------------------------------------
+DELSIEApp.CustomerExtension.Title="客户扩展";
+DELSIEApp.ViewRelationships.Title="查看关系";
+//-------------------------------------------------
+DELSIEApp.Document.Title="文档";
+DELSIEApp.Characteristics.Title="特性";
+DELSIEApp.AlternatesAndSubstitutes.Title="替代项和替代件";
+DELSIEApp.Alternates.Title="替代项";
+DELSIEApp.ResultingProduct.Title="结果产品";
+DELSIEApp.Substitutes.Title="替代件";
+DELSIEApp.Responsibilities.Title="责任";
+DELSIEApp.Origin.Title="原点";
+DELSIEApp.CapableResource.Title="有用资源";
+//-------------------------------------------------
+DELSIEApp.NavigateResources.Title="导航有用资源";
+DELSIEApp.Resources.Title="管理有用资源";
+DELSIEApp.NavigateRequirements.Title="导航要求";
+DELSIEApp.Requirements.Title="管理要求";
+DELSIEApp.Requirement.Title="管理要求";
+
+//=============================================================================
+// 								Configuration
+//=============================================================================
+DELSIEApp.Configuration.Title="配置";
+
+//-------------------------------------------------
+DELSIEApp.SetAuthoringContext.Title="设置创作上下文";
+DELSIEApp.Dictionnary.Title="词典";
+DELSIEApp.FilterConfiguration.Title="过滤器配置";
+
+//=============================================================================
+// 								View
+//=============================================================================
+DELSIEApp.View.Title="视图";
+
+//-------------------------------------------------
+DELSIEApp.ExpandAll.Title="全部展开";
+DELSIEApp.ExpandNLevel.Title="展开 N 层";
+//-------------------------------------------------
+DELSIEApp.CollapseAll.Title="全部折叠";
+DELSIEApp.UserDefinedExplore.Title="用户定义的浏览";
+//-------------------------------------------------
+DELSIEApp.ToggleBodyView.Title="切换产品视图";
+DELSIEApp.Toggle3DView.Title="切换 3D 视图";
+DELSIEApp.ToggleGraphView.Title="切换图形视图";
+//-------------------------------------------------
+DELSIEApp.Filter.Title="过滤器";
+DELSIEApp.ToggleAssignedParts.Title="切换分配的零件";
+DELSIEApp.ToggleQuantityView.Title="切换数量视图";
+//-------------------------------------------------
+DELSIEApp.Reframe.Title="重新构造";
+DELSIEApp.ReframeOn.Title="重新构造基于";
+DELSIEApp.ToggleOrientation.Title="切换方向";
+DELSIEApp.ToggleOverview.Title="切换概述";
+
+DELSIEApp.ShowLogPanel.Title="显示日志";
+DELSIEApp.Show3DViewerCmd.Title="启动 3DOperations Viewer";
+
+//=============================================================================
+// 								Tools
+//=============================================================================
+DELSIEApp.Tools.Title="工具";
+
+DELSIEApp.EditViewPreferences.Title="视图首选项";
+DELSIEApp.LayoutPreferences.Title="布局首选项";
+
+DELSIEApp.ExportCSV.Title="导出 CSV";
+DELSIEApp.LoadRelations.Title="加载关系";
+DELSIEApp.RelationalExplorerCmd.Title="关系资源管理器";
+//-------------------------------------------------
+DELSIEApp.CustomizeColumns.Title="自定义列";
+DELSIEApp.ExportExcel.Title="导出 Excel";
+
+DELSIEApp.Delete.Title="删除...";
+DELSIEApp.CreateMfgItemStructure.Title="创建 SIE 项目结构";
+DELSIEApp.UpdateMfgItemStructure.Title="更新 SIE 项目结构";
+DELSIEApp.ManageInconsistentLinks.Title="更改影响管理";
+DELSIEApp.BIEssentialsCmd.Title="B.I. Essentials - 分配状态";
+DELSIEApp.BIAltSub.Title="B.I. Essentials - 替代项和替代件状态";
+DELSIEApp.CreateInstance.Title="创建实例";
+DELSIEApp.CreateLink.Title="创建链接";
+DELSIEApp.SearchAndAddInstanceCommand.Title="插入";
+DELSIEApp.InsertAsCopy.Title="作为副本插入";
+DELSIEApp.duplicate.Title="复制";
+DELSIEApp.DuplicateAdv.Title="高级复制";
+DELSIEApp.DELCreateEngineeringMadeFromItem.Title="创建工程制作自项目";
+
+//=============================================================================
+// 								lifecycle
+//=============================================================================
+DELSIEApp.Lifecycle.Title="生命周期";

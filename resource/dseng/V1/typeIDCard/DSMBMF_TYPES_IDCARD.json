@@ -1,0 +1,21 @@
+{
+    "dseng:MakeFrom": {
+        "isPublic":false,
+        "kindOf": "content",
+        "beType": "relationship_MustBeMadeFrom",
+        "rootLinks":["dseng:EngItem"],
+        "customizationSupport":false,
+        "patchCSRF":true,
+        "cestamp":true,
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsmbmf.V1.dictionaries.dsmbmfAttributeDictionary",
+        "implementationClass": "com.dassault_systemes.enovia.xapps.dsmbmf.V1.implementations.dsmbmfAttributeMakeFromImpl",
+        "defaultMask": "dseng:MakeFromDetails.public",
+        "optionCheck" : {
+        	"modify"      : true,
+        	"produce"     : true,
+        	"navigate"    : false
+        }
+    }
+}
+
+

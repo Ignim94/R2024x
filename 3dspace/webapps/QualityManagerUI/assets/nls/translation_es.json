@@ -1,0 +1,34 @@
+{
+  "AdvancedSettings": "Configuración avanzada",
+  "MobileMessage": "El comando Calidad visual no está disponible en dispositivos móviles.",
+  "Elements": {
+    "Low": "Rápido",
+    "Medium": "Equilibrado",
+    "High": "Calidad",
+    "Ultra": "Ultra",
+    "Default": "Recomendado",
+    "Custom": "Personalizada"
+  },
+  "PostProcessElements": {
+    "NoAA": "NoAA",
+    "FXAA": "FXAA",
+    "SMAA": "SMAA",
+    "Iterative": "Iterativo",
+    "TAA": "TAA"
+  },
+  "TransparencyElements": {
+    "AlphaBlending": "Mezcla alfa",
+    "WeightedAverage": "Media ponderada"
+  },
+  "FilteringElements": {
+    "PCFOptimized": "Optimizado para PCF",
+    "ESM": "ESM",
+    "Poisson": "poisson"
+  },
+  "SSAOElements": {
+    "None": "Ninguno",
+    "Low": "8 muestras",
+    "Medium": "16 muestras",
+    "High": "32 muestras"
+  }
+}

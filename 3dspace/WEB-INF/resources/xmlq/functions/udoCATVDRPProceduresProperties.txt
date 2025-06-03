@@ -1,0 +1,6 @@
+ProcDisplayName(VPMExtPositionExpandProcedure),"Expand VDRP VPMExtPosition"
+ProcUsageContexts(VPMExtPositionExpandProcedure),"UserDefCompletionForOpenCmd"
+ProcShortDescription(VPMExtPositionExpandProcedure),"Expands entire VDRP VPMExtPosition with associated AxisSystemReference structure"
+ProcCategory(VPMExtPositionExpandProcedure),"DSInternalUse"
+ProcVisibility(VPMExtPositionExpandProcedure),"DEV"
+ProcNodeType(VPMExtPositionExpandProcedure),"Any"

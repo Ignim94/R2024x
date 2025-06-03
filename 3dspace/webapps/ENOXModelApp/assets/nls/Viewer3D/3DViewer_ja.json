@@ -1,0 +1,5 @@
+{
+  "ERROR_Loading3DContent": "3D ビューのロードに失敗しました",
+  "ERROR_PreparingFilter": "フィルタ式の準備に失敗しました",
+  "ERROR_FilterValidation": "フィルタ式の検証に失敗しました"
+}

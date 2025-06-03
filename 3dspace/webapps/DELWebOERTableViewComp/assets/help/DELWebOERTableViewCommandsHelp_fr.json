@@ -1,0 +1,13 @@
+{
+"DELWebOERTableViewCompExpandAll.Title":"Développer tout",
+"DELWebOERTableViewCompCollapseAll.Title":"Réduire tout",
+"DELWebOERTableViewCompReframe.Title":"Recadrer",
+"DELWebOERTableViewCompShowAll.Title":"Afficher tout",
+"DELWebOERTableViewCompShowOnly.Title":"Afficher uniquement",
+"DELWebOERTableViewCompRemoveRoot.Title":"Enlever la racine",
+"DELWebOERTableViewCompOpenWith.Title":"Ouvrir avec",
+"DELWebOERTableViewCompLoadFTA.Title":"Charger FTA",
+"DELWebOERTableViewCompRemoveFTA.Title":"Enlever FTA",
+"DELWebOERTableViewCompLoadAllFTA.Title":"Charger toutes les FTA",
+"DELWebOERTableViewCompRemoveAllFTA.Title":"Enlever toutes les FTA"
+}

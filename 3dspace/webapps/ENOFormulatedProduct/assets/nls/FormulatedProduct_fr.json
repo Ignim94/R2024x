@@ -1,0 +1,13 @@
+{
+  "CreatingFormulatedLoader": "Création de {title}...",
+  "FormulatedProductSucess": "Le produit formulé a été créé.",
+  "FormulatedProductFailure": "Une erreur s'est produite lors de la création du produit formulé. Contactez l'administrateur de votre entreprise.",
+  "FormulatedProduct": "Produit formulé",
+  "Title": "Nouveau produit formulé",
+  "ChooseUnit": "Choisir une unité",
+  "SelectUnitMeasure": "Sélectionner une unité de mesure",
+  "BatchQuantityError": "Saisir une taille de lot supérieure à 0",
+  "SelectTemplate": "Sélectionner un modèle d'image de version",
+  "NoResults": "Modèle d'image de version introuvable",
+  "RevisonComment": "PLMReference.V_versionComment"
+}

@@ -1,0 +1,131 @@
+{
+	"SBOM.columnConfigPath": {
+		"path": "DELSIEApp/ProcessColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"MBOM.bomViewXML": {
+		"path": "DELSIEApp/BOMView",
+		"type": "bomViewConfiguration",
+		"rootNode": "Config"
+	},
+	"EBOM.columnConfigPath": {
+		"path": "DELSIEApp/ProductPartColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"IMPLEMENTMOD.columnConfigPath": {
+		"path": "DELSIEApp/UpdateMfgItemUI",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"MFGSTRUCTUREMOD.columnConfigPath": {
+		"path": "DELSIEApp/UpdateMfgItemUI",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"MIL.columnConfigPath": {
+		"path": "DELSIEApp/MILColumnConfig"
+	},
+	"CAPRESOURCE.columnConfigPath": {
+		"path": "DELSIEApp/CapableResourceColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"ORIGIN.columnConfigPath": {
+		"path": "DELSIEApp/OriginColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"ALTERNATES_AND_SUBSTITUTES.columnConfigPath": {
+		"path": "DELSIEApp/AlternatesAndSubstitutesColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"ALTERNATE.columnConfigPath": {
+		"path": "DELSIEApp/AlternateColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"SUBSTITUTES.columnConfigPath": {
+		"path": "DELSIEApp/SubstitutesColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"REQUIREMENT_VIEW.columnConfigPath": {
+		"path": "DELSIEApp/RequirementColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"RESPONSIBILITY.columnConfigPath": {
+		"path": "DELSIEApp/ResponsibilityColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"RESULTING_PRODUCT_VIEW.columnConfigPath": {
+		"path": "DELSIEApp/ResultingProductColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"AUXILIARY.columnConfigPath": {
+		"path": "DELSIEApp/AuxiliaryColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"REPLACEWHEREUSED.columnConfigPath": {
+		"path": "DELSIEApp/ReplaceWhereUsedColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"exportCSVPreferencesXML": {
+		"path": "DELSIEApp/ExportCSVPreferences",
+		"type": "exportCSVPreference",
+		"rootNode": "Config"
+	},
+	"indexMappingXML": {
+		"path": "DELSIEApp/IndexMapping"
+	},
+	"insertFormAttributeXML": {
+		"path": "DELSIEApp/InsertCmdFormAttribute",
+		"type": "insertFormConfiguration",
+		"rootNode": "AttributesDescriptionList"
+	},
+	"modelRelationsXML": {
+		"path": "DELSIEApp/ModelRelations"
+	},
+	"modelCustomRelationsXML": {
+		"path": "DELSIEApp/ModelCustomRelations"
+	},
+	"relationsColumnMappingXML": {
+		"path": "DELSIEApp/RelationsColumnMapping",
+		"type": "relationsColumns",
+		"rootNode": "RelationsColumnMapping"
+	},
+	"relationsDialogDisplayAttributeConfigXML": {
+		"path": "DELSIEApp/RelationsDialogDisplayAttributeConfig",
+		"type": "relationsColumns",
+		"rootNode": "DisplayAttributeDescriptionList"
+	},
+	"editFormAttributesXML": {
+		"path": "DELSIEApp/EditFormAttributes",
+		"type": "editFormConfiguration",
+		"rootNode": "AttributesDescriptionList"
+	},
+	"documemntColumnConfigXML": {
+		"path": "DELSIEApp/DocumentColumnDisplayAttributeConfig"
+	},
+	"toolTipConfigXML": {
+		"path": "DELSIEApp/TooltipConfig",
+		"type": "toolTipFormConfiguration",
+		"rootNode": "Tooltips"
+	},
+	"GeneralPreferences": {
+		"path": "DELSIEApp/GeneralPreferences"
+	},
+	"LandingPage": {
+		"path": "DELSIEApp/HomePage"
+	},
+	"ItemOOTBFiltering": {
+		"path": "DELPPWApplications/ItemOOTBFiltering"
+	}
+}

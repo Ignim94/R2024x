@@ -1,0 +1,216 @@
+<meta charset="UTF-8"/>
+//=============================================================================
+// 								Fixed
+//=============================================================================
+DELSIEApp.LandingPage.Title="ホーム";
+DELSIEApp.Refresh.Title="選択をリフレッシュ";
+DELSIEApp.Hide.Title="選択したオブジェクトを除去";
+DELSIEApp.Authoring.Title="オーサリング";
+DELSIEApp.HideAll.Title="すべてのオブジェクトを除去";
+DELSIEApp.Refresh.Title="選択したオブジェクトをリフレッシュ";
+DELSIEApp.RefreshAll.Title="すべてリフレッシュ";
+
+DELSIEApp.ToggleAuxiliaryView.Title="補助投影ビュー";
+DELSIEApp.ProductsParts.Title="プロダクトとパーツ";
+DELSIEApp.ServiceItems.Title="サービス項目";
+
+//=============================================================================
+// 								Authoring
+//=============================================================================
+DELSIEApp.Authoring.Title="オーサリング";
+
+//-------------------------------------------------
+//				Create
+//-------------------------------------------------
+DELSIEApp.InsertCreateAssembly.Title="サービス アセンブリー";
+DELSIEApp.InsertCreateKit.Title="サービス キット";
+DELSIEApp.InsertProvide.Title="サービス パーツ";
+DELSIEApp.InsertInstallation.Title="インストール";
+DELSIEApp.InsertContinuousServiceMaterial.Title="サービス連続パーツを作成";
+DELSIEApp.CreateContinuousServiceMaterialAndScope.Title="サービス連続パーツと有効範囲リンクを作成";
+DELSIEApp.InsertCreateServiceAttaching.Title="サービス添付パーツを作成";
+DELSIEApp.InsertCreateServiceSpare.Title="スペア アイテムを作成";
+
+//-------------------------------------------------
+//				Create Process & Scope
+//-------------------------------------------------
+DELSIEApp.CreateAssemblyAndScope.Title="サービス アセンブリーおよび有効範囲を作成";
+DELSIEApp.CreateMaterialAndScope.Title="サービス マテリアルおよび有効範囲を作成";
+DELSIEApp.CreateKitAndScope.Title="サービス キットおよび有効範囲を作成";
+DELSIEApp.CreateProvideAndScope.Title="サービス パーツおよび有効範囲を作成";
+DELSIEApp.CreateServiceAttachingAndScope.Title="サービス添付パーツおよび有効範囲リンクを作成";
+DELSIEApp.CreateServiceSpareAndScope.Title="スペア アイテムおよび有効範囲リンクを作成";
+//-------------------------------------------------
+//				Create Process & Resulting Product Link
+//-------------------------------------------------
+DELSIEApp.CreateAssemblyAndResultingProduct.Title="サービス アセンブリーおよび結果プロダクト リンクを作成";
+DELSIEApp.CreateMaterialAndResultingProduct.Title="サービス マテリアルおよび結果プロダクト リンクを作成";
+DELSIEApp.CreateKitAndResultingProduct.Title="サービス キットおよび結果プロダクト リンクを作成";
+DELSIEApp.CreateProvideAndResultingProduct.Title="サービス パーツおよび結果プロダクト リンクを作成";
+DELSIEApp.CreateServiceAttachingAndResultingProduct.Title="サービス添付パーツおよび結果プロダクト リンクを作成";
+DELSIEApp.CreateServiceSpareAndResultingProduct.Title="スペア アイテムと結果プロダクト リンクを作成";
+//-----------------------------------------------------------------------------
+//				Create Process & Scope/ResultingProduct Link for Alternate Substitutes
+//-----------------------------------------------------------------------------
+DELSIEApp.CreateAssemblyAndScopeAltSubst.Title="サービス アセンブリーおよび有効範囲を作成";
+DELSIEApp.CreateKitAndScopeAltSubst.Title="サービス キットおよび有効範囲を作成";
+DELSIEApp.CreateProvideAndScopeAltSubst.Title="サービス パーツおよび有効範囲を作成";
+DELSIEApp.CreateServiceAttachingAndScopeAltSubst.Title="サービス添付パーツおよび有効範囲を作成";
+DELSIEApp.CreateServiceSpareAndScopeAltSubst.Title="スペア アイテムおよび有効範囲を作成";
+//----------------------------------------------------
+DELSIEApp.CreateAssemblyAndResultingProductAltSubst.Title="サービス アセンブリーおよび結果プロダクト リンクを作成";
+DELSIEApp.CreateKitAndResultingProductAltSubst.Title="サービス キットおよび結果プロダクト リンクを作成";
+DELSIEApp.CreateProvideAndResultingProductAltSubst.Title="サービス パーツおよび結果プロダクト リンクを作成";
+DELSIEApp.CreateServiceAttachingAndResultingProductAltSubst.Title="サービス添付パーツおよび結果プロダクト リンクを作成";
+DELSIEApp.CreateServiceSpareAndSResultingProductAltSubst.Title="スペア アイテムと結果プロダクト リンクを作成";
+
+//-------------------------------------------------
+//				Product Assignation
+//-------------------------------------------------
+DELSIEApp.AssignAssembly.Title="サービス アセンブリーにプロダクトを割り当て";
+DELSIEApp.AssignKit.Title="サービス キットにプロダクトを割り当て";
+DELSIEApp.AssignProvide.Title="サービス パーツにプロダクトを割り当て ";
+DELSIEApp.AssignServiceAttaching.Title="サービス添付パーツにプロダクトを割り当て";
+DELSIEApp.AssignServiceSpare.Title="サービス スペア アイテムにプロダクトを割り当て";
+DELSIEApp.UnassignProduct.Title="プロダクトを割り当て解除";
+
+//-------------------------------------------------
+//				Scope
+//-------------------------------------------------
+DELSIEApp.CreateScopeLink.Title="有効範囲を作成";
+DELSIEApp.ReconnectScope.Title="有効範囲を再接続";
+DELSIEApp.ReviseAndReconnectScope.Title="リビジョン作成し有効範囲を再接続";
+DELSIEApp.DeleteScopeLink.Title="有効範囲を削除";
+DELSIEApp.CreatePartialScopeLink.Title="部分有効範囲を作成";
+DELSIEApp.DeletePartialScopeLink.Title="部分有効範囲を削除";
+DELSIEApp.StretchPartialScopeLink.Title="部分有効範囲を伸縮";
+DELSIEApp.SwitchToFullScopeLink.Title="部分有効範囲から全有効範囲に切り替え";
+
+//-------------------------------------------------
+//-------------------------------------------------
+DELSIEApp.AddExisting.Title="既存項目を追加";
+DELSIEApp.DetachInstance.Title="切り離し";
+
+//-------------------------------------------------
+//				Replace
+//-------------------------------------------------
+DELSIEApp.ReplaceByLatestRevision.Title="最新リビジョンで置換";
+DELSIEApp.ReplaceByExisting.Title="既存で置換";
+DELSIEApp.ReplaceByNewRevision.Title="新しいリビジョンで置換";
+DELSIEApp.ReplaceByNewReference.Title="新規で置換";
+DELSIEApp.ReplaceWhereUsed.Title="使用先を置換";
+
+//-------------------------------------------------
+//				Cut Copy
+//-------------------------------------------------
+DELSIEApp.Cut.Title="切り取り";
+DELSIEApp.Copy.Title="コピー";
+DELSIEApp.Paste.Title="貼り付け";
+
+//-------------------------------------------------
+DELSIEApp.CreateUpdateProcessStructure.Title="更新プロセス構造を作成";
+DELSIEApp.ChangeImpactAnalysis.Title="インパクト解析の変更";
+
+DELSIEApp.Relations.Title="関係";
+DELSIEApp.DisplayProperties.Title="情報";
+CollabSharing_Workbench.ActionBar_ChangeOwner.Title="移動";
+CollabSharing_Workbench.ActionBar_TransferOwnership.Title="所有者を変更";
+DELSIEApp.ShowCharacteristicsCmd.Title="特性の管理";
+DELSIEApp.ShowConsolidatedCharactscsCmd.Title="特性の管理: 統合されたビュー";
+
+//=============================================================================
+// 								Item Management
+//=============================================================================
+DELSIEApp.ItemManagement.Title="項目管理";
+
+//-------------------------------------------------
+DELSIEApp.CustomerExtension.Title="ユーザー拡張";
+DELSIEApp.ViewRelationships.Title="ビュー関係";
+//-------------------------------------------------
+DELSIEApp.Document.Title="ドキュメント";
+DELSIEApp.Characteristics.Title="特性";
+DELSIEApp.AlternatesAndSubstitutes.Title="代替と置換";
+DELSIEApp.Alternates.Title="代替";
+DELSIEApp.ResultingProduct.Title="結果プロダクト";
+DELSIEApp.Substitutes.Title="置換";
+DELSIEApp.Responsibilities.Title="責任";
+DELSIEApp.Origin.Title="原点";
+DELSIEApp.CapableResource.Title="使用可能リソース";
+//-------------------------------------------------
+DELSIEApp.NavigateResources.Title="使用可能リソースをナビゲート";
+DELSIEApp.Resources.Title="使用可能リソースを管理";
+DELSIEApp.NavigateRequirements.Title="要求をナビゲート";
+DELSIEApp.Requirements.Title="要求を管理";
+DELSIEApp.Requirement.Title="要求を管理";
+
+//=============================================================================
+// 								Configuration
+//=============================================================================
+DELSIEApp.Configuration.Title="構成";
+
+//-------------------------------------------------
+DELSIEApp.SetAuthoringContext.Title="オーサリング コンテキストを設定";
+DELSIEApp.Dictionnary.Title="辞書";
+DELSIEApp.FilterConfiguration.Title="フィルタ構成";
+
+//=============================================================================
+// 								View
+//=============================================================================
+DELSIEApp.View.Title="ビュー";
+
+//-------------------------------------------------
+DELSIEApp.ExpandAll.Title="すべてを展開";
+DELSIEApp.ExpandNLevel.Title="N レベルを展開";
+//-------------------------------------------------
+DELSIEApp.CollapseAll.Title="すべてを縮小";
+DELSIEApp.UserDefinedExplore.Title="ユーザー定義済みの探索";
+//-------------------------------------------------
+DELSIEApp.ToggleBodyView.Title="プロダクトビューを切り替え";
+DELSIEApp.Toggle3DView.Title="3D ビューを切り替え";
+DELSIEApp.ToggleGraphView.Title="グラフビューを切り替え";
+//-------------------------------------------------
+DELSIEApp.Filter.Title="フィルタ";
+DELSIEApp.ToggleAssignedParts.Title="割り当て済みパーツを切り替え";
+DELSIEApp.ToggleQuantityView.Title="数量ビューを切り替え";
+//-------------------------------------------------
+DELSIEApp.Reframe.Title="リフレーム";
+DELSIEApp.ReframeOn.Title="リフレーム オン";
+DELSIEApp.ToggleOrientation.Title="方向を切り替え";
+DELSIEApp.ToggleOverview.Title="概要を切り替え";
+
+DELSIEApp.ShowLogPanel.Title="ログを表示";
+DELSIEApp.Show3DViewerCmd.Title="3DOperations ビューアーを起動";
+
+//=============================================================================
+// 								Tools
+//=============================================================================
+DELSIEApp.Tools.Title="ツール";
+
+DELSIEApp.EditViewPreferences.Title="表示の環境設定";
+DELSIEApp.LayoutPreferences.Title="レイアウト設定を変更";
+
+DELSIEApp.ExportCSV.Title="CSV のエクスポート";
+DELSIEApp.LoadRelations.Title="Relations をロード";
+DELSIEApp.RelationalExplorerCmd.Title="リレーショナル エクスプローラ";
+//-------------------------------------------------
+DELSIEApp.CustomizeColumns.Title="列のカスタマイズ";
+DELSIEApp.ExportExcel.Title="Excel をエクスポート";
+
+DELSIEApp.Delete.Title="削除...";
+DELSIEApp.CreateMfgItemStructure.Title="SIE アイテム構造を作成";
+DELSIEApp.UpdateMfgItemStructure.Title="SIE アイテム構造を更新";
+DELSIEApp.ManageInconsistentLinks.Title="変更インパクト管理";
+DELSIEApp.BIEssentialsCmd.Title="B.I. Essentials - 割り当て状態";
+DELSIEApp.BIAltSub.Title="B.I. Essentials - 代替および置換状態";
+DELSIEApp.CreateInstance.Title="インスタンスを作成";
+DELSIEApp.CreateLink.Title="リンクを作成";
+DELSIEApp.SearchAndAddInstanceCommand.Title="挿入";
+DELSIEApp.InsertAsCopy.Title="コピーとして挿入";
+DELSIEApp.duplicate.Title="複写";
+DELSIEApp.DuplicateAdv.Title="拡張複写";
+DELSIEApp.DELCreateEngineeringMadeFromItem.Title="アイテムから作成されたエンジニアリングを作成";
+
+//=============================================================================
+// 								lifecycle
+//=============================================================================
+DELSIEApp.Lifecycle.Title="ライフサイクル";

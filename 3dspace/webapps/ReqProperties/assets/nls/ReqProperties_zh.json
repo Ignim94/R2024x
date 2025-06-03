@@ -1,0 +1,41 @@
+{
+  "documentsList": {
+    "referenceDocumentLabel": "参考文档",
+    "specificationDocumentLabel": "规格文档",
+    "noDocsFound": "未找到选定对象的文档。要附加文档，请在下面拖放文档 ",
+    "noDocsFound-referenceDocs": "未找到附件",
+    "noDocsFound-specificationDocs": "未找到文档",
+    "noReferenceDocsFound": "未找到选定对象的参考文档",
+    "insertDocuments": "选择要插入的文档",
+    "ctx": {
+      "openIn3DPlay": "3DPlay",
+      "checkInDocument": "检入",
+      "checkOutDocument": "检出",
+      "detachDocument": "拆离",
+      "attachDocument": "附加",
+      "downloadDocument": "下载",
+      "deleteDocument": "删除"
+    },
+    "masks": {
+      "createDocumentMask": "正在创建新文档",
+      "attachDocumentMask": "正在附加文档",
+      "checkinDocumentMask": "正在检入文档",
+      "checkoutDocumentMask": "正在检出文档",
+      "downloadDocumentMask": "正在下载文档",
+      "detachDocumentMask": "正在拆离文档",
+      "deleteDocumentMask": "正在删除文档",
+      "searchDocuments": "搜索要附加的文档"
+    },
+    "notifs": {
+      "cannotCheckInDocument": "无法检入文档",
+      "cannotDownloadDoc": "无法下载文档",
+      "cannotDeleteDoc": "无法删除文档",
+      "cannotDetachDoc": "无法拆离文档",
+      "unableCreateDocumentRep": "无法将文档连接到展示",
+      "attachDocumentFailed": "附加文档失败",
+      "somedroppedobjnotvalid": "某些对象无法作为文档附加",
+      "nofileselected": "未选定文件"
+    }
+  },
+  "rich_attr_head": "自定义属性"
+}

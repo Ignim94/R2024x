@@ -1,0 +1,16 @@
+m|WebUXEX\SpecTreeDGV.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.3.24062|3.2
+r|G:\R426\BSF\.
+t|win_b64\typings\SpecTreeDGV\typings\types.d.ts|1695048619|396
+s|WebUXEX\SpecTreeDGV.mweb\src\typings\types.d.ts|1695048619|396
+t|win_b64\webapps\SpecTreeDGV\SpecTreeDGV.js|1709353628|32972
+s|WebUXEX\SpecTreeDGV.mweb\src\SpecTreeDGV.js|1590066241|0
+t|win_b64\webapps\SpecTreeDGV\assets\specTree_TypeRepresentations.json|1685324420|938
+s|WebUXEX\SpecTreeDGV.mweb\src\assets\specTree_TypeRepresentations.json|1643732786|938
+u|WebUXEX\SpecTreeDGV.mweb\src\SpecTreeViewDGV.js|1707658415|86733
+u|WebUXEX\SpecTreeDGV.mweb\src\SpecTreeViewTreeNodeCell.js|1626770225|2720
+u|WebUXEX\SpecTreeDGV.mweb\src\typings\types.js|1695190799|149
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

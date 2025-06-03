@@ -1,0 +1,11 @@
+{
+	"Attributes": {
+	   "AmdLoader": "DS/ENOSpecMultiGrid/attributes/controller/MultiGridAttributeManager" ,
+		"nls_key": "tab_Attributes",
+		"key": "Attributes",
+		"icon": "attributes",
+		"license": "",
+		"order": 1
+	}
+}
+

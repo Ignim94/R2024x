@@ -1,0 +1,7 @@
+{
+  "Size_error": "Nazwa pliku nie może zawierać więcej niż {maxSupportedLength} znaków",
+  "Unsupported_char": "Nazwa pliku zawiera nieprawidłowy znak: {char}",
+  "Space_Leading_Trailing": "Występuje nieoczekiwana spacja początkowa i końcowa",
+  "Space_Leading": "Występuje nieoczekiwana spacja początkowa",
+  "Space_Trailing": "Występuje nieoczekiwana spacja końcowa"
+}

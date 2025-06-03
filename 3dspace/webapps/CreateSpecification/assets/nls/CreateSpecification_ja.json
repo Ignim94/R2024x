@@ -1,0 +1,14 @@
+{
+  "NoResults": "リリース スナップショット テンプレートが見つかりません",
+  "NewSpecification": "新規ドキュメント",
+  "NewEngineeringItem": "新規プロダクト",
+  "LoadingError": "フィールドのロード中にエラーが発生しました。ページを更新してください。",
+  "SpecificationCreateSuccess": "技術仕様が作成されました。",
+  "SpecificationCreateFailure": "技術仕様の作成中にエラーが発生しました。ビジネス管理者に問い合わせてください。",
+  "PhysicalPrdCreateSuccess": "プロダクトが作成されました。",
+  "PhysicalPrdCreateFailure": "プロダクトの作成中にエラーが発生しました。",
+  "RequiredFields": "すべての必須フィールドに値を指定してください。",
+  "CreatingTechSpecLoader": "{title} を作成中 ...",
+  "CorrectFields": "フィールドを訂正してください。",
+  "SelectTemplate": "テンプレートを選択"
+}

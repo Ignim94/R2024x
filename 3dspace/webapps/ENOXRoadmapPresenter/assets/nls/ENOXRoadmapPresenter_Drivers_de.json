@@ -1,0 +1,14 @@
+{
+  "BACKLOG_ITEMS": "Kandidaten",
+  "BACKLOGS_TITLE": "Kandidaten",
+  "DROP_HERE_FOR_PLAN": "Hier Elemente ablegen, die als Ziel dienen sollen ",
+  "DROP_HERE_FOR_BACKLOG": "Hier Elemente ablegen, die als Kandidaten hinzugefügt werden sollen",
+  "COMMITTED_FOR_THIS_REVISION": "Ziel für diese Revision ",
+  "BACKLOG": "Kandidaten",
+  "COMMITTED": "Ziel",
+  "ROADMAP_SETTINGS": "Treibereinstellungen",
+  "MANAGE_ROADMAP_SETTINGS": "Treibereinstellungen verwalten",
+  "SAME_BACKLOG_ITEM_LOADED": "Treiber sind bereits geladen.",
+  "HIDE_BACKLOG_PANE": "Kandidatenbereich ausblenden",
+  "SHOW_BACKLOG_PANE": "Kandidatenbereich anzeigen"
+}

@@ -1,0 +1,7 @@
+{
+  "review.mentionned.setting": "他のユーザーが、レビュー コメントで私に言及しました",
+  "review.mentionned.new": "<strong>###FROM_USER###</strong> さんが <strong>###OBJECT_TITLE###</strong> についてレビュー コメントであなたに言及しました",
+  "review.mentionned.new.mail.subject": "<strong>###FROM_USER###</strong> さんが <strong>###OBJECT_TITLE###</strong> についてレビュー コメントであなたに言及しました",
+  "review.mentionned.new.mail.content": "<strong>###FROM_USER###</strong> さんが <a ###REVIEW_URL###>###OBJECT_TITLE###</a> についてレビュー コメントであなたに言及しました",
+  "review.mentionned.new.mail.title": "他のユーザーが、レビューであなたに言及しました"
+}

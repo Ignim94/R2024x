@@ -1,0 +1,7 @@
+{
+  "review.mentionned.setting": "Jemand erwähnt mich in einem Überprüfungskommentar",
+  "review.mentionned.new": "<strong>###FROM_USER###</strong> hat Sie in einem Überprüfungskommentar zu <strong>###OBJECT_TITLE###</strong> erwähnt",
+  "review.mentionned.new.mail.subject": "<strong>###FROM_USER###</strong> hat Sie in einem Überprüfungskommentar zu <strong>###OBJECT_TITLE###</strong> erwähnt",
+  "review.mentionned.new.mail.content": "<strong>###FROM_USER###</strong> hat Sie in einem Überprüfungskommentar zu <a ###REVIEW_URL###>###OBJECT_TITLE###</a> erwähnt",
+  "review.mentionned.new.mail.title": "Jemand hat Sie in einer Überprüfung erwähnt"
+}

@@ -1,0 +1,23 @@
+{
+  "_create": "新",
+  "_delete": "移除",
+  "_information": "信息",
+  "_item": "项目",
+  "_contentFacet": "内容",
+  "_new_requirement": "新需求",
+  "_error_get_req": "获取需求时出错",
+  "_error_create_req": "创建需求时出错",
+  "_error_remove_req": "移除需求时出错",
+  "_req_update_succ": "需求内容已成功更新",
+  "_error_req_update": "更新需求时出错",
+  "_error_req_content_load": "加载需求时出错",
+  "_error_add_existing": "附加需求时出错",
+  "_priority": "优先级",
+  "_sequence_order": "序列顺序",
+  "_add_existing": "添加现有项",
+  "priority_preAssigned": "已预分配",
+  "priority_low": "低",
+  "priority_medium": "中等",
+  "priority_high": "高",
+  "priority_urgent": "紧急"
+}

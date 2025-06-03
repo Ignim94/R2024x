@@ -1,0 +1,1 @@
+define("DS/ENOREQ/ENOREQ_AP_ko",{});define("DS/ENOREQ_AP/assets/nls/ENOREQ_AP",{hasNONPS:"연결된 CAD 문서 있음"});

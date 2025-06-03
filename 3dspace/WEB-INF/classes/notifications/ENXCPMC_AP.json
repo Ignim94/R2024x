@@ -1,0 +1,11 @@
+{
+	"appID": "ENXCPMC_AP",
+	"notifications": [
+		"sourcing.notification.event.publication.publicationFileNotification.setting",
+		"sourcing.notification.event.publication.statusChange.setting",
+		"sourcing.notification.event.package.statusChange.setting",
+		"sourcing.notification.event.publication.fileCleanup.setting",
+		"sourcing.notification.event.publication.obsolete.setting",
+		"sourcing.notification.event.subscription.package.contentAdded.setting"
+	]
+}

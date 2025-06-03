@@ -1,0 +1,15 @@
+{
+	"App.Title": "Manufacturing Process Management",
+	"App.Motto": "Define your Manufacturing Plans",
+
+	"Restore.Title":"Restore",
+	"Restore.FontIcon": "fonticon fonticon-reset",
+
+  "Open.Title": "Open",
+  "Open.FontIcon": "fonticon fonticon-open",
+
+	"CreateWorkPlan.Title":"Create Workplan",
+	"CreateWorkPlan.FontIcon": "fonticon fonticon-plus",
+
+	"DragAndDrop.Title" : "Open"
+}

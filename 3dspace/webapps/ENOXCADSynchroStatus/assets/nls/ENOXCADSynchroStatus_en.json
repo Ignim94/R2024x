@@ -1,0 +1,14 @@
+{
+  "hasSync":"CAD Sync Status",
+  "RequestSynchronization": "Request Synchronization",
+  "ReqJob_Success": "Synchronization request created successfully. Refresh to view the status in CAD Sync Status column.",
+  "ReqJob_Failure": "Error while creating Synchronization request.",
+  "status_Sync": "Synchronized",
+  "status_Unsync": "Not synchronized",
+  "status_JobRunning": "Synchronization Job is running",
+  "status_JobFail": "Synchronization Job has failed",
+  "status_NA": "Not applicable",
+  "MSG_JOB_CREATED_FOR_SOME_NODES": "Synchronization Job created for one or more selected node(s).Refresh to view the status in CAD Sync Status column.",
+  "MSG_JOB_EXISTS_FOR_ALL_NODES": "Synchronization Job already exists for selected node(s).Refresh to view the status in CAD Sync Status column.",
+  "indexing_failed_message": "New or modified objects have not been indexed yet. Retry the operation in a few minutes."
+}

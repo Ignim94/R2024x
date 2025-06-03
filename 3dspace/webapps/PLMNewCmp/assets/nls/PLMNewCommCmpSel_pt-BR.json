@@ -1,0 +1,35 @@
+{
+  "CMDExpandAll": "Expandir tudo",
+  "CMDCollapseAll": "Recolher tudo",
+  "plmnew_management": "PLM Nova",
+  "multiSelectionComponent": {
+    "button_OK": "Adicionar",
+    "button_Cancel": "Cancelar",
+    "widget_name": "",
+    "msg_ClassifyInProgress": "Adicionar...",
+    "msg_ClassifySuccessful": "Adicionado com êxito.",
+    "msg_ClassifyFailed": "Ocorreu um erro durante a adição",
+    "msg_selectNodeToSeeInfo": "Selecione um Nó de navegação para ver seus detalhes."
+  },
+  "loader": {
+    "findingObjects": "Encontrando..."
+  },
+  "error_association_service": "O serviço falhou",
+  "loading": "Carregando...",
+  "error_run_command": "Falha ao executar o trabalho",
+  "error_command_selection": "Este comando não está disponível para a seleção.",
+  "tooltip_selection_rows_invalid": "Algumas linhas selecionadas não são compatíveis.",
+  "tooltip_selecion_terms_invalid": "Você pode selecionar apenas um Nó de navegação em uma Estrutura de navegação.",
+  "tooltip_selection_empty": "A seleção está vazia.",
+  "tooltip_selection_no_changes": "A seleção não foi alterada.",
+  "tooltip_browse": "Procurar",
+  "save": "Salvar",
+  "cancel": "Cancelar",
+  "ExportControlApp": "Controle de exportação de IP",
+  "LibraryApp": "Bibliotecas",
+  "BookmarksApp": "Marca",
+  "classificationFailure_title": "Habilite para classificar totalmente o novo \"{plmnewtype}\".",
+  "classificationFailure_subtitle": "O \"{plmnewtype}\" foi criado com êxito, mas não pôde ser classificado automaticamente.",
+  "classificationFailure_message": "Pode ser necessário verificar em cada aplicativo de classificação se ele está classificado ou não e tentar classificá-lo",
+  "classificationSuccessMessage": "O “{plmnewtype}” foi classificado com sucesso"
+}

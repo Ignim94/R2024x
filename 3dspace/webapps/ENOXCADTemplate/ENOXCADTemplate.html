@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+<!-- Copyright 2020 , Dassault Systemes. All rights reserved. -->
+
+<head>
+
+	<title>ENOVIA XCAD Template Management</title>
+
+	<!-- Application Metas Start -->
+
+	<meta name="description" content="CAA Web Apps basic use case " />
+	<meta name="keywords" content="CAA Use Case" />
+
+	<!-- Application Metas End -->
+
+	<link rel="stylesheet" type="text/css" href="../c/UWA/assets/css/standalone.css" />
+	<link rel="stylesheet" type="text/css" href="../UIKIT/UIKIT.css" />
+	<!-- AMDLoader -->
+	<script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+	<link rel="stylesheet" type="text/css" href="./ENOXCADTemplate.css" />
+	<script type="text/javascript" src="../WebappsUtils/WebappsUtils.js"></script>
+
+	<script type="text/javascript" src="../c/UWA/js/UWA_Standalone_Alone.js"></script>
+	<!-- Web Fundamentals -->
+	<script type="text/javascript" src="../WebUX/WebUX.js"></script>
+
+	<!--Application Javascript -->
+	<script>
+		require([
+			'DS/ENOXCADUtils/utils/XCADModelEvents',
+			'DS/ENOXCADTemplate/ENOXCADTemplatecommunication',
+			'DS/UWPClientCode/PublicAPI'
+		], function(XCADModelEvents, ENOXCADTemplatecommunication, PublicAPI) {
+
+			var templateWidget = {
+
+				onLoad: function() {
+					// Listen on webinwin:notification from Win and forward to Web
+					function receivedString(message) {
+						console.log("Inside receivedString..");
+						XCADModelEvents.publish({
+							event: "webinwin:win:notification",
+							data: message
+						});
+					}
+
+					if (window) {
+						console.log("window is availabe..");
+
+						if (typeof dscef !== 'undefined') {
+							window.dscef.receivedString = receivedString;
+						}
+
+						window.receivedString = receivedString;
+					}
+
+					// --- OnLoad will load all the events..
+					ENOXCADTemplatecommunication.onLoad();
+				}
+			};
+
+			widget.addEvent('onLoad', templateWidget.onLoad);
+		});
+	</script>
+
+</head>
+
+<body>
+
+	<!-- spinner-bar displayed at the center of the page before the widget is loaded -->
+	<div style="display: table; table-layout: fixed; position: absolute; height: 100%; width: 100%;">
+		<div style="display: table-cell; vertical-align: middle;">
+			<div style="margin-left: auto; margin-right: auto; width: 100px;">
+
+				<div class="spinner spinner-lg spinning fade in" style="position: relative; top: 50%; transform: translateY(-50%); display: inline-block;">
+					<span class="spinner-bar"></span>
+					<span class="spinner-bar spinner-bar1"></span>
+					<span class="spinner-bar spinner-bar2"></span>
+					<span class="spinner-bar spinner-bar3"></span>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

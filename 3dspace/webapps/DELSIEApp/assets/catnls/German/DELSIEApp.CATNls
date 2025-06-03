@@ -1,0 +1,216 @@
+<meta charset="UTF-8"/>
+//=============================================================================
+// 								Fixed
+//=============================================================================
+DELSIEApp.LandingPage.Title="Ausgangsposition";
+DELSIEApp.Refresh.Title="Ausgewählte aktualisieren";
+DELSIEApp.Hide.Title="Ausgewählte(s) Objekt(e) entfernen";
+DELSIEApp.Authoring.Title="Verfassen";
+DELSIEApp.HideAll.Title="Alle Objekte entfernen";
+DELSIEApp.Refresh.Title="Ausgewählte(s) Objekt(e) aktualisieren";
+DELSIEApp.RefreshAll.Title="Alle aktualisieren";
+
+DELSIEApp.ToggleAuxiliaryView.Title="Hilfsansicht";
+DELSIEApp.ProductsParts.Title="Produkt und Teile";
+DELSIEApp.ServiceItems.Title="Service-Elemente";
+
+//=============================================================================
+// 								Authoring
+//=============================================================================
+DELSIEApp.Authoring.Title="Verfassen";
+
+//-------------------------------------------------
+//				Create
+//-------------------------------------------------
+DELSIEApp.InsertCreateAssembly.Title="Servicebaugruppe";
+DELSIEApp.InsertCreateKit.Title="Serviceset";
+DELSIEApp.InsertProvide.Title="Serviceteil";
+DELSIEApp.InsertInstallation.Title="Installation";
+DELSIEApp.InsertContinuousServiceMaterial.Title="Durchgängiges Serviceteil erstellen";
+DELSIEApp.CreateContinuousServiceMaterialAndScope.Title="Durchgängiges Serviceteil und Gültigkeitsbereichsverknüpfung erzeugen";
+DELSIEApp.InsertCreateServiceAttaching.Title="Service-Zuordnungsteil erstellen";
+DELSIEApp.InsertCreateServiceSpare.Title="Ersatzteil erstellen";
+
+//-------------------------------------------------
+//				Create Process & Scope
+//-------------------------------------------------
+DELSIEApp.CreateAssemblyAndScope.Title="Servicebaugruppe und Gültigkeitsbereich erzeugen";
+DELSIEApp.CreateMaterialAndScope.Title="Servicematerial und Gültigkeitsbereich erzeugen";
+DELSIEApp.CreateKitAndScope.Title="Serviceset und Gültigkeitsbereich erzeugen";
+DELSIEApp.CreateProvideAndScope.Title="Serviceteil und Gültigkeitsbereich erstellen";
+DELSIEApp.CreateServiceAttachingAndScope.Title="Service-Zuordnungsteil und Gültigkeitsbereichsverknüpfung erzeugen";
+DELSIEApp.CreateServiceSpareAndScope.Title="Ersatzteil und Gültigkeitsbereichsverknüpfung erzeugen";
+//-------------------------------------------------
+//				Create Process & Resulting Product Link
+//-------------------------------------------------
+DELSIEApp.CreateAssemblyAndResultingProduct.Title="Servicebaugruppe und resultierende Produktverknüpfung erzeugen";
+DELSIEApp.CreateMaterialAndResultingProduct.Title="Servicematerial und resultierende Produktverknüpfung erzeugen";
+DELSIEApp.CreateKitAndResultingProduct.Title="Serviceset und resultierende Produktverknüpfung erzeugen";
+DELSIEApp.CreateProvideAndResultingProduct.Title="Serviceteil und resultierende Produktverknüpfung erzeugen";
+DELSIEApp.CreateServiceAttachingAndResultingProduct.Title="Service-Zuordnungsteil und resultierende Produktverknüpfung erzeugen";
+DELSIEApp.CreateServiceSpareAndResultingProduct.Title="Ersatzteil und resultierende Produktverknüpfung erzeugen";
+//-----------------------------------------------------------------------------
+//				Create Process & Scope/ResultingProduct Link for Alternate Substitutes
+//-----------------------------------------------------------------------------
+DELSIEApp.CreateAssemblyAndScopeAltSubst.Title="Servicebaugruppe und Gültigkeitsbereich erzeugen";
+DELSIEApp.CreateKitAndScopeAltSubst.Title="Serviceset und Gültigkeitsbereich erzeugen";
+DELSIEApp.CreateProvideAndScopeAltSubst.Title="Serviceteil und Gültigkeitsbereich erstellen";
+DELSIEApp.CreateServiceAttachingAndScopeAltSubst.Title="Service-Zuordnungsteil und Gültigkeitsbereich erzeugen";
+DELSIEApp.CreateServiceSpareAndScopeAltSubst.Title="Ersatzteil und Gültigkeitsbereich erzeugen";
+//----------------------------------------------------
+DELSIEApp.CreateAssemblyAndResultingProductAltSubst.Title="Servicebaugruppe und resultierende Produktverknüpfung erzeugen";
+DELSIEApp.CreateKitAndResultingProductAltSubst.Title="Serviceset und resultierende Produktverknüpfung erzeugen";
+DELSIEApp.CreateProvideAndResultingProductAltSubst.Title="Service-Element und resultierende Produktverknüpfung erzeugen";
+DELSIEApp.CreateServiceAttachingAndResultingProductAltSubst.Title="Service-Zuordnungsteil und resultierende Produktverknüpfung erzeugen";
+DELSIEApp.CreateServiceSpareAndSResultingProductAltSubst.Title="Ersatzteil und resultierende Produktverknüpfung erzeugen";
+
+//-------------------------------------------------
+//				Product Assignation
+//-------------------------------------------------
+DELSIEApp.AssignAssembly.Title="Produkt einer Servicebaugruppe zuordnen";
+DELSIEApp.AssignKit.Title="Produkt einem Serviceset zuordnen";
+DELSIEApp.AssignProvide.Title="Produkt einem Service-Element zuordnen ";
+DELSIEApp.AssignServiceAttaching.Title="Produkt zu Service-Zuordnungsteil zuweisen";
+DELSIEApp.AssignServiceSpare.Title="Produkt zu Service-Ersatzteil zuweisen";
+DELSIEApp.UnassignProduct.Title="Produktzuordnung aufheben";
+
+//-------------------------------------------------
+//				Scope
+//-------------------------------------------------
+DELSIEApp.CreateScopeLink.Title="Gültigkeitsbereich erzeugen";
+DELSIEApp.ReconnectScope.Title="Gültigkeitsbereich neu verbinden";
+DELSIEApp.ReviseAndReconnectScope.Title="Gültigkeitsbereich überarbeiten und neu verbinden";
+DELSIEApp.DeleteScopeLink.Title="Gültigkeitsbereich löschen";
+DELSIEApp.CreatePartialScopeLink.Title="Partiellen Gültigkeitsbereich erzeugen";
+DELSIEApp.DeletePartialScopeLink.Title="Partiellen Gültigkeitsbereich löschen";
+DELSIEApp.StretchPartialScopeLink.Title="Partiellen Gültigkeitsbereich strecken";
+DELSIEApp.SwitchToFullScopeLink.Title="Von Teilbereich in die volle Ansicht wechseln";
+
+//-------------------------------------------------
+//-------------------------------------------------
+DELSIEApp.AddExisting.Title="Vorhandene hinzufügen";
+DELSIEApp.DetachInstance.Title="Abhängen";
+
+//-------------------------------------------------
+//				Replace
+//-------------------------------------------------
+DELSIEApp.ReplaceByLatestRevision.Title="Durch neueste Revision ersetzen";
+DELSIEApp.ReplaceByExisting.Title="Durch bestehende ersetzen";
+DELSIEApp.ReplaceByNewRevision.Title="Durch neue Revision ersetzen";
+DELSIEApp.ReplaceByNewReference.Title="Durch neue ersetzen";
+DELSIEApp.ReplaceWhereUsed.Title="Ersetzen, wo verwendet";
+
+//-------------------------------------------------
+//				Cut Copy
+//-------------------------------------------------
+DELSIEApp.Cut.Title="Ausschneiden";
+DELSIEApp.Copy.Title="Kopieren";
+DELSIEApp.Paste.Title="Einfügen";
+
+//-------------------------------------------------
+DELSIEApp.CreateUpdateProcessStructure.Title="Struktur für Aktualisierungsprozess erstellen";
+DELSIEApp.ChangeImpactAnalysis.Title="Abhängigkeitsanalyse ändern";
+
+DELSIEApp.Relations.Title="Beziehungen";
+DELSIEApp.DisplayProperties.Title="Informationen";
+CollabSharing_Workbench.ActionBar_ChangeOwner.Title="Verschieben";
+CollabSharing_Workbench.ActionBar_TransferOwnership.Title="Eigentümer ändern";
+DELSIEApp.ShowCharacteristicsCmd.Title="Merkmalverwaltung";
+DELSIEApp.ShowConsolidatedCharactscsCmd.Title="Merkmalverwaltung: Konsolidierte Ansicht";
+
+//=============================================================================
+// 								Item Management
+//=============================================================================
+DELSIEApp.ItemManagement.Title="Elementverwaltung";
+
+//-------------------------------------------------
+DELSIEApp.CustomerExtension.Title="Kundenerweiterung";
+DELSIEApp.ViewRelationships.Title="Beziehungen anzeigen";
+//-------------------------------------------------
+DELSIEApp.Document.Title="Dokument";
+DELSIEApp.Characteristics.Title="Eigenschaften";
+DELSIEApp.AlternatesAndSubstitutes.Title="Alternativen und Ersatz";
+DELSIEApp.Alternates.Title="Alternativen";
+DELSIEApp.ResultingProduct.Title="Resultierendes Produkt";
+DELSIEApp.Substitutes.Title="Ersatz";
+DELSIEApp.Responsibilities.Title="Verantwortungsbereiche";
+DELSIEApp.Origin.Title="Ursprung";
+DELSIEApp.CapableResource.Title="Geeignete Ressource";
+//-------------------------------------------------
+DELSIEApp.NavigateResources.Title="Geeignete Ressourcen navigieren";
+DELSIEApp.Resources.Title="Geeignete Ressourcen verwalten";
+DELSIEApp.NavigateRequirements.Title="Anforderungen navigieren";
+DELSIEApp.Requirements.Title="Anforderungen verwalten";
+DELSIEApp.Requirement.Title="Anforderung verwalten";
+
+//=============================================================================
+// 								Configuration
+//=============================================================================
+DELSIEApp.Configuration.Title="Konfiguration";
+
+//-------------------------------------------------
+DELSIEApp.SetAuthoringContext.Title="Authoring-Kontext festlegen";
+DELSIEApp.Dictionnary.Title="Datenverzeichnis";
+DELSIEApp.FilterConfiguration.Title="Filterkonfiguration";
+
+//=============================================================================
+// 								View
+//=============================================================================
+DELSIEApp.View.Title="Anzeigen";
+
+//-------------------------------------------------
+DELSIEApp.ExpandAll.Title="Alles erweitern";
+DELSIEApp.ExpandNLevel.Title="Ebene N erweitern";
+//-------------------------------------------------
+DELSIEApp.CollapseAll.Title="Alles ausblenden";
+DELSIEApp.UserDefinedExplore.Title="Benutzerdefiniertes Durchsuchen";
+//-------------------------------------------------
+DELSIEApp.ToggleBodyView.Title="Produktansicht umschalten";
+DELSIEApp.Toggle3DView.Title="3D-Ansicht umschalten";
+DELSIEApp.ToggleGraphView.Title="Diagrammansicht umschalten";
+//-------------------------------------------------
+DELSIEApp.Filter.Title="Filtern";
+DELSIEApp.ToggleAssignedParts.Title="Zugewiesene Teile umschalten";
+DELSIEApp.ToggleQuantityView.Title="Mengenansicht umschalten";
+//-------------------------------------------------
+DELSIEApp.Reframe.Title="Ansicht ausrichten";
+DELSIEApp.ReframeOn.Title="Ansicht ausrichten auf";
+DELSIEApp.ToggleOrientation.Title="Ausrichtung umschalten";
+DELSIEApp.ToggleOverview.Title="Übersicht umschalten";
+
+DELSIEApp.ShowLogPanel.Title="Protokoll anzeigen";
+DELSIEApp.Show3DViewerCmd.Title="3DOperations Viewer starten";
+
+//=============================================================================
+// 								Tools
+//=============================================================================
+DELSIEApp.Tools.Title="Tools";
+
+DELSIEApp.EditViewPreferences.Title="Anzeigeeinstellungen";
+DELSIEApp.LayoutPreferences.Title="Layout-Vorgaben";
+
+DELSIEApp.ExportCSV.Title="CSV exportieren";
+DELSIEApp.LoadRelations.Title="Beziehungen laden";
+DELSIEApp.RelationalExplorerCmd.Title="Verbundener Explorer";
+//-------------------------------------------------
+DELSIEApp.CustomizeColumns.Title="Spalten anpassen";
+DELSIEApp.ExportExcel.Title="Nach Excel exportieren";
+
+DELSIEApp.Delete.Title="Löschen...";
+DELSIEApp.CreateMfgItemStructure.Title="SIE-Elementstruktur erstellen";
+DELSIEApp.UpdateMfgItemStructure.Title="SIE-Elementstruktur aktualisieren";
+DELSIEApp.ManageInconsistentLinks.Title="Verwaltung von Änderungsauswirkungen";
+DELSIEApp.BIEssentialsCmd.Title="B.I. Essentials – Zuordnungsstatus";
+DELSIEApp.BIAltSub.Title="B.I. Essentials – Alternativen- Ersatzstatus";
+DELSIEApp.CreateInstance.Title="Instanz erzeugen";
+DELSIEApp.CreateLink.Title="Verknüpfung erstellen";
+DELSIEApp.SearchAndAddInstanceCommand.Title="Hinzufügen";
+DELSIEApp.InsertAsCopy.Title="Als Kopie einfügen";
+DELSIEApp.duplicate.Title="Duplizieren";
+DELSIEApp.DuplicateAdv.Title="Erweitertes Duplizieren";
+DELSIEApp.DELCreateEngineeringMadeFromItem.Title="„Engineering aus“-Element erstellen";
+
+//=============================================================================
+// 								lifecycle
+//=============================================================================
+DELSIEApp.Lifecycle.Title="Lebenszyklus";

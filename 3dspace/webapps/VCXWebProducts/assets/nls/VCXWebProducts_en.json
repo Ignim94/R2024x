@@ -1,0 +1,12 @@
+{
+  "GuidedTourTerminateButton": "Terminate Guided Tour",
+  "PreviewModeTooltipTerminateButton": "Terminate Preview Mode command",
+  "PreviewModeTooltipToggleCanvasButton": "Activate/Deactivate the display of paper",
+  "PreviewModeTooltipTogglePlayButton": "Play automatic play",
+  "PreviewModeTooltipTogglePauseButton": "Pause automatic play",
+  "PreviewModeLabelTogglePlayButton": "PLAY",
+  "PreviewModeLabelTogglePauseButton": "PAUSE",
+  "PreviewModeLabelTerminateButton": "STOP PREVIEW",
+  "PreviewModeLabelToggleCanvasButton": "CANVAS",
+  "VCXSelectElementMessage": "Select an object"
+}

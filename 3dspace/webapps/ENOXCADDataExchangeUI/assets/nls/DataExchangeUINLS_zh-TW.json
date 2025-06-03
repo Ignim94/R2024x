@@ -1,0 +1,11 @@
+{
+  "xcadimport.modal.title": "輸入套件",
+  "browse.Folder.DialogTitle": "按一下以瀏覽磁碟中的檔案",
+  "xcadimport.drive.label": "3D Drive",
+  "xcadimport.disk.radio.label": "磁碟中的檔案",
+  "xcadimport.select.button.label": "開啟",
+  "xcadimport.cancel.button.label": "取消",
+  "xcadimport.zip.selection": "請選擇適當的套件檔案",
+  "exchange_app_close": "關閉",
+  "exchange_app_close_info": "啟動新輸出或輸入前的應用程式"
+}

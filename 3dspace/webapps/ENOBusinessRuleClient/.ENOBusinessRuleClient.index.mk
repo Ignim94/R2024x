@@ -1,0 +1,9 @@
+m|ENOCollabBaseServicesWebUI\ENOBusinessRuleClient.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.7.24229|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\ENOBusinessRuleClient\ENOBusinessRuleClient.js|1723851594|1190
+s|ENOCollabBaseServicesWebUI\ENOBusinessRuleClient.mweb\src\Services.js|1721819079|3194
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

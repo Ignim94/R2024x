@@ -1,0 +1,18 @@
+{
+  "cadsubtypefield": "Tipo de 3DEXPERIENCE",
+  "cadtypefield": "Tipo de CAD",
+  "templatefield": "Plantillas",
+  "managetemplates": "Administrar plantillas",
+  "newfromok": "Aceptar",
+  "newfromcancel": "Cancelar",
+  "newfromtemplate": "Nuevo desde plantilla",
+  "msg_success_templatecreate": "La plantilla se ha creado correctamente.",
+  "msg_success_edittemplate": "La plantilla se ha modificado correctamente.",
+  "msg_error_editmodifyaccess": "Debe tener permiso para modificar esta plantilla. Compruebe sus credenciales o póngase en contacto con el administrador para recibir asistencia.",
+  "msg_success_listtemplate": "La lista de plantillas se ha cargado correctamente",
+  "msg_success_notemplate": "No hay ninguna plantilla disponible para este tipo",
+  "msg_error_mandfieldempty": "Los campos obligatorios están vacíos",
+  "msg_error_templateempty": "El campo Plantillas está vacío",
+  "msg_error_cadtypeempty": "El campo Tipo de CAD está vacío",
+  "mysession_newfromdlg_title": "Nuevo desde plantilla"
+}

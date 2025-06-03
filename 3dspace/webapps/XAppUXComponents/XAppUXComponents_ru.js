@@ -1,0 +1,1 @@
+define("DS/XAppUXComponents/XAppUXComponents_ru",{});define("DS/XAppUXComponents/assets/nls/XAppTopBar",{XAppTopBar:{Share:{SaveDocument:"Сохранить документ"}}});define("DS/XAppUXComponents/assets/nls/XAppWaitingBar",{"WaitingBar.Stop":"Остановить"});define("DS/XAppUXComponents/assets/nls/XAppWelcomeScreenIntegrator",{"SwitchAppBtn.Hover":"Сменить приложение"});

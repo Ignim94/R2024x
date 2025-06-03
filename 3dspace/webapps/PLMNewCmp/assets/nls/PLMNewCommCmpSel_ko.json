@@ -1,0 +1,35 @@
+{
+  "CMDExpandAll": "모두 확장",
+  "CMDCollapseAll": "모두 축소",
+  "plmnew_management": "PLM 신규",
+  "multiSelectionComponent": {
+    "button_OK": "추가",
+    "button_Cancel": "취소",
+    "widget_name": "",
+    "msg_ClassifyInProgress": "추가...",
+    "msg_ClassifySuccessful": "성공적으로 추가되었습니다.",
+    "msg_ClassifyFailed": "추가 시 오류가 발생했습니다.",
+    "msg_selectNodeToSeeInfo": "세부 정보를 볼 검색 노드를 선택합니다."
+  },
+  "loader": {
+    "findingObjects": "찾는 중..."
+  },
+  "error_association_service": "서비스 실패",
+  "loading": "로드 중...",
+  "error_run_command": "명령을 실행하지 못했습니다.",
+  "error_command_selection": "이 명령은 선택 항목에 사용할 수 없습니다.",
+  "tooltip_selection_rows_invalid": "선택된 일부 행이 호환되지 않습니다.",
+  "tooltip_selecion_terms_invalid": "검색 구조에서 하나의 검색 노드만 선택할 수 있습니다.",
+  "tooltip_selection_empty": "선택 항목이 비어 있습니다.",
+  "tooltip_selection_no_changes": "선택 항목이 변경되지 않았습니다.",
+  "tooltip_browse": "찾아보기",
+  "save": "저장",
+  "cancel": "취소",
+  "ExportControlApp": "IP 내보내기 제어",
+  "LibraryApp": "라이브러리",
+  "BookmarksApp": "북마크",
+  "classificationFailure_title": "새 \"{plmnewtype}\"을(를) 완전히 분류할 수 있습니다.",
+  "classificationFailure_subtitle": "\"{plmnewtype}\"이(가) 생성되었지만, 자동으로 분류할 수 없습니다.",
+  "classificationFailure_message": "각 분류 앱에서 분류 여부를 확인하고 분류해야 할 수 있습니다.",
+  "classificationSuccessMessage": "\"{plmnewtype}\"이(가) 분류되었습니다."
+}

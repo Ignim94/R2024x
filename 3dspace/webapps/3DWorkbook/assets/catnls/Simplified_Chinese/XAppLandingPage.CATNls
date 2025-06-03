@@ -1,0 +1,11 @@
+<meta charset="UTF-8"/>
+XAppLandingPage.Title="工厂资产管理";
+XAppLandingPage.App.Title="工厂资产管理";
+
+XAppLandingPage.Create.Title="新建";
+XAppLandingPage.Create.Description="新建工厂";
+
+XAppLandingPage.Load.Title="加载现有";
+XAppLandingPage.Load.Description="加载现有工厂";
+
+XAppLandingPage.Drop="或将您的内容拖放到此处";

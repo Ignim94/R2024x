@@ -1,0 +1,21 @@
+{
+  "ERROR_DATA_LOAD_TITLE": "モデル バージョン コンポジションの取得中にエラーが発生しました。",
+  "ERROR_DATA_ADD_TITLE": "モデル バージョン コンポジションの追加中にエラーが発生しました。",
+  "ERROR_DATA_REMOVE_TITLE": "モデル バージョン コンポジションの除去中にエラーが発生しました。",
+  "ERROR_DATA_REPLACE_TITLE": "モデル バージョン リビジョンの置換中にエラーが発生しました。",
+  "ERROR_DATA_DEFAULT_TITLE": "アクションを実行できません。",
+  "ERROR_DATA_LOAD_MSG": "このオブジェクトへのアクセス権があることを確認します。",
+  "ERROR_SAME_REVISION_TITLE": "同じリビジョンが選択されました",
+  "ERROR_SAME_REVISION_MSG": "置換する別のリビジョンを選択してください",
+  "title_label": "タイトル",
+  "revision_label": "リビジョン",
+  "isLastRevision_label": "最新リビジョン",
+  "modelName_label": "モデルの名前",
+  "owner_label": "所有者",
+  "type_label": "タイプ",
+  "add_action_label": "モデル バージョンを追加",
+  "replace_action_label": "リビジョンで置換",
+  "remove_action_label": "除去",
+  "information_action_label": "情報",
+  "searchLabel": "モデル バージョンを選択"
+}

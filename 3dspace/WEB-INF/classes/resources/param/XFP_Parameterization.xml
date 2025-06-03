@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="FormulatedProduct">
+	<Domain id="AttributeDef">
+		<Family id="Formulated_Product">
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="Formulated_Product"/>
+			<Constant id="package"
+				value="FormulatedProductSpecification"/>
+		</Family>
+	</Domain>
+
+	<Domain id="ObjectIdentification">
+		<Family id="ObjectIdentifier">
+			<Parameter id="FormulatedProductPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="frm" />
+				<Argument id="SuffixArg" type="string" default="01" />
+				<Constant id="type" value="Formulated_Product" />
+				<Constant id="appType" value="VPM" />
+			</Parameter>
+		</Family>
+	</Domain>
+
+</OOTBParameterization>

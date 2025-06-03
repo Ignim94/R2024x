@@ -1,0 +1,21 @@
+{
+  "Nb_New": "Nowy obiekt {nbNew}",
+  "Nb_Mod": "Zmodyfikowany obiekt {nbMod}",
+  "Nb_Exc": "Wykluczony obiekt {nbExc}",
+  "Nb_Inc": "Uwzględniony obiekt {nbInc}",
+  "Save_stats": "Zakres zapisu obejmuje: ",
+  "Unreserve_checkbox": "Odblokuj",
+  "PGP_checkbox": "Dodaj właściwości graficzne produktu",
+  "PMR_checkbox": "Dodaj właściwości elastyczności produktu",
+  "KeepIteration_checkbox": "Zachowaj poprzednią iterację",
+  "Async_checkbox": "Zapisz w tle",
+  "Work_Under": "Praca w ramach akcji zmiany: ",
+  "No_DefaultBookmark": "Nie znaleziono domyślnej zakładki.",
+  "Not_AllObjectsInBookmark": "Przypisz zakładkę do wszystkich obiektów",
+  "Not_AllLocked": "Zablokuj wszystkie dołączone obiekty",
+  "No_ReadAccess": "Brak dostępu do odczytu dla niektórych obiektów",
+  "SaveComment_checkbox": "Dodaj komentarz",
+  "ExposePublication_checkbox": "Ujawnij publikacje",
+  "AddComment_textbox": "Wprowadź komentarz tutaj...",
+  "ApplyMaterial_checkbox": "Nałóż materiał na 3DEXPERIENCE"
+}

@@ -1,0 +1,259 @@
+{
+	"dsprcs:AlertMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		}
+	],
+	"dsprcs:AlertMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:AlertMask.Default"
+		},
+		"dsprcs:Alert.text",
+		"dsprcs:Alert.showMode",
+		"dsprcs:Alert.trackComfirmation",
+		"dsprcs:WorkInstructionEnterpriseAttributes",
+		"dsprcs:AlertEnterpriseAttributes",
+		"dsmveno:attribute.reference.versionComment"
+	],
+	"dsprcs:InstructionMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		}
+	],
+	"dsprcs:InstructionMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:InstructionMask.Default"
+		},	
+		"dsprcs:Instruction.text",
+		"dsprcs:WorkInstructionEnterpriseAttributes",
+		"dsprcs:InstructionEnterpriseAttributes",
+		"dsmveno:attribute.reference.versionComment"
+	],
+	"dsprcs:SignOffMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		}
+	],
+	"dsprcs:SignOffMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:SignOffMask.Default"
+		},	
+		"dsprcs:SignOff.text",
+		"dsprcs:SignOff.isPartialSignoffAllowed",
+		"dsprcs:SignOff.isOptional",
+		"dsprcs:SignOff.actors",
+		"dsprcs:WorkInstructionEnterpriseAttributes",
+		"dsprcs:SignOffEnterpriseAttributes",
+		"dsmveno:attribute.reference.versionComment"
+	],
+	"dsprcs:DataCollectMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		}
+	],
+	"dsprcs:DataCollectMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:DataCollectMask.Default"
+		},	
+		"dsprcs:DataCollect.text",
+		"dsprcs:DataCollect.label",
+		"dsprcs:DataCollect.sampleSize",
+		"dsprcs:DataCollect.dcType",
+		"dsprcs:DataCollect.hasMaxValuated",
+		"dsprcs:DataCollect.hasMinValuated",
+		"dsprcs:DataCollect.magnitude",
+		"dsprcs:DataCollect.maxValue",
+		"dsprcs:DataCollect.minValue",
+		"dsprcs:DataCollect.possibleValues",
+		"dsprcs:DataCollect.maxIncluded",
+		"dsprcs:DataCollect.minIncluded",
+		"dsprcs:WorkInstructionEnterpriseAttributes",
+		"dsprcs:DataCollectEnterpriseAttributes",
+		"dsmveno:attribute.reference.versionComment"
+	],
+	"dsprcs:DataCollectPlanMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		}
+	],
+	"dsprcs:DataCollectPlanMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:DataCollectPlanMask.Default"
+		},
+		"dsprcs:WorkInstructionEnterpriseAttributes",
+		"dsmveno:attribute.reference.versionComment"
+	],
+	"dsprcs:CheckListMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		}
+	],
+	"dsprcs:CheckListMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:CheckListMask.Default"
+		},
+		"dsprcs:WorkInstructionEnterpriseAttributes",
+		"dsmveno:attribute.reference.versionComment"
+	],
+	"dsprcs:AlertInstanceMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultRelMask.public"
+		},
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		{
+			"property": "to.physicalid",
+			"key": "reference"
+		}
+	],
+	"dsprcs:AlertInstanceMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:AlertInstanceMask.Default"
+		},
+		"dsprcs:instanceDetails.referencedObject"
+	],
+	"dsprcs:InstructionInstanceMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultRelMask.public"
+		},
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		{
+			"property": "to.physicalid",
+			"key": "reference"
+		}
+	],
+	"dsprcs:InstructionInstanceMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:InstructionInstanceMask.Default"
+		},
+		"dsprcs:instanceDetails.referencedObject"
+	],
+	"dsprcs:SignOffInstanceMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultRelMask.public"
+		},
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		{
+			"property": "to.physicalid",
+			"key": "reference"
+		}
+	],
+	"dsprcs:SignOffInstanceMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:SignOffInstanceMask.Default"
+		},
+		"dsprcs:instanceDetails.referencedObject"
+	],
+	"dsprcs:DataCollectInstanceMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultRelMask.public"
+		},
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		{
+			"property": "to.physicalid",
+			"key": "reference"
+		}
+	],
+	"dsprcs:DataCollectInstanceMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:DataCollectInstanceMask.Default"
+		},
+		"dsprcs:instanceDetails.referencedObject"
+	],
+	"dsprcs:DataCollectPlanInstanceMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultRelMask.public"
+		},
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		{
+			"property": "to.physicalid",
+			"key": "reference"
+		}
+	],
+	"dsprcs:DataCollectPlanInstanceMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:DataCollectPlanInstanceMask.Default"
+		},
+		"dsprcs:instanceDetails.referencedObject"
+	],
+	"dsprcs:DataCollectRowMask.Default": [
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.created.utc",
+		"dsprcs:DataCollectRow.label",
+		"dsprcs:DataCollectRow.text",
+		"dsprcs:DataCollectRow.mode",
+		"dsprcs:DataCollectRow.magnitude",
+		"dsprcs:DataCollectRow.dcType",
+		"dsprcs:DataCollectRow.numberOfMeasurements",
+		"dsprcs:DataCollectRow.maxValue",
+		"dsprcs:DataCollectRow.minValue",
+		"dsprcs:DataCollectRow.controlMinValue",
+		"dsprcs:DataCollectRow.controlMaxValue",
+		"dsprcs:DataCollectRow.nominalValue",
+		"dsprcs:DataCollectRow.possibleValues",
+		"dsprcs:DataCollectRow.minIncluded",
+		"dsprcs:DataCollectRow.maxIncluded",
+		"dsprcs:DataCollectRow.isValueSet",
+		"dsprcs:DataCollectRow.controlMinIncluded",
+		"dsprcs:DataCollectRow.controlMaxIncluded",
+		"dsprcs:DataCollectRow.minLimit",
+		"dsprcs:DataCollectRow.maxLimit",
+		"dsprcs:DataCollectRow.controlMinLimit",
+		"dsprcs:DataCollectRow.controlMaxLimit"
+	],
+	"dsprcs:CheckListRowMask.Default": [
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.created.utc",
+		"dsprcs:CheckListRow.label",
+		"dsprcs:CheckListRow.text",
+		"dsprcs:CheckListRow.dcType",
+		"dsprcs:CheckListRow.possibleValues"
+	],
+	"dsprcs:Unit.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:DefaultBusMask.utc"
+		},
+		"dsmveno:basic.created.utc", 
+		"dsmveno:basic.modified.utc",
+		"dsprcs:Unit.BuildDisposition",
+		"dsprcs:Unit.BuildSerialNumber",
+		"dsprcs:Unit.BuildUnitNumber",
+		"dsprcs:Unit.DateShipped"
+	]
+}

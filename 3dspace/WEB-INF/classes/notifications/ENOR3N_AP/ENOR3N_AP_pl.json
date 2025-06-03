@@ -1,0 +1,7 @@
+{
+  "review.mentionned.setting": "Ktoś wspomina mnie w komentarzu do recenzji",
+  "review.mentionned.new": "Użytkownik <strong>###FROM_USER###</strong> wspomniał Cię w komentarzu do recenzji na temat <strong>###OBJECT_TITLE###</strong>",
+  "review.mentionned.new.mail.subject": "Użytkownik <strong>###FROM_USER###</strong> wspomniał Cię w komentarzu do recenzji na temat <strong>###OBJECT_TITLE###</strong>",
+  "review.mentionned.new.mail.content": "Użytkownik <strong>###FROM_USER###</strong> wspomniał Cię w komentarzu do recenzji na temat <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+  "review.mentionned.new.mail.title": "Ktoś wspomniał Cię w recenzji"
+}

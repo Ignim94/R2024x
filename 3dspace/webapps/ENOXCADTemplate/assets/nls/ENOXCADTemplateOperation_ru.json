@@ -1,0 +1,11 @@
+{
+  "edit": "Редактировать",
+  "download": "Скачать",
+  "publish": "Готовность",
+  "delete": "Удалить",
+  "add_template": "Добавить шаблон",
+  "edit_template": "Редактировать шаблон",
+  "download_template": "Скачать шаблон",
+  "delete_template": "Удалить шаблон",
+  "reload_template": "Перезагрузить шаблон"
+}

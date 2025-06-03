@@ -1,0 +1,12 @@
+{
+  "NbDigits": "Liczba cyfr",
+  "NbDigitsInfo": "Liczba cyfr musi być liczbą całkowitą dodatnią >= 6, a długość wzoru nie może mieć > 40 znaków",
+  "PrefixValueEmptyInfo": "Prefiks nie może być pusty",
+  "NbDigitsNaN": "Liczba cyfr jest liczbą całkowitą dodatnią większą niż 6",
+  "Dash": "-",
+  "Under_Score": "_",
+  "Dot": ".",
+  "Plus": "+",
+  "Slash": "/",
+  "Empty": ""
+}

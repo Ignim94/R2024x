@@ -1,0 +1,11 @@
+{
+  "edit": "編集",
+  "download": "ダウンロード",
+  "publish": "完成度",
+  "delete": "削除",
+  "add_template": "テンプレートを追加",
+  "edit_template": "テンプレートを編集",
+  "download_template": "テンプレートをダウンロード",
+  "delete_template": "テンプレートを削除",
+  "reload_template": "テンプレートを再ロード"
+}

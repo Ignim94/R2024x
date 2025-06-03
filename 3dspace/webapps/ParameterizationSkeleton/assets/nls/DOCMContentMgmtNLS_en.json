@@ -1,0 +1,15 @@
+{
+    "intro" :"Configure Document Management Experience",
+    "DownloadRules":"Document Download Rules",
+    "rule1": "Multiple documents download : ",
+    "option1":"One file in one directory. Directory named after “<Document name> <Document revision>” e.g. DOC-00000001 0",
+    "option2":"All files without directory structure. Conflicting filenames will be suffixed with serial numbers",
+    "defaultOption":"OneFileOneDirectory",
+    "Flatlist":"Flatlist",
+    "ApplySuccess" : "Changes applied successfully",
+    "ApplyError" : "Failed to Apply changes",
+    "ResetSuccess" : "Reset Successful",
+    "Enable_Work_Under_Setting" : "Enable Work Under",
+    "Work_Under_Accordion_Title" : "Work Under Configuration",
+    "Failed_Load" : "Failed to load configurations."
+ }

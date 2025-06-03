@@ -1,0 +1,18 @@
+{
+  "cadsubtypefield": "Typ 3DEXPERIENCE",
+  "cadtypefield": "Typ CAD",
+  "templatefield": "Szablony",
+  "managetemplates": "Zarządzaj szablonami",
+  "newfromok": "OK",
+  "newfromcancel": "Anuluj",
+  "newfromtemplate": "Nowy z szablonu",
+  "msg_success_templatecreate": "Tworzenie szablonu powiodło się.",
+  "msg_success_edittemplate": "Modyfikacja szablonu powiodła się.",
+  "msg_error_editmodifyaccess": "Musisz mieć uprawnienia do modyfikowania tego szablonu. Zweryfikuj swoje poświadczenia lub skontaktuj się z administratorem, aby uzyskać pomoc.",
+  "msg_success_listtemplate": "Załadowano listę szablonów",
+  "msg_success_notemplate": "Brak szablonu dostępnego dla tego typu",
+  "msg_error_mandfieldempty": "Pola obowiązkowe są puste",
+  "msg_error_templateempty": "Pole szablonów jest puste",
+  "msg_error_cadtypeempty": "Pole typu CAD jest puste",
+  "mysession_newfromdlg_title": "Nowy z szablonu"
+}

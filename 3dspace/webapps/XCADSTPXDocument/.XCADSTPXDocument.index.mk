@@ -1,0 +1,13 @@
+m|XCADParserWeb\XCADSTPXDocument.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\XCADSTPXDocument\XCADSTPXDocument.js|1700692438|10564
+s|XCADParserWeb\XCADSTPXDocument.mweb\src\STPXInputDocument.js|1652786696|27217
+u|XCADParserWeb\XCADSTPXDocument.mweb\src\STPXProduct.js|1649060297|5763
+u|XCADParserWeb\XCADSTPXDocument.mweb\src\STPXProductInstance.js|1649060499|3533
+u|XCADParserWeb\XCADSTPXDocument.mweb\src\STPXProductRepresentation.js|1648455381|950
+u|XCADParserWeb\XCADSTPXDocument.mweb\src\XCADSTPXDocument.js|1491840511|12
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

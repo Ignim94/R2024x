@@ -1,0 +1,18 @@
+{
+"Home.Title":"Accueil",
+"Home.ShortHelp":"Permet d'accéder à la page d'accueil.",
+"InsertTemplates.Title":"Ajouter des modèles existants",
+"InsertTemplates.ShortHelp":"Insère des modèles existants en haut de la liste.",
+"CreateTemplate.Title":"Créer un modèle",
+"CreateTemplate.ShortHelp":"Insère un nouveau modèle en haut de la liste.",
+"ImportTemplates.Title":"Importer des modèles",
+"ImportTemplates.ShortHelp":"Importe un ou plusieurs modèles à partir d'un fichier JSON.",
+"ImportTemplates.LongHelp":"Déposez un fichier JSON contenant des modèles.",
+"Widget.WebHelp":"CATRtwUserMap/CATRtw-c-ov.htm",
+"InsertTemplates.WebHelp":"CATRtwUserMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"InsertTemplates.PanelHelp":"CATRtwUAPanelMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"CreateTemplate.WebHelp":"CATRtwUserMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"CreateTemplate.PanelHelp":"CATRtwUAPanelMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"ImportTemplates.WebHelp":"CATRtwUserMap/CATRtw-t-Templates-Import.htm#CATRtw-t-Templates-Import",
+"ImportTemplates.PanelHelp":"CATRtwUAPanelMap/CATRtw-t-Templates-Import.htm#CATRtw-t-Templates-Import"
+}

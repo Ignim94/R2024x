@@ -1,0 +1,12 @@
+{
+  "_variability_dictionary": "Dizionario variabilità",
+  "UPDATE_RULE_FAILED": "Errore durante l'aggiornamento della regola",
+  "UPDATE_RULE_SUCCESSFUL": "Regola aggiornata.",
+  "CONFLICT_HIDDEN": "Conflitto rilevato nascosto dal filtro",
+  "UPGRADE_FILTER": "Il filtro è stato reimpostato, è possibile utilizzare le nuove funzionalità di filtro.",
+  "MODEL_VERSION_VARIABILITY": "Variabilità della versione del modello",
+  "ADD_CRITERIA": "Aggiungi criteri",
+  "TIME_OUT_SESSION": "La sessione è scaduta. Ricaricare la versione del modello",
+  "SERVICE_OUT": "Errore durante l'esecuzione della richiesta. Ricaricare la versione del modello. Se l'errore persiste, contattare l'amministratore",
+  "LOCKED_INFO_ALERT": "L'oggetto è bloccato da "
+}

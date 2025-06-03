@@ -1,0 +1,1 @@
+define("DS/VCXGUIInfrastructure/VCXGUIInfrastructure_zh",{});define("DS/VCXGUIInfrastructure/assets/nls/VCXGUIInfrastructure",{"VCXProperties.Menu":"菜单","VCXScenarios.PanelTitle":"场景","VCXRatios.PanelTitle":"画布","VCXProperties.PanelTitle":"属性","VCXSamplesBrower.PanelTitle":"样本浏览器"});

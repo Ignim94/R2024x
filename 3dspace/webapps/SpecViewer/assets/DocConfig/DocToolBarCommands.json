@@ -1,0 +1,48 @@
+{
+	"actions": [{
+			"key": "add",
+			"text": "add",
+			"fonticon": "plus",
+			"subMenu": [
+			{
+					"text": "UploadDocument",
+					"type": "separator"
+				},{
+					"text": "label_RelDocuments",
+					"fonticon": "doc-text-upload",
+					"key": "createRelDoc"
+				},
+				{
+					"text": "label_AnnexDocuments",
+					"fonticon": "attach",
+					"key": "createAnnexDoc"
+				},
+				{
+					"text": "AddExistingDocument",
+					"type": "separator"
+				},
+				{
+					"text": "label_RelDocuments",
+					"fonticon": "doc-text-add",
+					"key": "addRelDoc"
+				},
+				
+				{
+					"text": "label_AnnexDocuments",
+					"fonticon": "attach",
+					"key": "addAnnexDoc"
+				}
+			]
+		},
+		{
+			"key": "removeitem",
+			"text": "label_Detach",
+			"fonticon": "tree-delete"
+		},
+		{
+			"key": "deleteItem",
+			"text": "label_Delete",
+			"fonticon": "trash"
+		}
+	]
+}

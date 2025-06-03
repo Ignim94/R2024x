@@ -1,0 +1,28 @@
+{
+  "ImportView": "Daten importieren",
+  "Loader": "Bitte warten",
+  "xcad.ui.button.ok": "OK",
+  "xcad.ui.button.cancel": "Abbrechen",
+  "BrowseDialogTitle": "3DDrive Ordner auswählen",
+  "myfiles": "Meine Dateien",
+  "sharedwithme": "Für mich freigegeben",
+  "OKButton": "OK",
+  "Tenant1": {
+    "service": {
+      "platformId": "Tenant1",
+      "url": "http://localhost:8081/fake_3DDrive_TenantURL"
+    },
+    "name": "DS - ODT_Tenant1"
+  },
+  "Tenant2": {
+    "service": {
+      "platformId": "Tenant2",
+      "url": "http://localhost:8081/fake_3DDrive_TenantURL"
+    },
+    "name": "DS - ODT_Tenant2"
+  },
+  "search_previous": "Zurück",
+  "search_next": "Weiter",
+  "search_all": "Alle übereinstimmenden Elemente auswählen",
+  "search_close": "Schließen"
+}

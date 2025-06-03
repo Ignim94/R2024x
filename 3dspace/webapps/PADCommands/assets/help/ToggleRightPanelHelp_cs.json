@@ -1,0 +1,5 @@
+{
+"ToggleRightPanel.Title":"Zobrazit boční panel",
+"ToggleRightPanel.ShortHelp":"Zobrazí informace o vybraném objektu na různých kartách v bočním panelu.",
+"ToggleRightPanel.LongHelp":"Dostupnost karet závisí na aplikaci, ze které jsou spouštěny, a typu vybraného objektu."
+}

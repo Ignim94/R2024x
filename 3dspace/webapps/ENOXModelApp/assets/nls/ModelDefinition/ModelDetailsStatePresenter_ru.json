@@ -1,0 +1,21 @@
+{
+  "_baselines": "Исходные данные",
+  "_computing": "вычисление...",
+  "_product_specifications": "Спецификации продукта",
+  "_no_data_in_preview": "В предварительном просмотре нет данных.",
+  "_configurationPreviewMessage": "Выберите конфигурации продукта или базовые конфигурации для предварительного просмотра...",
+  "_PCPreviewMessage": "Выберите конфигурации изделия для предварительного просмотра...",
+  "_MultiSelectionOfTypes": "Множественный выбор типов должен быть единообразным.",
+  "_product_configurations": "Конфигурации изделия",
+  "_rules": "Правила",
+  "_variability": "Изменчивость",
+  "_variability_complexity": "Сложность изменчивости",
+  "GET_MODEL_DETAILS_ERROR": "Ошибка при получении информации о модели.",
+  "GET_MODEL_VARIABILITY_ERROR": "Ошибка при получении информации об изменчивости модели.",
+  "DELETE_MODELS_ERROR": "Ошибка при удалении версий модели.",
+  "_backlog": "Требования",
+  "MSG_LOADING_UPDATED_VARIABILITY": "Получение обновленной изменчивости цели...",
+  "_manufacturingPlans": "Производственные планы",
+  "_specifications": "Спецификации",
+  "_configurations": "Конфигурации"
+}

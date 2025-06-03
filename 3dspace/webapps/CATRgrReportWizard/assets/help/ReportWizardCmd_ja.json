@@ -1,0 +1,7 @@
+{
+"ReportWizard.Title":"レポート ウィザードを開きます",
+"ReportWizard.ShortHelp":"選択項目からレポートを生成します。",
+"ReportWizard.LongHelp":"出力形式とテンプレートは、専用の Web アプリケーションで作成できます。",
+"ReportWizard.WebHelp.CATRGW_AP":"CATRgwUserMap/CATRgw-t-Reports-AddReportAllCases.htm#CATRgw-t-Reports-AddReportAllCases",
+"ReportWizard.PanelHelp":"CATRgwUAPanelMap/CATRgw-t-Reports-AddReportAllCases.htm#CATRgw-t-Reports-AddReportAllCases"
+}

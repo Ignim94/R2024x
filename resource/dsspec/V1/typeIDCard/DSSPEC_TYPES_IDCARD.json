@@ -1,0 +1,77 @@
+{
+	"dsspec:TechnicalSpec": {
+		"kindOf": "root",
+		"beType": "type_DOCUMENTS",
+		"classesTypes": "type_TestMethodSpecification,type_TechnicalSpecification,type_CopyandGraphicsSpecification,type_PalletInformationSpecification,type_PalletInformationSpecification,type_PackingProcessSpecification,type_ProcessTechnicalSpecification",
+		"attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsspec.V1.dictionaries.dsspecAttributeDictionary",
+		"patchCSRF": true,
+		"cestamp": true,
+		"optionCheck": {
+			"modify": false,
+			"produce": false,
+			"navigate": false
+		}
+	},
+	"dsspec:SpecificationReport": {
+		"kindOf": "root",
+		"beType": "type_SpecificationReport",
+		"attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsspec.V1.dictionaries.dsspecAttributeDictionary",
+		"customerAttribute": false,
+		"patchCSRF": true,
+		"optionCheck": {
+			"modify": false,
+			"produce": false,
+			"navigate": false
+		}
+	},
+	"dsspec:SpecificationReportTemplate": {
+		"kindOf": "root",
+		"beType": "type_SpecificationReportTemplate",
+		"attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsspec.V1.dictionaries.dsspecAttributeDictionary",
+		"patchCSRF": true,
+		"optionCheck": {
+			"modify": false,
+			"produce": false,
+			"navigate": false
+		}
+	},
+	"dsspec:RGNReportData": {
+		"kindOf": "root",
+		"beType": "type_RGNReportData",
+		"attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsspec.V1.dictionaries.dsspecAttributeDictionary",
+		"customerAttribute": false,
+		"patchCSRF": true,
+		"optionCheck": {
+			"modify": false,
+			"produce": false,
+			"navigate": false
+		}
+	},
+	"dsspec:PhysicalProduct": {
+		"kindOf": "root",
+		"beType": "virtual_PhysicalProduct",
+		"attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsspec.V1.dictionaries.dsspecAttributeDictionary",
+		"patchCSRF": true,
+		"cestamp": true,
+		"customerAttribute": true,
+		"optionCheck": {
+			"modify": false,
+			"produce": false,
+			"navigate": false
+		}
+	},
+	"dsspec:PerformanceSpec": {
+		"isPublic": true,
+		"kindOf": "root",
+		"beType": "virtual_PerformanceSpec",
+		"patchCSRF": true,
+		"cestamp": true,
+		"customizationSupport": true,
+		"optionCheck": {
+			"modify": true,
+			"produce": true,
+			"navigate": false
+		},
+		"defaultMask": "dsmvspec:PerformanceSpecMask.Common.Public"
+	}
+}

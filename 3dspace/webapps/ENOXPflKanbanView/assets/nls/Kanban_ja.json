@@ -1,0 +1,52 @@
+{
+  "kanban": {
+    "resolutionDate": {
+      "overdue": "期限切れ",
+      "none": "日付なし",
+      "today": "今日",
+      "tomorrow": "明日",
+      "week": "今週",
+      "future": "将来"
+    },
+    "all": "すべて",
+    "dnd": {
+      "unsupportedPromote": "問題を直接「{currState}」から「{state}」にステートアップできません。",
+      "unsupportedDemote": "問題を直接「{currState}」から「{state}」にステートダウンできません。",
+      "cannotEditClosedIssues": "一部の問題はすでに完了しており、更新できません。",
+      "placeholder": "ここにドロップ",
+      "notAllSameStatePromote": "同じステートでない問題をステートアップ/ステートダウンできません。"
+    },
+    "warning": {
+      "closed": "完了した問題を表示するフィルタが選択されていません。<br>フィルタのプリファレンスで活動化できます。"
+    },
+    "tooltips": {
+      "chizu": "クリックして以下の列を表示:<br> {title}",
+      "leftArrow": "前の列に移動",
+      "rightArrow": "次の列に移動"
+    }
+  },
+  "dnd": {
+    "partiallyNotSupported": "一部のオブジェクトがサポートされていません。",
+    "notSupported": "このタイプのコンテンツはサポートされていません。このタイプのコンテンツを開くには、コンパスの該当するアプリケーションを使用してください。",
+    "onlyIssues": "問題だけをドロップできます。",
+    "dialogTitle": "{number} 個のオブジェクトを {issue} に添付します",
+    "whereToDrop": "これらのオブジェクトをどこに貼り付けますか ?",
+    "alreadyAttached": "このオブジェクトはすでに問題に添付されています。",
+    "attach": "添付",
+    "cancel": "キャンセル"
+  },
+  "tagger": {
+    "waiting": {
+      "title": "6WTags を適用しています...",
+      "label": "以前の 6WTags に基づいて問題がフィルタされます。"
+    },
+    "cancel": "キャンセル"
+  },
+  "error": {
+    "0": {
+      "title": "このコンテンツにはアクセスできなくなりました。",
+      "subtitle": "ウィジェットをリフレッシュします。",
+      "message": "オブジェクトが削除されたか、必要なアクセス権がない可能性があります。"
+    }
+  }
+}

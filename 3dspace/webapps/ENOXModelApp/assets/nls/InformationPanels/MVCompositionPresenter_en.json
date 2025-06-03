@@ -1,0 +1,21 @@
+{
+  "ERROR_DATA_LOAD_TITLE" : "Error while fetching model version composition.",
+  "ERROR_DATA_ADD_TITLE" : "Error while adding model version composition.",
+  "ERROR_DATA_REMOVE_TITLE" : "Error while removing model version composition.",
+  "ERROR_DATA_REPLACE_TITLE" : "Error while replacing model version revision.",
+  "ERROR_DATA_DEFAULT_TITLE" : "You are unable to perform action.",
+  "ERROR_DATA_LOAD_MSG" : "Verify that you have access to this object.",
+  "ERROR_SAME_REVISION_TITLE" : "Same revision selected",
+  "ERROR_SAME_REVISION_MSG" : "Select different revision to replace",
+  "title_label": "Title",
+  "revision_label" : "Revision",
+  "isLastRevision_label" : "Is Last Revision",
+  "modelName_label" : "Model Name",
+  "owner_label": "Owner",
+  "type_label": "Type",
+  "add_action_label": "Add Model Version",
+  "replace_action_label": "Replace by Revision",
+  "remove_action_label" : "Remove",
+  "information_action_label" : "Information",
+  "searchLabel": "Select a Model Version"
+}

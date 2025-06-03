@@ -1,0 +1,20 @@
+{
+    "dsrm:RawMaterial": {
+        "summary":"Raw Material",
+        "description": "Raw Material",
+        "PUBLICMasks": [
+        "dsrm:RawMaterialMask.Common", "dsrm:RawMaterialMask.Details"
+        ],
+        "PUBLICExtensions": ["dsrm:EnterpriseAttributes", "dslc:changeControl", "dseng:EnterpriseReference"],
+		"PROTECTEDExtensions": [],
+        "PROTECTEDMasks": [],
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExcludedURIs":["GETAll", "getItems", "DELETEBulk", "BULKUPDATE"]
+    },
+    "dsrm:EnterpriseAttributes": {
+        "summary": "Parametric attributes",
+        "description": "dsrm:EnterpriseAttributes",
+        "PUBLICFields": ["dsmvrm:EnterpriseAttributes"],
+        "PUBLICExcludedURIs": ["GET", "PATCH"]
+    }
+}

@@ -1,0 +1,2 @@
+del page SN_SearchSettings;
+add page SN_SearchSettings file C:\workspace_r2024x\R2024x_3DSpace\search2\json\SN_SearchSettings.json;

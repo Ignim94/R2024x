@@ -1,0 +1,5 @@
+{
+  "ERROR_Loading3DContent": "Сбой загрузки 3D-вида",
+  "ERROR_PreparingFilter": "Сбой подготовки выражения фильтра",
+  "ERROR_FilterValidation": "Сбой проверки выражения фильтра"
+}

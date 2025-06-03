@@ -1,0 +1,16 @@
+{
+  "AltiumPCBProject.label": "Altium PCB 项目",
+  "AltiumSchematic.label": "Altium 图解",
+  "PrintedCircuitBoard.label": "Altium 布局",
+  "AltiumPCBProjectTemplate.label": "Altium PCB 项目",
+  "AltiumSchematicTemplate.label": "Altium 图解",
+  "AltiumLayoutTemplate.label": "Altium 布局",
+  "field.title.label": "标题",
+  "field.title.placeholder": "在此处输入标题",
+  "field.description.label": "描述",
+  "field.description.placeholder": "在此处输入简短描述",
+  "field.name.label": "名称",
+  "field.name.AltiumPCBProject.placeholder": "在此处输入 Altium PCB 项目名称",
+  "field.name.AltiumSchematic.placeholder": "在此处输入 Altium 图解名称",
+  "field.name.PrintedCircuitBoard.placeholder": "在此处输入 Altium 布局名称"
+}

@@ -1,0 +1,23 @@
+{
+  "notSpecified": "未指定",
+  "title": "标题",
+  "titleerrortext": "输入标题。",
+  "titleplaceholder": "在此处输入标题",
+  "description": "描述",
+  "descplaceholder": "在此处输入简短描述",
+  "targetype": "目标 3DEXPERIENCE 类型",
+  "targettypeerrortext": "指定目标 3DEXPERIENCE 类型。",
+  "file": "文件",
+  "fileerror": "选择文件。",
+  "fileplaceholder": "选择文件",
+  "browse": "浏览",
+  "cancel": "取消",
+  "save": "保存",
+  "createshared": "创建为已发布",
+  "createprivate": "创建为草稿",
+  "reset": "重置",
+  "createtemplate": "创建模板",
+  "edittemplate": "编辑模板",
+  "createAs": "创建为 ",
+  "createAsInWork": "创建为工作中"
+}

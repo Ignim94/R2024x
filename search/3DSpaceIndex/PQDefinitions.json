@@ -1,0 +1,35 @@
+{
+    "PQ": [
+    	{
+            "abbreviations": "ps,pjt,project", 
+            "id": 1,
+            "pqid": "ProjectSpace",
+            "value": "flattenedtaxonomies:\"types/Project Space\" AND ((ds6w_58_label:(__QUERY__) OR ds6w_58_identifier:(__QUERY__)))"
+        },
+        {
+            "abbreviations": "task,ta",
+            "id": 2,
+            "pqid": "Task",
+            "value": "flattenedtaxonomies:\"types/Task\" AND ((ds6w_58_label:(__QUERY__) OR ds6w_58_identifier:(__QUERY__)))"
+        },
+        {
+            "abbreviations": "doc,docc",
+            "id": 3,
+            "pqid": "Document",
+            "value": "flattenedtaxonomies:\"types/Document\" AND ((ds6w_58_label:(__QUERY__) OR ds6w_58_identifier:(__QUERY__)) AND is_95_version_95_object:\"False\")"
+        },
+        {
+            "abbreviations": "per,pe",
+            "id": 4,
+            "pqid": "Person",
+            "value": "flattenedtaxonomies:\"types/Person\" AND current:\"Active\" AND (identifier:(__QUERY__) OR label:(__QUERY__) OR firstname:(__QUERY__) OR lastname:(__QUERY__))"
+        },
+        {
+            "abbreviations": "rm,raw,material",
+            "id": 5,
+            "pqid": "Raw_Material",
+            "value": "flattenedtaxonomies:\"types/Raw Material\" AND (identifier:(__QUERY__) OR label:(__QUERY__) OR dsbiomaterial_58_casnumber:(__QUERY__) OR dsbiomaterial_58_chemicalname:(__QUERY__) OR dsbioform_58_compendialname:(__QUERY__) OR dsbiomaterial_58_inciname:(__QUERY__) OR dsbiomaterial_58_preferredname:(__QUERY__) OR ds6w_58_releasephase:(__QUERY__) OR dsbioform_58_rdsite:(__QUERY__) OR ds6w_58_status:(__QUERY__) OR ds6w_58_supplier:(__QUERY__) OR dsbiomaterial_58_tradename:(__QUERY__) OR dsbiomaterial_58_trivialname:(__QUERY__) OR dsbiomaterial_58_usan:(__QUERY__) OR ds6w_58_responsible:(__QUERY__) )"
+        }
+    ],
+    "nbPQ": 5
+}

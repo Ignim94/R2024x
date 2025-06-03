@@ -1,0 +1,15 @@
+{
+  "appDescription": "Snadné a efektivní procházení 3D modelů",
+  "rootFrozen": "Relace je zmrazená v důsledku přechodu",
+  "transitionRefusedStaticMapping": "Vytváření instancí konfigurace produktu není v cílové aplikaci podporováno",
+  "transitionRefusedFlexibleAssemblies": "Flexibilní sestavy nejsou v cílové aplikaci podporovány",
+  "pointCloudClassificationLayer": {
+    "title": "Vybarvení klasifikace LAS",
+    "headerTooltip": "Klasifikace LAS je předem definované schéma klasifikace definované americkou společností pro fotogrammetrii a vzdálené snímání (ASPRS) pro požadovanou kategorii dat."
+  },
+  "pointCloudElevationLayer": {
+    "title": "Zkoordinovat vybarvení",
+    "comboLabel": "Osa: ",
+    "tooltip": "Souřadnice X se měří podél osy východ-západ, souřadnice Y se měří podél osy sever-jih a souřadnice Z měří výšku nebo zvýšení."
+  }
+}

@@ -1,0 +1,9 @@
+m|DMUPersistenceWeb\DMUValidationPersistence.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.4.24097|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DMUValidationPersistence\DMUValidationPersistence.js|1712386382|8407
+s|DMUPersistenceWeb\DMUValidationPersistence.mweb\src\DMUValidationPersistenceServices.js|1711211644|15948
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

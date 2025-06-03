@@ -1,0 +1,27 @@
+<!-- Predicate definitions for the Configuration -->
+<RELATIONSHIPTYPEFIELDS name="ConfigEffectivityPredicates">
+	<FIELD key="ConfigEffectivityPredicates" name="effectivitytype" 						select="CONST:" 													sixw="ds6w:effectivitytype" 					type="STRING,PARAMETRIC"/>
+	<FIELD key="ConfigEffectivityPredicates" name="configuredchange" 						select="CONST:" 													sixw="ds6w:configuredchange" 					type="STRING,PARAMETRIC"/>
+	<FIELD key="ConfigEffectivityPredicates" name="legacyeffectivity" 					select="CONST:" 													sixw="ds6w:legacyeffectivity" 				type="BOOLEAN,PARAMETRIC"/>
+	<FIELD key="ConfigEffectivityPredicates" name="ispartofconfigurationrevision" 	select="frommid[ConfigurationBaselineEffectivity]" 	sixw="ds6w:ispartofconfigurationrevision"	type="BOOLEAN,PARAMETRIC"/>
+</RELATIONSHIPTYPEFIELDS> 
+
+<RELATIONSHIPTYPE.EXTFIELDS includes="ConfigEffectivityPredicates,ro.unifiedeffectivity" name="PLMInstance"/>
+<BOTYPE.EXTFIELDS includes="ConfiguredReference" name="PLMReference"/>
+
+
+<!--xRevision graphs-->
+
+<RELATIONSHIPTYPE active="true" includes="ro.navigation" isIndexed="true" name="xRevisionContext"        searchable="true"/>
+<!-- 09/16/2024 IR 1310097 Do not index the xRevisionPrimaryContext rel as it creates a cycle that breaks the CloudView index expand -->
+<!-- <RELATIONSHIPTYPE active="true" includes="ro.navigation" isIndexed="true" name="xRevisionPrimaryContext" searchable="true"/> -->
+
+<BOTYPEFIELDS name="bo.xRevisionElement">
+   <FIELD fts="false" hidden="true" name="bo.xRevisionElement.Title"           select="attribute[Title]"                      type="STRING"/>
+   <FIELD fts="false" hidden="true" name="bo.xRevisionElement.NodeIndex"       select="attribute[Node Index]"                 type="STRING"/>
+   <FIELD fts="false" hidden="true" name="bo.xRevisionElement.DerivationLevel" select="attribute[Derivation Level]"           type="STRING"/>
+   <FIELD fts="false" hidden="true" name="bo.xRevisionElement.ChildNodeIndex"  select="attribute[Child Node Available Index]" type="STRING"/>
+</BOTYPEFIELDS>
+<BOTYPE active="true" excludepolicies="" excludestates="" excludetypes="" includes="bo.xRevisionElement,PrecomputedFilterCompiledForm" isIndexed="true" name="xRevisionElement" searchable="false"/>
+
+

@@ -1,0 +1,25 @@
+{
+	"dsrsc:Resource":{
+		"expand":{
+			"maxPathCount":10000,
+			"defaultMask":"dsrsc:Resource.ExpandMask.Default"
+		}
+	},
+	"dsrsc:ResourceParameter": {
+		"create": {
+			"onPremiseLimit": 20,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				{
+					"URI_RootId": {
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					},
+					"paramType": {
+						"payloadType": "String"
+					}
+				}
+			]
+		}
+	}
+}

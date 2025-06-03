@@ -1,0 +1,75 @@
+{
+    "attributes": {
+        "listOfNonPSTypesToShowOnConsole": "AltiumPCBProject,AltiumSchematic",
+        "listOfCADTypesToShowOnConsole": "PrintedCircuitBoard,PrintedCircuitBoardAssembly,ElectronicPhysicalComponent",
+        "listOfCADTypeDisplayName": {
+            "AltiumPCBProject": "Altium PCB Design Project",
+            "AltiumSchematic": "Altium Schematic",
+            "PrintedCircuitBoardAssembly": "Printed Circuit Board Assembly",
+            "PrintedCircuitBoard": "Printed Circuit Board",
+            "ElectronicPhysicalComponent": "Electronic Physical Component"
+        },
+        "defaultSupportedAttributesForType": {
+            "ElectronicPhysicalComponent|VPMReference": [{
+                    "attributeName": "current",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "revision",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_versionComment",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "PLM_ExternalID",
+                    "direction": "MxToCAD"
+                }
+            ],
+            "PrintedCircuitBoardAssembly|VPMReference": [{
+                    "attributeName": "EnterpriseExtension.V_PartNumber",
+                    "direction": "MxToCAD",
+                    "honorDirection": "true"
+                }, {
+                    "attributeName": "current",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "revision",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_versionComment",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_description",
+                    "direction": "MxToCAD"
+                }
+            ],
+            "PrintedCircuitBoard|VPMReference": [{
+                    "attributeName": "EnterpriseExtension.V_PartNumber",
+                    "direction": "MxToCAD",
+                    "honorDirection": "true"
+                }
+            ],
+            "AltiumPCBProject|XCADNonPSBaseRepReference": [{
+                    "attributeName": "revision",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_versionComment",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "current",
+                    "direction": "MxToCAD"
+                }
+            ],
+            "AltiumSchematic|XCADNonPSBaseRepReference": [{
+                    "attributeName": "revision",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "V_versionComment",
+                    "direction": "MxToCAD"
+                }, {
+                    "attributeName": "current",
+                    "direction": "MxToCAD"
+                }
+            ]
+        }
+    }
+}

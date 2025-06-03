@@ -1,0 +1,15 @@
+{
+  "_title": "Liste von Konstruktionselementen",
+  "_priority": "Priorität",
+  "_items": "Elemente",
+  "_item": "Artikel",
+  "_associate": "Zuordnen",
+  "_open": "Öffnen",
+  "_physicalProduct": "Physisches Produkt",
+  "_inWork": "In Arbeit",
+  "_private": "Privat",
+  "_frozen": "Eingefroren",
+  "_released": "Veröffentlicht",
+  "_obsolete": "Veraltet",
+  "_emptyPanelMessage": "Sie haben kein konfiguriertes physisches Produkt für Ihre Modellversion"
+}

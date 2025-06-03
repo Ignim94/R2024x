@@ -1,0 +1,40 @@
+<BOTYPE.EXTFIELDS name="Project Space" includes="ProjectField_customField,basic" />
+<BOTYPEFIELDS name="ProjectField_customField" >
+	<FIELD name="PRJ_SubtaskCount" select="program[cmgSearch -method getProjectSubtaskCount ${OBJECTID}]" type="NUM,PARAMETRIC" sixw="atis:cmgSubtaskCount" />
+	<FIELD name="PRJ_ProjectName" select="name" type="STRING,PARAMETRIC" sixw="atis:cmgProjectName"/>
+	<FIELD name="PRJ_ProjectEstStartDate" select="attribute[Task Estimated Start Date]" type="DATE,PARAMETRIC" sixw="atis:cmgProjectEstStartDate"/>
+	<FIELD name="PRJ_ProjectEstFinishDate" select="attribute[Task Estimated Finish Date]" type="DATE,PARAMETRIC" sixw="atis:cmgProjectEstFinishDate"/>
+	<FIELD name="PRJ_ProjectActStartDate" select="attribute[Task Actual Start Date]" type="DATE,PARAMETRIC" sixw="atis:cmgProjectActStartDate"/>
+	<FIELD name="PRJ_ProjectActFinishDate" select="attribute[Task Actual Finish Date]" type="DATE,PARAMETRIC" sixw="atis:cmgProjectActFinishDate"/>
+	<FIELD name="PRJ_ProjectCurrentPhase" select="program[cmgSearch -method getProjectCurrentPhase ${OBJECTID}]" type="STRING,PARAMETRIC" sixw="atis:cmgProjectCurrentPhase"/>
+</BOTYPEFIELDS>
+
+<BOTYPE.EXTFIELDS name="Person" includes="Person_customField,basic" />
+<BOTYPEFIELDS name="Person_customField" >
+	<FIELD name="PER_PersonFullName" select="program[cmgSearch -method getPersonFullName ${OBJECTID}]" type="STRING,PARAMETRIC" sixw="atis:cmgPersonFullName"/>
+	<FIELD name="PER_PersonPhoneNumber" select="attribute[Cell Phone Number]" type="STRING,PARAMETRIC" sixw="atis:cmgPersonPhoneNumber"/>
+	<FIELD name="PER_PersonEmail" select="attribute[Email Address]" type="STRING,PARAMETRIC" sixw="atis:cmgPersonEmail"/>
+	<FIELD name="PER_PersonWorkingTask" select="program[cmgSearch -method getPersonWorkingTask ${OBJECTID}]" type="NUM,PARAMETRIC" sixw="atis:cmgPersonWorkingTask"/>
+	<FIELD name="PER_PersonLicense" select="program[cmgSearch -method getPersonLicense ${OBJECTID} '${NAME}]" type="STRING,PARAMETRIC" sixw="atis:cmgPersonLicense"/>
+</BOTYPEFIELDS>
+
+<BOTYPE.EXTFIELDS name="Document" includes="Document_customField,basic" />
+<BOTYPEFIELDS name="Document_customField" >
+	<FIELD name="DOC_DocumentName" select="attribute[Title]" type="STRING,PARAMETRIC" sixw="atis:cmgDocumentName"/>
+	<FIELD name="DOC_DocumentIsRock" select="program[cmgSearch -method getDocumentIsRock ${OBJECTID}]" type="STRING,PARAMETRIC" sixw="atis:cmgDocumentIsRock"/>
+	<FIELD name="DOC_DocumentFileName" select="program[cmgSearch -method getDocumentFileName ${OBJECTID}]" type="STRING,PARAMETRIC" sixw="atis:cmgDocumentFileName"/>
+	<FIELD name="DOC_DocumentFileCount" select="program[cmgSearch -method getDocumentFileCount ${OBJECTID}]" type="NUM,PARAMETRIC" sixw="atis:cmgDocumentFileCount"/>
+	<FIELD name="DOC_DocumentWhereUsed" select="program[cmgSearch -method getDocumentWhereUsed ${OBJECTID}]" type="NUM,PARAMETRIC" sixw="atis:cmgDocumentWhereUsed"/>
+</BOTYPEFIELDS>
+
+<BOTYPE name="Task" includes="Task_customField,basic" />
+<BOTYPEFIELDS name="Task_customField" >
+	<FIELD name="PST_TaskName" select="name" type="STRING,PARAMETRIC" sixw="atis:cmgTaskName"/>
+    <FIELD name="PST_TASK_ACTUAL_DURATION" select="attribute[Task Actual Duration]" type="DOUBLE" sixw="atis:cmgTaskactualDuration"/>
+    <FIELD name="PST_TASK_ACTUAL_START" select="attribute[Task Actual Start Date]" type="DATE,PARAMETRIC" sixw="atis:cmgTaskactualStart"/>
+    <FIELD name="PST_TASK_ACTUAL_FINISH" select="attribute[Task Actual Finish Date]" type="DATE,PARAMETRIC" sixw="atis:cmgTaskactualEnd"/>
+    <FIELD name="PST_TASK_EST_DURATION" select="attribute[Task Estimated Duration]" type="DOUBLE" sixw="atis:cmgTaskestimatedDuration"/>
+    <FIELD name="PST_TASK_EST_START" select="attribute[Task Estimated Start Date]" type="DATE,PARAMETRIC" sixw="atis:cmgTaskestimatedStart"/>
+    <FIELD name="PST_TASK_EST_FINISH" select="attribute[Task Estimated Finish Date]" type="DATE,PARAMETRIC" sixw="atis:cmgTaskestimatedEnd"/>
+	<FIELD name="PST_TaskAssignee" select="program[cmgSearch -method getTaskAssignee ${OBJECTID}]" type="STRING,PARAMETRIC" sixw="atis:cmgTaskAssignee"/>
+</BOTYPEFIELDS>

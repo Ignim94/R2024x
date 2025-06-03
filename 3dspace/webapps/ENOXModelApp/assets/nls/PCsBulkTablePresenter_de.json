@@ -1,0 +1,21 @@
+{
+  "TotalVariability": "Gesamtvariabilität",
+  "TotalProductConfigurations": "Gesamtproduktkonfigurationen",
+  "ConfigurationsLoading": "Konfigurationen werden geladen",
+  "ConflictComputing": "Konflikte werden berechnet",
+  "SuggestionsCoomputing": "Vorschläge werden berechnet",
+  "GetRuleDetailsError": "Fehler beim Abrufen der Regelinformationen.",
+  "CompleteModeNotification": "Produktkonfigurationen werden bearbeitet und im Modus Abgeschlossen gespeichert",
+  "NoUserSelection": "Regelebene – Abgeschlossen – mindestens einen Wert auswählen",
+  "Option": "Option",
+  "isConflictingWith": "steht im Widerspruch zu",
+  "andAlsoConflictingWith": "und steht auch im Widerspruch zu",
+  "PCSaveSuccessMessage": "Konfigurationen erfolgreich gespeichert",
+  "PCSaveFailureMessage": "Konfigurationen konnten nicht gespeichert werden",
+  "HighlightDifferences": "Unterschiede hervorheben",
+  "UnHighlightDifferences": "Hervorhebung der Unterschiede aufheben",
+  "Enable_Edit": "Bearbeitung aktivieren",
+  "Disable_Edit": "Bearbeitung deaktivieren",
+  "BC_conflict_title": "Basiskonfiguration ist nicht gültig",
+  "BC_conflict_message": "Definieren Sie mindestens einen der Werte Verfügbar, Standard oder Ausgewählt für jede obligatorische Variante."
+}

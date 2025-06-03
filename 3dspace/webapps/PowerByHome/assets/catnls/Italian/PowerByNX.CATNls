@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+PowerByNX.XSCViews.Title="Vista";
+PowerByNX.XSCTools.Title="Strumenti";
+PowerByNX.Lifecycle.Title="Ciclo di vita";
+PowerByNX.Collaboration.Title="Collaborazione";
+PowerByNX.SaveSession.Title="Salva finestra attiva";
+PowerByNX.RefreshHome.Title="Aggiorna";
+PowerByNX.ReloadAll.Title="Ricarica tutti";
+PowerByNX.ReserveHdr.Title="Blocca";
+PowerByNX.UnreserveHdr.Title="Sblocca";
+PowerByNX.PropertiesHdr.Title="Proprietà";
+PowerByNX.ReplaceByRevisionHdr.Title="Sostituisci con revisione";
+PowerByNX.ReloadFromServerHdr.Title="Ricarica da server";
+PowerByNX.RelationIPExplorer.Title="Relazioni";
+PowerByNX.OptionsHdr.Title="Opzioni...";
+PowerByNX.View.Title="Vista";
+PowerByNX.Tools.Title="Strumenti";

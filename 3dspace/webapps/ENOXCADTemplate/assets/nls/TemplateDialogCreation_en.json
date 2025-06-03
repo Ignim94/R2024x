@@ -1,0 +1,23 @@
+{
+    "notSpecified": "Not Specified",
+    "title": "Title",
+    "titleerrortext": "Enter a title.",
+    "titleplaceholder": "Enter title here",
+    "description": "Description",
+    "descplaceholder": "Enter short description here",
+    "targetype": "Target 3DEXPERIENCE Type",
+    "targettypeerrortext": "Specify a Target 3DEXPERIENCE Type.",
+    "file": "File",
+    "fileerror": "Select a file.",
+    "fileplaceholder": "Select a file",
+    "browse": "Browse",
+    "cancel": "Cancel",
+    "save": "Save",
+    "createshared": "Create As Released",
+    "createprivate": "Create As Draft",
+    "reset": "Reset",
+    "createtemplate": "Create Template",
+    "edittemplate": "Edit Template",
+    "createAs": "Create As ",
+    "createAsInWork": "Create As In Work"
+}

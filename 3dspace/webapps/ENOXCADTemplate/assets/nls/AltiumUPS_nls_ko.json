@@ -1,0 +1,16 @@
+{
+  "AltiumPCBProject.label": "Altium PCB 프로젝트",
+  "AltiumSchematic.label": "Altium 회로도",
+  "PrintedCircuitBoard.label": "Altium 레이아웃",
+  "AltiumPCBProjectTemplate.label": "Altium PCB 프로젝트",
+  "AltiumSchematicTemplate.label": "Altium 회로도",
+  "AltiumLayoutTemplate.label": "Altium 레이아웃",
+  "field.title.label": "제목",
+  "field.title.placeholder": "여기에 제목 입력",
+  "field.description.label": "설명",
+  "field.description.placeholder": "여기에 간단한 설명 입력",
+  "field.name.label": "이름",
+  "field.name.AltiumPCBProject.placeholder": "여기에 Altium PCB 프로젝트 이름 입력",
+  "field.name.AltiumSchematic.placeholder": "여기에 Altium 회로도 이름 입력",
+  "field.name.PrintedCircuitBoard.placeholder": "여기에 Altium 레이아웃 이름 입력"
+}

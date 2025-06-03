@@ -1,0 +1,18 @@
+{
+  "_panelTitle": "Создать числовой параметр",
+  "_titleLabel": "Заголовок",
+  "_dimensionLabel": "Размер",
+  "_unitLabel": "Единица",
+  "_kindLabel": "Вид",
+  "_rangeLabel": "Диапазон",
+  "_integerKindLabel": "Целое число",
+  "_realKindLable": "Действительное",
+  "_minValueLabel": "Мин. значение",
+  "_maxValueLabel": "Макс. значение",
+  "_noDimensionLabel": "Без размера",
+  "_okAction": "ОК",
+  "_cancelAction": "Отмена",
+  "_mandatoryFieldError": "Заполните обязательные поля",
+  "_incorrectRangeError": "Мин. значение должно быть меньше макс. значения",
+  "_uniqueNameError": "Имя (заголовок) числового параметра уже существует"
+}

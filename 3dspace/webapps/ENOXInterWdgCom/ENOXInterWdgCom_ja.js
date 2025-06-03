@@ -1,0 +1,1 @@
+define("DS/ENOXInterWdgCom/ENOXInterWdgCom_ja",{});define("DS/ENOXInterWdgCom/assets/nls/ENOXInterWdgCom",{widgetLinkOptionsPanel:{title:"ウィジェット リンク オプション",subTitle:"ウィジェット間でリンクする機能を選択します。",all:"すべて",content:"コンテンツ",viewMode:"表示モード",viewPoint:"視点",contentHelp:"コンテンツは、3D ウィジェットにロードされたあらゆるコンテンツ (プロダクト、点群...) を記述します。",viewPointHelp:"視点は、3D でズーム、平行移動、または回転することで得られる点です"}});

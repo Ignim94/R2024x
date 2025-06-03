@@ -1,0 +1,15 @@
+m|MPFModels\MPFSubscriptionModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\MPFSubscriptionModel\MPFSubscriptionModel.js|1700692174|4920
+s|MPFModels\MPFSubscriptionModel.mweb\src\CatalogueSubscriptionsDataProxy.js|1700681637|675
+u|MPFModels\MPFSubscriptionModel.mweb\src\MPFSubscriptionModel.js|1669411785|0
+u|MPFModels\MPFSubscriptionModel.mweb\src\ResubscribeDataProxy.js|1669411785|2026
+u|MPFModels\MPFSubscriptionModel.mweb\src\SubscriptionCollection.js|1700681637|2096
+u|MPFModels\MPFSubscriptionModel.mweb\src\SubscriptionFactory.js|1700681637|4223
+u|MPFModels\MPFSubscriptionModel.mweb\src\SubscriptionModel.js|1700681637|4482
+u|MPFModels\MPFSubscriptionModel.mweb\src\UnsubscribeDataProxy.js|1669411785|1353
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

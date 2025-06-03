@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+  <Template syp:name="3DPlayUDLExperienceAfrInterface" Target="CATCmdInterface">
+    <CATCmdInterface  WkbInterface= "CATI3DSHAREUDLExperienceAfrInterface"/>
+  </Template>
+
+  <Template syp:name="3DPlayUDLExperienceAfrHeaderList" Target="CATCmdHeadersList">
+    <CATCmdHeadersList>
+      <!--Ambience-->
+      <CATCommandHeader ID = "VisuWhiteMirrorOCACmd"           ClassName = "DS/ViewerCommands/VisuWhiteMirrorOCACmd" ResourceFile="ViewerCommands/ViewerCommands"/>
+      <CATCommandHeader ID = "VisuDarkMirrorOCACmd"            ClassName = "DS/ViewerCommands/VisuDarkMirrorOCACmd" ResourceFile="ViewerCommands/ViewerCommands"/>
+    </CATCmdHeadersList>
+  </Template>
+  <Template syp:name="3DPlayUDLExperienceAfrWorkbench" Target="CATCmdWorkbench">
+    <CATCmdWorkbench Name="3DPlayUDLExperienceWorkbench">
+      <CATCmdContainer Name = "SectionViews" Visibility = "1" RepresentationType="AfrActionBarSection">
+        <!-- Ambience dropdown -->
+        <CATCmdContainer Name="Views" Visibility="1" RepresentationType="AfrActionBarDropDown">
+          <CATCmdStarter Name="VisuWhiteMirrorOCACmd" Command="VisuWhiteMirrorOCACmd"/>
+          <CATCmdStarter Name="VisuDarkMirrorOCACmd" Command="VisuDarkMirrorOCACmd"/>
+        </CATCmdContainer>
+        <CATCmdSeparator Name = "BasicManip_Separator"/>
+      </CATCmdContainer>
+    </CATCmdWorkbench>
+  </Template>
+</Styles>

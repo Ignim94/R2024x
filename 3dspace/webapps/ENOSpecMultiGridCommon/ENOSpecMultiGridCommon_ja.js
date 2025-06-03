@@ -1,0 +1,1 @@
+define("DS/ENOSpecMultiGridCommon/ENOSpecMultiGridCommon_ja",{});define("DS/ENOSpecMultiGridCommon/assets/nls/SpecMultiGridCommon",{Loading:"読み込み中...",WrapLoader:"ラップしています...",UnwrapLoader:"ラップ解除しています...",ExportCSV:"エクスポート",Wrap:"ラップ",Unwrap:"ラップ解除",Print:"印刷",ResetChanges:"リセット",Message_CmdEmptyGridCheck:'"{operation}" に対する製品仕様をドラッグ、検索または選択します。'});

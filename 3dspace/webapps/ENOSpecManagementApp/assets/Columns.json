@@ -1,0 +1,64 @@
+{
+  "columns": [
+    {
+      "dataIndex": "tree",
+      "typeRepresentation": "string",
+      "text": "Column_Title",
+      "pinned" : "left",
+      "width": 230
+    },
+    
+    {
+    "dataIndex": "contextMenu",
+    "typeRepresentation": "contextMenu",
+    "text": "Column_Actions",
+    "editionPolicy"  : "EditionOnClick",
+    "sortableFlag": false,
+     "pinned" : "left",
+     "width": 60,
+    "isEditable": true
+    },
+     {
+      "typeRepresentation": "string",
+      "dataIndex": "partNumber",
+      "text": "Column_PartNumber",
+      "isEditable": false
+    },
+    {
+      "typeRepresentation": "string",
+      "dataIndex": "type",
+      "text": "Column_Type",
+      "isEditable": false
+    },{
+      "typeRepresentation": "string",
+      "dataIndex": "name",
+      "text": "Column_Name",
+      "isEditable": false,
+      "width": 210
+    },
+    {
+        "dataIndex": "state",
+      "text": "Column_MaturityState",
+      "isEditable": false,
+      "allowUnsafeHTMLContent" : true
+    },
+    {
+      "typeRepresentation": "string",
+      "dataIndex": "revision",
+      "text": "Column_Revision",
+      "isEditable": false
+    },
+    {
+      "typeRepresentation": "string",
+      "dataIndex": "originatedDate",
+      "text": "Column_OriginatedDate",
+      "isEditable": false
+    },
+    {
+      "typeRepresentation": "string",
+      "dataIndex": "lastModifiedLocalFormat",
+      "text": "LastModified",
+      "isEditable": false
+    }
+  ]
+}

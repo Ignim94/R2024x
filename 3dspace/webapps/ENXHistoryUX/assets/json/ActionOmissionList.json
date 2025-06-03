@@ -1,0 +1,73 @@
+{
+    "keyToCheck": {
+        "modifyAttribute": "attribute",
+        "connect": ["modDesc" ,"relation"],
+        "disconnect": ["modDesc" ,"relation"],
+        "addInterface": "interface",
+        "removeInterface": "interface"
+    },
+    "global": [
+        "moveFilesFrom"
+    ],
+    "addInterface": [
+        "MSFDocumentInterface"
+    ],
+    "removeInterface": [
+        "MSFDocumentInterface"
+    ],
+    "modifyAttribute": [
+        "Effectivity Compiled Form",
+        "Effectivity Expression",
+        "Effectivity Expression Binary",
+        "Effectivity Ordered Criteria",
+        "Effectivity Ordered Criteria Dictionary",
+        "Effectivity Ordered Impacting Criteria",
+        "Effectivity Proposed Expression",
+        "Effectivity Types",
+        "Effectivity Variable Indexes",
+        "LPAbstractReference.V_hasInstanciationDefinition",
+        "LPAbstractReference.V_hasInstanciationValue",
+        "LPAbstractReference.V_hasPGPRep",
+        "RepoPrivilege",
+        "StreamDescriptors",
+        "PLMReference.V_AuthorityControl",
+        "PLMCoreReference.V_ChangeHistory",
+        "PLMReference.V_DerivedFrom",
+        "PLMInstance.V_EffectivityCompiledForm",
+        "PLMReference.V_EffectivityKind",
+        "PLMReference.V_hasConfigContext",
+        "PLMInstance.V_hasConfigEffectivity",
+        "PLMInstance.V_hasConfigStaticMapping",
+        "PLMReference.V_isLastMinorVersion",
+        "PLMInstance.V_isUptodate",
+        "PLMReference.V_order",
+        "PLMReference.V_VersionID",
+        "PLMInstance.workspaceid",
+        "PLMEntity.workspaceid",
+        "PLMEntity.C_updatestamp",
+        "PLMInstance.C_updatestamp",
+        "PLMReference.V_isLastVersion",
+        "PLMReference.V_DerivedFrom",
+        "Issue Template Json Details",
+        "Rendition Acro Store",
+        "Questionnaire Definition",
+        "Propagate Access",
+        "Sponsoring Customer",
+        "Folder Path",
+        "Folder Classification",
+        "Notes",
+        "Change Id",
+        "Access Type"
+    ],
+    "connect": [
+        "Latest Version",
+        "Active Version",
+        "isVersionOf"
+    ],
+    "disconnect": [
+        "Latest Version",
+        "Active Version",
+        "isVersionOf"
+    ]
+}
+

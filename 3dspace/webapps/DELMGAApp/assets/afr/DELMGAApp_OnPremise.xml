@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+	<Template syp:name="DELWebMfgAssemblyDefHeaders" Target="CATCmdHeadersList">
+		<CATCmdHeadersList>
+			<CATCommandHeader ID="ShowCharacteristicsCmd"
+							  ClassName="DS/ENOCharacteristicsWebApp/commands/ShowCharacteristicsCmd"
+							  ResourceFile="ENOCharacteristicsWebApp/ENOCharacteristicsWebApp"
+							  Available="1"/>
+			<CATCommandHeader ID="ShowConsolidatedCharactscsCmd"
+							  ClassName="DS/ENOCharacteristicsWebApp/commands/ShowConsolidatedCharactscsCmd"
+							  ResourceFile="ENOCharacteristicsWebApp/ENOCharacteristicsWebApp"
+							  Available="1"/>
+		</CATCmdHeadersList>
+	</Template>
+	<!--======================================================================================================================================-->
+	<!--======================================================================================================================================-->
+	<!--======================================================================================================================================-->
+	<!--======================================================================================================================================-->
+	<!--======================================================================================================================================-->
+	<Template syp:name="DELWebMfgAssemblyDefAccess" Target="CATCmdWorkbench">
+		<CATCmdWorkbench Name="DELWebMfgAssemblyDefWorkbench">
+			<CATCmdContainer Name="Authoring" Visibility="1" RepresentationType="AfrActionBarSection">
+				<CATCmdContainer Name="Show Characteristics" Visibility="1" RepresentationType="AfrActionBarDropDown">
+					<CATCmdStarter Name="ShowCharacteristicsCmd" Command="ShowCharacteristicsCmd"/>
+					<CATCmdStarter Name="ShowConsolidatedCharactscsCmd" Command="ShowConsolidatedCharactscsCmd"/>
+				</CATCmdContainer>
+			</CATCmdContainer>
+		</CATCmdWorkbench>
+	</Template>
+</Styles>

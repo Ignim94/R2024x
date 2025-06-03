@@ -1,0 +1,23 @@
+{
+  "enterprise_dictionary_breadcrumb": "Unternehmensvariabilität",
+  "model_definition_breadcrumb": "Modellversionen",
+  "open_mv_search_title": "Eine Modellversion zum Öffnen auswählen",
+  "newModelVersion": "Neue Modellversion",
+  "addExistingPrefLabel": "addExistingPref",
+  "MSG_UNABLE_TO_GET_SUBTYPES": "Subtypen der Modellversion können nicht abgerufen werden.",
+  "NO_MODELVERSION_ATTACHED_ERROR": "Dem ist keine Modellversion zugeordnet ",
+  "CUSTOMER_ATTRIBUTE_LOADING_WARNING": "Laden der Kundenattribute fehlgeschlagen!",
+  "TYPE_MODELVERSION": "Modellversion",
+  "TYPE_PRODUCTCONFIGURATION": "Produktkonfiguration",
+  "TYPE_MANUFACTURINGPLAN": "Fertigungsplan",
+  "TYPE_CONFIGURATIONRULE": "Konfigurationsregel",
+  "TYPE_VARIANT": "Variante",
+  "TYPE_VARIANTVALUE": "Variantenwert",
+  "TYPE_OPTIONGROUP": "Optionen",
+  "TYPE_OPTIONGROUPVALUE": "Optionswert",
+  "PREPARING_FOR_ROADMAP_VIEW": "Roadmap-Ansicht wird vorbereitet",
+  "ROADMAP_VIEW": "Roadmap-Ansicht",
+  "MODELDEF": "ENOVIA - Modelldefinition",
+  "ROADMAP_VIEW_IS_REFRESHING": "Bitte warten, Roadmap-Ansicht wird aktualisiert...",
+  "GETTING_THINGS_READY": "Vorbereitung läuft..."
+}

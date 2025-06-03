@@ -1,0 +1,41 @@
+{
+  "documentsList": {
+    "referenceDocumentLabel": "Documents de référence",
+    "specificationDocumentLabel": "Documents de spécification",
+    "noDocsFound": "Aucun document trouvé pour l'objet sélectionné. Pour joindre des documents, faites-les glisser et déposez-les ci-dessous. ",
+    "noDocsFound-referenceDocs": "Aucun objet joint trouvé",
+    "noDocsFound-specificationDocs": "Aucun document trouvé",
+    "noReferenceDocsFound": "Aucun document de référence trouvé pour l'objet sélectionné",
+    "insertDocuments": "Sélectionner les documents à insérer",
+    "ctx": {
+      "openIn3DPlay": "3DPlay",
+      "checkInDocument": "Restituer",
+      "checkOutDocument": "Règlement",
+      "detachDocument": "Détacher",
+      "attachDocument": "Attacher",
+      "downloadDocument": "Télécharger",
+      "deleteDocument": "Supprimer"
+    },
+    "masks": {
+      "createDocumentMask": "Création de nouveaux documents",
+      "attachDocumentMask": "Attachement de documents",
+      "checkinDocumentMask": "Restitution d'un document",
+      "checkoutDocumentMask": "Réservation d'un document",
+      "downloadDocumentMask": "Document en cours de téléchargement",
+      "detachDocumentMask": "Détachement d'un document",
+      "deleteDocumentMask": "Suppression d'un document",
+      "searchDocuments": "Rechercher des documents à joindre"
+    },
+    "notifs": {
+      "cannotCheckInDocument": "Impossible de restituer le document",
+      "cannotDownloadDoc": "Impossible de télécharger le document",
+      "cannotDeleteDoc": "Impossible de supprimer le document",
+      "cannotDetachDoc": "Impossible de détacher le document",
+      "unableCreateDocumentRep": "Impossible de connecter le document à Représentation",
+      "attachDocumentFailed": "Les documents n'ont pas pu être joints",
+      "somedroppedobjnotvalid": "Certains objets ne peuvent pas être joints comme document",
+      "nofileselected": "Aucun fichier sélectionné"
+    }
+  },
+  "rich_attr_head": "Attributs personnalisés"
+}

@@ -1,0 +1,12 @@
+{
+  "NbDigits": "Počet číslic",
+  "NbDigitsInfo": "Počet číslic musí být kladné celé číslo >= 6 a délka vzorce nemůže být > 40 znaků",
+  "PrefixValueEmptyInfo": "Předpona nemůže být prázdná",
+  "NbDigitsNaN": "Počet číslic je kladné celé číslo větší než 6",
+  "Dash": "-",
+  "Under_Score": "_",
+  "Dot": ".",
+  "Plus": "+",
+  "Slash": "/",
+  "Empty": ""
+}

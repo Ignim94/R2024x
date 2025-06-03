@@ -1,0 +1,12 @@
+m|SMAMpw3DMarkupIntegration\SMAMpw3DMarkupImpl.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.4.24104|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\SMAMpw3DMarkupImpl\SMAMpw3DMarkupImpl.js|1712977849|10540
+s|SMAMpw3DMarkupIntegration\SMAMpw3DMarkupImpl.mweb\src\_copyright.js|1664971811|63
+u|SMAMpw3DMarkupIntegration\SMAMpw3DMarkupImpl.mweb\src\SMAMpwMSRAppCtrl.js|1712594791|12876
+u|SMAMpw3DMarkupIntegration\SMAMpw3DMarkupImpl.mweb\src\SMAMpwMSRHelper.js|1710519952|3382
+u|SMAMpw3DMarkupIntegration\SMAMpw3DMarkupImpl.mweb\src\SMAMpwMSRLoadCtrl.js|1710519928|19503
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

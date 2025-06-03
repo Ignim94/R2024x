@@ -1,0 +1,6 @@
+{
+	"appID": "ENXSPIC_AP",
+	"notifications": [
+		"sourcing.notification.event.memberAccessUpdate.setting"
+	]
+}

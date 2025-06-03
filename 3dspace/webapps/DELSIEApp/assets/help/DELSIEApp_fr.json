@@ -1,0 +1,22 @@
+{
+"CreateAssemblyAndScope.Title":"Créer un assemblage de service et un lien de portée",
+"CreateAssemblyAndScope.ShortHelp":"Crée un assemblage de service avec un lien de portée vers un produit ou une pièce.",
+"CreateAssemblyAndScope.LongHelp":"Sélectionnez un produit ou une pièce et cliquez sur <uicontrol>Créer un assemblage de service et un lien de portée</uicontrol> pour créer un assemblage de service avec un lien de portée vers un produit ou une pièce.",
+"CreateProvideAndScope.Title":"Créer une pièce de service et un lien de portée",
+"CreateProvideAndScope.ShortHelp":"Crée une pièce de service avec un lien de portée vers un produit ou une pièce.",
+"CreateProvideAndScope.LongHelp":"Sélectionnez un produit ou une pièce et cliquez sur <uicontrol>Créer une pièce de service et un lien de portée</uicontrol> pour créer une pièce de service avec un lien de portée vers un produit ou une pièce.",
+"CreateMaterialAndScope.Title":"Créer un matériau fabriqué et un lien de portée",
+"CreateMaterialAndScope.ShortHelp":"Crée un matériau fabriqué avec un lien de portée vers un produit ou une pièce.",
+"CreateMaterialAndScope.LongHelp":"Sélectionnez un produit ou une pièce et cliquez sur <uicontrol>Créer un matériau fabriqué et un lien de portée</uicontrol> pour créer un matériau fabriqué avec un lien de portée vers un produit ou une pièce.",
+"CreateKitAndScope.Title":"Créer un kit de service et un lien de portée",
+"CreateKitAndScope.ShortHelp":"Crée un kit de service avec un lien de portée vers un produit ou une pièce.",
+"CreateKitAndScope.LongHelp":"Sélectionnez un produit ou une pièce et cliquez sur <uicontrol>Créer un kit de service et un lien de portée</uicontrol> pour créer un kit de service avec un lien de portée vers un produit ou une pièce.",
+"CreateServiceAttachingAndScope.Title":"Créer une pièce de fixation de service et un lien de portée",
+"CreateServiceAttachingAndScope.ShortHelp":"Crée une pièce de fixation de service avec un lien de portée vers un produit ou une pièce.",
+"CreateServiceAttachingAndScope.LongHelp":"Sélectionnez un produit ou une pièce et cliquez sur <uicontrol>Créer une pièce de fixation de service et un lien de portée</uicontrol> pour créer une pièce de fixation de service avec un lien de portée vers un produit ou une pièce.",
+"CreateServiceSpareAndScope.Title":"Créer un élément de rechange et un lien de portée",
+"CreateServiceSpareAndScope.ShortHelp":"Crée un élément de rechange avec un lien de portée vers un produit ou une pièce.",
+"CreateServiceSpareAndScope.LongHelp":"Sélectionnez un produit ou une pièce et cliquez sur <uicontrol>Créer un élément de rechange et un lien de portée</uicontrol> pour créer un élément de rechange avec un lien de portée vers un produit ou une pièce.",
+"Show3DOperationViewerCmd.Title":"Lancer 3DOperations Viewer",
+"Show3DOperationViewerCmd.ShortHelp":"Ouvre l'app <wintitle>3DOperations Viewer</wintitle> en mode Aperçu."
+}

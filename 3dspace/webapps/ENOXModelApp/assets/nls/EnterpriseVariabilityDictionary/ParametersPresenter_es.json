@@ -1,0 +1,21 @@
+{
+  "_create": "Nuevo",
+  "_delete": "Eliminar",
+  "_parameterSingle": "Parámetro numérico",
+  "_parameterMultiple": "Parámetros numéricos",
+  "_ERROR_PATCH_PARAMETER": "Se ha producido un error al modificar el parámetro numérico.",
+  "_ERROR_CREATE_PARAMETER": "Se ha producido un error al crear el parámetro numérico.",
+  "_ERROR_DELETE_PARAMETER": "Se ha producido un error al eliminar los parámetros numéricos.",
+  "_ERROR_GET_PARAMETER_DETAILS": "Error al recuperar la información sobre el parámetro numérico.",
+  "_ERROR_GET_PARAMETERS": "Error al recuperar los parámetros numéricos.",
+  "_ERROR_INCORRECT_VALUE_RANGE": "El valor mínimo debe ser inferior al valor máximo",
+  "_information": "Información",
+  "_msg_drop_to_create_variant": "Soltar aquí para crear un nuevo parámetro numérico",
+  "_name": "Nombre",
+  "_open": "Abrir",
+  "_dimension": "Dimensión",
+  "_rangeLabel": "Rango",
+  "_rangeValueDelimiter": " - ",
+  "_createParamterLabel": "Crear parámetros numéricos",
+  "_creation_successful": "Creación correcta."
+}

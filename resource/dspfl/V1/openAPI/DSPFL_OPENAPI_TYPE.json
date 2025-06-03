@@ -1,0 +1,261 @@
+{
+     "dspfl:Model": {
+     	"summary":"Model",
+        "description": "given Model and its corresponding root Model Version.",
+        "PUBLICMasks": [
+           	"dsmvpfl:ModelBaseMask",
+            "dsmvpfl:ModelRootVersionMask"
+           	],
+        "PROTECTEDMasks": [ ],
+        "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["getItems","GETSearch","PATCH","GETAll","BULKUPDATE"]
+    },
+    "dspfl:ModelVersion": {
+     	"summary":"Model Version",
+        "description": "Model Version",
+        "PUBLICMasks": [
+            "dsmvpfl:ModelVersionBaseMask",
+            "dsmvpfl:ModelVersionDetailMask"
+            ],
+        "PROTECTEDMasks": [
+           "dsmvpfl:ModelVersionUIMask",
+            "dsmvpfl:ModelVersionPCsUIMask",
+            "dsmvpfl:ModelVersionRulesUIMask"
+        ],
+        "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["getItems","BULKUPDATE"]
+    },
+    "dspfl:VariantValue": {
+        "summary":"Variant Value ",
+        "description": "Variant Value",
+        "PUBLICMasks": [
+        "dsmvpfl:ValueBaseMask"       
+        ],
+        "PROTECTEDMasks": [
+         "dsmvpfl:ValueUIMask"
+         ],
+         "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["getItems","BULKUPDATE"]
+    },
+    "dspfl:Variant": {
+        "summary":"Variant  ",
+        "description": "Variant",
+        "PUBLICMasks": [
+            "dsmvpfl:VariantValuesBaseMask",
+           "dsmvpfl:VariantBaseMask"
+       ],
+        "PROTECTEDMasks": [
+        "dsmvpfl:VariantValuesUIMask",
+         "dsmvpfl:VariantUIMask"
+         ],
+         "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["getItems","BULKUPDATE"]
+    },
+    "dspfl:VariabilityGroup": {
+        "summary":"Variability Group",
+        "description": "Variability Group",
+        "PUBLICMasks": [
+            "dsmvpfl:VariabilityGroupOptionsBaseMask",
+              "dsmvpfl:VariabilityGroupBaseMask"
+            
+      	],
+        "PROTECTEDMasks": [
+        "dsmvpfl:VariabilityGroupOptionsUIMask",
+        "dsmvpfl:VariabilityGroupUIMask"
+        ],
+        "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["getItems","BULKUPDATE"]
+    },
+     "dspfl:Parameter": {
+        "summary":" Parameter  ",
+        "description": "Parameter",
+        "PUBLICMasks": [],
+        "PROTECTEDMasks": [
+        "dsmvpfl:ParameterBaseMask",
+        "dsmvpfl:ParameterUIMask"
+        ],
+        "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["getItems","BULKUPDATE"]
+    },
+    "dspfl:Option": {
+        "summary":"Option",
+        "description": "Option",
+        "PUBLICMasks": [
+            "dsmvpfl:OptionBaseMask"
+                           ],
+        "PROTECTEDMasks": [
+         "dsmvpfl:OptionUIMask"
+         ],
+         "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["getItems","BULKUPDATE"]
+    },
+	"dspfl:ProductConfiguration": {
+        "summary":"Product Configuration",
+        "description": "Product Configuration",
+        "PUBLICMasks": [
+            "dsmvpfl:ProductConfigurationBaseMask"           
+        ],
+        "PROTECTEDMasks": [
+         "dsmvpfl:ProductConfigurationUIMask"
+         ],
+         "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["getItems","BULKUPDATE"]
+    },
+    "dspfl:ConfigurationRule": {
+        "summary":"Configuration Rule",
+        "description": "Configuration Rule",
+        "PUBLICMasks": [
+            "dsmvpfl:ConfigurationRuleBaseMask"           
+        ],
+        "PROTECTEDMasks": [
+         "dsmvpfl:ConfigurationRuleBaseMask"
+         ],
+         "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["getItems","BULKUPDATE"]
+    },
+    "dspfl:Rule": {
+        "summary":"Portfolio Rule",
+        "description": "Portfolio Rule",
+        "PUBLICMasks": [],
+        "PROTECTEDMasks": [
+        "dsmvpfl:RuleBaseMask",
+          "dsmvpfl:RuleUIMask"
+          ],
+          "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": []
+    },
+    "dspfl:VariantInstance": {
+        "summary":"VariantInstance",
+        "description": "VariantInstance",
+        "PUBLICMasks": [
+        "dsmvpfl:InstanceIDMask",
+       "dsmvpfl:VariantInstanceMask"
+        ],
+        "PROTECTEDMasks": [],
+        "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["getItems","BULKUPDATE"]
+    },
+    
+    "dspfl:OptionGroupInstance": {
+        "summary":"OptionGroupInstance",
+        "description": "OptionGroupInstance",
+        "PUBLICMasks": [
+        "dsmvpfl:InstanceIDMask",
+        "dsmvpfl:OptionGroupInstanceMask"
+        ],
+        "PROTECTEDMasks": [],
+        "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICExcludedURIs": ["getItems","PATCH","BULKUPDATE"]
+    },
+        "dspfl:ParameterInstance": {
+        "summary":"ParameterInstance",
+        "description": "ParameterInstance",
+        "PUBLICMasks": [],
+        "PROTECTEDMasks": ["dsmvpfl:ParameterInstanceMask"],
+        "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": []
+    },
+    "dspfl:VariantValueInstance": {
+        "summary":"VariantValueInstance",
+        "description": "VariantValueInstance",
+        "PUBLICMasks": [],
+        "PROTECTEDMasks": [],
+        "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": []
+   },
+      "dspfl:OptionInstance": {
+        "summary":"OptionInstance",
+        "description": "OptionInstance",
+        "PUBLICMasks": [],
+        "PROTECTEDMasks": [],
+        "PRIVATEMasks": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PRIVATEFields": [],
+        "PUBLICExtensions": [],
+        "PROTECTEDExtensions": [],
+        "PRIVATEExtensions": []
+    }
+
+}

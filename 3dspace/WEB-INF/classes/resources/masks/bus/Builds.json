@@ -1,0 +1,81 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "Build Serial Number",
+				"status": "RW"
+			},
+			{
+				"name": "type",
+				"status": "RO"
+			},
+			{
+				"name": "Build Unit Number",
+				"status": "RO"
+			},
+			{
+				"name": "description",
+				"status": "RW"
+			},
+			{
+				"name": "Actual Build Date",
+				"status": "RW"
+			},
+			{
+				"name": "revision"
+			},
+			{
+				"name": "current"
+			},
+			{
+				"name": "owner",
+				"status": "RW"
+			},
+			{
+				"name": "modified"
+			},
+			{
+				"name": "organization"
+			},
+			{
+				"name": "project"
+			},
+			{
+				"name": "Originator"
+			},
+			{
+				"name": "originated"
+			}
+		]
+	},
+	"details": {
+		"attributes": {
+			"thumbnails": {
+				"status": "RW"
+			},
+			"owner": {
+				"mandatory": true
+			},
+			"name": {
+				"forbiddenChar": "\\/:*?\"<>|#$@%,[]"
+			}
+		}
+	},
+	"NewBranch": {
+		"attributes": [
+			{
+				"name": "revision",
+				"status": "RW"
+			}
+		]
+	},
+	"Revise": {
+		"attributes": [
+			{
+				"name": "revision",
+				"status": "RW"
+			}
+		]
+	},
+	"revision":"0"
+}

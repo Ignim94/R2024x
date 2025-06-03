@@ -1,0 +1,99 @@
+{
+	"dsmfg:MfgItem":{
+		"expand":{
+			"maxPathCount":10000,
+			"defaultMask":"dsmfg:MfgItem.ExpandMask.Default.V1",
+			"deprecatedMask":"dsmfg:MfgItem.ExpandMask.Default"
+		}
+	},
+	"dsmfg:Origin": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				{
+					"originItem": {
+						"payloadType": "linkableObject"
+					},
+					"URI_RootId": {
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				}
+			]
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsmfg:OriginLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "mfgitem",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"307",
+									"308"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"dsmfg:Substitute": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				{
+					"referencedObject": {
+						"payloadType": "linkableObject"
+					},
+					"instanceObject": {
+						"payloadType": "linkableObject"
+					}
+				}
+			]
+		}
+	},
+	"dsmfg:Alternate": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				{
+					"alternateItem": {
+						"payloadType": "linkableObject"
+					},
+					"URI_RootId": {
+						"crudKey": "sourceItem",
+						"payloadType": "URI_RootId"
+					}
+				}
+			]
+		},
+		"delete": {
+			"deleteMaxLimit": 1
+		}
+	},
+	"dsmfg:MfgResponsibility": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				{
+					"organizationRef": {
+						"payloadType": "linkableObject",
+						"crudKey": "TO_IDs"
+					},
+					"URI_RootId": {
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				}
+			]
+		}
+	}
+}

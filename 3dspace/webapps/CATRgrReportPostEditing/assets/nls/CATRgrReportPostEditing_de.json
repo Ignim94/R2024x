@@ -1,0 +1,9 @@
+{
+  "button_ProduceFinalReport": "Abschlussbericht erzeugen",
+  "button_SavePostEditing": "Für später speichern",
+  "message_ReallyQuit": "Die aktuelle Arbeit geht möglicherweise verloren. Fortfahren?",
+  "message_ReportDocumentReservedBy": "Zieldokument ist aktuell reserviert von {0}",
+  "title_PostEditing": "Post-Editing",
+  "title_ReallyQuit": "Post-Editing verlassen",
+  "targetDocumentError": "Es ist ein Problem mit dem Zieldokument aufgetreten"
+}

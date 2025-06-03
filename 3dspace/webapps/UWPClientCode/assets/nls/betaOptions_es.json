@@ -1,0 +1,9 @@
+{
+  "betaOptions": [
+    {
+      "id": "FUN143768",
+      "title": "Abrir aplicaciones web como pestañas del navegador",
+      "description": "Las aplicaciones web de 3DCompass se abrirán en pestañas específicas en lugar de en la ventana de vista previa del panel."
+    }
+  ]
+}

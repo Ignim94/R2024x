@@ -1,0 +1,13 @@
+m|MPFModels\MPFCartItemDocModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\MPFCartItemDocModel\MPFCartItemDocModel.js|1700692124|1867
+s|MPFModels\MPFCartItemDocModel.mweb\src\CartItemDocCollection.js|1669411784|938
+u|MPFModels\MPFCartItemDocModel.mweb\src\CartItemDocDataProxy.js|1669411784|1709
+u|MPFModels\MPFCartItemDocModel.mweb\src\CartItemDocFactory.js|1669411784|1474
+u|MPFModels\MPFCartItemDocModel.mweb\src\CartItemDocModel.js|1669411784|2095
+u|MPFModels\MPFCartItemDocModel.mweb\src\MPFCartItemDocModel.js|1669411784|0
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

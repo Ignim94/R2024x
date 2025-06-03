@@ -1,0 +1,9 @@
+{
+  "betaOptions": [
+    {
+      "id": "FUN143768",
+      "title": "將 Web 應用程式開啟為瀏覽器分頁",
+      "description": "3DCompass Web 應用程式將在專用分頁中開啟，而非儀表板預覽視窗。"
+    }
+  ]
+}

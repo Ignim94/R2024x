@@ -1,0 +1,653 @@
+:root { 
+	--success-color: #018308;
+	--warning-color: #E03400;
+	--error-color: #CC092F;
+	--leftDiv-width: 20%;
+	--leftDiv-minwidth: 0%;
+	--centreDiv-width: 80%;
+	--rightDiv-width: 0%;
+	--rightDiv-minwidth: 0%;
+}
+
+.moduleUwa {
+	width: 100% !important;
+	border: none !important;
+	height: 100% !important;
+	background: rgba(0, 0, 0, 0); /*Transparency*/
+	margin: 0px !important;
+	position: absolute !important;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.moduleHeader {
+	display: none !important;
+}
+
+.moduleFooter {
+	display: none;
+}
+
+.moduleWrapper {
+	height: 100%;
+}
+
+.moduleContent {
+	height: 100%;
+}
+
+/* ------------------------------------------------------------  */
+/* ---------------- SCOPE UI OUTLET ---------------------------  */
+/* ------------------------------------------------------------  */
+
+#manage_tab_container .wux-controls-tabBar.wux-controls-tabbar-strip[touch-mode] {
+	height:	43px !important;
+}
+
+#ScopeMainDiv {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+#scopeTopDiv {
+	width: 100%;
+	margin: 0 auto;
+	padding: 2px 0px 2px 0px;
+}
+
+#scopeBodyDiv {
+	width: 100%;
+	margin: 0 auto;
+	flex-grow: 1;
+	display: flex;
+}
+
+#scopeLeftDiv {
+	width: var(--leftDiv-width);
+	min-width: var(--leftDiv-minwidth);
+	transition: .25s linear;
+	border-right: 1px solid lightgrey;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid lightgrey;
+	height: calc(100% - 15px);
+}
+
+#scopeCentreDiv {
+	position: relative;
+	width: var(--centreDiv-width);
+	transition: .25s linear;
+	min-width: 40%;
+	height: calc(100% - 5px);
+}
+
+#scopeRightDiv {
+	width: var(--rightDiv-width);
+	transition: .25s linear;
+	min-width: var(--rightDiv-minwidth);
+	height: calc(100% - 15px);
+}
+
+#scopeLeftDiv-Header {
+	width: 100%;
+	margin: 0 auto;
+	padding: 2px 2px 0px 1px;
+	background: #F9F9F9;
+	border-bottom: 1px solid #E2E4E3;
+}
+
+#scopeLeftDiv-Body {
+	width: 100%;
+	margin: 0 auto;
+	flex-grow: 1;
+}
+
+/* ------------------------------------------------------------  */
+/* ---------------- SCOPE TOOLBAR -----------------------------  */
+/* ------------------------------------------------------------  */
+.tbar {
+	position: relative;
+	right: 2px;
+	color: #77797c;
+	opacity: 0.9;
+	font-size: 22px;
+}
+
+.tbar-actions-left {
+	float: left;
+	cursor: pointer;
+	font-size: 0.8em;
+}
+
+#lefttoolbar-find-div .wux-controls-find {
+	left: 0!important;
+}
+
+#manage_tab_container .wux-controls-find {
+	position: relative;
+	left: 50%;
+}
+
+.tbar-actions-right {
+	float: right;
+	font-size: 0.8em;
+}
+
+.scope-tbar .wux-controls-tabBar-tabs-container.wux-controls-tabbar-strip
+	{
+	display: flex
+}
+
+.scope-tbar .tabContainer.wux-controls-tab-container.wux-controls-tab-strip
+	{
+	font-size: 14px
+}
+
+.save-scope-plus:hover,
+.save-scope-filter:hover,
+.save-scope-info:hover,
+.save-scope-lifecycle-active:hover,
+.save-scope-export-csv:hover
+	{
+	color: #368ec4;
+	cursor: pointer;
+}
+
+.save-scope-lifecycle-inactive {
+	opacity: 0.4;
+}
+
+.save-scope-lifecycle-active {
+	opacity: 1;
+}
+
+.scope-required-icon {
+	display: inline-block;
+	color: #e87b00;
+	vertical-align: top;
+	padding-left: 5px;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+#leftToolBarDiv {
+	background: #F9F9F9;
+	border-bottom: 1px solid #E2E4E3;
+}
+
+#leftdiv-lisscope-datagrid .wux-layouts-datagridview-cell .wux-tweakers-string-label:first-of-type
+	{
+	font-weight: bold;
+}
+
+.save-scope-toggle-title {
+	font-family: Arial;
+	text-overflow: arial;
+	word-wrap: normal;
+	word-break: normal;
+	font-size: 12.5px;
+	font-weight: 500;
+}
+
+.save-scope-toggle-expand {
+	font-size: 14.5px !important;
+}
+
+.save-scope-toggle-title:hover,
+.save-scope-toggle-expand:hover {
+	 color: #3d3d3d;
+}
+
+@media only screen and (max-width: 900px) {
+  .save-scope-toggle-title,
+  .save-scope-toggle-expand {
+    font-size: inherit !important;
+  }
+}
+@media screen and (max-width: 900px) {
+	#scope-left-resizer {
+	  display: none;
+	}}
+
+/* ------------------------------------------------------------  */
+/* ---------------- SCOPE GRIDVIEW ----------------------------  */
+/* ------------------------------------------------------------  */
+.savescope-empty-content, .scopedetails-empty-content {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+}
+
+.savescope-empty-content .empty-content-text-div,
+	.scopedetails-empty-content .scopedetails-empty-content-text-div {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	line-height: 30px;
+	margin-top: auto;
+	font-weight: 500;
+	padding: 5px 0;
+	font-family: arial;
+}
+
+.savescope-empty-content .empty-content-button-div,
+	.scopedetails-empty-content .scopedetails-empty-content-button-div {
+	text-align: center;
+	position: relative;
+}
+
+.savescope-empty-content .empty-content-button-div .wux-controls-button,
+	.scopedetails-empty-content .scopedetails-empty-content-button-div .wux-controls-button
+	{
+	display: inline-block;
+	border-color: black;
+	font-size: 14px;
+	font-weight: normal;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	margin: 8px;
+	padding: 8px 12px 6px 12px;
+	border: 1px solid #b4b6ba;
+	border-radius: 4px;
+	min-width: 72px;
+	line-height: 1.42857;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	pointer-events: visible;
+}
+
+.scope-details-grid-view, .scope-grid-view {
+	height: inherit;
+}
+
+.scope-details-grid-view .wux-layouts-datagridview, .scope-grid-view .wux-layouts-datagridview
+	{
+	width: 100% !important;
+	height: inherit !important;
+	position: relative !important;
+	border-right: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+
+.scope-grid-view .wux-layouts-datagridview-tweaker-container {
+	font-weight: bold;
+	background: #F4F5F6;
+	border: 1px solid #E2E4E3;
+}
+
+.scope-grid-view .wux-layouts-datagridview-cell[column-header]:not([last-column]),
+	.scope-grid-view .wux-layouts-datagridview-cell[column-header]:not([pinned="left"])
+	{
+	border: 0px solid !important;
+}
+
+.scope-grid-view .wux-layouts-datagridview-cell[column-header] {
+	border: 1px solid #E2E4E3;
+}
+
+.scope-grid-view .wux-scroller.wux-ui-is-rendered {
+	overflow-y: auto !important;
+}
+
+#leftdiv-lisscope-datagrid {
+	position: relative !important;
+	height: 100% !important;
+}
+
+/* ------------------------------------------------------------  */
+/* ---------------- SCOPE MATURITY VIEW -----------------------  */
+/* ------------------------------------------------------------  */
+.lcm-maturity-container {
+	width: 95% !important;
+}
+
+/* ------------------------------------------------------------  */
+/* ---------------- SCOPE DETAILS GRIDVIEW --------------------  */
+/* ------------------------------------------------------------  */
+.scope-details-grid-view .wux-layouts-datagridview-icon.wux-ui-genereatedicon-backgroundimage {
+	width: 19px !important;
+	height: 19px !important;
+}
+
+.scope-details-grid-view .wux-tweakers-string .wux-tweakers-string-icon-view {
+	width: 22px !important;
+	height: 22px !important;
+}
+
+.scope-details-grid-view .wux-layouts-datagridview-column-header-cell .wux-tweakers-labelonly
+	{
+	font-weight: bold;
+}
+
+.scope-details-grid-view .wux-layouts-datagridview-cell[column-header] {
+	border: 1px solid #E2E4E3;
+}
+
+/*.scope-details-grid-view .wux-layouts-datagridview-cell .wux-tweakers {
+	font-size: 12px;
+}*/
+
+.scope-details-info-status {
+	position: absolute;
+	height: 20px;
+    width: 20px;
+    right: 40px;
+    bottom: 40px;
+    z-index: 2000;
+}
+
+.scope-details-status {
+	position: absolute;
+	top: 20px;
+}
+
+.scope-details-grid-view .wux-tweakers-boolean-readonly .wux-ui-genereatedicon-fi.wux-ui-3ds-check {
+	color: #57b847 !important;
+}
+
+.scope-details-grid-view .wux-tweakers-boolean-readonly .wux-ui-genereatedicon-fi.wux-ui-3ds-wrong {
+	color: #EA4F37 !important;
+}
+
+/* ------------------------------------------------------------  */
+/* ---------------- SCOPE COLOR CODE --------------------------  */
+/* ------------------------------------------------------------  */
+#scope-Create-color-active {
+	font-size: 12.5px;
+	background-color: #9B2C98 !important;
+	color: #FFFFFF !important;
+}
+
+#scope-Create-color-inactive {
+	font-size: 12.5px;
+	background-color: #CD95CB !important;
+	color: #FFFFFF !important;
+}
+
+#scope-Active-color-active {
+	font-size: 12.5px;
+	background-color: #757575 !important;
+	color: #FFFFFF !important;
+}
+
+#scope-Active-color-inactive {
+	font-size: 12.5px;
+	background-color: #BABABA !important;
+	color: #FFFFFF !important;
+}
+
+#scope-Archive-color {
+	font-size: 12.5px;
+	background-color: whitesmoke !important;
+}
+
+#scope-PRIVATE-color {
+	background-color: #9B2C98 !important;
+	color: #FFFFFF !important;
+}
+
+#scope-INWORK-color {
+	background-color: #007DA3 !important;
+	color: #FFFFFF !important;
+}
+
+#scope-FROZEN-color {
+	background-color: #018308 !important;
+	color: #FFFFFF !important;
+}
+
+#scope-RELEASED-color {
+	background-color: #757575 !important;
+	color: #FFFFFF !important;
+}
+
+#scope-OBSOLETE-color,
+#scope-EMPTY-color {
+	background-color: #FFFFFF !important;
+	color: #FFFFFF !important;
+}
+
+/* ------------------------------------------------------------  */
+/* ---------------- SCOPE CREATEVIEW --------------------------  */
+/* ------------------------------------------------------------  */
+#create_scope_div {
+	height: 100% !important;
+}
+
+#create_scope_dialog .wux-windows-window-content {
+	width: auto !important;
+}
+
+#create_scope_lineeditor .wux-ui-state-undefined {
+	width: 100%;
+}
+
+#create_scope_lineeditor {
+	width: 100%;
+	padding: 2px 4px 4px 6px;
+}
+
+#create_scope_combo {
+	pointer-events: none;
+	width: 100%;
+	padding: 2px 4px 4px 6px;
+}
+
+#create_scope_editor {
+	width: inherit !important;
+	padding: 2px 4px 4px 6px;
+}
+
+#create_scope_editor .wux-ui-state-undefined {
+	width: 100%;
+}
+
+.createscope-popup-container, .createscope-popup-container .wux-ui-3ds-attention
+	{
+	color: #e87b00;
+}
+
+#scope_credenatial_combo .wux-controls-button .wux-controls-combobox-icon
+	{
+	display: none;
+}
+
+#create_scope_lineeditor.warning input {
+	border-color: var(--warning-color);
+}
+
+#create_scope_lineeditor.success input {
+	border-color: var(--success-color);
+}
+
+#scope_title_valid:not(.warning) {
+	padding: 0px 4px 4px 6px;
+}
+
+#scope_title_valid.warning small {
+	color: var(--error-color) !important;
+	font-size: 0.87em !important;
+}
+
+/* ------------------------------------------------------------  */
+/* -------------- INFORMATION PANEL --------------------------  */
+/* ------------------------------------------------------------  */
+#savescope-slideInfoPanel {
+	height: 100%;
+	position: relative;
+	border: 1px solid lightgrey;
+	border-left: 0;
+}
+
+#scope-left-resizer, #scope-right-resizer {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	cursor: w-resize;
+	border: 1px solid #ccc;
+}
+
+#scope-left-resizer {
+	height: calc(100% - 10px) !important;
+	left: 0;
+}
+
+#scope-right-resizer {
+	height: calc(100% - 10px) !important;
+	right: 0;
+}
+
+#savescope-modalDialog .wux-windows-window-maincontent.wux-element-contentbox {
+	height: auto !important;
+}
+
+#savescope-modalDialog .wux-windows-window-maincontent .wux-windows-window-content {
+	width: auto !important;
+}
+
+/* ------------------------------------------------------------  */
+/* -------------- Filter Data -------------------------------  */
+/* ------------------------------------------------------------  */
+#filterPanelContent {
+	flex: 1;
+	/*justify-content: center;*/
+}
+
+#closeIcon {
+	position: absolute;
+	right: 0;
+	margin-right: 4px;
+	top: 2px;
+}
+
+#filterPanelHeader {
+	display: flex;
+	margin-bottom: 8px;
+	flex: 0.2;
+}
+
+#Heading {
+	font-weight: bolder;
+	margin-top: 4px;
+	margin-right: 56px
+}
+
+#filterPanelFooter {
+	position: relative;
+	text-align: right;
+	background: #F1F1F1;
+}
+
+
+.datePickerDiv {
+	position: relative;
+	left: 0px;
+}
+
+#datePickerDropDown {
+	/* padding-left: 5px; */
+	height: 40px;
+	margin-top: 2px;
+}
+
+#dateTypePicker {
+	height: 40px;
+}
+
+#filterPanel {
+  overflow: scroll;
+  scrollbar-width: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 1px solid lightgrey;
+  border-left: 0;
+  padding: 4px;
+  font-size: 15px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+}
+#filterPanel::-webkit-scrollbar {
+  display: none;
+}
+
+.datePickerDiv .wux-controls-datepicker {
+	display: block !important;
+	padding-top: 5px;
+	width: 100% !important;
+	height: 20%
+}
+
+#filterDataCancel {
+	margin: 4px;
+	font-size: 15px;
+	height: 40px;
+}
+
+#filterDataApply {
+	margin: 4px;
+	font-size: 15px;
+	height: 40px;
+}
+
+#filterPanel input {
+	height: 40px;
+	font-size: 14px;
+}
+
+#datePickerDropDown span {
+	font-size: 15px;
+}
+
+.datePickerDiv .wux-button-icon-placeholder {
+	padding-top: 6px;
+}
+#dateTypePicker{
+	display: flex;
+}
+
+#dateTypePicker.wux-controls-combobox:not([no-expander]):not([mainElementIcon])[touch-mode] .wux-controls-lineeditor .wux-controls-combobox-mainelement {
+	height: 40px !important;
+}
+.wux-controls-combobox[touch-mode]{
+	height: 40px !important;
+}
+/* ------------------------------------------------------------  */
+/* ----------------------- SCROLL DIV -------------------------  */
+/* ------------------------------------------------------------  */
+.savescope-scroll-to-top {
+	display: none;
+	position: absolute;
+	z-index: 99;
+	width: 30px;
+	height: 30px;
+	right: 65px;
+	bottom: 20px;
+	background-color: #00b8de;
+	border-radius: 50%;
+	cursor: pointer;
+	box-sizing: content-box;
+	color: white;
+}
+
+.savescope-scroll-to-top:hover {
+	color: #B4B6BA !important;
+}
+
+.savescope-scroll-icon {
+	font-size: 1.4em !important;
+	padding: 6px;
+}

@@ -1,0 +1,154 @@
+{	
+	"dsreq:RequirementUsage": {
+        "isPublic":true,
+        "kindOf": "content",
+        "beType": "virtual_Specification Structure",
+        "defaultMask" : "dsreq:RequirementUsageMask.Details",
+        "extensionLinks": ["dscfg:Filterable"],
+        "patchCSRF" : true,
+		"cestamp": true,
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsreq.V1.dictionaries.dsreqRequirementUsageAttributeDictionary",
+        "customizationSupport":false,
+        "patchChangeLog":true,
+        "optionCheck" : {
+        	"modify"      : false,
+        	"produce"     : false,
+        	"navigate"    : false
+        }
+	},
+	
+	"dsreq:ChapterUsage": {
+        "isPublic":true,
+        "kindOf": "content",
+        "beType": "virtual_Specification Structure",
+        "defaultMask" : "dsreq:ChapterUsageMask.Details",
+        "extensionLinks": ["dscfg:Filterable"],
+        "patchCSRF" : true,
+		"cestamp": true,
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsreq.V1.dictionaries.dsreqChapterUsageAttributeDictionary",
+        "customizationSupport":false,
+        "patchChangeLog":true,
+        "optionCheck" : {
+        	"modify"      : false,
+        	"produce"     : false,
+        	"navigate"    : false
+        }
+	},
+	
+	"dsreq:SubRequirementUsage": {
+        "isPublic":true,
+        "kindOf": "content",
+        "beType": "virtual_Sub Requirement",
+        "defaultMask" : "dsreq:SubRequirementUsageMask.Details",
+        "extensionLinks": ["dscfg:Filterable"],
+        "patchCSRF" : true,
+		"cestamp": true,
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsreq.V1.dictionaries.dsreqSubRequirementUsageAttributeDictionary",
+        "customizationSupport":false,
+        "patchChangeLog":true,
+        "optionCheck" : {
+        	"modify"      : false,
+        	"produce"     : false,
+        	"navigate"    : false
+        }
+	},
+
+	
+	"dsreq:RequirementSpecification":{
+		"isPublic":true,
+		"kindOf":"root",
+		"beType": "type_SoftwareRequirementSpecification",
+		"rootLinks":["dsreq:Comment"],
+		"contentLinks": ["dsreq:RequirementUsage","dsreq:ChapterUsage"],
+		"defaultMask" : "dsreq:RequirementSpecificationBaseMask",
+		"search":true,
+		"extensionLinks": [ "dslc:changeControl","dscfg:Configured" ],
+		"patchChangeLog":true,
+		"changeSupport":true,
+		"patchCSRF" : true,
+		"attributeMappingClass":"com.dassault_systemes.enovia.xapps.dsreq.V1.dictionaries.dsreqSpecificationAttributeDictionary",
+		"customizationSupport":true, 
+		"cestamp" : false,
+		"optionCheck":{
+			"modify" : true,
+			"produce": true,
+			"navigate":false
+		}
+	},
+	
+	"dsreq:Requirement":{
+		"isPublic":true,
+		"kindOf":"root",
+		"beType": "type_Requirement",
+		"contentLinks": ["dsreq:SubRequirementUsage"],
+		"defaultMask" : "dsreq:RequirementBaseMask",
+		"search":true,
+		"extensionLinks": [ "dslc:changeControl","dscfg:Configured" ],
+		"patchChangeLog":true,
+		"changeSupport":true,	
+		"patchCSRF" : true,
+		"attributeMappingClass":"com.dassault_systemes.enovia.xapps.dsreq.V1.dictionaries.dsreqRequirementAttributeDictionary",
+		"customizationSupport":true,
+		"cestamp" : false,
+		"optionCheck":{
+			"modify" : true,
+			"produce": true,
+			"navigate":false
+		}
+	},
+	
+	"dsreq:Chapter":{
+		"isPublic":true,
+		"kindOf":"root",
+		"beType": "type_Chapter",
+		"rootLinks":["dsreq:Comment"],
+		"contentLinks": ["dsreq:ChapterUsage","dsreq:RequirementUsage"],
+		"defaultMask" : "dsreq:ChapterBaseMask",
+		"search":true,
+		"extensionLinks": [ "dslc:changeControl","dscfg:Configured" ],
+		"patchChangeLog":true,
+		"changeSupport":true,
+		"patchCSRF" : true,
+		"attributeMappingClass":"com.dassault_systemes.enovia.xapps.dsreq.V1.dictionaries.dsreqChapterAttributeDictionary",
+		"customizationSupport":true,
+		"cestamp" : true,
+		"optionCheck":{
+			"modify" : true,
+			"produce": true,
+			"navigate":false
+		}
+	},
+	
+	"dsreq:Comment":{
+		"isPublic":false,
+		"kindOf":"root",
+		"beType": "type_Comment",
+		"defaultMask" : "dsreq:CommentBaseMask",
+		"patchCSRF" : true,
+		"attributeMappingClass":"com.dassault_systemes.enovia.xapps.dsreq.V1.dictionaries.dsreqCommentAttributeDictionary",
+		"customizationSupport":true,
+		"cestamp" : false,
+		"optionCheck":{
+			"modify" : true,
+			"produce": true,
+			"navigate":false
+		}
+	},
+	
+	"dsreq:SpecificationsFolder":{
+		"isPublic":false,
+		"kindOf":"root",
+		"beType": "type_RequirementGroup",
+		"rootLinks":["dsreq:SpecificationsFolder","dsreq:RequirementSpecification"],
+		"defaultMask" : "dsreq:SpecificationsFolderBaseMask",
+		"patchCSRF" : true,
+		"attributeMappingClass":"com.dassault_systemes.enovia.xapps.dsreq.V1.dictionaries.dsreqSpecFolderAttributeDictionary",
+		"customizationSupport":true,
+		"cestamp" : false,
+		"optionCheck":{
+			"modify" : true,
+			"produce": true,
+			"navigate":false
+		}
+	}
+}

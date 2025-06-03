@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySOLIDWORKS_nosimu_nosaveasnew.XSCViews.Title="Вид";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.XSCTools.Title="Инструменты";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.Lifecycle.Title="Жизненный цикл";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.Collaboration.Title="Совместная работа";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.SaveSession.Title="Сохранить активное окно";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ShareAsPicture.Title="Опубликовать как изображение";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ShareAs3D.Title="Опубликовать как 3D-объект";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.RefreshHome.Title="Обновить";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ReloadAll.Title="Перезагрузить все";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ReserveHdr.Title="Заблокировать";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.UnreserveHdr.Title="Разблокировать";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.PropertiesHdr.Title="Свойства";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.GetRevisionHdr.Title="Получить редакцию";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ReplaceByRevisionHdr.Title="Заменить редакцией";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ReplaceByLatestRevisionHdr.Title="Заменить последней редакцией";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.UpdateRevisionsHdr.Title="Обновить редакции";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.RevisionsHdr.Title="Редакции";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ReloadFromServerHdr.Title="Перезагрузить с сервера";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ReplaceContentHdr.Title="Заменить содержимое";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.RelationIPExplorer.Title="Взаимосвязи";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.OptionsHdr.Title="Параметры...";
+
+PowerBySOLIDWORKS_nosimu_nosaveasnew.View.Title="Вид";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.Tools.Title="Инструменты";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.XCADExport.Title="Экспорт X-CAD";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.XCADImport.Title="Импорт X-CAD";

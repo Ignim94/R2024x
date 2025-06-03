@@ -1,0 +1,18 @@
+{
+  "recentPublishedContent": "最近发布的内容",
+  "noPublishedContent": "未找到发布的内容",
+  "draft": "草稿",
+  "noWhiteboard": "未找到白板",
+  "noSketch": "未找到草图",
+  "deleteConfirmationModalTitle": "删除项目",
+  "deleteConfirmationModalBody": "是否确定要删除此项目？",
+  "deleteConfirmationModalConfirmButton": "是",
+  "deleteConfirmationModalRejectButton": "否",
+  "dropmenuEditOption": "编辑",
+  "dropmenuDeleteOption": "删除",
+  "dropmenuShareableLinkOption": "复制链接",
+  "shareableLinkCopyMessage": "链接已复制到剪贴板",
+  "MyWhiteboardsButtonNotClickedError": "请先单击我的白板选项卡，然后再搜索。",
+  "personalSpace": "个人空间",
+  "searchWhiteboardsNoResults": "未找到结果。请更改搜索文本然后重试。"
+}

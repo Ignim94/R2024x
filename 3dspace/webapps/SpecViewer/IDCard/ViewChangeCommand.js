@@ -1,0 +1,1 @@
+define("DS/SpecViewer/IDCard/ViewChangeCommand",["UWA/Core","DS/SpecViewer/Properties/view/ItemProperties"],function(e,i){"use strict";return i.extend({initEditPropWidget:function(e){this.facetsArr=["Change","Properties"],this._parent(e)}})});

@@ -1,0 +1,5 @@
+{
+"ToggleRightPanel.Title":"Wyświetl panel boczny",
+"ToggleRightPanel.ShortHelp":"Wyświetla informacje o wybranym obiekcie na różnych kartach na panelu bocznym.",
+"ToggleRightPanel.LongHelp":"Dostępne karty zależą od aplikacji, w której je uruchomiono, a także od typu wybranego obiektu."
+}

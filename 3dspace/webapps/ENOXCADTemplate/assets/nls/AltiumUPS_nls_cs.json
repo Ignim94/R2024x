@@ -1,0 +1,16 @@
+{
+  "AltiumPCBProject.label": "Projekt Altium PCB",
+  "AltiumSchematic.label": "Schéma Altium",
+  "PrintedCircuitBoard.label": "Rozložení Altium",
+  "AltiumPCBProjectTemplate.label": "Projekt Altium PCB",
+  "AltiumSchematicTemplate.label": "Schéma Altium",
+  "AltiumLayoutTemplate.label": "Rozložení Altium",
+  "field.title.label": "Název",
+  "field.title.placeholder": "Sem zadejte název",
+  "field.description.label": "Popis",
+  "field.description.placeholder": "Sem zadejte krátký popis",
+  "field.name.label": "Název",
+  "field.name.AltiumPCBProject.placeholder": "Sem zadejte název projektu Altium PCB",
+  "field.name.AltiumSchematic.placeholder": "Sem zadejte název schématu Altium",
+  "field.name.PrintedCircuitBoard.placeholder": "Sem zadejte název rozložení Altium"
+}

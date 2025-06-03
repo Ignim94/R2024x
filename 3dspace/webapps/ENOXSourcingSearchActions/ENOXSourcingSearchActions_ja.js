@@ -1,0 +1,1 @@
+define("DS/ENOXSourcingSearchActions/ENOXSourcingSearchActions_ja",{});define("DS/ENOXSourcingSearchActions/assets/nls/ENOXSourcingSearchActions",{download:"ダウンロード",open_with:"オプションを指定して開く"});

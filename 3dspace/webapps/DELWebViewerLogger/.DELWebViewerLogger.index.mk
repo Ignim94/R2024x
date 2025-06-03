@@ -1,0 +1,9 @@
+m|DELWebViewerBase\DELWebViewerLogger.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.3.24064|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELWebViewerLogger\DELWebViewerLogger.js|1709589069|689
+s|DELWebViewerBase\DELWebViewerLogger.mweb\src\Logger.js|1709537290|2314
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

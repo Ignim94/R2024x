@@ -1,0 +1,35 @@
+{
+  "CMDExpandAll": "全部展開",
+  "CMDCollapseAll": "全部摺疊",
+  "plmnew_management": "PLM 新增",
+  "multiSelectionComponent": {
+    "button_OK": "加入",
+    "button_Cancel": "取消",
+    "widget_name": "",
+    "msg_ClassifyInProgress": "加入...",
+    "msg_ClassifySuccessful": "加入成功。",
+    "msg_ClassifyFailed": "加入期間發生錯誤",
+    "msg_selectNodeToSeeInfo": "選擇瀏覽節點以查看其詳細資料。"
+  },
+  "loader": {
+    "findingObjects": "正在尋找..."
+  },
+  "error_association_service": "服務失敗",
+  "loading": "正在載入...",
+  "error_run_command": "無法執行指令",
+  "error_command_selection": "此指令不適用於所選範圍。",
+  "tooltip_selection_rows_invalid": "部分所選列不相容。",
+  "tooltip_selecion_terms_invalid": "您只能在瀏覽結構中選擇一個瀏覽節點。",
+  "tooltip_selection_empty": "所選範圍為空白。",
+  "tooltip_selection_no_changes": "所選範圍尚未變更。",
+  "tooltip_browse": "瀏覽",
+  "save": "儲存",
+  "cancel": "取消",
+  "ExportControlApp": "IP 輸出控制",
+  "LibraryApp": "資料庫",
+  "BookmarksApp": "書籤",
+  "classificationFailure_title": "啟用以完整分類新「{plmnewtype}」。",
+  "classificationFailure_subtitle": "已成功建立「{plmnewtype}」，但無法自動分類。",
+  "classificationFailure_message": "您可能需要檢查每個分類應用程式是否已分類，並嘗試加以分類",
+  "classificationSuccessMessage": "「{plmnewtype}」已成功分類"
+}

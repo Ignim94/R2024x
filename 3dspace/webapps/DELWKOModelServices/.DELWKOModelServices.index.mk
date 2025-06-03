@@ -1,0 +1,13 @@
+m|DELWKOApp\DELWKOModelServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.7.24222|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELWKOModelServices\DELWKOModelServices.js|1723253210|74513
+s|DELWKOApp\DELWKOModelServices.mweb\src\DELWKOCollectionUtils.js|1708631931|123554
+t|win_b64\webapps\DELWKOModelServices\assets\json\DELWKOPayloads.json|1712385211|2037
+s|DELWKOApp\DELWKOModelServices.mweb\src\assets\json\DELWKOPayloads.json|1710198162|2037
+u|DELWKOApp\DELWKOModelServices.mweb\src\DELWKOCollectionUtilsCloud.js|1722330310|159773
+u|DELWKOApp\DELWKOModelServices.mweb\src\DELWKOSocketServices.js|1706225476|1788
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

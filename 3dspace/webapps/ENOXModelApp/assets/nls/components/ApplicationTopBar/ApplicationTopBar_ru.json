@@ -1,0 +1,13 @@
+{
+  "home": "Главная",
+  "myModelVersions": "Мои версии модели",
+  "recentlyOpened": "Недавние",
+  "enterpriseDictionary": "Корпоративный словарь",
+  "myUnits": "Мои единицы",
+  "goTo": " Перейти к {0}",
+  "variants": "Варианты",
+  "options": "Параметры",
+  "EXPAND": "Развернуть",
+  "COLLAPSE": "Свернуть",
+  "INFORMATION_PANEL": "Информация"
+}

@@ -1,0 +1,49 @@
+{
+	"actions": [
+		{
+			"key": "add",
+			"text": "label_add",
+			"fonticon": "plus"
+		},
+		{
+			"key": "removeitem",
+			"text": "label_Detach",
+			"fonticon": "tree-delete"
+		},
+		{
+			"key": "deleteItem",
+			"text": "label_Delete",
+			"fonticon": "trash"
+		},
+		{
+			"key": "reorder",
+			"text": "label_Reorder",
+			"fonticon": "tree-reorder"
+		},
+		{
+			"key": "expand",
+			"text": "label_expand",
+			"fonticon": "flow-tree",
+			"subMenu": [
+				{
+					"text": "label_expandAll",
+					"fonticon": "flow-tree-expand-down",
+					"key": "expandall",
+					"isVisible": true
+				},
+				{
+					"text": "label_expandNLevel",
+					"fonticon": "flow-tree-expand-down-cog",
+					"key": "expandNLevel",
+					"isVisible": true
+				},
+				{
+					"text": "label_collapseall",
+					"fonticon": "flow-tree-expand-up",
+					"key": "collapseall",
+					"isVisible": true
+				}
+			]
+		}
+	]
+}

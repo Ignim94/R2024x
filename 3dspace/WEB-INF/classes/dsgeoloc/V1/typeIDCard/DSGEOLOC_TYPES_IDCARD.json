@@ -1,0 +1,12 @@
+{
+  "dsgeoloc:Geolocation": {
+    "kindOf":"extension",
+    "beType":"virtual_Geolocation",
+    "isPublic":true,
+    "patchCSRF":true,
+    "defaultMask":"dsmvgeoloc:GeolocMask.Default",
+    "implementationClass": "com.dassault_systemes.enovia.xapps.dsgeoloc.V1.implementations.ENOXExtensionGeolocation",
+    "attributeMappingClass":"com.dassault_systemes.enovia.xapps.dsgeoloc.V1.dictionaries.dsgeolocGeolocationAttributeDictionary",
+    "cestamp":true
+  }
+}

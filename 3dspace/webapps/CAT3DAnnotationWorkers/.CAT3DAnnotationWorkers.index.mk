@@ -1,0 +1,12 @@
+m|CAT3DAnnotationWebUXServices\CAT3DAnnotationWorkers.mweb
+b|j|n,m
+b|c|c,m
+v|6.426.7.24222|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\CAT3DAnnotationWorkers\CAT3DAnnotationLoadWorker.js|1723253823|18572
+s|CAT3DAnnotationWebUXServices\CAT3DAnnotationWorkers.mweb\src\CAT3DAnnotationLoadWorker.js|1722423671|62743
+t|win_b64\webapps\CAT3DAnnotationWorkers\CAT3DAnnotationWorkers.js|1700692965|75
+s|CAT3DAnnotationWebUXServices\CAT3DAnnotationWorkers.mweb\src\CAT3DAnnotationWorkers.js|1620402208|95
+t|win_b64\webapps\CAT3DAnnotationWorkers\_copyright.js|1700692964|63
+s|CAT3DAnnotationWebUXServices\CAT3DAnnotationWorkers.mweb\src\_copyright.js|1480428882|63
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

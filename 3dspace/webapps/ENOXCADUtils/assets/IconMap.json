@@ -1,0 +1,83 @@
+{
+	"typeclassIcons": [
+		{
+			"typeclasslink": [
+				{
+					"typeclass": "TYPE_ASSEMBLY_LIKE",
+					"iconPath": "/snresources/images/icons/small/I_VPMNavProduct.png"
+				},
+				{
+					"typeclass": "TYPE_COMPONENT_LIKE",
+					"iconPath": "/snresources/images/icons/small/I_3DPart.png"
+				},
+				{
+					"typeclass": "TYPE_DRAWING_LIKE",
+					"iconPath": "/snresources/images/icons/small/I_VPMNavDrawing.png"
+				},
+				{
+					"typeclass": "TYPE_REPRESENTATION_LIKE",
+					"iconPath": "/snresources/images/icons/small/I_Part.png"
+				}
+			]
+		},
+		{
+			"cadtypelink": [
+				{
+					"cadtype": "assemblyFamily",
+					"iconPath": "/webapps/ENOXCADUtils/assets/icons/filetype/I_SW_Assembly.png"
+				},
+				{
+					"cadtype": "componentFamily",
+					"iconPath": "/webapps/ENOXCADUtils/assets/icons/filetype/I_SW_AssemblyPart.png"
+				},
+				{
+					"cadtype": "embeddedComponent",
+					"iconPath": "/snresources/images/icons/small/I_EmbeddedComponent.png"
+				}
+			]
+		}
+	],
+	"cadoriginlink": [
+		{
+			"cadorigin": "[CATIAV5]",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/CATIAV5.png"
+		},
+		{
+			"cadorigin": "[SOLIDWORKS]",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/SOLIDWORKS.png"
+		},
+		{
+			"cadorigin": "[AUTOCAD]",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/AUTOCAD.png"
+		},
+		{
+			"cadorigin": "[INVENTOR]",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/INVENTOR.png"
+		},
+		{
+			"cadorigin": "[NX]",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/NX.png"
+		},
+		{
+			"cadorigin": "[REVIT]",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/Revit.png"
+		},
+		{
+			"cadorigin": "",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/3DEXPERIENCE.png"
+		}
+	],
+	"relclasslink": [
+		{
+			"relclass": "REL_CADMODEL_LIKE",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/links/PS_Link.png"
+		},
+		{
+			"relclass": "REL_CAD_DOCUMENT_LIKE",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/links/NON_PS_Link.png"
+		}
+	],
+	"cadfiletype": {
+		"swdrawing": "/webapps/ENOXCADUtils/assets/icons/filetype/I_SW_Drawing.png"
+	}
+}

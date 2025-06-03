@@ -1,0 +1,5 @@
+{
+  "Error.InvalidInput.Message": "提供的输入无效。",
+  "Error.BuildupInitializationFailed.Message": "构建内容或构建上下文初始化失败。",
+  "Error.ConnectionFailed.Message": "在云环境中，与节点的连接已丢失。"
+}

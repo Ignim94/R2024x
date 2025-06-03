@@ -1,0 +1,11 @@
+{
+  "App.Title": "Verwaltung der Serviceelemente",
+  "App.Motto": "Servicestückliste erstellen",
+  "Restore.Title": "Wiederherstellen",
+  "Restore.FontIcon": "Schriftsymbol Schriftsymbol-Reset",
+  "Open.Title": "Öffnen",
+  "Open.FontIcon": "Schriftsymbol Schriftsymbol-öffnen",
+  "CreateAssembly.Title": "Servicebaugruppe erstellen",
+  "CreateAssembly.FontIcon": "Schriftsymbol Schriftsymbol-plus",
+  "DragAndDrop.Title": "Öffnen"
+}

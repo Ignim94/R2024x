@@ -1,0 +1,14 @@
+m|DELModularWebAppCore\DELModularWebAppCore.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.7.24247|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELModularWebAppCore\DELModularWebAppCore.js|1700691830|13620
+s|DELModularWebAppCore\DELModularWebAppCore.mweb\src\Core.js|1688041696|39271
+t|win_b64\webapps\DELModularWebAppCore\assets\json\AuthorizedEvents_Core.json|1725394202|2390
+s|DELModularWebAppCore\DELModularWebAppCore.mweb\src\assets\json\AuthorizedEvents_Core.json|1724738199|2390
+u|DELModularWebAppCore\DELModularWebAppCore.mweb\src\FacadeBase.js|1657520701|5531
+u|DELModularWebAppCore\DELModularWebAppCore.mweb\src\Logger.js|1635242206|2859
+u|DELModularWebAppCore\DELModularWebAppCore.mweb\src\Mediator.js|1699856265|12226
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

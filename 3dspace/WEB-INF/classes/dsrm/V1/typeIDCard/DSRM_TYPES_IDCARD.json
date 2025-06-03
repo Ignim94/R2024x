@@ -1,0 +1,28 @@
+{	
+	"dsrm:RawMaterial": {
+        "isPublic": true,
+	    "kindOf": "root",
+        "beType": "type_Raw_Material",
+		"patchCSRF" : true,
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsrm.V1.dictionaries.dsrmAttributeDictionary",
+        "extensionLinks": ["dsrm:EnterpriseAttributes", "dseng:EnterpriseReference", "dslc:changeControl"],
+	    "cestamp": true,
+        "patchChangeLog": true,
+        "changeSupport": true,
+        "customizationSupport":true,
+	    "optionCheck" : {
+        	"modify"      : true,
+        	"produce"     : true,
+        	"navigate"    : false
+        },
+        "search":true,
+        "defaultMask": "dsrm:RawMaterialMask.Common",
+        "publicResourceURI": "/resources/v1/modeler/dsrm/dsrm:RawMaterial/{pid}"
+    },
+    "dsrm:EnterpriseAttributes": {
+        "isPublic" : true,
+        "kindOf":"extension",   
+        "beType": "XP_Raw_Material_Ext",
+        "customerAttribute":true
+    }
+}

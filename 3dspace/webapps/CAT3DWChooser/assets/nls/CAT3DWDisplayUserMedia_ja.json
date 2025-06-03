@@ -1,0 +1,18 @@
+{
+  "recentPublishedContent": "最近パブリッシュされたコンテンツ",
+  "noPublishedContent": "パブリッシュされたコンテンツが見つかりません",
+  "draft": "ドラフト",
+  "noWhiteboard": "ホワイトボードが見つかりません",
+  "noSketch": "スケッチが見つかりません",
+  "deleteConfirmationModalTitle": "プロジェクトを削除",
+  "deleteConfirmationModalBody": "このプロジェクトを削除してよろしいですか?",
+  "deleteConfirmationModalConfirmButton": "はい",
+  "deleteConfirmationModalRejectButton": "いいえ",
+  "dropmenuEditOption": "編集",
+  "dropmenuDeleteOption": "削除",
+  "dropmenuShareableLinkOption": "リンクをコピー",
+  "shareableLinkCopyMessage": "リンクがクリップボードにコピーされました",
+  "MyWhiteboardsButtonNotClickedError": "検索する前に [マイ ホワイトボード] タブをクリックしてください。",
+  "personalSpace": "個人用スペース",
+  "searchWhiteboardsNoResults": "結果が見つかりません。検索テキストを変更して、再試行してください。"
+}

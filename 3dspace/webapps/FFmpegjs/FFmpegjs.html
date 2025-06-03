@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ffmpeg demo</title>
+
+  <script src="../AmdLoader/AmdLoader.js"></script>
+  <!-- Application Standalone emulation files -->
+  <!--  Commented as we do not have a dependency on UWAClient -- uncomment to turn this to a widget
+
+        <link rel="stylesheet" type="text/css" href="../c/UWA/assets/css/standalone.css" />
+        <script type="text/javascript" src="../c/UWA/js/UWA_Standalone_Alone.js"></script>
+         -->
+
+</head>
+
+<body>
+
+  <h1>ffmpeg demo</h1>
+  <video id="player" controls></video>
+  <input type="file" id="uploader">
+
+</body>
+
+<!-- Script files -->
+<script type="text/javascript">
+
+
+  require(['DS/FFmpegjs/FFmpegjs'], function (FFmpegjs) {
+    const fetchFile = FFmpegjs.fetchFile;
+    const ffmpeg = FFmpegjs.createFFmpeg({
+      log: true,
+      corePath: FFMPEG_BASEPATH + '/ffmpeg-core.js',
+      mainName: 'main'
+    });
+    const transcode = async ({ target: { files } }) => {
+      const { name } = files[0];
+      await ffmpeg.load();
+      ffmpeg.FS('writeFile', name, await fetchFile(files[0]));
+      await ffmpeg.run('-i', name,  'output.mp4');
+      const data = ffmpeg.FS('readFile', 'output.mp4');
+      const video = document.getElementById('player');
+      video.src = URL.createObjectURL(new Blob([data.buffer], { type: 'video/mp4' }));
+    }
+    document
+      .getElementById('uploader').addEventListener('change', transcode);
+
+  });
+
+</script>
+
+</html>

@@ -1,0 +1,20 @@
+{
+  "Preferences.Title": "Preferences",
+  "3DSApp.TECMEPA_AP": "Common",
+  "SaveButton.Label": "Save",
+  "ResetButton.Label": "Reset",
+  "PreferencesTab.Title": "Preferences",
+  "CollectionViewLabel.Label": "Default",
+  "CollectionViewDescription.Label": "",
+  "AdminSaveSuccessNotification.Label": "Profile Default has been saved",
+  "AdminSaveFailureNotification.Label": "Something went wrong",
+  "AdminNotification.Title": "Default Profile has been modified",
+  "AdminNotification.SubTitle": "You can reload to get the modified preferences.\n Some of your modifications may be lost.\n If you save,  your modifications will overwrite the current profile.",
+  "adminUserNotification.SubTitle": "If you save, some of your modifications may not be taken into account.",
+  "adminUserNotification.Title": "Preferences are modified by an administrator",
+  "userNotification.Title": "Preferences are modified from somewhere else.",
+  "reset.Title" : "Reset Profile",
+  "reset.SubTitle" : "Do you want to reset all the preferences for this profile?",
+  "AdminSaveReqEmptyNotification.Label" : "Nothing to save",
+  "AdminPartialSaveNotification.Label" : "Preferences saved partially"
+}

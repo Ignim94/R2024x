@@ -1,0 +1,216 @@
+<meta charset="UTF-8"/>
+//=============================================================================
+// 								Fixed
+//=============================================================================
+DELSIEApp.LandingPage.Title="Accueil";
+DELSIEApp.Refresh.Title="Actualiser les objets sélectionnés";
+DELSIEApp.Hide.Title="Enlever le ou les objets sélectionnés";
+DELSIEApp.Authoring.Title="Création";
+DELSIEApp.HideAll.Title="Enlever tous les objets";
+DELSIEApp.Refresh.Title="Actualiser le ou les objets sélectionnés";
+DELSIEApp.RefreshAll.Title="Actualiser tout";
+
+DELSIEApp.ToggleAuxiliaryView.Title="Vue auxiliaire";
+DELSIEApp.ProductsParts.Title="Produit et pièces";
+DELSIEApp.ServiceItems.Title="Eléments de service";
+
+//=============================================================================
+// 								Authoring
+//=============================================================================
+DELSIEApp.Authoring.Title="Création";
+
+//-------------------------------------------------
+//				Create
+//-------------------------------------------------
+DELSIEApp.InsertCreateAssembly.Title="Assemblage de service";
+DELSIEApp.InsertCreateKit.Title="Kit de service";
+DELSIEApp.InsertProvide.Title="Pièce de service";
+DELSIEApp.InsertInstallation.Title="Installation";
+DELSIEApp.InsertContinuousServiceMaterial.Title="Créer une pièce de service continu";
+DELSIEApp.CreateContinuousServiceMaterialAndScope.Title="Créer une pièce de service continu et un lien de portée";
+DELSIEApp.InsertCreateServiceAttaching.Title="Créer une pièce de fixation de service";
+DELSIEApp.InsertCreateServiceSpare.Title="Créer une élément de rechange";
+
+//-------------------------------------------------
+//				Create Process & Scope
+//-------------------------------------------------
+DELSIEApp.CreateAssemblyAndScope.Title="Créer un assemblage de service et une portée";
+DELSIEApp.CreateMaterialAndScope.Title="Créer un matériau de service et une portée";
+DELSIEApp.CreateKitAndScope.Title="Créer un kit de service et une portée";
+DELSIEApp.CreateProvideAndScope.Title="Créer une pièce de service et une portée";
+DELSIEApp.CreateServiceAttachingAndScope.Title="Créer une pièce de fixation de service et un lien de portée";
+DELSIEApp.CreateServiceSpareAndScope.Title="Créer un élément de rechange et un lien de portée";
+//-------------------------------------------------
+//				Create Process & Resulting Product Link
+//-------------------------------------------------
+DELSIEApp.CreateAssemblyAndResultingProduct.Title="Créer un assemblage de service et un lien de produit résultant";
+DELSIEApp.CreateMaterialAndResultingProduct.Title="Créer un matériau de service et un lien de produit résultant";
+DELSIEApp.CreateKitAndResultingProduct.Title="Créer un kit de service et un lien de produit résultant";
+DELSIEApp.CreateProvideAndResultingProduct.Title="Créer une pièce de service et un lien de produit résultant";
+DELSIEApp.CreateServiceAttachingAndResultingProduct.Title="Créer une pièce de fixation de service et un lien de produit résultant";
+DELSIEApp.CreateServiceSpareAndResultingProduct.Title="Créer un élément de rechange et un lien de produit résultant";
+//-----------------------------------------------------------------------------
+//				Create Process & Scope/ResultingProduct Link for Alternate Substitutes
+//-----------------------------------------------------------------------------
+DELSIEApp.CreateAssemblyAndScopeAltSubst.Title="Créer un assemblage de service et une portée";
+DELSIEApp.CreateKitAndScopeAltSubst.Title="Créer un kit de service et une portée";
+DELSIEApp.CreateProvideAndScopeAltSubst.Title="Créer une pièce de service et une portée";
+DELSIEApp.CreateServiceAttachingAndScopeAltSubst.Title="Créer une pièce de fixation de service et une portée";
+DELSIEApp.CreateServiceSpareAndScopeAltSubst.Title="Créer un élément de rechange et une portée";
+//----------------------------------------------------
+DELSIEApp.CreateAssemblyAndResultingProductAltSubst.Title="Créer un assemblage de service et un lien de produit résultant";
+DELSIEApp.CreateKitAndResultingProductAltSubst.Title="Créer un kit de service et un lien de produit résultant";
+DELSIEApp.CreateProvideAndResultingProductAltSubst.Title="Créer une pièce de service et un lien de produit résultant";
+DELSIEApp.CreateServiceAttachingAndResultingProductAltSubst.Title="Créer une pièce de fixation de service et un lien de produit résultant";
+DELSIEApp.CreateServiceSpareAndSResultingProductAltSubst.Title="Créer un élément de rechange et un lien de produit résultant";
+
+//-------------------------------------------------
+//				Product Assignation
+//-------------------------------------------------
+DELSIEApp.AssignAssembly.Title="Affecter le produit à l'assemblage de service";
+DELSIEApp.AssignKit.Title="Affecter le produit au kit de service";
+DELSIEApp.AssignProvide.Title="Affecter le produit à la pièce de service ";
+DELSIEApp.AssignServiceAttaching.Title="Affecter un produit à une pièce de fixation de service";
+DELSIEApp.AssignServiceSpare.Title="Affecter le produit un élément de rechange de service";
+DELSIEApp.UnassignProduct.Title="Annuler l'affectation d'un produit";
+
+//-------------------------------------------------
+//				Scope
+//-------------------------------------------------
+DELSIEApp.CreateScopeLink.Title="Créer une portée";
+DELSIEApp.ReconnectScope.Title="Reconnecter une portée";
+DELSIEApp.ReviseAndReconnectScope.Title="Réviser et reconnecter une portée";
+DELSIEApp.DeleteScopeLink.Title="Supprimer la portée";
+DELSIEApp.CreatePartialScopeLink.Title="Créer une portée partielle";
+DELSIEApp.DeletePartialScopeLink.Title="Supprimer la portée partielle";
+DELSIEApp.StretchPartialScopeLink.Title="Etirer une portée partielle";
+DELSIEApp.SwitchToFullScopeLink.Title="Passer de la portée partielle à la portée complète";
+
+//-------------------------------------------------
+//-------------------------------------------------
+DELSIEApp.AddExisting.Title="Ajouter un élément existant";
+DELSIEApp.DetachInstance.Title="Détacher";
+
+//-------------------------------------------------
+//				Replace
+//-------------------------------------------------
+DELSIEApp.ReplaceByLatestRevision.Title="Remplacer par la révision la plus récente";
+DELSIEApp.ReplaceByExisting.Title="Remplacer par un objet existant";
+DELSIEApp.ReplaceByNewRevision.Title="Remplacer par une nouvelle révision";
+DELSIEApp.ReplaceByNewReference.Title="Remplacer par un nouvel élément";
+DELSIEApp.ReplaceWhereUsed.Title="Remplacer cas d'emploi";
+
+//-------------------------------------------------
+//				Cut Copy
+//-------------------------------------------------
+DELSIEApp.Cut.Title="Couper";
+DELSIEApp.Copy.Title="Copier";
+DELSIEApp.Paste.Title="Coller";
+
+//-------------------------------------------------
+DELSIEApp.CreateUpdateProcessStructure.Title="Créer une structure de processus de mise à jour";
+DELSIEApp.ChangeImpactAnalysis.Title="Modifier l'analyse de l'impact";
+
+DELSIEApp.Relations.Title="Relations";
+DELSIEApp.DisplayProperties.Title="Informations";
+CollabSharing_Workbench.ActionBar_ChangeOwner.Title="Déplacer";
+CollabSharing_Workbench.ActionBar_TransferOwnership.Title="Changer de propriétaire";
+DELSIEApp.ShowCharacteristicsCmd.Title="Gestion de caractéristiques";
+DELSIEApp.ShowConsolidatedCharactscsCmd.Title="Gestion de caractéristiques : vue consolidée";
+
+//=============================================================================
+// 								Item Management
+//=============================================================================
+DELSIEApp.ItemManagement.Title="Gestion des éléments";
+
+//-------------------------------------------------
+DELSIEApp.CustomerExtension.Title="Extension client";
+DELSIEApp.ViewRelationships.Title="Afficher les relations";
+//-------------------------------------------------
+DELSIEApp.Document.Title="Document";
+DELSIEApp.Characteristics.Title="Caractéristiques";
+DELSIEApp.AlternatesAndSubstitutes.Title="Alternatives et substituts";
+DELSIEApp.Alternates.Title="Alternatives";
+DELSIEApp.ResultingProduct.Title="Produit résultant";
+DELSIEApp.Substitutes.Title="Substituts";
+DELSIEApp.Responsibilities.Title="Responsabilités";
+DELSIEApp.Origin.Title="Origine";
+DELSIEApp.CapableResource.Title="Ressource possible";
+//-------------------------------------------------
+DELSIEApp.NavigateResources.Title="Parcourir les ressources possibles";
+DELSIEApp.Resources.Title="Gérer les ressources possibles";
+DELSIEApp.NavigateRequirements.Title="Parcourir les exigences";
+DELSIEApp.Requirements.Title="Gérer les exigences";
+DELSIEApp.Requirement.Title="Gérer l'exigence";
+
+//=============================================================================
+// 								Configuration
+//=============================================================================
+DELSIEApp.Configuration.Title="Configuration";
+
+//-------------------------------------------------
+DELSIEApp.SetAuthoringContext.Title="Définir le contexte de création";
+DELSIEApp.Dictionnary.Title="Dictionnaire";
+DELSIEApp.FilterConfiguration.Title="Configuration de filtre";
+
+//=============================================================================
+// 								View
+//=============================================================================
+DELSIEApp.View.Title="Afficher";
+
+//-------------------------------------------------
+DELSIEApp.ExpandAll.Title="Tout développer";
+DELSIEApp.ExpandNLevel.Title="Développer le niveau N";
+//-------------------------------------------------
+DELSIEApp.CollapseAll.Title="Tout réduire";
+DELSIEApp.UserDefinedExplore.Title="Exploration définie par l'utilisateur";
+//-------------------------------------------------
+DELSIEApp.ToggleBodyView.Title="Activer/désactiver la vue de produit";
+DELSIEApp.Toggle3DView.Title="Activer/désactiver la vue 3D";
+DELSIEApp.ToggleGraphView.Title="Activer/désactiver la vue graphique";
+//-------------------------------------------------
+DELSIEApp.Filter.Title="Filtrer";
+DELSIEApp.ToggleAssignedParts.Title="Activer/désactiver les pièces affectées";
+DELSIEApp.ToggleQuantityView.Title="Activer/désactiver la vue de quantité";
+//-------------------------------------------------
+DELSIEApp.Reframe.Title="Recadrer";
+DELSIEApp.ReframeOn.Title="Recadrer sur";
+DELSIEApp.ToggleOrientation.Title="Activer/désactiver l'orientation";
+DELSIEApp.ToggleOverview.Title="Activer/désactiver l'aperçu";
+
+DELSIEApp.ShowLogPanel.Title="Afficher le journal";
+DELSIEApp.Show3DViewerCmd.Title="Lancer 3DOperations Viewer";
+
+//=============================================================================
+// 								Tools
+//=============================================================================
+DELSIEApp.Tools.Title="Outils";
+
+DELSIEApp.EditViewPreferences.Title="Afficher les préférences";
+DELSIEApp.LayoutPreferences.Title="Préférences de présentation";
+
+DELSIEApp.ExportCSV.Title="Exporter CSV";
+DELSIEApp.LoadRelations.Title="Charger les relations";
+DELSIEApp.RelationalExplorerCmd.Title="Explorateur relationnel";
+//-------------------------------------------------
+DELSIEApp.CustomizeColumns.Title="Personnaliser les colonnes";
+DELSIEApp.ExportExcel.Title="Exporter Excel";
+
+DELSIEApp.Delete.Title="Supprimer...";
+DELSIEApp.CreateMfgItemStructure.Title="Créer la structure de l'élément SIE";
+DELSIEApp.UpdateMfgItemStructure.Title="Mettre à jour la structure de l'élément SIE";
+DELSIEApp.ManageInconsistentLinks.Title="Gestion de l'impact des modifications";
+DELSIEApp.BIEssentialsCmd.Title="B.I. Essentials - Etat d'affectation";
+DELSIEApp.BIAltSub.Title="B. I. Essentials - Etats alternatifs et de substitut";
+DELSIEApp.CreateInstance.Title="Créer une instance";
+DELSIEApp.CreateLink.Title="Créer un lien";
+DELSIEApp.SearchAndAddInstanceCommand.Title="Insertion";
+DELSIEApp.InsertAsCopy.Title="Insérer comme copie";
+DELSIEApp.duplicate.Title="Dupliquer";
+DELSIEApp.DuplicateAdv.Title="Duplication avancée";
+DELSIEApp.DELCreateEngineeringMadeFromItem.Title="Créer une ingénierie à partir d'un élément";
+
+//=============================================================================
+// 								lifecycle
+//=============================================================================
+DELSIEApp.Lifecycle.Title="Cycle de vie";

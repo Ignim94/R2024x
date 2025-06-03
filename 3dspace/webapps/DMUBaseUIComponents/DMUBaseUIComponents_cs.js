@@ -1,0 +1,1 @@
+define("DS/DMUBaseUIComponents/DMUBaseUIComponents_cs",{});define("DS/DMUBaseUIComponents/assets/nls/DMUBaseUIComponents",{replyButtonLabel:"Odpovědět",addButtonLabel:"Nový komentář",pointedPageRemoved:"Stránka byla odstraněna",commentDeleted:"Tento komentář byl odstraněn"});

@@ -1,0 +1,9 @@
+{
+  "CreateLinkAction_SelectRelationship": "관계 선택",
+  "CreateLinkAction_Success": "링크가 생성됨",
+  "CreateLinkAction_Failure": "서버에서 작업이 실패했습니다.",
+  "CreateLinkAction_Confirm": "확인",
+  "CreateLinkAction_Cancel": "취소",
+  "CreateLinkAction_Downstream_Derived_Requirement": "<h5>다운스트림 요구사항</h5><h6>{first_object}<strong>이(가)</strong> {second_object}(으)로 세분화됩니다.</h6>",
+  "CreateLinkAction_Upstream_Derived_Requirement": "<h5>업스트림 요구사항</h5><h6>{first_object}<strong>이(가)</strong> {second_object}을(를) 포함합니다.</h6>"
+}

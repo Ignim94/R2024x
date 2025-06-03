@@ -1,0 +1,14 @@
+{
+	"dsprcs:SignOff.actors": {
+		"isMultiValuated": true
+	},
+	"dsprcs:DataCollect.possibleValues": {
+		"isMultiValuated": true
+	},
+	"dsprcs:DataCollectRow.possibleValues": {
+		"isMultiValuated": true
+	},
+	"dsprcs:CheckListRow.possibleValues": {
+		"isMultiValuated": true
+	}
+}

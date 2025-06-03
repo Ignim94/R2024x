@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+PowerByNX.XSCViews.Title="Zobrazení";
+PowerByNX.XSCTools.Title="Nástroje";
+PowerByNX.Lifecycle.Title="Životní cyklus";
+PowerByNX.Collaboration.Title="Spolupráce";
+PowerByNX.SaveSession.Title="Uložit aktivní okno";
+PowerByNX.RefreshHome.Title="Obnovit";
+PowerByNX.ReloadAll.Title="Znovu načíst vše";
+PowerByNX.ReserveHdr.Title="Zamknout";
+PowerByNX.UnreserveHdr.Title="Odemknout";
+PowerByNX.PropertiesHdr.Title="Vlastnosti";
+PowerByNX.ReplaceByRevisionHdr.Title="Nahradit revizí";
+PowerByNX.ReloadFromServerHdr.Title="Znovu načíst ze serveru";
+PowerByNX.RelationIPExplorer.Title="Vztahy";
+PowerByNX.OptionsHdr.Title="Možnosti...";
+PowerByNX.View.Title="Zobrazení";
+PowerByNX.Tools.Title="Nástroje";

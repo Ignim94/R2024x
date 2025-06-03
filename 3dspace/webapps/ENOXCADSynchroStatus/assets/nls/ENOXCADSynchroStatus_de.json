@@ -1,0 +1,14 @@
+{
+  "hasSync": "CAD-Synchronisierungsstatus",
+  "RequestSynchronization": "Synchronisierung anfordern",
+  "ReqJob_Success": "Synchronisierungsanforderung erfolgreich erstellt. Aktualisieren Sie, um den Status in der Spalte CAD-Synchronisierungsstatus anzuzeigen.",
+  "ReqJob_Failure": "Fehler beim Erstellen einer Synchronisationsanforderung.",
+  "status_Sync": "Synchronisiert",
+  "status_Unsync": "Nicht synchronisiert",
+  "status_JobRunning": "Synchronisierungsjob wird ausgeführt",
+  "status_JobFail": "Synchronisierungsjob war nicht erfolgreich",
+  "status_NA": "Nicht anwendbar",
+  "MSG_JOB_CREATED_FOR_SOME_NODES": "Synchronisierungsjob, der für mindestens einen ausgewählten Knoten erstellt wurde. Aktualisieren Sie, um den Status in der Spalte CAD-Synchronisierungsstatus anzuzeigen.",
+  "MSG_JOB_EXISTS_FOR_ALL_NODES": "Ein Synchronisierungsjob existiert bereits für die ausgewählten Knoten. Aktualisieren Sie, um den Status in der Spalte CAD-Synchronisierungsstatus anzuzeigen.",
+  "indexing_failed_message": "Neue oder geänderte Objekte wurden noch nicht indexiert. Wiederholen Sie den Vorgang in einigen Minuten."
+}

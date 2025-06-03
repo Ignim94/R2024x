@@ -1,0 +1,53 @@
+{
+  "cadexportconfig.text.title": "Название",
+  "cadexportconfig.toggle.drawing": "Включить чертеж",
+  "cadexportconfig.error.root3dexp.v5selected": {
+    "title": "Невозможно экспортировать объект 3DEXPERIENCE",
+    "subtitle": "Выберите допустимое место назначения экспорта."
+  },
+  "cadexportconfig.error.3dexpselected": {
+    "title": "Невозможно экспортировать объект 3DEXPERIENCE",
+    "subtitle": "Выберите допустимое содержимое."
+  },
+  "cadexportconfig.error.rolesmatch": {
+    "title": "Для экспорта содержимого необходимо иметь разрешение.",
+    "subtitle": "Проверьте учетные данные или обратитесь за помощью к администратору."
+  },
+  "cadexportconfig.error.multicadsupport": {
+    "title": "Выберите объекты с тем же значением формата CAD."
+  },
+  "cadexportconfig.error.cadsupport": {
+    "title": "Невозможно экспортировать данные с этим форматом CAD."
+  },
+  "cadexportconfig.error.rootecservice": {
+    "title": "Не удается экспортировать данные.",
+    "subtitle": "Не удалось получить доступ к службе экспорта. Убедитесь, что система настроена на экспорт данных этого типа."
+  },
+  "cadexportconfig.error.selCV5.rootdifferentnode": {
+    "title": "Невозможно экспортировать узел CATIA V5, если корневой элемент является узлом 3DEXPERIENCE."
+  },
+  "cadexportconfig.error.ecasroot": {
+    "title": "Не удается экспортировать данные.",
+    "subtitle": "Выбранный объект имеет встроенный компонент в качестве корневого узла."
+  },
+  "XEError.ExportECNotSupported": {
+    "title": "Невозможно экспортировать встроенные компоненты."
+  },
+  "XEError.UnsupportedInputDatatype": {
+    "title": "Невозможно экспортировать данный тип объектов."
+  },
+  "XEError.ExportVPNotSupported": {
+    "title": "Невозможно экспортировать виртуальные экземпляры."
+  },
+  "cadexportconfig.field.expandlevel": "Выбрать уровень развертывания",
+  "cadexportconfig.field.expandall": "Развернуть все",
+  "cadexportconfig.field.expandnlevel": "Развернуть N уров.",
+  "cadexportconfig.field.expandnlevel.value": "Развернуть значение уровня",
+  "derived.format.toggle": "Включить производный формат",
+  "download.derived.outputs": "Параметры производного формата",
+  "combo.field.3dformat": "3D-формат",
+  "label.select3DFormat": "Выбрать 3D-формат",
+  "combo.field.2dformat": "2D-формат",
+  "label.select2DFormat": "Выбрать 2D-формат",
+  "cadexportconfig.field.select.expandlevel": "Развернуть параметры уровня"
+}

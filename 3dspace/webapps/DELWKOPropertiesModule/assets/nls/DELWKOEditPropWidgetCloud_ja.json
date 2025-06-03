@@ -1,0 +1,210 @@
+{
+  "PropertiesTab": "プロパティ",
+  "DELLmiWorkOrderReference": {
+    "public": {
+      "type": {
+        "nls": "タイプ",
+        "type": "文字列",
+        "RO": true
+      },
+      "V_Name": {
+        "nls": "名前",
+        "type": "文字列",
+        "RO": false
+      },
+      "V_description": {
+        "nls": "説明",
+        "type": "文字列",
+        "RO": false
+      },
+      "owner": {
+        "nls": "所有者",
+        "type": "文字列",
+        "RO": true
+      },
+      "originated": {
+        "nls": "作成日",
+        "type": "日付",
+        "RO": true
+      },
+      "modified": {
+        "nls": "変更日",
+        "type": "日付",
+        "RO": true
+      },
+      "current": {
+        "nls": "完成度ステート",
+        "type": "文字列",
+        "RO": true
+      },
+      "V_DueDate": {
+        "nls": "期限",
+        "type": "日付",
+        "RO": false
+      },
+      "V_ScheduledStartDate": {
+        "nls": "開始日スケジュール",
+        "type": "日付",
+        "RO": false
+      },
+      "V_ScheduledEndDate": {
+        "nls": "終了日スケジュール",
+        "type": "日付",
+        "RO": false
+      }
+    },
+    "extension": {
+      "DELLmiWOQuantity_Each.V_OrderQuantity": {
+        "nls": "注文数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiWOQuantity_Area.V_OrderQuantity": {
+        "nls": "注文数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiWOQuantity_Length.V_OrderQuantity": {
+        "nls": "注文数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiWOQuantity_Volume.V_OrderQuantity": {
+        "nls": "注文数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiWOQuantity_Weight.V_OrderQuantity": {
+        "nls": "注文数量",
+        "type": "倍精度",
+        "RO": true
+      }
+    }
+  },
+  "DELLmiExecHeaderOperationReference": {
+    "public": {
+      "type": {
+        "nls": "タイプ",
+        "type": "文字列",
+        "RO": true
+      },
+      "V_Name": {
+        "nls": "名前",
+        "type": "文字列",
+        "RO": false
+      },
+      "V_description": {
+        "nls": "説明",
+        "type": "文字列",
+        "RO": false
+      },
+      "owner": {
+        "nls": "所有者",
+        "type": "文字列",
+        "RO": true
+      },
+      "originated": {
+        "nls": "作成日",
+        "type": "日付",
+        "RO": true
+      },
+      "modified": {
+        "nls": "変更日",
+        "type": "日付",
+        "RO": true
+      },
+      "current": {
+        "nls": "完成度ステート",
+        "type": "文字列",
+        "RO": false
+      },
+      "V_ScheduledStartDate": {
+        "nls": "開始日",
+        "type": "日付",
+        "RO": false
+      },
+      "V_ScheduledEndDate": {
+        "nls": "終了日",
+        "type": "日付",
+        "RO": false
+      }
+    },
+    "extension": {
+      "DELLmiEOQuantity_Each.V_InitialQuantity": {
+        "nls": "初期数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Area.V_InitialQuantity": {
+        "nls": "初期数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Length.V_InitialQuantity": {
+        "nls": "初期数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Volume.V_InitialQuantity": {
+        "nls": "初期数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Weight.V_InitialQuantity": {
+        "nls": "初期数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Each.V_RemainingQuantity": {
+        "nls": "残りの数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Area.V_RemainingQuantity": {
+        "nls": "残りの数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Length.V_RemainingQuantity": {
+        "nls": "残りの数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Volume.V_RemainingQuantity": {
+        "nls": "残りの数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Weight.V_RemainingQuantity": {
+        "nls": "残りの数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Each.V_CompletedQuantity": {
+        "nls": "完了した数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Area.V_CompletedQuantity": {
+        "nls": "完了した数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Length.V_CompletedQuantity": {
+        "nls": "完了した数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Volume.V_CompletedQuantity": {
+        "nls": "完了した数量",
+        "type": "倍精度",
+        "RO": true
+      },
+      "DELLmiEOQuantity_Weight.V_CompletedQuantity": {
+        "nls": "完了した数量",
+        "type": "倍精度",
+        "RO": true
+      }
+    }
+  }
+}

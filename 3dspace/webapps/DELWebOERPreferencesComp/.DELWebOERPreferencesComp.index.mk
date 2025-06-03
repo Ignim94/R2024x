@@ -1,0 +1,11 @@
+m|DELWebUIComponents\DELWebOERPreferencesComp.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.4.24107|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELWebOERPreferencesComp\DELWebOERPreferencesComp.js|1713299101|2603
+s|DELWebUIComponents\DELWebOERPreferencesComp.mweb\src\PreferencesComp.js|1712591560|6382
+t|win_b64\webapps\DELWebOERPreferencesComp\assets\json\PreferencesCompConfig.json|1713299100|145
+s|DELWebUIComponents\DELWebOERPreferencesComp.mweb\src\assets\json\PreferencesCompConfig.json|1709626477|145
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

@@ -1,0 +1,12 @@
+m|DELCSTApp\DELCSTAfrCommands.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELCSTAfrCommands\DELCSTAfrCommands.js|1700691824|2322
+s|DELCSTApp\DELCSTAfrCommands.mweb\src\AssignProductCmd.js|1698721081|2014
+u|DELCSTApp\DELCSTAfrCommands.mweb\src\CreateCstItemAndLinkAltSubstCmd.js|1699264604|2004
+u|DELCSTApp\DELCSTAfrCommands.mweb\src\CreateCstItemAndResultingProductCmd.js|1699253151|2216
+u|DELCSTApp\DELCSTAfrCommands.mweb\src\CreateCstItemAndScopeCmd.js|1699012203|2150
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

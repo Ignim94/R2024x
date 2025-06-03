@@ -1,0 +1,22 @@
+{
+  "ECADUPSPCBReferenceDesignatorLabel": "Identificação de referência do PCB",
+  "ECADUPSPCBReferenceDesignatorInfo": "define o designador de referência a ser usado para a impressão Placa de circuito na estrutura do Produto",
+  "ECADUPSPackageNamePropertyLabel": "Nome do pacote Propriedade",
+  "ECADUPSPackageNamePropertyInfo": "Define o nome da propriedade ECAD do Altium Component que é usado para derivar o nome do Pacote durante importação inicial",
+  "ECADUPSPackageDescriptionPropertyLabel": "Descrição do pacote Propriedade",
+  "ECADUPSPackageDescriptionPropertyInfo": "define o nome da propriedade ECAD do Altium Component que é usado para derivar a Descrição do Pacote durante importação inicial",
+  "ECADUPSUseClassificationLabel": "Usar Classificação de Biblioteca Eletrônica",
+  "ECADUPSUseClassificationInfo": "define se a Classificação da biblioteca ou as categorias locais devem ser usadas para componentes eletrônicos ",
+  "ECADUPSElectronicLibraryLabel": "Biblioteca de componentes eletrônicos",
+  "ECADUPSElectronicLibraryInfo": "define a Biblioteca superior que é usada para classificar os componentes eletrônicos. Forneça o caminho de classificação completo, por exemplo, Biblioteca Eletrônica/componentes",
+  "AltiumUPSECADCategoriesLabel": "Categorias de componentes",
+  "AltiumUPSECADCategoriesInfo": "Categorias de componentes usadas se a Classificação da Biblioteca não estiver selecionada",
+  "AltiumUPSEnterpriseItemNumberPropertyLabel": "Propriedade do número do item do Enterprise",
+  "AltiumUPSEnterpriseItemNumberPropertyInfo": "Define o nome do parâmetro do Altium que contém o número do item do Enterprise",
+  "ECADClassificationPathDefinitionPropertyLabel": "Propriedade de Atribuição Automática de Classe",
+  "ECADClassificationPathDefinitionPropertyInfo": "Define o nome do parâmetro Altium para armazenar o caminho de classificação para importação",
+  "ProductStructureGroupLabel": "Estrutura do produto",
+  "ClassificationGroupLabel": "Classificação",
+  "SaveGroupLabel": "Salvar",
+  "EnterpriseItemNumberLabel": "Número do Item da Empresa"
+}

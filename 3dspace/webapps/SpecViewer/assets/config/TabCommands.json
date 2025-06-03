@@ -1,0 +1,126 @@
+{
+	"BOM": {
+		"AmdLoader": "DS/SpecViewer/BOM/BOMViewManager",
+		"nls_key": "tab_BOM",
+		"key": "bom",
+		"icon": "table",
+		"license": "",
+		"applicableType": "VPMReference",
+		"excludeTypes" : ["Raw_Material","Formulated_Product","MEI"],
+		"excludeKind" : ["3DPart"],
+		"order": 1
+	},
+	"FormulaBOM": {
+		"AmdLoader": "DS/ENOFormulatedBOM/control/FormulatedViewManager",
+		"nls_key": "tab_BOM",
+		"key": "formulatedbom",
+		"icon": "table",
+		"license": "",
+		"applicableType": "Formulated_Product",
+		"excludeKind" : ["3DPart"],
+		"order": 2
+	},
+	"MakeFrom": {
+		"AmdLoader": "DS/ENOMadeFromUX/view/MBMFViewManager",
+		"nls_key": "makeFromItem",
+		"key": "MakeFrom",
+		"icon": "part-made-from",
+		"license": "",
+		"applicableType": "VPMReference",
+		"excludeTypes" : ["Raw_Material","Formulated_Product","MEI"],
+		"order": 3
+	},
+	"Materials": {
+		"AmdLoader": "DS/SpecViewer/MAT/MaterialViewManager",
+		"nls_key": "tab_MAT",
+		"key": "spec_mat",
+		"icon": "material",
+		"license": "",
+		"toolTipKey" : "tab_MAT",
+		"applicableType": "VPMReference",
+		"excludeTypes" : ["Formulated_Product"],
+		"excludeKind" : [],
+		"order": 4
+	},
+	"PerfomanceSpecification": {
+		"AmdLoader": "DS/ENOCharacteristicsApp/ENOCharacteristicsApp",
+		"nls_key": "tab_Characteristics",
+		"key": "performanceSpecification",
+		"icon": "performance-specification-target",
+		"license": "",
+		"applicableType": "VPMReference",
+		"excludeTypes" : [],
+		"excludeKind" : [],
+		"order": 5
+	},
+	"ManageFiles": {
+		"AmdLoader": "DS/SpecViewer/Documents/VersionFileManagement",
+		"nls_key": "label_Manage",
+		"key": "ManageFiles",
+		"icon": "docs",
+		"license": "",
+		"applicableType": "Document",
+		"excludeTypes" : [],
+		"excludeKind" : [],
+		"order": 6
+	},
+	"Properties": {
+	   "AmdLoader": "DS/SpecViewer/Properties/SpecAttributes" ,
+		"nls_key": "tab_Properties",
+		"key": "Properties",
+		"icon": "attributes",
+		"license": "",
+		"applicableType": "all",
+		"excludeTypes" : [],
+		"excludeKind" : [],
+		"order": 7
+	},
+	"ReferenceDocuments": {
+		"AmdLoader": "DS/SpecViewer/Documents/DocumentsManager",
+		"nls_key": "tab_ReferenceDocuments",
+		"key": "docs",
+		"icon": "attach",
+		"license": "",
+		"toolTipKey" : "tab_ReferenceDocuments",
+		"applicableType": "Document",
+		"excludeTypes" : [],
+		"excludeKind" : [],
+		"order": 8
+	},
+	"Documents": {
+		"AmdLoader": "DS/SpecViewer/Documents/DocumentsManager",
+		"nls_key": "tab_Documents",
+		"key": "docs",
+		"icon": "docs",
+		"license": "",
+		"toolTipKey" : "tab_Documents",
+		"applicableType": "VPMReference",
+		"excludeTypes" : [],
+		"excludeKind" : [],
+		"order": 9
+	},
+	
+	"ManufacturerEquivalentItem": {
+		"AmdLoader": "DS/SpecViewer/MEI/MEIManager",
+		"nls_key": "tab_MftEqItems",
+		"key": "spec_mei",
+		"icon": "trolley",
+		"license": "",
+		"toolTipKey" : "tab_MftEqItems",
+		"applicableType": "VPMReference",
+		"excludeTypes" : ["MEI"],
+		"excludeKind" : [],
+		"order": 10
+	},
+	"ReleaseSnapshot": {
+		"AmdLoader": "DS/SpecViewer/Report/SpecReport",
+		"nls_key": "label_ReleaseSnapshot",
+		"key": "ReleaseSnapshot",
+		"icon": "picture",
+		"license": "",
+		"applicableType": "all",
+		"excludeTypes" : ["MEI"],
+		"excludeKind" : [],
+		"order": 11
+	}
+}

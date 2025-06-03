@@ -1,0 +1,92 @@
+.DIV_newfromtemplate{
+    height: inherit;
+    width: inherit;
+}
+.div-newfromtemplateparent{
+    overflow: overlay;
+    height: calc(100% - 60px);
+}
+
+.div-templatefixedfield{
+    position: relative;
+    display: inherit;
+    width: calc(100% - 9px);
+    max-width: 1896px;
+    min-width: 120px;
+    margin-left: 2px;
+}
+
+.div-templatefixedfield .wux-controls-combobox{
+    position: relative;
+    width: calc(100% - 28px);
+    height: 30px;
+}
+
+.div-templatefixedfield .wux-controls-combobox .wux-controls-combobox-expander{
+    border-left-width: 0px;
+    height: 30px;
+    width: 22px;
+}
+
+.div-templateformfields .wux-controls-lineeditor{
+    width: inherit;
+}
+
+.div-templateformfields .wux-controls-lineeditor input{
+    width: calc(100% - 16px);
+}
+
+.div-templateformfields{
+    width: calc(100% - 9px);
+}
+
+.div-managebtn{
+    position: relative;
+    margin-top: 15px;
+}
+
+.div-template-footer{
+    position: relative;
+    bottom: 0px;
+    height: 60px;
+    right: 2px;
+    left: 2px;
+    background: #f1f1f1;
+    box-shadow: inset 0 1px #f9f9f9;
+    text-align: right;
+    border-top: 1px solid #e2e4e3;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    z-index: 1;
+}
+
+.div-template-footer .wux-controls-button.wux-controls-abstract.wux-ui-state-secondary.wux-ui-style-normal{
+	margin-top: 9px;
+    margin-right: 25px;
+    float: right;
+    min-height: 40px;
+    min-width: 100px;
+    padding-left: 14px;
+    font-size: 14px;
+    font-weight: normal;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.div-template-footer .wux-controls-button.wux-controls-abstract.wux-ui-state-primary.wux-ui-style-normal{
+    margin-right: 5px;
+    margin-left: calc(100% - 230px);
+    margin-top: 9px;
+    min-height: 40px;
+    min-width: 100px;
+    padding-left: 14px;
+    font-size: 14px;
+    font-weight: normal;
+    border: 1px solid;
+    border-radius: 4px; 
+}
+
+.div-managebtn .wux-controls-button.wux-ui-state-info{
+    float: right;
+    margin-right: 34px;
+}

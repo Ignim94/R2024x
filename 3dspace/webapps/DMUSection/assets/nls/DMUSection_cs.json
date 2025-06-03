@@ -1,0 +1,27 @@
+{
+  "sectionCutLimitation": "Řez sekce nelze vidět pro vytvoření dalšího řezu",
+  "sectionPrefix": "Řez",
+  "properties": {
+    "computeContour": "Výpočet obrysu"
+  },
+  "preferences": {
+    "sectionSectionTitle": "Řez",
+    "ComputeContourLbl": "Výpočet obrysu"
+  },
+  "notifyobjectselection": "Vyberte objekt pro selektivní řez",
+  "ok": "OK",
+  "cancel": "Zrušit",
+  "ValidateSel": "Vyberte geometrii pro definování polohy roviny řezu",
+  "firstSelection": "Vyberte geometrii pro definování polohy roviny řezu",
+  "secondSelection": "Potvrďte výběr nebo vyberte druhou geometrii pro definování polohy roviny řezu",
+  "thirdSelection": "Vyberte třetí geometrii pro definování polohy roviny řezu",
+  "ValidateSelObj": "Ověřit vybrané objekty ",
+  "DMUExitClippingEditionHdr": "Ukončit úpravy oříznutí",
+  "DMUHideShowHdr": "Skrýt/zobrazit",
+  "DMUPropertiesHdr": "Vlastnosti",
+  "DMUContourViewerHdr": "Část Sekundární prohlížeč",
+  "DMUAlignViewHdr": "Zarovnat zorný bod",
+  "DMUCutHdr": "Vyjmout",
+  "DMUCopyHdr": "Kopírovat",
+  "DMUDeleteHdr": "Odstranit"
+}

@@ -1,0 +1,15 @@
+{
+	"App.Title": "Service Items Management",
+	"App.Motto": "Build your Service Bill of Materials",
+
+	"Restore.Title":"Restore",
+	"Restore.FontIcon": "fonticon fonticon-reset",
+
+	"Open.Title": "Open",
+	"Open.FontIcon": "fonticon fonticon-open",
+
+	"CreateAssembly.Title":"Create Service Assembly",
+	"CreateAssembly.FontIcon": "fonticon fonticon-plus",
+
+	"DragAndDrop.Title" : "Open"
+}

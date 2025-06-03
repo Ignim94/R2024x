@@ -1,0 +1,1 @@
+define("DS/ENOXCADSearchUtils/ENOXCADSearchUtils_ko",{});define("DS/ENOXCADSearchUtils/assets/nls/XCADSearch",{msg_error_AddinExport:"내보내기 패널에서 개체를 추가하는 중 오류가 발생했습니다.",placeholder_search:"3DSearch ..."});

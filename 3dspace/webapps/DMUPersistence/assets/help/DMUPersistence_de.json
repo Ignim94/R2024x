@@ -1,0 +1,23 @@
+{
+"DMUMarkupHdr.Title":"Markup",
+"DMUMarkupHdr.ShortHelp":"Erstellt eine Prüfung, die mit dem geladenen Kontext verknüpft ist. Wenn mehrere Kontexte in der Sitzung geladen sind, wählen Sie einen im Dialogfeld „Prüfung“ aus.",
+"DMUMarkupHdr.LongHelp":"Wählen Sie im Dialogfeld „Prüfung“ einen Kontext aus (falls erforderlich) und geben Sie einen Namen und eine Beschreibung für die Prüfung ein.",
+"DMUOldMarkupHdr.Title":"Altes Markup",
+"DMUOldMarkupHdr.ShortHelp":"Erstellt ein altes Markup, das mit dem geladenen Kontext verknüpft ist. Wenn mehrere Kontexte in der Sitzung geladen sind, wählen Sie einen im Dialogfeld „Markup“ aus.",
+"DMUOldMarkupHdr.LongHelp":"Wählen Sie im Dialogfeld „Markup“ einen Kontext aus (falls erforderlich) und geben Sie einen Namen und eine Beschreibung für das Markup ein.",
+"DMURenameMarkupHdr.Title":"Umbenennen",
+"DMURenameMarkupHdr.ShortHelp":"Aktualisiert den Namen eines Markups",
+"DMUExportReviewAsPdfHdr.Title":"Als PDF exportieren",
+"DMUExportReviewAsPdfHdr.ShortHelp":"Exportiert die in Dokumenten erstellten Markups zusammen mit den Anmerkungen und Kommentare zu einer PDF.",
+"DMUExportReviewAsPdfHdr.LongHelp":"<p>Ein PDF-Dokument wird in den ausgewählten Zielordner heruntergeladen.</p> <p> Diese PDF-Datei hat die gleiche Größe und Ausrichtung wie das Dokument, auf dem die Markierung erstellt wurde.</p> <p>Sie können die Kommentare und Anmerkungen mit anderen PDF-Anwendungen nach dem Export bearbeiten.</p>",
+"DMUPrintHdr.Title":"Drucken",
+"DMUPrintHdr.ShortHelp":"<p platform = 'onthecloud'>Druckt die geladene Zeichnung.</p> <p platform = 'onpremise'>Druckt das ausgewählte Blatt der geladenen Zeichnung.</p>",
+"DMUMarkupHdr.WebHelp":"D3reUserMap/d3re-t-ReviewsManage.htm#t-CreateaReview",
+"DMUOldMarkupHdr.WebHelp":"D3reUserMap/d3re-t-ReviewsManage.htm#t-CreateaReview",
+"DMUExportReviewAsPdfHdr.WebHelp":"D3reUserMap/review-t-PDFMSOfficeReview.htm#tt-ExportingtheMarkupstoaPDF",
+"DMUExportReviewAsPdfHdr.WebHelp.ENOR3R_AP":"Enor3rUserMap/review-t-PDFMSOfficeReview.htm#tt-ExportingtheMarkupstoaPDF",
+"DMUExportReviewAsPdfHdr.WebHelp.ENOR3V_AP":"Enor3vUserMap/review-t-PDFMSOfficeReview.htm#tt-ExportingtheMarkupstoaPDF",
+"DMUPrintHdr.WebHelp.ENOR3V_AP":"ENOR3vUserMap/enor3r-r-ui-ActBar-Tools.htm",
+"DMUPrintHdr.WebHelp.ENOR3R_AP":"ENOR3rUserMap/enor3r-r-ui-ActBar-Tools.htm",
+"DMUPrintHdr.WebHelp":"D3reUserMap/d3re-r-ui-ActBar-Tools.htm"
+}

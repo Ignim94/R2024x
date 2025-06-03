@@ -1,0 +1,4 @@
+{
+    "refMandatoryAttributes": ["PID", "type","reserved", "PLMEntity.V_Name", "PLMEntity.PLM_ExternalID", "PLMEntity.V_discipline", "PLMEntity.V_usage", "description", "DELLmiTimeConstraintCnx.V_MaterialNeed", "interface", "DELAsmProcessCanUseCnx.V_IsPreferred", "DELLmiGeneralOperationReference.V_SequencingMode","DELLmiHeaderOperationReference.V_SequencingMode","DELLmiPPRSystemReference.V_SequencingMode"],
+    "instMandatoryAttributes": ["PID", "type","reserved", "PLMInstance.V_Name", "PLMInstance.PLM_ExternalID", "PLMInstance.V_discipline", "PLMInstance.V_usage", "isAggregatedBy", "isInstanceOf", "V_TreeOrder"]
+}

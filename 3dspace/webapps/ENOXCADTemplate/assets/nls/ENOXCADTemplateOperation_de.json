@@ -1,0 +1,11 @@
+{
+  "edit": "Bearbeiten",
+  "download": "Herunterladen",
+  "publish": "Reife",
+  "delete": "Löschen",
+  "add_template": "Vorlage hinzufügen",
+  "edit_template": "Vorlage bearbeiten",
+  "download_template": "Vorlage herunterladen",
+  "delete_template": "Vorlage löschen",
+  "reload_template": "Vorlage erneut laden"
+}

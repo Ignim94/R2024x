@@ -1,0 +1,11 @@
+{
+  "edit": "Upravit",
+  "download": "Stáhnout",
+  "publish": "Stav dokončení",
+  "delete": "Odstranit",
+  "add_template": "Přidat šablonu",
+  "edit_template": "Upravit šablonu",
+  "download_template": "Stáhnout šablonu",
+  "delete_template": "Odstranit šablonu",
+  "reload_template": "Znovu načíst šablonu"
+}

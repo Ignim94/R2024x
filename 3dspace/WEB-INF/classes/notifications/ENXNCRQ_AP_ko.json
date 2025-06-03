@@ -1,0 +1,19 @@
+{
+  "sourcing.notification.event.request.statusChange.setting": "내 요청 또는 할당된 요청이 승인/거부되었습니다.",
+  "sourcing.notification.event.request.duedate.setting": "내 요청 또는 할당된 요청이 완료 예정일에 가깝습니다.",
+  "sourcing.notification.event.request.needclarification.setting": "내 요청 또는 할당된 요청에 대한 설명이 필요합니다.",
+  "sourcing.notification.event.request.submit.setting": "내 요청 또는 할당된 요청이 제출되었습니다.",
+  "sourcing.notification.event.memberAccessUpdate.setting": "멤버가 내 요청 또는 할당된 요청에 추가되거나 제거되었습니다.",
+  "sourcing.notification.event.request.promoted.setting": "내 요청 또는 할당된 요청의 성숙도가 변경됩니다.",
+  "sourcing.notification.person.request.submit.msg": "<strong>###REQUESTOWNER###</strong>이(가) <strong>###REQUESTNAME###</strong>을(를) 사용자에게 지정했습니다. 필요한 작업 <strong></strong>의 기한은 ###DUEDATE###입니다.",
+  "sourcing.notification.person.request.promote.msg": "<strong>###REQUESTOWNER###</strong>이(가) <strong>###REQUESTNAME###</strong> 요청을 <strong>###STATE###</strong> 상태로 승격시켰습니다.",
+  "sourcing.notification.person.request.demote.msg": "<strong>###REQUESTOWNER###</strong>이(가) <strong>###REQUESTNAME###</strong> 요청을 <strong>###STATE###</strong> 상태로 강등시켰습니다.",
+  "sourcing.notification.person.request.duedate.msg": "<strong>###REQUESTNAME###</strong>의 완료 예정일이 지났습니다. 완료 예정일: <strong>###DUEDATE###</strong>",
+  "sourcing.notification.person.request.approve.msg": "<strong>###REQUESTOWNER###</strong>이(가) 요청 <strong>###REQUESTNAME###</strong>을(를) 승인했습니다.",
+  "sourcing.notification.person.request.reject.msg": "<strong>###REQUESTOWNER###</strong>이(가) 요청 <strong>###REQUESTNAME###</strong>을(를) 거부했습니다.",
+  "sourcing.notification.person.request.cancel.msg": "<strong>###REQUESTOWNER###</strong>이(가) 요청 <strong>###REQUESTNAME###</strong>을(를) 취소했습니다.",
+  "sourcing.notification.person.request.needsclarification.msg": "<strong>###requestAsignee###</strong>이(가) 설명이 필요한 요청 <strong>###REQUESTNAME###</strong>을(를) 보냈습니다.",
+  "sourcing.notification.person.request.submitclarification.msg": "<strong>###REQUESTOWNER###</strong>이(가) 요청 <strong>###REQUESTNAME###</strong>에 대한 설명을 제출했습니다.",
+  "sourcing.notification.person.memberAccessUpdate.msg": "<strong>###GRANTOR###</strong>이(가) 귀하를 <strong>###REQUESTNAME###</strong>의 <strong>###REQUESACCESS###</strong>(으)로 추가했습니다.",
+  "sourcing.notification.person.memberAccessDelete.msg": "<strong>###GRANTOR###</strong>이(가) 귀하를 <strong>###REQUESTNAME###</strong>의 <strong>###REQUESACCESS###</strong>(으)로 제거했습니다."
+}

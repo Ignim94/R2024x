@@ -1,0 +1,41 @@
+<meta charset="UTF-8"/>
+PADCommands.treelistview.Title="Visualizzazione struttura ad albero";
+PADCommands.graphview.Title="Visualizzazione grafica";
+PADCommands.tileview.Title="Visualizzazione riquadro";
+PADCommands.thumbnailview.Title="Visualizzazione miniatura";
+
+PADCommands.XSCExpand.Title="Espandi";
+PADCommands.ExpandAll.Title="Espandi tutto";
+PADCommands.ExpandN.Title="Espandi n livelli";
+PADCommands.CollapseAll.Title="Comprimi tutto";
+PADCommands.XSCSelect.Title="Seleziona";
+PADCommands.SelectChildren.Title="Seleziona i figli";
+PADCommands.SelectAll.Title="Seleziona tutti gli elementi visibili";
+PADCommands.SelectInversion.Title="Inverti la selezione";
+PADCommands.SelectParent.Title="Seleziona il padre";
+PADCommands.SelectSiblings.Title="Seleziona pari livello";
+PADCommands.SelectLeaves.Title="Seleziona le foglie";
+
+PADCommands.ReframeAll.Title="Adatta tutto";
+PADCommands.ReframeOn.Title="Ricreazione frame attiva";
+PADCommands.ToggleOverview.Title="Mostra/nascondi panoramica";
+PADCommands.GraphLayoutMode.Title="Compatto/Non compatto";
+PADCommands.LayoutDown.Title="Giù";
+PADCommands.LayoutRight.Title="Destra";
+PADCommands.LayoutUp.Title="Su";
+PADCommands.LayoutLeft.Title="Sinistra";
+PADCommands.SwapThumbState.Title="Nascondi/Mostra miniatura";
+
+PADCommands.RootPanel.Title="Visualizza radici";
+PADCommands.ToggleRightPanel.Title="Visualizza riquadro laterale";
+PADCommands.Properties.Title="Proprietà";
+PADCommands.RelationIPExplorer.Title="Relazioni";
+PADCommands.Print.Title="Stampa";
+PADCommands.PrintOptions.Title="Opzioni di stampa";
+PADCommands.CleanAll.Title="Cancella vista";
+PADCommands.Find.Title="Trova";
+PADCommands.ExportCSV.Title="Esporta";
+PADCommands.ExportCSVOptions.Title="Esporta opzioni";
+PADCommands.ColumnVisibility.Title="Personalizza vista";
+
+PADCommands.OpenInCADHdr.Title="Apri";

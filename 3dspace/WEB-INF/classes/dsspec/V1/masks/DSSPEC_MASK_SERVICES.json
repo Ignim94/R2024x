@@ -1,0 +1,255 @@
+{
+	"dsspec:idMask": [
+		{
+			"property": "physicalid",
+			"key": "@id",
+			"application": "xsr"
+		}
+	],
+	"dsspec:typeMask": [
+		{
+			"property": "type",
+			"key": "typedisplayName",
+			"format": "nls_type",
+			"application": "xsr"
+		},
+		{
+			"property": "type",
+			"key": "typeactualName",
+			"application": "xsr"
+		}
+	],
+	"dsspec:policyMask": [
+		{
+			"property": "policy",
+			"key": "policydisplayName",
+			"format": "nls_policy",
+			"application": "xsr"
+		},
+		{
+			"property": "policy",
+			"key": "policyactualName",
+			"application": "xsr"
+		}
+	],
+	
+	"dsspec:stateMask": [
+		{
+			"property": "current",
+			"key": "maturitydisplayName",
+			"format": "nls_state",
+			"application": "xsr"
+		},
+		{
+			"property": "current",
+			"key": "maturityactualName",
+			"application": "xsr"
+		}
+	],
+	
+	"dsspec:baseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsspec:typeMask"
+		},
+		{
+			"property": "name",
+			"key": "name",
+			"application": "xsr"
+		},
+		{
+			"property": "revision",
+			"key": "revision",
+			"application": "xsr"
+		},
+		{
+			"property": "owner",
+			"key": "creator",
+			"format": "fullname",
+			"application": "xsr"
+		},
+		{
+			"property": "description",
+			"key": "description",
+			"application": "xsr"
+		},
+		{
+			"property": "originator",
+			"key": "originator",
+			"format": "fullname",
+			"application": "xsr"
+		},
+		{
+			"property": "modified.generic",
+			"key": "lastmodified",
+			"format": "string",
+			"application": "xsr"
+		},
+		{
+			"property": "originated.generic",
+			"key": "originated",
+			"format": "string",
+			"application": "xsr"
+		},{
+			"property": "project",
+			"key": "project",
+			"application": "xsr"
+		},
+		{
+			"property": "organization",
+			"key": "organization",
+			"application": "xsr"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsspec:stateMask"
+		},
+		{
+			"property": "current.access",
+			"key": "access",
+			"application": "xsr"
+		},
+		{
+			"property": "computed",
+			"key": "symbolicTypeName"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsspec:policyMask"
+		},
+		{
+			"property": "from[Active Version].to.attribute[Title]" ,
+			"key": "filename",
+			"application": "xsr"
+		},
+		{
+			"property": "from[Active Version].to.locked" ,
+			"key": "isFileLocked",
+			"application": "xsr"
+		},
+		{
+			"property": "from[Active Version].to.locker" ,
+			"key": "fileLocker",
+			"application": "xsr",
+			"format": "fullname"
+		},
+		{
+			"property": "cestamp",
+			"key": "cestamp",
+			"application": "xsr"
+		}
+	],
+	"dsspec:titleMask": [
+		{
+			"property": "attribute[Title]",
+			"key": "title",
+			"application": "xsr"
+		},
+		{
+			"property": "attribute[PLMEntity.V_Name]",
+			"key": "V_Name",
+			"application": "xsr"
+		}
+	],
+	"dsspec:descriptionMask": [
+		{
+			"property": "attribute[PLMEntity.V_description]",
+			"key": "V_description",
+			"application": "xsr"
+		}
+	],
+	"dsmvxsr:xsrMask:SpecAccess": [
+		{
+			"property": "current.access",
+			"key": "access",
+			"application": "xsr"
+		}
+	],
+	"dsspec:templateMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsspec:idMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsspec:baseMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsspec:titleMask"
+		}
+	],
+	"dsspec:specificationReportMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsspec:idMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsspec:baseMask"
+		},
+		{
+			"property": "from[Related Report Template].to.id",
+			"key": "template",
+			"mask": "dsspec:templateMask",
+			"maskAppliesTo": "bus",
+			"application": "xsr"
+		},
+		{
+			"property": "format.file.name",
+			"key": "hasReport",
+			"application": "XSR"
+		}
+	],
+	"dsspec:SpecAndRelatedInfoObjectMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsspec:idMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsspec:baseMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsspec:titleMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsspec:descriptionMask"
+		},
+		{
+			"property": "to[Specification Report].from.id",
+			"key": "specificationReport",
+			"mask": "dsspec:specificationReportMask",
+			"maskAppliesTo": "bus"
+		}
+	],
+	"dsspec:hasSpecificationReportonItem": [
+		{
+			"property": "to[Specification Report].from.physicalid",
+			"key": "specReportPid",
+			"application": "XSR"
+		}
+	],
+	"dsspec:specificationReportDetailsMask" : [
+		{
+			"property": "current.access",
+			"key": "itemAccess",
+			"application": "xsr"
+		},
+		{
+			"property": "to[Specification Report].from.id",
+			"key": "specificationReportOnItem",
+			"mask": "dsspec:specificationReportMask",
+			"maskAppliesTo": "bus"
+		}
+	],
+	"dsspec:versionFileMask": [
+		{
+			"property": "format.hasfile",
+			"key": "hasFile",
+			"application": "XSR"
+		}
+	]
+}

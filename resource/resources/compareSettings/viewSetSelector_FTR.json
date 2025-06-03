@@ -1,0 +1,27 @@
+{
+    "version": "2.0",
+    "viewSetSelectorArray": [{
+            "viewSetMod": "DS/ENOXCompareRules/viewdef/RulesViewDefinition",
+            "viewSetName": "STANDARD",
+            "UseCases": [{
+                    "app": "COMPARE",
+                    "roles": [
+                        "*"
+                    ],
+                    "typeInfoArray": [{
+                            "type": "Configuration Rule",
+                            "service": "3DSpace"
+                        }
+                    ]
+                }
+            ],
+            "MainToolbarConfig": [{
+                    "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+                    "DoNotInclude": [
+                        "compareSettings.includeFacets.externalRelations"
+                    ]
+                }
+            ]
+        }
+    ]
+}

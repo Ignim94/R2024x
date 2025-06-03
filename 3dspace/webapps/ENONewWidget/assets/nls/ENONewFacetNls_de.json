@@ -1,0 +1,8 @@
+{
+  "defaultFacetCreate": "Eigenschaften",
+  "classificationFacet": "Klassifizierungen",
+  "revisionFacet": "Revision",
+  "releaseSnapshotFacet": "Vorlage Release-Schnappschuss",
+  "MaterialFacet": "Material",
+  "filesFacet": "Dateien"
+}

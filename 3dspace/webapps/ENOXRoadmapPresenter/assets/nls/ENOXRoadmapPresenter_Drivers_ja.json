@@ -1,0 +1,14 @@
+{
+  "BACKLOG_ITEMS": "候補",
+  "BACKLOGS_TITLE": "候補",
+  "DROP_HERE_FOR_PLAN": "ターゲットとして設定する項目をここにドロップします ",
+  "DROP_HERE_FOR_BACKLOG": "候補として追加する項目をここにドロップします",
+  "COMMITTED_FOR_THIS_REVISION": "このリビジョンにターゲット設定済み ",
+  "BACKLOG": "候補",
+  "COMMITTED": "ターゲット",
+  "ROADMAP_SETTINGS": "ドライバ設定",
+  "MANAGE_ROADMAP_SETTINGS": "ドライバ設定を管理",
+  "SAME_BACKLOG_ITEM_LOADED": "ドライバはすでにロードされています。",
+  "HIDE_BACKLOG_PANE": "候補ペインを非表示",
+  "SHOW_BACKLOG_PANE": "候補ペインを表示"
+}

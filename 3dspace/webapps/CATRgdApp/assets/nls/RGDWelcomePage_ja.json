@@ -1,0 +1,17 @@
+{
+  "WelcomeScreen.Title": "レポート テンプレートの設計",
+  "WelcomeScreen.linksCategories.ContentAndKnowledge": "コンテンツとナレッジ",
+  "WelcomeScreen.linksCategories.SocialNetworks": "ソーシャル ネットワーク",
+  "WelcomeScreen.ContentAndKnowledge.linkText": "ユーザー アシスタンス",
+  "WelcomeScreen.WhatsNew.linkText": "最新情報",
+  "WelcomeScreen.SocialNetworks.linkText": "コミュニティ",
+  "WelcomeScreen.Buttons.New": "テンプレートを作成",
+  "WelcomeScreen.Buttons.Open": "テンプレートを開く",
+  "WelcomeScreen.Buttons.Templates": "テンプレート",
+  "WelcomeScreen.Buttons.ImportTemplates": "テンプレートをインポート",
+  "WelcomeScreen.Buttons.Config": "構成",
+  "WelcomeScreen.InputTypes.Done": "完了",
+  "loader": "読み込み中...",
+  "quitConfiguration": "構成を終了",
+  "message_quitConfiguration": "現在の変更が失われる可能性があります。続行しますか?"
+}

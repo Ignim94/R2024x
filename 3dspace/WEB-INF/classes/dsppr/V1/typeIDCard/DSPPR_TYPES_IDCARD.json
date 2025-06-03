@@ -1,0 +1,16 @@
+{
+    "dsppr:PPRContext": {
+        "kindOf": "root",
+        "beType": "type_PPRContext",
+        "search":true,
+        "cestamp":true,
+        "defaultMask":"dsppr:PPRContextMask.Default",
+    	"isPublic": true,
+        "optionCheck" : {
+        	"modify"      : true,
+        	"produce"     : true,
+        	"navigate"    : true
+        },
+        "publicResourceURI": "/resources/v1/modeler/dsppr/dsppr:PPRContext/{pid}"
+    }	
+}

@@ -1,0 +1,81 @@
+#linksDiv {
+	position: relative;
+	height: 100%;
+	backgroud: white;
+}
+
+.links-conatiner .wux-layouts-collectionview.wux-controls-abstract
+	{
+	display: inline-block;
+	top: 55px !important;
+}
+
+.egrid-container .wux-layouts-collectionview.wux-controls-abstract
+	{
+	width: 25% !important;
+	border-right: gray solid 1px;
+}
+
+.pgrid-container .wux-layouts-collectionview.wux-controls-abstract
+	{
+	left: 25% !important;
+	width: 45% !important;
+	border-right: gray solid 1px;
+}
+
+.sgrid-container .wux-layouts-collectionview.wux-controls-abstract
+	{
+	left: 70% !important;
+	width: 30% !important;
+}
+
+.expgrid-container .wux-layouts-collectionview.wux-controls-abstract
+	{
+	width: 50% !important;
+	border-right: gray solid 1px;
+}
+
+.supgrid-container .wux-layouts-collectionview.wux-controls-abstract
+	{
+	left: 50% !important;
+	width: 50% !important;
+}
+
+.customize-headercontent {
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.text-component {
+	position: relative;
+	padding-left: 5px;
+}
+
+.CustomizeProfile_Container {
+	display: inline-flex;
+	max-width: 1896px;
+	min-width: 120px;
+	margin-left: 2px;
+}
+
+.customize-headercontent .fonticon {
+	color: #b4b6ba;
+    cursor: pointer;
+    position: absolute;
+    height: 30px;
+    right: 0;
+}
+
+.customize-headercontent .fonticon:hover {
+	color: #3D3D3D;
+}
+
+.CustomizeProfile_Container .wux-controls-combobox {
+	width: 100%;
+}
+
+.CustomizeProfile_Container .comboBox-component {
+	padding-left: 1px;
+}

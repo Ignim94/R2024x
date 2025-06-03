@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XSCViews.Title="Zobrazení";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XSCTools.Title="Nástroje";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.Lifecycle.Title="Životní cyklus";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.Collaboration.Title="Spolupráce";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.SaveSession.Title="Uložit aktivní okno";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ShareAsPicture.Title="Publikovat jako obrázek";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ShareAs3D.Title="Publikovat jako 3D";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.RefreshHome.Title="Obnovit";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReloadAll.Title="Znovu načíst vše";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReserveHdr.Title="Zamknout";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.UnreserveHdr.Title="Odemknout";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.PropertiesHdr.Title="Vlastnosti";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.GetRevisionHdr.Title="Načíst revizi";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReplaceByRevisionHdr.Title="Nahradit revizí";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReplaceByLatestRevisionHdr.Title="Nahradit poslední revizí";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.UpdateRevisionsHdr.Title="Aktualizovat revize";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.RevisionsHdr.Title="Opravy";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReloadFromServerHdr.Title="Znovu načíst ze serveru";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReplaceContentHdr.Title="Nahradit obsah";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.RelationIPExplorer.Title="Vztahy";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.OptionsHdr.Title="Možnosti...";
+
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.View.Title="Zobrazení";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.Tools.Title="Nástroje";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XCADExport.Title="Exportovat X-CAD";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XCADImport.Title="Importovat X-CAD";

@@ -1,0 +1,31 @@
+{
+	"catiav5": {
+		"treeview": true,
+		"treeorder": true,
+		"treeexpandonelevel": true,
+		"controlexpandbtn" : true,
+		"traverseupdownkey" : true,
+		"supportextension": true,
+		"showtoplevelassembly" : false,
+		"render3ddrive": true,
+		"isstandalone": true,
+		"defaultsortasc": false,
+		"showadditionallinks": true,
+		"footercancelbtn": true,
+		"consecutiveimport": false
+	},
+	"solidworks": {
+		"treeview": false,
+		"treeorder": false,
+		"treeexpandonelevel": false,
+		"controlexpandbtn" : false,
+		"traverseupdownkey" : false,
+		"supportextension": false,
+		"showtoplevelassembly" : true,
+		"render3ddrive": true,
+		"isstandalone": false,
+		"defaultsortasc": false,
+		"showadditionallinks": false,
+		"footercancelbtn": false
+	}
+}

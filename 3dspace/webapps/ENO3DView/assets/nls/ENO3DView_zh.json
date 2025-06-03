@@ -1,0 +1,15 @@
+{
+  "appDescription": "以轻松高效的方式浏览 3D 模型",
+  "rootFrozen": "转换后会话被冻结",
+  "transitionRefusedStaticMapping": "目标应用程序不支持实例化产品配置",
+  "transitionRefusedFlexibleAssemblies": "目标应用程序不支持柔性装配体",
+  "pointCloudClassificationLayer": {
+    "title": "LAS 分类着色",
+    "headerTooltip": "LAS 分类是美国摄影测量和遥感学会 (ASPRS) 为所需数据类别定义的预定义分类方案。"
+  },
+  "pointCloudElevationLayer": {
+    "title": "坐标着色",
+    "comboLabel": "轴： ",
+    "tooltip": "x 坐标沿东西轴测量，y 坐标沿北南轴测量，z 坐标测量高度或标高。"
+  }
+}

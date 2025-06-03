@@ -1,0 +1,31 @@
+{
+	"actions": [	
+	     {
+			"key": "add",
+			"text": "add",
+			"fonticon": "plus",
+			"subMenu": [{
+					"text": "addNewMftEqItem",
+					"fonticon": "3dproduct-add",
+					"key": "createMftEqItem"
+				},
+				{
+					"text": "addExistingMftEqItem",
+					"fonticon": "3dproduct-insert",
+					"key": "addMftEqItem"
+				}
+			]
+		},
+		{
+			"key": "removeitem",
+			"text": "label_Detach",
+			"fonticon": "tree-delete"
+		},
+		{
+			"key": "deleteItem",
+			"text": "label_Delete",
+			"fonticon": "trash"
+		}
+	]
+}
+

@@ -1,0 +1,1 @@
+define("DS/ENOCharacteristicsWebApp/commands/DeleteConsCharacteristcs",["DS/ENOCharacteristicsWebApp/commands/DeleteCharacteristcs"],function(e){"use strict";return e.extend({init:function(e){this._parent(e)}})});

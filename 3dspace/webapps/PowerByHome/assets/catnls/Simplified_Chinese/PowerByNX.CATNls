@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+PowerByNX.XSCViews.Title="视图";
+PowerByNX.XSCTools.Title="工具";
+PowerByNX.Lifecycle.Title="生命周期";
+PowerByNX.Collaboration.Title="协作";
+PowerByNX.SaveSession.Title="保存活动窗口";
+PowerByNX.RefreshHome.Title="刷新";
+PowerByNX.ReloadAll.Title="全部重新加载";
+PowerByNX.ReserveHdr.Title="锁定";
+PowerByNX.UnreserveHdr.Title="解锁";
+PowerByNX.PropertiesHdr.Title="属性";
+PowerByNX.ReplaceByRevisionHdr.Title="用修订版替换";
+PowerByNX.ReloadFromServerHdr.Title="从服务器重新加载";
+PowerByNX.RelationIPExplorer.Title="关系";
+PowerByNX.OptionsHdr.Title="选项...";
+PowerByNX.View.Title="视图";
+PowerByNX.Tools.Title="工具";

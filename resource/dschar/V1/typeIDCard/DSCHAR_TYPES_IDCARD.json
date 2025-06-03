@@ -1,0 +1,48 @@
+{
+	"dschar:PerformanceSpec": {
+		"isPublic": true,
+		"kindOf": "root",
+		"beType": "type_PerformanceSpec",
+        "contentLinks": ["dschar:PerformanceChar"],
+        "extensionLinks": ["dslc:changeControl"],	    
+		"patchCSRF": true,
+		"changeSupport": true,
+		"cestamp": true,
+		"customizationSupport": true,
+		"optionCheck": {
+			"modify": true,
+			"produce": true,
+			"navigate": false
+		},
+		"search":false,
+		"defaultMask": "dsmvchar:PerformanceSpecMask.Basic.Public"
+	},
+	"dschar:PerformanceChar": {
+		"isPublic": false,
+		"kindOf": "content",
+		"beType": "relationship_PerformanceChar",
+		"rootLinks":["dschar:PerformanceSpec"],
+		"extensionLinks": [],	    
+		"patchCSRF": true,
+		"cestamp": true,
+		"customizationSupport":false,
+		"optionCheck": {
+			"modify": false,
+			"produce": false,
+			"navigate": false
+		},
+		"defaultMask": "dsmvchar:PerformanceCharMask.Common.Public"
+	},
+	"dschar:dimensions": {
+		"isPublic": false,
+		"kindOf": "root",
+		"beType": "virtual_dimensions",
+		"implementationClass": "com.dassault_systemes.enovia.xapps.dschar.V1.implementations.dscharDimensionImpl",
+		"patchCSRF": true,
+		"optionCheck": {
+			"modify": true,
+			"produce": true,
+			"navigate": false
+		}
+	}
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright DASSAULT SYSTEMES 2013 -->
+<!--    Mapping between index names and database names -->
+<IndexMapping version="2.0" xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/IndexMapping.xsd" Title="Mapping between index names and database names" Description="Sample configuration file delivered by DS.">
+  <Relation>
+    <Key index="physicalid"                                  database="PID"/>
+    <Key index="type"                                        database="type"/>
+    <Key index="ro.plminstance.plm_externalid"               database="PLMInstance.PLM_ExternalID"/>
+    <Key index="ro.plminstance.v_treeorder"                  database="V_TreeOrder"/>
+    <Key index="ro.DELLmiOperationPPRInstance.V_Balanceable" database="DELLmiOperationPPRInstance.V_Balanceable"/>
+    <Key index="from.physicalid"                             database="isAggregatedBy"/>
+    <Key index="to.physicalid"                               database="isInstanceOf"/>
+    <Key index="ds6w:what/ds6w:type"                         database="type"/>
+    <Key index="ro.delfmicontquantity_length.v_contquantity" database="DELFmiContQuantity_Length.V_ContQuantity"/>
+    <Key index="ro.delfmicontquantity_area.v_contquantity"   database="DELFmiContQuantity_Area.V_ContQuantity"/>
+    <Key index="ro.delfmicontquantity_volume.v_contquantity" database="DELFmiContQuantity_Volume.V_ContQuantity"/>
+    <Key index="ro.delfmicontquantity_mass.v_contquantity"   database="DELFmiContQuantity_Mass.V_ContQuantity"/>
+    <Key index="ro.delfmiratioofdiscretequantity.v_contquantity"   database="DELFmiRatioOfDiscreteQuantity.V_ContQuantity"/>
+    <Key index="ro.delfmiusecaseext.v_usecase"               database="DELFmiUseCaseExt.V_UseCase"/>
+    <Key index="reserved"                                    			database="reserved"/>
+  </Relation>
+  <Entity>
+    <Key index="physicalid"                                  database="PID"/>
+    <Key index="type"                                        database="type"/>
+    <Key index="name"                                        database="PLMEntity.PLM_ExternalID"/>
+    <Key index="ds6w:label"                                  database="PLMEntity.V_Name"/>
+    <Key index="bo.PLMEntity.V_description"                  database="PLMEntity.V_description"/>
+    <Key index="bo.PLMEntity.V_discipline"                   database="PLMEntity.V_discipline"/>
+    <Key index="bo.Resource.V_MTBF"                          database="Resource.V_MTBF"/>
+    <Key index="bo.Robot.V_DELRmi_MountingMethod"            database="Robot.V_DELRmi_MountingMethod"/>
+    <Key index="bo.Robot.V_DELRmi_NbDOFs"                    database="Robot.V_DELRmi_NbDOFs"/>
+    <Key index="current"                                     database="current"/>
+    <Key index="revision"                                    database="revision"/>
+    <Key index="owner"                                       database="owner"/>
+    <Key index="reserved"                                    database="reserved"/>
+    <Key index="interface"                                   database="interface"/>
+    <Key index="organization"                                database="organization"/>
+    <Key index="bo.PLMReference.V_isLastVersion"             database="PLMReference.V_isLastVersion"/>
+
+    <Key index="bo.DELAsmProcessCanUseCnx.V_ResourcesQuantity" database="DELAsmProcessCanUseCnx.V_ResourcesQuantity"/>
+
+    <Key index="resourceid"                                  database="resourceid"/>
+    <Key index="ds6w:what/ds6w:type"                         database="type"/>
+
+    <Key index="DELSysSpecificationLinksDiscipline"          database="SystemImplementLink"/>
+    <Key index="MfgProductionPlanning"                       database="ProcessImplementLink"/>
+    <Key index="DELFmiProcessImplementCnx"                   database="ProductImplementLink"/>
+    <Key index="ds6w:kind"                                   database="V_usage"/>
+    <Key index="ds6w:manufacturable"                         database="V_IsManufacturable"/>
+    <Key index="bo.enterpriseextension.v_partnumber"         database="EnterpriseExtension.V_PartNumber"/>
+    <Key index="bo.DELFmiMagnitudeExt.V_DimensionType"       database="DELFmiMagnitudeExt.V_DimensionType"/>
+  </Entity>
+</IndexMapping>

@@ -1,0 +1,16 @@
+[
+	{
+		"objectType" : "VPMReference",
+		"navigations" : 
+		[
+			{
+				"relType":
+				[
+					"VPMInstance"
+				],
+				"toDirection": false,
+				"iterNb" : 1
+			}
+		]
+	}
+]

@@ -1,0 +1,1 @@
+define("DS/3DWorkbook/js/models/WkbMainModel",["UWA/Core","UWA/Class","DS/DELMOMWKIExperience/js/WkiStreamUtil","i18n!DS/3DWorkbook/assets/nls/3DWorkbook"],function(o,e,s,k){});

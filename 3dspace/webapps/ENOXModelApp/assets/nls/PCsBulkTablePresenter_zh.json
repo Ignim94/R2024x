@@ -1,0 +1,21 @@
+{
+  "TotalVariability": "总体可变性",
+  "TotalProductConfigurations": "产品配置总数",
+  "ConfigurationsLoading": "正在加载配置",
+  "ConflictComputing": "正在计算冲突",
+  "SuggestionsCoomputing": "正在计算建议",
+  "GetRuleDetailsError": "获取规则信息时出错。",
+  "CompleteModeNotification": "产品配置将在完成模式下编辑和保存",
+  "NoUserSelection": "规则级别 - 完成 - 选择至少 1 个值",
+  "Option": "选项",
+  "isConflictingWith": "与以下项冲突",
+  "andAlsoConflictingWith": "还与以下项冲突",
+  "PCSaveSuccessMessage": "已成功保存配置",
+  "PCSaveFailureMessage": "无法保存配置",
+  "HighlightDifferences": "突出显示差异",
+  "UnHighlightDifferences": "取消突出显示差异",
+  "Enable_Edit": "启用编辑",
+  "Disable_Edit": "禁用编辑",
+  "BC_conflict_title": "基本配置无效",
+  "BC_conflict_message": "请为每个必需变体定义至少一个值（“可用”、“默认”或“已选择”）。"
+}

@@ -1,0 +1,1 @@
+define("DS/ENOXCompareRules/presenter/DrivingComparePanel",["DS/CustomizableLayout/View","DS/CompareWidget2/plugins/STRUCTURE/ViewPanel/structComparePanel","i18n!DS/ENOXCompareRules/assets/nls/CompareRulesNLS"],function(e,r,i){"use strict";return r.extend({getLabel:function(){return i.Driving_Criteria},getName:function(){return i.Driving_Criteria}})});

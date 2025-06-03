@@ -1,0 +1,12 @@
+m|MPFCore\MPFServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\MPFServices\MPFServices.js|1700692174|1991
+s|MPFCore\MPFServices.mweb\src\MarketplaceServices.js|1700681634|465
+u|MPFCore\MPFServices.mweb\src\MPFInputsServices.js|1669411782|3988
+u|MPFCore\MPFServices.mweb\src\MPFServices.js|1669411782|0
+u|MPFCore\MPFServices.mweb\src\ObjectService.js|1669411782|1708
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

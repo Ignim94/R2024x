@@ -1,0 +1,15 @@
+m|InstantMessagingAPI\RTAPIManager.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\RTAPIManager\RTAPIManager.js|1700692221|7164
+s|InstantMessagingAPI\RTAPIManager.mweb\src\RTAPIconvModel.js|1660723404|1908
+t|win_b64\webapps\RTAPIManager\assets\avatarDefault.png|1685324344|1980
+s|InstantMessagingAPI\RTAPIManager.mweb\src\assets\avatarDefault.png|1660723404|1980
+u|InstantMessagingAPI\RTAPIManager.mweb\src\RTAPIManager.js|1660723404|359
+u|InstantMessagingAPI\RTAPIManager.mweb\src\RTAPImanagerModel.js|1660723404|1166
+u|InstantMessagingAPI\RTAPIManager.mweb\src\RTAPIuserCollection.js|1688762380|5900
+u|InstantMessagingAPI\RTAPIManager.mweb\src\RTAPIuserModel.js|1660723404|2811
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

@@ -1,0 +1,1 @@
+define("DS/3DWorkbook/js/views/WkbStyles",["UWA/Core","UWA/Class"],function(e,o){"use strict";return o.singleton({attributeLabelColor:"#77797c",attributeValueColor:"3D3D3D",nonclickTitleColor:"3D3D3D",clickableTitleColor:"#368ec4"})});

@@ -1,0 +1,14 @@
+{
+  "hasSync": "Status de sincronização do CAD",
+  "RequestSynchronization": "Solicitar sincronização",
+  "ReqJob_Success": "Solicitação de sincronização criada com êxito. Atualize para visualizar o status na coluna Status de sincronização do CAD.",
+  "ReqJob_Failure": "Erro ao criar a solicitação de sincronização",
+  "status_Sync": "Sincronizado",
+  "status_Unsync": "Não sincronizado",
+  "status_JobRunning": "A tarefa de sincronização está em execução",
+  "status_JobFail": "Falha na tarefa de sincronização",
+  "status_NA": "Não aplicável",
+  "MSG_JOB_CREATED_FOR_SOME_NODES": "Tarefa de sincronização criada para um ou mais nós selecionados. Atualize para visualizar o status na coluna Status de sincronização do CAD.",
+  "MSG_JOB_EXISTS_FOR_ALL_NODES": "Tarefa de sincronização já existe para os nós selecionados. Atualize para visualizar o status na coluna Status de sincronização do CAD.",
+  "indexing_failed_message": "Objetos novos ou modificados ainda não foram indexados. Repita a operação em alguns minutos."
+}

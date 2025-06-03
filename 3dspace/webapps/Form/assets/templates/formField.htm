@@ -1,0 +1,15 @@
+<div class="label-container" labelVisibility={{labelVisibility}} labelInvalidStatusVisibility={{labelInvalidStatusVisibility}} requiredIconVisible={{requiredVisibleOnLabel}}>
+  <div class="{{invalidIconClass}}" invalidState={{invalidState}}></div>
+  <div class="form-label field-label">
+    {{label}}
+  </div>
+  <div class="{{requiredIconClass}}"></div>
+</div>
+
+<div class="tweaker-container" tweakerInvalidStatusVisibility={{tweakerInvalidStatusVisibility}} requiredIconVisible={{requiredVisibleOnTweaker}}>
+  <div class="{{invalidIconClass}}" invalidState={{invalidState}}></div>
+  <div class="{{requiredIconClass}}"></div>
+  <div class="form-tweaker">
+    {{&tweaker}}
+  </div>
+</div>

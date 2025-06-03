@@ -1,0 +1,74 @@
+<!-- For dev Test Refer testData.txt at //assets//devTestData//testData.txt  -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:widget="http://www.netvibes.com/ns/">
+<!-- Copyright 2014 , Dassault Systemes. All rights reserved. -->
+<head>
+
+<title>Publisher Widget App</title>
+
+<!-- Application Metas Start -->
+
+<meta name="description" content="CAA Web Apps basic use case  pub/sub" />
+<meta name="keywords" content="CAA Use Case" />
+<!-- Application Metas End -->
+
+
+
+<!-- Application Metas End -->
+
+<!-- Application JS Start -->
+<script>
+    /* global widget,require */
+    require(
+	    [ 'DS/PlatformAPI/PlatformAPI' ],
+	    function(PlatformAPI) {
+		'use strict';
+
+		var myWidget = {
+
+		    //onLoad: event triggered when the widget is launched  
+		    //--------------------------------------------------
+		    onLoad : function() {
+		    	var html = "<div>"
+					+ "<button class='publish'>Push to Publish</button>"
+					+ "<br><br>"
+					+ "<label class='myLblType' >Input for all JSON / XML</label>"
+					+ "<br>"
+					+ "<textarea class='myInputType' rows='10' cols='60'></textarea>"
+					+ "<br><br>"
+					+ "<label class='myLblType' >Received JSON Response</label>"
+					+ "<br>"
+					+ "<textarea class='myReceiveType' rows='10' cols='60'></textarea>"
+					+ "</div>";
+
+			widget.body.innerHTML = html;
+
+			var button = widget.body.querySelector('.publish');
+			var inputText = widget.body.querySelector('.myInputType');
+			
+			button.addEventListener("click", function() {
+
+				PlatformAPI.publish('ImportSubscribe.dev', inputText.value);
+			});
+			
+			PlatformAPI.subscribe('webinwin:web:notification',
+				    myWidget.onPublishText);
+		    },
+
+		    onPublishText : function(returnData) {
+			var receivedText = widget.body
+				.querySelector('.myReceiveType');
+			receivedText.value = returnData;
+		    }
+		};
+		widget.addEvent('onLoad', myWidget.onLoad);
+	    });
+</script>
+<!-- Application JS End -->
+</head>
+<body>
+</body>
+</html>

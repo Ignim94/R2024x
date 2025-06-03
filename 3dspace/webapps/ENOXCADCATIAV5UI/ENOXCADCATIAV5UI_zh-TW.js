@@ -1,0 +1,1 @@
+define("DS/ENOXCADCATIAV5UI/ENOXCADCATIAV5UI_zh-TW",{});define("DS/ENOXCADCATIAV5UI/assets/nls/ENOXCADFileNameValidationNls",{Size_error:"檔案名稱不得超過 {maxSupportedLength} 個字元",Unsupported_char:"檔案名稱包含無效字元：{char}",Space_Leading_Trailing:"存在非預期的句首和句尾空格",Space_Leading:"存在非預期的句首空格",Space_Trailing:"存在非預期的句尾空格"});

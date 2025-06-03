@@ -1,0 +1,41 @@
+{    
+	"documentsList": {
+			"referenceDocumentLabel": "Reference Documents",
+			"specificationDocumentLabel": "Specification Documents",
+			"noDocsFound": "No Documents found for the selected object. To attach, drag and drop documents below ",
+			"noDocsFound-referenceDocs": "No attachments found",
+			"noDocsFound-specificationDocs": "No Documents found",
+			"noReferenceDocsFound": "No Reference Documents found for the selected object",
+			"insertDocuments": "Select Document(s) to insert",
+			"ctx": {
+				"openIn3DPlay": "3DPlay",
+				"checkInDocument": "Check In",
+				"checkOutDocument": "Check Out",
+				"detachDocument": "Detach",
+				"attachDocument": "Attach",
+				"downloadDocument": "Download",
+				"deleteDocument": "Delete"
+			},
+			"masks": {
+				"createDocumentMask": "Creating new Document(s)",
+				"attachDocumentMask": "Attaching document(s)",
+				"checkinDocumentMask": "Checking In Document",
+				"checkoutDocumentMask": "Checking Out Document",
+				"downloadDocumentMask": "Downloading Document",
+				"detachDocumentMask": "Detaching document",
+				"deleteDocumentMask": "Deleting Document",
+				"searchDocuments": "Search Documents to attached"
+			},
+			"notifs": {
+				"cannotCheckInDocument": "Cannot Check In document",
+				"cannotDownloadDoc": "Cannot download document",
+				"cannotDeleteDoc": "Cannot delete document",
+				"cannotDetachDoc": "Cannot detach document",
+				"unableCreateDocumentRep": "Cannot connect document to Representation",
+				"attachDocumentFailed": "Attach Document(s) failed",
+				"somedroppedobjnotvalid": "Some object(s) cannot be attached as Document",
+				"nofileselected": "No file selected"
+			}
+		},
+		"rich_attr_head": "Custom Attributes"
+}

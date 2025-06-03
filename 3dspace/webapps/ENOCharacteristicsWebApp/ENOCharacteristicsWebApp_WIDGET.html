@@ -1,0 +1,88 @@
+
+<html>
+<head>
+		<meta http-equiv="Cache-control" content="no-cache">
+		<title>Characteristics</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+        <script type="text/javascript" src="../WebappsUtils/WebappsUtils.js"></script>
+
+        <preferences>
+            <preference name="Tenant" type="list" label="Tenant Enovia" defaultValue="">
+                <option value="" label="" />
+            </preference>
+        </preferences>
+
+        <link rel="stylesheet" type="text/css" href="../c/UWA/assets/css/standalone.css" />
+        <script type="text/javascript" src="../c/UWA/js/UWA_Standalone_Alone.js"></script>
+
+
+        <script type="text/javascript" src="../UIKIT/UIKIT.js"></script>
+		<!-- <link rel="stylesheet" type="text/css" href="../../common/styles/emxUIDefault.css" /> -->
+        <link rel="stylesheet" type="text/css" href="../ENOCharacteristicsWebApp/ENOCharacteristicsWebApp.css" />
+		<link rel="stylesheet" type="text/css" href="../UIKIT/UIKIT.css" />
+        <link rel="stylesheet" type="text/css" href="../W3DXComponents/W3DXComponents.css" />
+        <!-- plugins\treetable\vendor\underscore.js -->
+
+</head>
+
+<body>
+<div id="charPageHeadDiv" class="charPageHead">
+    <table id="charContentHeader">
+        <tbody>
+            <tr>
+                <td class="char-page-title">
+                    <h2>Characteristics| Filter:All</h2>
+                    <!-- <h3 id="pageSubHeader">Filter:All</h3> -->
+                </td>
+            </tr>
+        </tbody>
+    </table>
+ </div>
+</body>
+
+
+<script type="text/javascript">
+
+   var targetDiv = widget.body.getElement("#" + "charPageHeadDiv");
+    
+    require(
+            ["DS/ENOCharacteristicsWebApp/utils/WidgetShell"],
+            function(WidgetShell){
+				var physicalid = (widget.uwaUrl.split('physicalid=')[1]||'').split('&')[0];
+				var itemActualType = widget.data.ItemInfo.itemActualType;
+				var itemType = widget.data.ItemInfo.itemType;
+				var itemRevision = widget.data.ItemInfo.itemRevision;
+				var itemOriginated = widget.data.ItemInfo.itemOriginated;
+				var itemLastModified = widget.data.ItemInfo.itemLastModified;
+				var itemMaturity = widget.data.ItemInfo.itemMaturity;
+				var itemDescription = widget.data.ItemInfo.itemDescription;
+				var itemOwner = widget.data.ItemInfo.itemOwner;
+				var itemTitle = widget.data.ItemInfo.itemTitle;
+
+                var shell = new WidgetShell({
+                	"target" : targetDiv,
+                	"app" : {
+                		"module" : "DS/ENOCharacteristicsWebApp/ENOCharacteristicsWebApp"
+                	},
+					"physicalid": physicalid,
+					"itemActualType": itemActualType,
+					"itemType": itemType,
+					"itemRevision": itemRevision,
+					"itemOriginated": itemOriginated,
+					"itemLastModified": itemLastModified,
+					"itemMaturity": itemMaturity,
+					"itemDescription": itemDescription,
+					"itemOwner": itemOwner,
+					"itemTitle": itemTitle
+                });
+                shell.runApp();
+            }
+            
+        );
+</script>
+
+</html>

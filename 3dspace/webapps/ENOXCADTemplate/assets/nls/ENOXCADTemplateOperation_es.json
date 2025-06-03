@@ -1,0 +1,11 @@
+{
+  "edit": "Editar",
+  "download": "Descargar",
+  "publish": "Madurez",
+  "delete": "Eliminar",
+  "add_template": "Agregar plantilla",
+  "edit_template": "Editar plantilla",
+  "download_template": "Descargar plantilla",
+  "delete_template": "Eliminar plantilla",
+  "reload_template": "Volver a cargar plantilla"
+}

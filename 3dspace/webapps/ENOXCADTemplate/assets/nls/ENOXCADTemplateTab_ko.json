@@ -1,0 +1,12 @@
+{
+  "CATIAV5UPS.assembly.label": "제품",
+  "CATIAV5UPS.component.label": "파트",
+  "CATIAV5UPS.drawing.label": "도면",
+  "CATIAV5UPS.analysis.label": "분석",
+  "CATIAV5UPS.analysis.icon": "I_CATAnalysis.png",
+  "CATIAV5CUSTOMUPS.assembly.label": "제품",
+  "CATIAV5CUSTOMUPS.component.label": "파트",
+  "CATIAV5CUSTOMUPS.drawing.label": "도면",
+  "CATIAV5CUSTOMUPS.analysis.label": "분석",
+  "CATIAV5CUSTOMUPS.analysis.icon": "I_CATAnalysis.png"
+}

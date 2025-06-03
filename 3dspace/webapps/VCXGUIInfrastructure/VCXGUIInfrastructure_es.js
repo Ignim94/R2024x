@@ -1,0 +1,1 @@
+define("DS/VCXGUIInfrastructure/VCXGUIInfrastructure_es",{});define("DS/VCXGUIInfrastructure/assets/nls/VCXGUIInfrastructure",{"VCXProperties.Menu":"Menú","VCXScenarios.PanelTitle":"Escenas","VCXRatios.PanelTitle":"Lienzo","VCXProperties.PanelTitle":"Propiedades","VCXSamplesBrower.PanelTitle":"Navegador de muestras"});

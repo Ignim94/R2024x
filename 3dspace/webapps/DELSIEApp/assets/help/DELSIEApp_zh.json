@@ -1,0 +1,22 @@
+{
+"CreateAssemblyAndScope.Title":"创建服务装配体和范围链接",
+"CreateAssemblyAndScope.ShortHelp":"创建带有产品或零件范围链接的服务装配体。",
+"CreateAssemblyAndScope.LongHelp":"选择产品或零件，然后单击<uicontrol>创建服务装配体和范围链接</uicontrol>以创建带有产品或零件范围链接的服务装配体。",
+"CreateProvideAndScope.Title":"创建服务零件和范围链接",
+"CreateProvideAndScope.ShortHelp":"创建带有产品或零件范围链接的服务零件。",
+"CreateProvideAndScope.LongHelp":"选择产品或零件，然后单击<uicontrol>创建服务零件和范围链接</uicontrol>以创建带有产品或零件范围链接的服务零件。",
+"CreateMaterialAndScope.Title":"创建制造材料和范围链接",
+"CreateMaterialAndScope.ShortHelp":"创建带有产品或零件范围链接的制造材料。",
+"CreateMaterialAndScope.LongHelp":"选择产品或零件，然后单击<uicontrol>创建制造材料和范围链接</uicontrol>以创建带有产品或零件范围链接的制造材料。",
+"CreateKitAndScope.Title":"创建服务套件和范围链接",
+"CreateKitAndScope.ShortHelp":"创建带有产品或零件范围链接的服务套件。",
+"CreateKitAndScope.LongHelp":"选择产品或零件，然后单击<uicontrol>创建服务套件和范围链接</uicontrol>以创建带有产品或零件范围链接的服务套件。",
+"CreateServiceAttachingAndScope.Title":"创建服务附加零件和范围链接",
+"CreateServiceAttachingAndScope.ShortHelp":"创建带有产品或零件范围链接的服务附加 零件。",
+"CreateServiceAttachingAndScope.LongHelp":"选择产品或零件，然后单击<uicontrol>创建服务 附加项目和范围链接</uicontrol>以创建带有产品或零件范围链接的服务 附加零件。",
+"CreateServiceSpareAndScope.Title":"创建备用项目和范围链接",
+"CreateServiceSpareAndScope.ShortHelp":"创建带有产品或零件范围链接的备用 项目。",
+"CreateServiceSpareAndScope.LongHelp":"选择产品或零件，然后单击<uicontrol>创建备用 项目和范围链接</uicontrol>，以创建带有产品或零件范围 链接的备用项目。",
+"Show3DOperationViewerCmd.Title":"启动 3DOperations Viewer",
+"Show3DOperationViewerCmd.ShortHelp":"以“预览”模式打开 <wintitle>3DOperations Viewer</wintitle> 应用程序。"
+}

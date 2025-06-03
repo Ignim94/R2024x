@@ -1,0 +1,1 @@
+define("DS/DMUBaseUIComponents/DMUBaseUIComponents_ja",{});define("DS/DMUBaseUIComponents/assets/nls/DMUBaseUIComponents",{replyButtonLabel:"返信",addButtonLabel:"新規コメント",pointedPageRemoved:"参照されたページが削除されました",commentDeleted:"このコメントは削除されました"});

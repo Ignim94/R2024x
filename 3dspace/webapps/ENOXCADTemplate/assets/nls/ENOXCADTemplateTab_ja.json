@@ -1,0 +1,12 @@
+{
+  "CATIAV5UPS.assembly.label": "プロダクト",
+  "CATIAV5UPS.component.label": "パーツ",
+  "CATIAV5UPS.drawing.label": "図面",
+  "CATIAV5UPS.analysis.label": "解析",
+  "CATIAV5UPS.analysis.icon": "I_CATAnalysis.png",
+  "CATIAV5CUSTOMUPS.assembly.label": "プロダクト",
+  "CATIAV5CUSTOMUPS.component.label": "パーツ",
+  "CATIAV5CUSTOMUPS.drawing.label": "図面",
+  "CATIAV5CUSTOMUPS.analysis.label": "解析",
+  "CATIAV5CUSTOMUPS.analysis.icon": "I_CATAnalysis.png"
+}

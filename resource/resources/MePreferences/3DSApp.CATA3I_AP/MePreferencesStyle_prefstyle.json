@@ -1,0 +1,3201 @@
+{
+  "version": "1.0",
+  "UIModel": [
+    {
+      "type": "PreferenceSection",
+      "name": "3DAnnotationSection",
+      "repository": "3DAnnotRepository",
+      "children": [
+        {
+          "type": "PreferenceItem",
+          "name": "WhiteVectorAsBlack",
+          "tweakertype": "boolean"
+        },
+        {
+          "type": "PreferenceItem",
+          "name": "DisplayOnlyCaptures",
+          "tweakertype": "boolean"
+        },
+        {
+          "type": "PreferenceItem",
+          "name": "UpdateThumbnails",
+          "tweakertype": "boolean"
+        },
+        {
+          "type": "PreferenceItem",
+          "name": "KeepSelectedFeatures",
+          "tweakertype": "boolean"
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "AssemblyRootAnnotationSetGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "LoadLevelAssemblyAnnotations",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "LoadARMAnnotations",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "LoadFirstAssemblyLevelAnnotations",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "FirstAssemblyLevelAnnotationsPrefix",
+              "tweakertype": "string"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "FirstAssemblyLevelAnnotationsSuffix",
+              "tweakertype": "string"
+            }
+          ]
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "FavoriteContextGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "FavoriteContextLoadMode",
+              "tweakertype": "radio"
+            }
+          ]
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "AttributesGroup",
+          "tweakertype": "expander",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_2",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_3DAnnotations",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_0",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_1",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_7",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_3",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_4",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_6",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_5",
+              "tweakertype": "boolean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PreferenceSection",
+      "name": "MeasureSection",
+      "repository": "MeasureRepository",
+      "children": [
+        {
+          "type": "PreferenceGroup",
+          "name": "Value",
+          "repository": "MeasureRepository",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceGroup",
+              "name": "Coordinates",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Coordinates_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Coordinates_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Coordinates_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Coordinates_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Coordinates_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Coordinates_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Line_Length",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Line_Length_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Line_Length_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Line_Length_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Line_Length_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Line_Length_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Line_Length_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Line_Length_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Line_Length_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Line_Length_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Curve_Length",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Curve_Length_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Curve_Length_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Curve_Length_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Curve_Length_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Curve_Length_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Curve_Length_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Curve_Length_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Curve_Length_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Arc_Length",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Arc_Length_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Arc_Length_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Arc_Length_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Arc_Length_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Arc_Length_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Arc_Length_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Arc_Length_Radius",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Arc_Length_Diameter",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Arc_Length_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Arc_Length_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Cylinder_Length",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Cylinder_Length_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Length_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Length_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Length_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Length_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Length_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Length_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Length_Radius",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Length_Diameter",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Length_Area",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Length_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Length_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Length_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Cone_Length",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Cone_Length_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_Angle",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_HalfAngle",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_Apex",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_MinRadius",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_MaxRadius",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_MinDiameter",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_MaxDiameter",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_Area",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Length_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Distance",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Distance_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Distance_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Distance_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Distance_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Distance_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Distance_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Distance_Components",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Distance_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Distance_Selection1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Distance_Selection2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Distance_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Min_Distance",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Min_Distance_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Distance_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Distance_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Distance_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Distance_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Distance_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Distance_Components",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Distance_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Distance_Selection1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Distance_Selection2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Distance_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Max_Distance",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Max_Distance_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Distance_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Distance_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Distance_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Distance_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Distance_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Distance_Components",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Distance_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Distance_Selection1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Distance_Selection2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Distance_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Local_Min_Distance",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Local_Min_Distance_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Min_Distance_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Min_Distance_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Min_Distance_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Min_Distance_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Min_Distance_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Min_Distance_Components",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Min_Distance_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Min_Distance_Selection1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Min_Distance_Selection2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Min_Distance_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Local_Max_Distance",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Local_Max_Distance_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Max_Distance_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Max_Distance_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Max_Distance_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Max_Distance_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Max_Distance_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Max_Distance_Components",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Max_Distance_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Max_Distance_Selection1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Max_Distance_Selection2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Local_Max_Distance_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Angle_Btw2Selections",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Angle_Btw2Selections_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_Btw2Selections_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_Btw2Selections_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_Btw2Selections_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_Btw2Selections_Center",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_Btw2Selections_Selection1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_Btw2Selections_Selection2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_Btw2Selections_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Angle_By3Pts",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Angle_By3Pts_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_By3Pts_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_By3Pts_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_By3Pts_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_By3Pts_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_By3Pts_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_By3Pts_Center",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Angle_By3Pts_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Cone_Angle",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Cone_Angle_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_Length",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_Apex",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_MinimumRadius",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_MaximumRadius",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_MinimumDiameter",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_MaximumDiameter",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_Area",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cone_Angle_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Half_Angle",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Half_Angle_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_Length",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_Apex",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_MinimumRadius",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_MaximumRadius",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_MinimumDiameter",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_MaximumDiameter",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_Area",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Half_Angle_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Radius",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Radius_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_Center",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_ArcLength",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_CirclePerimeter",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Cylinder_Radius",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Cylinder_Radius_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Radius_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Radius_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Radius_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Radius_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Radius_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Radius_Length",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Radius_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Radius_Area",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Radius_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Radius_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Radius_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Sphere_Radius",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Sphere_Radius_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Radius_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Radius_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Radius_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Radius_Center",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Radius_Area",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Radius_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Radius_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Min_Radius",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Min_Radius_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_Length",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_Angle",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_HalfAngle",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_Apex",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_MaximumRadius",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_Area",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Radius_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Max_Radius",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Max_Radius_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_Length",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_Angle",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_HalfAngle",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_Apex",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_MinimumRadius",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_Area",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Radius_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Radius_By3Pts",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Radius_By3Pts_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_By3Pts_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_By3Pts_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_By3Pts_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_By3Pts_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_By3Pts_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_By3Pts_Point3",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_By3Pts_Center",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Radius_By3Pts_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Diameter",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Diameter_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_Center",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_ArcLength",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_CirclePerimeter",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Cylinder_Diameter",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Cylinder_Diameter_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Diameter_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Diameter_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Diameter_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Diameter_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Diameter_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Diameter_Length",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Diameter_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Diameter_Area",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Diameter_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Diameter_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Cylinder_Diameter_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Sphere_Diameter",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Sphere_Diameter_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Diameter_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Diameter_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Diameter_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Diameter_Center",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Diameter_Area",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Diameter_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Sphere_Diameter_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Min_Diameter",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Min_Diameter_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_Length",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_Angle",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_HalfAngle",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_Apex",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_MaximumDiameter",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_Area",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Min_Diameter_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Max_Diameter",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Max_Diameter_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_Length",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_Angle",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_HalfAngle",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_Apex",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_MinimumDiameter",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_Area",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Max_Diameter_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Diameter_By3Pts",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Diameter_By3Pts_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_By3Pts_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_By3Pts_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_By3Pts_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_By3Pts_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_By3Pts_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_By3Pts_Point3",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_By3Pts_Center",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Diameter_By3Pts_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Surface_Area",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Surface_Area_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Surface_Area_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Surface_Area_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Surface_Area_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Surface_Area_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Surface_Area_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Surface_Area_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "PlanarSurface_Area",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "PlanarSurface_Area_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "PlanarSurface_Area_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "PlanarSurface_Area_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "PlanarSurface_Area_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "PlanarSurface_Area_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "PlanarSurface_Area_Equation",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "PlanarSurface_Area_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "PlanarSurface_Area_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Product_Area",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Product_Area_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Product_Area_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Product_Area_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Product_Area_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Product_Area_Volume",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Product_Area_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Product_Area_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Product_Area_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Volume",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Volume_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Volume_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Volume_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Volume_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Volume_Area",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Volume_CenterOfGravity",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Volume_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Volume_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Thickness",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Thickness_DisplayType",
+                  "tweakertype": "radio"
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "MainValue",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Thickness_MeasureType",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Thickness_Unit",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Thickness_ApproximatedValueSymbol",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                },
+                {
+                  "type": "PreferenceGroup",
+                  "name": "Extended",
+                  "repository": "MeasureRepository",
+                  "tweakertype": "expander",
+                  "children": [
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Thickness_Point1",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Thickness_Point2",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Thickness_Direction",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Thickness_Selection",
+                      "tweakertype": "boolean"
+                    },
+                    {
+                      "type": "PreferenceItem",
+                      "name": "Thickness_ComputationMode",
+                      "tweakertype": "boolean"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "GraphicProperties",
+          "repository": "MeasureRepository",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceGroup",
+              "name": "Fill",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Measure_GraphicProperties_Fill",
+                  "tweakertype": "boolean"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "Measure_GraphicProperties_FillColor",
+                  "tweakertype": "color"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "Measure_GraphicProperties_FillTransparency",
+                  "tweakertype": "percentage"
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Line",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Measure_GraphicProperties_LineBorder",
+                  "tweakertype": "boolean"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "Measure_GraphicProperties_LineColor",
+                  "tweakertype": "color"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "Measure_GraphicProperties_LineThickness",
+                  "tweakertype": "imageCombo",
+                  "icons": [
+                    "I_DMULineThickness_1.png",
+                    "I_DMULineThickness_2.png",
+                    "I_DMULineThickness_3.png",
+                    "I_DMULineThickness_4.png",
+                    "I_DMULineThickness_5.png",
+                    "I_DMULineThickness_6.png",
+                    "I_DMULineThickness_7.png",
+                    "I_DMULineThickness_8.png",
+                    "I_DMULineThickness_16.png",
+                    "I_DMULineThickness_32.png",
+                    "I_DMULineThickness_64.png"
+                  ]
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "Measure_GraphicProperties_LineType",
+                  "tweakertype": "imageCombo",
+                  "icons": [
+                    "I_DMULineType_1.png",
+                    "I_DMULineType_2.png",
+                    "I_DMULineType_3.png",
+                    "I_DMULineType_4.png",
+                    "I_DMULineType_5.png",
+                    "I_DMULineType_6.png",
+                    "I_DMULineType_7.png"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "PreferenceGroup",
+              "name": "Text",
+              "repository": "MeasureRepository",
+              "tweakertype": "header",
+              "children": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Measure_GraphicProperties_TextColor",
+                  "tweakertype": "color"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "Measure_GraphicProperties_TextSize",
+                  "tweakertype": "magnitude",
+                  "paramType": "length",
+                  "stepsize": "0.1",
+                  "nbdecimal": "1"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "Measure_GraphicProperties_TextBold",
+                  "tweakertype": "boolean"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "Measure_GraphicProperties_TextItalic",
+                  "tweakertype": "boolean"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "Creation",
+          "repository": "MeasureRepository",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "DMUMeasureRemovePreviousNonPersistent",
+              "tweakertype": "boolean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PreferenceSection",
+      "name": "ClippingSection",
+      "repository": "ClippingRepository",
+      "children": [
+        {
+          "type": "PreferenceGroup",
+          "name": "CappingGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "CappingColorSource",
+              "tweakertype": "radio"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "CustomCappingColor",
+              "tweakertype": "color"
+            }
+          ]
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "HatchingGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "DisplayHatching",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "HatchingColor",
+              "tweakertype": "color"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "HatchingThickness",
+              "tweakertype": "enum"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "HatchingAngles",
+              "tweakertype": "radio"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "HatchingSingleAngleValue",
+              "tweakertype": "magnitude",
+              "paramType": "angle"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "HatchingPitchValue",
+              "tweakertype": "integer"
+            }
+          ]
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "ContourGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "ComputeClippingContour",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "ContourColorSource",
+              "tweakertype": "radio"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "CustomContourColor",
+              "tweakertype": "color"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "ContourThickness",
+              "tweakertype": "enum"
+            }
+          ]
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "RepresentationGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "DisplayRepresentationPermanently",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "RepresentationColor",
+              "tweakertype": "color"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "RepresentationTransparency",
+              "tweakertype": "percentage"
+            }
+          ]
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "NormalDirectionGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "NormalDirection",
+              "tweakertype": "radio"
+            }
+          ]
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "ManipulationGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "DisplayManipulationTool",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "ManipulationToolMode",
+              "tweakertype": "radio"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "ManipulationIncrement",
+              "tweakertype": "magnitude",
+              "paramType": "length"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PreferenceSection",
+      "name": "GridSection",
+      "repository": "GridRepository",
+      "children": [
+        {
+          "type": "PreferenceItem",
+          "name": "GridPitchValue",
+          "tweakertype": "magnitude",
+          "repository": "GridRepository",
+          "paramType": "length"
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "DirectionLabel",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "Direction1",
+              "tweakertype": "string"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "Direction2",
+              "tweakertype": "string"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "Direction3",
+              "tweakertype": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PreferenceSection",
+      "name": "UnitsSection",
+      "repository": "cke",
+      "children": [
+        {
+          "type": "PreferenceGroup",
+          "name": "UnitsGroup",
+          "repository": "cke",
+          "tweakertype": "table",
+          "children": [
+            {
+              "type": "TableHeader",
+              "name": [
+                "Magnitude",
+                "Unit",
+                "",
+                ""
+              ],
+              "icons": [
+                "",
+                "",
+                "lock-open wux-ui-3ds",
+                "lock wux-ui-3ds"
+              ],
+              "repository": "",
+              "tweakertype": "header"
+            },
+            {
+              "type": "TableData",
+              "name": "Length",
+              "tweakertype": "TableData",
+              "CellData": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Length",
+                  "repository": "cke",
+                  "tweakertype": "enum"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "LengthDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "LengthCalcDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                }
+              ]
+            },
+            {
+              "type": "TableData",
+              "name": "Angle",
+              "tweakertype": "TableData",
+              "CellData": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Angle",
+                  "repository": "cke",
+                  "tweakertype": "enum"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "AngleDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "AngleCalcDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                }
+              ]
+            },
+            {
+              "type": "TableData",
+              "name": "Volume",
+              "tweakertype": "TableData",
+              "CellData": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Volume",
+                  "repository": "cke",
+                  "tweakertype": "enum"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "VolumeDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "VolumeCalcDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                }
+              ]
+            },
+            {
+              "type": "TableData",
+              "name": "Area",
+              "tweakertype": "TableData",
+              "CellData": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Area",
+                  "repository": "cke",
+                  "tweakertype": "enum"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "AreaDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "AreaCalcDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                }
+              ]
+            },
+            {
+              "type": "TableData",
+              "name": "Mass",
+              "tweakertype": "TableData",
+              "CellData": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Mass",
+                  "repository": "cke",
+                  "tweakertype": "enum"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "MassDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "MassCalcDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PreferenceItem",
+          "name": "TrailingZeros",
+          "repository": "cke",
+          "tweakertype": "boolean"
+        }
+      ]
+    },
+    {
+      "type": "PreferenceSection",
+      "name": "DisplaySection",
+      "children": [
+        {
+          "type": "PreferenceItem",
+          "repository": "VisualizationRepository",
+          "name": "Background",
+          "tweakertype": "color"
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "NavigationGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "repository": "VisualizationRepository",
+              "name": "Gravity",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "repository": "VisualizationRepository",
+              "name": "Invert360LookAroundNavigation",
+              "tweakertype": "boolean"
+            }
+          ]
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "ProjectionTypeGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "repository": "FrameGeneral",
+              "name": "ProjectionType",
+              "tweakertype": "radio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PreferenceSection",
+      "name": "SelectionSection",
+      "children": [
+        {
+          "type": "PreferenceItem",
+          "repository": "VisualizationRepository",
+          "name": "PreSelection",
+          "tweakertype": "boolean"
+        },
+        {
+          "type": "PreferenceItem",
+          "repository": "SelectionRepository",
+          "name": "Select3DGeometry",
+          "tweakertype": "boolean"
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "SelectParentReferenceGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "repository": "SelectionRepository",
+              "name": "SelectParentReferenceOr3DShape",
+              "tweakertype": "radio"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

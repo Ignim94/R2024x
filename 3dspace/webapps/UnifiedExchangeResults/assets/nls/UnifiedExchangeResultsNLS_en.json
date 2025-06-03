@@ -1,0 +1,17 @@
+{
+    "exchangeresults.heading.label.default": "Your download will begin shortly",
+    "exchangeresults.heading.label.download.data.start": "Your data is being downloaded.",
+    "exchangeresults.heading.label.download.data.end": "Your data was downloaded.",
+    "exchangeresults.heading.label.download.data.fail": "Your data could not be downloaded.",
+    "exchangeresults.heading.label.download.report.start": "Your report is being downloaded.",
+    "exchangeresults.heading.label.download.report.end": "Your report was downloaded.",
+    "exchangeresults.heading.label.download.report.fail": "Your report could not be downloaded.",
+    "exchangeresults.heading.label.download.content.start": "Your content is being downloaded.",
+    "exchangeresults.heading.label.download.content.end": "Your content was downloaded.",
+    "exchangeresults.heading.label.download.content.fail": "Your content could not be downloaded.",
+    "exchangeresults.heading.label.download.data.nourl": "Your download could not be processed, as the data is not available.",
+    "exchangeresults.heading.label.download.report.nourl": "Your download could not be processed, as the report is not available.",
+    "exchangeresults.heading.label.download.content.nourl": "Your download could not be processed, as the content is not available.",
+    "exchangeresults.heading.label.download.nojob": "Your download could not be processed, as the job is not available.",
+    "exchangeresults.button.label.showjobdetails": "Show Job Details"
+  }

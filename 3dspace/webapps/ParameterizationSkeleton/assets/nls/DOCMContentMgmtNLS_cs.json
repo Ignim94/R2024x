@@ -1,0 +1,15 @@
+{
+  "intro": "Konfigurace prostředí aplikace Document Management",
+  "DownloadRules": "Pravidla pro stahování dokumentů",
+  "rule1": "Stahování více dokumentů: ",
+  "option1": "Jeden soubor v jednom adresáři. Adresář pojmenovaný po „<název dokumentu> <revize dokumentu>“, např. DOC-00000001 0",
+  "option2": "Všechny soubory bez adresářové struktury. Ke konfliktním názvům souborů budou připojena sériová čísla.",
+  "defaultOption": "OneFileOneDirectory",
+  "Flatlist": "Seznam bez stromové struktury",
+  "ApplySuccess": "Změny byly úspěšně provedeny",
+  "ApplyError": "Změny se nepodařilo aplikovat",
+  "ResetSuccess": "Resetování proběhlo úspěšně",
+  "Enable_Work_Under_Setting": "Povolte práci v části",
+  "Work_Under_Accordion_Title": "Pracovat v rámci konfigurace",
+  "Failed_Load": "Nepodařilo se načíst konfigurace."
+}

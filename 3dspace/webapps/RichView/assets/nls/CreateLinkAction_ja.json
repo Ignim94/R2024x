@@ -1,0 +1,13 @@
+{
+  "CreateLinkAction_SelectRelationship": "関係を選択",
+  "CreateLinkAction_Success": "リンクが作成されました",
+  "CreateLinkAction_Failure": "サーバーでの操作に失敗しました",
+  "CreateLinkAction_Confirm": "確認",
+  "CreateLinkAction_Cancel": "キャンセル",
+  "CreateLinkAction_Downstream_Derived_Requirement": "<h5>ダウンストリーム要求 </h5><h6>{first_object} が、{second_object} に<strong>リファイン</strong>されます</h6>",
+  "CreateLinkAction_Upstream_Derived_Requirement": "<h5>アップストリーム要求 </h5><h6>{first_object} が {second_object} を<strong>カバー</strong>します</h6>",
+  "CreateLinkAction_StartLink_Not_Found": "開始リンクの参照が見つかりません",
+  "CreateLinkAction_Suspect": "疑わしい",
+  "CreateLinkAction_Valid": "有効",
+  "CreateLinkAction_Invalid": "無効"
+}

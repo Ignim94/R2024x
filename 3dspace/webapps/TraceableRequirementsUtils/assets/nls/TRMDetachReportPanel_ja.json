@@ -1,0 +1,7 @@
+{
+  "success": "成功",
+  "failure": "失敗",
+  "neutral": "警告",
+  "aborted": "中止",
+  "title": " 切り離し操作のステータス"
+}

@@ -1,0 +1,1 @@
+define("DS/RequirementCompareIntegration/RequirementCompareIntegration_zh",{});define("DS/RequirementCompareIntegration/assets/nls/ReqCompareWidgetNLS",{objectNotSupported:"<h4>对象不受支持。</h4>",noContentData:"<h4>内容为空</h4>",noContentToCompare:"<h4>没有要比较的内容</h4>",onlyIn:"仅输入 ",contentPanel:"内容"});

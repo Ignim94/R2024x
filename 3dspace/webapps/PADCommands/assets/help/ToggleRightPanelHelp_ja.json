@@ -1,0 +1,5 @@
+{
+"ToggleRightPanel.Title":"サイド パネルを表示",
+"ToggleRightPanel.ShortHelp":"選択したオブジェクトに関する情報をサイド パネルの別のタブに表示します。",
+"ToggleRightPanel.LongHelp":"使用可能なタブは、タブが起動されたアプリケーション、および選択したオブジェクトのタイプによって異なります。"
+}

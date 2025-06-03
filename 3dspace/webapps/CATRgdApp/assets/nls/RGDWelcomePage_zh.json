@@ -1,0 +1,17 @@
+{
+  "WelcomeScreen.Title": "报告模板设计",
+  "WelcomeScreen.linksCategories.ContentAndKnowledge": "内容和知识工程",
+  "WelcomeScreen.linksCategories.SocialNetworks": "社交网络",
+  "WelcomeScreen.ContentAndKnowledge.linkText": "用户帮助",
+  "WelcomeScreen.WhatsNew.linkText": "新增内容",
+  "WelcomeScreen.SocialNetworks.linkText": "社区",
+  "WelcomeScreen.Buttons.New": "创建模板",
+  "WelcomeScreen.Buttons.Open": "打开模板",
+  "WelcomeScreen.Buttons.Templates": "模板",
+  "WelcomeScreen.Buttons.ImportTemplates": "导入模板",
+  "WelcomeScreen.Buttons.Config": "配置",
+  "WelcomeScreen.InputTypes.Done": "完成",
+  "loader": "正在加载...",
+  "quitConfiguration": "快速配置",
+  "message_quitConfiguration": "当前更改可能会丢失，是否要继续？"
+}

@@ -1,0 +1,21 @@
+{
+  "Nb_New" : "{nbNew} new object",
+  "Nb_Mod" : "{nbMod} modified object",
+  "Nb_Exc" : "{nbExc} excluded object",
+  "Nb_Inc" : "{nbInc} included object",
+  "Save_stats" : "Save scope includes : ",
+  "Unreserve_checkbox":"Unlock",
+  "PGP_checkbox":"Add Product Graphical Properties",
+  "PMR_checkbox":"Add Product Flexibility Properties",
+  "KeepIteration_checkbox":"Keep previous iteration",
+  "Async_checkbox" : "Background Save",
+  "Work_Under" : "Saving under change action : ",
+  "No_DefaultBookmark":"No default Bookmark found.",
+  "Not_AllObjectsInBookmark":"Please assign a bookmark to all objects",
+  "Not_AllLocked": "Please lock all included objects",
+  "No_ReadAccess": "No read access on some objects",
+  "SaveComment_checkbox": "Add Comment",
+  "ExposePublication_checkbox": "Expose Publications",
+  "AddComment_textbox": "Enter comment here...",
+  "ApplyMaterial_checkbox": "Apply Material on 3DEXPERIENCE"
+}

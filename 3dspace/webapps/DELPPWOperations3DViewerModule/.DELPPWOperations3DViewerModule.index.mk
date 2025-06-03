@@ -1,0 +1,11 @@
+m|DELPPWModules\DELPPWOperations3DViewerModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.7.24275|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELPPWOperations3DViewerModule\DELPPWOperations3DViewerModule.js|1727810832|19860
+s|DELPPWModules\DELPPWOperations3DViewerModule.mweb\src\Operations3DViewerModule.js|1726664963|68524
+u|DELPPWModules\DELPPWOperations3DViewerModule.mweb\src\ScopeMfgItemSelectionUI.js|1663327118|14022
+u|DELPPWModules\DELPPWOperations3DViewerModule.mweb\src\Viewer3DModule.js|1686132205|917
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

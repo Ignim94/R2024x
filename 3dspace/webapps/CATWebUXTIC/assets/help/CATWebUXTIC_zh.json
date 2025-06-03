@@ -1,0 +1,14 @@
+{
+"CATWebUXGenerateIssueHdr.Title":"生成问题",
+"CATWebUXGenerateIssueHdr.ShortHelp":"允许您生成问题。",
+"CATWebUXGenerateCAHdr.Title":"生成更改操作",
+"CATWebUXGenerateCAHdr.ShortHelp":"允许您生成更改操作。",
+"CATWebUXGenerateIssueTemplateHdr.Title":"从模板生成问题",
+"CATWebUXGenerateIssueTemplateHdr.ShortHelp":"允许您从模板生成问题。",
+"PIMWebUXGenerateCAHdr.Title":"生成更改操作",
+"PIMWebUXGenerateCAHdr.ShortHelp":"允许您生成更改操作。",
+"PIMWebUXGenerateIssueHdr.Title":"生成问题",
+"PIMWebUXGenerateIssueHdr.ShortHelp":"允许您生成问题。",
+"PIMWebUXGenerateIssueTemplateHdr.Title":"从模板生成问题",
+"PIMWebUXGenerateIssueTemplateHdr.ShortHelp":"允许您从模板生成问题。"
+}

@@ -1,0 +1,23 @@
+{
+  "notSpecified": "未指定",
+  "title": "標題",
+  "titleerrortext": "輸入標題。",
+  "titleplaceholder": "在此輸入標題",
+  "description": "說明",
+  "descplaceholder": "在此輸入簡短說明",
+  "targetype": "目標 3DEXPERIENCE 類型",
+  "targettypeerrortext": "指定目標 3DEXPERIENCE 類型。",
+  "file": "檔案",
+  "fileerror": "選擇檔案。",
+  "fileplaceholder": "選擇檔案",
+  "browse": "瀏覽",
+  "cancel": "取消",
+  "save": "儲存",
+  "createshared": "建立為發佈",
+  "createprivate": "建立為草稿",
+  "reset": "重設",
+  "createtemplate": "建立範本",
+  "edittemplate": "編輯範本",
+  "createAs": "建立為 ",
+  "createAsInWork": "建立為工作中"
+}

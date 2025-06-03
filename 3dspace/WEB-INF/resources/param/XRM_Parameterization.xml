@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="RawMaterial">
+    <Domain id="AttributeDef">
+        <Family id="Raw_Material">
+                <Constant id="appType" value="VPM"/>
+                <Constant id="type" value="Raw_Material"/>
+                <Constant id="package" value="RawMaterialSpecification"/>
+        </Family>
+    </Domain>
+
+    <Domain id="ObjectIdentification" >
+        <Family id="ObjectIdentifier">
+            <Parameter id="RawMaterialPrefixSuffix" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+                <Argument id="PrefixArg" type="string" default="RM" />
+                <Argument id="SuffixArg" type="string" default="01" />
+                <Constant id="type" value="Raw_Material" />
+                <Constant id="appType" value="VPM" />
+            </Parameter>
+        </Family>
+    </Domain>
+
+</OOTBParameterization>

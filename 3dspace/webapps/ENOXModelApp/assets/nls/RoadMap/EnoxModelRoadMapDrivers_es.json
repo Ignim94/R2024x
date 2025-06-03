@@ -1,0 +1,14 @@
+{
+  "BACKLOG_ITEMS": "Candidatos",
+  "BACKLOGS_TITLE": "Candidatos",
+  "DROP_HERE_FOR_PLAN": "Suelte aquí los elementos a los que desea dirigirse ",
+  "DROP_HERE_FOR_BACKLOG": "Suelte aquí los elementos para agregarlos como candidatos",
+  "COMMITTED_FOR_THIS_REVISION": "Objetivo de esta revisión ",
+  "BACKLOG": "Candidatos",
+  "COMMITTED": "Objetivo",
+  "ROADMAP_SETTINGS": "Configuración de controladores",
+  "MANAGE_ROADMAP_SETTINGS": "Gestionar la configuración de controladores",
+  "SAME_BACKLOG_ITEM_LOADED": "los controladores ya están cargados.",
+  "HIDE_BACKLOG_PANE": "Ocultar panel Candidato",
+  "SHOW_BACKLOG_PANE": "Mostrar panel Candidato"
+}

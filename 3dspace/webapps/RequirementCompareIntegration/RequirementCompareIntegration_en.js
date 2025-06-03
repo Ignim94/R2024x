@@ -1,0 +1,1 @@
+define("DS/RequirementCompareIntegration/RequirementCompareIntegration_en",{});define("DS/RequirementCompareIntegration/assets/nls/ReqCompareWidgetNLS",{objectNotSupported:"<h4>Object is not supported.</h4>",noContentData:"<h4>Content is empty</h4>",noContentToCompare:"<h4>No Content To Compare</h4>",onlyIn:"Only In ",contentPanel:"Content"});

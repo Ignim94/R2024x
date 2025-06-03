@@ -1,0 +1,11 @@
+m|XCADParserWeb\XCADOBJDocument.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\XCADOBJDocument\XCADOBJDocument.js|1700692438|9064
+s|XCADParserWeb\XCADOBJDocument.mweb\src\XCADOBJDocument.js|1491485912|12
+u|XCADParserWeb\XCADOBJDocument.mweb\src\XCADOBJInputDocument.js|1493303272|26003
+u|XCADParserWeb\XCADOBJDocument.mweb\src\XCADOBJTessellatedRepresentation.js|1493211562|13888
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

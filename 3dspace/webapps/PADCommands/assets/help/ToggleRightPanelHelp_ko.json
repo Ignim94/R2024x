@@ -1,0 +1,5 @@
+{
+"ToggleRightPanel.Title":"측면 패널 표시",
+"ToggleRightPanel.ShortHelp":"다른 창의 다른 탭에서 선택된 개체에 대한 정보를 표시합니다.",
+"ToggleRightPanel.LongHelp":"사용 가능한 탭은 탭이 실행되는 앱과 선택된 개체의 유형에 따라 다릅니다."
+}

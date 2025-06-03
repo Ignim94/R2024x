@@ -1,0 +1,5 @@
+{
+"ToggleRightPanel.Title":"Visualizza riquadro laterale",
+"ToggleRightPanel.ShortHelp":"Visualizza le informazioni sull'oggetto selezionato in schede diverse in un pannello laterale.",
+"ToggleRightPanel.LongHelp":"Le schede disponibili dipendono dall'app dalla quale vengono lanciate e dal tipo di oggetto selezionato."
+}

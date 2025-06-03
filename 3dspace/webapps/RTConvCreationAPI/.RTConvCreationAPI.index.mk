@@ -1,0 +1,9 @@
+m|InstantMessagingAPI\RTConvCreationAPI.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23336|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\RTConvCreationAPI\RTConvCreationAPI.js|1701478515|154
+s|InstantMessagingAPI\RTConvCreationAPI.mweb\src\RTConvCreationAPI.js|1701467765|251
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

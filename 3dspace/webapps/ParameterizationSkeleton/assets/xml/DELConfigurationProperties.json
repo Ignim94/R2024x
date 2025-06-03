@@ -1,0 +1,37 @@
+[
+  {
+    "image": "paramPPRSyncMBOMManagement.png",
+    "domainid": "DELPPRLifeCycleSyncManagement",
+    "argid": ["DELMBOMLifeCycleRulesTreeListViewArg"]
+  },
+  {
+    "domainid": "MfgSessionManagementParameterization",
+    "image": "paramMfgSessionManagement.png"
+  },
+  {
+    "image": "Apriso3DExpExchange.png",
+    "domainid": "Apriso3DExpExchange",
+    "argid": ["Apriso3DExpConfigurationLayoutTreeListViewArg"]
+  },
+  {
+	"image": "paramAttributeDef.png",
+    "domainid": "DigitalManufacturing",
+    "argid": ["OOTBRolesLayoutTreeListViewArg","CustomAttrLayoutTreeListViewArg","ChangeOverOperationAttributesListArg","RoleOnLinkLayoutTreeListViewArg"]
+  },
+  {
+    "image": "DELOrderDataMgt.png",
+    "domainid": "DELOrderDataMgt",
+    "argid": [],
+    "envVar" : "ConsoleODMOnCloud"
+  },
+  {
+    "image": "param3DWorkbook.png",
+    "domainid": "DEL3DWorkbook",
+    "argid": ["DEL3DWorkbookAttributesListArg"]
+  },
+  {
+    "image": "paramDELUserExperience.png",
+    "domainid": "DELUserExperience",
+    "argid": ["DELWebAppsCustomizationListArg","DELProcessFlowDiagramColorsListArg","DELProcessFlowDiagramAttriutesListArg", "DELProcessFlowDiagramAspectRatiosListArg"]
+  }
+]

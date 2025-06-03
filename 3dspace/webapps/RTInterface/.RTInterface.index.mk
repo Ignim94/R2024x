@@ -1,0 +1,11 @@
+m|InstantMessagingAPI\RTInterface.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.3.24069|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\RTInterface\RTInterface.js|1709950573|3422
+s|InstantMessagingAPI\RTInterface.mweb\src\drivers\PAPI_driver.js|1709934866|4010
+u|InstantMessagingAPI\RTInterface.mweb\src\RTInterface.js|1662279905|279
+u|InstantMessagingAPI\RTInterface.mweb\src\index.js|1709934866|7110
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

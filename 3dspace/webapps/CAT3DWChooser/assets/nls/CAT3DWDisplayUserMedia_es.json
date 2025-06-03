@@ -1,0 +1,18 @@
+{
+  "recentPublishedContent": "Contenido publicado recientemente",
+  "noPublishedContent": "No se ha encontrado contenido publicado",
+  "draft": "BORRADOR",
+  "noWhiteboard": "No se ha encontrado ninguna pizarra",
+  "noSketch": "No se ha encontrado ningún croquis",
+  "deleteConfirmationModalTitle": "Eliminar proyecto",
+  "deleteConfirmationModalBody": "¿Seguro que desea eliminar este proyecto?",
+  "deleteConfirmationModalConfirmButton": "Sí",
+  "deleteConfirmationModalRejectButton": "No",
+  "dropmenuEditOption": "Editar",
+  "dropmenuDeleteOption": "Eliminar",
+  "dropmenuShareableLinkOption": "Copiar enlace",
+  "shareableLinkCopyMessage": "Enlace copiado al portapapeles",
+  "MyWhiteboardsButtonNotClickedError": "Haga clic en la pestaña Mis pizarras antes de realizar la búsqueda.",
+  "personalSpace": "Espacio personal",
+  "searchWhiteboardsNoResults": "No se ha encontrado ningún resultado. Cambie el texto de búsqueda e inténtelo de nuevo."
+}

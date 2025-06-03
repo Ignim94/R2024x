@@ -1,0 +1,88 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "DELLmiServiceHeaderWorkPlanReference",
+				"ParentType": "DELLmiPPRHeaderProcessReferenceAbstract",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELLmiServiceHeaderWorkPlanReference",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.threed_space.impl.DELMIACRUDPPRSysOpReferenceExecutionImpl"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELLmiServiceHeaderWorkPlanReference",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.index.DELProcReferenceIndexExpandExecutionImpl"
+					}
+				],
+				"Attributes": [
+					{
+                        "ConceptualName": "dsprcs:ServiceHeaderWorkPlanEnterpriseAttributes",
+                        "Transforms": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.DELCRUDProcEnterpriseAttributeIndexTransform"
+                            },
+                            {
+                                "Modeler": "_Index",
+                                "Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.DELCRUDProcEnterpriseAttributeIndexTransform"
+                            }
+                        ]
+                    },
+                    {
+                        "ConceptualName": "assetContext",
+                        "Transforms": [
+                            {
+                                "Modeler": "_Index",
+                                "Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.DELMIACRUDIndexProcAttrTransformToPathSR"
+                            }
+                        ],
+                        "Getters": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.ProcessGetterAssetContext"
+                            }
+                        ]
+                    }
+				]
+			},
+			{
+				"ConceptualName": "DELLmiServiceWorkPlanSystemReference",
+				"ParentType": "dsprcs:MfgProcess",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELLmiServiceWorkPlanSystemReference",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.threed_space.impl.DELMIACRUDPPRSysOpReferenceExecutionImpl"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELLmiServiceWorkPlanSystemReference",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.index.DELProcReferenceIndexExpandExecutionImpl"
+					}
+				],
+				"Attributes": [
+					{
+                        "ConceptualName": "dsprcs:ServiceWorkPlanEnterpriseAttributes",
+                        "Transforms": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.DELCRUDProcEnterpriseAttributeIndexTransform"
+                            },
+                            {
+                                "Modeler": "_Index",
+                                "Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.DELCRUDProcEnterpriseAttributeIndexTransform"
+                            }
+                        ]
+                    }
+				]
+			}
+		]
+	}
+]

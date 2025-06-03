@@ -1,0 +1,62 @@
+{
+    "dsmvmbse:ModelTitle": {
+        "property": "attribute[SystemModel.Title]",
+        "key": "title",
+        "example": "My Title"
+    },
+    "dsmvmbse:ModelUUID": {
+        "property": "attribute[SystemModel.UUID]",
+        "key": "uuid",
+        "example": "My UUID"
+    },
+    "dsmvmbse:ModelContentType": {
+        "property": "attribute[SystemModel.SystemContentType]",
+        "key": "contentType",
+        "example": "My content type"
+    },
+    "dsmvmbse:ModelContentVersion": {
+        "property": "attribute[SystemModel.SystemContentVersion]",
+        "key": "contentVersion",
+        "example": "My content version"
+    },
+    "dsmvmbse:ModelFullHistory": {
+        "property": "computed",
+        "history": "history"
+    },
+    "dsmvmbse:ModelBranchHistory": {
+        "property": "computed",
+        "key": "history"
+    },
+    "dsmvmbse:ModelIterationHistory": {
+        "property": "computed",
+        "key": "history"
+    },
+    "dsmvmbse:ModelLastHistory": {
+        "property": "computed",
+        "key": "history"
+    },
+    "dsmvmbse:HistoryIterated": {
+        "property": "branch.iterated",
+        "key": "iterated",
+        "example": "xxx"
+    },
+    "dsmvmbse:UsedModel": {
+        "property": "computed",
+        "key": "usedModel"
+    },
+    "dsmvmbse:UsedModelCid": {
+        "property": "tocontenturl",
+        "key": "tocid",
+        "example": "cid:xxx/branch:yyy"
+    },
+    "dsmvmbse:UsedModelBranch": {
+        "property": "tobranch.uuid",
+        "key": "tobranch",
+        "example": "cid:xxx/branch:yyy"
+    },
+    "dsmvmbse:UsedModelTag": {
+        "property": "attribute[SystemModelUsage.Tag]",
+        "key": "tag",
+        "example": "My tag"
+    }
+}

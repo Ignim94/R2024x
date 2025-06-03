@@ -1,0 +1,133 @@
+{
+	"attributes": {
+		"listOfNonPSTypesToShowOnConsole": "drawing",
+		"listOfCADTypesToShowOnConsole": "assembly,component,shape,embeddedComponent",
+		"listOfCADTypeDisplayName": {
+			"drawing": "Drawing",
+			"assembly": "Assembly",
+			"component": "Component",
+			"shape": "Shape",
+			"embeddedComponent": "Embedded Component"
+		},
+		"defaultSupportedAttributesForType": {
+			"VPMReference": [
+				{
+					"attributeName": "V_description",
+					"direction": "Both"
+				},
+				{
+					"attributeName": "V_Name",
+					"direction": "Both"
+				},
+				{
+					"attributeName": "revision",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "current",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "project",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "organization",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "owner",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "originated",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "V_IsManufacturable",
+					"direction": "Both"
+				},
+				{
+					"attributeName": "V_versionComment",
+					"direction": "MxToCAD"
+				}
+			],
+			"Drawing": [
+				{
+					"attributeName": "revision",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "V_Name",
+					"direction": "Both"
+				},
+				{
+					"attributeName": "V_description",
+					"direction": "Both"
+				},
+				{
+					"attributeName": "current",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "organization",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "originated",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "owner",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "project",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "V_versionComment",
+					"direction": "MxToCAD"
+				}
+			],
+			"3DShape": [
+				{
+					"attributeName": "revision",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "V_Name",
+					"direction": "Both"
+				},
+				{
+					"attributeName": "V_description",
+					"direction": "Both"
+				},
+				{
+					"attributeName": "current",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "organization",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "originated",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "owner",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "project",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "V_versionComment",
+					"direction": "MxToCAD"
+				}
+			]
+		}
+	}
+}

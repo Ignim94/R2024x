@@ -1,0 +1,35 @@
+{
+  
+    "dsspec:PhysicalProduct": {
+        "summary":"Physical Product",
+        "description": "xxx.",
+        "PUBLICMasks": [
+        "dsspec:baseMask",
+        "dsspec:SpecAndRelatedInfoObjectMask"
+        ],
+        "PROTECTEDMasks": []
+    },
+    "dsspec:TechnicalSpec": {
+        "summary":"Technical Specification",
+        "description": "xxx.",
+        "PUBLICMasks": [
+        "dsspec:baseMask",
+        "dsspec:SpecAndRelatedInfoObjectMask"
+        ],
+        "PROTECTEDMasks": []
+    },
+    "dsspec:SpecificationReport": {
+        "summary":"Specification Report",
+        "description": "xxx.",
+        "PUBLICMasks": [ 
+        "dsspec:baseMask",
+        "dsspec:specificationReportMask"
+        ],
+        "PROTECTEDMasks": []
+    }
+}
+
+
+
+
+

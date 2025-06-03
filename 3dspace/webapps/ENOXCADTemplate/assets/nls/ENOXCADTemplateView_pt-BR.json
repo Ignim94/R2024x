@@ -1,0 +1,18 @@
+{
+  "cadsubtypefield": "Tipo de 3DEXPERIENCE",
+  "cadtypefield": "Tipo CAD",
+  "templatefield": "Modelos",
+  "managetemplates": "Gerenciar modelos",
+  "newfromok": "OK",
+  "newfromcancel": "Cancelar",
+  "newfromtemplate": "Novo do Modelo",
+  "msg_success_templatecreate": "A criação do template foi bem-sucedida.",
+  "msg_success_edittemplate": "A modificação do template foi bem-sucedida.",
+  "msg_error_editmodifyaccess": "É necessário ter permissão para modificar este modelo. Verifique suas credenciais ou entre em contato com o administrador para obter suporte.",
+  "msg_success_listtemplate": "Lista de templates carregada com êxito",
+  "msg_success_notemplate": "Nenhum template disponível para este tipo",
+  "msg_error_mandfieldempty": "Os campos obrigatórios estão vazios",
+  "msg_error_templateempty": "O campo Modelos está vazio",
+  "msg_error_cadtypeempty": "O campo Tipo de CAD está vazio",
+  "mysession_newfromdlg_title": "Novo do Modelo"
+}

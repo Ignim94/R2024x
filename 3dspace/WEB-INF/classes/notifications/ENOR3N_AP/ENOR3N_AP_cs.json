@@ -1,0 +1,7 @@
+{
+  "review.mentionned.setting": "Někdo mě zmiňuje v komentáři k revizi",
+  "review.mentionned.new": "<strong>###FROM_USER###</strong> vás zmínil(a) v komentáři k revizi ohledně <strong>###OBJECT_TITLE###</strong>",
+  "review.mentionned.new.mail.subject": "<strong>###FROM_USER###</strong> vás zmínil(a) v komentáři k revizi ohledně <strong>###OBJECT_TITLE###</strong>",
+  "review.mentionned.new.mail.content": "<strong>###FROM_USER###</strong> vás zmínil(a) v komentáři k revizi ohledně <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+  "review.mentionned.new.mail.title": "Někdo vás zmínil v revizi"
+}

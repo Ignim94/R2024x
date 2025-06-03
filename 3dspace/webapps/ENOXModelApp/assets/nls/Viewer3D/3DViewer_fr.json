@@ -1,0 +1,5 @@
+{
+  "ERROR_Loading3DContent": "Echec du chargement de la vue 3D",
+  "ERROR_PreparingFilter": "Echec de la préparation de l'expression de filtre",
+  "ERROR_FilterValidation": "Echec de validation de l'expression de filtre"
+}

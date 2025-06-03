@@ -1,0 +1,9 @@
+{
+  "betaOptions": [
+    {
+      "id": "FUN143768",
+      "title": "Otevřít webové aplikace jako karty v prohlížeči",
+      "description": "Webové aplikace 3DCompass se otevřou na samostatných kartách, nikoli v okně s náhledem ovládacího panelu."
+    }
+  ]
+}

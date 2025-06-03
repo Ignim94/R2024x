@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySolidEdge.XSCViews.Title="Visualizar";
+PowerBySolidEdge.XSCTools.Title="Ferramentas";
+PowerBySolidEdge.Lifecycle.Title="Ciclo de vida";
+PowerBySolidEdge.SaveSession.Title="Salvar janela ativa";
+PowerBySolidEdge.RefreshHome.Title="Atualizar";
+PowerBySolidEdge.ReloadAll.Title="Recarregar tudo";
+PowerBySolidEdge.ReserveHdr.Title="Bloquear";
+PowerBySolidEdge.UnreserveHdr.Title="Desbloquear";
+PowerBySolidEdge.PropertiesHdr.Title="Propriedades";
+PowerBySolidEdge.GetRevisionHdr.Title="Obter revisão";
+PowerBySolidEdge.ReplaceByRevisionHdr.Title="Substituir por revisão";
+PowerBySolidEdge.ReloadFromServerHdr.Title="Recarregar a partir do servidor";
+PowerBySolidEdge.ReplaceContentHdr.Title="Substituir conteúdo";
+PowerBySolidEdge.RelationIPExplorer.Title="Relações";
+PowerBySolidEdge.OptionsHdr.Title="Opções…";
+PowerBySolidEdge.OpenWebInWinHdr.Title="Iniciar painel aberto";
+PowerBySolidEdge.Simulation.Title="Simulação";
+PowerBySolidEdge.CreateStructuralSimulationHdr.Title="Criar simulação estrutural";
+PowerBySolidEdge.Views.Title="Visualizar";
+PowerBySolidEdge.Tools.Title="Ferramentas";
+PowerBySolidEdge.InsertUnderActiveDocumentHdr.Title="Inserir em documento ativo";
+PowerBySolidEdge.ManageLocalFilesHdr.Title="Gerenciar arquivos locais";
+PowerBySolidEdge.GetAttributesForAllHdr.Title="Obter atributos para todos";
+PowerBySolidEdge.XCADExport.Title="Exportação X-CAD";
+PowerBySolidEdge.XCADImport.Title="Importação X-CAD";
+

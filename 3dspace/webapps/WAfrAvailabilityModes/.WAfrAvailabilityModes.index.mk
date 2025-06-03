@@ -1,0 +1,12 @@
+m|WAfrFoundation\WAfrAvailabilityModes.mweb
+b|j|c,m
+b|c|n,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\WAfrAvailabilityModes\WAfrAvailabilityModes.js|1700692397|7941
+s|WAfrFoundation\WAfrAvailabilityModes.mweb\src\mod_AvailabilityModesComponent.js|1639672335|35296
+t|win_b64\webapps\WAfrAvailabilityModes\assets\afr\availabilitymodes\AFR_DEFAULT_AVAILABILITY_MODES.json|1685324551|982
+s|WAfrFoundation\WAfrAvailabilityModes.mweb\src\assets\afr\availabilitymodes\AFR_DEFAULT_AVAILABILITY_MODES.json|1639671231|982
+u|WAfrFoundation\WAfrAvailabilityModes.mweb\src\WAfrAvailabilityModes.js|1478689781|0
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

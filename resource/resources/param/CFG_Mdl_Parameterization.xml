@@ -1,0 +1,131 @@
+<OOTBParameterization regSuite="CfgDictionaryMdl">
+<Domain id="ObjectIdentification" regSuite="CfgDictionaryMdl">
+    <Family id="ObjectIdentifier" icon="iconParameterizationIdentification.gif">
+        <Parameter id="VariantNaming" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="CfgDictionaryMdl">
+            <Argument id="PrefixArg" type="string" default="VAR"/>
+            <Argument id="SuffixArg" type="string" default=""/>
+            <Constant id="type" value="Variant"/>
+            <Constant id="appType" value="VPM"/>
+            <Constant id="sogName" value="type_Variant"/>
+            <Constant id="sogRevision" value="A"/>
+        </Parameter>
+        <Parameter id="VariantValueNaming" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="CfgDictionaryMdl">
+            <Argument id="PrefixArg" type="string" default="VV"/>
+            <Argument id="SuffixArg" type="string" default=""/>
+            <Constant id="type" value="Variant Value"/>
+            <Constant id="appType" value="VPM"/>
+            <Constant id="sogName" value="type_VariantValue"/>
+            <Constant id="sogRevision" value="A"/>
+        </Parameter>
+        <Parameter id="VariabilityGroupNaming" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="CfgDictionaryMdl">
+            <Argument id="PrefixArg" type="string" default="OG"/>
+            <Argument id="SuffixArg" type="string" default=""/>
+            <Constant id="type" value="Variability Group"/>
+            <Constant id="appType" value="VPM"/>
+            <Constant id="sogName" value="type_VariabilityGroup"/>
+            <Constant id="sogRevision" value="A"/>
+        </Parameter>
+        <Parameter id="VariabilityOptionNaming" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="CfgDictionaryMdl">
+            <Argument id="PrefixArg" type="string" default="OP"/>
+            <Argument id="SuffixArg" type="string" default=""/>
+            <Constant id="type" value="Variability Option"/>
+            <Constant id="appType" value="VPM"/>
+            <Constant id="sogName" value="type_VariabilityOption"/>
+            <Constant id="sogRevision" value="A"/>
+        </Parameter>
+        <Parameter id="VariantParameterNaming" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="CfgDictionaryMdl">
+            <Argument id="PrefixArg" type="string" default="VP"/>
+            <Argument id="SuffixArg" type="string" default=""/>
+            <Constant id="type" value="Variant Parameter"/>
+            <Constant id="appType" value="VPM"/>
+            <Constant id="sogName" value="type_VariantParameter"/>
+            <Constant id="sogRevision" value="A"/>
+        </Parameter>
+        <Parameter id="ModelVersionNaming" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="CfgDictionaryMdl">
+            <Argument id="PrefixArg" type="string" default="MV"/>
+            <Argument id="SuffixArg" type="string" default=""/>
+            <Constant id="type" value="Products"/>
+            <Constant id="appType" value="VPM"/>
+            <Constant id="sogName" value="type_Products"/>
+            <Constant id="sogRevision" value="A"/>
+        </Parameter>
+        <Parameter id="BuildsNaming" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="CfgDictionaryMdl">
+            <Argument id="PrefixArg" type="string" default="UNT"/>
+            <Argument id="SuffixArg" type="string" default=""/>
+            <Constant id="type" value="Builds"/>
+            <Constant id="appType" value="VPM"/>
+            <Constant id="sogName" value="type_Builds"/>
+            <Constant id="sogRevision" value="1"/>
+        </Parameter>
+        <Parameter id="ModelTypeNaming" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="CfgDictionaryMdl">
+            <Argument id="PrefixArg" type="string" default="BC"/>
+            <Argument id="SuffixArg" type="string" default=""/>
+            <Constant id="type" value="Model Type"/>
+            <Constant id="appType" value="VPM"/>
+            <Constant id="sogName" value="type_ModelType"/>
+            <Constant id="sogRevision" value="A"/>
+        </Parameter>
+        <Parameter id="ProductConfigurationNaming" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="CfgDictionaryMdl">
+            <Argument id="PrefixArg" type="string" default="PC"/>
+            <Argument id="SuffixArg" type="string" default=""/>
+            <Constant id="type" value="Product Configuration"/>
+            <Constant id="appType" value="VPM"/>
+            <Constant id="sogName" value="type_ProductConfiguration"/>
+            <Constant id="sogRevision" value="A"/>
+        </Parameter>
+
+    </Family>
+</Domain>
+<Domain id="AttributeDef">
+    <Family id="ModelVersion" regSuite="Framework" nlsKey="emxFramework.Type.Products">
+            <Constant id="appType" value="CBP"/>
+            <Constant id="package" value="Configuration"/>
+            <Constant id="type" value="Products"/>
+    </Family>
+    <Family id="Variant" regSuite="Framework" nlsKey="emxFramework.Type.Variant">
+            <Constant id="appType" value="CBP"/>
+            <Constant id="package" value="Configuration"/>
+            <Constant id="type" value="Variant"/>
+    </Family>
+    <Family id="VariantValue" regSuite="Framework" nlsKey="emxFramework.Type.Variant_Value">
+            <Constant id="appType" value="CBP"/>
+            <Constant id="package" value="Configuration"/>
+            <Constant id="type" value="Variant Value"/>
+    </Family>
+    <Family id="OptionGroup" regSuite="Framework" nlsKey="emxFramework.Type.Variability_Group">
+            <Constant id="appType" value="CBP"/>
+            <Constant id="package" value="Configuration"/>
+            <Constant id="type" value="Variability Group"/>
+    </Family>
+    <Family id="Option" regSuite="Framework" nlsKey="emxFramework.Type.Variability_Option">
+            <Constant id="appType" value="CBP"/>
+            <Constant id="package" value="Configuration"/>
+            <Constant id="type" value="Variability Option"/>
+    </Family>
+    <Family id="VariantParameter" regSuite="Framework" nlsKey="emxFramework.Type.Variant_Parameter">
+            <Constant id="appType" value="CBP"/>
+            <Constant id="package" value="Configuration"/>
+            <Constant id="type" value="Variant Parameter"/>
+    </Family>
+    <Family id="ProductConfiguration" regSuite="Framework" nlsKey="emxFramework.Type.Product_Configuration">
+            <Constant id="appType" value="CBP"/>
+            <Constant id="package" value="Configuration"/>
+            <Constant id="type" value="Product Configuration"/>
+    </Family>	
+    <Family id="Units" regSuite="Framework" nlsKey="emxFramework.Type.Builds">
+            <Constant id="appType" value="CBP"/>
+            <Constant id="package" value="Configuration"/>
+            <Constant id="type" value="Builds"/>
+    </Family>	
+    <Family id="ConfigurationRule" regSuite="Framework" nlsKey="emxFramework.Type.Configuration_Rule">
+            <Constant id="appType" value="CBP"/>
+            <Constant id="package" value="Configuration"/>
+            <Constant id="type" value="Configuration Rule"/>
+    </Family>	
+	    <Family id="ManufactruingPlan" regSuite="Framework" nlsKey="emxFramework.Type.Manufacturing_Plan">
+            <Constant id="appType" value="CBP"/>
+            <Constant id="package" value="ManufacturingPlan"/>
+            <Constant id="type" value="Manufactruing Plan"/>
+    </Family>	
+</Domain>
+</OOTBParameterization>

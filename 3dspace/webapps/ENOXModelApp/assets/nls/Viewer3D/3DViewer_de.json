@@ -1,0 +1,5 @@
+{
+  "ERROR_Loading3DContent": "Laden der 3D-Ansicht fehlgeschlagen",
+  "ERROR_PreparingFilter": "Vorbereiten des Filterausdrucks fehlgeschlagen",
+  "ERROR_FilterValidation": "Validierung des Filterausdrucks fehlgeschlagen"
+}

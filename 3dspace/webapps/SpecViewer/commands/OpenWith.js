@@ -1,0 +1,1 @@
+define("DS/SpecViewer/commands/OpenWith",["DS/SpecViewer/commands/CommandBase"],function(e){"use strict";return e.extend({init:function(e){e=UWA.extend(e,{isAsynchronous:!1}),this._parent(e),this.cmdId=e.ID},execute:function(){}})});

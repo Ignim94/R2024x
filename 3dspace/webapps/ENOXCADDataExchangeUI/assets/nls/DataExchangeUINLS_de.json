@@ -1,0 +1,11 @@
+{
+  "xcadimport.modal.title": "Paket Importieren",
+  "browse.Folder.DialogTitle": "Hier klicken, um Datei oder Festplatte zu durchsuchen",
+  "xcadimport.drive.label": "3D Laufwerk",
+  "xcadimport.disk.radio.label": "Datei auf Festplatte",
+  "xcadimport.select.button.label": "Öffnen",
+  "xcadimport.cancel.button.label": "Abbrechen",
+  "xcadimport.zip.selection": "Wählen Sie eine korrekte Paket-Datei aus",
+  "exchange_app_close": "Anwendung",
+  "exchange_app_close_info": "schließen, bevor Sie einen neuen Export oder Import starten"
+}

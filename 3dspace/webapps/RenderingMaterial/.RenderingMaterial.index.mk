@@ -1,0 +1,12 @@
+m|RenderingMaterialWeb\RenderingMaterial.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23343|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\RenderingMaterial\RenderingMaterial.js|1702097106|31422
+s|RenderingMaterialWeb\RenderingMaterial.mweb\src\CachedRequest.js|1700049025|2748
+u|RenderingMaterialWeb\RenderingMaterial.mweb\src\MaterialRequestBuilder.js|1700049013|1521
+u|RenderingMaterialWeb\RenderingMaterial.mweb\src\PLMMaterialFactory.js|1701092690|59222
+u|RenderingMaterialWeb\RenderingMaterial.mweb\src\PLMMaterialFactoryLegacy.js|1699363296|50250
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

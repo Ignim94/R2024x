@@ -1,0 +1,23 @@
+{
+  "templates":{
+    "designenv": [
+      {"ID":"AddInViewCmd", "type":"command"},
+      {"ID":"EditPropertiesCmd", "type":"command"},
+      {"ID":"CloseDesignEnvHdr", "type":"command"}
+    ],
+    "ctx": [
+      {"ID":"AddInViewCmd", "type":"command"},
+      {"ID":"AddItemToContextHdr", "type":"command"},
+      {"ID":"RemoveItemsFromFolderCmd", "type":"command"}
+    ],
+    "wip": [
+      {"ID":"AddInViewCmd", "type":"command"},
+      {"ID":"AddItemToWIPHdr", "type":"command"},
+      {"ID":"RemoveItemsFromFolderCmd", "type":"command"}
+    ],
+    "content": [
+      {"ID":"AddInViewCmd", "type":"command"},
+      {"ID":"DesignEnvRemoveContentHdr", "type":"command"}
+    ]
+  }
+}

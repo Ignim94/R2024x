@@ -1,0 +1,20 @@
+{
+  "Preferences.Title": "Preferências",
+  "3DSApp.TECMEPA_AP": "Comum",
+  "SaveButton.Label": "Salvar",
+  "ResetButton.Label": "Redefinir",
+  "PreferencesTab.Title": "Preferências",
+  "CollectionViewLabel.Label": "Padrão",
+  "CollectionViewDescription.Label": "",
+  "AdminSaveSuccessNotification.Label": "Perfil padrão foi salvo",
+  "AdminSaveFailureNotification.Label": "Algo deu errado",
+  "AdminNotification.Title": "O Perfil padrão foi modificado",
+  "AdminNotification.SubTitle": "Você pode recarregar para obter as preferências modificadas.\n Algumas de suas modificações podem ser perdidas.\n Se você salvar, suas modificações substituirão o perfil atual.",
+  "adminUserNotification.SubTitle": "Se você salvar, algumas de suas modificações podem não ser levadas em conta.",
+  "adminUserNotification.Title": "As preferências são modificadas por um administrador",
+  "userNotification.Title": "As preferências são modificadas de outro lugar.",
+  "reset.Title": "Redefinir perfil",
+  "reset.SubTitle": "Deseja redefinir todas as preferências para este perfil?",
+  "AdminSaveReqEmptyNotification.Label": "Nada para salvar",
+  "AdminPartialSaveNotification.Label": "Preferências salvas parcialmente"
+}

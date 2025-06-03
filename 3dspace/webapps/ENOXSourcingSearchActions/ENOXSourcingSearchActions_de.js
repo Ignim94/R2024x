@@ -1,0 +1,1 @@
+define("DS/ENOXSourcingSearchActions/ENOXSourcingSearchActions_de",{});define("DS/ENOXSourcingSearchActions/assets/nls/ENOXSourcingSearchActions",{download:"Herunterladen",open_with:"Öffnen mit"});

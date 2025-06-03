@@ -1,0 +1,20 @@
+{
+  "OPPORTUNITY": "Возможность",
+  "OPPORTUNITIES": "Возможности",
+  "IMPACT": "Положительное влияние",
+  "CLASS_TYPE": "Тип возможности",
+  "REALIZATION_PLAN": "План реализации",
+  "RPN": "Рейтинг",
+  "OPPORTUNITY_TREND": "Тенденция возможностей",
+  "SHOW_COMPLETED": "Показать завершенные возможности",
+  "ALL_CONTEXT_ITEMS": "Все контекстные возможности",
+  "ALL_PROJECT_OPPORTUNITIES": "Все возможности проекта",
+  "OWNED": "Мои возможности",
+  "ALL_MY_ASSIGNED_ITEMS": "Все (мои возможности + назначенные)",
+  "PROJECT_OPPORTUNITIES": "Возможности проекта",
+  "SUB_PROJECT_OPPORTUNITIES": "Возможности проекта + подпроекта",
+  "ASSOCIATED_OPPORTUNITIES": "Связанные возможности",
+  "ESTIMATED_BENEFIT": "Предполагаемая выгода",
+  "CANDIDATE_ASSIGNED": "Показать возможности, в которых я являюсь кандидатом",
+  "DUPLICATE_NO_CONTEXT_ACCESS": "Возможно, у вас нет контекстного доступа для дублирования следующих объектов "
+}

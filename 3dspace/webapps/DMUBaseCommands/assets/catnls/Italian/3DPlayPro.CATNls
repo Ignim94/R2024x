@@ -1,0 +1,14 @@
+<meta charset="UTF-8"/>
+3DPlayPro.measureCmdHdr.Title="Misura";
+3DPlayPro.measureCmdHdr2.Title="Misura";
+3DPlayPro.measure2CmdHdr.Title="Misura";
+3DPlayPro.measure3CmdHdr.Title="Misura";
+3DPlayPro.measure2DCmdHdr.Title="Misura";
+
+3DPlayPro.sectionCmdHdr.Title="Modifica ritaglio";
+3DPlayPro.section2CmdHdr.Title="Modifica ritaglio";
+3DPlayPro.thicknessCmdHdr.Title="Spessore";
+3DPlayPro.LockUnlockSectionHdr.Title="Attiva ritaglio";
+
+3DPlayPro.DMU3DReviewDisplaySubMenu.Title="Visualizza";
+3DPlayPro.DMU3DReviewAmbiencesSubMenu.Title="Ambiente";

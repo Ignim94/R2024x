@@ -1,0 +1,120 @@
+{
+  "default": [ 
+		{ "name": "Phy_ID", "expression": "physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" }, 
+		{ "name": "Type", "expression": "type", "ExpressionType": "BUS", "format": null, "multiValue": "false" }, 
+		{ "name": "Name", "expression": "name", "ExpressionType": "BUS", "format": null, "multiValue": "false" }, 
+		{ "name": "Revision", "expression": "revision", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Organization", "expression": "organization", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Owner", "expression": "owner", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "State", "expression": "current", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Interface", "expression": "interface", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Policy", "expression": "policy", "ExpressionType": "BUS", "format": null, "multiValue": "false" }, 
+		{ "name": "Vault", "expression": "vault", "ExpressionType": "BUS", "format": null, "multiValue": "false" }, 
+		{ "name": "modifyAccess", "expression": "current.access[modify]", "ExpressionType": "BUS", "format": null, "multiValue": "false" }, 
+		{ "name": "deleteAccess", "expression": "current.access[delete]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "originated", "expression": "originated", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "description", "expression": "description", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "modified", "expression": "modified", "ExpressionType": "BUS", "format": null, "multiValue": "false" }
+],
+	"dssourcing:partrequest": [
+		{"reuseMask":"default"},
+		{ "name": "Title", "expression": "attribute[Title]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Development Plan Date", "expression": "attribute[SRC Development Plan Date]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Production Plan Date", "expression": "attribute[SRC Production Plan Date]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Manufacturer", "expression": "attribute[SRC Manufacturer]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Development Reason", "expression": "attribute[SRC Development Reason]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Manufacturer Part Number", "expression": "attribute[SRC Manufacturer Part Number]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "requestTemplate_ID", "expression": "from[SRC Request Template].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "enterpriseItem_ID", "expression": "from[SRC Related Parts].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "manufacturingItem_ID", "expression": "from[SRC Proposed Parts].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" }
+],
+	"dssourcing:Proxy.1": [  
+		{"reuseMask":"default"},
+		{ "name": "Proxy_Id", "expression": "attribute[ProxyItem.Proxy_Id]", "ExpressionType": "BUS", "format": null, "multiValue": "false" }, 
+		{ "name": "Proxy_URL", "expression": "attribute[ProxyItem.Proxy_URL]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Proxy_Service", "expression": "attribute[ProxyItem.Proxy_Service]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Proxy_Title", "expression": "attribute[ProxyItem.Proxy_Title]", "ExpressionType": "BUS", "format": null, "multiValue": "false" }, 
+		{ "name": "Proxy_State", "expression": "current", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Proxy_Modified", "expression": "attribute[ProxyItem.Proxy_Modified]", "ExpressionType": "BUS", "format": "TIMESTAMP", "multiValue": "false" } 
+],
+	"dssourcing:qualification": [
+		{"reuseMask":"default"},
+		{ "name": "Preferred", "expression": "attribute[SRCQUALIFICATION.Preferred]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "orderable", "expression": "attribute[SRC General Qualification.Is Orderable]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Target_ID", "expression": "from[SRC Qualification Target].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Target_Title", "expression": "from[SRC Qualification Target].to.attribute[ProxyItem.Proxy_Title]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Target_State", "expression": "from[SRC Qualification Target].to.attribute[ProxyItem.Proxy_State]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Context_ID", "expression": "from[SRC Qualification Context].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "PreReq_ID", "expression": "from[SRC Qualification PreReq].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "referenceDocument_ID", "expression": "from[Reference Document].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "true" }
+],
+	"dssourcing:ConfigurationUtilODT.1": [  
+		{"reuseMask":"dssourcing:Proxy.1"},
+		{ "name": "mask3_Policy", "expression": "policy", "ExpressionType": "BUS", "format": null, "multiValue": "false" }, 
+		{ "name": "mask3_Vault", "expression": "vault", "ExpressionType": "BUS", "format": null, "multiValue": "false" }
+],
+	"dssourcing:Proxy.4": [  
+		{"reuseMask":"default"},
+		{ "name": "mask4_Policy", "expression": "policy"}, 
+		{ "name": "mask4_Vault", "expression": "vault"}
+],
+	"dssourcing:ManufacturerEquivalentItem": [  
+		{"reuseMask":"default"},
+		{ "name": "Part Number", "expression": "attribute[ManufacturerEquivalentItemExtension.ManufacturerPartNumber]"}, 
+		{ "name": "Part Source", "expression": "attribute[ManufacturerEquivalentItemExtension.PartSource]"},
+		{ "name": "Part Source URL", "expression": "attribute[ManufacturerEquivalentItemExtension.PartSourceURL]"},
+		{ "name": "ENG Part Number", "expression": "attribute[EnterpriseExtension.V_PartNumber]"},
+		{ "name": "Title", "expression": "attribute[PLMEntity.V_Name]"},
+		{ "name": "Description", "expression": "attribute[PLMEntity.V_description]"},
+		{ "name": "Organization", "expression": "organization"}
+],
+	"dssourcing:RequestTemplate": [  
+		{"reuseMask":"default"},
+		{ "name": "Request Type", "expression": "attribute[SRC Request Type]", "ExpressionType": "BUS", "format": null, "multiValue": "false" }, 
+		{ "name": "Request Update Event Source", "expression": "attribute[SRC Request Approval Event]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Request Update Event Source", "expression": "attribute[SRC Request In Review Event]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Title", "expression": "attribute[Title]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Route_Template_ID", "expression": "from[SRC Request Workflow Template].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Classification_ID", "expression": "from[SRC Library Classification Filter].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Route_Template_Name", "expression": "from[SRC Request Workflow Template].to.name", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Classification_Name", "expression": "from[SRC Library Classification Filter].to.name", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "referenceDocument_ID", "expression": "from[Reference Document].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "true" }
+],
+	"dssourcing:qualifications": [
+		{"reuseMask":"default"},
+		{ "name": "SRC Preferred", "expression": "attribute[SRCQUALIFICATION.Preferred]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Is Orderable", "expression": "attribute[SRC General Qualification.Is Orderable]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Target_ID", "expression": "from[SRC Qualification Target].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Context_ID", "expression": "from[SRC Qualification Context].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "PreReq_ID", "expression": "from[SRC Qualification PreReq].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "referenceDocument_ID", "expression": "from[Reference Document].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "true" }
+],
+	"dssourcing:partrequests": [
+		{"reuseMask":"default"},
+		{ "name": "Title", "expression": "attribute[Title]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Request Type", "expression": "attribute[SRC Request Type]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Manufacturer Part Number", "expression": "attribute[SRC Manufacturer Part Number]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Manufacturer", "expression": "attribute[SRC Manufacturer]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Development Reason", "expression": "attribute[SRC Development Reason]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Development Plan Date", "expression": "attribute[SRC Development Plan Date]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Production Plan Date", "expression": "attribute[SRC Production Plan Date]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Comments", "expression": "attribute[SRC Comments]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "requestTemplate_ID", "expression": "from[SRC Request Template].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "enterpriseItem_ID", "expression": "from[SRC Related Parts].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "manufacturingItem_ID", "expression": "from[SRC Proposed Parts].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "specificationDocument_ID", "expression": "from[SRC Specification Document].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "referenceDocument_ID", "expression": "from[Reference Document].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "true" }
+],
+	"dssourcing:RequestTemplates": [  
+		{"reuseMask":"default"},
+		{ "name": "SRC Request Type", "expression": "attribute[SRC Request Type]", "ExpressionType": "BUS", "format": null, "multiValue": "false" }, 
+		{ "name": "SRC Request Approval Event", "expression": "attribute[SRC Request Approval Event]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "SRC Request In Review Event", "expression": "attribute[SRC Request In Review Event]", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Title", "expression": "attribute[Title]", "ExpressionType": "BUS", "format": null, "multiValue":	 "false" },
+		{ "name": "Route_Template_ID", "expression": "from[SRC Request Workflow Template].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Classification_ID", "expression": "from[SRC Library Classification Filter].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Route_Template_Name", "expression": "from[SRC Request Workflow Template].to.name", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "Classification_Name", "expression": "from[SRC Library Classification Filter].to.name", "ExpressionType": "BUS", "format": null, "multiValue": "false" },
+		{ "name": "referenceDocument_ID", "expression": "from[Reference Document].to.physicalid", "ExpressionType": "BUS", "format": null, "multiValue": "true" }
+]
+}

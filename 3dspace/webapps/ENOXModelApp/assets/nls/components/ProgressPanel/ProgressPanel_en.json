@@ -1,0 +1,8 @@
+{
+	"PROGRESS" : "Progress",
+    "LOADING" : "Loading",
+    "CLOSE" : "CLOSE",
+    "EXPAND" : "Expand",
+    "COLLAPSE" : "Collapse",
+    "OBJECTS" : "Objects"
+}

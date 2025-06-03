@@ -1,0 +1,7 @@
+{
+    "assembly.label": "Product",
+    "component.label": "Part",
+    "drawing.label": "Drawing",
+    "PartNumber": "Part Number",
+    "FileName": "File Name"
+}

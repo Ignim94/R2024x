@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySOLIDWORKS_dataexchange.XSCViews.Title="Zobrazení";
+PowerBySOLIDWORKS_dataexchange.XSCTools.Title="Nástroje";
+PowerBySOLIDWORKS_dataexchange.Lifecycle.Title="Životní cyklus";
+PowerBySOLIDWORKS_dataexchange.SaveSession.Title="Uložit aktivní okno";
+PowerBySOLIDWORKS_dataexchange.SaveSessionAsNew.Title="Uložit aktivní okno jako nové";
+PowerBySOLIDWORKS_dataexchange.ShareAsPicture.Title="Publikovat jako obrázek";
+PowerBySOLIDWORKS_dataexchange.ShareAs3D.Title="Publikovat jako 3D";
+PowerBySOLIDWORKS_dataexchange.RefreshHome.Title="Obnovit";
+PowerBySOLIDWORKS_dataexchange.ReloadAll.Title="Znovu načíst vše";
+PowerBySOLIDWORKS_dataexchange.ReserveHdr.Title="Zamknout";
+PowerBySOLIDWORKS_dataexchange.UnreserveHdr.Title="Odemknout";
+PowerBySOLIDWORKS_dataexchange.PropertiesHdr.Title="Vlastnosti";
+PowerBySOLIDWORKS_dataexchange.GetRevisionHdr.Title="Načíst revizi";
+PowerBySOLIDWORKS_dataexchange.ReplaceByRevisionHdr.Title="Nahradit revizí";
+PowerBySOLIDWORKS_dataexchange.ReplaceByLatestRevisionHdr.Title="Nahradit poslední revizí";
+PowerBySOLIDWORKS_dataexchange.UpdateRevisionsHdr.Title="Aktualizovat revize";
+PowerBySOLIDWORKS_dataexchange.RevisionsHdr.Title="Opravy";
+PowerBySOLIDWORKS_dataexchange.ReloadFromServerHdr.Title="Znovu načíst ze serveru";
+PowerBySOLIDWORKS_dataexchange.ReplaceContentHdr.Title="Nahradit obsah";
+PowerBySOLIDWORKS_dataexchange.RelationIPExplorer.Title="Vztahy";
+PowerBySOLIDWORKS_dataexchange.OptionsHdr.Title="Možnosti...";
+
+PowerBySOLIDWORKS_dataexchange.View.Title="Zobrazení";
+PowerBySOLIDWORKS_dataexchange.Tools.Title="Nástroje";
+PowerBySOLIDWORKS_dataexchange.XCADExport.Title="Exportovat X-CAD";
+PowerBySOLIDWORKS_dataexchange.XCADImport.Title="Importovat X-CAD";

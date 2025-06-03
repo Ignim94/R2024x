@@ -1,0 +1,47 @@
+{
+  "search_settings": {
+  	"defaultViewModeAfterCacheCleaning": "table",
+    "defaultDateMode": "basedOnLanguagePreference",
+    "dateFormatOption": {
+      "day": "2-digit",
+      "month": "2-digit",
+      "year": "numeric",
+      "hour": "numeric",
+      "minute": "numeric",
+      "second": "numeric"
+    },
+    "minTopBarInput": 1,
+    "minTopBarInputSiCT": 1,
+    "simple_search_experience": false,
+    "Recent_Content_Delta_Time": 5,
+    "preciseCount": false,
+    "enablePLM": false
+  },
+  "type_custo": {
+  	"type_display": true,
+    "IncludedTypes": [
+    ]
+  },
+  "attribute_custo": {
+  	"attributes_display":true,
+  	"ds6w:type": [
+  		{
+  			"source": "AllDataSourcesandTypes",
+  			"predicates":[
+  				{
+  					"uri":"ds6w:type"
+  				},
+  				{
+  					"uri":"atis:cmgSubtaskCount"
+  				}
+  			],
+  			"exclude_predicates": [
+  				{
+  					"uri": "ds6w:status"
+  				}
+  			]
+  		}
+  	]
+  }
+}
+

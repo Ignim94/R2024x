@@ -1,0 +1,7 @@
+{
+  "popuptitle": "Quitar de favoritos - {favname}",
+  "title": "No se puede acceder a {favname}.",
+  "subtitle": "Ya no se puede acceder al marcador: es posible que se haya eliminado o que no tenga la responsabilidad necesaria en el espacio de colaboración para ver el marcador.",
+  "question": "¿Desea eliminar {favname} de la sección Favoritos?",
+  "buttonRemove": "Eliminar"
+}

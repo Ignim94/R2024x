@@ -1,0 +1,25 @@
+{
+	"actions": [		
+	     {
+			"key": "add",
+			"text": "add",
+			"fonticon": "plus"			
+		},
+		{
+			"key": "removeitem",
+			"text": "label_Detach",
+			"fonticon": "tree-delete"
+		},
+		{
+			"key": "deleteItem",
+			"text": "label_Delete",
+			"fonticon": "trash"
+		},
+		{
+			"key": "deleteItem",
+			"text": "label_Delete",
+			"fonticon": "trash"
+		}
+	]
+}
+

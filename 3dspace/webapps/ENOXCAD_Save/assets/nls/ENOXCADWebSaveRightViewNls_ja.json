@@ -1,0 +1,21 @@
+{
+  "Nb_New": "{nbNew} 個の新規オブジェクト",
+  "Nb_Mod": "{nbMod} 個の変更されたオブジェクト",
+  "Nb_Exc": "{nbExc} 個の除外されたオブジェクト",
+  "Nb_Inc": "{nbInc} 個の含まれたオブジェクト",
+  "Save_stats": "保存の範囲に含まれる内容: ",
+  "Unreserve_checkbox": "ロック解除",
+  "PGP_checkbox": "プロダクト グラフィック プロパティを追加",
+  "PMR_checkbox": "プロダクト柔軟性プロパティを追加",
+  "KeepIteration_checkbox": "前のイテレーションを保持",
+  "Async_checkbox": "バックグラウンド保存",
+  "Work_Under": "変更アクション下の保存: ",
+  "No_DefaultBookmark": "デフォルト ブックマークが見つかりません。",
+  "Not_AllObjectsInBookmark": "すべてのオブジェクトにブックマークを割り当ててください",
+  "Not_AllLocked": "すべての含まれるオブジェクトをロックしてください",
+  "No_ReadAccess": "一部のオブジェクトに対する読み取りアクセス権がありません",
+  "SaveComment_checkbox": "コメントを追加",
+  "ExposePublication_checkbox": "パブリケーションを公開",
+  "AddComment_textbox": "ここにコメントを入力...",
+  "ApplyMaterial_checkbox": "3DEXPERIENCE にマテリアルを適用"
+}

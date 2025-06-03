@@ -1,0 +1,23 @@
+{
+  "_create": "新規",
+  "_delete": "除去",
+  "_information": "情報",
+  "_item": "項目",
+  "_contentFacet": "コンテンツ",
+  "_new_requirement": "新しい要求",
+  "_error_get_req": "要求の取得中にエラーが発生しました",
+  "_error_create_req": "要求の作成中にエラーが発生しました",
+  "_error_remove_req": "要求の除去中にエラーが発生しました",
+  "_req_update_succ": "要求コンテンツが正常に更新されました",
+  "_error_req_update": "要求を更新中にエラーが発生しました",
+  "_error_req_content_load": "要求のロード中にエラーが発生しました",
+  "_error_add_existing": "要求の添付中にエラーが発生しました",
+  "_priority": "優先度",
+  "_sequence_order": "シーケンス順序",
+  "_add_existing": "既存を追加",
+  "priority_preAssigned": "事前割り当て済み",
+  "priority_low": "低",
+  "priority_medium": "中",
+  "priority_high": "高",
+  "priority_urgent": "緊急"
+}

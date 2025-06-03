@@ -1,0 +1,230 @@
+<meta charset="UTF-8"/>
+//=============================================================================
+// 								Fixed
+//=============================================================================
+DELCSTApp.LandingPage.Title="原位置";
+DELCSTApp.Refresh.Title="刷新选定项";
+DELCSTApp.Hide.Title="移除选定对象";
+DELCSTApp.Authoring.Title="创作";
+DELCSTApp.HideAll.Title="移除所有对象";
+DELCSTApp.Refresh.Title="刷新选定对象";
+DELCSTApp.RefreshAll.Title="全部刷新";
+
+DELCSTApp.ToggleAuxiliaryView.Title="辅助视图";
+DELCSTApp.ProductsParts.Title="产品和零件";
+DELCSTApp.Construction.Title="构造项目";
+
+//=============================================================================
+// 								Authoring
+//=============================================================================
+DELCSTApp.Authoring.Title="创作";
+
+//-------------------------------------------------
+//				Create
+//-------------------------------------------------
+DELCSTApp.InsertConstructionStructure.Title="构造装配体";
+DELCSTApp.InsertWorkPackageEach.Title="工作包单元";
+DELCSTApp.InsertWorkPackageLength.Title="工作包长度";
+DELCSTApp.InsertWorkPackageGroup.Title="工作包组";
+DELCSTApp.InsertWorkPackageArea.Title="工作包面积";
+DELCSTApp.InsertWorkElementEach.Title="工作元素单元";
+DELCSTApp.InsertWorkElementLength.Title="工作元素长度";
+DELCSTApp.InsertWorkElementArea.Title="工作元素区域";
+
+//-------------------------------------------------
+//				Create Process & Scope
+//-------------------------------------------------
+DELCSTApp.CreateStructureAndScope.Title="创建构造装配体和范围";
+DELCSTApp.CreateWorkPackageEachAndScope.Title="创建工作包单元和范围";
+DELCSTApp.CreateWorkPackageLengthAndScope.Title="创建工作包长度和范围";
+DELCSTApp.CreateWorkPackageAreaAndScope.Title="创建工作包面积和范围";
+DELCSTApp.CreateWorkPackageGroupAndScope.Title="创建工作包组和范围";
+DELCSTApp.CreateWorkElementEachAndScope.Title="创建工作元素单元和范围";
+DELCSTApp.CreateWorkElementLengthAndScope.Title="创建工作元素长度和范围";
+DELCSTApp.CreateWorkElementAreaAndScope.Title="创建工作元素面积和范围";
+
+//-------------------------------------------------
+//				Create Process & Resulting Product Link
+//-------------------------------------------------
+DELCSTApp.CreateStructureAndResultingProduct.Title="创建构造装配体和结果产品";
+DELCSTApp.CreateWorkPackageEachAndResultingProduct.Title="创建工作包单元和结果产品";
+DELCSTApp.CreateWorkPackageLengthAndResultingProduct.Title="创建工作包长度和结果产品";
+DELCSTApp.CreateWorkPackageAreaAndResultingProduct.Title="创建工作包面积和结果产品";
+DELCSTApp.CreateWorkPackageGroupAndResultingProduct.Title="创建工作包组和结果产品";
+DELCSTApp.CreateWorkElementEachAndResultingProduct.Title="创建工作元素单元和结果产品";
+DELCSTApp.CreateWorkElementLengthAndResultingProduct.Title="创建工作元素长度和结果产品";
+DELCSTApp.CreateWorkElementAreaAndResultingProduct.Title="创建工作元素面积和结果产品";
+//-----------------------------------------------------------------------------
+//				Create Process & Scope/ResultingProduct Link for Alternate Substitutes
+//-----------------------------------------------------------------------------
+DELCSTApp.CreateStructureAndScopeAltSubst.Title="创建构造装配体和范围";
+DELCSTApp.CreateWorkPackageEachAndScopeAltSubst.Title="创建工作包单元和范围";
+DELCSTApp.CreateWorkPackageLengthAndScopeAltSubst.Title="创建工作包长度和范围";
+DELCSTApp.CreateWorkPackageAreaAndScopeAltSubst.Title="创建工作包面积和范围";
+DELCSTApp.CreateWorkPackageGroupAndScopeAltSubst.Title="创建工作包组和范围";
+DELCSTApp.CreateWorkElementEachAndScopeAltSubst.Title="创建工作元素单元和范围";
+DELCSTApp.CreateWorkElementLengthAndScopeAltSubst.Title="创建工作元素长度和范围";
+DELCSTApp.CreateWorkElementAreaAndScopeAltSubst.Title="创建工作元素面积和范围";
+//----------------------------------------------------
+DELCSTApp.CreateStructureAndResultingProductAltSubst.Title="创建构造装配体和结果产品";
+DELCSTApp.CreateWorkPackageEachAndResultingProductAltSubst.Title="创建工作包单元和结果产品";
+DELCSTApp.CreateWorkPackageLengthAndResultingProductAltSubst.Title="创建工作包长度和结果产品";
+DELCSTApp.CreateWorkPackageAreaAndResultingProductAltSubst.Title="创建工作包面积和结果产品";
+DELCSTApp.CreateWorkPackageGroupAndResultingProductAltSubst.Title="创建工作包组和结果产品";
+DELCSTApp.CreateWorkElementEachAndResultingProductAltSubst.Title="创建工作元素单元和结果产品";
+DELCSTApp.CreateWorkElementLengthAndResultingProductAltSubst.Title="创建工作元素长度和结果产品";
+DELCSTApp.CreateWorkElementAreaAndResultingProductAltSubst.Title="创建工作元素面积和结果产品";
+
+//-------------------------------------------------
+//				Product Assignation
+//-------------------------------------------------
+DELCSTApp.AssignStructure.Title="将产品分配给构造装配体";
+DELCSTApp.AssignWorkElementArea.Title="将产品分配给工作元素区域";
+DELCSTApp.AssignWorkElementLength.Title="将产品分配给工作元素长度";
+DELCSTApp.AssignWorkElementEach.Title="将产品分配给每个工作元素 ";
+DELCSTApp.AssignWorkPackageEach.Title="将产品分配给每个工作包 ";
+DELCSTApp.AssignWorkPackageArea.Title="将产品分配给工作包区域 ";
+DELCSTApp.AssignWorkPackageLength.Title="将产品分配给工作包长度 ";
+DELCSTApp.AssignWorkPackageGroup.Title="将产品分配给工作包组 ";
+
+DELCSTApp.AssignWorkPackageEach.Title="取消分配产品";
+
+//-------------------------------------------------
+//				Scope
+//-------------------------------------------------
+DELCSTApp.CreateScopeLink.Title="创建范围";
+DELCSTApp.ReconnectScope.Title="重新连接范围";
+DELCSTApp.ReviseAndReconnectScope.Title="修订并重新连接范围";
+DELCSTApp.DeleteScopeLink.Title="删除范围";
+DELCSTApp.CreatePartialScopeLink.Title="创建部分范围";
+DELCSTApp.DeletePartialScopeLink.Title="删除部分范围";
+DELCSTApp.StretchPartialScopeLink.Title="拉伸部分范围";
+DELCSTApp.SwitchToFullScopeLink.Title="将部分范围切换到完整范围";
+
+//-------------------------------------------------
+//-------------------------------------------------
+DELCSTApp.AddExisting.Title="添加现有项";
+DELCSTApp.DetachInstance.Title="拆离";
+
+//-------------------------------------------------
+//				Replace
+//-------------------------------------------------
+DELCSTApp.ReplaceByLatestRevision.Title="替换为最新修订版";
+DELCSTApp.ReplaceByExisting.Title="替换为现有项";
+DELCSTApp.ReplaceByNewRevision.Title="替换为新修订版";
+DELCSTApp.ReplaceByNewReference.Title="替换为新项";
+DELCSTApp.ReplaceWhereUsed.Title="替换使用位置";
+
+//-------------------------------------------------
+//				Cut Copy
+//-------------------------------------------------
+DELCSTApp.Cut.Title="切割";
+DELCSTApp.Copy.Title="复制";
+DELCSTApp.Paste.Title="粘贴";
+
+//-------------------------------------------------
+DELCSTApp.CreateUpdateProcessStructure.Title="创建/更新流程结构";
+DELCSTApp.ChangeImpactAnalysis.Title="更改影响分析";
+
+DELCSTApp.Relations.Title="关系";
+DELCSTApp.DisplayProperties.Title="信息";
+CollabSharing_Workbench.ActionBar_ChangeOwner.Title="移动";
+CollabSharing_Workbench.ActionBar_TransferOwnership.Title="更改所有者";
+DELCSTApp.ShowCharacteristicsCmd.Title="特性管理";
+DELCSTApp.ShowConsolidatedCharactscsCmd.Title="特性管理：合并的视图";
+
+//=============================================================================
+// 								Item Management
+//=============================================================================
+DELCSTApp.ItemManagement.Title="项目管理";
+
+//-------------------------------------------------
+DELCSTApp.CustomerExtension.Title="客户扩展";
+DELCSTApp.ViewRelationships.Title="查看关系";
+//-------------------------------------------------
+DELCSTApp.Document.Title="文档";
+DELCSTApp.Characteristics.Title="特性";
+DELCSTApp.AlternatesAndSubstitutes.Title="替换件和替代项";
+DELCSTApp.Alternates.Title="替代项";
+DELCSTApp.ResultingProduct.Title="结果产品";
+DELCSTApp.Substitutes.Title="替代项";
+DELCSTApp.Responsibilities.Title="责任";
+DELCSTApp.Origin.Title="原点";
+DELCSTApp.CapableResource.Title="有用资源";
+//-------------------------------------------------
+DELCSTApp.NavigateResources.Title="导航有用资源";
+DELCSTApp.Resources.Title="管理有用资源";
+DELCSTApp.NavigateRequirements.Title="导航要求";
+DELCSTApp.Requirements.Title="管理要求";
+
+//=============================================================================
+// 								Configuration
+//=============================================================================
+DELCSTApp.Configuration.Title="配置";
+
+//-------------------------------------------------
+DELCSTApp.SetAuthoringContext.Title="设置创作上下文";
+DELCSTApp.Dictionnary.Title="词典";
+DELCSTApp.FilterConfiguration.Title="过滤器配置";
+
+//=============================================================================
+// 								View
+//=============================================================================
+DELCSTApp.View.Title="视图";
+
+//-------------------------------------------------
+DELCSTApp.ExpandAll.Title="全部展开";
+DELCSTApp.ExpandNLevel.Title="展开 N 层";
+//-------------------------------------------------
+DELCSTApp.CollapseAll.Title="全部折叠";
+DELCSTApp.UserDefinedExplore.Title="用户定义的浏览";
+//-------------------------------------------------
+DELCSTApp.ToggleBodyView.Title="切换产品视图";
+DELCSTApp.Toggle3DView.Title="切换 3D 视图";
+DELCSTApp.ToggleGraphView.Title="切换图形视图";
+//-------------------------------------------------
+DELCSTApp.Filter.Title="过滤器";
+DELCSTApp.ToggleAssignedParts.Title="切换指派的零件";
+DELCSTApp.ToggleQuantityView.Title="切换数量视图";
+//-------------------------------------------------
+DELCSTApp.Reframe.Title="全部适应";
+DELCSTApp.ReframeOn.Title="重新定位";
+DELCSTApp.ToggleOrientation.Title="切换方向";
+DELCSTApp.ToggleOverview.Title="切换概述";
+
+DELCSTApp.ShowLogPanel.Title="显示日志";
+DELCSTApp.Show3DViewerCmd.Title="启动 3DOperations Viewer";
+
+//=============================================================================
+// 								Tools
+//=============================================================================
+DELCSTApp.Tools.Title="工具";
+
+DELCSTApp.EditViewPreferences.Title="视图首选项";
+DELCSTApp.LayoutPreferences.Title="布局首选项";
+
+DELCSTApp.ExportCSV.Title="导出 CSV";
+DELCSTApp.LoadRelations.Title="加载关系";
+DELCSTApp.RelationalExplorerCmd.Title="关系资源管理器";
+//-------------------------------------------------
+DELCSTApp.CustomizeColumns.Title="自定义列";
+DELCSTApp.ExportExcel.Title="导出 Excel";
+
+DELCSTApp.Delete.Title="删除...";
+DELCSTApp.CreateMfgItemStructure.Title="创建 CST 项目结构";
+DELCSTApp.UpdateMfgItemStructure.Title="更新 CST 项目结构";
+DELCSTApp.ManageInconsistentLinks.Title="更改影响管理";
+DELCSTApp.BIEssentialsCmd.Title="B.I. Essentials - 分配状态";
+DELCSTApp.BIAltSub.Title="B.I. 要素 - 替代项和替换件状态";
+DELCSTApp.CreateInstance.Title="创建实例";
+DELCSTApp.CreateLink.Title="创建链接";
+DELCSTApp.SearchAndAddInstanceCommand.Title="插入";
+DELCSTApp.InsertAsCopy.Title="作为副本插入";
+DELCSTApp.duplicate.Title="复制";
+DELCSTApp.DuplicateAdv.Title="高级复制";
+DELCSTApp.DELCreateEngineeringMadeFromItem.Title="创建工程制作自项目";
+
+//=============================================================================
+// 								lifecycle
+//=============================================================================
+DELCSTApp.Lifecycle.Title="生命周期";

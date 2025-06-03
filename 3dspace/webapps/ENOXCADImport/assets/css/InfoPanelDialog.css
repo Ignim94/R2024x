@@ -1,0 +1,18 @@
+#slideInfoContent {
+	height: 100%;
+	position: relative;
+}
+
+#editPropContainer {
+	border-top: 1px double lightgrey;
+}
+
+#resizerDiv {
+    background-color: #ccc;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    cursor: w-resize;
+}

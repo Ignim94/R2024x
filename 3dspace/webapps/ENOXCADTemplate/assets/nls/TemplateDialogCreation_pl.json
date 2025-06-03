@@ -1,0 +1,23 @@
+{
+  "notSpecified": "Nie określono",
+  "title": "Tytuł",
+  "titleerrortext": "Wprowadź tytuł.",
+  "titleplaceholder": "W tym polu wprowadź tytuł",
+  "description": "Opis",
+  "descplaceholder": "W tym polu wprowadź krótki opis",
+  "targetype": "Docelowy typ 3DEXPERIENCE",
+  "targettypeerrortext": "Określ docelowy typ 3DEXPERIENCE.",
+  "file": "Plik",
+  "fileerror": "Wybierz plik.",
+  "fileplaceholder": "Wybierz plik",
+  "browse": "Przeglądaj",
+  "cancel": "Anuluj",
+  "save": "Zapisz",
+  "createshared": "Utwórz jako opublikowane",
+  "createprivate": "Utwórz jako wersję roboczą",
+  "reset": "Resetuj",
+  "createtemplate": "Utwórz szablon",
+  "edittemplate": "Edycja szablonu",
+  "createAs": "Utwórz jako ",
+  "createAsInWork": "Utwórz jako W pracy"
+}

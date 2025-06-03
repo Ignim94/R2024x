@@ -1,0 +1,1 @@
+define("DS/CATRelatedData3DGrid/CATRelatedData3DGrid_de",{});define("DS/CATRelatedData3DGrid/assets/nls/CATRelatedData3DGrid",{lblOk:"OK",lblApply:"Übernehmen",lblClose:"Schließen",lblPitch:"Abstandsmaß",lblDirection1:"Bezeichnung Erste Richtung",lblDirection2:"Bezeichnung Zweite Richtung",lblDirection3:"Bezeichnung Dritte Richtung"});

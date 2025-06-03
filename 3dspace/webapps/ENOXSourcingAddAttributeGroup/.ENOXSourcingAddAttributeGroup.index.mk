@@ -1,0 +1,16 @@
+m|ENOXSourcingCommonUX\ENOXSourcingAddAttributeGroup.mweb
+b|j|c,m
+b|c|n,m
+v|6.426.6.24162|3.2
+r|G:\R426\BSF\.
+t|ENOXSourcingCommonUX\ENOXSourcingAddAttributeGroup.mweb\LocalGenerated\win_b64\AddAttributeGroupView.css|1685323383|808
+s|ENOXSourcingCommonUX\ENOXSourcingAddAttributeGroup.mweb\src\AddAttributeGroupView.scss|1669412169|745
+t|win_b64\webapps\ENOXSourcingAddAttributeGroup\AddAttributeGroupView.css|1685324113|582
+g|ENOXSourcingCommonUX\ENOXSourcingAddAttributeGroup.mweb\LocalGenerated\win_b64\AddAttributeGroupView.css|1685323383|808
+t|win_b64\webapps\ENOXSourcingAddAttributeGroup\ENOXSourcingAddAttributeGroup.js|1718052787|18851
+s|ENOXSourcingCommonUX\ENOXSourcingAddAttributeGroup.mweb\src\AddAttributeGroupController.js|1718043041|18909
+u|ENOXSourcingCommonUX\ENOXSourcingAddAttributeGroup.mweb\src\AddAttributeGroupModel.js|1669412169|3388
+u|ENOXSourcingCommonUX\ENOXSourcingAddAttributeGroup.mweb\src\AddAttributeGroupView.js|1712351971|14312
+u|win_b64\code\toolcmds\csscompressor.bat|1685139395|38
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

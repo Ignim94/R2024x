@@ -1,0 +1,18 @@
+{
+  "RasterImage.SizeTooBig.Title": "Não é possível gerar imagem, o tamanho é muito grande",
+  "Canonic.Object": "Objeto",
+  "Canonic.Point": "Ponto",
+  "Canonic.Line": "Aresta",
+  "Canonic.Circle": "Círculo",
+  "Canonic.Plane": "Plano",
+  "Canonic.Cylinder": "Cilindro",
+  "Canonic.Cone": "Cone",
+  "Canonic.Sphere": "Esfera",
+  "Canonic.Center": "Centro",
+  "Canonic.Axis": "Eixo",
+  "ProgressNotification.DefaultAmbience": "AmbientePadrão",
+  "ProgressNotification.Loading": "Carregando ",
+  "RotationRolling": "Rolagem da rotação",
+  "Notification.ErrorMaterial": "Erro durante a operação de inserção",
+  "Fetch.Error": "Material desconhecido"
+}

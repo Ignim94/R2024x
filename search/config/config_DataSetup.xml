@@ -1,0 +1,4 @@
+<!-- Begin of Data setup indexation Attributes -->
+<BOTYPE name="PLMResourceSetSubItem" active="true" excludepolicies="" excludestates="" excludetypes="" includes="" inheritfields="false" searchable="false"/>
+<RELATIONSHIPTYPE name="PLMResourceSet2SubItem"        active="true" includes="" searchable="false"/>
+<RELATIONSHIPTYPE name="PLMResourceSetSubItemResource" active="true" includes="" searchable="false"/>

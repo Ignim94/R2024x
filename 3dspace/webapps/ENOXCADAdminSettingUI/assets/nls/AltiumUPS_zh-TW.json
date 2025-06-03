@@ -1,0 +1,22 @@
+{
+  "ECADUPSPCBReferenceDesignatorLabel": "PCB 參考指定者",
+  "ECADUPSPCBReferenceDesignatorInfo": "定義在產品結構中印刷電路板所應使用的參考指定者",
+  "ECADUPSPackageNamePropertyLabel": "套件名稱 Propery",
+  "ECADUPSPackageNamePropertyInfo": "定義 Altium 零組件的 ECAD 屬性名稱，在初始輸入時用於產生套件名稱",
+  "ECADUPSPackageDescriptionPropertyLabel": "套件說明屬性",
+  "ECADUPSPackageDescriptionPropertyInfo": "定義 Altium 元件的 ECAD 屬性名稱，在初始輸入時用於產生套件說明",
+  "ECADUPSUseClassificationLabel": "使用電子資料庫分類",
+  "ECADUPSUseClassificationInfo": "定義資料庫分類或本地類別是否應用於電子零組件 ",
+  "ECADUPSElectronicLibraryLabel": "電子零組件資料庫",
+  "ECADUPSElectronicLibraryInfo": "定義分類電子零組件所使用的最優先資料庫。提供完整分類路徑，例如 \\Electronic Library/Components",
+  "AltiumUPSECADCategoriesLabel": "零組件類別",
+  "AltiumUPSECADCategoriesInfo": "未選則資料庫分類時使用的零組件類別",
+  "AltiumUPSEnterpriseItemNumberPropertyLabel": "企業品項編號屬性",
+  "AltiumUPSEnterpriseItemNumberPropertyInfo": "定義存有企業品項編號的 Altium 參數名稱",
+  "ECADClassificationPathDefinitionPropertyLabel": "自動類別指派屬性",
+  "ECADClassificationPathDefinitionPropertyInfo": "定義 Altium 參數的名稱，以儲存輸入的分類路徑",
+  "ProductStructureGroupLabel": "產品結構",
+  "ClassificationGroupLabel": "分類",
+  "SaveGroupLabel": "儲存",
+  "EnterpriseItemNumberLabel": "企業品項編號"
+}

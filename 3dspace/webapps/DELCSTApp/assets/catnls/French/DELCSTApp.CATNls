@@ -1,0 +1,230 @@
+<meta charset="UTF-8"/>
+//=============================================================================
+// 								Fixed
+//=============================================================================
+DELCSTApp.LandingPage.Title="Accueil";
+DELCSTApp.Refresh.Title="Actualiser les objets sélectionnés";
+DELCSTApp.Hide.Title="Enlever le ou les objets sélectionnés";
+DELCSTApp.Authoring.Title="Création";
+DELCSTApp.HideAll.Title="Enlever tous les objets";
+DELCSTApp.Refresh.Title="Actualiser le ou les objets sélectionnés";
+DELCSTApp.RefreshAll.Title="Actualiser tout";
+
+DELCSTApp.ToggleAuxiliaryView.Title="Vue auxiliaire";
+DELCSTApp.ProductsParts.Title="Produit et pièces";
+DELCSTApp.Construction.Title="Eléments de construction";
+
+//=============================================================================
+// 								Authoring
+//=============================================================================
+DELCSTApp.Authoring.Title="Création";
+
+//-------------------------------------------------
+//				Create
+//-------------------------------------------------
+DELCSTApp.InsertConstructionStructure.Title="Assemblage de construction";
+DELCSTApp.InsertWorkPackageEach.Title="Chaque module de travail";
+DELCSTApp.InsertWorkPackageLength.Title="Longueur du module de travail";
+DELCSTApp.InsertWorkPackageGroup.Title="Groupe de modules de travail";
+DELCSTApp.InsertWorkPackageArea.Title="Zone du module de travail";
+DELCSTApp.InsertWorkElementEach.Title="Chaque élément de travail";
+DELCSTApp.InsertWorkElementLength.Title="Longueur de l'élément de travail";
+DELCSTApp.InsertWorkElementArea.Title="Superficie de l'élément de travail";
+
+//-------------------------------------------------
+//				Create Process & Scope
+//-------------------------------------------------
+DELCSTApp.CreateStructureAndScope.Title="Créer un assemblage de construction et une portée";
+DELCSTApp.CreateWorkPackageEachAndScope.Title="Créer chaque module de travail et une portée";
+DELCSTApp.CreateWorkPackageLengthAndScope.Title="Créer une longueur de module de travail et une portée";
+DELCSTApp.CreateWorkPackageAreaAndScope.Title="Créer une zone de module de travail et une portée";
+DELCSTApp.CreateWorkPackageGroupAndScope.Title="Créer un groupe de modules de travail et une portée";
+DELCSTApp.CreateWorkElementEachAndScope.Title="Créer chaque élément de travail et une portée";
+DELCSTApp.CreateWorkElementLengthAndScope.Title="Créer une longueur d'élément de travail et une portée";
+DELCSTApp.CreateWorkElementAreaAndScope.Title="Créer une zone d'élément de travail et une portée";
+
+//-------------------------------------------------
+//				Create Process & Resulting Product Link
+//-------------------------------------------------
+DELCSTApp.CreateStructureAndResultingProduct.Title="Créer un assemblage de construction et un produit résultant";
+DELCSTApp.CreateWorkPackageEachAndResultingProduct.Title="Créer chaque module de travail et un produit résultant";
+DELCSTApp.CreateWorkPackageLengthAndResultingProduct.Title="Créer une longueur de module de travail et un produit résultant";
+DELCSTApp.CreateWorkPackageAreaAndResultingProduct.Title="Créer une zone de module de travail et un produit résultant";
+DELCSTApp.CreateWorkPackageGroupAndResultingProduct.Title="Créer un groupe de modules de travail et un produit résultant";
+DELCSTApp.CreateWorkElementEachAndResultingProduct.Title="Créer chaque élément de travail et un produit résultant";
+DELCSTApp.CreateWorkElementLengthAndResultingProduct.Title="Créer une longueur d'élément de travail et un produit résultant";
+DELCSTApp.CreateWorkElementAreaAndResultingProduct.Title="Créer une zone d'élément de travail et un produit résultant";
+//-----------------------------------------------------------------------------
+//				Create Process & Scope/ResultingProduct Link for Alternate Substitutes
+//-----------------------------------------------------------------------------
+DELCSTApp.CreateStructureAndScopeAltSubst.Title="Créer un assemblage de construction et une portée";
+DELCSTApp.CreateWorkPackageEachAndScopeAltSubst.Title="Créer chaque module de travail et une portée";
+DELCSTApp.CreateWorkPackageLengthAndScopeAltSubst.Title="Créer une longueur de module de travail et une portée";
+DELCSTApp.CreateWorkPackageAreaAndScopeAltSubst.Title="Créer une zone de module de travail et une portée";
+DELCSTApp.CreateWorkPackageGroupAndScopeAltSubst.Title="Créer un groupe de modules de travail et une portée";
+DELCSTApp.CreateWorkElementEachAndScopeAltSubst.Title="Créer chaque élément de travail et une portée";
+DELCSTApp.CreateWorkElementLengthAndScopeAltSubst.Title="Créer une longueur d'élément de travail et une portée";
+DELCSTApp.CreateWorkElementAreaAndScopeAltSubst.Title="Créer une zone d'élément de travail et une portée";
+//----------------------------------------------------
+DELCSTApp.CreateStructureAndResultingProductAltSubst.Title="Créer un assemblage de construction et un produit résultant";
+DELCSTApp.CreateWorkPackageEachAndResultingProductAltSubst.Title="Créer chaque module de travail et un produit résultant";
+DELCSTApp.CreateWorkPackageLengthAndResultingProductAltSubst.Title="Créer une longueur de module de travail et un produit résultant";
+DELCSTApp.CreateWorkPackageAreaAndResultingProductAltSubst.Title="Créer une zone de module de travail et un produit résultant";
+DELCSTApp.CreateWorkPackageGroupAndResultingProductAltSubst.Title="Créer un groupe de modules de travail et un produit résultant";
+DELCSTApp.CreateWorkElementEachAndResultingProductAltSubst.Title="Créer chaque élément de travail et un produit résultant";
+DELCSTApp.CreateWorkElementLengthAndResultingProductAltSubst.Title="Créer une longueur d'élément de travail et un produit résultant";
+DELCSTApp.CreateWorkElementAreaAndResultingProductAltSubst.Title="Créer une zone d'élément de travail et un produit résultant";
+
+//-------------------------------------------------
+//				Product Assignation
+//-------------------------------------------------
+DELCSTApp.AssignStructure.Title="Affecter le produit à l'assemblage de construction";
+DELCSTApp.AssignWorkElementArea.Title="Affecter le produit à la zone de l'élément de travail";
+DELCSTApp.AssignWorkElementLength.Title="Affecter le produit à la longueur de l'élément de travail";
+DELCSTApp.AssignWorkElementEach.Title="Attribuez un produit à chaque élément de travail ";
+DELCSTApp.AssignWorkPackageEach.Title="Affecter un produit à chaque module de travail ";
+DELCSTApp.AssignWorkPackageArea.Title="Affecter le produit à la zone du module de travail ";
+DELCSTApp.AssignWorkPackageLength.Title="Affecter le produit à la longueur du module de travail ";
+DELCSTApp.AssignWorkPackageGroup.Title="Affecter le produit au groupe de modules de travail ";
+
+DELCSTApp.AssignWorkPackageEach.Title="Annuler l'affectation d'un produit";
+
+//-------------------------------------------------
+//				Scope
+//-------------------------------------------------
+DELCSTApp.CreateScopeLink.Title="Créer une portée";
+DELCSTApp.ReconnectScope.Title="Reconnecter une portée";
+DELCSTApp.ReviseAndReconnectScope.Title="Réviser et reconnecter une portée";
+DELCSTApp.DeleteScopeLink.Title="Supprimer la portée";
+DELCSTApp.CreatePartialScopeLink.Title="Créer une portée partielle";
+DELCSTApp.DeletePartialScopeLink.Title="Supprimer la portée partielle";
+DELCSTApp.StretchPartialScopeLink.Title="Etirer une portée partielle";
+DELCSTApp.SwitchToFullScopeLink.Title="Passer de la portée partielle à la portée complète";
+
+//-------------------------------------------------
+//-------------------------------------------------
+DELCSTApp.AddExisting.Title="Ajouter un élément existant";
+DELCSTApp.DetachInstance.Title="Détacher";
+
+//-------------------------------------------------
+//				Replace
+//-------------------------------------------------
+DELCSTApp.ReplaceByLatestRevision.Title="Remplacer par la dernière révision";
+DELCSTApp.ReplaceByExisting.Title="Remplacer par un objet existant";
+DELCSTApp.ReplaceByNewRevision.Title="Remplacer par une nouvelle révision";
+DELCSTApp.ReplaceByNewReference.Title="Remplacer par un nouvel élément";
+DELCSTApp.ReplaceWhereUsed.Title="Remplacer cas d'utilisation";
+
+//-------------------------------------------------
+//				Cut Copy
+//-------------------------------------------------
+DELCSTApp.Cut.Title="Couper";
+DELCSTApp.Copy.Title="Copier";
+DELCSTApp.Paste.Title="Coller";
+
+//-------------------------------------------------
+DELCSTApp.CreateUpdateProcessStructure.Title="Créer une structure de processus de mise à jour";
+DELCSTApp.ChangeImpactAnalysis.Title="Modifier l'analyse de l'impact";
+
+DELCSTApp.Relations.Title="Relations";
+DELCSTApp.DisplayProperties.Title="Informations";
+CollabSharing_Workbench.ActionBar_ChangeOwner.Title="Déplacer";
+CollabSharing_Workbench.ActionBar_TransferOwnership.Title="Changer de propriétaire";
+DELCSTApp.ShowCharacteristicsCmd.Title="Gestion de caractéristiques";
+DELCSTApp.ShowConsolidatedCharactscsCmd.Title="Gestion de caractéristiques : vue consolidée";
+
+//=============================================================================
+// 								Item Management
+//=============================================================================
+DELCSTApp.ItemManagement.Title="Gestion des éléments";
+
+//-------------------------------------------------
+DELCSTApp.CustomerExtension.Title="Extension client";
+DELCSTApp.ViewRelationships.Title="Afficher les relations";
+//-------------------------------------------------
+DELCSTApp.Document.Title="Document";
+DELCSTApp.Characteristics.Title="Caractéristiques";
+DELCSTApp.AlternatesAndSubstitutes.Title="Alternatives et substituts";
+DELCSTApp.Alternates.Title="Alternatives";
+DELCSTApp.ResultingProduct.Title="Produit résultant";
+DELCSTApp.Substitutes.Title="Substituts";
+DELCSTApp.Responsibilities.Title="Responsabilités";
+DELCSTApp.Origin.Title="Origine";
+DELCSTApp.CapableResource.Title="Ressource possible";
+//-------------------------------------------------
+DELCSTApp.NavigateResources.Title="Parcourir les ressources possibles";
+DELCSTApp.Resources.Title="Gérer les ressources possibles";
+DELCSTApp.NavigateRequirements.Title="Parcourir les exigences";
+DELCSTApp.Requirements.Title="Gérer les exigences";
+
+//=============================================================================
+// 								Configuration
+//=============================================================================
+DELCSTApp.Configuration.Title="Configuration";
+
+//-------------------------------------------------
+DELCSTApp.SetAuthoringContext.Title="Définir le contexte de création";
+DELCSTApp.Dictionnary.Title="Dictionnaire";
+DELCSTApp.FilterConfiguration.Title="Configuration de filtre";
+
+//=============================================================================
+// 								View
+//=============================================================================
+DELCSTApp.View.Title="Afficher";
+
+//-------------------------------------------------
+DELCSTApp.ExpandAll.Title="Tout développer";
+DELCSTApp.ExpandNLevel.Title="Développer le niveau N";
+//-------------------------------------------------
+DELCSTApp.CollapseAll.Title="Tout réduire";
+DELCSTApp.UserDefinedExplore.Title="Exploration définie par l'utilisateur";
+//-------------------------------------------------
+DELCSTApp.ToggleBodyView.Title="Activer/désactiver la vue de produit";
+DELCSTApp.Toggle3DView.Title="Activer/désactiver la vue 3D";
+DELCSTApp.ToggleGraphView.Title="Activer/désactiver la vue graphique";
+//-------------------------------------------------
+DELCSTApp.Filter.Title="Filtrer";
+DELCSTApp.ToggleAssignedParts.Title="Activer/désactiver les pièces affectées";
+DELCSTApp.ToggleQuantityView.Title="Activer/désactiver la vue de quantité";
+//-------------------------------------------------
+DELCSTApp.Reframe.Title="Recadrer";
+DELCSTApp.ReframeOn.Title="Recadrer sur";
+DELCSTApp.ToggleOrientation.Title="Activer/désactiver l'orientation";
+DELCSTApp.ToggleOverview.Title="Activer/désactiver l'aperçu";
+
+DELCSTApp.ShowLogPanel.Title="Afficher le journal";
+DELCSTApp.Show3DViewerCmd.Title="Lancer 3DOperations Viewer";
+
+//=============================================================================
+// 								Tools
+//=============================================================================
+DELCSTApp.Tools.Title="Outils";
+
+DELCSTApp.EditViewPreferences.Title="Afficher les préférences";
+DELCSTApp.LayoutPreferences.Title="Préférences de présentation";
+
+DELCSTApp.ExportCSV.Title="Exporter CSV";
+DELCSTApp.LoadRelations.Title="Charger les relations";
+DELCSTApp.RelationalExplorerCmd.Title="Explorateur relationnel";
+//-------------------------------------------------
+DELCSTApp.CustomizeColumns.Title="Personnaliser les colonnes";
+DELCSTApp.ExportExcel.Title="Exporter Excel";
+
+DELCSTApp.Delete.Title="Supprimer...";
+DELCSTApp.CreateMfgItemStructure.Title="Créer la structure de l'élément CST";
+DELCSTApp.UpdateMfgItemStructure.Title="Mettre à jour la structure de l'élément CST";
+DELCSTApp.ManageInconsistentLinks.Title="Gestion de l'impact des modifications";
+DELCSTApp.BIEssentialsCmd.Title="B.I. Essentials - Etat d'affectation";
+DELCSTApp.BIAltSub.Title="B. I. Essentials - Etats alternatifs et de substitut";
+DELCSTApp.CreateInstance.Title="Créer une instance";
+DELCSTApp.CreateLink.Title="Créer un lien";
+DELCSTApp.SearchAndAddInstanceCommand.Title="Insérer";
+DELCSTApp.InsertAsCopy.Title="Insérer comme copie";
+DELCSTApp.duplicate.Title="Dupliquer";
+DELCSTApp.DuplicateAdv.Title="Duplication avancée";
+DELCSTApp.DELCreateEngineeringMadeFromItem.Title="Créer une ingénierie à partir d'un élément";
+
+//=============================================================================
+// 								lifecycle
+//=============================================================================
+DELCSTApp.Lifecycle.Title="Cycle de vie";

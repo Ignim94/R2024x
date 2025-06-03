@@ -1,0 +1,201 @@
+/* ----------------------------------------------------------------------------- */
+/* Files  Tab css */
+
+.enox-plmNewFilesTab {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.enox-plmNewFilesTab-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100px;
+}
+
+
+.enox-plmNewFilesTab-panes {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+
+.enox-plmNewFilesTab-uploadpane {
+    display: flex;
+    flex: 1;
+}
+
+.enox-plmNewFilesTab-uploadpane-center {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.enox-plmNewFilesTab-uploadpane-center .wux-ui-3ds-drag-drop {
+    color: #77797c;
+}
+
+.enox-plmNewFilesTab-uploadpane-center * {
+    margin: 5px;
+}
+
+
+
+.enox-plmNewFilesTab-uploadpane-center-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.enox-plmNewFilesTab-uploadpane-center-buttons>div {
+    width: 150px;
+}
+
+.enox-plmNewFilesTab-uploadpane-center-buttons>div>span>span,
+.enox-plmNewFilesTab-uploadpane-center-buttons>button {
+    margin: 5px;
+    max-width: 300px
+}
+
+
+
+.enox-plmNewFilesTab-gridpane {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.enox-plmNewFilesTab-tilepane {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.enox-plmNewFilesTab-drag-over {
+    border: 3px solid #368ec4;
+    background-color: #f9f9f9;
+}
+
+.enox-plmNewFilesTab-drag-over .wux-layouts-collectionview .wux-layouts-gridengine-scroller-container {
+    background-color: #f9f9f9;
+}
+
+
+
+.enox-plmNewFilesTab .NameAndComment {
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+}
+
+.enox-plmNewFilesTab .NameAndComment>span {
+    margin-right: 10px;
+}
+
+.enox-plmNewFilesTab .NameAndComment>:first-child {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.enox-plmNewFilesTab .NameAndComment>span:last-child {
+    margin-right: unset;
+}
+
+.enox-plmNewFilesTab .NameAndComment>span>.userName {
+    color: rgb(119, 121, 124);
+}
+
+.enox-plmNewFilesTab .NameAndComment>span>div {
+    display: inline-flex;
+}
+
+.enox-plmNewFilesTab .NameAndComment .wux-user-icon {
+    margin-left: unset;
+}
+
+.enox-plmNewFilesTab-tilepane .property-description {
+    display: flex;
+}
+
+.enox-plmNewFilesTab-tilepane .property-description :first-child {
+    font-weight: bold;
+    padding-left: unset;
+}
+
+.enox-plmNewFilesTab-tilepane .property-description .wux-tweakers {
+    font-size: 11px;
+}
+
+
+
+/* div[tab_name="PLMNewFilesTab"][checked] ~ .ENONew_TabView_MasterContain {
+    background-color: red !important;
+    height: 100%;
+}
+div[tab_name="PLMNewFilesTab"][checked] ~ .IDCardInnerBottomArea {
+    background-color: yellow !important;
+    height: 100%;
+} */
+
+.ENONewInfra .ENONew_TabView_MasterContain{
+    height: 100%;
+}
+.ENONewInfra .IDCardInnerBottomArea{
+    height: 100%;
+}
+
+.ENONew_TabView_MasterContain:has(div[tab_name="filesFacet"][checked]) {
+    .IDCardInnerBottomArea {
+        height: 100%;
+    }
+    height: 100%;
+}
+
+
+/* .ENONew_TabView_MasterContain div [tab_name="PLMNewFilesTab"]:not(:checked) ~ .title {
+    background-color: white !important;
+} */
+
+
+.enox-plmNewFilesTab .NameAndComment {
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+}
+
+.enox-plmNewFilesTab .NameAndComment>span {
+    margin-right: 10px;
+}
+
+.enox-plmNewFilesTab .NameAndComment>:first-child {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.enox-plmNewFilesTab .NameAndComment>span:last-child {
+    margin-right: unset;
+}
+
+.enox-plmNewFilesTab .NameAndComment>span>.userName {
+    color: rgb(119, 121, 124);
+}
+
+.enox-plmNewFilesTab .NameAndComment>span>div {
+    display: inline-flex;
+}
+
+.enox-plmNewFilesTab .NameAndComment .wux-user-icon {
+    margin-left: unset;
+}
+
+
+/* Alert inside dialog  */
+.enox-plmNewFilesTab-content .alert{
+    visibility: visible;
+}
+/* File Tab css End */
+/* ----------------------------------------------------------------------------- */

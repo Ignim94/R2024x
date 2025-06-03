@@ -1,0 +1,37 @@
+# @Author		: VZO
+# @Created on	: 2024-02-09
+# @Description	: This file contains the mapping between a Service and the Federated Search source
+# @Environment	: Cloud
+# @Note			: Lines starting with "#" will be ignored by the service.
+# @Usage		: This is a csv file and is meant to contains at least 3 columns ordered as follow
+#				  	- FederatedSearch Source	(example: 3dplan, 3dportfolio...)
+#					- Service					(example: As defined in registry: 3DDashboard, 3DSpace, 3DDrive, 3DPASSPORT)
+# @Def			: <federatedSearchSource>,<ServiceName>
+# @Example		: 3dspace,3DSpace 
+
+########## HEADER (DO NOT REMOVE) ##########
+fedSearchSource,ServiceName
+################ HEADER END ################
+
+#CONTENT
+3dgeoscisurvey,3dgeoscisurvey 
+3dplan,3dplan 
+3dportfolio,3dportfolio 
+3dspace,3DSpace 
+3dstructureddocument,3dstructureddocument 
+bioexperiment,bioexperiment 
+dashboard,3DDashboard 
+drive,3DDrive 
+dropbox,3DDrive 
+geovia,geoservice 
+globe,globe 
+googledrive,3DDrive 
+materials,materials 
+molecularsimulation,molecularsimulation 
+onedrive,3DDrive 
+r2vsurvey,r2vsurvey 
+sourcing,sourcing 
+swym,3DSwym 
+usersgroup,usersgroup
+mbseapps,mbseapps
+

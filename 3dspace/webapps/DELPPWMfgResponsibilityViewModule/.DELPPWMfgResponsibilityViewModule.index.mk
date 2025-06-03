@@ -1,0 +1,10 @@
+m|DELPPWModules\DELPPWMfgResponsibilityViewModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.6.24160|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELPPWMfgResponsibilityViewModule\DELPPWMfgResponsibilityViewModule.js|1717822025|4825
+s|DELPPWModules\DELPPWMfgResponsibilityViewModule.mweb\src\MfgResponsibilityViewModule.js|1715133829|13851
+u|DELPPWModules\DELPPWMfgResponsibilityViewModule.mweb\src\MfgResponsibilityViewUI.js|1715133948|6370
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

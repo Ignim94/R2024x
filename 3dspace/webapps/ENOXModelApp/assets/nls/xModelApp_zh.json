@@ -1,0 +1,23 @@
+{
+  "enterprise_dictionary_breadcrumb": "企业可变性",
+  "model_definition_breadcrumb": "模型版本",
+  "open_mv_search_title": "选择要打开的模型版本",
+  "newModelVersion": "新模型版本",
+  "addExistingPrefLabel": "addExistingPref",
+  "MSG_UNABLE_TO_GET_SUBTYPES": "无法获取模型版本的子类型。",
+  "NO_MODELVERSION_ATTACHED_ERROR": "未将模型版本附加到 ",
+  "CUSTOMER_ATTRIBUTE_LOADING_WARNING": "客户属性加载失败！",
+  "TYPE_MODELVERSION": "模型版本",
+  "TYPE_PRODUCTCONFIGURATION": "产品配置",
+  "TYPE_MANUFACTURINGPLAN": "制造计划",
+  "TYPE_CONFIGURATIONRULE": "配置规则",
+  "TYPE_VARIANT": "变体",
+  "TYPE_VARIANTVALUE": "变体值",
+  "TYPE_OPTIONGROUP": "选项",
+  "TYPE_OPTIONGROUPVALUE": "选项值",
+  "PREPARING_FOR_ROADMAP_VIEW": "正在准备路线图视图",
+  "ROADMAP_VIEW": "路线图视图",
+  "MODELDEF": "ENOVIA - 模型定义",
+  "ROADMAP_VIEW_IS_REFRESHING": "请稍候，路线图视图正在刷新...",
+  "GETTING_THINGS_READY": "即将准备就绪..."
+}

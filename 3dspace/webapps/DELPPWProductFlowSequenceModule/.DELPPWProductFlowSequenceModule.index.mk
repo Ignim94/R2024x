@@ -1,0 +1,13 @@
+m|DELPPWModules\DELPPWProductFlowSequenceModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.7.24275|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELPPWProductFlowSequenceModule\DELPPWProductFlowSequenceModule.js|1727810833|59350
+s|DELPPWModules\DELPPWProductFlowSequenceModule.mweb\src\GraphPanel.js|1634133155|5292
+t|win_b64\webapps\DELPPWProductFlowSequenceModule\assets\json\ProductFlowCustomParams.json|1708987307|3404
+s|DELPPWModules\DELPPWProductFlowSequenceModule.mweb\src\assets\json\ProductFlowCustomParams.json|1708330624|3404
+u|DELPPWModules\DELPPWProductFlowSequenceModule.mweb\src\ProductFlowComponent.js|1727687226|110837
+u|DELPPWModules\DELPPWProductFlowSequenceModule.mweb\src\ProductFlowSequenceModule.js|1724223061|106553
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

@@ -1,0 +1,11 @@
+.mapDemoUIControls{
+    z-index: 1000;
+    position: absolute;
+    padding: 4px;
+    display: flex;
+    flex-direction: column-reverse;
+    bottom:22px;
+    right:6px;
+    border-radius:8px;
+    background: #F1F1F1;
+}

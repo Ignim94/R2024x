@@ -1,0 +1,12 @@
+{
+  "NbDigits": "Número de dígitos",
+  "NbDigitsInfo": "O número de dígitos deve ser um número inteiro positivo >= 6 e o comprimento da fórmula não pode ser > 40 caracteres",
+  "PrefixValueEmptyInfo": "O prefixo não pode estar vazio",
+  "NbDigitsNaN": "O número de dígitos é um inteiro positivo maior que 6",
+  "Dash": "-",
+  "Under_Score": "_",
+  "Dot": ".",
+  "Plus": "+",
+  "Slash": "/",
+  "Empty": ""
+}

@@ -1,0 +1,158 @@
+{
+  "displayoptions":[ {
+      "version":"1.0",
+      "id": "SaveScope",
+      "uitype": "combobox",
+      "label": "false",
+	  "visible":"true"
+  }, {
+    "version":"1.0",
+    "id": "Filter",
+    "uitype": "checkbox",
+    "label": "false",
+	"visible":"true"
+  }],
+"commands":[ {
+  "version":"1.0",
+  "id": "Bookmark",
+  "uitype": "pushbutton",
+  "icon":"I_UPSBookmark.png",
+  "label": "false",
+  "visible":"true"
+},{
+    "version":"1.0",
+    "id": "Include",
+    "uitype": "pushbutton",
+	"icon":"I_Include.png",
+    "label": "false",
+	"visible":"true"
+}, {
+  "version":"1.0",
+  "id": "Exclude",
+  "uitype": "pushbutton",
+  "icon":"I_Exclude.png",
+  "label": "false",
+  "visible":"true"
+}, {
+  "version":"1.0",
+  "id": "Revise",
+  "uitype": "pushbutton",
+  "icon":"I_XCADActionRevise.png",
+  "label": "false",
+  "visible":"true"
+},{
+  "version":"2.0",
+  "id": "NewBranch",
+  "uitype": "pushbutton",
+  "icon":"I_XCADActionNewBranch.png",
+  "label": "false",
+  "visible":"true"
+},{
+  "version":"1.0",
+  "id": "Duplicate",
+  "uitype": "pushbutton",
+  "icon":"I_XCADActionDuplicate.png",
+  "label": "false",
+  "visible":"true"
+},{
+  "version":"1.0",
+  "id": "SaveAsNew",
+  "uitype": "pushbutton",
+  "icon":"I_XCADActionSaveAsNew.png",
+  "label": "false",
+  "visible":"true"
+},{
+  "version":"1.0",
+  "id": "Maturity",
+  "uitype": "pushbutton",
+  "icon":"I_XCADMaturity.png",
+  "label": "false",
+  "visible":"true"
+},
+ {
+  "version":"1.0",
+  "id": "Lock",
+  "uitype": "pushbutton",
+  "icon":"I_UPSReserve.png",
+  "label": "false",
+  "visible":"true"
+}, {
+  "version":"1.0",
+  "id": "Unreserve",
+  "uitype": "pushbutton",
+  "icon":"I_UPSUnreserve.png",
+  "label": "false",
+  "visible":"true"
+}, {
+  "version":"1.0",
+  "id": "RenameFile",
+  "uitype": "pushbutton",
+  "icon":"I_UPSNewFileName.png",
+  "label": "false",
+  "visible":"true"
+}, {
+  "version":"1.0",
+  "id": "EditDerivedOutputSelection",
+  "icon":"I_UPSDerivedOutput.png",
+  "uitype": "pushbutton",
+  "label": "false"
+},  {
+  "version":"1.0",
+  "id": "Info",
+  "uitype": "check",
+  "icon":"I_UPSInformation.png",
+  "label": "false",
+  "CtxMenu":"false",
+  "visible":"true"
+}],
+"saveoptions" :[{
+  "version":"7.0",
+  "id": "PMR_checkbox",
+  "uitype": "checkbox",
+  "label": "false",
+  "visible":"false"
+},{
+  "version":"1.0",
+  "id": "PGP_checkbox",
+  "uitype": "checkbox",
+  "label": "false",
+  "visible":"false"
+},{
+  "version":"1.0",
+  "id": "KeepIteration_checkbox",
+  "uitype": "checkbox",
+  "label": "false",
+  "visible":"false"
+},{
+  "version":"4.0",
+  "id": "ExposePublication_checkbox",
+  "uitype": "checkbox",
+  "label": "false",
+  "visible":"false"
+},{
+  "version":"8.0",
+  "id": "ApplyMaterial_checkbox",
+  "uitype": "checkbox",
+  "label": "false",
+  "visible":"false"
+},{
+  "version":"1.0",
+  "id": "Unreserve_checkbox",
+  "uitype": "checkbox",
+  "label": "false",
+  "visible":"true"
+},{
+  "version":"1.0",
+  "id": "Async_checkbox",
+  "uitype": "checkbox",
+  "label": "false",
+  "visible":"true"
+},
+{
+  "version":"2.0",
+  "id": "SaveComment_checkbox",
+  "uitype": "checkbox",
+  "label": "false",
+  "visible":"true"
+}]
+}

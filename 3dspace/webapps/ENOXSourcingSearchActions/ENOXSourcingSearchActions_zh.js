@@ -1,0 +1,1 @@
+define("DS/ENOXSourcingSearchActions/ENOXSourcingSearchActions_zh",{});define("DS/ENOXSourcingSearchActions/assets/nls/ENOXSourcingSearchActions",{download:"下载",open_with:"打开方式"});

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+  <head>
+	
+
+	<!-- 
+		DS/3DXHighcharts/3DXHighcharts
+		DS/PlatformAPI/PlatformAPI : 위젯 간 데이터공유 & 연계 (publish )	
+		DS/ENO6WPlugins/jQuery
+		DS/i3DXCompassServices/i3DXCompassServices
+		
+		 function(API, jQuery){} 대신  function(API, $){}) 도 가능. 
+	-->
+	<script>
+			
+		require(["DS/PlatformAPI/PlatformAPI",
+			],
+			function(API
+			){
+				'use strict';
+				<!-- 1. onLoad에만 몰빵하지않고 위젯 열릴때랑 data 가져오거나 할떄에 따라 function을 나눠주는게 좋다.
+					 2. resize 함수에다 API.Publish가 되도록 해본다. json형태로 보내야하고 json파일을 미리만들고 그걸 보낼 수도 있다.
+					 	json으로 보내지말아야 할 내용이 있는데 :
+					 	
+					 3. subscribe 에서는 publish에서 보내준 내용을 받기위해 function에 변수가 필요해. resize될때마다 작동하게된다.
+					 -->
+				let resizeCount = "";
+				let myWidget = {
+					onLoadWidget: function(){
+						widget.body.innerHTML = "Platform API TEST ===> Subscribe";
+						
+						API.subscribe("PlatformAPITest", function( data ){
+							let userName = data.userName;
+							let userId 	 = data.userId;
+							let status   = data.Status;
+							myWidget.resizeCount++;
+							
+							widget.body.innerHTML = "resize횟수: "+ resizeCount +", PlatformAPI Test</br>" +userName +", "+userId+", "+status+"."
+						});
+					},
+					displayData : function(){
+					
+					},
+					getData: function(){
+					
+					}
+					
+				};
+				
+				
+				API.subscribe("PlatformAPITest", function( data ){
+					
+				});
+				
+				widget.addEvent("onLoad", myWidget.onLoadWidget);
+				widget.addEvent("onResize", myWidget.onResizeWidget);
+				
+				
+				API.publish 
+				
+			});
+		
+	</script>
+	
+	
+  </head>
+  <body>
+  </body>
+  
+</html>
+
+

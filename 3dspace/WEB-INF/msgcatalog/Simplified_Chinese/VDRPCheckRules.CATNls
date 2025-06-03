@@ -1,0 +1,6 @@
+<meta charset="UTF-8"/>
+ValidationCheck1.Title="只有 AxisSystemReference 才能在 AxisSystemReference 下聚集。";
+ValidationCheck2.Title="ShellAxisSystemReference 无法在 ShellAxisSystemReference 下聚集。";
+ValidationCheck3.Title="在 ShellAxisSystemReference 下只能聚合一个 AxisSystemReference。";
+ValidationCheck4.Title="只有 AxisSystemReference 才能在 ShellAxisSystemReference 下聚合。";
+ValidationCheck5.Title="VPMReferenceExtPos 无法实例化 3DShape。";

@@ -1,0 +1,13 @@
+{
+  "WelcomeScreen.Title": "Génération de rapport",
+  "WelcomeScreen.linksCategories.ContentAndKnowledge": "Contenu et connaissance",
+  "WelcomeScreen.linksCategories.SocialNetworks": "Réseaux sociaux",
+  "WelcomeScreen.ContentAndKnowledge.linkText": "Assistance utilisateur",
+  "WelcomeScreen.WhatsNew.linkText": "Nouveautés",
+  "WelcomeScreen.SocialNetworks.linkText": "Communautés",
+  "WelcomeScreen.Buttons.AddReport": "Ajouter le rapport",
+  "WelcomeScreen.Buttons.Open": "Ouverture de rapports",
+  "WelcomeScreen.Buttons.Reports": "Rapports",
+  "WelcomeScreen.Buttons.OutputFormats": "Formats de sortie",
+  "WelcomeScreen.InvalidFileFormat": "Format de fichier non valide"
+}

@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+PowerByNX.XSCViews.Title="ビュー";
+PowerByNX.XSCTools.Title="ツール";
+PowerByNX.Lifecycle.Title="ライフサイクル";
+PowerByNX.Collaboration.Title="コラボレーション";
+PowerByNX.SaveSession.Title="アクティブ ウィンドウを保存";
+PowerByNX.RefreshHome.Title="リフレッシュ";
+PowerByNX.ReloadAll.Title="すべてを再ロード";
+PowerByNX.ReserveHdr.Title="ロック";
+PowerByNX.UnreserveHdr.Title="ロック解除";
+PowerByNX.PropertiesHdr.Title="プロパティ";
+PowerByNX.ReplaceByRevisionHdr.Title="リビジョンで置換";
+PowerByNX.ReloadFromServerHdr.Title="サーバーから再ロード";
+PowerByNX.RelationIPExplorer.Title="関係";
+PowerByNX.OptionsHdr.Title="オプション...";
+PowerByNX.View.Title="ビュー";
+PowerByNX.Tools.Title="ツール";

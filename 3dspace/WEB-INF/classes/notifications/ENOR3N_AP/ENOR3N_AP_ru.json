@@ -1,0 +1,7 @@
+{
+  "review.mentionned.setting": "Кто-то упомянул меня в комментарии к обзору",
+  "review.mentionned.new": "Пользователь <strong>###FROM_USER###</strong> упомянул вас в комментарии к обзору <strong>###OBJECT_TITLE###</strong>",
+  "review.mentionned.new.mail.subject": "Пользователь <strong>###FROM_USER###</strong> упомянул вас в комментарии к обзору <strong>###OBJECT_TITLE###</strong>",
+  "review.mentionned.new.mail.content": "Пользователь <strong>###FROM_USER###</strong> упомянул вас в комментарии к обзору <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+  "review.mentionned.new.mail.title": "Кто-то упомянул вас в обзоре"
+}

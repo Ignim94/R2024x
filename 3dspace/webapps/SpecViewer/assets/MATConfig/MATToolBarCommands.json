@@ -1,0 +1,27 @@
+{
+	"actions": [	
+	     {
+			"key": "add",
+			"text": "add",
+			"fonticon": "plus",
+			"subMenu": [
+				{
+					"text": "label_CoreMaterial",
+					"fonticon": "material",
+					"key": "addMaterial"
+				},
+				{
+					"text": "label_CoveringMaterial",
+					"fonticon": "material",
+					"key": "addCoverMaterial"
+				}	
+			]
+		},
+		{
+			"key": "removeMaterial",
+			"text": "label_Detach",
+			"fonticon": "tree-delete"
+		}
+	]
+}
+

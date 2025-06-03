@@ -1,0 +1,18 @@
+{
+  "recentPublishedContent": "Недавно опубликованное содержимое",
+  "noPublishedContent": "Опубликованное содержимое не найдено",
+  "draft": "ЧЕРНОВИК",
+  "noWhiteboard": "Доска не найдена",
+  "noSketch": "Эскиз не найден",
+  "deleteConfirmationModalTitle": "Удалить проект",
+  "deleteConfirmationModalBody": "Действительно удалить этот проект?",
+  "deleteConfirmationModalConfirmButton": "Да",
+  "deleteConfirmationModalRejectButton": "Нет",
+  "dropmenuEditOption": "Редактировать",
+  "dropmenuDeleteOption": "Удалить",
+  "dropmenuShareableLinkOption": "Копировать ссылку",
+  "shareableLinkCopyMessage": "Ссылка скопирована в буфер обмена",
+  "MyWhiteboardsButtonNotClickedError": "Нажмите на вкладку Мои доски, прежде чем выполнять поиск.",
+  "personalSpace": "Личное пространство",
+  "searchWhiteboardsNoResults": "Результаты не найдены. Измените поисковый запрос и повторите попытку."
+}

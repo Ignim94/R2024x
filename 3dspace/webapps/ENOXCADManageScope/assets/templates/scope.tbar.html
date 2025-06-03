@@ -1,0 +1,15 @@
+<div class="tbar">
+	{{#each actiondirection}}
+		<span class="{{ classdir }}">
+			{{#each actions}}
+				{{#if hasAccess }}
+					{{#if html }}
+						<span>{{{ html }}}</span>
+					{{else}}
+			  			<span class="wux-ui-3ds wux-ui-3ds-1x wux-ui-3ds-{{ icon }}"">{{ value }}</span>
+					{{/if}}
+				{{/if}}
+			{{/each}}
+		</span>
+	{{/each}}
+</div>

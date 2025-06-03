@@ -1,0 +1,21 @@
+{
+  "ERROR_DATA_LOAD_TITLE": "Se ha producido un error al recuperar la composición de la versión de modelo.",
+  "ERROR_DATA_ADD_TITLE": "Error al agregar la composición de la versión de modelo.",
+  "ERROR_DATA_REMOVE_TITLE": "Error al eliminar la composición de la versión de modelo.",
+  "ERROR_DATA_REPLACE_TITLE": "Error al reemplazar la revisión de la versión de modelo.",
+  "ERROR_DATA_DEFAULT_TITLE": "No puede realizar la acción.",
+  "ERROR_DATA_LOAD_MSG": "Verifique que tiene acceso a este objeto.",
+  "ERROR_SAME_REVISION_TITLE": "Misma revisión seleccionada",
+  "ERROR_SAME_REVISION_MSG": "Seleccionar una revisión diferente para reemplazar",
+  "title_label": "Título",
+  "revision_label": "Revisión",
+  "isLastRevision_label": "Última revisión",
+  "modelName_label": "Nombre del modelo",
+  "owner_label": "Propietario",
+  "type_label": "Tipo",
+  "add_action_label": "Agregar versión de modelo",
+  "replace_action_label": "Reemplazar por revisión",
+  "remove_action_label": "Eliminar",
+  "information_action_label": "Información",
+  "searchLabel": "Seleccione una versión del modelo"
+}

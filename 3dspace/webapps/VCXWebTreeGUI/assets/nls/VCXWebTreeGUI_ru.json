@@ -1,0 +1,13 @@
+{
+  "VCXAssembly.PanelTitle": "Сборка",
+  "CIDAssembly.PanelTitle": "Содержимое",
+  "VCXDesign.PanelTitle": "Проект",
+  "SelectionSets": "Наборы выбора",
+  "Hotspots": "Точки доступа",
+  "VCXStyles.PanelTitle": "Стили",
+  "VCXTreeToolbarSelectLeaves": "Выбрать выпадающие листья",
+  "VCXTreeToolbarChgSelectionVis": "Переключение видимости выбора",
+  "VCXTreeToolbarNewSelectionSet": "Создать новый набор выбранных элементов с текущим выбором",
+  "VCXHideDressupsCmd": "Скрыть все оформления",
+  "VCXTreeToolbarCollapseAll": "Свернуть структуру"
+}

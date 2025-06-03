@@ -1,0 +1,18 @@
+{
+  "recentPublishedContent": "Récent contenu publié",
+  "noPublishedContent": "Aucun contenu publié trouvé",
+  "draft": "BROUILLON",
+  "noWhiteboard": "Aucun tableau blanc trouvé",
+  "noSketch": "Aucune esquisse trouvée",
+  "deleteConfirmationModalTitle": "Supprimer le projet",
+  "deleteConfirmationModalBody": "Voulez-vous vraiment supprimer ce projet ?",
+  "deleteConfirmationModalConfirmButton": "Oui",
+  "deleteConfirmationModalRejectButton": "Non",
+  "dropmenuEditOption": "Editer",
+  "dropmenuDeleteOption": "Supprimer",
+  "dropmenuShareableLinkOption": "Copier le lien",
+  "shareableLinkCopyMessage": "Lien copié dans le presse-papiers",
+  "MyWhiteboardsButtonNotClickedError": "Veuillez cliquer sur l'onglet Mes tableaux blancs avant de lancer la recherche.",
+  "personalSpace": "Espace personnel",
+  "searchWhiteboardsNoResults": "Aucun résultat trouvé. Veuillez modifier le texte de la recherche et réessayer."
+}

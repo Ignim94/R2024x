@@ -1,0 +1,12 @@
+m|DELMFNApp\DELMFNApplicationServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.6.24186|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELMFNApplicationServices\DELMFNApplicationServices.js|1720121531|13563
+s|DELMFNApp\DELMFNApplicationServices.mweb\src\Commands\CommandsService.js|1719928643|26326
+u|DELMFNApp\DELMFNApplicationServices.mweb\src\LayoutConfig.js|1531718582|365
+u|DELMFNApp\DELMFNApplicationServices.mweb\src\LayoutService.js|1707975871|8072
+u|DELMFNApp\DELMFNApplicationServices.mweb\src\Services.js|1530192731|509
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

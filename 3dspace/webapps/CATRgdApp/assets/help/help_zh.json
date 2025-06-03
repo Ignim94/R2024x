@@ -1,0 +1,18 @@
+{
+"Home.Title":"主页",
+"Home.ShortHelp":"导航至主页。",
+"InsertTemplates.Title":"添加现有模板",
+"InsertTemplates.ShortHelp":"在列表顶部插入现有模板。",
+"CreateTemplate.Title":"创建模板",
+"CreateTemplate.ShortHelp":"在列表顶部插入新的模板。",
+"ImportTemplates.Title":"导入模板",
+"ImportTemplates.ShortHelp":"从 JSON 文件导入一个或多个模板。",
+"ImportTemplates.LongHelp":"放置包含模板的 JSON 文件。",
+"Widget.WebHelp":"CATRtwUserMap/CATRtw-c-ov.htm",
+"InsertTemplates.WebHelp":"CATRtwUserMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"InsertTemplates.PanelHelp":"CATRtwUAPanelMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"CreateTemplate.WebHelp":"CATRtwUserMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"CreateTemplate.PanelHelp":"CATRtwUAPanelMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"ImportTemplates.WebHelp":"CATRtwUserMap/CATRtw-t-Templates-Import.htm#CATRtw-t-Templates-Import",
+"ImportTemplates.PanelHelp":"CATRtwUAPanelMap/CATRtw-t-Templates-Import.htm#CATRtw-t-Templates-Import"
+}

@@ -1,0 +1,12 @@
+{
+  "NbDigits": "Nombre de chiffres",
+  "NbDigitsInfo": "Le nombre de chiffres doit être un nombre entier positif >= 6 et la longueur de la formule ne peut pas être > 40 caractères",
+  "PrefixValueEmptyInfo": "Le préfixe ne peut pas être vide",
+  "NbDigitsNaN": "Le nombre de chiffres est un entier positif supérieur à 6",
+  "Dash": "-",
+  "Under_Score": "_",
+  "Dot": ".",
+  "Plus": "+",
+  "Slash": "/",
+  "Empty": ""
+}

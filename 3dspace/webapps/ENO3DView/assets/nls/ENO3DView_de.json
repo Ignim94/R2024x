@@ -1,0 +1,15 @@
+{
+  "appDescription": "Einfache und effiziente Navigation durch 3D-Modelle",
+  "rootFrozen": "Die Sitzung ist nach einem Übergang eingefroren",
+  "transitionRefusedStaticMapping": "Instanziierte Produktkonfiguration wird in der Zielanwendung nicht unterstützt",
+  "transitionRefusedFlexibleAssemblies": "Flexible Baugruppen werden in der Zielanwendung nicht unterstützt",
+  "pointCloudClassificationLayer": {
+    "title": "Farbgebung der LAS-Klassifikation",
+    "headerTooltip": "Die LAS-Klassifizierung ist das von der American Society for Photogrametry and Remote Sensing (ASPRS) definierte vordefinierte Klassifizierungsschema für die gewünschte Datenkategorie."
+  },
+  "pointCloudElevationLayer": {
+    "title": "Farbgebung der Koordinate",
+    "comboLabel": "Achse: ",
+    "tooltip": "Die X-Koordinate wird entlang der west-östlichen Achse gemessen, die Y-Koordinate entlang der nord-südlichen Achse und die Z-Koordinate misst die Höhe."
+  }
+}

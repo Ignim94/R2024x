@@ -1,0 +1,30 @@
+{
+    "ECADUPSPCBReferenceDesignatorLabel": "PCB Reference Designator",
+    "ECADUPSPCBReferenceDesignatorInfo": "defines the Reference Designator to be used for the Printed Circuit Board in the Product Structure",
+
+    "ECADUPSPackageNamePropertyLabel": "Package Name Propery",
+    "ECADUPSPackageNamePropertyInfo": "defines the name of the ECAD property of the Altium Component which is used to derived the Package name during initial import",
+
+    "ECADUPSPackageDescriptionPropertyLabel": "Package Description Property",
+    "ECADUPSPackageDescriptionPropertyInfo": "defines the name of the ECAD property of the Altium Component which is used to derived the Package Description during initial import",
+
+    "ECADUPSUseClassificationLabel": "Use Electronic Library Classification",
+    "ECADUPSUseClassificationInfo": "defines if Library Classification or local categories should be used for electronic Components ",
+
+    "ECADUPSElectronicLibraryLabel": "Electronic Component Library",
+    "ECADUPSElectronicLibraryInfo": "defines the top most Library which is used for classifying the Electronic Components. provide the full classification path e.g. \\Electronic Library\\Components",
+
+    "AltiumUPSECADCategoriesLabel": "Component Categories",
+	"AltiumUPSECADCategoriesInfo": "Component Categories used if Library Classification is not selected",
+
+	"AltiumUPSEnterpriseItemNumberPropertyLabel": "Enterprise Item Number Property",
+    "AltiumUPSEnterpriseItemNumberPropertyInfo":  "Defines the name of the Altium Parameter which holds the Enterprise Item Number",
+	
+	"ECADClassificationPathDefinitionPropertyLabel": "Automatic Class Assignment Property",
+	"ECADClassificationPathDefinitionPropertyInfo": "Defines the name of the Altium Parameter to store the classification path for import",
+	
+    "ProductStructureGroupLabel": "Product Structure",
+    "ClassificationGroupLabel": "Classification",
+    "SaveGroupLabel": "Save",
+    "EnterpriseItemNumberLabel": "Enterprise Item Number"
+}

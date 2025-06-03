@@ -1,0 +1,1 @@
+define("DS/ENOFormulatedBOM/util/Constants",["UWA/Class"],function(t){"use strict";return t.singleton({FP_BASE_URL:"resources/formulatedproduct/v1/",ITEM_DESCRIPTION_SELECTABLE:"attribute[PLMEntity.V_description]",ITEM_V_NAME_SELECTABLE:"attribute[PLMEntity.V_Name]"})});

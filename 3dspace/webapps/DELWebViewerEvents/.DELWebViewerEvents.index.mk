@@ -1,0 +1,10 @@
+m|DELWebViewerBase\DELWebViewerEvents.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.6.24179|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELWebViewerEvents\DELWebViewerEvents.js|1719516963|3483
+s|DELWebViewerBase\DELWebViewerEvents.mweb\src\Event.js|1677837239|5072
+u|DELWebViewerBase\DELWebViewerEvents.mweb\src\EventCollection.js|1719387677|6179
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

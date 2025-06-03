@@ -1,0 +1,7 @@
+{
+  "Size_error": "Název souboru nesmí obsahovat více než {maxSupportedLength} znaků",
+  "Unsupported_char": "Název souboru obsahuje neplatný znak: {char}",
+  "Space_Leading_Trailing": "Vyskytuje se neočekávaná mezera na začátku a na konci",
+  "Space_Leading": "Vyskytuje se neočekávaná mezera",
+  "Space_Trailing": "Vyskytuje se neočekávaná mezera na konci"
+}

@@ -1,0 +1,17 @@
+m|DELWKOApp\DELPPWModelServices_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.7.24232|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELPPWModelServices_FD02\DELPPWModelServices_FD02.js|1724098659|54786
+s|DELWKOApp\DELPPWModelServices_FD02.mweb\src\BehaviorUtil.js|1723636921|12374
+u|DELWKOApp\DELPPWModelServices_FD02.mweb\src\BIUtils.js|1679512789|14741
+u|DELWKOApp\DELPPWModelServices_FD02.mweb\src\CollectionUtils.js|1696447807|98029
+u|DELWKOApp\DELPPWModelServices_FD02.mweb\src\DocumentObjAttributesUtils.js|1679512792|3375
+u|DELWKOApp\DELPPWModelServices_FD02.mweb\src\EGraphUtils.js|1679512796|27155
+u|DELWKOApp\DELPPWModelServices_FD02.mweb\src\MfgProcessBIUtils.js|1679512800|6379
+u|DELWKOApp\DELPPWModelServices_FD02.mweb\src\ModelUtils.js|1709234769|9331
+u|DELWKOApp\DELPPWModelServices_FD02.mweb\src\Navigation\IndexedDBUtils.js|1679512033|9914
+u|DELWKOApp\DELPPWModelServices_FD02.mweb\src\Navigation\NavigateOnLocalStore.js|1679512810|10778
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

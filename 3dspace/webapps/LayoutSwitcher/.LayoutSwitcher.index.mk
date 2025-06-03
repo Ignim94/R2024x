@@ -1,0 +1,17 @@
+m|UWPClient\LayoutSwitcher.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.4.24135|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\LayoutSwitcher\LayoutSwitcher.htm|1715720941|1400
+s|UWPClient\LayoutSwitcher.mweb\src\LayoutSwitcher.htm|1715710930|1400
+t|win_b64\webapps\LayoutSwitcher\LayoutSwitcher.js|1715720941|28305
+s|UWPClient\LayoutSwitcher.mweb\src\BreakpointUtils.js|1715710930|4020
+u|UWPClient\LayoutSwitcher.mweb\src\DockLayout.js|1715710930|16082
+u|UWPClient\LayoutSwitcher.mweb\src\DockLayoutConverter.js|1715710930|23673
+u|UWPClient\LayoutSwitcher.mweb\src\GridLayout.js|1715710930|9149
+u|UWPClient\LayoutSwitcher.mweb\src\GridLayoutConverter.js|1715710930|15104
+u|UWPClient\LayoutSwitcher.mweb\src\SwitchableLayout.js|1715710930|4296
+u|UWPClient\LayoutSwitcher.mweb\src\Switcher.js|1715710930|32028
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

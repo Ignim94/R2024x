@@ -1,0 +1,10 @@
+{
+	"END_POINTS": {
+			"mei": {
+					"create": "/resources/v1/modeler/dssrc/dssrc:ManufacturerEquivalentItem?$mask=dsmvsrc:ManufacturerEquivalentItem.Details"
+				},	
+			"npr": {
+					"promote": "/resources/v1/modeler/routes"
+				}			
+		}
+}

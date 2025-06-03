@@ -1,0 +1,721 @@
+{
+   "MBOM":{
+      "moduleIcon":"CreateAssembly",
+      "moduleTitle":"",
+      "isAuthoringAllowed":true,
+      "isLoadObjectsinViews":true,
+      "registerRoots":true,
+      "pprTypes":[
+         "PROCESS"
+      ],
+      "implementing":true,
+      "implemented":false,
+      "enableCrossHighlight":true,
+      "displayBadgeProductScope":{
+         "linkType":"ProductImplementLink",
+         "badgeIcon":"Scope"
+      },
+	  "displayBadgeRPL": {
+            "linkType": "ResultingProductLink",
+            "badgeIcon": "ResultingproductLink"
+        },
+      "displayBadgePartialProductScope":{
+         "linkType":"PartialProductImplementLink",
+         "badgeIcon":"PartialScope"
+      },
+      "linkTypes":[
+		 "ResultingProductLink",
+         "ProductImplementLink",
+         "ProductImplementLinkOcc",
+         "ProcessImplementLink",
+         "MfgProcessAlternate",
+         "HistorizationLinkRefRef",
+         "DELAsmProcessCanUseCnx",
+         "PLMDocConnection",
+         "PartialProductImplementLink",
+         "DELMfgResponsibilityCnx",
+         "DELFmiMfgSubstituteCnx"
+      ],
+      "views":{
+         "treeListView":{
+         	"addDefaultGroupingColumns" : true,
+            "enableDragAndDrop":true,
+            "showTagger":true,
+            "headerContextualCommands":[
+               "ToggleGraphView",
+               "CreateMBOMStatus",
+               "CreateMfgItemStructure"
+            ],
+            "contextualCommands":[
+               "DisplayProperties",
+               "Relations",
+               "Refresh",
+               "Hide",
+               {
+                  "groupName":"ExpandLevel",
+                  "commands":[
+                     "ExpandAll",
+                     "CollapseAll"
+                  ]
+               },
+               {
+                  "groupName":"3DViewer",
+                  "commands":[
+                     "HideIn3D",
+                     "ShowIn3D",
+                     "LoadIn3DViewer"
+                  ]
+               },
+               "EditAttribute",
+               "Quantity",
+               {
+                  "groupName":"InsertObject",
+                  "insertCommands":[
+                     "InsertCreateAssembly",
+                     "InsertProvide",
+                     "InsertCreateMaterial",
+                     "InsertCreateKit",
+                     "InsertInstallation",
+                     "InsertCreateMaterialProcessContinuous",
+                     "InsertContinuousProvidedMaterial"
+                  ]
+               },
+               "DetachInstance",
+               "CreateScopeLink",
+               "ExploreInWebApp"
+            ],
+            "toolTipConfigXML":"toolTipConfigXML"
+         },
+         "graphView":{
+            "contextualCommands":[
+               "ToggleGraphView",
+               "ToggleOverview",
+               "ToggleOrientation",
+               "Reframe",
+               "ReframeOn",
+               "ExpandAll",
+               "CollapseAll",
+               "ExploreInWebApp"
+            ],
+            "configXML":"MBOM.bomViewXML"
+         }
+      },
+      "columnConfigName":"MBOM.columnConfigPath",
+      "exportCSVPreferencesXML":"exportCSVPreferencesXML",
+      "exportCSVFileName":"ManufacturingItems",
+      "registerViewPreference":true,
+      "registerLayoutPreference":true,
+      "unhide3DOnFilterApplication":true,
+      "support3DFilter":false,
+      "hasReadOnlyTypes": true,
+      "pprTypesWithSupportedViews" : [
+         "PRODUCT",
+         "PART"
+      ]
+   },
+   "EBOM":{
+      "moduleIcon":"PRODUCT",
+      "moduleTitle":"",
+      "registerRoots":true,
+      "pprTypes":[
+         "PRODUCT",
+         "PART"
+      ],
+      "implementing":false,
+      "implemented":true,
+      "enableCrossHighlight":true,
+      "linkTypes":[
+		 "ResultingProductLink",
+         "ProductImplementLink",
+         "ProductImplementLinkOcc",
+         "PLMDocConnection"
+      ],
+      "views":{
+         "treeListView":{
+         	"addDefaultGroupingColumns" : true,
+            "enableDragAndDrop":true,
+            "showTagger":true,
+            "show3DHideShow":true,
+            "headerContextualCommands":[
+               "ToggleGraphView"
+            ],
+            "contextualCommands":[
+               "DisplayProperties",
+               "Relations",
+               "Refresh",
+               "ReframeIn3DViewer",
+               "Hide",
+               {
+                  "groupName":"ExpandLevel",
+                  "commands":[
+                     "ExpandAll",
+                     "CollapseAll"
+                  ]
+               },
+               "CreateAssemblyAndScope",
+               "ExploreInWebApp"
+            ],
+            "toolTipConfigXML":"toolTipConfigXML"
+         },
+         "graphView":{
+            "contextualCommands":[
+               "ToggleGraphView",
+               "ToggleOverview",
+               "ToggleOrientation",
+               "Reframe",
+               "ReframeOn",
+               "ExpandAll",
+               "CollapseAll",
+               "ExploreInWebApp"
+            ]
+         }
+      },
+      "columnConfigName":"EBOM.columnConfigPath",
+      "registerViewPreference":true,
+      "registerLayoutPreference":true,
+      "unhide3DOnFilterApplication":false,
+      "support3DFilter":true,
+      "matchKeysForFilter":["PRODUCT"],
+      "forceIndexMode" : true
+   },
+   "LINKS":{
+      "relatedCmdId":"Relations",
+      "filterToolbarSections" : ["PART", "PRODUCT","SERVICE","PROCESS","SYSTEM","RESOURCE","ORGANIZATION","REQUIREMENT","PARENT"],
+      "relationsDialogDisplayAttributeConfigXML":"relationsDialogDisplayAttributeConfigXML",
+      "pprTypes":{
+         "PROCESS":{
+            "icon":"PROCESS",
+            "view":"PPRTYPE.PROCESS"
+         },
+         "PART":{
+            "icon":"PART",
+            "view":"PPRTYPE.PART"
+         },
+         "PRODUCT":{
+            "icon":"PRODUCT",
+            "view":"PPRTYPE.PRODUCT"
+         }
+      }
+   },
+   "MIL":{
+      "pprTypes":[
+
+      ],
+      "linkTypes":[
+
+      ],
+      "views":{
+         "treeListView":{
+			"isViewGroupable" : false,
+			"isViewFilterable" : false,
+            "contextualCommands":[
+
+            ]
+         }
+      },
+      "columnConfigName":"MIL.columnConfigPath",
+      "manageInconsistentLinksCmdId":"ManageInconsistentLinks",
+      "noActiveCellChange": true
+   },
+   "INSTCMDMOD":{
+      "insertFormAttributeXML":"insertFormAttributeXML"
+   },
+   "CAPRESOURCE":{
+      "moduleIcon":"ActionCapableResource",
+      "relatedCmdId":"CapableResource",
+      "pprTypes":[
+         "RESOURCE"
+      ],
+      "linkTypes":[
+         "DELAsmProcessCanUseCnx"
+      ],
+      "dragDropManager":"WUXActionDragDrop",
+      "views":{
+         "treeListView":{
+			"isViewGroupable" : false,
+			"isViewFilterable" : false,
+            "enableDragAndDrop":true,
+            "showTagger":true,
+            "headerContextualCommands":[
+               {
+                  "text":"EditViewPreferences",
+                  "command":"EditViewPreferencesCmd"
+               },
+               {
+                  "text":"CapableResourceAdd",
+                  "command":"SearchAndAddCommand"
+               },
+               {
+                  "text":"CapableResourceBL",
+                  "command":"CapableResourceBL"
+               }
+            ],
+            "contextualCommands":[
+               {
+                  "text":"Relations",
+                  "command":"Relations"
+               },
+               "SEPARATOR",
+               {
+                  "text":"CapableResourceAdd",
+                  "command":"SearchAndAddCommand"
+               },
+               {
+                  "text":"CapableResourceBL",
+                  "command":"CapableResourceBL"
+               },
+               {
+                  "text":"CapableResourceRemove",
+                  "command":"ActionRemove"
+               }
+            ],
+            "toolTipConfigXML":"toolTipConfigXML"
+         }
+      },
+      "columnConfigName":"CAPRESOURCE.columnConfigPath",
+      "registerViewPreference":true
+   },
+   "ORIGIN":{
+      "moduleIcon":"ActionOrigin",
+      "relatedCmdId":"Origin",
+      "pprTypes":[
+         "PROCESS"
+      ],
+      "linkTypes":[
+         "HistorizationLinkRefRef"
+      ],
+      "dragDropManager":"WUXActionDragDrop",
+      "views":{
+         "treeListView":{
+			"isViewGroupable" : false,
+			"isViewFilterable" : false,
+            "enableDragAndDrop":true,
+            "showTagger":true,
+            "headerContextualCommands":[
+               {
+                  "text":"EditViewPreferences",
+                  "command":"EditViewPreferencesCmd"
+               },
+               {
+                  "text":"OriginAdd",
+                  "command":"SearchAndAddCommand"
+               }
+            ],
+            "contextualCommands":[
+               {
+                  "text":"Relations",
+                  "command":"Relations"
+               },
+               "SEPARATOR",
+               {
+                  "text":"OriginAdd",
+                  "command":"SearchAndAddCommand"
+               },
+               {
+                  "text":"OriginRemove",
+                  "command":"ActionRemove"
+               }
+            ],
+            "toolTipConfigXML":"toolTipConfigXML"
+         }
+      },
+      "columnConfigName":"ORIGIN.columnConfigPath",
+      "registerViewPreference":true
+   },
+	"ALTERNATES_AND_SUBSTITUTES": {
+		"moduleIcon": "AlternatesSubstitutes",
+		"relatedCmdId": "AlternatesAndSubstitutes",
+		"pprTypes": [],
+		"views": {
+			"treeListView": {
+			"isViewGroupable" : false,
+			"isViewFilterable" : false,
+				"enableDragAndDrop": false,
+            "showSelectionCheckBoxesFlag": false,
+            "rowSelection": "single",
+				"contextualCommands": [
+               {
+                  "groupName":"CreateMfgItemAndScopeLinkGroup",
+                  "commands":[
+                     "CreateAssemblyAndScopeAltSubst",
+                     "CreateProvideAndScopeAltSubst",
+                     "CreateMaterialAndScopeAltSubst",
+                     "CreateKitAndScopeAltSubst",
+                     "CreateContinuousProvidedMaterialAndScopeAltSubst"
+                  ]
+               },
+               {
+                  "groupName":"CreateMfgItemAndResultingProductLinkGroup",
+                  "commands":[
+                     "CreateAssemblyAndResultingProductAltSubst",
+                     "CreateProvideAndResultingProductAltSubst",
+                     "CreateMaterialAndResultingProductAltSubst",
+                     "CreateKitAndResultingProductAltSubst"
+                  ]
+               },
+               "AddMfgItemToMBOMAltSub",
+               "ReplaceByAlternate"
+				],
+				"toolTipConfigXML" : "toolTipConfigXML"
+			}
+		},
+		"columnConfigName": "ALTERNATES_AND_SUBSTITUTES.columnConfigPath",
+      "columnsBeforeTitle": [
+         "AltSub_mfgItem",
+         "AltSub_mfgRev"
+      ]
+	},
+   "ALTERNATE":{
+      "moduleIcon":"ActionAlternates",
+      "relatedCmdId":"Alternates",
+      "pprTypes":[
+         "PROCESS"
+      ],
+      "linkTypes":[
+         "MfgProcessAlternate"
+      ],
+      "dragDropManager":"WUXActionDragDrop",
+      "views":{
+         "treeListView":{
+			"isViewGroupable" : false,
+			"isViewFilterable" : false,
+            "enableDragAndDrop":true,
+            "showTagger":true,
+            "headerContextualCommands":[
+               {
+                  "text":"EditViewPreferences",
+                  "command":"EditViewPreferencesCmd"
+               },
+               {
+                  "text":"AlternateAdd",
+                  "command":"SearchAndAddCommand"
+               },
+               {
+                  "text":"AlternateBL",
+                  "command":"AlternateBL"
+               }
+            ],
+            "contextualCommands":[
+               {
+                  "text":"Relations",
+                  "command":"Relations"
+               },
+               "SEPARATOR",
+               {
+                  "text":"AlternateAdd",
+                  "command":"SearchAndAddCommand"
+               },
+               {
+                  "text":"AlternateBL",
+                  "command":"AlternateBL"
+               },
+               {
+                  "text":"AlternateRemove",
+                  "command":"ActionRemove"
+               }
+            ],
+            "toolTipConfigXML":"toolTipConfigXML"
+         }
+      },
+      "columnConfigName":"ALTERNATE.columnConfigPath",
+      "registerViewPreference":true
+   },
+   "SUBSTITUTES":{
+      "moduleIcon":"ActionSubstitutes",
+      "relatedCmdId":"Substitutes",
+      "pprTypes":[
+         "PROCESS"
+      ],
+      "linkTypes":[
+         "DELFmiMfgSubstituteCnx"
+      ],
+      "dragDropManager":"WUXActionDragDrop",
+      "views":{
+         "treeListView":{
+            "enableDragAndDrop":true,
+            "isViewGroupable" : false,
+            "showTagger":true,
+            "headerContextualCommands":[
+               "SizeColumnToFit",
+               "SortAToZ",
+               "SortZToA",
+               {
+                  "text":"EditViewPreferences",
+                  "command":"EditViewPreferencesCmd"
+               },
+               {
+                  "text":"SubstituteAdd",
+                  "command":"SearchAndAddCommand"
+               }
+            ],
+            "contextualCommands":[
+               {
+                  "text":"Relations",
+                  "command":"Relations"
+               },
+               "SEPARATOR",
+               {
+                  "text":"SubstituteAdd",
+                  "command":"SearchAndAddCommand"
+               },  
+               {
+                  "text":"SubstituteRemove",
+                  "command":"ActionRemove"
+               }
+            ],
+            "toolTipConfigXML":"toolTipConfigXML"
+         }
+      },
+      "columnConfigName":"SUBSTITUTES.columnConfigPath",
+      "registerViewPreference":true
+   },
+   "RESPONSIBILITY":{
+      "moduleIcon":"ActionResponsibility",
+      "relatedCmdId":"Responsibility",
+      "pprTypes":[
+         "ORGANIZATION"
+      ],
+      "linkTypes":[
+         "DELMfgResponsibilityCnx"
+      ],
+      "dragDropManager":"WUXActionDragDrop",
+      "views":{
+         "treeListView":{
+            "enableDragAndDrop":true,
+            "isViewGroupable" : false,
+            "showTagger":true,
+            "headerContextualCommands":[
+               "SizeColumnToFit",
+               "SortAToZ",
+               "SortZToA",
+               {
+                  "text":"EditViewPreferences",
+                  "command":"EditViewPreferencesCmd"
+               },
+               {
+                  "text":"ResponsibilityAdd",
+                  "command":"SearchAndAddCommand"
+               }
+            ],
+            "contextualCommands":[
+               {
+                  "text":"Relations",
+                  "command":"Relations"
+               },
+               "SEPARATOR",
+               {
+                  "text":"ResponsibilityAdd",
+                  "command":"SearchAndAddCommand"
+               },  
+               {
+                  "text":"ResponsibilityRemove",
+                  "command":"ActionRemove"
+               }
+            ],
+            "toolTipConfigXML":"toolTipConfigXML"
+         }
+      },
+      "columnConfigName":"RESPONSIBILITY.columnConfigPath",
+      "registerViewPreference":true
+   },
+   "REQUIREMENT_VIEW":{
+      "moduleIcon":"Requirement",
+      "relatedCmdId":"Requirement",
+      "pprTypes":[
+         "REQUIREMENT"
+      ],
+      "linkTypes":[
+         "PLMReqSpecifyHowToCnx"
+      ],
+      "dragDropManager":"WUXActionDragDrop",
+      "views":{
+         "treeListView":{
+			"isViewGroupable" : false,
+			"isViewFilterable" : false,
+            "enableDragAndDrop":true,
+            "showTagger":true,
+            "contextualCommands":[
+               {
+                  "text":"Relations",
+                  "command":"Relations"
+               },
+               {
+                  "text":"RequirementRemove",
+                  "command":"ActionRemove"
+               },
+               {
+                  "text":"AddToAuxilliaryView",
+                  "command":"AddToAuxilliaryView"
+               }
+            ],
+            "toolTipConfigXML":"toolTipConfigXML"
+         }
+      },
+      "columnConfigName":"REQUIREMENT_VIEW.columnConfigPath",
+      "registerViewPreference":true
+   },
+   "RESULTING_PRODUCT_VIEW":{
+      "moduleIcon":"ResultingProduct",
+      "relatedCmdId":"ResultingProduct",
+      "pprTypes":[
+         "PRODUCT",
+         "PART"
+      ],
+      "linkTypes":[
+         "ResultingProductLink"
+      ],
+      "dragDropManager":"WUXActionDragDrop",
+      "views":{
+         "treeListView":{
+			"isViewGroupable" : false,
+			"isViewFilterable" : false,
+            "enableDragAndDrop":true,
+            "showTagger":true,
+            "contextualCommands":[
+            ],
+            "toolTipConfigXML":"toolTipConfigXML"
+         }
+      },
+      "columnConfigName":"RESULTING_PRODUCT_VIEW.columnConfigPath",
+      "registerViewPreference":true
+   },
+   "AUXILIARY":{
+      "withLinksResolved":false,
+      "registerRoots":true,
+      "addToAuxIfNotAcceptedType":true,
+      "pprTypes":[
+         "PROCESS",
+         "PRODUCT",
+         "PART",
+         "RESOURCE",
+         "ORGANIZATION"
+      ],
+      "linkTypes":[
+         "ResultingProductLink",
+         "ProductImplementLink",
+         "ProcessImplementLink",
+         "DELMfgResponsibilityCnx",
+         "DELFmiMfgSubstituteCnx"
+      ],
+      "displayBadgeProductScope":{
+         "linkType":"ProductImplementLink",
+         "badgeIcon":"Scope"
+      },
+	  "displayBadgeRPL": {
+          "linkType": "ResultingProductLink",
+          "badgeIcon": "ResultingproductLink"
+      },
+      "displayBadgePartialProductScope":{
+         "linkType":"PartialProductImplementLink",
+         "badgeIcon":"PartialScope"
+      },
+      "views":{
+         "treeListView":{
+         	"addDefaultGroupingColumns" : true,
+            "enableDragAndDrop":true,
+            "showTagger":true,
+            "showSelection":true,
+            "contextualCommands":[
+               "DisplayProperties",
+               "Relations",
+               "Refresh",
+               "Hide",
+               {
+                  "groupName":"ExpandLevel",
+                  "commands":[
+                     "ExpandAll",
+                     "CollapseAll"
+                  ]
+               },
+               "ExploreInWebApp"
+            ]
+         }
+      },
+      "columnConfigName":"AUXILIARY.columnConfigPath",
+      "hasReadOnlyTypes": true
+   },
+   "IMPLEMENTMOD":{
+      "pprTypes":[
+
+      ],
+      "linkTypes":[
+
+      ],
+      "views":{
+         "treeListView":{
+            "showSelection":false,
+            "selection":{
+               "canMultiSelect":false,
+               "enableListSelection":false
+            },
+            "contextualCommands":[
+
+            ]
+         }
+      },
+      "columnConfigName":"IMPLEMENTMOD.columnConfigPath"
+   },
+   "MFGSTRUCTUREMOD":{
+      "pprTypes":[
+
+      ],
+      "linkTypes":[
+
+      ],
+      "views":{
+         "treeListView":{
+            "showSelection":false,
+            "selection":{
+               "canMultiSelect":false,
+               "enableListSelection":false
+            },
+            "contextualCommands":[
+
+            ]
+         }
+      },
+      "columnConfigName":"MFGSTRUCTUREMOD.columnConfigPath"
+   },
+   "GROUPINGMOD": {
+        "pprTypes": [],
+        "linkTypes": [],
+        "views": {
+            "treeListView": {
+                "addDefaultGroupingColumns": true,
+                "showSelectionCheckBoxesFlag": false,
+                "contextualCommands": [],
+                "toolTipConfigXML": "toolTipConfigXML"
+            }
+        },
+        "columnConfigName": "MBOM.columnConfigPath",
+        "immutableColumns": true,
+        "noExpandServerCall": true,
+        "skipisHiddenCheck":true
+
+    },
+    "MFGITEMREPLACEMOD": {
+        "pprTypes":[
+
+        ],
+        "linkTypes":[
+
+        ],
+        "views":{
+           "treeListView":{
+              "isViewGroupable" : false,
+              "isViewFilterable" : false,
+              "showSelection":false,
+              "selection":{
+                 "canMultiSelect":false,
+                 "enableListSelection":false
+              },
+              "contextualCommands":[
+
+              ]
+           }
+        },
+        "columnConfigName": "REPLACEWHEREUSED.columnConfigPath",
+        "immutableColumns": true,
+        "noExpandServerCall": true
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "recentPublishedContent": "Conteúdo publicado recentemente",
+  "noPublishedContent": "Nenhum conteúdo publicado encontrado",
+  "draft": "RASCUNHO",
+  "noWhiteboard": "Nenhum quadro branco encontrado",
+  "noSketch": "Nenhum esboço encontrado",
+  "deleteConfirmationModalTitle": "Excluir projeto",
+  "deleteConfirmationModalBody": "Tem certeza de que deseja excluir este projeto?",
+  "deleteConfirmationModalConfirmButton": "Sim",
+  "deleteConfirmationModalRejectButton": "Não",
+  "dropmenuEditOption": "Editar",
+  "dropmenuDeleteOption": "Excluir",
+  "dropmenuShareableLinkOption": "Copiar link",
+  "shareableLinkCopyMessage": "Link copiado para a área de transferência",
+  "MyWhiteboardsButtonNotClickedError": "Clique na guia Meus quadros brancos antes de pesquisar.",
+  "personalSpace": "Espaço pessoal",
+  "searchWhiteboardsNoResults": "Nenhum resultado encontrado. Altere o texto da pesquisa e tente novamente."
+}

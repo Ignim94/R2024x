@@ -1,0 +1,87 @@
+{
+    "workbench": "PC3DViewerToolbarCmd.xml",
+    "workbenchModule": "ENOXModelApp",
+    "ignoreResetCommandManager" : true,
+    "robotVisibility": false,
+    "allowDnD": false,
+    "defaultContextualBarVisibility": false,
+    "defaultContextualMenuVisibility" : true,
+    "contextualMenuContent": {
+        "workbenchName": "PC3DViewerContextualMenuCmd",
+        "module": "ENOXModelApp",
+        "fileName": "PC3DViewerContextualMenuCmd.xml",
+        "geometry": {
+            "firstLevel": [
+                "ActionBar_Attributes"
+            ],
+            "toggleVisu": [
+                "PAD3DToggleSimplifiedHdr",
+                "PAD3DToggleAccurateHdr"
+            ]
+        },
+        "emptiness": {
+            "display": [
+                "VisuQMCommand",
+                "PAD3DToggleStatusBarHdr"
+            ],
+            "ambiences": [
+                "VisuPureWhiteOCACmd",
+                "VisuWhiteMirrorOCACmd",
+                "VisuWhiteReviewOCACmd",
+                "VisuStudioOCACmd",
+                "VisuDarkMirrorOCACmd",
+                "VisuDarkReviewOCACmd",
+                "VisuWhiteDesignOCACmd",
+                "VisuBlueDesignOCACmd",
+                "VisuDarkDesignOCACmd",
+                "VisuIndoorOCACmd",
+                "VisuCityOCACmd",
+                "VisuRoadOCACmd",
+                "VisuOutdoorOCACmd",
+                "VisuBasicOCACmd"
+            ]
+        }
+    },
+    "mouseProfile": "CATIA",
+    "BIMode": "DUAL",
+    "authorizeSet3DStructure": false,
+    "viewerOptions": {
+        "antiAliasing": false,
+        "autoUpdateFrustum": true,
+        "autoUpdateLights": true,
+        "autoUpdatePlane": true,
+        "bloom": false,
+        "defaultAnimationLoop": true,
+        "defaultLights": true,
+        "displayGrid": false,
+        "dof": false,
+        "flare": false,
+        "hdr": true,
+        "highlight": {
+            "activated": true,
+            "computeNormalDepth": true,
+            "displayHL": true,
+            "gpu": true,
+            "primitive": false,
+            "trapSelection": false
+        },
+        "infinitePlane": false,
+        "mirror": false,
+        "mobile": true,
+        "multiViewer": true,
+        "multiViewerFix": true,
+        "pHighlight": {
+            "activated": true,
+            "computeNormalDepth": true,
+            "disableWhileMoving": true,
+            "displayHL": true,
+            "gpu": true,
+            "primitive": false
+        },
+        "ssao": false,
+        "ssaoIterative": false,
+        "sslr": false,
+        "useShadowMap": false,
+        "useVignetting": false
+    }
+}

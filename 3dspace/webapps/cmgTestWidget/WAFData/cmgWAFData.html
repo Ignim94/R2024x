@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:widget="http://www.netvibes.com/ns/">
+<head>
+
+<!-- 
+		i3DXCompassServices 컴파스의 정보를 가져오기 위해 사용하는것.	
+		urlData 는 https://cmg.3ds.org/3dspace
+	-->
+<script>
+	require([ "DS/i3DXCompassServices/i3DXCompassServices",
+			"DS/WAFData/WAFData" ], function(i3DXCompassServices, WAFData) {
+		let x3dPlatformId = widget.getValue("x3dPlatformId");
+
+		let myWidget = {
+			onLoadWidget : function() {
+				i3DXCompassServices.getServiceUrl({
+					serviceName : "3DSpace",
+					platformId : x3dPlatformId,
+					onFailure : function(result) {
+						alert(result);
+					},
+					onComplete : function(serviceUrl) {
+						let restUrl = "";
+						restUrl = serviceUrl
+								+ "/resources/CommonModel/findObject";
+						alert(restUrl);
+						restUrl = "https://local.3ds.org/3dspace"
+								+ "/resources/CommonModel/findObject";
+						alert(restUrl);
+						WAFData.authenticatedRequest(restUrl, {
+							method : 'GET',
+							data : {}, //data는 optional임. restURl 호출을 했을 때, /Path가 findObjectd인 해당 파일에서 request.getParameter같은걸로 받아서 쓸 수 있음.
+							type : 'json',
+							onFailure : function(result) {
+								alert(result);
+								widget.body.innerHTML = "rest Service Error: "
+										+ result;
+							},
+							onComplete : function(dataRep) {
+								let msg = dataRep.msg;
+								let vName = dataRep.name;
+								let vCompany = dataRep.company;
+								let vId = dataRep.id;
+								let html = "REST Service Data" + "</br>";
+								html += vName + ", " + vCompany + ", " + vId;
+
+								widget.body.innerHTML = html;
+							}
+						});
+					}
+
+				});
+			}
+		};
+		widget.addEvent("onLoad", myWidget.onLoadWidget);
+	});
+</script>
+
+
+</head>
+<body>
+</body>
+
+</html>
+
+

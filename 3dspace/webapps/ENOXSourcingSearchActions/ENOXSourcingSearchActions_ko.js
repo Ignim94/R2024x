@@ -1,0 +1,1 @@
+define("DS/ENOXSourcingSearchActions/ENOXSourcingSearchActions_ko",{});define("DS/ENOXSourcingSearchActions/assets/nls/ENOXSourcingSearchActions",{download:"다운로드",open_with:"연결 프로그램"});

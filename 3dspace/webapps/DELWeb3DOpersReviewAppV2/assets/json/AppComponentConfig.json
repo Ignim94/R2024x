@@ -1,0 +1,24 @@
+{
+  "supported_types": [
+    "VPMReference",
+    "DELFmiFunctionReference",
+    "DELLmiPPRSystemReference",
+    "DELLmiPPRHeaderProcessReferenceAbstract"
+  ],
+  "unsupported_types": [
+    "PPRContext"
+  ],
+  "unsupported_multiroot_types": [
+    "PPRContext",
+    "DELLmiPPRSystemReference",
+    "DELLmiPPRHeaderProcessReferenceAbstract"
+  ],
+  "sharedSettings": [
+    "pad_security_ctx",
+    "enopad3dviewer_CGRorTHB",
+    "enopad3dviewer_displayCandidateQueue",
+    "enopad3dviewer_displayCandidateQueue_color",
+    "pgpFromServer",
+    "synthesisModeOnInstance"
+  ]
+}

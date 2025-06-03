@@ -1,0 +1,74 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "type"
+			},
+			{
+				"name": "Title",
+				"status": "RW"
+			},
+			{
+				"name": "Notes",
+				"status": "RW"
+			},
+			{
+               "name":"description",
+			   "status": "RW"
+			},
+			{
+				"name": "revision"
+			},
+			{
+				"name": "originated"
+			},
+			{
+				"name": "policy"
+			},
+			{
+				"name": "modified"
+			},
+			{
+				"name": "current"
+			},
+			{
+				"name": "owner",
+				"status": "RW"
+			},
+			{
+				"name": "organization"
+			},
+			{
+				"name": "Category",
+				"status": "RW"
+			}
+		]
+	},
+	"details": {
+		"attributes": {
+			"owner": {
+				"mandatory": true
+			},
+			"Title": {
+				"mandatory": true
+			}
+		}
+	},
+	"Create": {
+		"attributes": [
+			{
+				"name": "Category",
+				"status": "RW"
+			},
+			{
+				"name": "Title",
+				"status": "RW"
+			},
+			{
+				"name": "policy",
+				"status": "RO"
+			}
+		]
+	}
+}
+

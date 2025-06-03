@@ -1,0 +1,25 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "DELLmiServiceWorkPlanSystemInstance",
+				"ParentType": "dsprcs:MfgProcessInstance",
+				"IsAbstract": true,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELLmiServiceWorkPlanSystemInstance",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.threed_space.impl.DELMIACRUDPPRSystemInstanceExecutionImpl"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELLmiServiceWorkPlanSystemInstance",
+						"Behavior": "INSTANCE"
+					}
+				]
+			}
+		]
+	}
+]

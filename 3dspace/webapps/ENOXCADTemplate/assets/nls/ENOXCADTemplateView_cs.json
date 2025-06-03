@@ -1,0 +1,18 @@
+{
+  "cadsubtypefield": "Typ 3DEXPERIENCE",
+  "cadtypefield": "Typ CAD",
+  "templatefield": "Šablony",
+  "managetemplates": "Správa šablon",
+  "newfromok": "OK",
+  "newfromcancel": "Zrušit",
+  "newfromtemplate": "Nový ze šablony",
+  "msg_success_templatecreate": "Šablona úspěšně vytvořena.",
+  "msg_success_edittemplate": "Šablona úspěšně upravena.",
+  "msg_error_editmodifyaccess": "K úpravě této šablony musíte mít oprávnění. Zkontrolujte své přihlašovací údaje nebo se obraťte s žádostí o pomoc na správce",
+  "msg_success_listtemplate": "Seznam šablon byl úspěšně načten",
+  "msg_success_notemplate": "Pro tento typ není k dispozici žádná šablona",
+  "msg_error_mandfieldempty": "Povinná pole jsou prázdná",
+  "msg_error_templateempty": "Pole Šablony je prázdné",
+  "msg_error_cadtypeempty": "Pole Typ CAD je prázdné",
+  "mysession_newfromdlg_title": "Nový ze šablony"
+}

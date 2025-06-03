@@ -1,0 +1,16 @@
+{
+  "AltiumPCBProject.label": "Altium PCB プロジェクト",
+  "AltiumSchematic.label": "Altium 回路図",
+  "PrintedCircuitBoard.label": "Altium レイアウト",
+  "AltiumPCBProjectTemplate.label": "Altium PCB プロジェクト",
+  "AltiumSchematicTemplate.label": "Altium 回路図",
+  "AltiumLayoutTemplate.label": "Altium レイアウト",
+  "field.title.label": "タイトル",
+  "field.title.placeholder": "ここにタイトルを入力",
+  "field.description.label": "説明",
+  "field.description.placeholder": "ここに短い説明を入力",
+  "field.name.label": "名称",
+  "field.name.AltiumPCBProject.placeholder": "ここに Altium PCB プロジェクト名を入力",
+  "field.name.AltiumSchematic.placeholder": "ここに Altium 回路図名を入力",
+  "field.name.PrintedCircuitBoard.placeholder": "ここに Altium レイアウト名を入力"
+}

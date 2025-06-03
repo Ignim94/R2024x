@@ -1,0 +1,16 @@
+PowerByNX.XSCViews.Title = "View";
+PowerByNX.XSCTools.Title = "Tools";
+PowerByNX.Lifecycle.Title="Lifecycle";
+PowerByNX.Collaboration.Title="Collaboration";
+PowerByNX.SaveSession.Title="Save Active Window";
+PowerByNX.RefreshHome.Title="Refresh";
+PowerByNX.ReloadAll.Title="Reload all";
+PowerByNX.ReserveHdr.Title="Lock";
+PowerByNX.UnreserveHdr.Title="Unlock";
+PowerByNX.PropertiesHdr.Title="Properties";
+PowerByNX.ReplaceByRevisionHdr.Title="Replace by Revision";
+PowerByNX.ReloadFromServerHdr.Title="Reload from Server";
+PowerByNX.RelationIPExplorer.Title = "Relations";
+PowerByNX.OptionsHdr.Title = "Options...";
+PowerByNX.View.Title = "View";
+PowerByNX.Tools.Title = "Tools";

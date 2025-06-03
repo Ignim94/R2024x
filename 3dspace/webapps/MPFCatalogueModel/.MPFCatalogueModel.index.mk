@@ -1,0 +1,13 @@
+m|MPFModels\MPFCatalogueModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\MPFCatalogueModel\MPFCatalogueModel.js|1700692133|3998
+s|MPFModels\MPFCatalogueModel.mweb\src\CatalogueDataProxy.js|1669411784|1930
+u|MPFModels\MPFCatalogueModel.mweb\src\CatalogueFactory.js|1700681636|3255
+u|MPFModels\MPFCatalogueModel.mweb\src\CatalogueModel.js|1669411784|4864
+u|MPFModels\MPFCatalogueModel.mweb\src\CatalogueV2DataProxy.js|1700681636|574
+u|MPFModels\MPFCatalogueModel.mweb\src\MPFCatalogueModel.js|1669411784|1
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

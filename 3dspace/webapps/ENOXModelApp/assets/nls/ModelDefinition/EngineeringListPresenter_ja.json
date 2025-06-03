@@ -1,0 +1,15 @@
+{
+  "_title": "設計項目のリスト",
+  "_priority": "優先度",
+  "_items": "アイテム",
+  "_item": "項目",
+  "_associate": "関連付け",
+  "_open": "開く",
+  "_physicalProduct": "物理プロダクト",
+  "_inWork": "作業中",
+  "_private": "プライベート",
+  "_frozen": "凍結",
+  "_released": "リリース済み",
+  "_obsolete": "廃版",
+  "_emptyPanelMessage": "モデル バージョンに構成された物理プロダクトが設定されていません"
+}

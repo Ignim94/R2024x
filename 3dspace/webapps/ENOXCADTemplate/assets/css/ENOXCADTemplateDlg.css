@@ -1,0 +1,75 @@
+.templateSuperModal {
+	text-align: left;
+	z-index: 40050; 
+	padding: 0!important;
+}
+  
+.templateSuperModal .modal-wrap {
+    width: 500px;
+}
+
+.templateSuperModal .modal-wrap .modal-content {
+      width: 500px; 
+}
+
+.semanticTypeText {
+  display: none; }
+  
+
+.templateSuperModal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.templateSuperModal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.templateSuperModal_sw .modal-wrap {
+  text-align: left;
+  z-index: 40050; 
+  padding: 0!important;
+  padding-right: inherit;
+  padding-left: inherit;
+  padding-top: inherit;
+  padding-bottom: inherit;
+  width: inherit;
+  height: inherit;
+  position: relative;
+}
+
+.templateSuperModal_sw .modal-wrap .modal-content{
+    height: inherit;
+    width: inherit;
+	border-radius: 0px;
+	border: 0px
+}
+
+.templateSuperModal_sw .modal-wrap .modal-content .modal-footer{
+	padding: 1px 14px 1px 1px;
+}
+
+.modal-body{
+    height: calc(100% - 40px);
+}
+
+.form-group textarea.form-control{
+	width: 100%;
+	max-width: 100%;
+	max-height: 100px;
+}
+
+.modal-content{
+    height: inherit;
+    width: inherit;
+}
+
+.modal{
+	position: absolute;
+	height: calc(100% - 1px);
+}

@@ -1,0 +1,20 @@
+{
+    "OPPORTUNITY": "Opportunity",
+    "OPPORTUNITIES": "Opportunities",
+    "IMPACT": "Positive Impact",
+    "CLASS_TYPE": "Type of Opportunity",
+    "REALIZATION_PLAN": "Realization Plan",
+    "RPN": "Rating",
+    "OPPORTUNITY_TREND": "Opportunity Trend",
+    "SHOW_COMPLETED": "Show Completed Opportunities",
+    "ALL_CONTEXT_ITEMS": "All Context Opportunities",
+    "ALL_PROJECT_OPPORTUNITIES": "All Project Opportunities",
+    "OWNED": "My Opportunities",
+    "ALL_MY_ASSIGNED_ITEMS": "All (My Opportunities + Assigned)",
+    "PROJECT_OPPORTUNITIES": "Project Opportunities",
+    "SUB_PROJECT_OPPORTUNITIES": "Project + Sub-Project Opportunities",
+    "ASSOCIATED_OPPORTUNITIES": "Associated Opportunities",
+    "ESTIMATED_BENEFIT": "Estimated Benefit",
+    "CANDIDATE_ASSIGNED": "Show Opportunities where I am Candidate",
+    "DUPLICATE_NO_CONTEXT_ACCESS": "You may not have context access to do duplications of the following object(s) "
+}

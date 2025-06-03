@@ -1,0 +1,52 @@
+{
+  "kanban": {
+    "resolutionDate": {
+      "overdue": "Überfällig",
+      "none": "Kein Datum",
+      "today": "Heute",
+      "tomorrow": "Morgen",
+      "week": "Diese Woche",
+      "future": "Zukünftig"
+    },
+    "all": "Alle",
+    "dnd": {
+      "unsupportedPromote": "Probleme können nicht direkt von '{currState}' zu '{state} hochgestuft werden.",
+      "unsupportedDemote": "Probleme können nicht direkt von '{currState}' zu '{state} herabgestuft werden.",
+      "cannotEditClosedIssues": "Einige Probleme sind bereits abgeschlossen und konnten nicht aktualisiert werden.",
+      "placeholder": "Hier ablegen",
+      "notAllSameStatePromote": "Probleme, die nicht denselben Status aufweisen, können nicht hoch-/herabgestuft werden."
+    },
+    "warning": {
+      "closed": "Der Filter zum Anzeigen abgeschlossener Probleme ist nicht ausgewählt.<br>Sie können ihn in Ihren Filtereinstellungen aktivieren."
+    },
+    "tooltips": {
+      "chizu": "Klicken, um die Spalte anzuzeigen:<br> {title}",
+      "leftArrow": "Zur vorherigen Spalte gehen",
+      "rightArrow": "Zur nächsten Spalte gehen"
+    }
+  },
+  "dnd": {
+    "partiallyNotSupported": "Manche Objekte werden nicht unterstützt.",
+    "notSupported": "Dieser Inhaltstyp wird nicht unterstützt. Verwenden Sie die entsprechende App über den Compass, um diesen Inhaltstyp zu öffnen.",
+    "onlyIssues": "Nur Probleme können abgelegt werden.",
+    "dialogTitle": "{number} Objekt(e) {issue} beifügen",
+    "whereToDrop": "Wo möchten Sie diese Objekte anhängen?",
+    "alreadyAttached": "Dieses Objekt wurde dem Problem bereits angehängt.",
+    "attach": "Anhängen",
+    "cancel": "Abbrechen"
+  },
+  "tagger": {
+    "waiting": {
+      "title": "6WTags werden angewendet...",
+      "label": "Ihre Probleme werden auf Grundlage vorheriger 6WTags gefiltert."
+    },
+    "cancel": "Abbrechen"
+  },
+  "error": {
+    "0": {
+      "title": "Dieser Inhalt ist nicht mehr verfügbar.",
+      "subtitle": "Aktualisieren Sie das Widget.",
+      "message": "Das Objekt wurde möglicherweise gelöscht oder Sie haben keinen Zugriff mehr darauf."
+    }
+  }
+}

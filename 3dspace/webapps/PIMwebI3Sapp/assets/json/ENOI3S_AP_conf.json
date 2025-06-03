@@ -1,0 +1,33 @@
+{
+  "afrConfigurations": [
+    {
+      "afrVersion": "0.1",
+      "afrCode": "DS/PIMwebI3Sapp/PIMwebI3SappInit",
+      "afrFamily": "PAD3DViewerFamily",
+      "afrTransitionsFrom": {
+        "ENOI3S_AP": {
+          "type": "CreateNewContainer"
+        }
+      },
+      "afrTransitionsFromFamily": {
+        "PAD3DViewerFamily": {
+          "type": "ReuseContext"
+        }
+      },
+      "afrTransitionsTo": {
+        "_default_": {
+          "type": "CreateNewContainer"
+        }
+      }
+    },
+    {
+      "afrAppId": "ENOI3S_AP",
+      "debug": true,
+      "afrSpecializations": []
+    }
+  ],
+  "afrPreferences": {
+    "repositoryName": "DMUWebAppsRepository",
+    "preferenceName": "ENOI3S_AP_Beta_Version"
+  }
+}

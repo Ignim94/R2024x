@@ -1,0 +1,1 @@
+define("DS/ENOCharacteristicsWebApp/commands/EditColumnSettingsConsView",["DS/ENOCharacteristicsWebApp/commands/EditColumnSettings"],function(t){"use strict";return t.extend({init:function(t){this._parent(t)}})});

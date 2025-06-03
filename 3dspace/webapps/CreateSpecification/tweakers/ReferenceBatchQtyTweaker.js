@@ -1,0 +1,1 @@
+define("DS/CreateSpecification/tweakers/ReferenceBatchQtyTweaker",["DS/WidgetServicesUI/infra/TweakerBase","DS/XSRCommonComponents/components/XPLMNew/tweakers/BatchQtyTweakerView"],function(e,t){"use strict";return e.extend({init:function(e){this._parent(e)},_build:function(e,n){var i=new t({tweakerCtx:this})._buildReferenceBatchQty();n.call(this,i)}})});

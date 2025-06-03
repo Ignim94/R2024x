@@ -1,0 +1,18 @@
+{
+  "cadsubtypefield": "3DEXPERIENCE 类型",
+  "cadtypefield": "CAD 错误",
+  "templatefield": "模板",
+  "managetemplates": "管理模板",
+  "newfromok": "确定",
+  "newfromcancel": "取消",
+  "newfromtemplate": "从模板新建",
+  "msg_success_templatecreate": "模板创建成功。",
+  "msg_success_edittemplate": "模板修改成功。",
+  "msg_error_editmodifyaccess": "您必须具有修改此模板的权限。请验证您的凭据，或联系您的管理员寻求支持。",
+  "msg_success_listtemplate": "模板列表已成功加载",
+  "msg_success_notemplate": "没有可用于此类型的模板",
+  "msg_error_mandfieldempty": "必填字段为空",
+  "msg_error_templateempty": "模板字段为空",
+  "msg_error_cadtypeempty": "CAD 类型字段为空",
+  "mysession_newfromdlg_title": "从模板新建"
+}

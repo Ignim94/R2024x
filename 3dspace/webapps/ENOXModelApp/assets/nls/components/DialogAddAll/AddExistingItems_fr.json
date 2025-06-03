@@ -1,0 +1,7 @@
+{
+  "addExistingLabel": "Ajouter existant",
+  "addExistingContent": "Voulez-vous ajouter toutes les valeurs/options des variantes/groupes d'options sélectionnés ?",
+  "yesLable": "Oui",
+  "noLable": "Non",
+  "checkboxLabel": "Enregistrer mon choix dans Préférences"
+}

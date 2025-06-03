@@ -1,0 +1,52 @@
+{
+  "kanban": {
+    "resolutionDate": {
+      "overdue": "过期",
+      "none": "无数据",
+      "today": "当天",
+      "tomorrow": "明天",
+      "week": "本周",
+      "future": "将来"
+    },
+    "all": "全部",
+    "dnd": {
+      "unsupportedPromote": "无法将问题直接从“{currState}”升级到“{state}”。",
+      "unsupportedDemote": "无法将问题直接从“{currState}”降级到“{state}”。",
+      "cannotEditClosedIssues": "有些问题“已完成”，因此无法更新。",
+      "placeholder": "拖放到此处",
+      "notAllSameStatePromote": "无法升级/降级处于相同状态的问题。"
+    },
+    "warning": {
+      "closed": "未选中要显示“已完成”问题的过滤器。<br>您可以在过滤器首选项中将其激活。"
+    },
+    "tooltips": {
+      "chizu": "单击以显示列：<br> {title}",
+      "leftArrow": "转至上一列",
+      "rightArrow": "转至下一列"
+    }
+  },
+  "dnd": {
+    "partiallyNotSupported": "某些对象不受支持。",
+    "notSupported": "不支持此类内容。请使用罗盘中相应的应用程序打开此类内容。",
+    "onlyIssues": "仅能放置问题。",
+    "dialogTitle": "将 {number} 个对象附加到：{issue}",
+    "whereToDrop": "您想将这些对象附加到哪里？",
+    "alreadyAttached": "此对象已附加到问题。",
+    "attach": "附加",
+    "cancel": "取消"
+  },
+  "tagger": {
+    "waiting": {
+      "title": "正在应用 6WTags...",
+      "label": "将根据之前的 6WTags 过滤您的问题。"
+    },
+    "cancel": "取消"
+  },
+  "error": {
+    "0": {
+      "title": "此内容不再可访问。",
+      "subtitle": "刷新小组件。",
+      "message": "对象可能已被删除，或者您可能不再具有所需的访问权限。"
+    }
+  }
+}

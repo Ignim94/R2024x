@@ -1,0 +1,14 @@
+.sch-tweakers-json {
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: Arial;
+  padding-left: 7px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+  flex: 0 1 auto;
+  word-wrap: normal;
+  word-break: normal; }
+
+.wux-layouts-datagridview-cell .sch-tweakers-json.wux-tweakers:not(.wux-tweakers-labelonly) {
+  display: inline-block; }

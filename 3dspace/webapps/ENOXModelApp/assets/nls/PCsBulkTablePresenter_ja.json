@@ -1,0 +1,21 @@
+{
+  "TotalVariability": "合計バリアビリティ",
+  "TotalProductConfigurations": "合計製品構成",
+  "ConfigurationsLoading": "構成を読み込んでいます",
+  "ConflictComputing": "競合を計算しています",
+  "SuggestionsCoomputing": "提案を計算しています",
+  "GetRuleDetailsError": "ルール情報の取得中にエラーが発生しました。",
+  "CompleteModeNotification": "製品構成は編集され、モードを完了すると保存されます。",
+  "NoUserSelection": "ルール レベル - 完了 - 少なくとも 1 つの値を選択します",
+  "Option": "オプション",
+  "isConflictingWith": "が次のものと競合しています",
+  "andAlsoConflictingWith": "しかも、次のものとも競合しています",
+  "PCSaveSuccessMessage": "構成が正常に保存されました",
+  "PCSaveFailureMessage": "構成の保存に失敗しました",
+  "HighlightDifferences": "違いを強調表示",
+  "UnHighlightDifferences": "違いの高輝度表示を解除",
+  "Enable_Edit": "編集を活動化",
+  "Disable_Edit": "編集を非活動化",
+  "BC_conflict_title": "ベース構成が無効です",
+  "BC_conflict_message": "すべての必須バリアントに、使用可能な値、デフォルト値、または選択された値を少なくとも 1 つ定義してください。"
+}

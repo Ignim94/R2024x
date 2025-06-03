@@ -1,0 +1,9 @@
+{
+  "betaOptions": [
+    {
+      "id": "FUN143768",
+      "title": "Web-Apps als Browser-Registerkarten öffnen",
+      "description": "3DCompass Web-Apps werden in speziellen Registerkarten statt im Dashboard-Voranzeigefenster geöffnet."
+    }
+  ]
+}

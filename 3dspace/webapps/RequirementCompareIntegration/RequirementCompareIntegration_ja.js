@@ -1,0 +1,1 @@
+define("DS/RequirementCompareIntegration/RequirementCompareIntegration_ja",{});define("DS/RequirementCompareIntegration/assets/nls/ReqCompareWidgetNLS",{objectNotSupported:"<h4>オブジェクトがサポートされていません。</h4>",noContentData:"<h4>コンテンツが空です</h4>",noContentToCompare:"<h4>比較するコンテンツがありません</h4>",onlyIn:"次でのみ ",contentPanel:"コンテンツ"});

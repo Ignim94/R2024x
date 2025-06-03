@@ -1,0 +1,19 @@
+{
+	"rootMetaType"				: "dsrsc:Resource",
+	"addPathsToResponse"		: true,
+	"useConceptualNames"		: true,
+	"dsrsc:Resource": {
+		"mask"					: "dsmveno:DefaultBusMask.public",
+		"cestamp"				: true,
+		"fields"				: [ "dsmvrsc:program.getResourceType"
+									]
+	},
+	"dsrsc:ResourceInstance": {
+		"mask"					: "dsmvrsc:ResourceInstanceMask.Common",
+		"cestamp"				: true,
+		"fields"				: [ "dsrsc:instance.parent",
+							"dsrsc:instance.reference" ]
+	}
+
+
+}

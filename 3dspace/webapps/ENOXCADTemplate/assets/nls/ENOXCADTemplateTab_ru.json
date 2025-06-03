@@ -1,0 +1,12 @@
+{
+  "CATIAV5UPS.assembly.label": "Продукт",
+  "CATIAV5UPS.component.label": "Деталь",
+  "CATIAV5UPS.drawing.label": "Чертеж",
+  "CATIAV5UPS.analysis.label": "Анализ",
+  "CATIAV5UPS.analysis.icon": "I_CATAnalysis.png",
+  "CATIAV5CUSTOMUPS.assembly.label": "Продукт",
+  "CATIAV5CUSTOMUPS.component.label": "Деталь",
+  "CATIAV5CUSTOMUPS.drawing.label": "Чертеж",
+  "CATIAV5CUSTOMUPS.analysis.label": "Анализ",
+  "CATIAV5CUSTOMUPS.analysis.icon": "I_CATAnalysis.png"
+}

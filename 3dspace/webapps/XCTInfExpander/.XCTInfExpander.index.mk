@@ -1,0 +1,13 @@
+m|XCTInfrastructureUIWeb\XCTInfExpander.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\XCTInfExpander\XCTInfExpander.css|1685324622|1591
+s|XCTInfrastructureUIWeb\XCTInfExpander.mweb\src\XCTInfExpander.css|1481613831|2024
+t|win_b64\webapps\XCTInfExpander\XCTInfExpander.js|1700692446|819
+s|XCTInfrastructureUIWeb\XCTInfExpander.mweb\src\XCTExpander.js|1532541601|2456
+u|XCTInfrastructureUIWeb\XCTInfExpander.mweb\src\XCTInfExpander.js|1498651340|119
+u|win_b64\code\toolcmds\csscompressor.bat|1685139395|38
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

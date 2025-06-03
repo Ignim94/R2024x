@@ -1,0 +1,1 @@
+define("DS/ENOXCADSearchUtils/ENOXCADSearchUtils_pl",{});define("DS/ENOXCADSearchUtils/assets/nls/XCADSearch",{msg_error_AddinExport:"Błąd podczas dodawania obiektu(-ów) w panelu eksportu.",placeholder_search:"3DSearch..."});

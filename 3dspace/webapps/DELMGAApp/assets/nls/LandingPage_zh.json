@@ -1,0 +1,11 @@
+{
+  "App.Title": "Manufacturing Process Management",
+  "App.Motto": "定义您的制造计划",
+  "Restore.Title": "恢复",
+  "Restore.FontIcon": "字体图标 字体图标重置",
+  "Open.Title": "打开",
+  "Open.FontIcon": "字体图标 字体图标打开",
+  "CreateWorkPlan.Title": "创建工作计划",
+  "CreateWorkPlan.FontIcon": "字体图标 字体图标添加",
+  "DragAndDrop.Title": "打开"
+}

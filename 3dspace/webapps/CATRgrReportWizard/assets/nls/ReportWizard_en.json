@@ -1,0 +1,85 @@
+{
+    "reportSelector": "Select Existing Report",
+    "templateSelector": "Select Compatible Template",
+    "assignInputs": "Edit Parameters",
+    "reportProperties": "Edit Report Properties",
+    "addReport": "Select Template",
+    "templatePlaceholder": "Drop template here",
+    "templatePlaceholderButtonLabel": "Search for template",
+
+    "objects": "Objects",
+    "reports": "Reports",
+    "templateType": "Report Template",
+    "noReportFound": "No compatible report found",
+    "createNew": "Create New...",
+    "official": "Official",
+    "addReports": "At least one input object is required to find reports",
+    "addInputs": "At least one input object is required to find templates",
+    "errorFetchingReports": "Error while fetching compatible reports",
+    
+    "compatibleTemplates" : "Compatible templates",
+    "noTemplateFound": "No compatible template found",
+    "loading": "Loading...",
+    "inputparameter": "Input parameters",
+    "errorFetchingTemplates": "Error while fetching compatible templates",
+    "indexingError": "Indexing of the object is in progress",
+
+    "modifyPanel": "Modify the existing report",
+    "template": "Template:",
+    "templateLabel": "Template",
+    "parameters": "Parameters",
+    "unassignedObjects": "Unassigned objects",
+    "addObjectSingle": "Add object here",
+    "addObjectOptional": "Add object here (optional)",
+    "addObjectList": "Add object here (list)",
+    "realPlaceholder": "Only number/decimals",
+    "integerPlaceholder": "Only numbers", 
+    "emptyTemplate": "The selected template does not require any parameters",
+    "notFoundTemplatePrefix": "Either template linked to ",
+    "notFoundTemplateSuffix": "  is not found or it is in Private State",
+    "reportProceding": "Report is being processed",
+    "NO_FILE_TO_DOWNLOAD": "No file to download, please run a generation before",
+    "Unable_To_Download": "Report Details not found, maybe issue is with Template or Target Document",
+    "downloadReport": "Download report",
+    "generationFailed": "Generation failed",
+    "not_generated_yet": "Not generated yet",
+    "regenerateTooltip": "The last generation of the report is failed, try generating it from main grid",
+    "yetToGenerateToolTip": "The report is not generated at least once, generate it from main grid",
+    "generationStatusFailed": "Failed to generate report",
+    "createReportFailed": "Failed to Create/Modify report",
+    "downloadTargetError": "Target document not found",
+
+    "name": "Name",
+    "action": "Action",
+    "title": "Title",
+    "type": "Type",
+    "description": "Description",
+    "revision": "Revision",
+    "owner": "Owner",
+    "outputFormat": "Output format",
+    "targetDocument": "Target document",
+    "configurationFilter": "Configuration Filter",
+    "score": "Score",
+    "creationDate": "Creation Date",
+
+    "openMvSearchTitle": "Select an Output Format",
+
+    "newReportButton": "New Report",
+    "previousButton": "Previous",
+    "nextButton": "Next",
+    "cancelButton": "Cancel",
+    "createButton": "Create",
+    "addButton": "Add",
+    "applyButton": "Apply",
+    "generateButton": "Generate",
+
+    "target_document": "targetDocument",
+    "outputformat": "outputFormat",
+    "outputformatType": "Report Output Format"
+
+
+
+    
+
+    
+}

@@ -1,0 +1,14 @@
+{
+	"WelcomeScreen.Title": "Report Generation",
+    "WelcomeScreen.linksCategories.ContentAndKnowledge": "Content & Knowledge",
+    "WelcomeScreen.linksCategories.SocialNetworks": "Social Networks",
+    "WelcomeScreen.ContentAndKnowledge.linkText": "User Assistance",
+	"WelcomeScreen.WhatsNew.linkText": "What's New",
+    "WelcomeScreen.SocialNetworks.linkText": "Communities",
+    "WelcomeScreen.Buttons.AddReport": "Add Report",
+    "WelcomeScreen.Buttons.Open": "Open Reports",
+    "WelcomeScreen.Buttons.Reports": "Reports",
+    "WelcomeScreen.Buttons.OutputFormats": "Output Formats",
+    "WelcomeScreen.InvalidFileFormat": "Invalid file format"
+}
+

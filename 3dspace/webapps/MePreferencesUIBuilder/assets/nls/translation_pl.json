@@ -1,0 +1,20 @@
+{
+  "Preferences.Title": "Preferencje",
+  "3DSApp.TECMEPA_AP": "Wspólne",
+  "SaveButton.Label": "Zapisz",
+  "ResetButton.Label": "Resetuj",
+  "PreferencesTab.Title": "Preferencje",
+  "CollectionViewLabel.Label": "Domyślne",
+  "CollectionViewDescription.Label": "",
+  "AdminSaveSuccessNotification.Label": "Domyślne ustawienia profilu zostały zapisane",
+  "AdminSaveFailureNotification.Label": "Coś poszło nie tak",
+  "AdminNotification.Title": "Profil domyślny został zmodyfikowany",
+  "AdminNotification.SubTitle": "Można załadować ponownie, aby uzyskać zmodyfikowane preferencje.\n Niektóre modyfikacje mogą zostać utracone.\n W przypadku zapisania modyfikacje zastąpią bieżący profil.",
+  "adminUserNotification.SubTitle": "W przypadku zapisania niektóre modyfikacje mogą nie zostać uwzględnione.",
+  "adminUserNotification.Title": "Preferencje są modyfikowane przez administratora",
+  "userNotification.Title": "Preferencje są modyfikowane z innego miejsca.",
+  "reset.Title": "Zresetuj profil",
+  "reset.SubTitle": "Czy chcesz zresetować wszystkie preferencje dla tego profilu?",
+  "AdminSaveReqEmptyNotification.Label": "Brak danych do zapisania",
+  "AdminPartialSaveNotification.Label": "Preferencje zostały częściowo zapisane"
+}

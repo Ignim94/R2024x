@@ -1,0 +1,35 @@
+{
+  "CMDExpandAll": "Expandir todo",
+  "CMDCollapseAll": "Contraer todo",
+  "plmnew_management": "PLM nuevo",
+  "multiSelectionComponent": {
+    "button_OK": "Agregar",
+    "button_Cancel": "Cancelar",
+    "widget_name": "",
+    "msg_ClassifyInProgress": "Agregar…",
+    "msg_ClassifySuccessful": "Se ha agregado correctamente.",
+    "msg_ClassifyFailed": "Se ha producido un error durante la adición",
+    "msg_selectNodeToSeeInfo": "Seleccione un nodo de exploración para ver sus detalles."
+  },
+  "loader": {
+    "findingObjects": "Buscar..."
+  },
+  "error_association_service": "Error del servicio",
+  "loading": "Cargando…",
+  "error_run_command": "Error al ejecutar el comando",
+  "error_command_selection": "El comando no está disponible para la selección.",
+  "tooltip_selection_rows_invalid": "Algunas filas seleccionadas no son compatibles.",
+  "tooltip_selecion_terms_invalid": "Solo puede seleccionar un nodo de exploración en una estructura de exploración.",
+  "tooltip_selection_empty": "La selección está vacía.",
+  "tooltip_selection_no_changes": "La selección no ha cambiado.",
+  "tooltip_browse": "Examinar",
+  "save": "Guardar",
+  "cancel": "Cancelar",
+  "ExportControlApp": "Control de exportación de IP",
+  "LibraryApp": "Bibliotecas",
+  "BookmarksApp": "Marcadores",
+  "classificationFailure_title": "Habilite esta opción para clasificar completamente el nuevo \"{plmnewtype}\".",
+  "classificationFailure_subtitle": "El \"{plmnewtype}\" se ha creado correctamente, pero no se ha podido clasificar automáticamente.",
+  "classificationFailure_message": "Es posible que tenga que comprobar en cada aplicación de clasificación si está clasificado o no e intentar clasificarlo",
+  "classificationSuccessMessage": "El \"{plmnewtype}\" se ha clasificado correctamente"
+}

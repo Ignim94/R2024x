@@ -1,0 +1,1 @@
+define("DS/CATRelatedData3DGrid/CATRelatedData3DGrid_it",{});define("DS/CATRelatedData3DGrid/assets/nls/CATRelatedData3DGrid",{lblOk:"OK",lblApply:"Applica",lblClose:"Chiudi",lblPitch:"Passo",lblDirection1:"Etichetta prima direzione",lblDirection2:"Etichetta seconda direzione",lblDirection3:"Etichetta terza direzione"});

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:widget="http://www.netvibes.com/ns/">
+<!-- Copyright 2016 , Dassault Systemes. All rights reserved. -->
+<head>
+
+<title>ENOVIA XCAD Import</title>
+
+<!-- Application Metas Start -->
+
+<meta name="description" content="ENOVIA XCAD Import" />
+<meta name="brand" content="ENOVIA" />
+
+<!-- Application Metas End -->
+
+<!-- AMDLoader -->
+<script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+
+<!-- UWA -->
+<link rel="stylesheet" type="text/css" href="./ENOXCADImport.css" />
+<link rel="stylesheet" type="text/css"
+	href="../c/UWA/assets/css/standalone.css" />
+<script type="text/javascript" src="../c/UWA/js/UWA_Standalone_Alone.js"></script>
+<link rel="stylesheet" type="text/css" href="../UIKIT/UIKIT.css" />
+<script type="text/javascript" src="../UIKIT/UIKIT.js"></script>
+<script type="text/javascript" src="../WebUX/WebUX.js"></script>
+
+<!--Application Javascript -->
+<script type="text/javascript">
+    require(
+	    [ 'DS/ENOXCADUtils/utils/XCADModelEvents',
+		'DS/ENOXCADImport/ENOXCADImport'
+	    ],
+	    function(XCADModelEvents,
+		    	ENOXCADImport,
+		    ) {
+		'use strict';
+
+		var importWidget = {
+
+			onLoad : function() {
+			    ENOXCADImport.onLoad();
+
+			    // Listen on webinwin:notification from Win and forward to Web
+			    function receivedString(message) {
+				XCADModelEvents.publish({
+				    event : 'webinwin:win:notification',
+				    data : message
+				});
+			    }
+
+			    if (window) {
+				window.receivedString = receivedString;
+			    }
+		    },
+		    onRefresh : function() {
+				console.log('onRefresh');
+		    },
+		    onKeyboardAction : function(key) {
+				console.log('onKeyboardAction:' + ' / ' + key);
+			},
+			onSearch : function(query) {
+				console.log("Widget onSearch" + query);
+			},
+			onResetSearch : function() {
+				console.log("Widget onResetSearch");
+			}
+		};
+
+		widget.addEvent('onLoad', importWidget.onLoad);
+		widget.addEvent('onRefresh', importWidget.onRefresh);
+		widget.addEvent('onKeyboardAction', importWidget.onKeyboardAction);
+		widget.addEvent('onSearch', importWidget.onSearch);
+		widget.addEvent('onResetSearch', importWidget.onResetSearch);
+	    });
+</script>
+
+</head>
+<body>
+	<div class="spinner spinner-lg spinning fade in"
+		style="transform: translate3d(0px, 0px, 0px); display: inline-block; margin-top: 20%; margin-left: 45%;">
+		<span class="spinner-bar"></span> <span
+			class="spinner-bar spinner-bar1"></span> <span
+			class="spinner-bar spinner-bar2"></span> <span
+			class="spinner-bar spinner-bar3"></span>
+	</div>
+</body>
+</html>

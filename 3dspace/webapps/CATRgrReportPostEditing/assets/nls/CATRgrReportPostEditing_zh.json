@@ -1,0 +1,9 @@
+{
+  "button_ProduceFinalReport": "生成最终报告",
+  "button_SavePostEditing": "保存以供后续使用",
+  "message_ReallyQuit": "当前工作可能会丢失，是否要继续？",
+  "message_ReportDocumentReservedBy": "目标文档当前由 {0} 保留",
+  "title_PostEditing": "后编辑",
+  "title_ReallyQuit": "退出后编辑",
+  "targetDocumentError": "目标文档存在问题"
+}

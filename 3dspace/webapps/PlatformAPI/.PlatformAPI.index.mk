@@ -1,0 +1,9 @@
+m|WebappsUtils\PlatformAPI.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.4.24135|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\PlatformAPI\PlatformAPI.js|1715720945|5089
+s|WebappsUtils\PlatformAPI.mweb\src\PlatformAPI.js|1715710955|25611
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

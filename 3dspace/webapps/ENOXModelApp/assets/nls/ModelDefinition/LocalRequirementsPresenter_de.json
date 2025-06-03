@@ -1,0 +1,23 @@
+{
+  "_create": "Neu",
+  "_delete": "Entfernen",
+  "_information": "Informationen",
+  "_item": "Element",
+  "_contentFacet": "Inhalt",
+  "_new_requirement": "Neue Anforderung",
+  "_error_get_req": "Fehler beim Abrufen der Anforderungen",
+  "_error_create_req": "Fehler beim Erstellen der Anforderungen",
+  "_error_remove_req": "Fehler beim Entfernen der Anforderungen",
+  "_req_update_succ": "Anforderungsinhalt erfolgreich aktualisiert",
+  "_error_req_update": "Fehler beim Aktualisieren der Anforderung",
+  "_error_req_content_load": "Fehler beim Laden der Anforderung",
+  "_error_add_existing": "Fehler beim Anhängen der Anforderung",
+  "_priority": "Priorität",
+  "_sequence_order": "Sequenzreihenfolge",
+  "_add_existing": "Vorhand. hinzufügen",
+  "priority_preAssigned": "Voreingestellt",
+  "priority_low": "Niedrig",
+  "priority_medium": "Mittel",
+  "priority_high": "Hoch",
+  "priority_urgent": "Dringend"
+}

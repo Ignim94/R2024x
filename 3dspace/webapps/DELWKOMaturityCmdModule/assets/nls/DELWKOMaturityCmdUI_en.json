@@ -1,0 +1,7 @@
+{
+  "title" : "Maturity graph",
+  "info" : "Select the maturity state you want to transition to",
+  "ChangeMaturity" : "Change maturity graph",
+  "Success" : "Change maturity succeeded",
+  "Fail" : "Change maturity failed"
+}

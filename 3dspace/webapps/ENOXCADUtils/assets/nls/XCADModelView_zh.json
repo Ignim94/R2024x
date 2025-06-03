@@ -1,0 +1,28 @@
+{
+  "ImportView": "导入数据",
+  "Loader": "请稍候",
+  "xcad.ui.button.ok": "确定",
+  "xcad.ui.button.cancel": "取消",
+  "BrowseDialogTitle": "选择 3DDrive 文件夹",
+  "myfiles": "我的文件",
+  "sharedwithme": "已与我共享",
+  "OKButton": "确定",
+  "Tenant1": {
+    "service": {
+      "platformId": "Tenant1",
+      "url": "http://localhost:8081/fake_3DDrive_TenantURL"
+    },
+    "name": "DS - ODT_Tenant1"
+  },
+  "Tenant2": {
+    "service": {
+      "platformId": "Tenant2",
+      "url": "http://localhost:8081/fake_3DDrive_TenantURL"
+    },
+    "name": "DS - ODT_Tenant2"
+  },
+  "search_previous": "上一步",
+  "search_next": "前进",
+  "search_all": "选择所有匹配的项目",
+  "search_close": "关闭"
+}

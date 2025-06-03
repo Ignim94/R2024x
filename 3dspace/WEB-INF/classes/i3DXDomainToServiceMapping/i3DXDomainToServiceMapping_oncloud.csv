@@ -1,0 +1,39 @@
+# @Author		: VZO
+# @Created on	: 2023-06-12
+# @Description	: This file contains the mapping required by the Cross Service Links' (CSL) project.
+# @Environment	: Cloud
+# @Note			: Lines starting with "#" will be ignored by the service.
+# @Usage		: This is a csv file and is meant to contains at least 3 columns ordered as follow
+#				  	- Domain		(example: ProductStructure, POST, DirectMessage, Project, MBSE)
+#					- Service		(example: As defined in registry: 3DCOMPASS, 3dnotifications, 3DDashboard, 3DSpace, 3DSwym, 3dportfolio, 3DPASSPORT)
+#					- Relative Path (example: /resource/v1/mbse/fetch)
+# @Example		: DirectMessage,3DSwym,/resource/v1/swym/fetch,...
+
+
+########## HEADER (DO NOT REMOVE) ##########
+Domain,Service,RelativePath
+################ HEADER END ################
+
+# MBSE
+Magic,3DSpace
+Stimulus,3DSpace
+Dymola,3DSpace
+ControlBuild,3DSpace
+MBSE,mbseapps,/resources/v1/modeler/mbse/i3dx/fetch
+
+# SWYM
+Community,3DSwym
+Post,3DSwym
+RichMedia,3DSwym
+Question,3DSwym
+WikitreePage,3DSwym
+Idea,3DSwym
+
+# 3DPlan
+3dplan,3dplan
+
+# Portfolio
+Portfolio,3DPortfolio
+
+# BIOVIA Material
+Material,materials

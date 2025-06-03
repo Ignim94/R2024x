@@ -1,0 +1,1 @@
+define("DS/XAppUXComponents/XAppUXComponents_ja",{});define("DS/XAppUXComponents/assets/nls/XAppTopBar",{XAppTopBar:{Share:{SaveDocument:"ドキュメントを保存します"}}});define("DS/XAppUXComponents/assets/nls/XAppWaitingBar",{"WaitingBar.Stop":"停止"});define("DS/XAppUXComponents/assets/nls/XAppWelcomeScreenIntegrator",{"SwitchAppBtn.Hover":"アプリケーションの切り替え"});

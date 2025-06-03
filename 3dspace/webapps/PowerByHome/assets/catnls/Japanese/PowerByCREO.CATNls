@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+PowerByCREO.XSCViews.Title="ビュー";
+PowerByCREO.XSCTools.Title="ツール";
+PowerByCREO.Lifecycle.Title="ライフサイクル";
+PowerByCREO.Collaboration.Title="コラボレーション";
+PowerByCREO.SaveSession.Title="アクティブ ウィンドウを保存";
+PowerByCREO.RefreshHome.Title="リフレッシュ";
+PowerByCREO.ReloadAll.Title="すべてを再ロード";
+PowerByCREO.ReserveHdr.Title="ロック";
+PowerByCREO.UnreserveHdr.Title="ロック解除";
+PowerByCREO.PropertiesHdr.Title="プロパティ";
+PowerByCREO.ReplaceByRevisionHdr.Title="リビジョンで置換";
+PowerByCREO.ReloadFromServerHdr.Title="サーバーから再ロード";
+PowerByCREO.RelationIPExplorer.Title="関係";
+PowerByCREO.OptionsHdr.Title="オプション...";
+PowerByCREO.View.Title="ビュー";
+PowerByCREO.Tools.Title="ツール";

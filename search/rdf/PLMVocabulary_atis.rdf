@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+  <!ENTITY ds6w "http://www.3ds.com/vocabularies/ds6w#" >
+]>
+
+<rdf:RDF
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ds6w="http://www.3ds.com/vocabularies/ds6w#"
+  xmlns:atis="http://www.3ds.com/vocabularies/atis/"
+  xml:base="http://www.3ds.com/vocabularies/atis/">
+
+<owl:Ontology rdf:about="http://www.3ds.com/vocabularies/atis/">
+	<rdfs:label xml:lang="en">ATIS CUSTOM vocabularies</rdfs:label>
+	<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATIS CUSTOM for 6W tags.</rdfs:comment>
+	<owl:imports rdf:resource="ds6w">R2024x</owl:imports>
+	<owl:versionInfo>R2024x</owl:versionInfo>
+</owl:Ontology>
+
+<!-- ProjectStartDate : (date:when)-->
+<owl:DatatypeProperty rdf:about="cmgProjectEstStartDate">
+	<rdfs:label xml:lang="en">Project Estimated Start Date</rdfs:label> 
+	<rdfs:subPropertyOf rdf:resource="&ds6w;when"/> 
+	<rdfs:range rdf:resource="&xsd;datetime"/> 
+	<rdfs:comment xml:lang="en">Project Estimated Start Date</rdfs:comment> 
+</owl:DatatypeProperty>
+<!--SubtaskCount : (int:what)-->
+<owl:DatatypeProperty rdf:about="cmgSubtaskCount">
+	<rdfs:label xml:lang="en">Project SubtaskCount</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+	<rdfs:range rdf:resource="&xsd;int"/>
+	<rdfs:comment xml:lang="en">Project SubtaskCount</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgProjectName">
+	<rdfs:label xml:lang="en">Project Name</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+	<rdfs:comment xml:lang="en">cmgProjectName</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgProjectEstFinishDate">
+	<rdfs:label xml:lang="en">Project Estimated Finish Date</rdfs:label> 
+	<rdfs:subPropertyOf rdf:resource="&ds6w;when"/> 
+	<rdfs:range rdf:resource="&xsd;datetime"/> 
+	<rdfs:comment xml:lang="en">Project Estimated Finish Date</rdfs:comment> 
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgProjectActStartDate">
+	<rdfs:label xml:lang="en">Project Actual Start Date</rdfs:label> 
+	<rdfs:subPropertyOf rdf:resource="&ds6w;when"/> 
+	<rdfs:range rdf:resource="&xsd;datetime"/> 
+	<rdfs:comment xml:lang="en">Project Actual Start Date</rdfs:comment> 
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgProjectActFinishDate">
+	<rdfs:label xml:lang="en">Project Actual Finish Date</rdfs:label> 
+	<rdfs:subPropertyOf rdf:resource="&ds6w;when"/> 
+	<rdfs:range rdf:resource="&xsd;datetime"/> 
+	<rdfs:comment xml:lang="en">Project Actual Finish Date</rdfs:comment> 
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgProjectCurrentPhase">
+	<rdfs:label xml:lang="en">Project CurrentPhase</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+	<rdfs:comment xml:lang="en">Project CurrentPhase</rdfs:comment>
+</owl:DatatypeProperty>
+
+<!-- Task  -->
+<owl:DatatypeProperty rdf:about="cmgTaskName">
+	<rdfs:label xml:lang="en">Task Name</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+	<rdfs:comment xml:lang="en">Task Name</rdfs:comment>
+</owl:DatatypeProperty>
+
+
+<owl:DatatypeProperty rdf:about="cmgTaskestimatedStart">
+	<rdfs:label xml:lang="en">Task Estimated Start Date</rdfs:label> 
+	<rdfs:subPropertyOf rdf:resource="&ds6w;when"/> 
+	<rdfs:range rdf:resource="&xsd;datetime"/> 
+	<rdfs:comment xml:lang="en">Task Estimated Start Date</rdfs:comment> 
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgTaskestimatedEnd">
+	<rdfs:label xml:lang="en">Task Estimated Finish Date</rdfs:label> 
+	<rdfs:subPropertyOf rdf:resource="&ds6w;when"/> 
+	<rdfs:range rdf:resource="&xsd;datetime"/> 
+	<rdfs:comment xml:lang="en">Task Estimated Finish Date</rdfs:comment> 
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgTaskactualStart">
+	<rdfs:label xml:lang="en">Task Actual Start Date</rdfs:label> 
+	<rdfs:subPropertyOf rdf:resource="&ds6w;when"/> 
+	<rdfs:range rdf:resource="&xsd;datetime"/> 
+	<rdfs:comment xml:lang="en">Task Actual Start Date</rdfs:comment> 
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgTaskactualEnd">
+	<rdfs:label xml:lang="en">Task Actual Finish Date</rdfs:label> 
+	<rdfs:subPropertyOf rdf:resource="&ds6w;when"/> 
+	<rdfs:range rdf:resource="&xsd;datetime"/> 
+	<rdfs:comment xml:lang="en">Task Actual Finish Date</rdfs:comment> 
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="cmgTaskestimatedDuration">
+  <rdfs:label xml:lang="en">Task Estimated Duration</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="&ds6w;when"/> 
+  <rdfs:range rdf:resource="&xsd;double"/>
+  <rdfs:comment xml:lang="en">Task Estimated Duration</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgTaskactualDuration">
+  <rdfs:label xml:lang="en">Task Actual Duration</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="&ds6w;when"/> 
+  <rdfs:range rdf:resource="&xsd;double"/>
+  <rdfs:comment xml:lang="en">Task Actual Duration</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="cmgTaskAssignee">
+	<rdfs:label xml:lang="en">Task Assignee</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;who"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+	<rdfs:comment xml:lang="en">Task Assignee</rdfs:comment>
+</owl:DatatypeProperty>
+
+<!-- Person -->
+<owl:DatatypeProperty rdf:about="cmgPersonFullName">
+	<rdfs:label xml:lang="en">Person FullName</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;who"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+	<rdfs:comment xml:lang="en">Person FullName</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgPersonPhoneNumber">
+	<rdfs:label xml:lang="en">Person PhoneNumber</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+	<rdfs:comment xml:lang="en">Person PhoneNumber</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgPersonEmail">
+	<rdfs:label xml:lang="en">Person PersonEmail</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+	<rdfs:comment xml:lang="en">Person PersonEmail</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgPersonWorkingTask">
+	<rdfs:label xml:lang="en">Person WorkingTask</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+	<rdfs:range rdf:resource="&xsd;int"/>
+	<rdfs:comment xml:lang="en">Person WorkingTask</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgPersonLicense">
+	<rdfs:label xml:lang="en">Person PersonLicense</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+	<rdfs:comment xml:lang="en">Person PersonLicense</rdfs:comment>
+</owl:DatatypeProperty>
+
+<!-- Document-->
+<owl:DatatypeProperty rdf:about="cmgDocumentName">
+	<rdfs:label xml:lang="en">Document Name</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+	<rdfs:comment xml:lang="en">Document Name</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgDocumentIsRock">
+	<rdfs:label xml:lang="en">Document IsRock</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+	<rdfs:comment xml:lang="en">Document IsRock</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgDocumentFileName">
+	<rdfs:label xml:lang="en">Document FileName</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+	<rdfs:comment xml:lang="en">Document FileName</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgDocumentFileCount">
+	<rdfs:label xml:lang="en">Document FileCount</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+	<rdfs:range rdf:resource="&xsd;int"/>
+	<rdfs:comment xml:lang="en">Document FileCount</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="cmgDocumentWhereUsed">
+	<rdfs:label xml:lang="en">Document WhereUsed</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+	<rdfs:range rdf:resource="&xsd;int"/>
+	<rdfs:comment xml:lang="en">Document WhereUsed</rdfs:comment>
+</owl:DatatypeProperty>
+
+</rdf:RDF>

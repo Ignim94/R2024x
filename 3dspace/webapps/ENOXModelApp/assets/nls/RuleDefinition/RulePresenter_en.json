@@ -1,0 +1,12 @@
+{
+  "_variability_dictionary": "Variability Dictionary",
+  "UPDATE_RULE_FAILED" : "Error while updating the Rule!",
+  "UPDATE_RULE_SUCCESSFUL" : "Rule update successful.",
+  "CONFLICT_HIDDEN" : "Conflict detected hidden by filter",
+  "UPGRADE_FILTER"	: "Filter has been reset, you can use the new filterning capabilities.",
+  "MODEL_VERSION_VARIABILITY": "Model Version Variability",
+  "ADD_CRITERIA": "Add Criteria",
+  "TIME_OUT_SESSION": "You session have been expired. Please reload the Model Version",
+  "SERVICE_OUT" : "Error to perform the request. Please reload the Model Version. If the error persists, please contact your administrator",
+  "LOCKED_INFO_ALERT":"The object is locked by "
+}

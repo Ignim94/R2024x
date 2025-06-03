@@ -1,0 +1,12 @@
+{
+  "alreadyOrderedElseWhere": "Již mám objednáno přes jiný kanál / jiného dodavatele",
+  "doNotWishToSay": "Nepřeji si uvádět",
+  "doNotDeliverToThisCountry": "Do této země nedoručujeme",
+  "doNotProvideThisService": "Tento druh služeb neposkytujeme",
+  "onlyWantedQuote": "Prozatím mě zajímala pouze cenová nabídka",
+  "other": "Jiné",
+  "partTooLargeTooComplex": "Díl je příliš velký nebo příliš složitý",
+  "priceTooHigh": "Cena je příliš vysoká",
+  "requestLeadTimeTooShort": "Požadovaná doba realizace je příliš krátká",
+  "cancellationReason": "Důvod zrušení: {reason}"
+}

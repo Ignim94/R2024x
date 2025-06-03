@@ -1,0 +1,186 @@
+{
+  "CustoAliasDefinitions":  [
+	{
+		"desc": "The default column",
+		"aliasId": "The_Default_Columns",
+		"viewDefinition": [
+			{
+				"uri":"ds6w:type",
+				"width": "auto"
+			},
+			{
+				"uri":"ds6w:originator",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgProjectName",
+				"width": "auto"
+			},
+			{
+				"uri":"ds6w:isLastRevision",
+				"width": "auto"
+			}
+		]
+	},
+	{
+		"desc": "Project Space",
+		"aliasId":"alias.ProjectSpace",
+		"viewDefinition":[
+			{
+				"uri":"atis:cmgProjectName",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgProjectEstStartDate",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgProjectEstFinishDate",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgProjectActStartDate",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgProjectActFinishDate",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgProjectCurrentPhase",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgSubtaskCount",
+				"width": "auto"
+			}
+			
+		]
+	},
+	{
+		"desc": "Task",
+		"aliasId":"alias.Task",
+		"viewDefinition":[
+			{
+				"uri":"atis:cmgtaskname",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgTaskactualStart",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgTaskestimatedEnd",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgTaskactualStart",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgTaskactualEnd",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgTaskestimatedDuration",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgTaskactualDuration",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgTaskAssignee",
+				"width": "auto"
+			},
+			{
+				"uri":"ds6w:state",
+				"width": "auto"
+			}
+		]
+	},
+	{
+		"desc": "Person",
+		"aliasId":"alias.Person",
+		"viewDefinition":[
+			{
+				"uri":"atis:cmgPersonFullName",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgPersonPhoneNumber",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgPersonEmail",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgPersonWorkingTask",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgPersonLicense",
+				"width": "auto"
+			},
+			{
+				"uri":"ds6w:state",
+				"width": "auto"
+			}
+		]
+	}
+	,{
+		"desc": "Document",
+		"aliasId":"alias.Document",
+		"viewDefinition":[
+			{
+				"uri":"atis:cmgDocumentName",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgDocumentIsRock",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgDocumentFileName",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgDocumentFileCount",
+				"width": "auto"
+			},
+			{
+				"uri":"atis:cmgDocumentWhereUsed",
+				"width": "auto"
+			},
+			{
+				"uri":"ds6w:state",
+				"width": "auto"
+			}
+		]
+	}
+ ],
+ 
+  "SearchColumnCustoAdminDefinition": [
+  	{
+	  	"viewId": "###The_Default_Columns",
+	  	"custoAliasToUse": "The_Default_Columns"
+  	},
+  	{
+	  	"viewId": "###project",
+	  	"custoAliasToUse":"alias.ProjectSpace"
+  	},
+  	{
+	  	"viewId": "###ta",
+	  	"custoAliasToUse":"alias.Task"
+  	},
+  	{
+	  	"viewId": "###pe",
+	  	"custoAliasToUse":"alias.Person"
+  	},
+  	{
+	  	"viewId": "###docc",
+	  	"custoAliasToUse":"alias.Document"
+  	}
+  ]
+}

@@ -1,0 +1,80 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "type"
+			},
+			{
+			    "name":"Title",
+			    "status": "RW"
+			},
+			{
+				"name": "name",
+				"status": "R"
+			},
+			{
+				"name": "revision"
+			},
+			{
+				"name": "description",
+				"status": "RW"
+			},
+			{
+				"name": "current"
+			},
+			{
+				"name": "originated"
+			},
+			{
+				"name": "modified"
+			},
+			{
+				"name": "owner"
+			},
+			{
+				"name": "organization"
+			},
+			{
+				"name": "project"
+			},
+			{
+				"name": "SRCQUALIFICATION.Preferred",
+				"status": "RW"
+			},
+			{
+				"name": "SRCQUALIFICATION.Approved",
+				"status": "RW"
+			},
+			{
+				"name": "SRCQUALIFICATION.Comments",
+				"status": "RW"
+			},
+			{
+				"name": "SRCQUALIFICATION.Restriction",
+				"status": "RW"
+			},
+			{
+				"name": "SRCQUALIFICATION.SRCEffectivityStartDate",
+				"status": "RW"
+			},
+			{
+				"name": "SRCQUALIFICATION.SRCEffectivityEndDate",
+				"status": "RW"
+			}
+		]
+	},
+	"details": {
+		"attributes": {
+			"description": {
+				"forbiddenChar": ".\\/#,[]$^@*?%:'\"<>;|"
+			},
+			"SRCQUALIFICATION.Comments": {
+				"forbiddenChar": ".\\/#,[]$^@*?%:'\"<>;|"
+			},
+			"Title": {
+				"mandatory": true
+			}
+		}
+	},
+	"revision": "0"
+}

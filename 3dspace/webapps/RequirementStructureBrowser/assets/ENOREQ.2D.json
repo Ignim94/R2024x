@@ -1,0 +1,16 @@
+{
+    "defaultCellHeight": 38,
+    "iconsSize": 20,
+    "height": "auto",
+    "useAsyncPreExpand": true,
+    "isEditable": true,
+    "alternateRowColor": true,
+    "resize": {
+        "columns": true
+    },
+    "headersDimensions": {
+        "height": 38
+    },
+    "pad_columns": [
+    ]
+}

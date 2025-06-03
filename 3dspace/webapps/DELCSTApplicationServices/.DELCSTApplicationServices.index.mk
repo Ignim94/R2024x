@@ -1,0 +1,12 @@
+m|DELCSTApp\DELCSTApplicationServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.7.24222|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELCSTApplicationServices\DELCSTApplicationServices.js|1723253198|13434
+s|DELCSTApp\DELCSTApplicationServices.mweb\src\Commands\CommandsService.js|1719911890|26351
+u|DELCSTApp\DELCSTApplicationServices.mweb\src\LayoutConfig.js|1698766300|364
+u|DELCSTApp\DELCSTApplicationServices.mweb\src\LayoutService.js|1722434749|8164
+u|DELCSTApp\DELCSTApplicationServices.mweb\src\Services.js|1698742390|509
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

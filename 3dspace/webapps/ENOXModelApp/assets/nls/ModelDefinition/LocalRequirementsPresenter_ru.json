@@ -1,0 +1,23 @@
+{
+  "_create": "Создать",
+  "_delete": "Удалить",
+  "_information": "Информация",
+  "_item": "элемент",
+  "_contentFacet": "Содержимое",
+  "_new_requirement": "Новое требование",
+  "_error_get_req": "Ошибка при получении требований",
+  "_error_create_req": "Ошибка при создании требования",
+  "_error_remove_req": "Ошибка при удалении требований",
+  "_req_update_succ": "Содержимое требования успешно обновлено",
+  "_error_req_update": "Ошибка при обновлении требования",
+  "_error_req_content_load": "Ошибка при загрузке требования",
+  "_error_add_existing": "Ошибка при присоединении требования",
+  "_priority": "Приоритет",
+  "_sequence_order": "Порядок последовательности",
+  "_add_existing": "Добавить существующие",
+  "priority_preAssigned": "Предварительно назначенный",
+  "priority_low": "Низкий",
+  "priority_medium": "Средний",
+  "priority_high": "Высокий",
+  "priority_urgent": "Срочный"
+}

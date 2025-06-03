@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySOLIDWORKS_dataexchange.XSCViews.Title="Ver";
+PowerBySOLIDWORKS_dataexchange.XSCTools.Title="Herramientas";
+PowerBySOLIDWORKS_dataexchange.Lifecycle.Title="Ciclo de vida";
+PowerBySOLIDWORKS_dataexchange.SaveSession.Title="Guardar ventana activa";
+PowerBySOLIDWORKS_dataexchange.SaveSessionAsNew.Title="Guardar ventana activa como nueva";
+PowerBySOLIDWORKS_dataexchange.ShareAsPicture.Title="Publicar como imagen";
+PowerBySOLIDWORKS_dataexchange.ShareAs3D.Title="Publicar como 3D";
+PowerBySOLIDWORKS_dataexchange.RefreshHome.Title="Actualizar";
+PowerBySOLIDWORKS_dataexchange.ReloadAll.Title="Recargar todo";
+PowerBySOLIDWORKS_dataexchange.ReserveHdr.Title="Bloquear";
+PowerBySOLIDWORKS_dataexchange.UnreserveHdr.Title="Desbloquear";
+PowerBySOLIDWORKS_dataexchange.PropertiesHdr.Title="Propiedades";
+PowerBySOLIDWORKS_dataexchange.GetRevisionHdr.Title="Obtener revisión";
+PowerBySOLIDWORKS_dataexchange.ReplaceByRevisionHdr.Title="Reemplazar por revisión";
+PowerBySOLIDWORKS_dataexchange.ReplaceByLatestRevisionHdr.Title="Reemplazar por revisión más reciente";
+PowerBySOLIDWORKS_dataexchange.UpdateRevisionsHdr.Title="Actualizar revisiones";
+PowerBySOLIDWORKS_dataexchange.RevisionsHdr.Title="Revisiones";
+PowerBySOLIDWORKS_dataexchange.ReloadFromServerHdr.Title="Recargar desde el servidor";
+PowerBySOLIDWORKS_dataexchange.ReplaceContentHdr.Title="Reemplazar contenido";
+PowerBySOLIDWORKS_dataexchange.RelationIPExplorer.Title="Relaciones";
+PowerBySOLIDWORKS_dataexchange.OptionsHdr.Title="Opciones…";
+
+PowerBySOLIDWORKS_dataexchange.View.Title="Ver";
+PowerBySOLIDWORKS_dataexchange.Tools.Title="Herramientas";
+PowerBySOLIDWORKS_dataexchange.XCADExport.Title="Exportación de X-CAD";
+PowerBySOLIDWORKS_dataexchange.XCADImport.Title="Importación de X-CAD";

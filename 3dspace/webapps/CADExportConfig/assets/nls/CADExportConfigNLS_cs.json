@@ -1,0 +1,53 @@
+{
+  "cadexportconfig.text.title": "Název",
+  "cadexportconfig.toggle.drawing": "Zahrnout výkres",
+  "cadexportconfig.error.root3dexp.v5selected": {
+    "title": "Objekt 3DEXPERIENCE nelze exportovat",
+    "subtitle": "Vyberte platné cílové umístění exportu."
+  },
+  "cadexportconfig.error.3dexpselected": {
+    "title": "Nelze exportovat objekt 3DEXPERIENCE",
+    "subtitle": "Vyberte platný obsah."
+  },
+  "cadexportconfig.error.rolesmatch": {
+    "title": "K exportu obsahu musíte mít oprávnění.",
+    "subtitle": "Zkontrolujte své přihlašovací údaje nebo se obraťte se žádostí o pomoc na správce."
+  },
+  "cadexportconfig.error.multicadsupport": {
+    "title": "Vyberte objekty se stejnou hodnotou CAD formátu."
+  },
+  "cadexportconfig.error.cadsupport": {
+    "title": "Pomocí tohoto CAD formátu nelze exportovat data."
+  },
+  "cadexportconfig.error.rootecservice": {
+    "title": "Data nelze exportovat.",
+    "subtitle": "Nelze kontaktovat služby exportu. Ověřte, zda je váš systém nakonfigurován pro export tohoto typu dat."
+  },
+  "cadexportconfig.error.selCV5.rootdifferentnode": {
+    "title": "Uzel CATIA V5 nelze exportovat, pokud je kořenovým uzlem uzel 3DEXPERIENCE."
+  },
+  "cadexportconfig.error.ecasroot": {
+    "title": "Data nelze exportovat.",
+    "subtitle": "Vybraný objekt obsahuje vloženou komponentu jako kořenový uzel."
+  },
+  "XEError.ExportECNotSupported": {
+    "title": "Vložené součásti nelze exportovat."
+  },
+  "XEError.UnsupportedInputDatatype": {
+    "title": "Tento typ objektů nelze exportovat."
+  },
+  "XEError.ExportVPNotSupported": {
+    "title": "Virtuální instance nelze exportovat."
+  },
+  "cadexportconfig.field.expandlevel": "Vyberte možnost Rozbalit úroveň",
+  "cadexportconfig.field.expandall": "Rozbalit vše",
+  "cadexportconfig.field.expandnlevel": "Rozbalit N úrovní",
+  "cadexportconfig.field.expandnlevel.value": "Rozbalit úroveň hodnoty",
+  "derived.format.toggle": "Zahrnout odvozený formát",
+  "download.derived.outputs": "Možnosti odvozeného formátu",
+  "combo.field.3dformat": "3D formát",
+  "label.select3DFormat": "Vyberte 3D formát",
+  "combo.field.2dformat": "2D formát",
+  "label.select2DFormat": "Vyberte 2D formát",
+  "cadexportconfig.field.select.expandlevel": "Rozbalit Možnosti úrovně"
+}

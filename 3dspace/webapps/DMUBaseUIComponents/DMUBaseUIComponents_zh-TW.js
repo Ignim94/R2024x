@@ -1,0 +1,1 @@
+define("DS/DMUBaseUIComponents/DMUBaseUIComponents_zh-TW",{});define("DS/DMUBaseUIComponents/assets/nls/DMUBaseUIComponents",{replyButtonLabel:"回覆",addButtonLabel:"新註解",pointedPageRemoved:"已移除指向的頁面",commentDeleted:"已刪除此評論"});

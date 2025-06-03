@@ -1,0 +1,7 @@
+{
+  "Size_error": "Il nome file non deve contenere più di {maxSupportedLength} caratteri",
+  "Unsupported_char": "Il nome del file contiene un carattere non valido: {char}",
+  "Space_Leading_Trailing": "Sono presenti uno spazio all'inizio e uno spazio alla fine non previsti",
+  "Space_Leading": "È presente uno spazio all'inizio non previsto",
+  "Space_Trailing": "È presente uno spazio alla fine non previsto"
+}

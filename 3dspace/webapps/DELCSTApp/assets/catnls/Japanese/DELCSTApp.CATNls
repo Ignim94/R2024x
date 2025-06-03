@@ -1,0 +1,230 @@
+<meta charset="UTF-8"/>
+//=============================================================================
+// 								Fixed
+//=============================================================================
+DELCSTApp.LandingPage.Title="ホーム";
+DELCSTApp.Refresh.Title="選択をリフレッシュ";
+DELCSTApp.Hide.Title="選択したオブジェクトを除去";
+DELCSTApp.Authoring.Title="オーサリング";
+DELCSTApp.HideAll.Title="すべてのオブジェクトを除去";
+DELCSTApp.Refresh.Title="選択したオブジェクトをリフレッシュ";
+DELCSTApp.RefreshAll.Title="すべてリフレッシュ";
+
+DELCSTApp.ToggleAuxiliaryView.Title="補助投影ビュー";
+DELCSTApp.ProductsParts.Title="プロダクトとパーツ";
+DELCSTApp.Construction.Title="建築アイテム";
+
+//=============================================================================
+// 								Authoring
+//=============================================================================
+DELCSTApp.Authoring.Title="オーサリング";
+
+//-------------------------------------------------
+//				Create
+//-------------------------------------------------
+DELCSTApp.InsertConstructionStructure.Title="建築アセンブリー";
+DELCSTApp.InsertWorkPackageEach.Title="各作業パッケージ";
+DELCSTApp.InsertWorkPackageLength.Title="作業パッケージ長さ";
+DELCSTApp.InsertWorkPackageGroup.Title="作業パッケージ グループ";
+DELCSTApp.InsertWorkPackageArea.Title="作業パッケージ領域";
+DELCSTApp.InsertWorkElementEach.Title="各作業エレメント";
+DELCSTApp.InsertWorkElementLength.Title="作業エレメント長さ";
+DELCSTApp.InsertWorkElementArea.Title="作業エレメント領域";
+
+//-------------------------------------------------
+//				Create Process & Scope
+//-------------------------------------------------
+DELCSTApp.CreateStructureAndScope.Title="建築アセンブリーおよび有効範囲を作成";
+DELCSTApp.CreateWorkPackageEachAndScope.Title="各作業パッケージおよび有効範囲を作成";
+DELCSTApp.CreateWorkPackageLengthAndScope.Title="作業パッケージ長さおよび有効範囲を作成";
+DELCSTApp.CreateWorkPackageAreaAndScope.Title="作業パッケージ領域および有効範囲を作成";
+DELCSTApp.CreateWorkPackageGroupAndScope.Title="作業パッケージ グループおよび有効範囲を作成";
+DELCSTApp.CreateWorkElementEachAndScope.Title="各作業エレメントと有効範囲を作成";
+DELCSTApp.CreateWorkElementLengthAndScope.Title="作業エレメント長さと有効範囲を作成";
+DELCSTApp.CreateWorkElementAreaAndScope.Title="作業エレメント領域と有効範囲を作成";
+
+//-------------------------------------------------
+//				Create Process & Resulting Product Link
+//-------------------------------------------------
+DELCSTApp.CreateStructureAndResultingProduct.Title="建築アセンブリーおよび結果プロダクトを作成";
+DELCSTApp.CreateWorkPackageEachAndResultingProduct.Title="各作業パッケージおよび結果プロダクトを作成";
+DELCSTApp.CreateWorkPackageLengthAndResultingProduct.Title="作業パッケージ長さおよび結果プロダクトを作成";
+DELCSTApp.CreateWorkPackageAreaAndResultingProduct.Title="作業パッケージ領域および結果プロダクトを作成";
+DELCSTApp.CreateWorkPackageGroupAndResultingProduct.Title="作業パッケージ グループおよび結果プロダクトを作成";
+DELCSTApp.CreateWorkElementEachAndResultingProduct.Title="各作業エレメントおよび結果プロダクトを作成";
+DELCSTApp.CreateWorkElementLengthAndResultingProduct.Title="作業エレメント長さおよび結果プロダクトを作成";
+DELCSTApp.CreateWorkElementAreaAndResultingProduct.Title="作業エレメント領域および結果プロダクトを作成";
+//-----------------------------------------------------------------------------
+//				Create Process & Scope/ResultingProduct Link for Alternate Substitutes
+//-----------------------------------------------------------------------------
+DELCSTApp.CreateStructureAndScopeAltSubst.Title="建築アセンブリーおよび有効範囲を作成";
+DELCSTApp.CreateWorkPackageEachAndScopeAltSubst.Title="各作業パッケージおよび有効範囲を作成";
+DELCSTApp.CreateWorkPackageLengthAndScopeAltSubst.Title="作業パッケージ長さおよび有効範囲を作成";
+DELCSTApp.CreateWorkPackageAreaAndScopeAltSubst.Title="作業パッケージ領域および有効範囲を作成";
+DELCSTApp.CreateWorkPackageGroupAndScopeAltSubst.Title="作業パッケージ グループおよび有効範囲を作成";
+DELCSTApp.CreateWorkElementEachAndScopeAltSubst.Title="各作業エレメントと有効範囲を作成";
+DELCSTApp.CreateWorkElementLengthAndScopeAltSubst.Title="作業エレメント長さと有効範囲を作成";
+DELCSTApp.CreateWorkElementAreaAndScopeAltSubst.Title="作業エレメント領域と有効範囲を作成";
+//----------------------------------------------------
+DELCSTApp.CreateStructureAndResultingProductAltSubst.Title="建築アセンブリーおよび結果プロダクトを作成";
+DELCSTApp.CreateWorkPackageEachAndResultingProductAltSubst.Title="各作業パッケージおよび結果プロダクトを作成";
+DELCSTApp.CreateWorkPackageLengthAndResultingProductAltSubst.Title="作業パッケージ長さおよび結果プロダクトを作成";
+DELCSTApp.CreateWorkPackageAreaAndResultingProductAltSubst.Title="作業パッケージ領域および結果プロダクトを作成";
+DELCSTApp.CreateWorkPackageGroupAndResultingProductAltSubst.Title="作業パッケージ グループおよび結果プロダクトを作成";
+DELCSTApp.CreateWorkElementEachAndResultingProductAltSubst.Title="各作業エレメントおよび結果プロダクトを作成";
+DELCSTApp.CreateWorkElementLengthAndResultingProductAltSubst.Title="作業エレメント長さおよび結果プロダクトを作成";
+DELCSTApp.CreateWorkElementAreaAndResultingProductAltSubst.Title="作業エレメント領域および結果プロダクトを作成";
+
+//-------------------------------------------------
+//				Product Assignation
+//-------------------------------------------------
+DELCSTApp.AssignStructure.Title="建築アセンブリーにプロダクトを割り当て";
+DELCSTApp.AssignWorkElementArea.Title="作業エレメント領域にプロダクトを割り当て";
+DELCSTApp.AssignWorkElementLength.Title="作業エレメント長さにプロダクトを割り当て";
+DELCSTApp.AssignWorkElementEach.Title="各作業エレメントにプロダクトを割り当て ";
+DELCSTApp.AssignWorkPackageEach.Title="各作業パッケージにプロダクトを割り当て ";
+DELCSTApp.AssignWorkPackageArea.Title="作業パッケージ領域にプロダクトを割り当て ";
+DELCSTApp.AssignWorkPackageLength.Title="作業パッケージ長さにプロダクトを割り当て ";
+DELCSTApp.AssignWorkPackageGroup.Title="作業パッケージ グループにプロダクトを割り当て ";
+
+DELCSTApp.AssignWorkPackageEach.Title="プロダクトを割り当て解除";
+
+//-------------------------------------------------
+//				Scope
+//-------------------------------------------------
+DELCSTApp.CreateScopeLink.Title="有効範囲を作成";
+DELCSTApp.ReconnectScope.Title="有効範囲を再接続";
+DELCSTApp.ReviseAndReconnectScope.Title="有効範囲を改訂し再接続";
+DELCSTApp.DeleteScopeLink.Title="有効範囲を削除";
+DELCSTApp.CreatePartialScopeLink.Title="部分有効範囲を作成";
+DELCSTApp.DeletePartialScopeLink.Title="部分有効範囲を削除";
+DELCSTApp.StretchPartialScopeLink.Title="部分有効範囲を伸縮";
+DELCSTApp.SwitchToFullScopeLink.Title="部分有効範囲から全有効範囲に切り替え";
+
+//-------------------------------------------------
+//-------------------------------------------------
+DELCSTApp.AddExisting.Title="既存を追加";
+DELCSTApp.DetachInstance.Title="切り離し";
+
+//-------------------------------------------------
+//				Replace
+//-------------------------------------------------
+DELCSTApp.ReplaceByLatestRevision.Title="最新リビジョンで置換";
+DELCSTApp.ReplaceByExisting.Title="既存で置換";
+DELCSTApp.ReplaceByNewRevision.Title="新しいリビジョンで置換";
+DELCSTApp.ReplaceByNewReference.Title="新規で置換";
+DELCSTApp.ReplaceWhereUsed.Title="使用先を置換";
+
+//-------------------------------------------------
+//				Cut Copy
+//-------------------------------------------------
+DELCSTApp.Cut.Title="カット";
+DELCSTApp.Copy.Title="コピー";
+DELCSTApp.Paste.Title="貼り付け";
+
+//-------------------------------------------------
+DELCSTApp.CreateUpdateProcessStructure.Title="更新プロセス構造を作成";
+DELCSTApp.ChangeImpactAnalysis.Title="インパクト解析の変更";
+
+DELCSTApp.Relations.Title="関係";
+DELCSTApp.DisplayProperties.Title="情報";
+CollabSharing_Workbench.ActionBar_ChangeOwner.Title="移動";
+CollabSharing_Workbench.ActionBar_TransferOwnership.Title="所有者を変更";
+DELCSTApp.ShowCharacteristicsCmd.Title="特性の管理";
+DELCSTApp.ShowConsolidatedCharactscsCmd.Title="特性の管理: 統合されたビュー";
+
+//=============================================================================
+// 								Item Management
+//=============================================================================
+DELCSTApp.ItemManagement.Title="項目管理";
+
+//-------------------------------------------------
+DELCSTApp.CustomerExtension.Title="ユーザー拡張";
+DELCSTApp.ViewRelationships.Title="ビュー関係";
+//-------------------------------------------------
+DELCSTApp.Document.Title="ドキュメント";
+DELCSTApp.Characteristics.Title="特性";
+DELCSTApp.AlternatesAndSubstitutes.Title="代替と置換";
+DELCSTApp.Alternates.Title="代替";
+DELCSTApp.ResultingProduct.Title="結果プロダクト";
+DELCSTApp.Substitutes.Title="置換";
+DELCSTApp.Responsibilities.Title="責任";
+DELCSTApp.Origin.Title="原点";
+DELCSTApp.CapableResource.Title="使用可能リソース";
+//-------------------------------------------------
+DELCSTApp.NavigateResources.Title="使用可能リソースをナビゲート";
+DELCSTApp.Resources.Title="使用可能リソースを管理";
+DELCSTApp.NavigateRequirements.Title="要求をナビゲート";
+DELCSTApp.Requirements.Title="要求を管理";
+
+//=============================================================================
+// 								Configuration
+//=============================================================================
+DELCSTApp.Configuration.Title="構成";
+
+//-------------------------------------------------
+DELCSTApp.SetAuthoringContext.Title="オーサリング コンテキストを設定";
+DELCSTApp.Dictionnary.Title="辞書";
+DELCSTApp.FilterConfiguration.Title="フィルタ構成";
+
+//=============================================================================
+// 								View
+//=============================================================================
+DELCSTApp.View.Title="ビュー";
+
+//-------------------------------------------------
+DELCSTApp.ExpandAll.Title="すべてを展開";
+DELCSTApp.ExpandNLevel.Title="N レベルを展開";
+//-------------------------------------------------
+DELCSTApp.CollapseAll.Title="すべてを縮小";
+DELCSTApp.UserDefinedExplore.Title="ユーザー定義済みの探索";
+//-------------------------------------------------
+DELCSTApp.ToggleBodyView.Title="プロダクト ビューを切り替え";
+DELCSTApp.Toggle3DView.Title="3D ビューを切り替え";
+DELCSTApp.ToggleGraphView.Title="グラフ ビューを切り替え";
+//-------------------------------------------------
+DELCSTApp.Filter.Title="フィルタ";
+DELCSTApp.ToggleAssignedParts.Title="割り当て済みパーツを切り替え";
+DELCSTApp.ToggleQuantityView.Title="数量ビューを切り替え";
+//-------------------------------------------------
+DELCSTApp.Reframe.Title="リフレーム";
+DELCSTApp.ReframeOn.Title="リフレーム オン";
+DELCSTApp.ToggleOrientation.Title="方向を切り替え";
+DELCSTApp.ToggleOverview.Title="概要を切り替え";
+
+DELCSTApp.ShowLogPanel.Title="ログを表示";
+DELCSTApp.Show3DViewerCmd.Title="3DOperations ビューアーを起動";
+
+//=============================================================================
+// 								Tools
+//=============================================================================
+DELCSTApp.Tools.Title="ツール";
+
+DELCSTApp.EditViewPreferences.Title="表示の環境設定";
+DELCSTApp.LayoutPreferences.Title="レイアウト設定を変更";
+
+DELCSTApp.ExportCSV.Title="CSV のエクスポート";
+DELCSTApp.LoadRelations.Title="荷重関係";
+DELCSTApp.RelationalExplorerCmd.Title="リレーショナル エクスプローラ";
+//-------------------------------------------------
+DELCSTApp.CustomizeColumns.Title="列のカスタマイズ";
+DELCSTApp.ExportExcel.Title="Excel をエクスポート";
+
+DELCSTApp.Delete.Title="削除...";
+DELCSTApp.CreateMfgItemStructure.Title="CST アイテム構造を作成";
+DELCSTApp.UpdateMfgItemStructure.Title="CST アイテム構造を更新";
+DELCSTApp.ManageInconsistentLinks.Title="変更インパクト管理";
+DELCSTApp.BIEssentialsCmd.Title="B.I. Essentials - 割り当て状態";
+DELCSTApp.BIAltSub.Title="B.I. Essentials - 代替および置換状態";
+DELCSTApp.CreateInstance.Title="インスタンスを作成";
+DELCSTApp.CreateLink.Title="リンクを作成";
+DELCSTApp.SearchAndAddInstanceCommand.Title="挿入";
+DELCSTApp.InsertAsCopy.Title="コピーとして挿入";
+DELCSTApp.duplicate.Title="複写";
+DELCSTApp.DuplicateAdv.Title="拡張複写";
+DELCSTApp.DELCreateEngineeringMadeFromItem.Title="アイテムから作成されたエンジニアリングを作成";
+
+//=============================================================================
+// 								lifecycle
+//=============================================================================
+DELCSTApp.Lifecycle.Title="ライフサイクル";

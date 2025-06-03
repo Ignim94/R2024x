@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+PowerByNX.XSCViews.Title="Вид";
+PowerByNX.XSCTools.Title="Инструменты";
+PowerByNX.Lifecycle.Title="Жизненный цикл";
+PowerByNX.Collaboration.Title="Совместная работа";
+PowerByNX.SaveSession.Title="Сохранить активное окно";
+PowerByNX.RefreshHome.Title="Обновить";
+PowerByNX.ReloadAll.Title="Перезагрузить все";
+PowerByNX.ReserveHdr.Title="Заблокировать";
+PowerByNX.UnreserveHdr.Title="Разблокировать";
+PowerByNX.PropertiesHdr.Title="Свойства";
+PowerByNX.ReplaceByRevisionHdr.Title="Заменить редакцией";
+PowerByNX.ReloadFromServerHdr.Title="Перезагрузить с сервера";
+PowerByNX.RelationIPExplorer.Title="Взаимосвязи";
+PowerByNX.OptionsHdr.Title="Параметры...";
+PowerByNX.View.Title="Вид";
+PowerByNX.Tools.Title="Инструменты";

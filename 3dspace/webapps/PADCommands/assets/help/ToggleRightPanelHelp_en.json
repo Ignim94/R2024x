@@ -1,0 +1,5 @@
+{
+"ToggleRightPanel.Title":"Display Side Panel",
+"ToggleRightPanel.ShortHelp":"Displays information about the selected object in different tabs in a side pane.",
+"ToggleRightPanel.LongHelp":"The available tabs depend on the app they are launched from, and the type of object that is selected."
+}

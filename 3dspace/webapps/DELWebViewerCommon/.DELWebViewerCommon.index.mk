@@ -1,0 +1,11 @@
+m|DELWebViewerCommon\DELWebViewerCommon.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELWebViewerCommon\DELWebViewerCommon.js|1700691874|455
+s|DELWebViewerCommon\DELWebViewerCommon.mweb\src\DELCommonImporter.js|1617362647|335
+u|DELWebViewerCommon\DELWebViewerCommon.mweb\src\DELCommonMarkerServices.js|1627643374|297
+u|DELWebViewerCommon\DELWebViewerCommon.mweb\src\DELCommonSlideServices.js|1617362663|361
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

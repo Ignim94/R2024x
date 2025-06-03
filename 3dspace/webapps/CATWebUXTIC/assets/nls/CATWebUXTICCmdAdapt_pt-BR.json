@@ -1,0 +1,10 @@
+{
+  "caOK": "Ação de alteração gerada com sucesso",
+  "caKO": "Falha ao gerar a ação de alteração",
+  "issueOK": "Problema gerado com sucesso",
+  "issueKO": "Falha ao gerar o problema",
+  "caAttached": "A ação de alteração foi anexada ao problema principal",
+  "caNotAttached": "A ação de alteração não foi anexada ao problema principal",
+  "ticSection": "Gerar problema",
+  "ticTemplateIssue": "Sempre usar um modelo para gerar um problema"
+}

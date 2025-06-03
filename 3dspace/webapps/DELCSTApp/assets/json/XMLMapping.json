@@ -1,0 +1,126 @@
+{
+	"CBOM.columnConfigPath": {
+		"path": "DELCSTApp/ProcessColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"MBOM.bomViewXML": {
+		"path": "DELCSTApp/BOMView",
+		"type": "bomViewConfiguration",
+		"rootNode": "Config"
+	},
+	"EBOM.columnConfigPath": {
+		"path": "DELCSTApp/ProductPartColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"IMPLEMENTMOD.columnConfigPath": {
+		"path": "DELCSTApp/UpdateMfgItemUI",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"MFGSTRUCTUREMOD.columnConfigPath": {
+		"path": "DELCSTApp/UpdateMfgItemUI",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"MIL.columnConfigPath": {
+		"path": "DELCSTApp/MILColumnConfig"
+	},
+	"CAPRESOURCE.columnConfigPath": {
+		"path": "DELCSTApp/CapableResourceColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"ORIGIN.columnConfigPath": {
+		"path": "DELCSTApp/OriginColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"ALTERNATES_AND_SUBSTITUTES.columnConfigPath": {
+		"path": "DELCSTApp/AlternatesAndSubstitutesColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"SUBSTITUTES.columnConfigPath": {
+		"path": "DELCSTApp/SubstitutesColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"ALTERNATE.columnConfigPath": {
+		"path": "DELCSTApp/AlternateColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"RESULTING_PRODUCT_VIEW.columnConfigPath": {
+		"path": "DELCSTApp/ResultingProductColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"RESPONSIBILITY.columnConfigPath": {
+		"path": "DELCSTApp/ResponsibilityColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"AUXILIARY.columnConfigPath": {
+		"path": "DELCSTApp/AuxiliaryColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"REPLACEWHEREUSED.columnConfigPath": {
+		"path": "DELCSTApp/ReplaceWhereUsedColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"exportCSVPreferencesXML": {
+		"path": "DELCSTApp/ExportCSVPreferences",
+		"type": "exportCSVPreference",
+		"rootNode": "Config"
+	},
+	"indexMappingXML": {
+		"path": "DELCSTApp/IndexMapping"
+	},
+	"insertFormAttributeXML": {
+		"path": "DELCSTApp/InsertCmdFormAttribute",
+		"type": "insertFormConfiguration",
+		"rootNode": "AttributesDescriptionList"
+	},
+	"modelRelationsXML": {
+		"path": "DELCSTApp/ModelRelations"
+	},
+	"modelCustomRelationsXML": {
+		"path": "DELCSTApp/ModelCustomRelations"
+	},
+	"relationsColumnMappingXML": {
+		"path": "DELCSTApp/RelationsColumnMapping",
+		"type": "relationsColumns",
+		"rootNode": "RelationsColumnMapping"
+	},
+	"relationsDialogDisplayAttributeConfigXML": {
+		"path": "DELCSTApp/RelationsDialogDisplayAttributeConfig",
+		"type": "relationsColumns",
+		"rootNode": "DisplayAttributeDescriptionList"
+	},
+	"editFormAttributesXML": {
+		"path": "DELCSTApp/EditFormAttributes",
+		"type": "editFormConfiguration",
+		"rootNode": "AttributesDescriptionList"
+	},
+	"documemntColumnConfigXML": {
+		"path": "DELCSTApp/DocumentColumnDisplayAttributeConfig"
+	},
+	"toolTipConfigXML": {
+		"path": "DELCSTApp/TooltipConfig",
+		"type": "toolTipFormConfiguration",
+		"rootNode": "Tooltips"
+	},
+	"GeneralPreferences": {
+		"path": "DELCSTApp/GeneralPreferences"
+	},
+	"LandingPage": {
+		"path": "DELCSTApp/HomePage"
+	},
+	"ItemOOTBFiltering": {
+		"path": "DELPPWApplications/ItemOOTBFiltering"
+	}
+}

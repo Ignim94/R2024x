@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="PLATFORM_Draft_Dialpad" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <circle cx="16" cy="3.13" r="3.13"/>
+  <circle cx="16" cy="11.72" r="3.13"/>
+  <circle cx="16" cy="20.28" r="3.13"/>
+  <circle cx="24.56" cy="3.13" r="3.13"/>
+  <circle cx="24.56" cy="11.72" r="3.13"/>
+  <circle cx="24.56" cy="20.28" r="3.13"/>
+  <circle cx="7.44" cy="3.13" r="3.13"/>
+  <circle cx="7.44" cy="11.72" r="3.13"/>
+  <circle cx="7.44" cy="20.28" r="3.13"/>
+  <circle cx="16" cy="28.87" r="3.13"/>
+</svg>

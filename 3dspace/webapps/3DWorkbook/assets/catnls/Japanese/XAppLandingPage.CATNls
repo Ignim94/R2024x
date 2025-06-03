@@ -1,0 +1,11 @@
+<meta charset="UTF-8"/>
+XAppLandingPage.Title="Factory Asset Management";
+XAppLandingPage.App.Title="Factory Asset Management";
+
+XAppLandingPage.Create.Title="新規作成";
+XAppLandingPage.Create.Description="新規ファクトリを作成";
+
+XAppLandingPage.Load.Title="既存をロード";
+XAppLandingPage.Load.Description="既存のファクトリをロードします";
+
+XAppLandingPage.Drop="または、コンテンツをここにドロップします";

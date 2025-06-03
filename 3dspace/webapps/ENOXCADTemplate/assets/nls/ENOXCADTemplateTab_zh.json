@@ -1,0 +1,12 @@
+{
+  "CATIAV5UPS.assembly.label": "产品",
+  "CATIAV5UPS.component.label": "零件",
+  "CATIAV5UPS.drawing.label": "工程图",
+  "CATIAV5UPS.analysis.label": "分析",
+  "CATIAV5UPS.analysis.icon": "I_CATAnalysis.png",
+  "CATIAV5CUSTOMUPS.assembly.label": "产品",
+  "CATIAV5CUSTOMUPS.component.label": "零件",
+  "CATIAV5CUSTOMUPS.drawing.label": "工程图",
+  "CATIAV5CUSTOMUPS.analysis.label": "分析",
+  "CATIAV5CUSTOMUPS.analysis.icon": "I_CATAnalysis.png"
+}

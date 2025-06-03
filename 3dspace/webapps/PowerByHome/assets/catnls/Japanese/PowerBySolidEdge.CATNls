@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySolidEdge.XSCViews.Title="ビュー";
+PowerBySolidEdge.XSCTools.Title="ツール";
+PowerBySolidEdge.Lifecycle.Title="ライフサイクル";
+PowerBySolidEdge.SaveSession.Title="アクティブ ウィンドウを保存";
+PowerBySolidEdge.RefreshHome.Title="リフレッシュ";
+PowerBySolidEdge.ReloadAll.Title="すべてを再ロード";
+PowerBySolidEdge.ReserveHdr.Title="ロック";
+PowerBySolidEdge.UnreserveHdr.Title="ロック解除";
+PowerBySolidEdge.PropertiesHdr.Title="プロパティ";
+PowerBySolidEdge.GetRevisionHdr.Title="リビジョンを取得";
+PowerBySolidEdge.ReplaceByRevisionHdr.Title="リビジョンで置換";
+PowerBySolidEdge.ReloadFromServerHdr.Title="サーバーから再ロード";
+PowerBySolidEdge.ReplaceContentHdr.Title="コンテンツを置換";
+PowerBySolidEdge.RelationIPExplorer.Title="関係";
+PowerBySolidEdge.OptionsHdr.Title="オプション...";
+PowerBySolidEdge.OpenWebInWinHdr.Title="[パネルを開く] を起動";
+PowerBySolidEdge.Simulation.Title="シミュレーション";
+PowerBySolidEdge.CreateStructuralSimulationHdr.Title="構造シミュレーションを作成";
+PowerBySolidEdge.Views.Title="ビュー";
+PowerBySolidEdge.Tools.Title="ツール";
+PowerBySolidEdge.InsertUnderActiveDocumentHdr.Title="アクティブなドキュメントの下に挿入";
+PowerBySolidEdge.ManageLocalFilesHdr.Title="ローカル ファイルを管理";
+PowerBySolidEdge.GetAttributesForAllHdr.Title="すべての属性を取得";
+PowerBySolidEdge.XCADExport.Title="X-CAD のエクスポート";
+PowerBySolidEdge.XCADImport.Title="X-CAD のインポート";
+

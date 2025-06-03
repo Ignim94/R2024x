@@ -1,0 +1,23 @@
+{
+  "enterprise_dictionary_breadcrumb": "Изменчивость предприятия",
+  "model_definition_breadcrumb": "Версии модели",
+  "open_mv_search_title": "Выберите версию модели для открытия",
+  "newModelVersion": "Новая версия модели",
+  "addExistingPrefLabel": "addExistingPref",
+  "MSG_UNABLE_TO_GET_SUBTYPES": "Не удается получить подтипы версии модели.",
+  "NO_MODELVERSION_ATTACHED_ERROR": "Версия модели не прикреплена к ",
+  "CUSTOMER_ATTRIBUTE_LOADING_WARNING": "Сбой загрузки атрибутов заказчика!",
+  "TYPE_MODELVERSION": "Версия модели",
+  "TYPE_PRODUCTCONFIGURATION": "Конфигурация продукта",
+  "TYPE_MANUFACTURINGPLAN": "Производственный план",
+  "TYPE_CONFIGURATIONRULE": "Правило конфигурации",
+  "TYPE_VARIANT": "Вариант",
+  "TYPE_VARIANTVALUE": "Значение варианта",
+  "TYPE_OPTIONGROUP": "Параметры",
+  "TYPE_OPTIONGROUPVALUE": "Значение параметров",
+  "PREPARING_FOR_ROADMAP_VIEW": "Подготовка вида плана",
+  "ROADMAP_VIEW": "Вид плана",
+  "MODELDEF": "ENOVIA — Определение модели",
+  "ROADMAP_VIEW_IS_REFRESHING": "Подождите, обновляется вид плана...",
+  "GETTING_THINGS_READY": "Подготовка к работе..."
+}

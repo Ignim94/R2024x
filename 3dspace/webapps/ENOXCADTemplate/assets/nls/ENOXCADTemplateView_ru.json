@@ -1,0 +1,18 @@
+{
+  "cadsubtypefield": "Тип 3DEXPERIENCE",
+  "cadtypefield": "Тип CAD",
+  "templatefield": "Шаблоны",
+  "managetemplates": "Управление шаблонами",
+  "newfromok": "ОК",
+  "newfromcancel": "Отмена",
+  "newfromtemplate": "Создать из шаблона",
+  "msg_success_templatecreate": "Шаблон создан.",
+  "msg_success_edittemplate": "Шаблон изменен.",
+  "msg_error_editmodifyaccess": "Для изменения этого шаблона необходимо иметь разрешение. Проверьте учетные данные или обратитесь за помощью к администратору.",
+  "msg_success_listtemplate": "Список шаблонов загружен",
+  "msg_success_notemplate": "Нет доступных шаблонов для этого типа",
+  "msg_error_mandfieldempty": "Пустые обязательные поля",
+  "msg_error_templateempty": "Пустое поле шаблона",
+  "msg_error_cadtypeempty": "Пустое поле типа CAD",
+  "mysession_newfromdlg_title": "Создать из шаблона"
+}

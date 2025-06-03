@@ -1,0 +1,15 @@
+{
+  "appDescription": "쉽고 효율적인 방법으로 3D 모델 탐색",
+  "rootFrozen": "전환 후 세션이 고정됩니다.",
+  "transitionRefusedStaticMapping": "인스턴스화된 제품 사양은 대상 앱에서 지원되지 않습니다.",
+  "transitionRefusedFlexibleAssemblies": "유연 어셈블리는 대상 앱에서 지원되지 않습니다.",
+  "pointCloudClassificationLayer": {
+    "title": "LAS 분류 색상 지정",
+    "headerTooltip": "LAS 분류는 ASPRS(American Society for Photogrammetry and Remote Sensing)에서 원하는 데이터 카테고리에 대해 정의한 미리 정의된 분류 체계입니다."
+  },
+  "pointCloudElevationLayer": {
+    "title": "좌표 색상 지정",
+    "comboLabel": "축: ",
+    "tooltip": "X 좌표는 동서 축을 따라 측정되고, Y 좌표는 남북 축을 따라 측정되며, Z 좌표는 높이 또는 고도를 측정합니다."
+  }
+}

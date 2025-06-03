@@ -1,0 +1,26 @@
+{
+    "EVT_MODEL_VER_VARIABILITY_UPDATED" : "model-version-variability-updated",
+    "EVT_MODEL_VER_VARIABILITY_AVAILABLE" : "model-version-variability-available",
+    "EVT_LOAD_MV_DICO"  : "load-model-version-dictionary",
+    "EVT_CREATE_N_ADD_NEW_ITEM" : "create-and-add-new-item",
+    "EVT_VARIABILITY_ATRB_UPDATE" : "model-version-variability-attribute-updated",
+    "EVT_CREATE_DICO_ITEM_N_ALLOCATE": "create-and-allocate-dico-item",
+    "EVT_ADD_NODE_FOR_INSTANCE": "add-node-for-instance-created",
+    "EVT_ADD_NODE_FOR_VALUE_INSTANCE" : "add-node-for-value-instance-created",
+    "EVT_ADD_EXISTING_VARIABILITY": "add-exisiting-variability",
+    "EVT_ATTACH_VALUES_LAUNCH_FACET": "attach-values-launch-facet",
+    "EVT_ATTACH_OPTIONS_LAUNCH_FACET": "attach-options-launch-facet",
+    "EVT_GET_CRITERIA_VALUES": "variability-get-criteria-values",
+    "EVT_REMOVE_VARIABILITY": "variability-remove-criteria",
+    "EVT_REMOVE_NODE_FOR_INSTANCE": "remove-node-for-instance-removed",
+    "EVT_ADD_CRITERIA_VALUES": "variability-add-criteria-values",
+    "EVT_VARIABILITY_SHOW_LOADING": "variability-show-loading",
+    "EVT_VARIABILITY_HIDE_LOADING": "variability-hide-loading",
+    "EVT_NO_DATA_TO_LOAD": "no-data-to-load",
+
+    "TYPE_VARIANT" : "variant",
+    "TYPE_VARIANTVALUE" : "value",
+    "TYPE_VARIABILITYGROUP" : "variabilityGroup",
+    "TYPE_OPTION" : "option",
+    "TYPE_PARAMETER" : "parameter"
+}

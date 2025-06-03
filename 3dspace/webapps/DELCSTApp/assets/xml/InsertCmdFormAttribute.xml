@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright DASSAULT SYSTEMES 2015 -->
+<AttributesDescriptionList Title="Attributes Description List by Types" Description="Sample configuration file delivered by DS." xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/InsertCmdFormAttribute.xsd">
+	<Type name="DELConstructionStructure">
+		<Section name="Section.Attributes">
+			<Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+			<Attribute name="V_description" dicoType="PLMEntity" />
+		</Section>
+	</Type>
+	
+	<Type name="DELConstructionWorkPackageEach">
+		<Section name="Section.Attributes">
+			<Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+			<Attribute name="V_description" dicoType="PLMEntity" />
+		</Section>
+	</Type>
+	
+	<Type name="DELConstructionWorkPackageLength">
+		<Section name="Section.Attributes">
+			<Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+			<Attribute name="V_description" dicoType="PLMEntity" />
+		</Section>
+	</Type>
+	
+	<Type name="DELConstructionWorkPackageGroup">
+		<Section name="Section.Attributes">
+			<Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+			<Attribute name="V_description" dicoType="PLMEntity" />
+		</Section>
+	</Type>
+	
+	<Type name="DELConstructionWorkPackageArea">
+		<Section name="Section.Attributes">
+			<Attribute name="V_Name"         dicoType="PLMEntity" mandatory="true" />
+			<Attribute name="V_description"  dicoType="PLMEntity" />
+		</Section>
+	</Type>
+	
+	<Type name="DELConstructionWorkElementEach">
+		<Section name="Section.Attributes">
+			<Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+			<Attribute name="V_description" dicoType="PLMEntity" />
+		</Section>
+	</Type>
+	
+	<Type name="DELConstructionWorkElementLength">
+		<Section name="Section.Attributes">
+			<Attribute name="V_Name"         dicoType="PLMEntity" mandatory="true" />
+			<Attribute name="V_description"  dicoType="PLMEntity" />
+			<Attribute name="V_Quantity" 	 dicoType="DELConstructionWorkElementLength" entity="reference"/>
+		</Section>
+	</Type>
+	<Type name="DELConstructionWorkElementArea">
+		<Section name="Section.Attributes">
+			<Attribute name="V_Name"         dicoType="PLMEntity" mandatory="true" />
+			<Attribute name="V_description"  dicoType="PLMEntity" />
+			<Attribute name="V_Quantity" 	dicoType="DELConstructionWorkElementArea" entity="reference"/>
+		</Section>
+	</Type>
+</AttributesDescriptionList>

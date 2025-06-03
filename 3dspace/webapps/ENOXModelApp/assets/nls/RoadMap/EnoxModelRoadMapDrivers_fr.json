@@ -1,0 +1,14 @@
+{
+  "BACKLOG_ITEMS": "Candidats",
+  "BACKLOGS_TITLE": "Candidats",
+  "DROP_HERE_FOR_PLAN": "Déposer ici les éléments à cibler dans ",
+  "DROP_HERE_FOR_BACKLOG": "Déposer ici les éléments à ajouter en tant que candidats",
+  "COMMITTED_FOR_THIS_REVISION": "Ciblé pour cette révision ",
+  "BACKLOG": "Candidats",
+  "COMMITTED": "Ciblé",
+  "ROADMAP_SETTINGS": "Paramètres des pilotes",
+  "MANAGE_ROADMAP_SETTINGS": "Gérer les paramètres des pilotes",
+  "SAME_BACKLOG_ITEM_LOADED": "Les pilotes sont déjà chargés.",
+  "HIDE_BACKLOG_PANE": "Masquer le panneau Candidat",
+  "SHOW_BACKLOG_PANE": "Afficher le panneau Candidat"
+}

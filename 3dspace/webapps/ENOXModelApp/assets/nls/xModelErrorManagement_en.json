@@ -1,0 +1,63 @@
+{
+  "err_delete_title" : "Error While Deleting This Type Of Object: ",
+  "err_create_title" : "Error While Creating This Type Of Object: ",
+  "err_modify_title" : "Error While Modifying This Type Of Object: ",
+  "err_remove_title" : "Error While Removing This Type Of Object: ",
+  "err_revise_title" : "Error While Revising This Type Of Object: ",
+  "err_derive_title" : "Error While Branching This Type Of Object: ",
+  "err_duplicate_title" : "Error While Duplicating This Type Of Object: ",
+  "err_addExisting_title" : "Error While Adding This Type Of Object: ",
+  "err_upload_title" : "Error While Uploading This Type Of Object: ",
+
+  "err_duplicate_message" : "No duplicate access to business object with selected credential.",
+
+  "err_rev_dev_exists_subtitle" : "Verify that object does not has any revision or derivation.",
+  "err_rev_dev_exists_delete_desc" : "In order to delete the object, user should delete its derivation or revision",
+
+  "err_value_allocated_subtitle" : "Verify that other objects are not allocated with current object.",
+  "err_value_allocated_delete_desc" : "In order to delete object, user should remove allocated objects.",
+
+  "err_no_access_subtitle" : "Verify that you are using correct credentials.",
+  "err_no_access_delete_desc" : "You may not have the required access role in the target collaborative space to delete this type of object.",
+
+  "err_obsolete_variability_subtitle" : "Verify that variability is not in frozen state.",
+  "err_obsolete_variability_delete_desc" : "In order to deallocate variability, Variability should not be in frozen state.",
+
+  "err_effectivity_expr_subtitle" : "Verify that the object is not being used in a configured expression (filter or effectivity).",
+  "err_effectivity_expr_delete_desc" : "In order to deallocate object, remove the criteria from all configured expressions.",
+  "err_effectivity_expr_delete_mv_desc" : "You can use the \"Effectivity Where Used\" tab from the Information pane. To deallocate the object, remove its criteria from all configured expressions.",
+
+  "err_PC_frozen_state_subtitle" : "Verify that Product Configuration is not in Frozen state.",
+  "err_PC_frozen_state_desc" : "In order to delete Product Configuration, change the maturity to non-frozen state.",
+
+  "err_BC_frozen_state_subtitle" : "Verify that Base Configuration is not in Frozen state.",
+  "err_BC_frozen_state_desc" : "In order to delete Base Configuration, change the maturity to non-frozen state.",
+
+  "err_MV_frozen_state_subtitle" : "Verify that Model Version is not in Frozen state.",
+  "err_MV_frozen_state_desc" : "In order to delete Model Version, change maturity to non-frozen state.",
+
+  "err_no_access_subtitle" : "Verify that you have access to this object.",
+  "err_no_connect_access_desc" : "No connect access to the current object",
+
+  "err_no_disconnect_access_desc" : "No disconnect access to the current object",
+
+  "err_no_modify_access_desc" : "No modify access to the current object",
+
+  "err_MP_frozen_state_subtitle" : "Verify that Manufacturing Plan is not in Frozen state.",
+  "err_MP_frozen_state_desc" : "In order to delete Manufacturing Plan, change the maturity to non-frozen state.",
+
+  "err_default_message" : "You are unable to perform action.",
+
+  "err_MP_present_subtitle" : "Verify that object is associated with derived Manufacturing plan.",
+  "err_MP_present_desc"  : "In order to delete object, please delete associated derived Manufacturing plan",
+
+  "err_unique_constraint_subtitle" : "Verify that revision is unique.",
+  "err_unique_constraint_desc" : "Uniqueness constraint violated.",
+
+  "err_admin_check" : "Error occurred during operation, please contact admin.",
+  
+  "err_composition_param_title" : "Unable to use Composition",
+  "err_composition_param_subtitle" : "Verify Composition Matrix parameter is enabled",
+  "err_composition_param_desc" : "Contact your administrator for support."
+
+}

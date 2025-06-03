@@ -1,0 +1,12 @@
+m|DELWKOApp\DELPPWDocumentsModule_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELPPWDocumentsModule_FD02\DELPPWDocumentsModule_FD02.js|1700691846|12093
+s|DELWKOApp\DELPPWDocumentsModule_FD02.mweb\src\DocumentsMgmtUI.js|1679506774|17432
+u|DELWKOApp\DELPPWDocumentsModule_FD02.mweb\src\DocumentsModule.js|1679506778|5672
+u|DELWKOApp\DELPPWDocumentsModule_FD02.mweb\src\DocumentsUIInfra.js|1679506783|4217
+u|DELWKOApp\DELPPWDocumentsModule_FD02.mweb\src\DocumentsUploadUI.js|1679506787|15548
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

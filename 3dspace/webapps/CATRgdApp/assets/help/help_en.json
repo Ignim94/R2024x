@@ -1,0 +1,18 @@
+{
+"Home.Title":"Home",
+"Home.ShortHelp":"Navigates to home page.",
+"InsertTemplates.Title":"Add Existing Templates",
+"InsertTemplates.ShortHelp":"Inserts existing templates at the top of the list.",
+"CreateTemplate.Title":"Create Template",
+"CreateTemplate.ShortHelp":"Inserts a new template at the top of the list.",
+"ImportTemplates.Title":"Import Templates",
+"ImportTemplates.ShortHelp":"Imports one or more templates from JSON file.",
+"ImportTemplates.LongHelp":"Drop a JSON file containing templates.",
+"Widget.WebHelp":"CATRtwUserMap/CATRtw-c-ov.htm",
+"InsertTemplates.WebHelp":"CATRtwUserMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"InsertTemplates.PanelHelp":"CATRtwUAPanelMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"CreateTemplate.WebHelp":"CATRtwUserMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"CreateTemplate.PanelHelp":"CATRtwUAPanelMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"ImportTemplates.WebHelp":"CATRtwUserMap/CATRtw-t-Templates-Import.htm#CATRtw-t-Templates-Import",
+"ImportTemplates.PanelHelp":"CATRtwUAPanelMap/CATRtw-t-Templates-Import.htm#CATRtw-t-Templates-Import"
+}

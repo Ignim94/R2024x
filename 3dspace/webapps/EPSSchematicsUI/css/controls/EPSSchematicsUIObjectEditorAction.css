@@ -1,0 +1,20 @@
+.sch-controls-objecteditoraction {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center; }
+  .sch-controls-objecteditoraction .sch-controls-objecteditoraction-button {
+    box-sizing: border-box;
+    width: 24px; }
+    .sch-controls-objecteditoraction .sch-controls-objecteditoraction-button .wux-controls-button {
+      padding: 0px;
+      min-width: 24px;
+      color: #77797c; }
+      .sch-controls-objecteditoraction .sch-controls-objecteditoraction-button .wux-controls-button.sch-controls-button-emptyarray, .sch-controls-objecteditoraction .sch-controls-objecteditoraction-button .wux-controls-button.sch-controls-button-emptyobject {
+        border: 0px; }
+        .sch-controls-objecteditoraction .sch-controls-objecteditoraction-button .wux-controls-button.sch-controls-button-emptyarray .wux-button-label, .sch-controls-objecteditoraction .sch-controls-objecteditoraction-button .wux-controls-button.sch-controls-button-emptyobject .wux-button-label {
+          font-weight: 900;
+          padding-top: 1px; }

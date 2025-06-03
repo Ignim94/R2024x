@@ -1,0 +1,20 @@
+{
+  "NoResults": "Modèle d'image de version introuvable",
+  "NewSpecification": "Nouveau document",
+  "NewEngineeringItem": "Nouveau produit",
+  "LoadingError": "Une erreur s'est produite lors du chargement des champs. Actualisez la page.",
+  "SpecificationCreateSuccess": "La spécification technique a été créée.",
+  "SpecificationCreateFailure": "Une erreur s'est produite lors de la création de la spécification technique. Contactez l'administrateur de votre entreprise.",
+  "PhysicalPrdCreateSuccess": "La spécification de produit a été créée.",
+  "PhysicalPrdCreateFailure": "Une erreur s'est produite lors de la création de la spécification de produit.",
+  "RequiredFields": "Spécifier les valeurs dans tous les champs obligatoires.",
+  "CreatingTechSpecLoader": "Création de {title}...",
+  "CorrectFields": "Corriger les champs.",
+  "NewRawMaterial": "Nouvelle matière première",
+  "SelectTemplate": "Sélectionner modèle",
+  "UOMError": "Sélectionner l'unité de mesure associée pour la quantité",
+  "QuantityError": "Saisir la quantité pour l'unité de mesure sélectionnée",
+  "ReloadCreateRawMaterial": "Chargement de types de matières premières. Rouvrez la commande Nouvelle matière première",
+  "RMCreateSuccess": "La matière première a été créée.",
+  "RMCreateFailure": "Une erreur s'est produite lors de la création de la matière première. Contactez l'administrateur de votre entreprise."
+}

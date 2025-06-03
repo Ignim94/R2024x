@@ -1,0 +1,206 @@
+{
+	"dsspec:basic.id.public": {
+		"property": "physicalid",
+		"key": "id",
+		"label": "CRS.common.Label.Attribute.Id",
+		"example": "EE562168015FFCF14F940A513C63AA77",
+		"description": "Entity physical id"
+	},
+	"dsspec:basic.name.public": {
+		"property": "name",
+		"key": "name",
+		"label": "CRS.common.Label.Attribute.Name",
+		"description": "Entity physical id"
+	},
+	"dsspec:basic.identifier.public": {
+		"property": "physicalid",
+		"key": "identifier",
+		"example": "EE562168015FFCF14F940A513C63AA77",
+		"description": "Entity physical id"
+	},
+	"dsspec:basic.revision.public": {
+		"property": "revision",
+		"key": "revision",
+		"label": "CRS.common.Label.Attribute.Revision",
+		"example": "A.1",
+		"description": "Object revision value"
+	},
+	"dsspec:basic.organization.public": {
+		"property": "organization",
+		"key": "organization"
+	},
+	"dsspec:basic.collabspace.public": {
+		"property": "project",
+		"key": "collabspace",
+		"example": "Default",
+		"description": "Object collabspace value"
+	},
+	"dsspec:basic.modified.utc.public": {
+		"property": "modified.generic",
+		"key": "modified",
+		"label": "CRS.common.Label.Attribute.Modified",
+		"format": "datetimeutc",
+		"example": "2022-01-31T09:48:10Z",
+		"description": "Basic modified value"
+	},
+	"dsspec:basic.created.utc.public": {
+		"property": "originated.generic",
+		"key": "created",
+		"label": "CRS.common.Label.Attribute.Created",
+		"format": "datetimeutc",
+		"example": "2022-01-31T09:48:10Z",
+		"description": "Object created value"
+	},
+	"dsspec:basic.type.public": {
+		"property": "type",
+		"key": "type",
+		"label": "CRS.common.Label.Attribute.Type",
+		"example": "DBType",
+		"description": "Basic type value"
+	},
+	"dsspec:basic.state.public": {
+		"property": "current",
+		"key": "state",
+		"label": "CRS.common.Label.Attribute.State",
+		"example": "IN_WORK",
+		"description": "Object current state value"
+	},
+	"dsspec:basic.owner.public": {
+		"property": "owner",
+		"key": "owner",
+		"label": "CRS.common.Label.Attribute.Owner",
+		"example": "DB Owner",
+		"description": "Object owner value"
+	},
+	"dsspec:basic.description.public": {
+		"property": "description",
+		"key": "description",
+		"label": "CRS.common.Label.Attribute.Description",
+		"example": "DB description",
+		"description": "Object description value"
+	},
+	"dsspec:attribute.title.public": {
+		"property": "attribute[Title]",
+		"key": "title",
+		"label": "CRS.common.Label.Attribute.Title",
+		"example": "DB Title",
+		"description": "Object title value"
+	},
+	"dsspec:attribute.notes.public": {
+		"property": "attribute[Notes]",
+		"key": "notes",
+		"example": "attribute notes",
+		"description": "Object attribute notes value"
+	},	
+	"dsspec:basic.to.id.public": {
+		"property": "to.physicalid",
+		"key": "id",
+		"label": "CRS.common.Label.Attribute.Id",
+		"example": "EE562168015FFCF14F940A513C63AA77",
+		"description": "Entity physical id"
+	},
+	"dsspec:basic.to.name.public": {
+		"property": "name",
+		"key": "name",
+		"label": "CRS.common.Label.Attribute.Name",
+		"description": "Entity physical id"
+	},
+	"dsspec:basic.to.identifier.public": {
+		"property": "to.physicalid",
+		"key": "identifier",
+		"example": "EE562168015FFCF14F940A513C63AA77",
+		"description": "Entity physical id"
+	},
+	"dsspec:basic.to.revision.public": {
+		"property": "to.revision",
+		"key": "revision",
+		"label": "CRS.common.Label.Attribute.Revision",
+		"example": "A.1",
+		"description": "Object revision value"
+	},
+	"dsspec:basic.to.organization.public": {
+		"property": "to.organization",
+		"key": "organization"
+	},
+	"dsspec:basic.to.collabspace.public": {
+		"property": "to.project",
+		"key": "collabspace",
+		"example": "Default",
+		"description": "Object collabspace value"
+	},
+	"dsspec:basic.to.modified.utc.public": {
+		"property": "to.modified.generic",
+		"key": "modified",
+		"label": "CRS.common.Label.Attribute.Modified",
+		"format": "datetimeutc",
+		"example": "2022-01-31T09:48:10Z",
+		"description": "Basic modified value"
+	},
+	"dsspec:basic.to.created.utc.public": {
+		"property": "to.originated.generic",
+		"key": "created",
+		"label": "CRS.common.Label.Attribute.Created",
+		"format": "datetimeutc",
+		"example": "2022-01-31T09:48:10Z",
+		"description": "Object created value"
+	},
+	"dsspec:basic.to.type.public": {
+		"property": "to.type",
+		"key": "type",
+		"label": "CRS.common.Label.Attribute.Type",
+		"example": "DBType",
+		"description": "Basic type value"
+	},
+	"dsspec:basic.to.state.public": {
+		"property": "to.current",
+		"key": "state",
+		"label": "CRS.common.Label.Attribute.State",
+		"example": "IN_WORK",
+		"description": "Object current state value"
+	},
+	"dsspec:basic.to.owner.public": {
+		"property": "to.owner",
+		"key": "owner",
+		"label": "CRS.common.Label.Attribute.Owner",
+		"example": "DB Owner",
+		"description": "Object owner value"
+	},
+	"dsspec:basic.to.description.public": {
+		"property": "to.description",
+		"key": "description",
+		"label": "CRS.common.Label.Attribute.Description",
+		"example": "DB description",
+		"description": "Object description value"
+	},
+	"dsspec:attribute.to.title.public": {
+		"property": "to.attribute[Title]",
+		"key": "title",
+		"label": "CRS.common.Label.Attribute.Title",
+		"example": "DB Title",
+		"description": "Object title value"
+	},
+	"dsspec:attribute.to.notes.public": {
+		"property": "attribute[Notes]",
+		"key": "notes",
+		"example": "attribute notes",
+		"description": "Object attribute notes value"
+	},
+	"dsmvspec:psEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsspec:psEnterpriseAttributes",
+		"description": "To get parametric attributes of an object",
+		"example": "com.dassault_systemes.enovia.xapps.dseno.implementations.dsenoOpenAPIImpl.getParametricAttributes"
+	},
+	"dsmvspec:pcEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsspec:pcEnterpriseAttributes",
+		"description": "To get parametric attributes of an object",
+		"example": "com.dassault_systemes.enovia.xapps.dseno.implementations.dsenoOpenAPIImpl.getParametricAttributes"
+	},
+	"dsmvspec:pcCustomerAttributes":{
+	    "property": "computed",
+		"key": "CustomerAttributes",
+		"description": "To get customer attributes of an object",
+		"example": "com.dassault_systemes.enovia.xapps.dseno.implementations.dsenoOpenAPIImpl.getParametricAttributes"	
+	}
+}

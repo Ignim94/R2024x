@@ -1,0 +1,11 @@
+{
+  "edit": "편집",
+  "download": "다운로드",
+  "publish": "성숙도",
+  "delete": "삭제",
+  "add_template": "템플릿 추가",
+  "edit_template": "템플릿 편집",
+  "download_template": "템플릿 다운로드",
+  "delete_template": "템플릿 삭제",
+  "reload_template": "템플릿 다시 로드"
+}

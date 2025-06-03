@@ -1,0 +1,12 @@
+m|DELSIEApp\DELSIEApplicationServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.6.24186|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELSIEApplicationServices\DELSIEApplicationServices.js|1720121532|13649
+s|DELSIEApp\DELSIEApplicationServices.mweb\src\Commands\CommandsService.js|1719928868|26532
+u|DELSIEApp\DELSIEApplicationServices.mweb\src\LayoutConfig.js|1675157137|359
+u|DELSIEApp\DELSIEApplicationServices.mweb\src\LayoutService.js|1707824819|8072
+u|DELSIEApp\DELSIEApplicationServices.mweb\src\Services.js|1672810678|509
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

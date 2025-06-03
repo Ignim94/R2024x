@@ -1,0 +1,13 @@
+PACKAGE PLM;
+
+METHOD PlmConnectorAbstractType.getAttributeValue(attributeName : String) -doc :
+    NEW(MqlUtil).mqlPrint("bus", id, "attribute[" + attributeName + "]", VOID(String))
+CATEGORY I18N("Category.Extensions")
+LABEL I18N("Method.Extension.AttributeValue")
+HELPTEXT I18N("Method.Extension.AttributeValue.Help");
+
+METHOD PlmConnectorRelationship.getAttributeValue(attributeName : String) -doc :
+    NEW(MqlUtil).mqlPrint("connection", id, "attribute[" + attributeName + "]", VOID(String))
+CATEGORY I18N("Category.Extensions")
+LABEL I18N("Method.Extension.AttributeValue")
+HELPTEXT I18N("Method.Extension.AttributeValue.Help");

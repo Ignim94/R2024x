@@ -1,0 +1,5 @@
+{
+"ToggleRightPanel.Title":"Mostrar panel lateral",
+"ToggleRightPanel.ShortHelp":"Muestra información sobre el objeto seleccionado en las diferentes pestañas de un panel lateral.",
+"ToggleRightPanel.LongHelp":"Las pestañas disponibles dependen de la aplicación desde la que se inicien y del tipo de objeto que se haya seleccionado."
+}

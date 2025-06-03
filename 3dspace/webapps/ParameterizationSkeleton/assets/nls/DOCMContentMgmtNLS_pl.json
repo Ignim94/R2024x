@@ -1,0 +1,15 @@
+{
+  "intro": "Konfiguruj środowisko Document Management.",
+  "DownloadRules": "Zasady pobierania dokumentu",
+  "rule1": "Pobieranie wielu dokumentów: ",
+  "option1": "Jeden plik w jednym katalogu. Katalog nazwany według „<Nazwa dokumentu> <Wersja dokumentu>”, np. DOC-00000001 0",
+  "option2": "Wszystkie pliki bez struktury katalogów. Nazwy plików powodujące konflikt zostaną oznaczone sufiksem z numerem seryjnym",
+  "defaultOption": "OneFileOneDirectory",
+  "Flatlist": "FlatList",
+  "ApplySuccess": "Zmiany zostały zastosowane pomyślnie",
+  "ApplyError": "Nie udało się zastosować zmian",
+  "ResetSuccess": "Resetowanie powiodło się",
+  "Enable_Work_Under_Setting": "Włącz pracę w obszarze",
+  "Work_Under_Accordion_Title": "Pracuj w ramach konfiguracji",
+  "Failed_Load": "Nie można załadować konfiguracji."
+}

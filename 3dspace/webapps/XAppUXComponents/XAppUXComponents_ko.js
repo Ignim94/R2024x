@@ -1,0 +1,1 @@
+define("DS/XAppUXComponents/XAppUXComponents_ko",{});define("DS/XAppUXComponents/assets/nls/XAppTopBar",{XAppTopBar:{Share:{SaveDocument:"문서 저장"}}});define("DS/XAppUXComponents/assets/nls/XAppWaitingBar",{"WaitingBar.Stop":"중지"});define("DS/XAppUXComponents/assets/nls/XAppWelcomeScreenIntegrator",{"SwitchAppBtn.Hover":"앱 전환"});

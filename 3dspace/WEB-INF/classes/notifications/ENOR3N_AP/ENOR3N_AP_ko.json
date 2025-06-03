@@ -1,0 +1,7 @@
+{
+  "review.mentionned.setting": "다른 사람이 검토자 코멘트에서 나를 언급함",
+  "review.mentionned.new": "<strong>###FROM_USER###</strong> 님이 <strong>###OBJECT_TITLE###</strong>에 관한 검토 코멘트에서 귀하를 언급했습니다.",
+  "review.mentionned.new.mail.subject": "<strong>###FROM_USER###</strong> 님이 <strong>###OBJECT_TITLE###</strong>에 관한 검토 코멘트에서 귀하를 언급했습니다.",
+  "review.mentionned.new.mail.content": "<a ###REVIEW_URL###>###FROM_USER###</a> 님이 <a ###REVIEW_URL###>###OBJECT_TITLE###</a>에 관한 검토 코멘트에서 귀하를 언급했습니다.",
+  "review.mentionned.new.mail.title": "누군가가 검토에서 귀하를 언급했습니다."
+}

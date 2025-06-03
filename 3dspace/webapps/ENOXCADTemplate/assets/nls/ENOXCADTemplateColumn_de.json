@@ -1,0 +1,8 @@
+{
+  "tree": "Titel",
+  "name": "Name",
+  "maturity": "Reife",
+  "desc": "Beschreibung",
+  "type3dx": "3DEXPERIENCE Zieltyp",
+  "ContextualMenuColumn": "Aktion"
+}

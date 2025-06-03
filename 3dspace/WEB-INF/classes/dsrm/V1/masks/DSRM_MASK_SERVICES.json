@@ -1,0 +1,65 @@
+{
+    "dsrm:BaseMask.public": [
+        "dsrm:basic.identifier",    
+        "dsmveno:basic.id",
+        "dsmveno:basic.type.public",
+		"dsmveno:basic.modified.utc",
+        "dsmveno:basic.created.utc",    
+        {
+			"property": "computed",
+			"key": "source",
+            "format": "string",
+            "example":"$3DSpace"
+		},
+		{
+			"property": "computed",
+			"key": "relativePath",
+            "format": "string",
+            "example": "/resources/v1/modeler/dsrm/dsrm:RawMaterial/C9AD8256....."
+		}
+    ],
+    "dsrm:BusBasicPropertiesMask.public": [
+        "dsrm:basic.revision",
+        "dsrm:basic.state.public",
+        "dsrm:basic.owner.public",
+        "dsrm:basic.organization",
+        "dsrm:basic.collabspace"
+    ],
+    "dsrm:VPMNameDescriptionMask": [
+        "dsrm:attribute.reference.name",
+        "dsrm:attribute.reference.title",
+        "dsrm:attribute.reference.description"
+    ],
+	"dsrm:RawMaterialMask.Details": [	
+		{
+        	"property": "reuseMask",
+        	"mask": "dsrm:BaseMask.public"
+    	},
+        {
+            "property": "reuseMask",
+            "mask": "dsmveno:VPMNameDescriptionMask"
+        },
+        {
+            "property": "reuseMask",
+            "mask": "dsmveno:BusBasicPropertiesMask.public"
+        },
+    	"dsrm:attribute.dimensionType",
+        "dsmveng:programe.CP.EnterpriseReference.Details",
+        "dsmvrm:EnterpriseAttributes"
+	],
+    "dsrm:RawMaterialMask.Common": [
+		{
+        	"property": "reuseMask",
+        	"mask": "dsrm:BaseMask.public"
+    	},
+    	{
+            "property": "reuseMask",
+            "mask": "dsmveno:VPMNameDescriptionMask"
+        },
+        {
+            "property": "reuseMask",
+            "mask": "dsmveno:BusBasicPropertiesMask.public"
+        },
+        "dsrm:attribute.dimensionType"
+	]
+}

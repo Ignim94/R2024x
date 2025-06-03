@@ -1,0 +1,41 @@
+{
+	"fields": [{
+		"clearButton": false,
+		"disabled": false,
+		"label": "label_Name",
+		"mandatory": false,
+		"name": "name",
+		"placeholder": "placeholder_Name",
+		"type": "text"
+	},
+	{
+		"clearButton": false,
+		"disabled": false,
+		"label": "label_Industry",
+		"mandatory": false,
+		"name": "industry",
+		"placeholder": "placeholder_Industry",
+		"type": "multiselect"
+	},
+	{
+		"clearButton": false,
+		"disabled": false,
+		"label": "label_Level",
+		"mandatory": false,
+		"name": "level",
+		"placeholder": "placeholder_Level",
+		"type": "multiselect",
+		"value": ["Potential Supplier", "Candidate Supplier", "Supplier", "Partner", "Refused Supplier"]
+	},
+	{
+		"clearButton": false,
+		"disabled": false,
+		"label": "label_Preference",
+		"mandatory": false,
+		"name": "preference",
+		"placeholder": "placeholder_Preference",
+		"type": "multiselect",
+		"value": ["Not Preferred", "Preferred", "Default"]
+	}
+ ]
+}

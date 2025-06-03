@@ -1,0 +1,14 @@
+{
+  "BACKLOG_ITEMS" : "Candidates",
+  "BACKLOGS_TITLE": "Candidates",
+  "DROP_HERE_FOR_PLAN": "Drop items here to target in to ",
+  "DROP_HERE_FOR_BACKLOG": "Drop items here to add as candidates",
+  "COMMITTED_FOR_THIS_REVISION" : "Targeted for this revision ",
+  "BACKLOG" : "Candidates",
+  "COMMITTED" : "Targeted",
+  "ROADMAP_SETTINGS" : "Drivers Settings",
+  "MANAGE_ROADMAP_SETTINGS" : "Manage drivers settings",
+  "SAME_BACKLOG_ITEM_LOADED" : "drivers are already loaded.",
+  "HIDE_BACKLOG_PANE" : "Hide Candidate Pane",
+  "SHOW_BACKLOG_PANE" : "Show Candidate Pane"
+}

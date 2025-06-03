@@ -1,0 +1,109 @@
+{
+	"dsreq:RequirementBaseMask":[
+		{
+			"property":"reuseMask",
+			"mask":"dsmveno:DefaultErBusMask",
+			"application":"Requirement"
+		},
+		"dsmvreq:attribute.Priority",
+		"dsmvreq:attribute.Difficulty",
+		"dsmvreq:attribute.Synopsis",
+		"dsmvreq:attribute.ContentType",
+		"dsmvreq:attribute.ContentData",
+		"dsmvreq:attribute.UserRequirementImportance",
+		"dsmvreq:attribute.AccessType",
+		"dsmvreq:attribute.RequirementCategory",
+		"dsmvreq:attribute.RequirementClassification"
+	],
+	"dsreq:RequirementSpecificationBaseMask":[
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultErBusMask",
+			"application":"Requirement"
+		}
+	],
+	"dsreq:ChapterBaseMask":[
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultErBusMask",
+			"application":"Requirement"
+		}
+	],
+	"dsreq:CommentBaseMask":[
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultErBusMask",
+			"application":"Requirement"
+		}
+	],
+	"dsreq:SpecificationsFolderBaseMask":[
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultErBusMask",
+			"application":"Requirement"
+		}
+	],
+	"dsreq:RequirementSpecificationMask.Config": [
+	    {
+	        "property": "reuseMask",
+	        "mask": "dsreq:RequirementSpecificationBaseMask"
+	    },
+	    "dsmvcfg:attribute.enabledCriteria",
+	    "dsmvcfg:attribute.configurationCtxt"
+	],
+	"dsreq:RequirementMask.Config": [
+	    {
+	        "property": "reuseMask",
+	        "mask": "dsreq:RequirementBaseMask"
+	    },
+	    "dsmvcfg:attribute.enabledCriteria",
+	    "dsmvcfg:attribute.configurationCtxt"
+	],
+	"dsreq:ChapterMask.Config": [
+	    {
+	        "property": "reuseMask",
+	        "mask": "dsreq:ChapterBaseMask"
+	    },
+	    "dsmvcfg:attribute.enabledCriteria",
+	    "dsmvcfg:attribute.configurationCtxt"
+	],
+	"dsreq:RequirementUsageMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmveno:DefaultRelMask.public"
+	    }
+	],
+	"dsreq:RequirementUsageMask.Filterable": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmveno:DefaultRelMask.public"
+	    },
+		"dsmvcfg:attribute.hasEffectivity"
+	],
+	"dsreq:ChapterUsageMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmveno:DefaultRelMask.public"
+	    }
+	],
+	"dsreq:ChapterUsageMask.Filterable": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmveno:DefaultRelMask.public"
+	    },
+		"dsmvcfg:attribute.hasEffectivity"
+	],
+	"dsreq:SubRequirementUsageMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmveno:DefaultRelMask.public"
+	    }
+	],
+	"dsreq:SubRequirementUsageMask.Filterable": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmveno:DefaultRelMask.public"
+	    },
+		"dsmvcfg:attribute.hasEffectivity"
+	]
+}

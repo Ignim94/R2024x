@@ -1,0 +1,273 @@
+<meta charset="UTF-8"/>
+VCXWebAuthoringApp.VCXCreateSelectiveOverridesCmd.Title="Crée des acteurs participants";
+VCXWebAuthoringApp.VCXCreateAllOverridesCmd.Title="Crée tous les acteurs";
+
+VCXWebAuthoringApp.Modifiable.Style.Title="Style";
+
+VCXWebAuthoringApp.styleID_NoStyle.Title="Aucun";
+VCXWebAuthoringApp.styleID_LabelClassicBlack.Title="Libellé Classique Noir";
+VCXWebAuthoringApp.VCXChangeStyleLabelClassicBlackCmd.Title="Noir";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicBlackCmd.Title="Créer un libellé";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlack.Title="Libellé Boîte arrondie Noir";
+VCXWebAuthoringApp.VCXChangeStyleLabelRoundedBoxBlackCmd.Title="Noir";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxBlackCmd.Title="Boîte arrondie";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlack.Title="Libellé Souligné Noir";
+VCXWebAuthoringApp.VCXChangeStyleLabelUnderlineBlackCmd.Title="Noir";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineBlackCmd.Title="Souligné";
+VCXWebAuthoringApp.styleID_LabelSimpleBlack.Title="Libellé Simple Noir";
+VCXWebAuthoringApp.VCXChangeStyleLabelSimpleBlackCmd.Title="Noir";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleBlackCmd.Title="Simple";
+
+VCXWebAuthoringApp.styleID_LabelClassicGrey.Title="Libellé Classique Gris";
+VCXWebAuthoringApp.VCXChangeStyleLabelClassicGreyCmd.Title="Gris";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicGreyCmd.Title="Créer un libellé";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxGrey.Title="Libellé Boîte arrondie Gris";
+VCXWebAuthoringApp.VCXChangeStyleLabelRoundedBoxGreyCmd.Title="Gris";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxGreyCmd.Title="Créer un libellé";
+VCXWebAuthoringApp.styleID_LabelUnderlineGrey.Title="Libellé Souligné Gris";
+VCXWebAuthoringApp.VCXChangeStyleLabelUnderlineGreyCmd.Title="Gris";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineGreyCmd.Title="Souligné";
+VCXWebAuthoringApp.styleID_LabelSimpleGrey.Title="Libellé Simple Gris";
+VCXWebAuthoringApp.VCXChangeStyleLabelSimpleGreyCmd.Title="Gris";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleGreyCmd.Title="Simple";
+
+VCXWebAuthoringApp.styleID_LabelClassicWhite.Title="Libellé Classique Blanc";
+VCXWebAuthoringApp.VCXChangeStyleLabelClassicWhiteCmd.Title="Blanc";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicWhiteCmd.Title="Classique";
+VCXWebAuthoringApp.styleID_LabelRoundedWhite.Title="Libellé Boîte arrondie Blanc";
+VCXWebAuthoringApp.VCXChangeStyleLabelRoundedWhiteCmd.Title="Blanc";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedWhiteCmd.Title="Boîte arrondie";
+VCXWebAuthoringApp.styleID_LabelUnderlineWhite.Title="Libellé Souligné Blanc";
+VCXWebAuthoringApp.VCXChangeStyleLabelUnderlineWhiteCmd.Title="Blanc";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineWhiteCmd.Title="Souligné";
+VCXWebAuthoringApp.styleID_LabelSimpleWhite.Title="Libellé Simple Blanc";
+VCXWebAuthoringApp.VCXChangeStyleLabelSimpleWhiteCmd.Title="Blanc";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleWhiteCmd.Title="Simple";
+VCXWebAuthoringApp.styleID_LabelClassicRed.Title="Libellé Classique Rouge";
+VCXWebAuthoringApp.VCXChangeStyleLabelClassicRedCmd.Title="Rouge";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicRedCmd.Title="Classique";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxRed.Title="Libellé Boîte arrondie Rouge";
+VCXWebAuthoringApp.VCXChangeStyleLabelRoundedBoxRedCmd.Title="Rouge";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxRedCmd.Title="Boîte arrondie";
+VCXWebAuthoringApp.styleID_LabelUnderlineRed.Title="Libellé Souligné Rouge";
+VCXWebAuthoringApp.VCXChangeStyleLabelUnderlineRedCmd.Title="Rouge";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineRedCmd.Title="Souligné";
+VCXWebAuthoringApp.styleID_LabelSimpleRed.Title="Libellé Simple Rouge";
+VCXWebAuthoringApp.VCXChangeStyleLabelSimpleRedCmd.Title="Rouge";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleRedCmd.Title="Simple";
+VCXWebAuthoringApp.styleID_LabelClassicBlue.Title="Libellé Classique Bleu";
+VCXWebAuthoringApp.VCXChangeStyleLabelClassicBlueCmd.Title="Bleu";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicBlueCmd.Title="Classique";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlue.Title="Libellé Boîte arrondie Bleu";
+VCXWebAuthoringApp.VCXChangeStyleLabelRoundedBoxBlueCmd.Title="Bleu";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxBlueCmd.Title="Boîte arrondie";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlue.Title="Libellé Souligné Bleu";
+VCXWebAuthoringApp.VCXChangeStyleLabelUnderlineBlueCmd.Title="Bleu";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineBlueCmd.Title="Souligné";
+VCXWebAuthoringApp.styleID_LabelSimpleBlue.Title="Libellé Simple Bleu";
+VCXWebAuthoringApp.VCXChangeStyleLabelSimpleBlueCmd.Title="Bleu";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleBlueCmd.Title="Simple";
+VCXWebAuthoringApp.styleID_ArrowDefaultWhite.Title="Flèche Blanc";
+VCXWebAuthoringApp.VCXChangeStyleArrowDefaultWhiteCmd.Title="Flèche Blanc";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultWhiteCmd.Title="Blanc";
+VCXWebAuthoringApp.styleID_ArrowDefaultGrey.Title="Flèche Gris";
+VCXWebAuthoringApp.VCXChangeStyleArrowDefaultGreyCmd.Title="Flèche Gris";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultGreyCmd.Title="Gris";
+VCXWebAuthoringApp.styleID_ArrowDefaultRed.Title="Flèche Rouge";
+VCXWebAuthoringApp.VCXChangeStyleArrowDefaultRedCmd.Title="Flèche Rouge";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultRedCmd.Title="Rouge";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlue.Title="Flèche Bleu";
+VCXWebAuthoringApp.VCXChangeStyleArrowDefaultBlueCmd.Title="Flèche Bleu";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultBlueCmd.Title="Bleu";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlack.Title="Flèche Noir";
+VCXWebAuthoringApp.VCXChangeStyleArrowDefaultBlackCmd.Title="Flèche Noir";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultBlackCmd.Title="Créer une flèche linéaire";
+VCXWebAuthoringApp.VCXChangeStylePolylineDefaultBlackCmd.Title="Noir";
+VCXWebAuthoringApp.VCXChangeStylePolylineDefaultGreyCmd.Title="Gris";
+VCXWebAuthoringApp.VCXChangeStylePolylineDefaultWhiteCmd.Title="Blanc";
+VCXWebAuthoringApp.VCXChangeStyleSectionDefaultBlueCmd.Title="Section Bleu";
+VCXWebAuthoringApp.VCXChangeStyleSectionDefaultSimpleCmd.Title="Section Simple";
+
+
+VCXWebAuthoringApp.styleID_CircleBlack.Title="Cercle Noir";
+VCXWebAuthoringApp.VCXChangeStyleCircleBlackCmd.Title="Cercle Noir";
+VCXWebAuthoringApp.VCXCreateDressupCircleBlackCmd.Title="Noir";
+VCXWebAuthoringApp.styleID_CircleWhite.Title="Cercle Blanc";
+VCXWebAuthoringApp.VCXChangeStyleCircleWhiteCmd.Title="Cercle Blanc";
+VCXWebAuthoringApp.VCXCreateDressupCircleWhiteCmd.Title="Blanc";
+VCXWebAuthoringApp.styleID_CircleGrey.Title="Cercle Gris";
+VCXWebAuthoringApp.VCXChangeStyleCircleGreyCmd.Title="Cercle Gris";
+VCXWebAuthoringApp.VCXCreateDressupCircleGreyCmd.Title="Gris";
+VCXWebAuthoringApp.styleID_CircleRed.Title="Cercle Rouge";
+VCXWebAuthoringApp.VCXChangeStyleCircleRedCmd.Title="Cercle Rouge";
+VCXWebAuthoringApp.VCXCreateDressupCircleRedCmd.Title="Rouge";
+VCXWebAuthoringApp.styleID_CircleBlue.Title="Cercle Bleu";
+VCXWebAuthoringApp.VCXChangeStyleCircleBlueCmd.Title="Cercle Bleu";
+VCXWebAuthoringApp.VCXCreateDressupCircleBlueCmd.Title="Bleu";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlack.Title="Zone de texte Par défaut Noir";
+VCXWebAuthoringApp.VCXChangeStyleTextBoxDefaultBlackCmd.Title="Noir";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultBlackCmd.Title="Créer du texte 2D dans un espace papier";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlack.Title="Zone de texte Simple Noir";
+VCXWebAuthoringApp.VCXChangeStyleTextBoxSimpleBlackCmd.Title="Noir";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleBlackCmd.Title="Simple";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultGrey.Title="Zone de texte Par défaut Gris";
+VCXWebAuthoringApp.VCXChangeStyleTextBoxDefaultGreyCmd.Title="Gris";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultGreyCmd.Title="Gris";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleGrey.Title="Zone de texte Simple Gris";
+VCXWebAuthoringApp.VCXChangeStyleTextBoxSimpleGreyCmd.Title="Gris";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleGreyCmd.Title="Gris";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultWhite.Title="Zone de texte Par défaut Blanc";
+VCXWebAuthoringApp.VCXChangeStyleTextBoxDefaultWhiteCmd.Title="Blanc";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultWhiteCmd.Title="Créer une zone de texte";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleWhite.Title="Zone de texte Simple Blanc";
+VCXWebAuthoringApp.VCXChangeStyleTextBoxSimpleWhiteCmd.Title="Blanc";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleWhiteCmd.Title="Créer une zone de texte";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultRed.Title="Zone de texte Par défaut Rouge";
+VCXWebAuthoringApp.VCXChangeStyleTextBoxDefaultRedCmd.Title="Rouge";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultRedCmd.Title="Rouge";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleRed.Title="Zone de texte Simple Rouge";
+VCXWebAuthoringApp.VCXChangeStyleTextBoxSimpleRedCmd.Title="Rouge";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleRedCmd.Title="Rouge";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlue.Title="Zone de texte Par défaut Bleu";
+VCXWebAuthoringApp.VCXChangeStyleTextBoxDefaultBlueCmd.Title="Bleu";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultBlueCmd.Title="Bleu";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlue.Title="Zone de texte Simple Bleu";
+VCXWebAuthoringApp.VCXChangeStyleTextBoxSimpleBlueCmd.Title="Bleu";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleBlueCmd.Title="Bleu";
+
+VCXWebAuthoringApp.styleID_ImageDefaultShadow.Title="Image par défaut";
+VCXWebAuthoringApp.VCXChangeStyleImageDefaultShadowCmd.Title="Ombre";
+
+VCXWebAuthoringApp.styleID_ImageBlackBorder.Title="Bordure noire de l'image";
+VCXWebAuthoringApp.VCXChangeStyleImageBlackBorderCmd.Title="Bordure noire";
+
+VCXWebAuthoringApp.styleID_ImageWhiteBorder.Title="Bordure blanche de l'image";
+VCXWebAuthoringApp.VCXChangeStyleImageWhiteBorderCmd.Title="Bordure blanche";
+
+VCXWebAuthoringApp.styleID_ImageRoundShape.Title="Bordure arrondie de l'image";
+VCXWebAuthoringApp.VCXChangeStyleImageRoundShapeCmd.Title="Arrondi";
+
+VCXWebAuthoringApp.styleID_CallOutBlack.Title="Trait de coupe Noir";
+VCXWebAuthoringApp.VCXChangeStyleCallOutBlackCmd.Title="Noir";
+VCXWebAuthoringApp.VCXCreateDressupCallOutBlackCmd.Title="Créer un trait de coupe";
+
+VCXWebAuthoringApp.styleID_CallOutWhite.Title="Trait de coupe Blanc";
+VCXWebAuthoringApp.VCXChangeStyleCallOutWhiteCmd.Title="Blanc";
+VCXWebAuthoringApp.VCXCreateDressupCallOutWhiteCmd.Title="Créer un trait de coupe";
+
+VCXWebAuthoringApp.styleID_CallOutGrey.Title="Trait de coupe Gris";
+VCXWebAuthoringApp.VCXChangeStyleCallOutGreyCmd.Title="Gris";
+VCXWebAuthoringApp.VCXCreateDressupCallOutGreyCmd.Title="Gris";
+
+VCXWebAuthoringApp.styleID_CallOutRed.Title="Trait de coupe Rouge";
+VCXWebAuthoringApp.VCXChangeStyleCallOutRedCmd.Title="Rouge";
+VCXWebAuthoringApp.VCXCreateDressupCallOutRedCmd.Title="Rouge";
+
+VCXWebAuthoringApp.styleID_CallOutBlue.Title="Trait de coupe Bleu";
+VCXWebAuthoringApp.VCXChangeStyleCallOutBlueCmd.Title="Bleu";
+VCXWebAuthoringApp.VCXCreateDressupCallOutBlueCmd.Title="Bleu";
+
+VCXWebAuthoringApp.styleID_LabelClassicBlack_v2.Title="Libellé Classique Noir";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlack_v2.Title="Libellé Boîte arrondie Noir";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlack_v2.Title="Libellé Souligné Noir";
+VCXWebAuthoringApp.styleID_LabelSimpleBlack_v2.Title="Libellé Simple Noir";
+VCXWebAuthoringApp.styleID_LabelClassicGrey_v2.Title="Libellé Classique Gris";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxGrey_v2.Title="Libellé Boîte arrondie Gris";
+VCXWebAuthoringApp.styleID_LabelUnderlineGrey_v2.Title="Libellé Souligné Gris";
+VCXWebAuthoringApp.styleID_LabelSimpleGrey_v2.Title="Libellé Simple Gris";
+VCXWebAuthoringApp.styleID_LabelClassicWhite_v2.Title="Libellé Classique Blanc";
+VCXWebAuthoringApp.styleID_LabelRoundedWhite_v2.Title="Libellé Boîte arrondie Blanc";
+VCXWebAuthoringApp.styleID_LabelUnderlineWhite_v2.Title="Libellé Souligné Blanc";
+VCXWebAuthoringApp.styleID_LabelSimpleWhite_v2.Title="Libellé Simple Blanc";
+VCXWebAuthoringApp.styleID_LabelClassicRed_v2.Title="Libellé Classique Rouge";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxRed_v2.Title="Libellé Boîte arrondie Rouge";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxRed_v3.Title="Libellé Boîte arrondie Rouge";
+VCXWebAuthoringApp.styleID_LabelUnderlineRed_v2.Title="Libellé Souligné Rouge";
+VCXWebAuthoringApp.styleID_LabelSimpleRed_v2.Title="Libellé Simple Rouge";
+VCXWebAuthoringApp.styleID_LabelClassicBlue_v2.Title="Libellé Classique Bleu";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlue_v2.Title="Libellé Boîte arrondie Bleu";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlue_v2.Title="Libellé Souligné Bleu";
+VCXWebAuthoringApp.styleID_LabelSimpleBlue_v2.Title="Libellé Simple Bleu";
+VCXWebAuthoringApp.styleID_ArrowDefaultWhite_v2.Title="Flèche Blanc";
+VCXWebAuthoringApp.styleID_ArrowDefaultGrey_v2.Title="Flèche Gris";
+VCXWebAuthoringApp.styleID_ArrowDefaultRed_v2.Title="Flèche Rouge";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlue_v2.Title="Flèche Bleu";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlack_v2.Title="Flèche Noir";
+VCXWebAuthoringApp.styleID_CircleBlack_v2.Title="Cercle Noir";
+VCXWebAuthoringApp.styleID_CircleWhite_v2.Title="Cercle Blanc";
+VCXWebAuthoringApp.styleID_CircleGrey_v2.Title="Cercle Gris";
+VCXWebAuthoringApp.styleID_CircleRed_v2.Title="Cercle Rouge";
+VCXWebAuthoringApp.styleID_CircleBlue_v2.Title="Cercle Bleu";
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlack_v2.Title="Zone de texte Par défaut Noir";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlack_v2.Title="Zone de texte Simple Noir";
+VCXWebAuthoringApp.styleID_TextBoxDefaultGrey_v2.Title="Zone de texte Par défaut Gris";
+VCXWebAuthoringApp.styleID_TextBoxSimpleGrey_v2.Title="Zone de texte Simple Gris";
+VCXWebAuthoringApp.styleID_TextBoxDefaultWhite_v2.Title="Zone de texte Par défaut Blanc";
+VCXWebAuthoringApp.styleID_TextBoxSimpleWhite_v2.Title="Zone de texte Simple Blanc";
+VCXWebAuthoringApp.styleID_TextBoxDefaultRed_v2.Title="Zone de texte Par défaut Rouge";
+VCXWebAuthoringApp.styleID_TextBoxSimpleRed_v2.Title="Zone de texte Simple Rouge";
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlue_v2.Title="Zone de texte Par défaut Bleu";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlue_v2.Title="Zone de texte Simple Bleu";
+VCXWebAuthoringApp.styleID_CallOutBlack_v2.Title="Trait de coupe Noir";
+VCXWebAuthoringApp.styleID_CallOutWhite_v2.Title="Trait de coupe Blanc";
+VCXWebAuthoringApp.styleID_CallOutGrey_v2.Title="Trait de coupe Gris";
+VCXWebAuthoringApp.styleID_CallOutGrey_v3.Title="Trait de coupe Gris";
+VCXWebAuthoringApp.styleID_CallOutRed_v2.Title="Trait de coupe Rouge";
+VCXWebAuthoringApp.styleID_CallOutBlue_v2.Title="Trait de coupe Bleu";
+VCXWebAuthoringApp.styleID_CallOutSimple_v2.Title="Trait de coupe Simple";
+
+VCXWebAuthoringApp.styleID_MesureClassicBlack_v3.Title="Noir classique";
+VCXWebAuthoringApp.styleID_MesureClassicGrey_v3.Title="Gris classique";
+VCXWebAuthoringApp.styleID_MesureClassicWhite_v3.Title="Blanc classique";
+VCXWebAuthoringApp.styleID_MesureClassicRed_v3.Title="Rouge classique";
+VCXWebAuthoringApp.styleID_MesureClassicBlue_v3.Title="Bleu classique";
+
+VCXWebAuthoringApp.styleID_MesureRoundedBoxRed_v3.Title="Boîte arrondie Rouge";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxBlue_v3.Title="Boîte arrondie Bleu";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxWhite_v3.Title="Boîte arrondie Blanc";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxGrey_v3.Title="Boîte arrondie Gris";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxBlack_v3.Title="Boîte arrondie Noir";
+
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlack_v3.Title="Zone de texte Par défaut Noir";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlack_v3.Title="Zone de texte Simple Noir";
+VCXWebAuthoringApp.styleID_TextBoxDefaultGrey_v3.Title="Zone de texte Par défaut Gris";
+VCXWebAuthoringApp.styleID_TextBoxSimpleGrey_v3.Title="Zone de texte Simple Gris";
+VCXWebAuthoringApp.styleID_TextBoxDefaultWhite_v3.Title="Zone de texte Par défaut Blanc";
+VCXWebAuthoringApp.styleID_TextBoxSimpleWhite_v3.Title="Zone de texte Simple Blanc";
+VCXWebAuthoringApp.styleID_TextBoxDefaultRed_v3.Title="Zone de texte Par défaut Rouge";
+VCXWebAuthoringApp.styleID_TextBoxSimpleRed_v3.Title="Zone de texte Simple Rouge";
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlue_v3.Title="Zone de texte Par défaut Bleu";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlue_v3.Title="Zone de texte Simple Bleu";
+
+VCXWebAuthoringApp.styleID_ImageDefaultShadow.Title="Image par défaut";
+VCXWebAuthoringApp.styleID_ImageBlackBorder.Title="Bordure noire";
+VCXWebAuthoringApp.styleID_ImageWhiteBorder.Title="Bordure blanche";
+VCXWebAuthoringApp.styleID_ImageRoundShape.Title="Forme arrondie";
+
+VCXWebAuthoringApp.styleID_ArrowDefaultWhite_v3.Title="Flèche Blanc";
+VCXWebAuthoringApp.styleID_ArrowDefaultGrey_v3.Title="Flèche Gris";
+VCXWebAuthoringApp.styleID_ArrowDefaultRed_v3.Title="Flèche Rouge";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlue_v3.Title="Flèche Bleu";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlack_v3.Title="Flèche Noir";
+
+VCXWebAuthoringApp.styleID_PolylineDefaultGrey_v3.Title="Gris";
+VCXWebAuthoringApp.styleID_PolylineDefaultDash.Title="Tiret";
+VCXWebAuthoringApp.styleID_PolylineDefaultPlain.Title="Lisse";
+
+VCXWebAuthoringApp.styleID_RedlineBlue_v3.Title="Bleu";
+VCXWebAuthoringApp.styleID_RedlineRed.Title="Rouge";
+
+VCXWebAuthoringApp.styleID_SectionBlue.Title="Bleu";
+VCXWebAuthoringApp.styleID_SectionSimple.Title="Simple";
+

@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:widget="http://www.netvibes.com/ns/">
+<head>
+	
+
+	<widget:preferences>
+		
+		<widget:preference type="list" name="project state" label="state">
+			<widget:option value="Active" label="진행중" selected></widget:option>
+			<widget:option value="Complete" label="완료"></widget:option>
+			<widget:option value="Drop" label="Drop"></widget:option>
+			<widget:option value="Hold" label="Hold"></widget:option>
+		</widget:preference>
+		
+	</widget:preferences>
+
+<script>
+
+ 	require([ "DS/PlatformAPI/PlatformAPI",
+			  "DS/i3DXCompassServices/i3DXCompassServices",
+			  "DS/WAFData/WAFData",
+			  "css!DS/ENOAEFframeworkJS/styles/emxUIDefault",
+			  "css!DS/ENOAEFframeworkJS/styles/emxUIStructureBrowser"], function(API, i3DXCompassServices, WAFData, emxUIDefault, emxUIStructureBrowser) {
+ /*	require([ "DS/PlatformAPI/PlatformAPI",
+			  "DS/i3DXCompassServices/i3DXCompassServices",
+			  "DS/WAFData/WAFData"], function(API, i3DXCompassServices, WAFData) {	*/
+
+		let x3dPlatformId = widget.getValue("x3dPlatformId");
+
+		let username = "";
+		let getType = "Project Space";
+		let setState = "ALL";
+		let platformUrl = "";
+		let url = "";
+		
+		
+		let myWidget = {
+			
+			// let compass 선언.
+			url : "",	
+			projectlist : [],
+			tableStorage : {
+				treeTable : "", 
+				bodyTable : ""
+			},
+			domCreateElement : function(){
+
+				  const element = Object.assign(document.createElement(tag),
+						  attributes);
+			},
+			searchResetWidget: function(query){
+	
+				const divTreeTable = document.getElementById("mx_divTree");
+				const divContentTable = document.getElementById("mx_divTable");	
+				
+				const treeBodyTable = document.getElementById("mx_divTreeBody");
+				const BodyTable = document.getElementById("mx_divTableBody");			
+
+				if (treeBodyTable){
+					treeBodyTable.remove();
+				} 
+				if (BodyTable){
+					BodyTable.remove();
+				} 	
+				
+				divTreeTable.appendChild(myWidget.tableStorage.treeTable);
+				divContentTable.appendChild(myWidget.tableStorage.bodyTable);
+				
+			},
+			searchProjectList : function(query){
+				let matchedIndexes = new Set();
+				let filteringArr = myWidget.projectlist;
+			    
+			    // find index
+			    filteringArr.forEach(function(row) {
+			        row.forEach(function(item, index) {
+			            if (item && item.includes(query)) {
+			                matchedIndexes.add(index); 
+			            }
+			        });
+			    });
+			    
+			    if (matchedIndexes.size === 0) return [];
+
+			    return filteringArr.map(function(row) {
+			        return Array.from(matchedIndexes).map(function(index) {
+			            return row[index] || ""; // 없는 값은 빈 문자열 처리
+			        });
+			    });
+			},	
+			searchWidget : function(query){
+
+				let filteredResults = myWidget.searchProjectList(query);	
+				
+				const divTreeTable = document.getElementById("mx_divTree");
+				const divContentTable = document.getElementById("mx_divTable");				
+				const treeBodyTable = document.getElementById("mx_divTreeBody");
+				const BodyTable = document.getElementById("mx_divTableBody");
+				
+				
+				
+				if (treeBodyTable){
+					treeBodyTable.remove();
+				} 
+				if (BodyTable){
+					BodyTable.remove();
+				} 					
+				
+				let dataArr = filteredResults.slice(2); 
+				let contentColumnLength = 9;
+				
+				if(filteredResults.length>0){
+					myWidget.drawTreeBodyTable(divTreeTable, filteredResults[0], filteredResults[1], url);
+					myWidget.drawBodyTable(divContentTable, filteredResults[0], filteredResults[1], url,dataArr,contentColumnLength);
+				}
+				
+				// 이벤트 리스너 추가
+				let rowCount = filteredResults[0].length;
+		         myWidget.addEventFunction(rowCount);
+				
+			},
+			drawTreeHeaderTable : function(divTreeTable){
+				
+				// tree header table 
+			    const headDiv = document.createElement("div");
+			    headDiv.id = "mx_divTreeHead";
+			    headDiv.setAttribute = ("width","");
+			    
+			    const headTable = document.createElement("table");
+			    headTable.id = "treeHeadTable";
+			    headTable.style.position = "relative";
+			    headTable.style.left = "0px";
+			    headTable.setAttribute("colorize", "");
+			    const tBody1 = document.createElement("tbody");
+			    // const headTable = Object.assign(document.createElement("table"), {
+			    //    id: "treeHeadTable", style: {position: "relative",left: "0px", "colorize": ""}
+			    // });
+			    // headTable.setAttribute("colorize", "");
+			    
+			    const headRow1 = document.createElement("tr");
+			    headRow1.classList.add("mx_hidden-row");
+
+			    let td1 = document.createElement("td");
+			    td1.setAttribute("width", "1");
+			    td1.setAttribute("position", "-1");
+
+			    let td2 = document.createElement("td");
+			    td2.setAttribute("width", "1");
+			    td2.classList.add("mx_hidden-row");
+
+			    let td3 = document.createElement("td");
+			    td3.setAttribute("id", "ROW_1");
+			    td3.classList.add("mx_hidden-row");
+			    td3.setAttribute("width", "240");
+
+			    let td4 = document.createElement("td");
+			    td4.setAttribute("width", "2");
+			    td4.classList.add("mx_hidden-row");
+
+			    headRow1.append(td1, td2, td3, td4);
+
+			    const headRow2 = document.createElement("tr");
+			    headRow2.style.height = "40px";
+
+			    let th1 = document.createElement("th");
+			    th1.setAttribute("width", "1");
+			    th1.setAttribute("position", "-1");
+
+			    let th2 = document.createElement("th");
+			    th2.setAttribute("width", "1");
+
+			    let th3 = document.createElement("th");
+			    th3.setAttribute("id", "Name");
+
+			    let table = document.createElement("table");
+			    let tbody = document.createElement("tbody");
+			    let tr = document.createElement("tr");
+
+			    let tdCheckbox = document.createElement("td");
+			    tdCheckbox.setAttribute("height", "25");
+			    let checkbox = document.createElement("input");
+			    checkbox.setAttribute("type", "checkbox");
+			    checkbox.classList.add("small");
+			    checkbox.setAttribute("name", "chkList");
+			    tdCheckbox.appendChild(checkbox);
+
+			    let tdName = document.createElement("td");
+			    tdName.setAttribute("id", "Name");
+			    tdName.setAttribute("width", "");
+			    tdName.classList.add("mx_sort-column");
+			    tdName.textContent = "이름";
+
+			    let tdSort = document.createElement("td");
+			    tdSort.setAttribute("id", "Name_sort");
+			    tdSort.setAttribute("width", "");
+			    tdSort.classList.add("sort-ascend", "status");
+
+			    tr.append(tdCheckbox, tdName, tdSort);
+			    tbody.appendChild(tr);
+			    table.appendChild(tbody);
+			    th3.appendChild(table);
+
+
+			    let th4 = document.createElement("th");
+			    th4.classList.add("mx_sizer");
+
+			    headRow2.append(th1, th2, th3, th4);
+			    
+			    tBody1.append(headRow1, headRow2);
+			    headTable.append(tBody1);
+			    headDiv.appendChild(headTable);
+			    divTreeTable.appendChild(headDiv);
+			},
+			drawTreeBodyTable : function(divTreeTable,vName, vOID, url){
+
+				  // Body Table
+			    const bodyDiv = document.createElement("div");
+			    bodyDiv.id = "mx_divTreeBody";
+			    bodyDiv.style.top= "47px";
+			    
+			    const bodyTable = document.createElement("table");
+			    bodyTable.id = "treeBodyTable";
+			    bodyTable.setAttribute("width", "");
+			    
+			    const tbody = document.createElement("tbody");
+			    
+			    const bodyHeadRow = document.createElement("tr");
+			    bodyHeadRow.classList.add("mx_hidden-row");
+
+			    const btd1 = document.createElement("td");
+			    btd1.setAttribute("width", "1");
+			    btd1.setAttribute("position", "-1");
+
+			    const btd2 = document.createElement("td");
+			    btd2.setAttribute("id", "ROW_1");
+			    btd2.setAttribute("width", "240");
+
+			    bodyHeadRow.append(btd1, btd2);
+			    tbody.appendChild(bodyHeadRow);
+			   			    
+
+				vName.forEach(function(name, index) {
+                    console.log(index, name);
+                    const tdClass = index % 2 === 0 ? "even" : "mx_altRow";
+                    tdclass = "root-node " + tdClass;
+                    
+                    const row = document.createElement("tr");
+                    row.id = "0,"+index;
+                    row.setAttribute("o", vOID[index]);
+                    row.setAttribute("data-title", name);
+                    row.setAttribute("r", "");
+                    row.setAttribute("heignt", "33");
+                    row.classList.add("root-node", tdClass);
+                    
+                    const td1 = document.createElement("td");
+                    td1.setAttribute("position", "-1");
+
+                    const td2 = document.createElement("td");
+                    td2.setAttribute("position", "1");
+                    td2.setAttribute("rmbrow", "0,"+index);
+                    td2.setAttribute("rownumber", "1");
+                    td2.setAttribute("rmb", "PMCListProjectRMBMenu");
+                    td2.setAttribute("draggable", "true");
+                    
+                    const div = document.createElement("div");
+	                    div.id = "0,"+index;
+	                    div.setAttribute("r", "");
+	                    div.setAttribute("t", "");
+	                    div.setAttribute("draggable", "false");
+                    
+                    const table = document.createElement("table");
+                   	 table.setAttribute("draggable", "false");
+
+                   	const tbody2 = document.createElement("tbody");
+                    const tr = document.createElement("tr");
+	                    tr.id = "0,"+index;
+	                    tr.setAttribute("r", "");
+	                    tr.setAttribute("draggable", "false");
+                    
+                    const tdCheckbox = document.createElement("td");
+                    tdCheckbox.setAttribute("draggable", "false");
+
+	                    const checkbox = document.createElement("input");
+	                    checkbox.setAttribute("type", "checkbox");
+	                    checkbox.setAttribute("name", "emxTableRowIdActual");
+	                    checkbox.classList.add("small");
+	                    checkbox.id = "rmbrow-0,"+index;
+	                    checkbox.value = "|"+vOID[index]+"||0,0";
+	                    checkbox.setAttribute("onclick", "doFreezePaneCheckboxClick(this, event); doCheckSelectAll();");
+	                    checkbox.setAttribute("draggable", "false");
+                   
+                    tdCheckbox.appendChild(checkbox);
+                    
+                    const tdIcon = document.createElement("td");
+                    tdIcon.id = "0,"+index;
+                    tdIcon.setAttribute("draggable", "false");
+                    
+                    const iconLink = document.createElement("a");
+                    iconLink.href = "javascript:;";
+                    iconLink.setAttribute("draggable", "false");
+
+                    const iconImg = document.createElement("img");
+                    iconImg.src = myWidget.url+"/common/images/iconSmallProject.png";
+                    iconImg.setAttribute("draggable", "false");
+                    
+                    iconLink.appendChild(iconImg);
+                    tdIcon.appendChild(iconLink);
+                    tdIcon.appendChild(document.createTextNode("\u00A0"));
+
+                    const tdName = document.createElement("td");
+                    tdName.title = name;
+                    tdName.setAttribute("position", "1");
+                    tdName.setAttribute("valign", "middle");
+                    tdName.setAttribute("rmbrow", "0,"+index);
+                    tdName.setAttribute("rmb", "PMCListProjectRMBMenu");
+                    tdName.setAttribute("draggable", "false");
+                    tdName.setAttribute("rmbid", vOID[index]);
+                    
+                    const nameLink = document.createElement("a");
+                    nameLink.href = url+"/emxLogin.jsp?targetLocation=content&appName=ENOPRPR_AP&objectId="+vOID[index];
+                    nameLink.setAttribute("data-oid", vOID[index]);
+                    nameLink.setAttribute("data-icon", myWidget.url+"/common/images/iconSmallProject.png");
+                    nameLink.classList.add("object");
+                    nameLink.setAttribute("draggable", "false");
+                    nameLink.textContent = name;
+
+                    tdName.appendChild(nameLink);
+                    
+                    tr.append(tdCheckbox, tdIcon, tdName);
+                    tbody2.appendChild(tr);
+                    table.appendChild(tbody2);
+                    div.appendChild(table);
+                    td2.appendChild(div);
+                    
+                    row.append(td1, td2);
+                    tbody.appendChild(row);
+                    
+                });
+				
+				bodyTable.appendChild(tbody);
+			    bodyDiv.appendChild(bodyTable);
+			    divTreeTable.appendChild(bodyDiv);
+			    
+			    
+			    
+			},
+			drawHeaderTable : function(divContentTable, columnName, columnName_en){
+				
+				const headDiv = document.createElement("div");
+			      headDiv.id="mx_divTableHead";
+					
+					 const headTable = document.createElement("table");
+					   headTable.id = "headTable";
+					   headTable.style.position = "relative";
+					   headTable.style.left = "0px";
+					   headTable.setAttribute("width", "900");
+					   headTable.setAttribute("border", "0");
+					   
+					    const tablebody = document.createElement("tbody");   
+					    const headHiddenRow = document.createElement("tr");
+					    headHiddenRow.classList.add("mx_hidden-row");
+						
+					    for(let i=2; i<=10;i++){
+							const td1 = document.createElement("td");
+							td1.id = "ROW_"+i;
+							td1.setAttribute("width","100");
+							const td2 = document.createElement("td");
+							td2.setAttribute("width","2");
+							
+							headHiddenRow.append(td1,td2);
+						}
+					    
+					    //headTable.append(headHiddenRow);
+					    tablebody.append(headHiddenRow);
+					  
+					    const headContentRow = document.createElement("tr");
+					    columnName.forEach(function(name, index) {
+		
+						    const th = document.createElement("th");
+						    th.setAttribute("id", columnName_en[index]);
+
+						      const table = document.createElement("table");
+						        const tbody = document.createElement("tbody");
+								
+							        const tr = document.createElement("tr");
+							   	    		tr.style.height = "38px";
+							      
+							          const td = document.createElement("td");
+							  	      	  td.id=columnName_en[index];
+							  	      	  td.classList.add("mx_sort-column");
+							  	      	  td.textContent = columnName[index];
+							  	      	  td.setAttribute("width","");
+							  	      	  
+								  	//const td2 = document.createElement("td");
+								    //  td2.id=columnName_en[index]+"_sort";
+								    //  td2.setAttribute("width","");
+								    //  td2.classList.add(" ");
+								      const td2 = Object.assign(document.createElement("td"), {
+										        id: columnName_en[index]+"_sort", className:"", width:""
+									  });	  
+								    	  
+								      const td3 = document.createElement("td");
+								  	 	  td3.id=columnName_en[index]+"_filter";
+								  	 	  td3.setAttribute("width","");
+								  	 	  
+							  	   //   tr.append(td,td2);  
+							  	    tr.append(td,td2,td3);  
+							  	  tbody.append(tr);
+								//bodyTable.append(tbody);	    
+						  	  table.append(tbody);
+						  	th.append(table);
+						  	const th2 = document.createElement("th");
+						  	th2.classList.add("mx_sizer");
+						  	
+						  	headContentRow.append(th,th2);
+					    });
+					    //tablebody.append(headContentRow);
+					    //headTable.append(headContentRow);
+					    tablebody.append(headContentRow);
+					   headTable.append(tablebody);
+					headDiv.appendChild(headTable);
+				divContentTable.appendChild(headDiv);	    
+					
+			},
+			drawBodyTable : function(divContentTable, vName, vOID, url, dataArr, contentColumnLength){
+				
+				//console.log("drawBodyTable");
+				//console.log("****dataArr:" + dataArr);
+				const bodyDiv = document.createElement("div");
+			      bodyDiv.id="mx_divTableBody";
+			      bodyDiv.style.top="46px";
+					
+					 const bodyTable = document.createElement("table");
+					 bodyTable.id="bodyTable";
+					 bodyTable.setAttribute("width","900");
+					 const tbody = document.createElement("tbody");
+					 
+					 	const hiddenTr = document.createElement("tr");
+					 	hiddenTr.classList.add("mx_hidden-row");
+					 	
+					 	for(let i=2; i<=10;i++){
+							const td1 = document.createElement("td");
+							td1.id = "ROW_"+i;
+							td1.setAttribute("width","100");
+							
+							hiddenTr.append(td1);
+						}
+					 //bodyTable.append(hiddenTr);
+					 tbody.append(hiddenTr);
+					 
+					 vName.forEach(function(name, index) {
+						 const contentTr = document.createElement("tr");
+						 contentTr.id = "body_tr"+index;
+						 contentTr.setAttribute("data-id", vOID[index]);
+						 contentTr.setAttribute("data-title", name);
+						 contentTr.setAttribute("r", "");
+						 contentTr.setAttribute("height", "33");
+						
+						 
+						 const trClass = index % 2 === 0 ? "even" : "mx_altRow";
+		                 contentTr.classList.add("root-node", trClass);
+						 
+
+						 
+							for (let j = 0; j < contentColumnLength; j++) {
+
+								const contentTd = document.createElement("td");
+								//const contentDiv = document.createElement("div");
+								contentTd.setAttribute("rmbrow", "0,0");
+								contentTd.setAttribute("rownumber", "1");
+								contentTd.setAttribute("rmb", "PMCListProjectRMBMenu");
+								contentTd.setAttribute("position", j+2);
+								
+								
+							    contentTd.setAttribute("title", dataArr[j][index]);
+							    if (j === 0) {
+		
+							    	
+							    	let getStatus = dataArr[j][index];
+							    	let getStatusTitle = dataArr[j+1][index];
+								
+							    	const contentDiv = Object.assign(document.createElement("div"),{
+							    		title: getStatusTitle });
+							    	contentDiv.style.cssText = getStatus;
+							    	
+							    	
+							    	
+							    	contentTd.appendChild(contentDiv);
+							    }else{
+							  
+							    	contentTd.textContent= dataArr[j+1][index];
+							    
+							    }
+							    
+							    contentTr.append(contentTd);
+							}
+							
+							tbody.append(contentTr);
+						 bodyTable.append(tbody);
+								  
+					 });
+				bodyDiv.appendChild(bodyTable);
+				divContentTable.appendChild(bodyDiv);
+					 
+			},
+			previousTr: {
+				oClass : "",
+				name  : "",
+			},
+			clickButton : function(event) {
+		        const dataId = event.currentTarget.getAttribute('data-id');
+		        const clickTr = event.currentTarget;
+		        const ss = clickTr.id;
+		        const originClassName = clickTr.className;
+		        
+		        clickTr.className = originClassName +" mx_rowSelected";
+		        let dom = document.getElementById(ss);
+		        
+		        
+		        if(myWidget.previousTr.name==""){
+
+		        	  myWidget.previousTr.name = ss;
+		        	  myWidget.previousTr.oClass = originClassName
+
+		        }else if(myWidget.previousTr.name!==""){
+					
+		        	 if(myWidget.previousTr.name!=="" && myWidget.previousTr.name==ss){
+
+		        	 }else{
+		        		 let dom2 = document.getElementById(myWidget.previousTr.name);
+		        		 dom2.className = myWidget.previousTr.oClass ;
+		        	 
+		        	  	 myWidget.previousTr.name = ss;
+		        	  	 myWidget.previousTr.oClass = originClassName;
+		       		 }
+		        	
+		        }
+
+		        API.publish("PlatformAPITest",
+						{"oid":dataId
+				});
+
+			},
+			addEventFunction : function(rowCount){
+				for (let i = 0; i < rowCount; i++) {
+		            //const v1 = document.getElementById('tr' + i);
+		            const v2 = document.getElementById('body_tr' + i);
+		            if (v2) {
+		                //v1.addEventListener('click', myWidget.clickButton);
+		                v2.addEventListener('click', myWidget.clickButton);
+		            }
+		        }
+			},
+		     getSpaceUrl: function (callback) {
+		         i3DXCompassServices.getServiceUrl({
+		            serviceName: "3DSpace",
+		            platformId: x3dPlatformId,
+		            onFailure: function (result) {
+		               alert(result);
+		            },
+		            onComplete: function (serviceUrl) {
+		               myWidget.url = serviceUrl;
+		               if (callback) callback();
+		            }
+		         });       
+		      },
+		      onloadWidget: function () {
+		         console.log(username);
+		         widget.body.innerHTML = "70로딩중";
+		         console.log("Loading...");
+		         myWidget.getSpaceUrl(function() {
+
+						let restUrl = "https://local.3ds.org/3dspace"+ "/resources/Project/findProjectObject";
+						
+						WAFData.authenticatedRequest(restUrl, {
+							method : 'GET',
+							data : {'findType':getType,
+									'setState':setState
+							},
+							type : 'json',
+							onFailure : function(result) {
+								alert(result);
+								widget.body.innerHTML = "rest Service Error: "
+										+ result;
+							},
+							onComplete : function(dataRep) {
+								// onsole.log("----------------------onComplete:"+myWidget.url)
+								let url = myWidget.url;
+								//console.log("-------5--------: "+myWidget.url)
+								//console.log(dataRep);
+								
+								
+								let parsedData = {};
+
+								// key와 유사한 이름의 변수(배열) 자동 생성 및 값 할당
+								for (let key in dataRep) {
+								    let varName = "v" + key.charAt(0).toUpperCase() + key.slice(1); // 변수 이름: v + 첫글자 대문자 변환
+								    parsedData[varName] = JSON.parse(dataRep[key]); // 문자열을 JSON 배열로 변환하여 저장
+								}
+								
+								let dataArr = [parsedData.vStatus, parsedData.vStatusTitle, parsedData.vPhase, parsedData.vCurrent, parsedData.vOwner, parsedData.vEstFinishDate, parsedData.vEstFinishDate, parsedData.vOriginated, parsedData.vProgram, parsedData.vDescription];
+								myWidget.projectlist =  [parsedData.vName, parsedData.vOID, parsedData.vStatus, parsedData.vStatusTitle, parsedData.vPhase, parsedData.vCurrent, parsedData.vOwner, parsedData.vEstFinishDate, parsedData.vEstFinishDate, parsedData.vOriginated, parsedData.vProgram, parsedData.vDescription];
+								let html = "REST Service Data" + "</br>";
+								//html += "이름 :" +vName + ", id: " + vOID;
+								console.log("projectList", myWidget.projectlist);
+								//let table = "<table id='bodyTable'>";
+								let rowCount = parsedData.vName.length;
+								console.log("*********rowCount:"+rowCount);
+								
+								
+								// 최상위 div 생성
+								let divRoot = "<div id='mx_divBody' style='display: block; top: 37px; bottom: 31px;'>";
+								widget.body.innerHTML = divRoot;
+
+								let dom = document.getElementById('mx_divBody');
+								// Create Tree Table
+								let divTreeTable = document.createElement('div');
+								divTreeTable.id = 'mx_divTree';
+	
+								myWidget.drawTreeHeaderTable(divTreeTable);
+								myWidget.drawTreeBodyTable(divTreeTable, parsedData.vName, parsedData.vOID, url);
+								
+								const columnName = ['상태', '현재 단계', '성숙도', '소유자', '예상 종료일','실제 종료일','최초 작성일','프로그램','설명'];
+								const columnName_en = ['ProjectStatus', 'currentPhase', 'Status', 'Owner', 'Est Finish','Act Finish','Created Date','Program','Description'];
+
+								let contentColumnLength = columnName.length;
+								// Create Content Table
+								let divContentTable = document.createElement('div');
+								divContentTable.id = 'mx_divTable';
+	
+								myWidget.drawHeaderTable(divContentTable, columnName, columnName_en);
+								myWidget.drawBodyTable(divContentTable, parsedData.vName, parsedData.vOID, url,dataArr,contentColumnLength);
+								
+								dom.appendChild(divTreeTable);
+								dom.appendChild(divContentTable);
+								
+								myWidget.tableStorage.treeTable = document.getElementById('mx_divTreeBody');
+								myWidget.tableStorage.bodyTable =  document.getElementById('mx_divTableBody');
+								
+								 // 이벤트 리스너 추가
+						         myWidget.addEventFunction(rowCount);
+								 
+								
+							}
+						});
+		         });
+			},
+			endEditWidget : function() {
+				setState = widget.getValue('project state')
+			}
+		};
+
+		widget.addEvent("onLoad", myWidget.onloadWidget);
+		widget.addEvent("endEdit", myWidget.endEditWidget);
+		widget.addEvent("onSearch", myWidget.searchWidget);
+		widget.addEvent("onResetSearch", myWidget.searchResetWidget);
+		API.publish 
+	});
+</script>
+
+
+</head>
+<body>
+</body>
+
+</html>
+
+

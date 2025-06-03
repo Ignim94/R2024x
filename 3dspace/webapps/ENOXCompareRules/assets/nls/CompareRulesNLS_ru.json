@@ -1,0 +1,10 @@
+{
+  "EMPTY_CONTENT": "СООТВЕТСТВУЮЩЕЕ СОДЕРЖИМОЕ ДЛЯ СРАВНЕНИЯ ОТСУТСТВУЕТ",
+  "Constrained_Criteria": "Ограниченные критерии",
+  "Driving_Criteria": "Управляющие критерии",
+  "NOStructureAvailable": "СРАВНЕНИЕ СТРУКТУР НЕДОСТУПНО",
+  "EMPTY_RULE_IDS": "Пустые идентификаторы правил",
+  "Failed_to_fetch_mv_Id": "Сбой при извлечении идентификатора MV",
+  "Failed_to_fetch_Rules_definition": "Не удалось извлечь определение правил",
+  "No_Rules_Definition": "Определение правил отсутствует"
+}

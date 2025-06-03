@@ -1,0 +1,13 @@
+m|XCADParserWeb\IFCParser.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.6.24194|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\IFCParser\ENOIFCParser.html|1719435089|1321
+s|XCADParserWeb\IFCParser.mweb\src\ENOIFCParser.html|1470315686|1321
+t|win_b64\webapps\IFCParser\IFCParser.js|1720827090|18042
+s|XCADParserWeb\IFCParser.mweb\src\IFCParser.js|1720014633|29568
+t|win_b64\webapps\IFCParser\assets\HelloWorld.png|1719435089|1463
+s|XCADParserWeb\IFCParser.mweb\src\assets\HelloWorld.png|1401109886|1463
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

@@ -1,0 +1,23 @@
+{
+  "RISK": "Riesgo",
+  "RISKS": "Riesgos",
+  "IMPACT": "Impacto",
+  "CLASS_TYPE": "Tipo de riesgo",
+  "ABATEMENT": "Plan de reducción",
+  "RPN": "Puntuación",
+  "RISK_TREND": "Tendencia de riesgo",
+  "SHOW_COMPLETED": "Mostrar riesgos completados",
+  "ALL_CONTEXT_ITEMS": "Todos los riesgos de contexto",
+  "ALL_PROJECT_RISKS": "Todos los riesgos del proyecto",
+  "OWNED": "Mis riesgos",
+  "ALL_MY_ASSIGNED_ITEMS": "Todo (Mis riesgos + Asignado)",
+  "PROJECT_RISKS": "Riesgos del proyecto",
+  "SUB_PROJECT_RISKS": "Riesgos del proyecto + subproyecto",
+  "ASSOCIATED_RISKS": "Riesgos asociados",
+  "RISK_PROFILE": "Perfil de riesgo",
+  "FROM_PROFILE": "Desde el perfil",
+  "RISK_TEMPLATE": "Plantilla de riesgo",
+  "DUPLICATE_NO_CONTEXT_ACCESS": "Es posible que no tenga acceso de contexto para realizar duplicaciones de los siguientes objetos ",
+  "RISK_PROFILE_DOES_NOT_EXIST": "El perfil de riesgo no existe",
+  "RISK_PROFILE_EXECUTION_CONTEXT_NOT_SUPPORTED": "La ejecución del perfil de riesgo para el contexto seleccionado no es compatible"
+}

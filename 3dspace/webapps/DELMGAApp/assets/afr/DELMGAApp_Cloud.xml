@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+	<Template syp:name="DELWebMfgAssemblyDefHeaders" Target="CATCmdHeadersList">
+		<CATCmdHeadersList>
+			<CATCommandHeader ID="OrderBySequence"
+							  ClassName="DS/DELPPWAfrCommands/AfrCommand"
+							  HelpResourceFile="DELMGAApp/DELMGAApp"
+							  ResourceFile="DELMGAApp/DELMGAApp"
+							  Available="0"/>
+			<CATCommandHeader ID="BuildUpReviewModeCmd"
+							  ClassName="DS/DELPPWAfrCommands/CheckCommand"
+							  Behavior="CATAfrHeaderCheck"
+							  HelpResourceFile="DELMGAApp/DELMGAApp"
+							  ResourceFile="DELMGAApp/DELMGAApp"
+							  Available="0"/>
+		</CATCmdHeadersList>
+	</Template>
+	<!--======================================================================================================================================-->
+	<!--======================================================================================================================================-->
+	<!--======================================================================================================================================-->
+	<!--======================================================================================================================================-->
+	<!--======================================================================================================================================-->
+	<Template syp:name="DELWebMfgAssemblyDefAccess" Target="CATCmdWorkbench">
+		<CATCmdWorkbench Name="DELWebMfgAssemblyDefWorkbench">
+			<!-- MGA CmdContainer for Authoring Blocks commands -->
+			<CATCmdContainer Name="Authoring" Visibility="1" RepresentationType="AfrActionBarSection">
+				<CATCmdStarter Name="OrderBySequence" Command="OrderBySequence"/>
+			</CATCmdContainer>
+			<!-- MGA CmdContainer for View Blocks commands -->
+			<CATCmdContainer Name="View" Visibility="1" RepresentationType="AfrActionBarSection">
+				<CATCmdStarter Name="BuildUpReviewModeCmd" Command="BuildUpReviewModeCmd"/>
+			</CATCmdContainer>
+		</CATCmdWorkbench>
+	</Template>
+</Styles>

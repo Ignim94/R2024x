@@ -1,0 +1,10 @@
+m|WebFoundation\CoreUtilities.mweb
+b|j|c,m
+b|c|n,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\CoreUtilities\CoreUtilities.js|1700691808|3260
+s|WebFoundation\CoreUtilities.mweb\src\CoreUtilities.js|1439896807|0
+u|WebFoundation\CoreUtilities.mweb\src\ErrorManagement.js|1588755504|15389
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

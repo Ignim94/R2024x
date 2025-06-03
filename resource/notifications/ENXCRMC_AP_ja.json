@@ -1,0 +1,19 @@
+{
+  "sourcing.notification.event.request.statusChange.setting": "自分の要求または割り当てられた要求が承認/却下されました",
+  "sourcing.notification.event.request.duedate.setting": "自分の要求または割り当てられた要求の期限が近づいています",
+  "sourcing.notification.event.request.needclarification.setting": "自分の要求または割り当てられた要求に説明が必要です",
+  "sourcing.notification.event.request.submit.setting": "自分の要求または割り当てられた要求が送信されました",
+  "sourcing.notification.event.memberAccessUpdate.setting": "自分の要求または割り当てられた要求にメンバーが追加または除去されました",
+  "sourcing.notification.event.request.promoted.setting": "自分の要求または割り当てられた要求の完成度が変更されました",
+  "sourcing.notification.person.request.submit.msg": "<strong>###REQUESTOWNER###</strong> さんがあなたに <strong>###REQUESTNAME###</strong> を割り当てました。期限の <strong>###DUEDATE###</strong> までに必要なアクションを行ってください。",
+  "sourcing.notification.person.request.promote.msg": "<strong>###REQUESTOWNER###</strong> さんが <strong>###REQUESTNAME###</strong> 要求を <strong>###STATE###</strong> ステートにステートアップしました。",
+  "sourcing.notification.person.request.demote.msg": "<strong>###REQUESTOWNER###</strong> さんが <strong>###REQUESTNAME###</strong> 要求を <strong>###STATE###</strong> ステートにステートダウンしました。",
+  "sourcing.notification.person.request.duedate.msg": "<strong>###REQUESTNAME###</strong> は期限を過ぎています。期限は <strong>###DUEDATE###</strong> です。",
+  "sourcing.notification.person.request.approve.msg": "<strong>###REQUESTOWNER###</strong> さんが要求 <strong>###REQUESTNAME###</strong> を承認しました。",
+  "sourcing.notification.person.request.reject.msg": "<strong>###REQUESTOWNER###</strong> さんが要求 <strong>###REQUESTNAME###</strong> を却下しました。",
+  "sourcing.notification.person.request.cancel.msg": "<strong>###REQUESTOWNER###</strong> さんが要求 <strong>###REQUESTNAME###</strong> をキャンセルしました。",
+  "sourcing.notification.person.request.needsclarification.msg": "<strong>###requestAsignee###</strong> さんが、説明が必要なため要求 <strong>###REQUESTNAME###</strong> を送信しました。",
+  "sourcing.notification.person.request.submitclarification.msg": "<strong>###REQUESTOWNER###</strong> さんが要求 <strong>###REQUESTNAME###</strong> の説明を送信しました",
+  "sourcing.notification.person.memberAccessUpdate.msg": "<strong>###GRANTOR###</strong> さんによって <strong>###REQUESACCESS###</strong> として <strong>###REQUESTNAME###</strong> に追加されました",
+  "sourcing.notification.person.memberAccessDelete.msg": "<strong>###GRANTOR###</strong> さんが <strong>###REQUESACCESS###</strong> として <strong>###REQUESTNAME###</strong> で除去されました"
+}

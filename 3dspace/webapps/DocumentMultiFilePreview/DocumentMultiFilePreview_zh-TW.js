@@ -1,0 +1,1 @@
+define("DS/DocumentMultiFilePreview/DocumentMultiFilePreview_zh-TW",{});define("DS/DocumentMultiFilePreview/assets/nls/DocumentPreview",{Maximize:"最大化",Close:"關閉",Restore:"回復",Download:"下載",Download_File:"下載檔案",Download_Document:"下載文件",INFORMATION:"資訊"});

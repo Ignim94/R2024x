@@ -1,0 +1,14 @@
+{
+  "BACKLOG_ITEMS": "Candidati",
+  "BACKLOGS_TITLE": "Candidati",
+  "DROP_HERE_FOR_PLAN": "Rilascia qui gli elementi da destinare a ",
+  "DROP_HERE_FOR_BACKLOG": "Rilascia qui gli elementi da aggiungere come candidati",
+  "COMMITTED_FOR_THIS_REVISION": "Destinazione per questa revisione ",
+  "BACKLOG": "Candidati",
+  "COMMITTED": "Destinazione",
+  "ROADMAP_SETTINGS": "Impostazioni driver",
+  "MANAGE_ROADMAP_SETTINGS": "Gestisci impostazioni driver",
+  "SAME_BACKLOG_ITEM_LOADED": "driver già caricati.",
+  "HIDE_BACKLOG_PANE": "Nascondi pannello candidato",
+  "SHOW_BACKLOG_PANE": "Mostra pannello candidato"
+}

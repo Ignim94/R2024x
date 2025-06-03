@@ -1,0 +1,9 @@
+{
+  "betaOptions": [
+    {
+      "id": "FUN143768",
+      "title": "Ouvrir les applications Web sous forme d'onglets de navigateur",
+      "description": "Les applications Web 3DCompass s'ouvrent dans des onglets dédiés au lieu de la fenêtre d'aperçu du tableau de bord."
+    }
+  ]
+}

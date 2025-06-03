@@ -1,0 +1,20 @@
+{
+"CreateAssemblyAndScope.Title":"Fertigungsbaugruppe und Gültigkeitsbereichsverknüpfung erzeugen",
+"CreateAssemblyAndScope.ShortHelp":"Erstellt eine Fertigungsbaugruppe mit einer Gültigkeitsbereichsverknüpfung zu einem Produkt oder einem Teil.",
+"CreateAssemblyAndScope.LongHelp":"Wählen Sie ein Produkt oder ein Teil und klicken Sie auf <uicontrol>Fertigungsbaugruppe und Gültigkeitsbereichsverknüpfung erstellen</uicontrol>, um eine Fertigungsbaugruppe mit einer Bereichsverknüpfung zu einem Produkt oder einem Teil zu erstellen.",
+"CreateProvideAndScope.Title":"Bereitgestelltes Teil und Gültigkeitsbereichsverknüpfung erzeugen",
+"CreateProvideAndScope.ShortHelp":"Erzeugt ein bereitgestelltes Teil mit einer Bereichsverknüpfung zu einem Produkt oder Teil.",
+"CreateProvideAndScope.LongHelp":"Wählen Sie ein Produkt oder ein Teil aus und klicken Sie auf <uicontrol>Bereitgestelltes Teil und Gültigkeitsbereich erzeugen</uicontrol>, um ein bereitgestelltes Teil mit einer Gültigkeitsbereichsverknüpfung zu einem Produkt oder Teil zu erstellen.",
+"CreateMaterialAndScope.Title":"Fertigungsmaterial und Gültigkeitsbereichsverknüpfung erzeugen",
+"CreateMaterialAndScope.ShortHelp":"Erzeugt ein Fertigungsmaterial mit einer Gültigkeitsbereichsverknüpfung zu einem Produkt oder Teil.",
+"CreateMaterialAndScope.LongHelp":"Wählen Sie ein Produkt oder ein Teil aus und klicken Sie auf <uicontrol>Fertigungsmaterial und Gültigkeitsbereichsverknüpfung erzeugen</uicontrol>, um ein Fertigungsmaterial mit einer Bereichsverknüpfung zu einem Produkt oder Teil zu erzeugen.",
+"CreateKitAndScope.Title":"Herstellungskit und Gültigkeitsbereichsverknüpfung erzeugen",
+"CreateKitAndScope.ShortHelp":"Erzeugt ein Herstellungskit mit einer Bereichsverknüpfung zu einem Produkt oder Teil.",
+"CreateKitAndScope.LongHelp":"Wählen Sie ein Produkt oder ein Teil aus und klicken Sie auf <uicontrol>Herstellungskit und Gültigkeitsbereichsverknüpfung erzeugen</uicontrol>, um ein Herstellungskit mit einer Gültigkeitsbereichsverknüpfung zu einem Produkt oder Teil zu erstellen.",
+"CreateContinuousProvidedMaterialAndScope.Title":"Kontinuierlich bereitgestelltes Material und Gültigkeitsbereichsverknüpfung erstellen",
+"CreateContinuousProvidedMaterialAndScope.ShortHelp":"Erstellt ein kontinuierlich bereitgestelltes Material mit einer Gültigkeitsbereichsverknüpfung zu einem Produkt oder Teil.",
+"CreateContinuousProvidedMaterialAndScope.LongHelp":"Wählen Sie ein Produkt oder ein Teil aus und klicken Sie auf <uicontrol>Kontinuierlich bereitgestelltes Material und Gültigkeitsbereichsverknüpfung erstellen</uicontrol>, um ein kontinuierlich bereitgestelltes Material mit einer Gültigkeitsbereichsverknüpfung zu einem Produkt oder Teil zu erstellen.",
+"Show3DOperationViewerCmd.Title":"3DOperations Viewer starten",
+"Show3DOperationViewerCmd.ShortHelp":"Öffnet die 3DOperations Viewer App im Vorschaumodus.",
+"Show3DOperationViewerCmd.LongHelp":"<p>Weitere Informationen siehe <cite>Simulation > Process Engineering > 3DOperations Viewer</cite>.</p>"
+}

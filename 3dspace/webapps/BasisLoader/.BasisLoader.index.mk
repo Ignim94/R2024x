@@ -1,0 +1,13 @@
+m|VENBasisUniversal\BasisLoader.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\BasisLoader\BasisLoader.js|1700691688|35060
+s|VENBasisUniversal\BasisLoader.mweb\src\BasisLoader.js|1649402394|124716
+t|win_b64\webapps\BasisLoader\assets\BasisLoader.wasm|1685323760|472914
+s|VENBasisUniversal\BasisLoader.mweb\src\assets\BasisLoader.wasm|1649347679|472914
+t|win_b64\webapps\BasisLoader\assets\LICENSE_BasisLoader|1685323760|11325
+s|VENBasisUniversal\BasisLoader.mweb\src\assets\LICENSE_BasisLoader|1578315911|11325
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

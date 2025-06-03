@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+PowerByCREO.XSCViews.Title="보기";
+PowerByCREO.XSCTools.Title="도구";
+PowerByCREO.Lifecycle.Title="라이프사이클";
+PowerByCREO.Collaboration.Title="협업";
+PowerByCREO.SaveSession.Title="활성 창 저장";
+PowerByCREO.RefreshHome.Title="새로 고침";
+PowerByCREO.ReloadAll.Title="모두 다시 로드";
+PowerByCREO.ReserveHdr.Title="잠금";
+PowerByCREO.UnreserveHdr.Title="잠금 해제";
+PowerByCREO.PropertiesHdr.Title="속성";
+PowerByCREO.ReplaceByRevisionHdr.Title="리비전으로 대치";
+PowerByCREO.ReloadFromServerHdr.Title="서버에서 다시 로드";
+PowerByCREO.RelationIPExplorer.Title="관계";
+PowerByCREO.OptionsHdr.Title="옵션...";
+PowerByCREO.View.Title="보기";
+PowerByCREO.Tools.Title="도구";

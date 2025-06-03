@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+PowerByNX.XSCViews.Title="檢視";
+PowerByNX.XSCTools.Title="工具";
+PowerByNX.Lifecycle.Title="生命週期";
+PowerByNX.Collaboration.Title="協同作業";
+PowerByNX.SaveSession.Title="儲存使用中視窗";
+PowerByNX.RefreshHome.Title="重新整理";
+PowerByNX.ReloadAll.Title="全部重新載入";
+PowerByNX.ReserveHdr.Title="鎖定";
+PowerByNX.UnreserveHdr.Title="解除鎖定";
+PowerByNX.PropertiesHdr.Title="屬性";
+PowerByNX.ReplaceByRevisionHdr.Title="以修訂版取代";
+PowerByNX.ReloadFromServerHdr.Title="從伺服器重新載入";
+PowerByNX.RelationIPExplorer.Title="限制條件";
+PowerByNX.OptionsHdr.Title="選項...";
+PowerByNX.View.Title="檢視";
+PowerByNX.Tools.Title="工具";

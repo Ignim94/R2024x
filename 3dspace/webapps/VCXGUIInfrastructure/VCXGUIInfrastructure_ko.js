@@ -1,0 +1,1 @@
+define("DS/VCXGUIInfrastructure/VCXGUIInfrastructure_ko",{});define("DS/VCXGUIInfrastructure/assets/nls/VCXGUIInfrastructure",{"VCXProperties.Menu":"메뉴","VCXScenarios.PanelTitle":"장면","VCXRatios.PanelTitle":"캔버스","VCXProperties.PanelTitle":"속성","VCXSamplesBrower.PanelTitle":"샘플 브라우저"});

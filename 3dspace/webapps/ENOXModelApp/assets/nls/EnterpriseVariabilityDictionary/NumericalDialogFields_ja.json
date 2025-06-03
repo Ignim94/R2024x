@@ -1,0 +1,18 @@
+{
+  "_panelTitle": "数値パラメーターを作成",
+  "_titleLabel": "タイトル",
+  "_dimensionLabel": "寸法",
+  "_unitLabel": "単位",
+  "_kindLabel": "種類",
+  "_rangeLabel": "範囲",
+  "_integerKindLabel": "整数",
+  "_realKindLable": "実数",
+  "_minValueLabel": "最小値",
+  "_maxValueLabel": "最大値",
+  "_noDimensionLabel": "寸法なし",
+  "_okAction": "OK",
+  "_cancelAction": "キャンセル",
+  "_mandatoryFieldError": "必須フィールドを入力してください",
+  "_incorrectRangeError": "最小値は最大値より小さい必要があります",
+  "_uniqueNameError": "数値パラメーター名（タイトル）は既に存在しています"
+}

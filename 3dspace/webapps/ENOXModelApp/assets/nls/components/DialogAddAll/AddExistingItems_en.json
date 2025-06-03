@@ -1,0 +1,7 @@
+{
+  "addExistingLabel" : "Add Existing",
+  "addExistingContent" : "Do you want to add all Values/Options of the selected Variants/OptionGroups ?",
+  "yesLable" : "Yes",
+  "noLable" : "No",
+  "checkboxLabel" : "Save my choice in Preference"
+}

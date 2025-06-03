@@ -1,0 +1,1 @@
+define("DS/ENOSpecMultiGridCommon/ENOSpecMultiGridCommon_zh",{});define("DS/ENOSpecMultiGridCommon/assets/nls/SpecMultiGridCommon",{Loading:"正在加载...",WrapLoader:"正在包覆...",UnwrapLoader:"正在打开...",ExportCSV:"导出",Wrap:"包覆",Unwrap:"打开",Print:"打印",ResetChanges:"重置",Message_CmdEmptyGridCheck:"拖动、搜索或选择产品规格以执行“{operation}”操作。"});

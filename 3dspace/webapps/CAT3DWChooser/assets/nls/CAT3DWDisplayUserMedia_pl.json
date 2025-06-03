@@ -1,0 +1,18 @@
+{
+  "recentPublishedContent": "Ostatnio opublikowana zawartość",
+  "noPublishedContent": "Nie znaleziono opublikowanej zawartości",
+  "draft": "WERSJA ROBOCZA",
+  "noWhiteboard": "Nie znaleziono tablicy",
+  "noSketch": "Nie znaleziono szkicu",
+  "deleteConfirmationModalTitle": "Usuń projekt",
+  "deleteConfirmationModalBody": "Czy na pewno chcesz usunąć ten projekt?",
+  "deleteConfirmationModalConfirmButton": "Tak",
+  "deleteConfirmationModalRejectButton": "Nie",
+  "dropmenuEditOption": "Edytuj",
+  "dropmenuDeleteOption": "Usuń",
+  "dropmenuShareableLinkOption": "Kopiuj łącze",
+  "shareableLinkCopyMessage": "Skopiowano łącze do schowka",
+  "MyWhiteboardsButtonNotClickedError": "Przed rozpoczęciem wyszukiwania kliknij Moje tablice.",
+  "personalSpace": "Przestrzeń osobista",
+  "searchWhiteboardsNoResults": "Nie znaleziono wyników. Zmień tekst wyszukiwania i spróbuj ponownie."
+}

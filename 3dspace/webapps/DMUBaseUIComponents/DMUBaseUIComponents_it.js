@@ -1,0 +1,1 @@
+define("DS/DMUBaseUIComponents/DMUBaseUIComponents_it",{});define("DS/DMUBaseUIComponents/assets/nls/DMUBaseUIComponents",{replyButtonLabel:"Rispondi",addButtonLabel:"Nuovo commento",pointedPageRemoved:"La pagina su cui è posizionato il puntatore è stata rimossa",commentDeleted:"Questo commento è stato eliminato"});

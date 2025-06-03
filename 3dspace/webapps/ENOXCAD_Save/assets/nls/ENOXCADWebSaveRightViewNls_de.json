@@ -1,0 +1,21 @@
+{
+  "Nb_New": "{nbNew} neues Objekt",
+  "Nb_Mod": "{nbMod} geändertes Objekt",
+  "Nb_Exc": "{nbExc} ausgeschlossenes Objekt",
+  "Nb_Inc": "{nbInc} eingeschlossenes Objekt",
+  "Save_stats": "'Gültigkeitsbereich speichern' enthält: ",
+  "Unreserve_checkbox": "Entsperren",
+  "PGP_checkbox": "Produkt-Grafikeigenschaften hinzufügen",
+  "PMR_checkbox": "Produktflexibilitätseigenschaften hinzufügen",
+  "KeepIteration_checkbox": "Vorherige Iteration beibehalten",
+  "Async_checkbox": "Im Hintergrund speichern",
+  "Work_Under": "Wird unter folgender Änderungsaktion gespeichert: ",
+  "No_DefaultBookmark": "Kein Standard-Lesezeichen gefunden.",
+  "Not_AllObjectsInBookmark": "Weisen Sie allen Objekten ein Lesezeichen zu",
+  "Not_AllLocked": "Alle enthaltenen Objekte sperren",
+  "No_ReadAccess": "Kein Lesezugriff für einige Objekte",
+  "SaveComment_checkbox": "Kommentar hinzufügen",
+  "ExposePublication_checkbox": "Veröffentlichungen zugänglich machen",
+  "AddComment_textbox": "Hier Kommentar eingeben...",
+  "ApplyMaterial_checkbox": "Material auf 3DEXPERIENCE übernehmen"
+}

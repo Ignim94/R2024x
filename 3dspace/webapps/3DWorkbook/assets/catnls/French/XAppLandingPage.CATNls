@@ -1,0 +1,11 @@
+<meta charset="UTF-8"/>
+XAppLandingPage.Title="Gestion des ressources d'usine";
+XAppLandingPage.App.Title="Gestion des ressources d'usine";
+
+XAppLandingPage.Create.Title="Créer";
+XAppLandingPage.Create.Description="Créer une usine";
+
+XAppLandingPage.Load.Title="Charger existant";
+XAppLandingPage.Load.Description="Charger une usine existante";
+
+XAppLandingPage.Drop="Ou déposer votre contenu ici";

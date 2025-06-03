@@ -1,0 +1,5 @@
+{
+  "ERROR_Loading3DContent" : "Loading 3D View failed",
+  "ERROR_PreparingFilter" : "Preparing filter expression  failed",
+  "ERROR_FilterValidation" : "Validating filter expression failed"
+}

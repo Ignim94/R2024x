@@ -1,0 +1,55 @@
+{
+	"uxinfraprop": {
+		"catiav5": {
+			"treeorder": true,
+			"treeexpandonelevel": true,
+			"controlexpandbtn": true,
+			"isstandalone": true,
+			"showinfobtn": false,
+			"showflattenviewbtn": false,
+			"showsearchbtn": false,
+			"renderallcolumns": true,
+			"includepurposeexclude": true,
+			"footercancelbtn": true,
+			"defaultsortasc": false,
+			"showadditionallinks": true,
+			"showstatusbar": false,
+			"isdwgmultiselect": false,
+			"propertyfacets": [
+				"properties"
+			],
+			"filerenaming": false,
+			"filerenameview": false,
+			"openin3ddrive": false,
+			"supportedcolms" : [
+				"tgt_filename"
+				]
+		},
+		"solidworks": {
+			"treeorder": false,
+			"treeexpandonelevel": false,
+			"controlexpandbtn": false,
+			"isstandalone": false,
+			"showinfobtn": false,
+			"showflattenviewbtn": true,
+			"showsearchbtn": false,
+			"renderallcolumns": false,
+			"includepurposeexclude": false,
+			"footercancelbtn": false,
+			"defaultsortasc": false,
+			"showadditionallinks": false,
+			"showstatusbar": true,
+			"isdwgmultiselect": false,
+			"openin3ddrive": false,
+			"propertyfacets": [
+				"properties",
+				"relations"
+			],
+			"filerenaming": false,
+			"filerenameview": false,
+			"supportedcolms" : [
+				"tgt_filename"
+				]
+		}
+	}
+}

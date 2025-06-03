@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+PowerByCREO.XSCViews.Title="视图";
+PowerByCREO.XSCTools.Title="工具";
+PowerByCREO.Lifecycle.Title="生命周期";
+PowerByCREO.Collaboration.Title="协作";
+PowerByCREO.SaveSession.Title="保存活动窗口";
+PowerByCREO.RefreshHome.Title="刷新";
+PowerByCREO.ReloadAll.Title="全部重新加载";
+PowerByCREO.ReserveHdr.Title="锁定";
+PowerByCREO.UnreserveHdr.Title="解锁";
+PowerByCREO.PropertiesHdr.Title="属性";
+PowerByCREO.ReplaceByRevisionHdr.Title="用修订版替换";
+PowerByCREO.ReloadFromServerHdr.Title="从服务器重新加载";
+PowerByCREO.RelationIPExplorer.Title="关系";
+PowerByCREO.OptionsHdr.Title="选项...";
+PowerByCREO.View.Title="视图";
+PowerByCREO.Tools.Title="工具";

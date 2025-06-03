@@ -1,0 +1,13 @@
+{
+  "setParameters" : "Parameter saved",
+  "setParametersTitle" : "Save",
+  "setParametersError" : "Error when saving Parameters",
+  "deleteParameter" : "Parameter deleted",
+  "deleteParameterTitle" : "Delete",
+  "deleteParameterError" : "Error when deleting Parameters",
+  "modifyParameter" : "Parameter modified",
+  "modifyParameterTitle" : "Modify",
+  "modifyParameterError" : "Error when modifying Parameters",
+  "columnMandatory" : "The column %1 is mandatory",
+  "containUnsupportedChars" : "%1 contains unsupported character %2"
+}

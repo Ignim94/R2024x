@@ -1,0 +1,2256 @@
+{
+	"dsmvpfl:ModelBaseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultBusMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathRoot"
+		}
+	],
+	"dsmvpfl:ModelUIMask": [
+		"dsmveno:basic.name",
+		"dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:attribute.MarketingName",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathRoot"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		}
+	],
+	"dsmvpfl:ModelRootVersionMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:ModelBaseMask"
+		},
+		{
+			"property": "from[Main Product].to.physicalid",
+			"key": "rootVersion",
+			"label": "XPortfolio.Label.Type.Model",
+			"mask": "dsmvpfl:ModelVersionBaseMaskWithoutModel",
+			"maskAppliesTo": "bus"
+		}
+	],
+	"dsmvpfl:ModelAllVersionsMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:ModelBaseMask"
+		},
+		{
+			"property": "from[Products].to.physicalid",
+			"key": "modelVersions",
+			"label": "XPortfolio.Label.Type.ModelVersion",
+			"mask": "dsmvpfl:DefaultBusUIMask",
+			"maskAppliesTo": "bus"
+		},
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		}
+	],
+	"dsmvpfl:ModelVersionBaseMaskWithoutModel": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultBusMask"
+		},
+		{
+			"property": "attribute[Base Price]",
+			"key": "basePrice",
+			"example": "0",
+			"index": "BASE_PRICE"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathRoot"
+		}
+	],
+	"dsmvpfl:ModelVersionBaseMask": [
+		{
+			"property": "to[Products].from.name",
+			"key": "modelName",
+			"index": "BASED_ON_MODEL_NAME",
+			"label": "XPortfolio.Label.Attribute.ModelName",
+			"example": "Model01"
+		},
+		{
+			"property": "to[Products].from.physicalid",
+			"key": "modelID",
+			"index": "BASED_ON_MODEL_PHYSICALID",
+			"label": "XPortfolio.Label.Attribute.ModelId",
+			"example": "D43DC670000029F45BA222F200000284"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:ModelVersionBaseMaskWithoutModel"
+		},
+		"dsmvpfl:ModelVersion.Root",
+		"dsmvpfl:ModelVersion.Leaf",
+		{
+			"property": "to[Products].from.physicalid",
+			"key": "model",
+			"index": "BASED_ON_MODEL_PHYSICALID",
+			"label": "XPortfolio.Label.Type.Model",
+			"mask": "dsmvpfl:ModelBaseMask",
+			"metaTypes": [
+				"dspfl:Model"
+			],
+			"maskAppliesTo": "bus"
+		}
+	],
+	"dsmvpfl:ModelVersionRootMask": [
+		{
+			"property": "to[Products].from.physicalid",
+			"key": "modelID",
+			"index": "BASED_ON_MODEL_PHYSICALID",
+			"label": "XPortfolio.Label.Attribute.ModelId",
+			"example": "D43DC670000029F45BA222F200000284"
+		}
+	],
+	"dsmvpfl:ModelVersionSearchMask": [
+		{
+			"property": "to[Products].from.name",
+			"key": "modelName",
+			"index": "BASED_ON_MODEL_NAME",
+			"label": "XPortfolio.Label.Attribute.ModelName",
+			"example": "Model01"
+		},
+		{
+			"property": "to[Products].from.physicalid",
+			"key": "modelID",
+			"index": "BASED_ON_MODEL_PHYSICALID",
+			"label": "XPortfolio.Label.Attribute.ModelId",
+			"example": "D43DC670000029F45BA222F200000284"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:ModelVersionBaseMaskWithoutModel"
+		},
+		"dsmvpfl:ModelVersion.Root",
+		"dsmvpfl:ModelVersion.Leaf",
+		{
+			"property": "to[Products].from.physicalid",
+			"key": "model",
+			"index": "BASED_ON_MODEL_PHYSICALID",
+			"label": "XPortfolio.Label.Type.Model",
+			"metaTypes": [
+				"dspfl:Model"
+			]
+		}
+	],
+	"dsmvpfl:ModelVersionUIMask": [
+		{
+			"property": "to[Products].from.name",
+			"key": "modelName",
+			"index": "BASED_ON_MODEL_NAME",
+			"label": "XPortfolio.Label.Attribute.ModelName",
+			"example": "Model01"
+		},
+		{
+			"property": "to[Products].from.physicalid",
+			"key": "modelID",
+			"index": "BASED_ON_MODEL_PHYSICALID",
+			"label": "XPortfolio.Label.Attribute.ModelId",
+			"example": "D43DC670000029F45BA222F200000284"
+		},
+		"dsmveno:basic.name",
+		"dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:attribute.MarketingName",
+		{
+			"property": "attribute[Base Price]",
+			"key": "basePrice",
+			"example": "0",
+			"index": "BASE_PRICE"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathRoot"
+		},
+		"dsmvpfl:ModelVersion.Root",
+		"dsmvpfl:ModelVersion.Leaf",
+		{
+			"property": "to[Products].from.id",
+			"key": "model",
+			"label": "XPortfolio.Label.Type.Model",
+			"mask": "dsmvpfl:ModelUIMask",
+			"maskAppliesTo": "bus"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		"dsmvpfl:Image.url",
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title"
+	],
+	"dsmvpfl:ModelVersionCompositionMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:ModelVersionUIMask"
+		}
+	],
+	"dsmvpfl:DefaultBusUIMask": [
+		"dsmveno:basic.name",
+		"dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:attribute.MarketingName",
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		}
+	],
+	"dsmvpfl:ModelVersionDetailMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:ModelVersionBaseMask"
+		},
+		"dsmvpfl:ModelVersion.EnterpriseAttributes",
+		"dsmveno:CustomerAttributes"
+	],
+	
+	
+	"dsmvpfl:VariabilityEnterpriseMask":[
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+        "dsmvpfl:attribute.DisplayName",
+	    "dsmvpfl:basic.identifier",
+		"dsmveno:basic.type.public",
+		"dsmvpfl:basic.created.utc",
+		"dsmvpfl:basic.modified.utc",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmvpfl:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace"
+	],
+	
+	"dsmvpfl:Variant.EnterpriseDetailMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityEnterpriseMask"
+		},
+		"dsmvpfl:Variant.EnterpriseAttributes"
+	],
+	
+	"dsmvpfl:Value.EnterpriseDetailMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityEnterpriseMask"
+		},
+		"dsmvpfl:VariantValues.SequenceNumber",
+		"dsmvpfl:Value.EnterpriseAttributes"
+	
+	],
+	
+	"dsmvpfl:Option.EnterpriseDetailMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityEnterpriseMask"
+		},
+		"dsmvpfl:Options.SequenceNumber",
+		"dsmvpfl:Option.EnterpriseAttributes"
+	
+	],
+	
+	
+	"dsmvpfl:Parameter.EnterpriseDetailMask": [
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmvpfl:basic.identifier",
+		"dsmvpfl:basic.created.utc",
+		"dsmvpfl:basic.modified.utc",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmvpfl:attribute.DisplayName",
+		"dsmvpfl:Parameter.Dimension",
+		"dsmvpfl:Parameter.MinValueAsString",
+		"dsmvpfl:Parameter.MaxValueAsString",
+		"dsmvpfl:Parameter.EnterpriseAttributes"
+	],
+	
+		"dsmvpfl:VariabilityGroup.EnterpriseDetailMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityEnterpriseMask"
+		},
+		"dsmvpfl:VariabilityGroup.EnterpriseAttributes"
+	
+	],
+	
+	"dsmvpfl:ModelVersionCustomUIMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:ModelVersionUIMask"
+		},
+		"dsmvpfl:ModelVersion.EnterpriseAttributes"
+	],
+	"dsmvpfl:ImageMask": [
+		"dsmvpfl:Image.url"
+	],
+	"dsmvpfl:ProductConfigurationBaseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask.Basic"
+		},
+		"dsmvpfl:attribute.MarketingName",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathContent"
+		},
+		{
+			"property": "attribute[Completeness Status]",
+			"key": "completenessStatus",
+			"label": "XPortfolio.Label.Attribute.CompletenessStatus"
+		},
+		{
+			"property": "attribute[Evaluate Rules]",
+			"key": "evalRules",
+			"label": "XPortfolio.Label.Attribute.EvalRules"
+		},
+		{
+			"property": "attribute[Multi Selection Allowed]",
+			"key": "multiSelection",
+			"label": "XPortfolio.Label.Attribute.MultiSelection"
+		},
+		{
+			"property": "attribute[Rule Compliancy Status]",
+			"key": "compliancyStatus",
+			"label": "XPortfolio.Label.Attribute.CompliancyStatus"
+		},
+		{
+			"property": "attribute[Rule Evaluation Mode]",
+			"key": "evalMode",
+			"label": "XPortfolio.Label.Attribute.EvalMode"
+		},
+		{
+			"property": "attribute[Selection Mode]",
+			"key": "selectMode",
+			"label": "XPortfolio.Label.Attribute.SelectMode"
+		},
+		{
+			"property": "attribute[List Price]",
+			"key": "listPrice",
+			"label": "XPortfolio.Label.Attribute.ListPrice"
+		}
+	],
+
+	"dsmvpfl:ProductConfigurationBaseMask.Basic": [
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:attribute.MarketingName",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathContent"
+		},
+		{
+			"property": "attribute[Completeness Status]",
+			"key": "completenessStatus",
+			"label": "XPortfolio.Label.Attribute.CompletenessStatus"
+		},
+		{
+			"property": "attribute[Evaluate Rules]",
+			"key": "evalRules",
+			"label": "XPortfolio.Label.Attribute.EvalRules"
+		},
+		{
+			"property": "attribute[Multi Selection Allowed]",
+			"key": "multiSelection",
+			"label": "XPortfolio.Label.Attribute.MultiSelection"
+		},
+		{
+			"property": "attribute[Rule Compliancy Status]",
+			"key": "compliancyStatus",
+			"label": "XPortfolio.Label.Attribute.CompliancyStatus"
+		},
+		{
+			"property": "attribute[Rule Evaluation Mode]",
+			"key": "evalMode",
+			"label": "XPortfolio.Label.Attribute.EvalMode"
+		},
+		{
+			"property": "attribute[Selection Mode]",
+			"key": "selectMode",
+			"label": "XPortfolio.Label.Attribute.SelectMode"
+		},
+		{
+			"property": "attribute[List Price]",
+			"key": "listPrice",
+			"label": "XPortfolio.Label.Attribute.ListPrice"
+		}
+	],
+	
+	"dsmvpfl:ProductConfigurationUIMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:ProductConfigurationBaseMask.Basic"
+		},
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		"dsmvpfl:Image.url",
+		{
+			"property": "to[Product Configuration].from.to[Products].from.physicalid",
+			"key": "modelID",
+			"label": "XPortfolio.Label.Attribute.ModelId",
+			"example": "D43DC670000029F45BA222F200000284"
+		},
+		{
+			"property": "from[Configuration Model Type].to.physicalid",
+			"key": "baseConfigurationId",
+			"example": "50CFAC56D54709006548941A0013392E"
+		},
+		{
+			"property": "from[Configuration Model Type].to.attribute[Marketing Name]",
+			"key": "baseConfigurationTitle",
+			"example": "Base Configuration 1"
+		},
+		{
+			"property": "from[Configuration Model Type].to.type",
+			"key": "baseConfigurationType",
+			"example": "Model Type"
+		},
+		{
+			"property": "from[Configuration Model Type].to.revision",
+			"key": "baseConfigurationRevision",
+			"example": "A"
+		},
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title",
+		"dsmvpfl:basic.reserved",
+		"dsmvpfl:basic.reservedbyId",
+		"dsmvpfl:basic.reservedbyFullName"
+		
+	],
+	"dsmvpfl:ProductConfigurationCriteriaMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:ProductConfigurationBaseMask"
+		},
+		
+		"dsmvpfl:ProductConfiguration.Criteria"
+	],
+	"dsmvpfl:ProductConfigurationCriteriaUIMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:ProductConfigurationBaseMask"
+		},
+		
+		"dsmvpfl:ProductConfiguration.CriteriaUI"
+	],
+	"dsmvpfl:ProductConfigurationDetailsMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask.Basic"
+		},
+		"dsmvpfl:attribute.MarketingName",
+		"dsmvpfl:basic.modified.utc",
+		"dsmvpfl:basic.created.utc",
+		"dsmvpfl:basic.identifier",
+		{
+			"property": "from[Configuration Model Type].to.physicalid",
+			"key": "baseConfigurations",
+			"maskAppliesTo": "bus",
+			"mask": "dsmvpfl:BaseConfigurationBaseMask.Basic"
+		}
+	],
+	"dsmvpfl:BaseConfigurationBaseMask": [
+		"dsmveno:basic.name",
+		"dsmvpfl:attribute.MarketingName",
+        "dsmveno:basic.description",
+		"dsmvpfl:basic.identifier",
+		"dsmveno:basic.type.public",
+		"dsmvpfl:basic.modified.utc",
+		"dsmvpfl:basic.created.utc",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace"
+		
+	],
+	"dsmvpfl:BaseConfigurationBaseMask.Basic": [
+		"dsmvpfl:basic.identifier",
+		"dsmvpfl:attribute.MarketingName"
+		
+	],
+	"dsmvpfl:BaseConfigurationUIMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:BaseConfigurationBaseMask"
+		},
+		"dsmveno:basic.id",
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		"dsmvpfl:Image.url",
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title",
+		"dsmvpfl:basic.reserved",
+		"dsmvpfl:basic.reservedbyId",
+		"dsmvpfl:basic.reservedbyFullName"
+
+	],
+	"dsmvpfl:BaseConfigurationCriteriaMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:BaseConfigurationBaseMask",
+			"application": "X_PORTFOLIO"
+		},
+		"dsmvpfl:BaseConfiguration.Criteria"
+	],
+	"dsmvpfl:BaseConfigurationCriteriaUIMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:BaseConfigurationBaseMask",
+			"application": "X_PORTFOLIO"
+		},
+		"dsmveno:basic.id",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathContent"
+		},
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		"dsmvpfl:Image.url",
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title",
+		"dsmvpfl:basic.reserved",
+		"dsmvpfl:basic.reservedbyId",
+		"dsmvpfl:basic.reservedbyFullName",
+		"dsmvpfl:BaseConfiguration.CriteriaUI"
+	],
+	"dsmvpfl:RuleBaseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask"
+		},
+		"dsmvpfl:ModelVersion.Rules.type",
+		{
+			"property": "attribute[Layout Data]",
+			"key": "layoutData",
+			"label": "XPortfolio.Label.Attribute.LayoutData",
+			"example": "My Layout Data"
+		},
+		{
+			"property": "attribute[Compiled Expression]",
+			"key": "compiledExpression",
+			"label": "XPortfolio.Label.Attribute.CompiledExpression"
+		}
+	],
+	"dsmvpfl:CfgRuleBaseMask": [
+		"dsmveno:basic.name",
+		"dsmvpfl:attribute.title",
+		"dsmveno:basic.description",
+		"dsmvpfl:basic.identifier",
+		"dsmvpfl:Rule.metatype",
+		"dsmvpfl:ObjectReference.Source",
+		"dsmvpfl:ObjectReference.RelativePath.Rule",
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.revision",
+		"dsmvpfl:basic.state",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace"
+	],
+	"dsmvpfl:ConfigurationRuleBaseMask": [
+		"dsmveno:basic.name",
+		"dsmvpfl:attribute.title",
+		"dsmveno:basic.description",
+		"dsmvpfl:basic.identifier",
+		"dsmvpfl:MetaType",
+		"dsmvpfl:ObjectReference.Source",
+		"dsmvpfl:ObjectReference.RelativePath.ContentRule",
+		"dsmvpfl:Rule.RuleType",
+		"dsmvpfl:Rule.Definition",
+		"dsmvpfl:Rule.Criteria",
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmvpfl:basic.state",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace"
+	],
+	"dsmvpfl:CreateRuleUIMask": [
+
+       "dsmveno:basic.id",
+       "dsmveno:basic.name",
+       "dsmveno:basic.revision",
+       "dsmvpfl:basic.type",
+       "dsmvpfl:basic.state",
+       "dsmveno:basic.collabspace",
+	   "dsmveno:basic.organization",
+       "dsmveno:basic.owner",
+       "dsmveno:attribute.title",
+       "dsmveno:basic.description",
+	   "dsmvpfl:ModelVersion.Rules.type",
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		"dsmvpfl:Image.url",
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title",
+		"dsmvpfl:basic.reserved",
+		"dsmvpfl:basic.reservedbyId",
+		"dsmvpfl:basic.reservedbyFullName"
+	],
+	
+	"dsmvpfl:RuleUIMask": [
+		"dsmvpfl:Id.Search",
+		"dsmvpfl:Name.Search",
+		"dsmvpfl:Revision.Search",
+		"dsmvpfl:Type.Search",
+		"dsmvpfl:State.Search",
+		"dsmvpfl:CollabSpace.Search",
+		"dsmvpfl:Organization.Search",
+		"dsmvpfl:basic.reserved",
+		"dsmvpfl:basic.reservedbyId",
+		"dsmvpfl:basic.reservedbyFullName",
+		"dsmveno:basic.owner",
+		"dsmveno:attribute.title",
+		"dsmveno:basic.description",
+		"dsmvpfl:ModelVersion.Rules.type",
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		"dsmvpfl:Image.Search",
+		"dsmvpfl:CollabSpaceTitle.Search",
+		"dsmvpfl:OrganizationTitle.Search",
+		"dsmvpfl:CustomAttributes.Search"
+	],
+	"dsmvpfl:RuleBCConflictUIMask": [
+		{
+			   "property": "reuseMask",
+			   "mask": "dsmvpfl:RuleUIMask"
+		},
+		{
+			   "property": "attribute[Marketing Name]",
+			   "key": "BCTitle",
+			   "label": "xportfolio.details.attribute.title",
+			   "example": "BC Title"
+   
+	   }
+	],
+	"dsmvpfl:ModelVersionRulesBaseMask": [
+		"dsmvpfl:ModelVersion.Rules.base"
+	],
+	"dsmvpfl:ModelVersionRulesUIMask": [
+		"dsmvpfl:ModelVersion.Rules.ui"
+	],
+	"dsmvpfl:VariantValuesBaseMask": [
+		"dsmvpfl:Variant.VariantValues.base"
+	],
+	"dsmvpfl:VariantValuesUIMask": [
+		"dsmvpfl:Variant.VariantValues.ui"
+	],
+	"dsmvpfl:VariantValuesDetailMask": [
+		"dsmvpfl:Variant.VariantValues.details",
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		}
+	],
+	"dsmvpfl:VariantValuesCustomAttrMask": [
+		"dsmvpfl:Variant.VariantValues.custom",
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		}
+	],
+	"dsmvpfl:VariabilityGroupOptionsBaseMask": [
+		"dsmvpfl:VariabilityGroup.Options.base"
+	],
+	"dsmvpfl:VariabilityGroupOptionsUIMask": [
+		"dsmvpfl:VariabilityGroup.Options.ui"
+	],
+	"dsmvpfl:VariabilityGroupOptionsDetailMask": [
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		"dsmvpfl:VariabilityGroup.Options.details"
+	],
+	"dsmvpfl:VariabilityGroupOptionsCustomAttrMask": [
+		"dsmvpfl:VariabilityGroup.Options.custom",
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		}
+	],
+	"dsmvpfl:ValueBaseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask.Basic"
+		},
+		"dsmvpfl:attribute.DisplayName",
+		"dsmvpfl:VariantValues.SequenceNumber"
+	],
+	"dsmvpfl:ValueUIMask": [
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:attribute.DisplayName",
+		"dsmvpfl:VariantValues.SequenceNumber",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		"dsmvpfl:Image.url",
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title"
+	],
+	"dsmvpfl:ValueDetailMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityBaseMask.Basic"
+		},
+		{
+			"property": "logicalid",
+			"key": "lid",
+			"label": "XPortfolio.Label.Attribute.LogicalId",
+			"example": "94AD825646040000088D2A5E77600900"
+		},
+		{
+			"property": "to[Variant Values].physicalid",
+			"key": "rel_id",
+			"label": "XPortfolio.Label.Attribute.RelId",
+			"example": "94AD825646040000088D2A5EADF50E00"
+		},
+		{
+			"property": "to[Variant Values].logicalid",
+			"key": "rel_lid",
+			"label": "XPortfolio.Label.Attribute.RelLogicalId",
+			"example": "94AD825646040000088D2A5EAEF50E00"
+		},
+		{
+			"property": "to[Variant Values].attribute[Sequence Order]",
+			"key": "sequenceNumber",
+			"label": "XPortfolio.Label.Attribute.SequenceNumber",
+			"example": "94AD825646040000088D2A5EAEF50E00"
+		},
+		"dsmvpfl:VariantValue.Default",
+		"dsmvpfl:Image.url",
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title"
+	],
+	"dsmvpfl:ValueCustomAttrMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:ValueDetailMask"
+		},
+		"dsmveno:CustomerAttributes",
+		"dsmvpfl:Value.EnterpriseAttributes"
+	],
+	"dsmvpfl:OptionBaseMask": [
+		"dsmveno:basic.name",
+		"dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:attribute.DisplayName",
+		"dsmvpfl:Options.SequenceNumber"
+	],
+	"dsmvpfl:OptionUIMask": [
+		"dsmveno:basic.name",
+		"dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:attribute.DisplayName",
+		"dsmvpfl:Options.SequenceNumber",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		"dsmvpfl:Image.url",
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title"
+	],
+	"dsmvpfl:OptionDetailMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityBaseMask.Basic"
+		},
+		{
+			"property": "logicalid",
+			"key": "lid",
+			"label": "XPortfolio.Label.Attribute.LogicalId",
+			"example": "94AD825646040000088D2A5E77600900"
+		},
+		{
+			"property": "to[Grouped Variability Criteria].physicalid",
+			"key": "rel_id",
+			"label": "XPortfolio.Label.Attribute.RelId",
+			"example": "94AD825646040000088D2A5EADF50E00"
+		},
+		{
+			"property": "to[Grouped Variability Criteria].logicalid",
+			"key": "rel_lid",
+			"label": "XPortfolio.Label.Attribute.RelLogicalId",
+			"example": "94AD825646040000088D2A5EAEF50E00"
+		},
+		{
+			"property": "to[Grouped Variability Criteria].attribute[Sequence Order]",
+			"key": "sequenceNumber",
+			"label": "XPortfolio.Label.Attribute.SequenceNumber",
+			"example": "94AD825646040000088D2A5EAEF50E00"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		"dsmvpfl:Option.Default",
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		"dsmvpfl:Image.url",
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title"
+	],
+	"dsmvpfl:OptionCustomAttrMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:OptionDetailMask"
+		},
+		"dsmveno:CustomerAttributes",
+		"dsmvpfl:Option.EnterpriseAttributes"
+	],
+	"dsmvpfl:VariantBaseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask.Basic"
+		},
+		"dsmvpfl:attribute.DisplayName"
+	],
+	"dsmvpfl:VariantUIMask": [
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:attribute.DisplayName",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		"dsmvpfl:Image.url",
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title"
+	],
+	"dsmvpfl:VariantWithValuesUIMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariantUIMask"
+		},
+		
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariantValuesUIMask"
+		}
+	],
+	"dsmvpfl:VariantDetailMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityBaseMask.Basic"
+		},
+		{
+			"property": "logicalid",
+			"key": "lid",
+			"label": "XPortfolio.Label.Attribute.LogicalId",
+			"example": "94AD825646040000FC8C2A5EDA040600"
+		},
+		"dsmvpfl:Variant.Mandatory",
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		"dsmvpfl:Image.url"
+	],
+	"dsmvpfl:VariabilityGroupBaseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask.Basic"
+		},
+		"dsmvpfl:attribute.DisplayName"
+	],
+	"dsmvpfl:VariabilityGroupUIMask": [
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:attribute.DisplayName",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		"dsmvpfl:Image.url",
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title"
+	],
+	"dsmvpfl:VariabilityGroupWithOptionsUIMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityGroupUIMask"
+		},
+		
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityGroupOptionsUIMask"
+		}
+	],
+	"dsmvpfl:VariabilityGroupDetailMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityBaseMask.Basic"
+		},
+		{
+			"property": "logicalid",
+			"key": "lid",
+			"label": "XPortfolio.Label.Attribute.LogicalId",
+			"example": "94AD825646040000FC8C2A5EDA040600"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		"dsmvpfl:Image.url"
+	],
+	"dsmvpfl:ParameterSearchMask": [
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmvpfl:attribute.DisplayName"		
+	],
+	"dsmvpfl:ParameterBaseMask": [
+	    "dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmvpfl:attribute.DisplayName",
+		"dsmvpfl:Parameter.Dimension",
+		"dsmvpfl:Parameter.MinValueAsString",
+		"dsmvpfl:Parameter.MaxValueAsString"
+	],
+	"dsmvpfl:ParameterUIMask": [
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmvpfl:attribute.DisplayName",
+		"dsmvpfl:Parameter.Dimension",
+		"dsmvpfl:Parameter.MinValueAsString",
+		"dsmvpfl:Parameter.MaxValueAsString",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		"dsmvpfl:Image.url",
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title"
+	],
+	"dsmvpfl:ParameterDetailMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:ParameterUIMask"
+		},
+		
+		{
+			"property": "logicalid",
+			"key": "lid",
+			"label": "XPortfolio.Label.Attribute.LogicalId",
+			"example": "94AD825646040000FC8C2A5EDA040600"
+		}
+	],
+	"dsmvpfl:ModelMask.Common": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask"
+		},
+		{
+			"property": "from[Main Product].to.last.physicalid",
+			"key": "latestModelVersion",
+			"maskAppliesTo": "bus",
+			"mask": "dsmvpfl:DefaultErBusMask"
+		}
+	],
+	"dsmvpfl:ModelVersionPCsBaseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask.Basic"
+		},
+		"dsmvpfl:attribute.MarketingName",
+		{
+			"property": "from[Product Configuration].to.physicalid",
+			"key": "productConfigurations",
+			"maskAppliesTo": "bus",
+			"mask": "dsmvpfl:ProductConfigurationBaseMask"
+		}
+	],
+	"dsmvpfl:ModelVersionPCsUIMask": [
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		
+		"dsmvpfl:attribute.MarketingName",
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title",
+		{
+			"property": "from[Product Configuration].to.physicalid",
+			"key": "productConfigurations",
+			"maskAppliesTo": "bus",
+			"mask": "dsmvpfl:ProductConfigurationUIMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		}
+	],
+	"dsmvpfl:ModelVersionBCsUIMask": [
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		
+		"dsmvpfl:attribute.MarketingName",
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title",
+		{
+			"property": "from[Product Model Type].to.physicalid",  
+			"key": "baseConfigurations",
+			"maskAppliesTo": "bus",
+			"mask": "dsmvpfl:BaseConfigurationUIMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		}
+	],
+	"dsmvpfl:VariantInstanceMask": [
+		"dsmvpfl:Instance.Constraint",
+		"dsmvpfl:Instance.SequenceNumber",
+		{
+			"property": "physicalid",
+			"key": "id",
+			"label": "XPortfolio.Label.Attribute.Id",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "Entity physical id"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathInstance"
+		},
+		"dsmvpfl:Instance.Variants.base",
+		"dsmvpfl:Instance.Values.base"
+	],
+	"dsmvpfl:VariantInstanceCustomerAttributeMask": [
+		"dsmvpfl:Instance.Constraint",
+		"dsmvpfl:Instance.SequenceNumber",
+		{
+			"property": "physicalid",
+			"key": "id",
+			"label": "XPortfolio.Label.Attribute.Id",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "Entity physical id"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathInstance"
+		},
+		"dsmvpfl:Instance.Variants.base.custom",
+		"dsmvpfl:Instance.Values.base.custom"
+	],
+	"dsmvpfl:ParameterInstanceMask": [
+		{
+			"property": "attribute[Sequence Order]",
+			"key": "sequenceNumber",
+			"label": "XPortfolio.Label.Attribute.SequenceNumber",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "sequenceNumber"
+		},
+		{
+			"property": "physicalid",
+			"key": "id",
+			"label": "XPortfolio.Label.Attribute.Id",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "Entity physical id"
+		},
+		"dsmvpfl:Instance.Parameters.base"
+	],
+	"dsmvpfl:ParameterInstanceUIMask": [
+		{
+			"property": "attribute[Sequence Order]",
+			"key": "sequenceNumber",
+			"label": "XPortfolio.Label.Attribute.SequenceNumber",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "sequenceNumber"
+		},
+		{
+			"property": "logicalid",
+			"key": "lid",
+			"label": "XPortfolio.Label.Attribute.LogicalId",
+			"example": "94AD825646040000088D2A5E77600900"
+		},
+		{
+			"property": "physicalid",
+			"key": "id",
+			"label": "XPortfolio.Label.Attribute.Id",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "Entity physical id"
+		},
+		"dsmvpfl:Instance.Parameters.ui"
+	],
+	"dsmvpfl:OptionGroupInstanceMask": [
+		"dsmvpfl:Instance.Constraint",
+		"dsmvpfl:Instance.SequenceNumber",
+		{
+			"property": "physicalid",
+			"key": "id",
+			"label": "XPortfolio.Label.Attribute.Id",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "Entity physical id"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathInstance"
+		},
+		"dsmvpfl:Instance.OptionGroups.base",
+		"dsmvpfl:Instance.Options.base"
+	],
+	"dsmvpfl:OptionGroupInstanceCustomerAttributeMask": [
+		"dsmvpfl:Instance.Constraint",
+		"dsmvpfl:Instance.SequenceNumber",
+		{
+			"property": "physicalid",
+			"key": "id",
+			"label": "XPortfolio.Label.Attribute.Id",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "Entity physical id"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathInstance"
+		},
+		"dsmvpfl:Instance.OptionGroups.base.custom",
+		"dsmvpfl:Instance.Options.base.custom"
+	],
+	"dsmvpfl:VariantInstanceUIMask": [
+		{
+			"property": "attribute[Sequence Order]",
+			"key": "sequenceNumber",
+			"label": "XPortfolio.Label.Attribute.SequenceNumber",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "sequenceNumber"
+		},
+		"dsmvpfl:Instance.Constraint",
+		{
+			"property": "physicalid",
+			"key": "id",
+			"label": "XPortfolio.Label.Attribute.Id",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "Entity physical id"
+		},
+		{
+			"property": "logicalid",
+			"key": "lid",
+			"label": "XPortfolio.Label.Attribute.LogicalId",
+			"example": "94AD825646040000088D2A5E77600900"
+		},
+		"dsmvpfl:Instance.Variants.ui",
+		"dsmvpfl:Instance.Values.ui"
+	],
+	"dsmvpfl:OptionGroupInstanceUIMask": [
+		{
+			"property": "attribute[Sequence Order]",
+			"key": "sequenceNumber",
+			"label": "XPortfolio.Label.Attribute.SequenceNumber",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "sequenceNumber"
+		},
+		"dsmvpfl:Instance.Constraint",
+		{
+			"property": "physicalid",
+			"key": "id",
+			"label": "XPortfolio.Label.Attribute.Id",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "Entity physical id"
+		},
+		{
+			"property": "logicalid",
+			"key": "lid",
+			"label": "XPortfolio.Label.Attribute.LogicalId",
+			"example": "94AD825646040000088D2A5E77600900"
+		},
+		"dsmvpfl:Instance.OptionGroups.ui",
+		"dsmvpfl:Instance.Options.ui"
+	],
+	"dsmvpfl:VariabilityRootMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityBaseMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathRoot"
+		}
+	],
+	"dsmvpfl:VariabilityRootCustomerAttributeMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityBaseMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathRoot"
+		},
+		"dsmveno:CustomerAttributes"
+	],
+	"dsmvpfl:VariabilityContentMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityBaseMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathContent"
+		}
+	],
+	"dsmvpfl:VariabilityContentCustomerAttributeMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:VariabilityBaseMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathContent"
+		},
+		"dsmveno:CustomerAttributes"
+	],
+	"dsmvpfl:VariabilityBaseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		"dsmveno:basic.name",
+		"dsmvpfl:attribute.DisplayName",
+		"dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmvpfl:basic.type",
+		"dsmvpfl:basic.state",
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace"
+	],
+	
+	"dsmvpfl:VariabilityBaseMask.Basic": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		"dsmveno:basic.name",
+		"dsmvpfl:attribute.DisplayName",
+		"dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmvpfl:basic.type",
+		"dsmvpfl:basic.state",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace"
+	],
+	"dsmvpfl:ParameterVariabilityBaseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		"dsmveno:basic.name",
+		"dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmvpfl:basic.type",
+		"dsmvpfl:basic.state",
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathRoot"
+		},
+		"dsmvpfl:attribute.DisplayName",
+		"dsmvpfl:Parameter.Dimension",
+		"dsmvpfl:Parameter.MinValueAsString",
+		"dsmvpfl:Parameter.MaxValueAsString"
+	],
+	"dsmvpfl:DefaultErBusMask": [
+		"dsmveno:basic.name",
+        "dsmveno:attribute.title",
+        "dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace"
+	],
+	"dsmvpfl:DefaultErBusMask.Basic": [
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace"
+	],
+	
+	"dsmvpfl:Linkable.Details": [
+		"dsmvpfl:ObjectReference.Source",
+		{
+			"property": "physicalid",
+			"key": "identifier",
+			"index": "resourceid",
+			"label": "XPortfolio.Label.Attribute.Identifier",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "Entity physical id"
+		}
+	],
+	"dsmvpfl:Linkable.RelativePathContent": [
+		"dsmvpfl:ObjectReference.RelativePath.Content"
+	],
+	"dsmvpfl:Linkable.RelativePathInstance": [
+		"dsmvpfl:ObjectReference.RelativePath.Instance"
+	],
+	"dsmvpfl:Linkable.RelativePathRoot": [
+		"dsmvpfl:ObjectReference.RelativePath.Root"
+	],
+	"dsmvpfl:InstanceIDMask": [
+		{
+			"property": "physicalid",
+			"key": "id",
+			"label": "XPortfolio.Label.Attribute.Id",
+			"example": "EE562168015FFCF14F940A513C63AA77",
+			"description": "Entity physical id"
+		},
+		"dsmvpfl:Instance.Constraint"
+	],
+		
+	"dsmvpfl:RequirementCommonMask": [
+	{
+	"property": "to.physicalid",
+	"key": "id",
+	"label": "XPortfolio.Label.Attribute.Id"
+	},
+	{
+	"property": "to.type",
+	"key": "type",
+	"label": "XPortfolio.Label.Attribute.Type"
+	},
+	{
+	"property": "to.modified.generic",
+	"key": "modified",
+	"format": "datetimeutc",
+	"label": "XPortfolio.Label.Attribute.Modified"
+	},
+	{
+	"property": "to.originated.generic",
+	"key": "created",
+	"format": "datetimeutc",
+	"label": "XPortfolio.Label.Attribute.Created"
+	},
+	{
+	"property": "to.current",
+	"key": "state",
+	"label": "XPortfolio.Label.Attribute.State"
+	},
+	{
+	"property": "to.owner",
+	"key": "owner",
+	"format": "fullname",
+	"label": "XPortfolio.Label.Attribute.Owner"
+	},
+	"dsmveno:basic.instance.to.organization",
+	"dsmveno:basic.instance.to.collabspace",
+	{
+	"property": "to.description",
+	"key": "description",
+	"label": "XPortfolio.Label.Attribute.Description"
+	},
+	{
+	"property": "to.name",
+	"key": "name",
+	"label": "XPortfolio.Label.Attribute.Name"
+	},
+	{
+	"property": "to.attribute[Title]",
+	"key": "title",
+	"label": "XPortfolio.Label.Attribute.Title"
+	},
+	{
+	"property": "to.attribute[Priority]",
+	"key": "priority"
+	},
+	{
+	"property": "to.attribute[Requirement Category]",
+	"key": "requirementCategory"
+	},
+	{
+	"property": "to.attribute[Requirement Classification]",
+	"key": "requirementClassification"
+	},
+	{
+	"property": "attribute[Sequence Order].value",
+	"key": "sequenceOrder"
+	},
+	"dsmvpfl:Instance.Image.url",
+	{
+	"property": "collectionMask",
+	"key": "nlsValues",
+	"mask": "dsmvpfl:NLSInstanceMask.Common"
+	},
+	"dsmvpfl:CollabSpace.Title.Requirement",
+	"dsmvpfl:Organization.Title.Requirement"
+	],	
+
+	"dsmvpfl:RequirementBaseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask"
+		},
+		{
+			"property": "attribute[Priority]",
+			"key": "priority"
+		},
+		{
+			"property": "attribute[Requirement Category]",
+			"key": "requirementCategory"
+		},
+		{
+			"property": "attribute[Requirement Classification]",
+			"key": "requirementClassification"
+		}
+	],
+	"dsmvpfl:RequirementUIMask": [
+		"dsmveno:basic.name",
+        "dsmveno:attribute.title",
+        "dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		{
+			"property": "attribute[Priority]",
+			"key": "priority"
+		},
+		{
+			"property": "attribute[Requirement Category]",
+			"key": "requirementCategory"
+		},
+		{
+			"property": "attribute[Requirement Classification]",
+			"key": "requirementClassification"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		},
+		"dsmvpfl:Image.url"
+	],
+	"dsmvpfl:RequirementContentMask": [
+		{
+			"property": "attribute[Content Data]",
+			"key": "contentData"
+		},
+		{
+			"property": "attribute[Content Type]",
+			"key": "contentType"
+		},
+		{
+			"property": "attribute[Content Text]",
+			"key": "contentText"
+		}
+	],
+	"dsmvpfl:PortfolioBaseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultBusMask"
+		},
+		"dsmvpfl:Image.url",
+		{
+			"property": "relationship[Portfolio].to.id",
+			"key": "portfoliocontent",
+			"label": "portfoliocontent",
+			"mask": "dsmvpfl:DefaultBusMask",
+			"maskAppliesTo": "bus",
+			"fetchOnce": true
+		}
+	],
+	"dsmvpfl:DefaultBusMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask.Basic"
+		},
+		"dsmvpfl:attribute.MarketingName"
+	],
+	
+	"dsmvpfl:DefaultBusFetchMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask.Basic"
+		},
+		"dsmvpfl:basic.identifier",
+		"dsmvpfl:attribute.MarketingName"
+	],
+	
+	"dsmvpfl:ProductLineBaseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultBusMask"
+		},
+		"dsmvpfl:Image.url",
+		{
+			"property": "relationship[Product Line Models].to.id",
+			"key": "models",
+			"label": "models",
+			"mask": "dsmvpfl:ModelAllVersionsMask",
+			"maskAppliesTo": "bus",
+			"fetchOnce": true
+		},
+		{
+			"property": "from[Sub Product Lines].to.id",
+			"key": "subproductlines",
+			"label": "subproductlines",
+			"mask": "dsmvpfl:ProductLineBaseMask",
+			"maskAppliesTo": "bus",
+			"fetchOnce": true
+		},
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		}
+	],
+	"dsmvpfl:NLSBusMask.Common": [
+		"dsmvpfl:basic.type.ui",
+		"dsmvpfl:basic.state.ui"
+	],
+	"dsmvpfl:NLSInstanceMask.Common": [
+		"dsmvpfl:Instance.Type.ui",
+		"dsmvpfl:Instance.State.ui"
+	],
+	"dsmvpfl:ValuesOptionsIDMask": [
+		"dsmveno:basic.id",
+		"dsmvpfl:ValuesOptions.ID"
+	],
+	"dsmvpfl:ImageWithIDMask": [
+		"dsmveno:basic.id",
+		"dsmvpfl:Image.url"
+	],
+	"dsmvpfl:ManufacturingPlanBaseMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask"
+		},
+		"dsmvpfl:ManufacturingPlan.ReviseOrDerive"
+	],
+	"dsmvpfl:MfgPlanBaseMask": [
+		"dsmveno:basic.name",
+		"dsmveno:basic.description",
+		{
+			"property": "attribute[Title]",
+			"key": "title",
+			"index": "MP_TITLE",
+			"label": "xportfolio.details.attribute.title"
+		},
+		"dsmvpfl:basic.identifier",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:ManufacturingPlan.ReviseOrDerive",
+		"dsmvpfl:ManufacturingPlan.Intent"
+	],
+	"dsmvpfl:MfgPlanExpandMask": [
+		"dsmveno:basic.name",
+		"dsmveno:basic.description",
+		{
+			"property": "attribute[Title]",
+			"key": "title",
+			"index": "MP_TITLE",
+			"label": "xportfolio.details.attribute.title"
+		},
+		"dsmvpfl:basic.identifier",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:ManufacturingPlan.Intent"
+	],
+	"dsmvpfl:MfgPlanBulkFetchMask": [
+		"dsmveno:basic.name",
+		"dsmveno:basic.description",
+		{
+			"property": "attribute[Title]",
+			"key": "title",
+			"index": "MP_TITLE",
+			"label": "xportfolio.details.attribute.title"
+		},
+		"dsmvpfl:basic.identifier",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:ManufacturingPlan.Intent",
+	    "dsmvpfl:ModelVersionMfg.Details"	
+	],
+	"dsmvpfl:MfgPlanUnitsMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:MfgPlanBaseMask"
+		},
+		{
+			"property": "from[Planned Builds].to.physicalid",
+			"key": "unit",
+			"label": "XPortfolio.Label.Unit",
+			"mask": "dsmvpfl:UnitsFromMfgPlanMask",
+			"maskAppliesTo": "bus"
+		}
+	],
+	"dsmvpfl:ManufacturingPlanUIMask": [
+		"dsmveno:basic.name",
+        "dsmveno:attribute.title",
+        "dsmveno:basic.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:ManufacturingPlan.ReviseOrDerive",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		},
+		"dsmvpfl:Image.url",
+		"dsmvpfl:CollabSpace.Title",
+		"dsmvpfl:Organization.Title",
+		{
+			"property": "collectionMask",
+			"key": "nlsValues",
+			"mask": "dsmvpfl:NLSBusMask.Common"
+		}
+	],
+	"dsmvpfl:IdMask": [
+		"dsmveno:basic.id"
+	],
+	"dsmvpfl:DateTimeUIMask": [
+		"dsmveno:basic.created.utc",
+		"dsmveno:basic.modified.utc"
+	],
+	"dsmvpfl:UnitBaseMask": [
+		{
+			"property": "attribute[Build Serial Number]",
+			"key": "serialNumber",
+			"label": "XPortfolio.Label.Attribute.SerialNumber",
+			"index": "PLC_BUILD_SERIAL_NUMBER"
+		},
+		{
+			"property": "attribute[Build Unit Number]",
+			"key": "unitNumber",
+			"label": "XPortfolio.Label.Attribute.UnitNumber",
+			"index": "PLC_BUILD_UNIT_NUMBER"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask"
+		},
+		{
+			"property": "to[Product Build].from.physicalid",
+			"key": "modelVersion",
+			"label": "XPortfolio.Label.ModelVersion",
+			"mask": "dsmvpfl:UnitsModelVersionMask",
+			"index": "PLC_PRODUCT_PID",
+			"metaTypes": [
+				"dspfl:ModelVersion"
+			],
+			"maskAppliesTo": "bus"
+		},
+		{
+			"property": "to[Model Build].from.physicalid",
+			"key": "model",
+			"index": "PLC_MODEL_PID",
+			"label": "XPortfolio.Label.Model",
+			"metaTypes": [
+				"dspfl:Model"
+			],
+			"mask": "dsmvpfl:UnitsModelMask",
+			"maskAppliesTo": "bus"
+		},
+		{
+			"property": "to[Product Configuration Build].from.physicalid",
+			"key": "productConfiguration",
+			"label": "XPortfolio.Label.ProductConfiguration",
+			"index": "PLC_PRODUCT_CONFIGURATION_PID",
+			"metaTypes": [
+				"dspfl:ProductConfiguration"
+			],
+			"mask": "dsmvpfl:UnitsProductConfigurationMask",
+			"maskAppliesTo": "bus"
+		},
+		{
+			"property": "to[Planned Builds].from.physicalid",
+			"key": "manufacturingPlan",
+			"label": "XPortfolio.Label.ManufacturingPlan",
+			"mask": "dsmvpfl:UnitsMfgPlanMask",
+			"index": "PLC_MFG_PLAN_PID",
+			"metaTypes": [
+				"dspfl:ManufacturingPlan"
+			],
+			"maskAppliesTo": "bus"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathRoot"
+		}
+	],
+	"dsmvpfl:UnitDefaultMask": [
+		{
+			"property": "attribute[Build Serial Number]",
+			"key": "serialNumber",
+			"label": "XPortfolio.Label.Attribute.SerialNumber"
+		},
+		{
+			"property": "attribute[Build Unit Number]",
+			"key": "unitNumber",
+			"label": "XPortfolio.Label.Attribute.UnitNumber"
+		},
+		{
+			"property": "attribute[Planned Build Date]",
+			"key": "plannedDate",
+			"label": "XPortfolio.Label.Attribute.PlannedDate",
+			"format": "datetimeutc"
+		},
+		{
+			"property": "attribute[Date Shipped]",
+			"key": "shippedDate",
+			"label": "XPortfolio.Label.Attribute.ShippedDate",
+			"format": "datetimeutc"
+		},
+		{
+			"property": "attribute[Actual Build Date]",
+			"key": "actualDate",
+			"label": "XPortfolio.Label.Attribute.ActualDate",
+			"format": "datetimeutc"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathRoot"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DateTimeUIMask"
+		}
+	],
+	"dsmvpfl:UnitSearchMask": [
+		{
+			"property": "attribute[Build Serial Number]",
+			"key": "serialNumber",
+			"label": "XPortfolio.Label.Attribute.SerialNumber",
+			"index": "PLC_BUILD_SERIAL_NUMBER"
+		},
+		{
+			"property": "attribute[Build Unit Number]",
+			"key": "unitNumber",
+			"label": "XPortfolio.Label.Attribute.UnitNumber",
+			"index": "PLC_BUILD_UNIT_NUMBER"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask"
+		},
+		{
+			"property": "to[Product Build].from.physicalid",
+			"key": "modelVersion",
+			"label": "XPortfolio.Label.ModelVersion",
+			"index": "PLC_PRODUCT_PID",
+			"metaTypes": [
+				"dspfl:ModelVersion"
+			]
+		},
+		{
+			"property": "to[Model Build].from.physicalid",
+			"key": "model",
+			"index": "PLC_MODEL_PID",
+			"label": "XPortfolio.Label.Model",
+			"metaTypes": [
+				"dspfl:Model"
+			]
+		},
+		{
+			"property": "to[Product Configuration Build].from.physicalid",
+			"key": "productConfiguration",
+			"label": "XPortfolio.Label.ProductConfiguration",
+			"index": "PLC_PRODUCT_CONFIGURATION_PID",
+			"metaTypes": [
+				"dspfl:ProductConfiguration"
+			]
+		},
+		{
+			"property": "to[Planned Builds].from.physicalid",
+			"key": "manufacturingPlan",
+			"label": "XPortfolio.Label.ManufacturingPlan",
+			"index": "PLC_MFG_PLAN_PID",
+			"metaTypes": [
+				"dspfl:ManufacturingPlan"
+			]
+		}
+	],
+	"dsmvpfl:UnitsModelVersionMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask.Basic"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathRoot"
+		},
+		{
+			"property": "attribute[Marketing Name]",
+			"key": "title",
+			"index": "LABEL",
+			"label": "xportfolio.details.attribute.title"
+		},
+		"dsmvpfl:ObjectReference.Source"
+	],
+	"dsmvpfl:UnitsModelMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask.Basic"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathRoot"
+		},
+		{
+			"property": "attribute[Marketing Name]",
+			"key": "title",
+			"index": "LABEL",
+			"label": "xportfolio.details.attribute.title"
+		},
+		"dsmvpfl:ObjectReference.Source"
+	],
+	"dsmvpfl:UnitsProductConfigurationMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask.Basic"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathContent"
+		},
+		{
+			"property": "attribute[Marketing Name]",
+			"key": "title",
+			"index": "LABEL",
+			"label": "xportfolio.details.attribute.title"
+		},
+		"dsmvpfl:ObjectReference.Source"
+	],
+	"dsmvpfl:UnitsMfgPlanMask": [
+		"dsmveno:basic.name",
+		"dsmvpfl:basic.identifier",
+		"dsmveno:basic.revision",
+		{
+			"property": "attribute[Title]",
+			"key": "title",
+			"index": "MP_TITLE",
+			"label": "xportfolio.details.attribute.title"
+		}
+	],
+	"dsmvpfl:ModelVersionUnitsMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask"
+		},
+		"dsmvpfl:ObjectReference.Source",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathRoot"
+		},
+		{
+			"property": "from[Product Build].to.physicalid",
+			"key": "unit",
+			"label": "XPortfolio.Label.Unit",
+			"mask": "dsmvpfl:RelatedUnitsMask",
+			"maskAppliesTo": "bus"
+		}
+	],
+	"dsmvpfl:ProductConfigurationUnitsMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask"
+		},
+		"dsmvpfl:ObjectReference.Source",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathContent"
+		},
+		{
+			"property": "from[Product Configuration Build].to.physicalid",
+			"key": "unit",
+			"label": "XPortfolio.Label.Unit",
+			"mask": "dsmvpfl:RelatedUnitsMask",
+			"maskAppliesTo": "bus"
+		}
+	],
+	"dsmvpfl:RelatedUnitsMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:DefaultErBusMask"
+		},
+		{
+			"property": "attribute[Build Serial Number]",
+			"key": "serialNumber",
+			"label": "XPortfolio.Label.Attribute.SerialNumber",
+			"index": "PLC_BUILD_SERIAL_NUMBER"
+		},
+		{
+			"property": "attribute[Build Unit Number]",
+			"key": "unitNumber",
+			"label": "XPortfolio.Label.Attribute.UnitNumber",
+			"index": "PLC_BUILD_UNIT_NUMBER"
+		},
+		"dsmvpfl:ObjectReference.Source",
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpfl:Linkable.RelativePathRoot"
+		}
+	],
+	"dsmvpfl:UnitsFromMfgPlanMask": [
+		"dsmveno:basic.name",
+		"dsmvpfl:basic.identifier",
+		"dsmveno:basic.revision",
+		{
+			"property": "attribute[Build Serial Number]",
+			"key": "serialNumber",
+			"label": "XPortfolio.Label.Attribute.SerialNumber",
+			"index": "PLC_BUILD_SERIAL_NUMBER"
+		},
+		{
+			"property": "attribute[Build Unit Number]",
+			"key": "unitNumber",
+			"label": "XPortfolio.Label.Attribute.UnitNumber",
+			"index": "PLC_BUILD_UNIT_NUMBER"
+		}
+	],
+	
+	
+	"dsmvpfl:BulkFetchMask.Default": [
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmveno:basic.type.public",
+	    "dsmveno:basic.created.utc",
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:basic.identifier",
+		"dsmvpfl:attribute.MarketingName"
+	],
+	
+	"dsmvpfl:SearchMask.Default": [
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmveno:basic.type.public",
+	    "dsmveno:basic.created.utc",
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:basic.identifier",
+		"dsmvpfl:attribute.MarketingName"
+	],
+	
+	"dsmvpfl:ExpandMask.Default": [
+		"dsmveno:basic.name",
+        "dsmveno:basic.description",
+		"dsmveno:basic.type.public",
+	    "dsmveno:basic.created.utc",
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmvpfl:basic.identifier",
+		"dsmvpfl:attribute.MarketingName"
+	],
+		"dsmvpfl:ExpandMaskRel.Default": [
+		"dsmveno:basic.name",
+		"dsmveno:basic.type.public",
+		"dsmvpfl:basic.identifier",
+		"dsmvpfl:attribute.MarketingName"
+	]
+	
+	
+	
+}

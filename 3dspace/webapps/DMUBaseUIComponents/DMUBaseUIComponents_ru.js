@@ -1,0 +1,1 @@
+define("DS/DMUBaseUIComponents/DMUBaseUIComponents_ru",{});define("DS/DMUBaseUIComponents/assets/nls/DMUBaseUIComponents",{replyButtonLabel:"Ответить",addButtonLabel:"Новый комментарий",pointedPageRemoved:"Указанная страница удалена",commentDeleted:"Этот комментарий удален"});

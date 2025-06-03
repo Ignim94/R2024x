@@ -1,0 +1,22 @@
+{
+    "SelectAFile": "Select a file...",
+    "BrowseButtonText": "Browse",
+    "UploadButtonText": "Upload",
+    "ResetButtonText" : "Reset All Extended Sequences",
+    "DownloadButtonText": "Download",
+    "DownloadFailedAlert": "Download failed",
+    "NoFileToUpload": "Nothing to upload, select a file first",
+    "UploadSuccessAlert": "File successfully uploaded",
+    "UploadFailedAlert": "Upload of file failed",
+    "ResetSuccessAlert": "Reset successful",
+    "ResetFailedAlert": "Reset failed",
+    "VersionNamingExtHeader": "Upload/Download Extended Revision Sequences definitions",
+	"VersionNamingLogHeader": "Upload/Download Revision Sequences Logic definitions",
+    "VersionNamingExtTooltip": "1. Download the JSON file with the extended revision sequences that are already declared.<br/>2. In the JSON file, add, modify, or remove the extended revision sequences of your choice.<br/>3. Upload the updated file.",
+	"VersionNamingExtTypeHeader": "Assign Extended Revision Sequence to Types",
+	"VersionNamingExtTypeTooltip": "1. Expand type tree in Type column.<br/>2. Select type you want to set or reset the sequence.<br/>3. Select in Extended Revision Sequence column the sequence to set.",
+	"ERSAssociationSuccessAlert": "ERS successfully set",
+	"VersionNamingLogTypeHeader": "Assign Revision Sequence Logic to Types",
+	"VersionNamingLogTypeTooltip": "1. Expand type tree in Type column.<br/>2. Select type you want to set or reset the sequence.<br/>3. Select in Revision Sequence Logic column the sequence to set.",
+	"RSLAssociationSuccessAlert": "RSL successfully set"
+}

@@ -1,0 +1,17 @@
+m|DELPXPFoundationsWeb\DELPXPFoundationsWebLegacy.mweb
+b|j|n,u
+b|c|c,m
+v|6.426.0.23148|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELPXPFoundationsLegacy\DELPXPFoundations.js|1679930567|25762
+s|DELPXPFoundationsWeb\DELPXPFoundationsWebLegacy.mweb\src\DELPXPFoundations.js|1679930567|25762
+t|win_b64\webapps\DELPXPFoundationsLegacy\PXPError.js|1679930525|6860
+s|DELPXPFoundationsWeb\DELPXPFoundationsWebLegacy.mweb\src\PXPError.js|1679930525|6860
+t|win_b64\webapps\DELPXPFoundationsLegacy\PXPEventTransport.js|1679930524|27626
+s|DELPXPFoundationsWeb\DELPXPFoundationsWebLegacy.mweb\src\PXPEventTransport.js|1679930524|27626
+t|win_b64\webapps\DELPXPFoundationsLegacy\PXPUtils.js|1680867846|11039
+s|DELPXPFoundationsWeb\DELPXPFoundationsWebLegacy.mweb\src\PXPUtils.js|1680867846|11039
+t|win_b64\webapps\DELPXPFoundationsLegacy\PXPWAFData.js|1680698301|4971
+s|DELPXPFoundationsWeb\DELPXPFoundationsWebLegacy.mweb\src\PXPWAFData.js|1680698301|4971
+t|win_b64\webapps\DELPXPFoundationsLegacy\assets\Settings.json|1685323966|110
+s|DELPXPFoundationsWeb\DELPXPFoundationsWebLegacy.mweb\src\assets\Settings.json|1557437917|110

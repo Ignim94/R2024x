@@ -1,0 +1,22 @@
+{
+  "ECADUPSPCBReferenceDesignatorLabel": "Referenční označení PCB",
+  "ECADUPSPCBReferenceDesignatorInfo": "Definuje referenční označení, které se použije pro desku plošných spojů ve struktuře výrobku",
+  "ECADUPSPackageNamePropertyLabel": "Vlastnost názvu balíčku",
+  "ECADUPSPackageNamePropertyInfo": "definuje název vlastnosti ECAD součásti Altium, která se používá k odvození názvu balíčku během počátečního importu",
+  "ECADUPSPackageDescriptionPropertyLabel": "Vlastnost popisu balíčku",
+  "ECADUPSPackageDescriptionPropertyInfo": "definuje název vlastnosti ECAD součásti Altium, která se používá k odvození popisu balíčku během počátečního importu",
+  "ECADUPSUseClassificationLabel": "Použít klasifikaci elektronické knihovny",
+  "ECADUPSUseClassificationInfo": "definuje, zda se má pro elektronické součásti použít klasifikace knihovny nebo místní kategorie ",
+  "ECADUPSElectronicLibraryLabel": "Knihovna elektronických součástek",
+  "ECADUPSElectronicLibraryInfo": "definuje nejpoužívanější knihovnu pro klasifikaci elektronických součástek. Zadejte úplnou cestu klasifikace, např. \\Electronic Library\\Components",
+  "AltiumUPSECADCategoriesLabel": "Kategorie součástí",
+  "AltiumUPSECADCategoriesInfo": "Kategorie součástí se používají, pokud není vybrána možnost Klasifikace knihovny",
+  "AltiumUPSEnterpriseItemNumberPropertyLabel": "Vlastnost čísla podnikové položky",
+  "AltiumUPSEnterpriseItemNumberPropertyInfo": "Definuje název parametru Altium, který obsahuje číslo podnikové položky",
+  "ECADClassificationPathDefinitionPropertyLabel": "Vlastnost automatického přiřazení třídy",
+  "ECADClassificationPathDefinitionPropertyInfo": "Definuje název parametru Altium pro uložení cesty ke klasifikaci pro import",
+  "ProductStructureGroupLabel": "Struktura produktu",
+  "ClassificationGroupLabel": "Klasifikace",
+  "SaveGroupLabel": "Uložit",
+  "EnterpriseItemNumberLabel": "Číslo podnikové položky"
+}

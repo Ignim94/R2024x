@@ -1,0 +1,18 @@
+{
+  "recentPublishedContent": "最近發佈的內容",
+  "noPublishedContent": "找不到發佈的內容",
+  "draft": "草稿",
+  "noWhiteboard": "找不到白板",
+  "noSketch": "找不到草圖",
+  "deleteConfirmationModalTitle": "刪除專案",
+  "deleteConfirmationModalBody": "是否確定要刪除此專案？",
+  "deleteConfirmationModalConfirmButton": "是",
+  "deleteConfirmationModalRejectButton": "否",
+  "dropmenuEditOption": "編輯",
+  "dropmenuDeleteOption": "刪除",
+  "dropmenuShareableLinkOption": "複製連結",
+  "shareableLinkCopyMessage": "連結已複製到剪貼簿",
+  "MyWhiteboardsButtonNotClickedError": "請先按一下我的白板標籤，然後再搜尋。",
+  "personalSpace": "個人空間",
+  "searchWhiteboardsNoResults": "找不到結果。請變更搜尋文字，然後再試一次。"
+}

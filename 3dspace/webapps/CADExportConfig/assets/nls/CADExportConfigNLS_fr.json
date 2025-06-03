@@ -1,0 +1,53 @@
+{
+  "cadexportconfig.text.title": "Titre",
+  "cadexportconfig.toggle.drawing": "Inclure le dessin",
+  "cadexportconfig.error.root3dexp.v5selected": {
+    "title": "Vous ne pouvez pas exporter un objet 3DEXPERIENCE",
+    "subtitle": "Sélectionnez une destination d'exportation valide."
+  },
+  "cadexportconfig.error.3dexpselected": {
+    "title": "Vous ne pouvez pas exporter un objet 3DEXPERIENCE",
+    "subtitle": "Sélectionnez un contenu valide."
+  },
+  "cadexportconfig.error.rolesmatch": {
+    "title": "Vous devez être autorisé à exporter des contenus.",
+    "subtitle": "Vérifiez vos informations d'identification ou contactez l'administrateur pour obtenir de l'aide."
+  },
+  "cadexportconfig.error.multicadsupport": {
+    "title": "Sélectionnez des objets avec la même valeur de format CAO."
+  },
+  "cadexportconfig.error.cadsupport": {
+    "title": "Vous ne pouvez pas exporter de données avec ce format de CAO."
+  },
+  "cadexportconfig.error.rootecservice": {
+    "title": "Impossible d'exporter les données.",
+    "subtitle": "Le service d'exportation est inaccessible. Vérifiez que votre système est configuré pour exporter ce type de données."
+  },
+  "cadexportconfig.error.selCV5.rootdifferentnode": {
+    "title": "Vous ne pouvez pas exporter un nœud CATIA V5 si la racine est un nœud 3DEXPERIENCE."
+  },
+  "cadexportconfig.error.ecasroot": {
+    "title": "Impossible d'exporter les données.",
+    "subtitle": "L'objet sélectionné a un composant intégré comme nœud racine."
+  },
+  "XEError.ExportECNotSupported": {
+    "title": "Vous ne pouvez pas exporter les composants incorporés."
+  },
+  "XEError.UnsupportedInputDatatype": {
+    "title": "Vous ne pouvez pas exporter ce type d'objet."
+  },
+  "XEError.ExportVPNotSupported": {
+    "title": "Vous ne pouvez pas exporter d'instances virtuelles."
+  },
+  "cadexportconfig.field.expandlevel": "Sélectionner le niveau de développement",
+  "cadexportconfig.field.expandall": "Développer tout",
+  "cadexportconfig.field.expandnlevel": "Développer N niveaux",
+  "cadexportconfig.field.expandnlevel.value": "Valeur du niveau de développement",
+  "derived.format.toggle": "Inclure le format dérivé",
+  "download.derived.outputs": "Options du format dérivé",
+  "combo.field.3dformat": "Format 3D",
+  "label.select3DFormat": "Sélectionner un format 3D",
+  "combo.field.2dformat": "Format 2D",
+  "label.select2DFormat": "Sélectionner un format 2D",
+  "cadexportconfig.field.select.expandlevel": "Options du niveau de développement"
+}

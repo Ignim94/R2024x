@@ -1,0 +1,699 @@
+{
+	"dsmvpfl:Instance.Type.ui": {
+		"property": "to.type",
+		"key": "nlsType",
+		"label": "XPortfolio.Label.Attribute.Type",
+		"format": "nls_type",
+		"example": "My Type",
+		"description": "Basic type value"
+	},
+	"dsmvpfl:Instance.State.ui": {
+		"property": "computed",
+		"key": "nlsState",
+		"label": "XPortfolio.Label.Attribute.State",
+		"fetchOnce": true,
+		"example": "InWork"
+	},
+	"dsmvpfl:basic.type": {
+		"property": "type",
+		"key": "type",
+		"label": "XPortfolio.Label.Attribute.Type",
+		"example": "My Type",
+		"description": "Basic type value"
+	},
+	"dsmvpfl:basic.identifier": {
+		"property": "physicalid",
+		"key": "identifier",
+		"label": "XPortfolio.Label.Attribute.Identifier",
+		"example": "C48E8256C546000060B37F3E001D5560",
+		"description": "Basic physicalid value",
+		"index": "physicalid"
+	},
+	"dsmvpfl:basic.type.ui": {
+		"property": "type",
+		"key": "nlsType",
+		"label": "XPortfolio.Label.Attribute.Type",
+		"format": "nls_type",
+		"example": "My Type",
+		"description": "Basic type value"
+	},
+	"dsmvpfl:basic.state": {
+		"property": "current",
+		"key": "state",
+		"label": "XPortfolio.Label.Attribute.State",
+		"example": "In Work",
+		"description": "Object current state value"
+	},
+	"dsmvpfl:basic.state.ui": {
+		"property": "current",
+		"key": "nlsState",
+		"label": "XPortfolio.Label.Attribute.State",
+		"format": "nls_state",
+		"example": "In Work",
+		"description": "Object current state value"
+	},
+	"dsmvpfl:attribute.title": {
+		"property": "attribute[Title]",
+		"key": "title",
+		"label": "XPortfolio.Label.Attribute.Title",
+		"example": "My title",
+		"description": "Object Title value"
+	},
+	"dsmvpfl:attribute.MarketingName": {
+		"property": "attribute[Marketing Name]",
+		"key": "title",
+		"label": "XPortfolio.Label.Attribute.Title",
+		"example": "My title",
+		"description": "Object Title value",
+		"index": "ds6w:label"
+	},
+	"dsmvpfl:attribute.DisplayName": {
+		"property": "attribute[Display Name]",
+		"key": "title",
+		"label": "XPortfolio.Label.Attribute.Title",
+		"index":"DISPLAY_NAME",
+		"example": "My title",
+		"description": "Object Title value"
+	},
+	"dsmvpfl:ModelVersion.Rules.base": {
+		"property": "computed",
+		"key": "rules",
+		"mask": "dsmvpfl:RuleBaseMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:ModelVersion.Rules.ui": {
+		"property": "computed",
+		"key": "rules",
+		"mask": "dsmvpfl:RuleUIMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Variant.VariantValues.base": {
+		"property": "computed",
+		"key": "values",
+		"mask": "dsmvpfl:ValueBaseMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Variant.VariantValues.ui": {
+		"property": "computed",
+		"key": "values",
+		"mask": "dsmvpfl:ValueUIMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Variant.VariantValues.details": {
+		"property": "computed",
+		"key": "values",
+		"mask": "dsmvpfl:ValueDetailMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Variant.VariantValues.custom": {
+		"property": "computed",
+		"key": "values",
+		"mask": "dsmvpfl:ValueCustomAttrMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:VariabilityGroup.Options.base": {
+		"property": "computed",
+		"key": "options",
+		"mask": "dsmvpfl:OptionBaseMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:VariabilityGroup.Options.ui": {
+		"property": "computed",
+		"key": "options",
+		"mask": "dsmvpfl:OptionUIMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:VariabilityGroup.Options.details": {
+		"property": "computed",
+		"key": "options",
+		"mask": "dsmvpfl:OptionDetailMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:VariabilityGroup.Options.custom": {
+		"property": "computed",
+		"key": "options",
+		"mask": "dsmvpfl:OptionCustomAttrMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Image.url": {
+		"property": "computed",
+		"key": "image",
+		"label": "XPortfolio.Label.Attribute.Image",
+		"fileFormat": "generic,mxImage,mxLarge Image,mxMedium Image,mxSmall Image,mxThumbnail Image,Image"
+	},
+	"dsmvpfl:ModelVersion.Rules.type": {
+		"property": "computed",
+		"key": "ruleType",
+		"label": "XPortfolio.Label.Attribute.RuleType",
+		"example": "Matrix Rule"
+	},
+	"dsmvpfl:Rule.metatype": {
+		"property": "computed",
+		"key": "type",
+		"fetchOnce": true,
+		"example": "dspfl:MatrixRule"
+	},
+	"dsmvpfl:Rule.Definition": {
+		"property": "computed",
+		"key": "ruleDefinition",
+		"label": "XPortfolio.Label.Attribute.RuleDefinition",
+		"fetchOnce": true,
+		"example": "dspfl:MatrixRule"
+	},
+	"dsmvpfl:Rule.Criteria": {
+		"property": "computed",
+		"key": "ruleCriteria",
+		"label": "XPortfolio.Label.Attribute.RuleCriteria",
+		"fetchOnce": true,
+		"example": "dspfl:MatrixRule"
+	},
+	"dsmvpfl:Rule.RuleType": {
+		"property": "computed",
+		"key": "ruleType",
+		"label": "XPortfolio.Label.Attribute.RuleType",
+		"fetchOnce": true,
+		"example": "Matrix"
+	},
+	"dsmvpfl:MetaType": {
+		"property": "computed",
+		"key": "type",
+		"label": "XPortfolio.Label.Attribute.Type",
+		"fetchOnce": true,
+		"example": "dspfl:MatrixRule"
+	},
+	"dsmvpfl:ModelVersion.Root": {
+		"property": "computed",
+		"key": "isRoot",
+		"index": "ISROOT",
+		"label": "XPortfolio.Label.Attribute.IsRoot"
+	},
+	"dsmvpfl:ModelVersion.Leaf": {
+		"property": "computed",
+		"key": "isLeaf",
+		"index": "LASTREVISION",
+		"label": "XPortfolio.Label.Attribute.IsLeaf"
+	},
+	"dsmvpfl:ProductConfiguration.Criteria": {
+		"property": "computed",
+		"key": "selectedCriteria",
+		"fetchOnce": false
+	},
+	"dsmvpfl:BaseConfiguration.Criteria":{
+		"property": "computed",
+		"key": "selectedCriteria",
+		"fetchOnce": false
+	},
+	"dsmvpfl:BaseConfiguration.CriteriaUI":{
+		"property": "computed",
+		"key": "selectedCriteria",
+		"fetchOnce": false
+	},
+	"dsmvpfl:ProductConfiguration.CriteriaUI":{
+		"property": "computed",
+		"key": "selectedCriteria",
+		"fetchOnce": false
+	},
+	"dsmvpfl:VariantValue.Default": {
+		"property": "computed",
+		"key": "default",
+		"label": "XPortfolio.Label.Attribute.Default"
+	},
+	"dsmvpfl:Option.Default": {
+		"property": "computed",
+		"key": "default",
+		"label": "XPortfolio.Label.Attribute.Default"
+	},
+	"dsmvpfl:Parameter.Kind": {
+		"property": "computed",
+		"key": "kind",
+		"label": "XPortfolio.Label.Attribute.Kind",
+		"example": "LENGTH"
+	},
+	"dsmvpfl:Parameter.Dimension": {
+		"property": "computed",
+		"key": "dimension",
+		"label": "XPortfolio.Label.Attribute.Dimension",
+		"example": "LENGTH"
+	},
+	"dsmvpfl:Parameter.MinValueAsString": {
+		"property": "computed",
+		"key": "minValue",
+		"label": "XPortfolio.Label.Attribute.MinValue",
+		"example": "com.dassault_systemes.enovia.xapps.dspfl.implementations.dspflOpenAPIImpl.getMinMaxValueJson"
+	},
+	"dsmvpfl:Parameter.MinValue": {
+		"property": "computed",
+		"key": "minValue",
+		"label": "XPortfolio.Label.Attribute.MinValue",
+		"example": "com.dassault_systemes.enovia.xapps.dspfl.implementations.dspflOpenAPIImpl.getMinMaxValueJson"
+	},
+	"dsmvpfl:Parameter.MaxValueAsString": {
+		"property": "computed",
+		"key": "maxValue",
+		"label": "XPortfolio.Label.Attribute.MaxValue",
+		"example": "com.dassault_systemes.enovia.xapps.dspfl.implementations.dspflOpenAPIImpl.getMinMaxValueJson"
+	},
+	"dsmvpfl:Parameter.MaxValue": {
+		"property": "computed",
+		"key": "maxValue",
+		"label": "XPortfolio.Label.Attribute.MaxValue",
+		"example": "com.dassault_systemes.enovia.xapps.dspfl.implementations.dspflOpenAPIImpl.getMinMaxValueJson"
+	},
+	"dsmvpfl:Variant.Mandatory": {
+		"property": "computed",
+		"key": "mandatory",
+		"label": "XPortfolio.Label.Attribute.Mandatory"
+	},
+	"dsmvpfl:Instance.Constraint": {
+		"property": "computed",
+		"key": "constraint",
+		"label": "XPortfolio.Label.Attribute.Constraint",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.Variants.base": {
+		"property": "computed",
+		"key": "variant",
+		"label": "XPortfolio.Label.Type.Variant",
+		"mask": "dsmvpfl:VariabilityRootMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.Variants.base.custom": {
+		"property": "computed",
+		"key": "variant",
+		"label": "XPortfolio.Label.Type.Variant",
+		"mask": "dsmvpfl:VariabilityRootCustomerAttributeMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.Values.base": {
+		"property": "computed",
+		"key": "value",
+		"label": "XPortfolio.Label.Type.Value",
+		"mask": "dsmvpfl:VariabilityContentMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.Values.base.custom": {
+		"property": "computed",
+		"key": "value",
+		"label": "XPortfolio.Label.Type.Value",
+		"mask": "dsmvpfl:VariabilityContentCustomerAttributeMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.Variants.ui": {
+		"property": "computed",
+		"key": "variant",
+		"label": "XPortfolio.Label.Type.Variant",
+		"mask": "dsmvpfl:VariantDetailMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.Values.ui": {
+		"property": "computed",
+		"key": "value",
+		"label": "XPortfolio.Label.Type.Value",
+		"mask": "dsmvpfl:ValueDetailMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.Parameters.base": {
+		"property": "computed",
+		"key": "parameter",
+		"label": "XPortfolio.Label.Type.Parameter",
+		"mask": "dsmvpfl:ParameterVariabilityBaseMask",
+		"fetchOnce": true,
+		"maskAppliesTo": "bus"
+	},
+	"dsmvpfl:Instance.Parameters.ui": {
+		"property": "computed",
+		"key": "parameter",
+		"label": "XPortfolio.Label.Type.Parameter",
+		"mask": "dsmvpfl:ParameterDetailMask",
+		"fetchOnce": true,
+		"maskAppliesTo": "bus"
+	},
+	"dsmvpfl:Instance.OptionGroups.base": {
+		"property": "computed",
+		"key": "optionGroup",
+		"label": "XPortfolio.Label.Type.OptionGroup",
+		"mask": "dsmvpfl:VariabilityRootMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.OptionGroups.base.custom": {
+		"property": "computed",
+		"key": "optionGroup",
+		"label": "XPortfolio.Label.Type.OptionGroup",
+		"mask": "dsmvpfl:VariabilityRootCustomerAttributeMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.Options.base": {
+		"property": "computed",
+		"key": "option",
+		"label": "XPortfolio.Label.Type.Option",
+		"mask": "dsmvpfl:VariabilityContentMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.Options.base.custom": {
+		"property": "computed",
+		"key": "option",
+		"label": "XPortfolio.Label.Type.Option",
+		"mask": "dsmvpfl:VariabilityContentCustomerAttributeMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.OptionGroups.ui": {
+		"property": "computed",
+		"key": "optionGroup",
+		"label": "XPortfolio.Label.Type.OptionGroup",
+		"mask": "dsmvpfl:VariabilityGroupDetailMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.Options.ui": {
+		"property": "computed",
+		"key": "option",
+		"label": "XPortfolio.Label.Type.Option",
+		"mask": "dsmvpfl:OptionDetailMask",
+		"maskAppliesTo": "bus",
+		"fetchOnce": true
+	},
+	"dsmvpfl:ObjectReference.Source": {
+		"property": "computed",
+		"key": "source",
+		"label": "XPortfolio.Label.Attribute.Source",
+		"description": "computed property"
+	},
+	"dsmvpfl:ObjectReference.RelativePath.Content": {
+		"property": "computed",
+		"key": "relativePath",
+		"label": "XPortfolio.Label.Attribute.RelativePath",
+		"fetchOnce": true,
+		"description": "computed property"
+	},
+	"dsmvpfl:ObjectReference.RelativePath.Instance": {
+		"property": "computed",
+		"key": "relativePath",
+		"label": "XPortfolio.Label.Attribute.RelativePath",
+		"fetchOnce": true,
+		"description": "computed property"
+	},
+	"dsmvpfl:ObjectReference.RelativePath.Root": {
+		"property": "computed",
+		"key": "relativePath",
+		"label": "XPortfolio.Label.Attribute.RelativePath",
+		"fetchOnce": true,
+		"description": "computed property"
+	},
+	"dsmvpfl:ObjectReference.RelativePath.Rule": {
+		"property": "computed",
+		"key": "relativePath",
+		"label": "XPortfolio.Label.Attribute.RelativePath",
+		"fetchOnce": true,
+		"description": "computed property"
+	},
+	"dsmvpfl:ObjectReference.RelativePath.ContentRule": {
+		"property": "computed",
+		"key": "relativePath",
+		"label": "XPortfolio.Label.Attribute.RelativePath",
+		"fetchOnce": true,
+		"description": "computed property"
+	},
+	"dsmvpfl:ValuesOptions.ID": {
+		"property": "computed",
+		"key": "child",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.Image.url": {
+		"property": "computed",
+		"key": "image",
+		"label": "XPortfolio.Label.Attribute.Image",
+		"fileFormat": "generic,mxImage,mxLarge Image,mxMedium Image,mxSmall Image,mxThumbnail Image,Image"
+	},
+	"dsmvpfl:ModelVersion.EnterpriseAttributes": {
+		"property": "computed",
+		"key": "dspfl:ModelVersionEnterpriseAttributes",
+		"description": "To get Enterprise attributes of an object",
+		"metaTypes": [
+			"dspfl:ModelVersionEnterpriseAttributes"
+		]
+	},
+	
+	"dsmvpfl:Variant.EnterpriseAttributes": {
+		"property": "computed",
+		"key": "dspfl:VariantEnterpriseAttributes",
+		"description": "To get Enterprise attributes of an object",
+		"metaTypes": [
+			"dspfl:VariantEnterpriseAttributes"
+		]
+	},
+	
+	"dsmvpfl:Value.EnterpriseAttributes": {
+		"property": "computed",
+		"key": "dspfl:VariantValueEnterpriseAttributes",
+		"description": "To get Enterprise attributes of an object",
+		"metaTypes": [
+			"dspfl:VariantValueEnterpriseAttributes"
+		]
+	},
+	
+	"dsmvpfl:VariabilityGroup.EnterpriseAttributes": {
+		"property": "computed",
+		"key": "dspfl:OptionGroupEnterpriseAttributes",
+		"description": "To get Enterprise attributes of an object",
+		"metaTypes": [
+			"dspfl:OptionGroupEnterpriseAttributes"
+		]
+	},
+	
+	"dsmvpfl:Option.EnterpriseAttributes": {
+		"property": "computed",
+		"key": "dspfl:OptionEnterpriseAttributes",
+		"description": "To get Enterprise attributes of an object",
+		"metaTypes": [
+			"dspfl:OptionEnterpriseAttributes"
+		]
+	},
+	
+	"dsmvpfl:Parameter.EnterpriseAttributes": {
+		"property": "computed",
+		"key": "dspfl:ParameterEnterpriseAttributes",
+		"description": "To get Enterprise attributes of an object",
+		"metaTypes": [
+			"dspfl:ParameterEnterpriseAttributes"
+		]
+	},
+	
+	
+	"dsmvpfl:VariantValues.SequenceNumber": {
+		"property": "computed",
+		"key": "sequenceNumber",
+		"label": "XPortfolio.Label.Attribute.SequenceNumber",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Options.SequenceNumber": {
+		"property": "computed",
+		"key": "sequenceNumber",
+		"label": "XPortfolio.Label.Attribute.SequenceNumber",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Instance.SequenceNumber": {
+		"property": "computed",
+		"key": "sequenceNumber",
+		"label": "XPortfolio.Label.Attribute.SequenceNumber",
+		"fetchOnce": true
+	},
+	"dsmvpfl:ManufacturingPlan.ReviseOrDerive": {
+		"property": "computed",
+		"key": "deriveType",
+		"label": "XPortfolio.Label.Attribute.DeriveType",
+		"fetchOnce": true
+	},
+	"dsmvpfl:ManufacturingPlan.Intent": {
+		"property": "attribute[Manufacturing Intent]",
+		"key": "manufacturingIntent",
+		"label": "XPortfolio.Label.Attribute.ManufacturingIntent",
+		"fetchOnce": true,
+		"index": "MP_INTENT"
+	},
+	"dsmvpfl:CollabSpace.Title": {
+		"property": "computed",
+		"key": "collabSpaceTitle",
+		"description": "To get CollabSpace title of object"
+	},
+	"dsmvpfl:Organization.Title": {
+		"property": "computed",
+		"key": "organizationTitle",
+		"description": "To get CollabSpace title of object"
+	},
+	"dsmvpfl:CollabSpace.Title.Requirement": {
+		"property": "computed",
+		"key": "collabSpaceTitle",
+		"description": "To get CollabSpace title of object"
+	},
+	"dsmvpfl:Organization.Title.Requirement": {
+		"property": "computed",
+		"key": "organizationTitle",
+		"description": "To get CollabSpace title of object"
+	},
+	"dsmvpfl:CustomAttributes.Search": {
+		"property": "computed",
+		"key": "customerAttributes",
+		"description": "To get Custom attributes using search",
+		"fetchOnce": true
+	},
+	"dsmvpfl:OrganizationTitle.Search": {
+		"property": "computed",
+		"key": "organizationTitle",
+		"description": "To get organization using search",
+		"fetchOnce": true
+	},
+	"dsmvpfl:CollabSpaceTitle.Search": {
+		"property": "computed",
+		"key": "collabSpaceTitle",
+		"description": "To get Collabspace using search",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Image.Search": {
+		"property": "computed",
+		"key": "image",
+		"description": "To get Image using search",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Name.Search": {
+		"property": "computed",
+		"key": "name",
+		"description": "To get name using search",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Revision.Search": {
+		"property": "computed",
+		"key": "revision",
+		"description": "To get revision using search",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Type.Search": {
+		"property": "computed",
+		"key": "type",
+		"description": "To get type using search",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Id.Search": {
+		"property": "computed",
+		"key": "id",
+		"description": "To get id using search",
+		"fetchOnce": true
+	},
+	"dsmvpfl:State.Search": {
+		"property": "computed",
+		"key": "state",
+		"description": "To get state using search",
+		"fetchOnce": true
+	},
+	"dsmvpfl:Organization.Search": {
+		"property": "computed",
+		"key": "organization",
+		"description": "To get organization using search",
+		"fetchOnce": true
+	},
+	"dsmvpfl:CollabSpace.Search": {
+		"property": "computed",
+		"key": "collabspace",
+		"description": "To get collabspace using search",
+		"fetchOnce": true
+	},
+	
+	"dsmvpfl:basic.reserved": {
+		"property": "reserved",
+		"key": "reserved",
+		"label": "XPortfolio.Label.Attribute.Reserved",
+		"example": "TRUE",
+		"description": "Object reserved or unreserved boolean value",
+		"fetchOnce": true
+	},
+	
+	"dsmvpfl:basic.reservedbyFullName": {
+		"property": "reservedby",
+		"key": "reservedbyFullName",
+		"label": "XPortfolio.Label.Attribute.ReservedByFullName",
+		"example": "Taran JAIN",
+		"format":"fullname",
+		"description": "reservedby FullName",
+		"fetchOnce": true
+	},
+	
+	 "dsmvpfl:basic.reservedbyId": {
+		"property": "reservedby",
+		"key": "reservedby",
+		"label": "XPortfolio.Label.Attribute.ReservedById",
+		"example": "TRUE",
+		"description": "Object reservedby userId",
+		"fetchOnce": true
+	},
+	
+	"dsmvpfl:ModelVersionMfg.Details": {
+		"property": "computed",
+		"key": "modelVersion",
+		"fetchOnce": true,
+		"index": [
+			{
+				"index": "MP_BASED_ON_MODEL_VERSION_NAME",
+				"key": "name"
+			},
+			{
+				"index": "MP_BASED_ON_MODEL_VERSION_REVISION",
+				"key": "revision"
+			},
+			{
+				"index": "MP_BASED_ON_MODEL_VERSION_TITLE",
+				"key": "title"
+			},
+			{
+				"index": "MP_BASED_ON_MODEL_VERSION_PID",
+				"key": "identifier"
+			}
+		]
+	},
+	
+	 "dsmvpfl:basic.modified.utc": {
+		"property": "modified.generic",
+		"key": "modified",
+		"label": "XPortfolio.Label.Attribute.Modified",
+		"format": "datetimeutc",
+        "example": "2022-01-31T09:48:10Z",
+        "description": "Basic modified value",
+        "index": "ds6w:modified,ds6w:when/ds6w:modified"
+	},
+	"dsmvpfl:basic.created.utc": {
+		"property": "originated.generic",
+		"key": "created",
+		"label": "XPortfolio.Label.Attribute.Created",
+		"format": "datetimeutc",
+		"example": "2022-01-31T09:48:10Z",
+        "description": "Object created value",
+        "index": "ds6w:created,ds6w:when/ds6w:created"
+	},
+	 "dsmvpfl:basic.owner": {
+        "property": "owner",
+        "key": "owner",
+        "label": "XPortfolio.Label.Attribute.Owner",
+        "format": "fullname",
+        "example": "John Doe",
+        "description": "Object owner value",
+        "index": "ds6w:who/ds6w:responsible,owner"
+    }
+}

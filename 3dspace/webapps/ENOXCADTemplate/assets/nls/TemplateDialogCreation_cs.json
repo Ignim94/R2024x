@@ -1,0 +1,23 @@
+{
+  "notSpecified": "Není zadáno",
+  "title": "Název",
+  "titleerrortext": "Zadejte název.",
+  "titleplaceholder": "Sem zadejte název",
+  "description": "Popis",
+  "descplaceholder": "Sem zadejte krátký popis",
+  "targetype": "Typ cíle 3DEXPERIENCE",
+  "targettypeerrortext": "Zadejte typ cíle 3DEXPERIENCE.",
+  "file": "Soubor",
+  "fileerror": "Vyberte soubor.",
+  "fileplaceholder": "Vyberte soubor",
+  "browse": "Procházet",
+  "cancel": "Zrušit",
+  "save": "Uložit",
+  "createshared": "Vytvořit jako uvolněné",
+  "createprivate": "Vytvořit jako koncept",
+  "reset": "Resetovat",
+  "createtemplate": "Vytvořit šablonu",
+  "edittemplate": "Upravit šablonu",
+  "createAs": "Vytvořit jako ",
+  "createAsInWork": "Vytvořit jako rozpracované"
+}

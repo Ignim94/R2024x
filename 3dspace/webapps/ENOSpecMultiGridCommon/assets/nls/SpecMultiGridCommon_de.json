@@ -1,0 +1,11 @@
+{
+  "Loading": "Wird geladen...",
+  "WrapLoader": "Umwickeln...",
+  "UnwrapLoader": "Auswickeln...",
+  "ExportCSV": "Exportieren",
+  "Wrap": "Umwickeln",
+  "Unwrap": "Auswickeln",
+  "Print": "Drucken",
+  "ResetChanges": "Zurücksetzen",
+  "Message_CmdEmptyGridCheck": "Ziehen oder suchen Sie eine Produktspezifikation für ‚{operation}‘ bzw. wählen Sie eine aus."
+}

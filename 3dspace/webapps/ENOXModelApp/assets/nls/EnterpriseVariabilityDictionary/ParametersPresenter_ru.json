@@ -1,0 +1,21 @@
+{
+  "_create": "Создать",
+  "_delete": "Удалить",
+  "_parameterSingle": "Числовой параметр",
+  "_parameterMultiple": "Числовые параметры",
+  "_ERROR_PATCH_PARAMETER": "Ошибка при изменении числового параметра.",
+  "_ERROR_CREATE_PARAMETER": "Ошибка при создании числового параметра.",
+  "_ERROR_DELETE_PARAMETER": "Ошибка при удалении числовых параметров.",
+  "_ERROR_GET_PARAMETER_DETAILS": "Ошибка при получении информации о числовом параметре.",
+  "_ERROR_GET_PARAMETERS": "Ошибка при получении числовых параметров.",
+  "_ERROR_INCORRECT_VALUE_RANGE": "Мин. значение должно быть меньше макс. значения",
+  "_information": "Информация",
+  "_msg_drop_to_create_variant": "Перетащите сюда, чтобы создать новый числовой параметр.",
+  "_name": "Имя",
+  "_open": "Открыть",
+  "_dimension": "Размер",
+  "_rangeLabel": "Диапазон",
+  "_rangeValueDelimiter": " - ",
+  "_createParamterLabel": "Создать числовые параметры",
+  "_creation_successful": "Создание выполнено."
+}

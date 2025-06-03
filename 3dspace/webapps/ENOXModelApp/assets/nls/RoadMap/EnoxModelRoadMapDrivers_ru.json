@@ -1,0 +1,14 @@
+{
+  "BACKLOG_ITEMS": "Кандидаты",
+  "BACKLOGS_TITLE": "Кандидаты",
+  "DROP_HERE_FOR_PLAN": "Перетащите элементы сюда, чтобы добавить их в качестве целевых ",
+  "DROP_HERE_FOR_BACKLOG": "Перетащите элементы сюда, чтобы добавить их в качестве кандидатов",
+  "COMMITTED_FOR_THIS_REVISION": "Целевые для данной редакции ",
+  "BACKLOG": "Кандидаты",
+  "COMMITTED": "Целевые",
+  "ROADMAP_SETTINGS": "Настройки драйверов",
+  "MANAGE_ROADMAP_SETTINGS": "Управление настройками драйверов",
+  "SAME_BACKLOG_ITEM_LOADED": "драйверы уже загружены.",
+  "HIDE_BACKLOG_PANE": "Скрыть панель кандидата",
+  "SHOW_BACKLOG_PANE": "Показать панель кандидата"
+}

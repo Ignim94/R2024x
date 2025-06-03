@@ -1,0 +1,39 @@
+[
+	{
+		"text": "Export view",
+		"dataIndex": "dataexport",
+		"children": [
+			{
+				"text": "Title",
+				"dataIndex": "tree",
+				"typeRepresentation": "string",
+				"alwaysVisibleFlag": true,
+				"selectableFlag": false,
+				"width": "80",
+				"minWidth": "40"
+			},
+			{
+				"text": "",
+				"dataIndex": "relicon",
+				"typeRepresentation": "icon",
+				"selectableFlag": false,
+				"width": "30",
+				"minWidth": "10"
+			},
+			{
+				"text": "Has Circular Links",
+				"dataIndex": "cycliclinkicon",
+				"typeRepresentation": "icon",
+				"selectableFlag": false,
+				"width": "30",
+				"minWidth": "10"
+			},
+			{
+				"text": "Purpose",
+				"dataIndex": "purpose",
+				"typeRepresentation": "string",
+				"selectableFlag": false
+			}
+		]
+	}
+]

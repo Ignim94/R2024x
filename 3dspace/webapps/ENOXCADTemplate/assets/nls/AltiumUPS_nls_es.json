@@ -1,0 +1,16 @@
+{
+  "AltiumPCBProject.label": "Proyecto Altium PCB",
+  "AltiumSchematic.label": "Esquema Altium",
+  "PrintedCircuitBoard.label": "Diseño Altium",
+  "AltiumPCBProjectTemplate.label": "Proyecto Altium PCB",
+  "AltiumSchematicTemplate.label": "Esquema Altium",
+  "AltiumLayoutTemplate.label": "Diseño Altium",
+  "field.title.label": "Título",
+  "field.title.placeholder": "Introduzca el título aquí",
+  "field.description.label": "Descripción",
+  "field.description.placeholder": "Introduzca una descripción breve aquí",
+  "field.name.label": "Nombre",
+  "field.name.AltiumPCBProject.placeholder": "Introduzca aquí el nombre del proyecto Altium PCB",
+  "field.name.AltiumSchematic.placeholder": "Introduzca aquí el nombre de Altium Schematic",
+  "field.name.PrintedCircuitBoard.placeholder": "Introduzca aquí el nombre de Altium Layout"
+}

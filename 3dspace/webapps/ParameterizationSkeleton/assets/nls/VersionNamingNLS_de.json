@@ -1,0 +1,22 @@
+{
+  "SelectAFile": "Datei auswählen...",
+  "BrowseButtonText": "Durchsuchen",
+  "UploadButtonText": "Hochladen",
+  "ResetButtonText": "Alle erweiterten Folgen zurücksetzen",
+  "DownloadButtonText": "Herunterladen",
+  "DownloadFailedAlert": "Download fehlgeschlagen",
+  "NoFileToUpload": "Nichts hochzuladen, wählen Sie zuerst eine Datei aus",
+  "UploadSuccessAlert": "Datei erfolgreich hochgeladen",
+  "UploadFailedAlert": "Upload der Datei fehlgeschlagen",
+  "ResetSuccessAlert": "Zurücksetzen erfolgreich",
+  "ResetFailedAlert": "Zurücksetzen fehlgeschlagen",
+  "VersionNamingExtHeader": "Definitionen erweiterter Revisionsfolgen hoch-/herunterladen",
+  "VersionNamingLogHeader": "Logikdefinitionen für Revisionsfolgen hoch-/herunterladen",
+  "VersionNamingExtTooltip": "1. Laden Sie die JSON-Datei mit den bereits deklarierten erweiterten Revisionsfolgen herunter.<br/>2. Fügen Sie in der JSON-Datei die erweiterten Revisionsfolgen Ihrer Wahl hinzu, ändern oder entfernen Sie sie.<br/>3. Laden Sie die aktualisierte Datei hoch.",
+  "VersionNamingExtTypeHeader": "Typen eine erweiterte Revisionsfolge zuweisen",
+  "VersionNamingExtTypeTooltip": "1. Erweitern Sie den Typstrukturbaum in der Spalte Typ.<br/>2. Wählen Sie den Typ aus, den Sie festlegen oder für den Sie die Sequenz zurücksetzen möchten.<br/>3. Wählen Sie in der Spalte Erweiterte Revisionsfolge die Folge aus, die festgelegt werden soll.",
+  "ERSAssociationSuccessAlert": "ERS erfolgreich festgelegt",
+  "VersionNamingLogTypeHeader": "Weisen Sie Typen eine Logik für die Revisionsfolge zu",
+  "VersionNamingLogTypeTooltip": "1. Erweitern Sie den Typstrukturbaum in der Spalte Typ.<br/>2. Wählen Sie den Typ aus, den Sie festlegen oder für den Sie die Sequenz zurücksetzen möchten.<br/>3. Wählen Sie in der Spalte Logik der Revisionsfolge die Folge aus, die festgelegt werden soll.",
+  "RSLAssociationSuccessAlert": "RSL erfolgreich festgelegt"
+}

@@ -1,0 +1,7 @@
+{
+  "review.mentionned.setting": "有人在审核评论中提到了我",
+  "review.mentionned.new": "<strong>###FROM_USER###</strong> 在有关 <strong>###OBJECT_TITLE###</strong> 的审核评论中提到了您",
+  "review.mentionned.new.mail.subject": "<strong>###FROM_USER###</strong> 在有关 <strong>###OBJECT_TITLE###</strong> 的审核评论中提到了您",
+  "review.mentionned.new.mail.content": "<strong>###FROM_USER###</strong> 在有关 <a ###REVIEW_URL###>###OBJECT_TITLE###</a> 的审核评论中提到了您",
+  "review.mentionned.new.mail.title": "有人在审核中提到了您"
+}

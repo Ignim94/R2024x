@@ -1,0 +1,9 @@
+{
+  "betaOptions": [
+    {
+      "id": "FUN143768",
+      "title": "브라우저 탭으로 웹 앱 열기",
+      "description": "3DCompass 웹 앱은 대시보드 미리보기 창 대신 전용 탭에서 열립니다."
+    }
+  ]
+}

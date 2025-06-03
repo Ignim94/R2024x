@@ -1,0 +1,23 @@
+{
+  "enterprise_dictionary_breadcrumb": "エンタープライズ バリアビリティ",
+  "model_definition_breadcrumb": "モデル バージョン",
+  "open_mv_search_title": "開くモデルバージョンを選択",
+  "newModelVersion": "新規モデルバージョン",
+  "addExistingPrefLabel": "addExistingPref",
+  "MSG_UNABLE_TO_GET_SUBTYPES": "モデル バージョンのサブタイプを取得できません。",
+  "NO_MODELVERSION_ATTACHED_ERROR": "モデルバージョンが添付されていません: ",
+  "CUSTOMER_ATTRIBUTE_LOADING_WARNING": "顧客属性のロードに失敗しました。",
+  "TYPE_MODELVERSION": "モデル バージョン",
+  "TYPE_PRODUCTCONFIGURATION": "製品構成",
+  "TYPE_MANUFACTURINGPLAN": "製造計画",
+  "TYPE_CONFIGURATIONRULE": "構成ルール",
+  "TYPE_VARIANT": "バリアント",
+  "TYPE_VARIANTVALUE": "バリアント値",
+  "TYPE_OPTIONGROUP": "オプション",
+  "TYPE_OPTIONGROUPVALUE": "オプション値",
+  "PREPARING_FOR_ROADMAP_VIEW": "ロードマップ ビューの準備",
+  "ROADMAP_VIEW": "ロードマップ ビュー",
+  "MODELDEF": "ENOVIA - モデル定義",
+  "ROADMAP_VIEW_IS_REFRESHING": "お待ちください。ロードマップ ビューを更新しています...",
+  "GETTING_THINGS_READY": "準備しています..."
+}

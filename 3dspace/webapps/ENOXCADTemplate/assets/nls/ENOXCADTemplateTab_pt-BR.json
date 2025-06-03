@@ -1,0 +1,12 @@
+{
+  "CATIAV5UPS.assembly.label": "Produto",
+  "CATIAV5UPS.component.label": "Peça",
+  "CATIAV5UPS.drawing.label": "Desenho",
+  "CATIAV5UPS.analysis.label": "Análise",
+  "CATIAV5UPS.analysis.icon": "I_CATAnalysis.png",
+  "CATIAV5CUSTOMUPS.assembly.label": "Produto",
+  "CATIAV5CUSTOMUPS.component.label": "Peça",
+  "CATIAV5CUSTOMUPS.drawing.label": "Desenho",
+  "CATIAV5CUSTOMUPS.analysis.label": "Análise",
+  "CATIAV5CUSTOMUPS.analysis.icon": "I_CATAnalysis.png"
+}

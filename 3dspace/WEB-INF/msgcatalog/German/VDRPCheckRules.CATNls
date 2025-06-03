@@ -1,0 +1,6 @@
+<meta charset="UTF-8"/>
+ValidationCheck1.Title="Unter AxisSystemReference kann nur AxisSystemReference aggregiert werden.";
+ValidationCheck2.Title="ShellAxisSystemReference kann nicht unter ShellAxisSystemReference aggregiert werden.";
+ValidationCheck3.Title="Unter ShellAxisSystemReference kann nur eine AxisSystemReference aggregiert werden.";
+ValidationCheck4.Title="Unter ShellAxisSystemReference kann nur AxisSystemReference aggregiert werden.";
+ValidationCheck5.Title="VPMReferenceExtPos konnte 3DShape nicht instanziieren.";

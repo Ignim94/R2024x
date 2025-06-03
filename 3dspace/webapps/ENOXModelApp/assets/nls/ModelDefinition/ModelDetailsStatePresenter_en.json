@@ -1,0 +1,21 @@
+{
+  "_baselines": "Baselines",
+  "_computing": "computing...",
+  "_product_specifications": "Product Specifications",
+  "_no_data_in_preview": "No data in preview.",
+  "_configurationPreviewMessage": "Please select Product Configurations or Base Configurations to preview...",
+  "_PCPreviewMessage": "Please select Product Configuration/s for preview...",
+  "_MultiSelectionOfTypes": "Multi-selection of types should be uniform.",
+  "_product_configurations": "Product Configurations",
+  "_rules": "Rules",
+  "_variability": "Variability",
+  "_variability_complexity": "Variability Complexity",
+  "GET_MODEL_DETAILS_ERROR" : "Error while fetching Model Information.",
+  "GET_MODEL_VARIABILITY_ERROR" : "Error while fetching Model's Variability Information.",
+  "DELETE_MODELS_ERROR" : "Error while deleting Model Version/s.",
+  "_backlog" : "Requirements",
+  "MSG_LOADING_UPDATED_VARIABILITY" : "Getting updated target variability...",
+  "_manufacturingPlans": "Manufacturing Plans",
+  "_specifications" :"Specifications",
+  "_configurations" : "Configurations"
+}

@@ -1,0 +1,18 @@
+{
+  "recentPublishedContent": "Contenuti pubblicati di recente",
+  "noPublishedContent": "Nessun contenuto pubblicato trovato",
+  "draft": "BOZZA",
+  "noWhiteboard": "Nessuna lavagna trovata",
+  "noSketch": "Nessuno schizzo trovato",
+  "deleteConfirmationModalTitle": "Elimina progetto",
+  "deleteConfirmationModalBody": "Eliminare il progetto?",
+  "deleteConfirmationModalConfirmButton": "Sì",
+  "deleteConfirmationModalRejectButton": "No",
+  "dropmenuEditOption": "Modifica",
+  "dropmenuDeleteOption": "Elimina",
+  "dropmenuShareableLinkOption": "Copia collegamento",
+  "shareableLinkCopyMessage": "Collegamento copiato negli Appunti",
+  "MyWhiteboardsButtonNotClickedError": "Fare clic sulla scheda Le mie lavagne prima di effettuare la ricerca.",
+  "personalSpace": "Spazio personale",
+  "searchWhiteboardsNoResults": "Nessun risultato trovato. Modificare il testo di ricerca e riprovare."
+}

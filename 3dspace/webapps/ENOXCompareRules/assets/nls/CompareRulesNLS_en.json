@@ -1,0 +1,11 @@
+{
+"EMPTY_CONTENT" :"N0 MATCHING CONTENT TO COMPARE",
+"Constrained_Criteria" : "Constrained Criteria",
+"Driving_Criteria" : "Driving Criteria",
+"NOStructureAvailable" : "STRUCTURE COMPARISON IS NOT AVAILABLE",
+"EMPTY_RULE_IDS": "Empy Rule Ids",
+"Failed_to_fetch_mv_Id": "Failed to fetch MV Id",
+"Failed_to_fetch_Rules_definition" : "Failed to Fetch Rules Definition",
+"No_Rules_Definition":"No Rules Definition"
+
+}

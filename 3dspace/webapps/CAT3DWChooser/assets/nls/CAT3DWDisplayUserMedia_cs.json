@@ -1,0 +1,18 @@
+{
+  "recentPublishedContent": "Naposledy publikovaný obsah",
+  "noPublishedContent": "Nebyl nalezen žádný publikovaný obsah",
+  "draft": "KONCEPT",
+  "noWhiteboard": "Nebyly nalezeny žádné nástroje Whiteboard",
+  "noSketch": "Nebyla nalezena žádná skica",
+  "deleteConfirmationModalTitle": "Odstranit projekt",
+  "deleteConfirmationModalBody": "Opravdu chcete tento projekt odstranit?",
+  "deleteConfirmationModalConfirmButton": "Ano",
+  "deleteConfirmationModalRejectButton": "Ne",
+  "dropmenuEditOption": "Upravit",
+  "dropmenuDeleteOption": "Odstranit",
+  "dropmenuShareableLinkOption": "Kopírovat odkaz",
+  "shareableLinkCopyMessage": "Odkaz byl zkopírován do schránky",
+  "MyWhiteboardsButtonNotClickedError": "Před vyhledáváním klikněte na kartu Moje nástroje Whiteboard.",
+  "personalSpace": "Osobní prostor",
+  "searchWhiteboardsNoResults": "Nebyly nalezeny žádné výsledky. Změňte hledaný text a zkuste to znovu."
+}

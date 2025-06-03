@@ -1,0 +1,23 @@
+{
+  "aboutItem": "Acerca de 3DEXPERIENCE Platform",
+  "about": "Acerca de",
+  "support": "Soporte",
+  "getStartedItem": "Primeros pasos",
+  "cookies": "Cookies",
+  "discoverItem": "Descubrir {0}",
+  "getSupportItem": "Obtener asistencia",
+  "supportCommunitiesItem": "Comunidades del usuario",
+  "loading": "Cargando…",
+  "xAppError": "Error al cargar la aplicación...",
+  "xAppErrorTitle": "No se puede cargar la aplicación.",
+  "xAppErrorContent": "Compruebe su conexión a Internet o póngase en contacto con su administrador.",
+  "actionMaximize": "Maximizar",
+  "actionMinimize": "Minimizar",
+  "actionClose": "Cerrar",
+  "mobilePairing": "Emparejamiento móvil",
+  "updatePlanned": "Actualización planificada",
+  "cloudComunityButton": "Manténgase al día con la comunidad de la nube",
+  "readMore": "Leer más",
+  "dismissUpgradePrompt": "Descartar",
+  "upgradePromptMessage": "Se actualizará <b>3D</b>EXPERIENCE Platform a <b>{EventProductVersion}</b> el <b>{eventDate}</b>. Durante esta operación, no podrá acceder a su plataforma hasta que reciba la notificación de finalización de la actualización."
+}

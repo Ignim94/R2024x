@@ -1,0 +1,23 @@
+{
+  "RISK": "Risque",
+  "RISKS": "Risques",
+  "IMPACT": "Impact",
+  "CLASS_TYPE": "Type de risque",
+  "ABATEMENT": "Plan de diminution",
+  "RPN": "Evaluation",
+  "RISK_TREND": "Tendance du risque",
+  "SHOW_COMPLETED": "Afficher les risques terminés",
+  "ALL_CONTEXT_ITEMS": "Tous les risques liés au contexte",
+  "ALL_PROJECT_RISKS": "Tous les risques de projet",
+  "OWNED": "Mes risques",
+  "ALL_MY_ASSIGNED_ITEMS": "Tout (Mes risques + affectés)",
+  "PROJECT_RISKS": "Risques de projet",
+  "SUB_PROJECT_RISKS": "Risques du projet + sous-projet",
+  "ASSOCIATED_RISKS": "Risques associés",
+  "RISK_PROFILE": "Profil de risque",
+  "FROM_PROFILE": "Depuis le profil",
+  "RISK_TEMPLATE": "Modèle de risque",
+  "DUPLICATE_NO_CONTEXT_ACCESS": "Vous ne disposez peut-être pas d'un accès contextuel pour effectuer des duplications des objets suivants ",
+  "RISK_PROFILE_DOES_NOT_EXIST": "Le profil de risque n'existe pas",
+  "RISK_PROFILE_EXECUTION_CONTEXT_NOT_SUPPORTED": "L'exécution du profil de risque pour le contexte sélectionné n'est pas prise en charge"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "displayValue" : "Greater Than",
+    "value" : ">",
+    "dataTypes":["integer", "double"]
+  },
+  {
+    "displayValue" : "Greater Than or Equal to",
+    "value" : ">=",
+    "dataTypes":["integer", "double"]
+  },
+  {
+    "displayValue" : "Less Than",
+    "value" : "<",
+    "dataTypes":["integer", "double"]
+  },
+  {
+    "displayValue" : "Less Than or Equal to",
+    "value" : "<=",
+    "dataTypes":["integer", "double"]
+  },
+  {
+    "displayValue" : "Equal to",
+    "value" : ":",
+    "dataTypes":["string", "boolean", "integer", "double"]
+  },
+  {
+    "displayValue" : "Contains",
+    "value" : ":",
+    "dataTypes":["string"]
+  },
+  {
+    "displayValue" : "After",
+    "value" : ">",
+    "dataTypes":["date"]
+  },
+  {
+    "displayValue" : "Before",
+    "value" : "<",
+    "dataTypes":["date"]
+  },
+  {
+    "displayValue" : "on",
+    "value" : ":",
+    "dataTypes":["date"]
+  },
+  {
+    "displayValue" : "is",
+    "value" : ":",
+    "dataTypes":["string", "boolean"]
+  }
+]

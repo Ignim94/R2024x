@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySOLIDWORKS_nosimu_nosaveasnew.XSCViews.Title="Vista";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.XSCTools.Title="Strumenti";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.Lifecycle.Title="Ciclo di vita";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.Collaboration.Title="Collaborazione";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.SaveSession.Title="Salva finestra attiva";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ShareAsPicture.Title="Pubblica come immagine";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ShareAs3D.Title="Pubblica come 3D";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.RefreshHome.Title="Aggiorna";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ReloadAll.Title="Ricarica tutti";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ReserveHdr.Title="Blocca";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.UnreserveHdr.Title="Sblocca";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.PropertiesHdr.Title="Proprietà";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.GetRevisionHdr.Title="Ottieni revisione";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ReplaceByRevisionHdr.Title="Sostituisci con revisione";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ReplaceByLatestRevisionHdr.Title="Sostituisci con revisione più recente";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.UpdateRevisionsHdr.Title="Aggiorna revisioni";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.RevisionsHdr.Title="Revisioni";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ReloadFromServerHdr.Title="Ricarica da server";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.ReplaceContentHdr.Title="Sostituisci contenuto";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.RelationIPExplorer.Title="Relazioni";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.OptionsHdr.Title="Opzioni...";
+
+PowerBySOLIDWORKS_nosimu_nosaveasnew.View.Title="Vista";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.Tools.Title="Strumenti";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.XCADExport.Title="Esportazione in X-CAD";
+PowerBySOLIDWORKS_nosimu_nosaveasnew.XCADImport.Title="Importazione in X-CAD";

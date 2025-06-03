@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Note:  If you add a default attribute or duplicate an attribute entry for an object, this
+			will display duplicate values in the 3DWorkbook Details panels.
+
+	 Note:	Typically each row should contain 1 attribute.  2 attributes per row is supported if
+	 		there is screen space available.  Use the setting isNewRow="false" to indicate the
+	 		2nd attribute in a row.  Do not configure consecutive attributes with isNewRow="false".  This
+	 		may produce an undesirable result.
+-->
+<config>
+    <system>
+        <attribute metaName="revision" label="OrderVersionLbl" />
+        <attribute metaName="state" label="OrderMaturityLbl" />
+        <attribute metaName="description" label="" />
+    </system>
+    <operation>
+        <attribute metaName="state" label="OperMaturityLbl" />
+        <attribute metaName="description" label="" />
+    </operation>
+    <signoff>
+        <attribute metaName="text" label=""  />
+        <attribute metaName="actors" label="SignoffActorLbl"  type = "array" />
+    </signoff>
+    <!-- original data collect-->
+    <datacollect>
+        <attribute metaName="description" label="" />
+        <attribute metaName="text" label="" />
+        <attribute metaName="sampleSize" label="DCSampleSizeLbl" />
+    </datacollect>
+    <!-- current data collect plan and checklist and rows of the plan-->
+    <datacollectplan>
+
+    </datacollectplan>
+    <dcplanrow_real>
+        <attribute metaName="text" label="" />
+        <attribute metaName="numberOfMeasurements" label="NumberOfMeasurements" />
+        <attribute metaName="unit" label="DCUnit" />
+        <attribute metaName="minValue" label="DCMinValue" />
+        <attribute metaName="maxValue" label="DCMaxValue" />
+        <attribute metaName="nominalValue" label="DCValue" />
+        <attribute metaName="dcType" label="DCType" />
+        <attribute metaName="mode" label="DCCollectMode" />
+    </dcplanrow_real>
+    <dcplanrow_integer>
+        <attribute metaName="text" label="" />
+        <attribute metaName="numberOfMeasurements" label="NumberOfMeasurements" />
+        <attribute metaName="minValue" label="DCMinValue" />
+        <attribute metaName="maxValue" label="DCMaxValue" />
+        <attribute metaName="dcType" label="DCType" />
+        <attribute metaName="mode" label="DCCollectMode" />
+    </dcplanrow_integer>
+    <dcplanrow_text>
+        <attribute metaName="text" label="" />
+        <attribute metaName="numberOfMeasurements" label="NumberOfMeasurements" />
+        <attribute metaName="possibleValues" label="DCPossibleValues" />
+        <attribute metaName="dcType" label="DCType" />
+        <attribute metaName="mode" label="DCCollectMode" />
+    </dcplanrow_text>
+    <dcplanrow_boolean>
+        <attribute metaName="text" label="" />
+        <attribute metaName="numberOfMeasurements" label="NumberOfMeasurements" />
+        <attribute metaName="possibleValues" label="DCPossibleValues" />
+        <attribute metaName="dcType" label="DCType" />
+        <attribute metaName="mode" label="DCCollectMode" />
+    </dcplanrow_boolean>
+    <dcplanrow_timestamp>
+        <attribute metaName="text" label="" />
+        <attribute metaName="dcType" label="DCType" />
+        <attribute metaName="mode" label="DCCollectMode" />
+    </dcplanrow_timestamp>
+    <alert>
+
+    </alert>
+    <part>
+        <attribute objPropertyName="instanceName" />
+    </part>
+    <tool>
+
+    </tool>
+    <instruction>
+        <attribute metaName="text" label="" />
+    </instruction>
+
+
+	<!-- 2D and 3D orientation view config
+			Note:
+			modelFile - Default is set to DELMOMov.cgr.  Depending on the server, this setting is probably case sensitive.
+			The file is expected to be in this directory: [server webapps]/webapps/DELMOMWKIExperience/assets/images/DELMOMov.cgr.
+			width2d - minimum width is 100px.
+            delmiaViewerPosition - Default is set to top-right. Available options are 'top-left', 'bottom-left' and 'botton-right'.
+            delmiaViewerRatio - Default is set to '1.0'. This property is a double. Valid value is between 0 and 1.0.
+	 -->
+	<orientationview
+        delmiaViewerPosition="top-right"
+        delmiaViewerRatio="1.0"
+		modelFile="DELMOMov.cgr"
+        height2d="100px"
+		width2d="150px"
+		positionX2d="300px"
+		positionY2d="100px" >
+	</orientationview>
+
+    <!-- requesttimout - if set to blank ("") or this setting is missing, widget preference timeout will be used
+	       @timeout - milliseconds, typical is 50000
+	 -->
+	<requesttimeout timeout="" />
+
+</config>

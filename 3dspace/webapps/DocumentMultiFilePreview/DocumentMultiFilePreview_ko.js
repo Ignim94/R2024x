@@ -1,0 +1,1 @@
+define("DS/DocumentMultiFilePreview/DocumentMultiFilePreview_ko",{});define("DS/DocumentMultiFilePreview/assets/nls/DocumentPreview",{Maximize:"최대화",Close:"닫기",Restore:"복원",Download:"다운로드",Download_File:"파일 다운로드",Download_Document:"문서 다운로드",INFORMATION:"정보"});

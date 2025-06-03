@@ -1,0 +1,6 @@
+<meta charset="UTF-8"/>
+ValidationCheck1.Title="AxisSystemReference の下に集約できるのは AxisSystemReference のみです。";
+ValidationCheck2.Title="ShellAxisSystemReference は ShellAxisSystemReference の下に集約できません。";
+ValidationCheck3.Title="1 つの AxisSystemReference のみ ShellAxisSystemReference の下に集約できます。";
+ValidationCheck4.Title="AxisSystemReference のみ ShellAxisSystemReference の下に集約できます。";
+ValidationCheck5.Title="VPMReferenceExtPos は 3DShape をインスタンス化できませんでした。";

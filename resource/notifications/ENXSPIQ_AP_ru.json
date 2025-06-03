@@ -1,0 +1,5 @@
+{
+  "sourcing.notification.event.memberAccessUpdate.setting": "Участники добавлены или удалены из моей квалификации или назначенной квалификации",
+  "sourcing.notification.person.memberAccessUpdate.msg": "Пользователь <strong>###GRANTOR###</strong> добавил вас с ролью <strong>###REQUESACCESS###</strong> по запросу <strong>###REQUESTNAME###</strong>",
+  "sourcing.notification.person.memberAccessDelete.msg": "Пользователь <strong>###GRANTOR###</strong> отменил ваш доступ с ролью <strong>###REQUESACCESS###</strong> по запросу <strong>###REQUESTNAME###</strong>"
+}

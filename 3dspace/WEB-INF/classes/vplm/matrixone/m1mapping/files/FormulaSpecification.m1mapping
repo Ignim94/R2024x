@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="9">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="FormulaSpecification" />
+    <m1.package name="FormulaSpecification" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="FormulaIngredientPercent" />
+      <m1.interface name="FormulaIngredientPercent" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Loss" />
+        <m1.attribute name="FormulaIngredientPercent.Loss" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Max" />
+        <m1.attribute name="FormulaIngredientPercent.Max" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Min" />
+        <m1.attribute name="FormulaIngredientPercent.Min" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Target" />
+        <m1.attribute name="FormulaIngredientPercent.Target" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="FormulaIngredientQuantityRange_Area" />
+      <m1.interface name="FormulaIngredientQuantityRange_Area" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Max" />
+        <m1.attribute name="FormulaIngredientQuantityRange_Area.Max" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Min" />
+        <m1.attribute name="FormulaIngredientQuantityRange_Area.Min" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="FormulaIngredientQuantityRange_Length" />
+      <m1.interface name="FormulaIngredientQuantityRange_Length" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Max" />
+        <m1.attribute name="FormulaIngredientQuantityRange_Length.Max" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Min" />
+        <m1.attribute name="FormulaIngredientQuantityRange_Length.Min" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="FormulaIngredientQuantityRange_Mass" />
+      <m1.interface name="FormulaIngredientQuantityRange_Mass" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Max" />
+        <m1.attribute name="FormulaIngredientQuantityRange_Mass.Max" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Min" />
+        <m1.attribute name="FormulaIngredientQuantityRange_Mass.Min" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="FormulaIngredientQuantityRange_Volume" />
+      <m1.interface name="FormulaIngredientQuantityRange_Volume" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Max" />
+        <m1.attribute name="FormulaIngredientQuantityRange_Volume.Max" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Min" />
+        <m1.attribute name="FormulaIngredientQuantityRange_Volume.Min" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IngredientFunction" />
+      <m1.interface name="IngredientFunction" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_IngredientRole" />
+        <m1.attribute name="IngredientFunction.V_IngredientRole" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="Formulated_Product" />
+      <m1.type name="Formulated_Product" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_DimensionType" />
+        <m1.attribute name="Formulated_Product.V_DimensionType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

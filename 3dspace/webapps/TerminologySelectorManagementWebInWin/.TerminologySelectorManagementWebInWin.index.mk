@@ -1,0 +1,10 @@
+m|ENOTerminologyUX\TerminologySelectorManagementWebInWin.mweb
+b|j|n,m
+b|c|c,m
+v|6.426.6.24180|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\TerminologySelectorManagementWebInWin\TerminologyManagement\TerminologyManagementWebInWin.html|1719620963|2237
+s|ENOTerminologyUX\TerminologySelectorManagementWebInWin.mweb\src\TerminologyManagement\TerminologyManagementWebInWin.html|1718789453|2237
+t|win_b64\webapps\TerminologySelectorManagementWebInWin\TerminologyManagement\TerminologyManagementWebInWin.js|1700692317|2684
+s|ENOTerminologyUX\TerminologySelectorManagementWebInWin.mweb\src\TerminologyManagement\TerminologyManagementWebInWin.js|1687258514|5835
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

@@ -1,0 +1,21 @@
+{
+  "TotalVariability": "Variabilità totale",
+  "TotalProductConfigurations": "Configurazioni del prodotto totali",
+  "ConfigurationsLoading": "Caricamento configurazioni in corso",
+  "ConflictComputing": "Calcolo dei conflitti in corso",
+  "SuggestionsCoomputing": "Calcolo dei suggerimenti in corso",
+  "GetRuleDetailsError": "Errore durante il recupero delle informazioni sulla regola.",
+  "CompleteModeNotification": "Le configurazioni del prodotto verranno modificate e salvate in modalità completata",
+  "NoUserSelection": "Livello di regola - Completata - selezionare almeno 1 valore",
+  "Option": "Opzione",
+  "isConflictingWith": "è in conflitto con",
+  "andAlsoConflictingWith": "ed è in conflitto anche con",
+  "PCSaveSuccessMessage": "Configurazioni salvate correttamente",
+  "PCSaveFailureMessage": "Impossibile salvare le configurazioni",
+  "HighlightDifferences": "Evidenzia differenze",
+  "UnHighlightDifferences": "Annulla evidenziazione differenze",
+  "Enable_Edit": "Abilita modifica",
+  "Disable_Edit": "Disabilita modifica",
+  "BC_conflict_title": "Configurazione base non valida",
+  "BC_conflict_message": "Definire almeno uno dei valori disponibili, predefiniti o selezionati per ogni variante obbligatoria."
+}

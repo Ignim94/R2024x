@@ -1,0 +1,55 @@
+{
+	"columns": [{
+						"dataIndex": "Title",
+						"text": "label_Title",
+						"typeRepresentation": "string",
+						"pinned": "left",
+						"alwaysVisibleFlag": true,
+						"editableFlag": false,
+						"allowUnsafeHTMLContent" : true,
+						"autoRowHeightFlag" : false,
+						"visibleFlag" : true,
+						"width" : "21%"
+					},
+					{
+						"dataIndex": "uomupdated",
+						"text": "label_Quantity",
+						"width": 350,
+						"typeRepresentation": "UWAObject",
+						"editableFlag": false,
+						"allowUnsafeHTMLContent" : false,
+						"autoRowHeightFlag" : false,
+						"exportFlag" : true,
+						"visibleFlag" : true,
+						"editionPolicy" : "EditionOnOver"
+					},
+					{
+						"dataIndex": "type",
+						"text": "label_Type",
+						"typeRepresentation": "string",
+						"editableFlag": false,
+						"allowUnsafeHTMLContent" : false,
+						"autoRowHeightFlag" : false,
+						"visibleFlag" : true
+					},
+					{
+						"dataIndex": "ds6wg:revision",
+						"text": "label_Revision",
+						"typeRepresentation": "string",
+						"editableFlag": false,
+						"allowUnsafeHTMLContent" : false,
+						"autoRowHeightFlag" : false,
+						"visibleFlag" : true,
+						"width" : "8%"
+					},
+					{
+						"dataIndex": "ds6w:status",
+						"text": "label_Maturity",
+						"typeRepresentation": "string",
+						"editableFlag": false,
+						"allowUnsafeHTMLContent" : false,
+						"autoRowHeightFlag" : false,
+						"visibleFlag" : true
+						
+					}]
+}

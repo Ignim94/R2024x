@@ -1,0 +1,18 @@
+{
+  "purchaseOrderNumber": "Referencia de la orden para incluir en la factura",
+  "purchaseOrderLabel": "Etiqueta que aparecerá en la factura",
+  "purchaseOrderFile": "Archivo",
+  "purchaseOrderNoticeMessage": "Ha confirmado el presupuesto y ha elegido el método de pago diferido. Cargue su orden de compra para que la producción de su orden pueda comenzar.",
+  "learnMoreAboutDifferedPayment": "Obtener más información sobre el proceso de pago diferido",
+  "uploadPurchaseOrder": "Cargar la orden de compra",
+  "cancleOrder": "Cancelar la confirmación de la orden",
+  "purchaseOrderUploadedMessage": "Se ha cargado la orden de compra. La producción puede comenzar.",
+  "learnMoreAboutPurchaseOrder": "Obtener más información sobre el proceso de pago diferido",
+  "downloadPurchaseOrder": "Descargar la orden de compra",
+  "save": "Guardar",
+  "purchaseOrder": "Orden de compra",
+  "purchaseOrderDocument": "Documento de la orden de compra",
+  "anErrorOccured": "Se ha producido un error. Inténtelo de nuevo.",
+  "uploadWarning": "Advertencia: El documento no se puede modificar una vez cargado.",
+  "expenseFinancialLine": "Línea financiera de gastos"
+}

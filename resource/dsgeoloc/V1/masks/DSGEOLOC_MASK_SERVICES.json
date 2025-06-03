@@ -1,0 +1,20 @@
+{
+  "dsmvgeoloc:GeolocMask.Default":[
+	"dsmvgeoloc:programe.CP.GeolocationCoordinate.V_GL_ReferencedCRSIdentifier",
+	"dsmvgeoloc:programe.CP.GeolocationCoordinate.V_GL_Azimuth",
+	"dsmvgeoloc:programe.CP.GeolocationCoordinate.V_GL_ActiveGeolocation",
+	"dsmvgeoloc:programe.CP.GeolocationCartesian1D.V_GL_FirstAxisCoordinate",
+	"dsmvgeoloc:programe.CP.GeolocationCartesian2D.V_GL_SecondAxisCoordinate",
+	"dsmvgeoloc:programe.CP.GeolocationCartesian3D.V_GL_ThirdAxisCoordinate"
+  ],
+  "dsmvgeoloc:GeolocMask.Details":[
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:DefaultBusMask.public"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvgeoloc:GeolocMask.Default"
+    }
+  ]
+}

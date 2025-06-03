@@ -1,0 +1,11 @@
+{
+  "Loading": "Chargement...",
+  "WrapLoader": "Conditionnement...",
+  "UnwrapLoader": "Déballage...",
+  "ExportCSV": "Exporter",
+  "Wrap": "Conditionner",
+  "Unwrap": "Déballer",
+  "Print": "Imprimer",
+  "ResetChanges": "Réinitialiser",
+  "Message_CmdEmptyGridCheck": "Faites glissez, recherchez ou sélectionnez une spécification de produit pour {operation}."
+}

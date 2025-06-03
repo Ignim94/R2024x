@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+PowerByCREO.XSCViews.Title="Вид";
+PowerByCREO.XSCTools.Title="Инструменты";
+PowerByCREO.Lifecycle.Title="Жизненный цикл";
+PowerByCREO.Collaboration.Title="Совместная работа";
+PowerByCREO.SaveSession.Title="Сохранить активное окно";
+PowerByCREO.RefreshHome.Title="Обновить";
+PowerByCREO.ReloadAll.Title="Перезагрузить все";
+PowerByCREO.ReserveHdr.Title="Заблокировать";
+PowerByCREO.UnreserveHdr.Title="Разблокировать";
+PowerByCREO.PropertiesHdr.Title="Свойства";
+PowerByCREO.ReplaceByRevisionHdr.Title="Заменить редакцией";
+PowerByCREO.ReloadFromServerHdr.Title="Перезагрузить с сервера";
+PowerByCREO.RelationIPExplorer.Title="Взаимосвязи";
+PowerByCREO.OptionsHdr.Title="Параметры...";
+PowerByCREO.View.Title="Вид";
+PowerByCREO.Tools.Title="Инструменты";

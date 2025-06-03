@@ -1,0 +1,23 @@
+{
+  "_create": "Nouveau",
+  "_delete": "Enlever",
+  "_information": "Information",
+  "_item": "Elément",
+  "_contentFacet": "Contenu",
+  "_new_requirement": "Nouvelle exigence",
+  "_error_get_req": "Erreur lors de l'extraction des exigences",
+  "_error_create_req": "Erreur lors de la création de l'exigence",
+  "_error_remove_req": "Erreur lors de la suppression des exigences",
+  "_req_update_succ": "Mise à jour du contenu d'exigence effectuée avec succès",
+  "_error_req_update": "Erreur lors de la mise à jour de l'exigence",
+  "_error_req_content_load": "Erreur lors du chargement des exigences",
+  "_error_add_existing": "Erreur lors de l'association de l'exigence",
+  "_priority": "Priorité",
+  "_sequence_order": "Ordre de séquence",
+  "_add_existing": "Ajouter existant",
+  "priority_preAssigned": "Pré-affecté",
+  "priority_low": "Faible",
+  "priority_medium": "Moyen",
+  "priority_high": "Elevé",
+  "priority_urgent": "Urgent"
+}

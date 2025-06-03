@@ -1,0 +1,19 @@
+{
+  "sourcing.notification.event.request.statusChange.setting": "Ma demande ou demande affectée est approuvée/rejetée",
+  "sourcing.notification.event.request.duedate.setting": "La date d'échéance de ma demande ou demande affectée approche",
+  "sourcing.notification.event.request.needclarification.setting": "Ma demande ou demande affectée nécessite une clarification",
+  "sourcing.notification.event.request.submit.setting": "Ma demande ou demande affectée est soumise",
+  "sourcing.notification.event.memberAccessUpdate.setting": "Les membres sont ajoutés ou enlevés de ma demande ou de ma demande affectée",
+  "sourcing.notification.event.request.promoted.setting": "Ma demande ou demande affectée change d'échéance",
+  "sourcing.notification.person.request.submit.msg": "<strong>###REQUESTOWNER###</strong> vous a affecté <strong>###REQUESTNAME###</strong>. La date d'échéance est fixée au <strong>###DUEDATE###</strong> pour l'action requise.",
+  "sourcing.notification.person.request.promote.msg": "<strong>###REQUESTOWNER###</strong> a promu la requête <strong>###REQUESTNAME###</strong> à l'état <strong>###STATE###</strong>.",
+  "sourcing.notification.person.request.demote.msg": "<strong>###REQUESTOWNER###</strong> a rétrogradé la requête <strong>###REQUESTNAME###</strong> à l'état <strong>###STATE###</strong>.",
+  "sourcing.notification.person.request.duedate.msg": "<strong>###REQUESTNAME###</strong> a dépassé sa date d'échéance. Date d'échéance fixée au <strong>###DUEDATE###</strong>.",
+  "sourcing.notification.person.request.approve.msg": "<strong>###REQUESTOWNER###</strong> a approuvé la demande <strong>###REQUESTNAME###</strong>.",
+  "sourcing.notification.person.request.reject.msg": "<strong>###REQUESTOWNER###</strong> a rejeté la requête <strong>###REQUESTNAME###</strong>.",
+  "sourcing.notification.person.request.cancel.msg": "<strong>###REQUESTOWNER###</strong> a annulé la requête <strong>###REQUESTNAME###</strong>.",
+  "sourcing.notification.person.request.needsclarification.msg": "<strong>###requestAsignee###</strong> a envoyé la requête <strong>###REQUESTNAME###</strong> de clarification nécessaire.",
+  "sourcing.notification.person.request.submitclarification.msg": "<strong>###REQUESTOWNER###</strong> a soumis la clarification de la requête <strong>###REQUESTNAME###</strong>",
+  "sourcing.notification.person.memberAccessUpdate.msg": "<strong>###GRANTOR###</strong> vous a ajouté en tant que <strong>###REQUESACCESS###</strong> sur <strong>###REQUESTNAME###</strong>",
+  "sourcing.notification.person.memberAccessDelete.msg": "<strong>###GRANTOR###</strong> vous a supprimé en tant que <strong>###REQUESACCESS###</strong> de <strong>###REQUESTNAME###</strong>"
+}

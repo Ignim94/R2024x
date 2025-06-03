@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+PowerByCREO.XSCViews.Title="Vista";
+PowerByCREO.XSCTools.Title="Herramientas";
+PowerByCREO.Lifecycle.Title="Ciclo de vida";
+PowerByCREO.Collaboration.Title="Colaboración";
+PowerByCREO.SaveSession.Title="Guardar ventana activa";
+PowerByCREO.RefreshHome.Title="Actualizar";
+PowerByCREO.ReloadAll.Title="Recargar todo";
+PowerByCREO.ReserveHdr.Title="Bloquear";
+PowerByCREO.UnreserveHdr.Title="Desbloquear";
+PowerByCREO.PropertiesHdr.Title="Propiedades";
+PowerByCREO.ReplaceByRevisionHdr.Title="Reemplazar por revisión";
+PowerByCREO.ReloadFromServerHdr.Title="Recargar desde el servidor";
+PowerByCREO.RelationIPExplorer.Title="Relaciones";
+PowerByCREO.OptionsHdr.Title="Opciones…";
+PowerByCREO.View.Title="Vista";
+PowerByCREO.Tools.Title="Herramientas";

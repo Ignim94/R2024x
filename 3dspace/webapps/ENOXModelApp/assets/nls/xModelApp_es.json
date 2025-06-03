@@ -1,0 +1,23 @@
+{
+  "enterprise_dictionary_breadcrumb": "Variabilidad empresarial",
+  "model_definition_breadcrumb": "Versiones de modelo",
+  "open_mv_search_title": "Seleccionar versión de modelo para abrir",
+  "newModelVersion": "Nueva versión de modelo",
+  "addExistingPrefLabel": "Agregar preferencia existente",
+  "MSG_UNABLE_TO_GET_SUBTYPES": "No se pueden obtener subtipos de la versión de modelo.",
+  "NO_MODELVERSION_ATTACHED_ERROR": "No hay ninguna versión del modelo adjunta a ",
+  "CUSTOMER_ATTRIBUTE_LOADING_WARNING": "Error al cargar los atributos del cliente.",
+  "TYPE_MODELVERSION": "Versión de modelo",
+  "TYPE_PRODUCTCONFIGURATION": "Configuración de producto",
+  "TYPE_MANUFACTURINGPLAN": "Plan de fabricación",
+  "TYPE_CONFIGURATIONRULE": "Regla de configuración",
+  "TYPE_VARIANT": "Variante",
+  "TYPE_VARIANTVALUE": "Valor de variante",
+  "TYPE_OPTIONGROUP": "Opciones",
+  "TYPE_OPTIONGROUPVALUE": "Valor de opciones",
+  "PREPARING_FOR_ROADMAP_VIEW": "Preparando la vista de mapa de rutas",
+  "ROADMAP_VIEW": "Vista de mapa de rutas",
+  "MODELDEF": "ENOVIA - Definición de modelo",
+  "ROADMAP_VIEW_IS_REFRESHING": "Espere, la vista del mapa de rutas se está actualizando...",
+  "GETTING_THINGS_READY": "Preparando todo..."
+}

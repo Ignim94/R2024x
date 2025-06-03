@@ -1,0 +1,230 @@
+<meta charset="UTF-8"/>
+//=============================================================================
+// 								Fixed
+//=============================================================================
+DELCSTApp.LandingPage.Title="Ausgangsposition";
+DELCSTApp.Refresh.Title="Ausgewählte aktualisieren";
+DELCSTApp.Hide.Title="Ausgewählte Objekte entfernen";
+DELCSTApp.Authoring.Title="Authoring";
+DELCSTApp.HideAll.Title="Alle Objekte entfernen";
+DELCSTApp.Refresh.Title="Ausgewählte(s) Objekt(e) aktualisieren";
+DELCSTApp.RefreshAll.Title="Alle aktualisieren";
+
+DELCSTApp.ToggleAuxiliaryView.Title="Hilfsansicht";
+DELCSTApp.ProductsParts.Title="Produkt und Teile";
+DELCSTApp.Construction.Title="Konstruktionselemente";
+
+//=============================================================================
+// 								Authoring
+//=============================================================================
+DELCSTApp.Authoring.Title="Authoring";
+
+//-------------------------------------------------
+//				Create
+//-------------------------------------------------
+DELCSTApp.InsertConstructionStructure.Title="Montagebaugruppe";
+DELCSTApp.InsertWorkPackageEach.Title="Arbeitspaket – Jeweils";
+DELCSTApp.InsertWorkPackageLength.Title="Arbeitspaket – Länge";
+DELCSTApp.InsertWorkPackageGroup.Title="Arbeitspaket – Gruppe";
+DELCSTApp.InsertWorkPackageArea.Title="Arbeitspaket – Fläche";
+DELCSTApp.InsertWorkElementEach.Title="Arbeitselement – Jeweils";
+DELCSTApp.InsertWorkElementLength.Title="Arbeitselement – Länge";
+DELCSTApp.InsertWorkElementArea.Title="Arbeitselement – Fläche";
+
+//-------------------------------------------------
+//				Create Process & Scope
+//-------------------------------------------------
+DELCSTApp.CreateStructureAndScope.Title="Montagebaugruppe und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkPackageEachAndScope.Title="„Arbeitspaket – Jeweils“ und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkPackageLengthAndScope.Title="„Arbeitspaket – Länge“ und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkPackageAreaAndScope.Title="„Arbeitspaket – Fläche“ und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkPackageGroupAndScope.Title="„Arbeitspaket – Gruppe“ und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkElementEachAndScope.Title="„Arbeitselement – Jeweils“ und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkElementLengthAndScope.Title="„Arbeitselement – Länge“ und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkElementAreaAndScope.Title="„Arbeitspaket – Fläche“ und Gültigkeitsbereich erstellen";
+
+//-------------------------------------------------
+//				Create Process & Resulting Product Link
+//-------------------------------------------------
+DELCSTApp.CreateStructureAndResultingProduct.Title="Montagebaugruppe und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkPackageEachAndResultingProduct.Title="„Arbeitspaket – Jeweils“ und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkPackageLengthAndResultingProduct.Title="„Arbeitspaket – Länge“ und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkPackageAreaAndResultingProduct.Title="„Arbeitspaket – Fläche“ und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkPackageGroupAndResultingProduct.Title="„Arbeitspaket – Gruppe“ und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkElementEachAndResultingProduct.Title="„Arbeitselement – Jeweils“ und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkElementLengthAndResultingProduct.Title="„Arbeitselement – Länge“ und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkElementAreaAndResultingProduct.Title="„Arbeitselement – Fläche“ und resultierendes Produkt erstellen";
+//-----------------------------------------------------------------------------
+//				Create Process & Scope/ResultingProduct Link for Alternate Substitutes
+//-----------------------------------------------------------------------------
+DELCSTApp.CreateStructureAndScopeAltSubst.Title="Montagebaugruppe und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkPackageEachAndScopeAltSubst.Title="„Arbeitspaket – Jeweils“ und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkPackageLengthAndScopeAltSubst.Title="„Arbeitspaket – Länge“ und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkPackageAreaAndScopeAltSubst.Title="„Arbeitspaket – Fläche“ und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkPackageGroupAndScopeAltSubst.Title="„Arbeitspaket – Gruppe“ und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkElementEachAndScopeAltSubst.Title="„Arbeitselement – Jeweils“ und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkElementLengthAndScopeAltSubst.Title="„Arbeitselement – Länge“ und Gültigkeitsbereich erstellen";
+DELCSTApp.CreateWorkElementAreaAndScopeAltSubst.Title="„Arbeitspaket – Fläche“ und Gültigkeitsbereich erstellen";
+//----------------------------------------------------
+DELCSTApp.CreateStructureAndResultingProductAltSubst.Title="Montagebaugruppe und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkPackageEachAndResultingProductAltSubst.Title="„Arbeitspaket – Jeweils“ und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkPackageLengthAndResultingProductAltSubst.Title="„Arbeitspaket – Länge“ und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkPackageAreaAndResultingProductAltSubst.Title="„Arbeitspaket – Fläche“ und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkPackageGroupAndResultingProductAltSubst.Title="„Arbeitspaket – Gruppe“ und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkElementEachAndResultingProductAltSubst.Title="„Arbeitselement – Jeweils“ und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkElementLengthAndResultingProductAltSubst.Title="„Arbeitselement – Länge“ und resultierendes Produkt erstellen";
+DELCSTApp.CreateWorkElementAreaAndResultingProductAltSubst.Title="„Arbeitselement – Fläche“ und resultierendes Produkt erstellen";
+
+//-------------------------------------------------
+//				Product Assignation
+//-------------------------------------------------
+DELCSTApp.AssignStructure.Title="Produkt einer Baugruppe zuordnen";
+DELCSTApp.AssignWorkElementArea.Title="Produkt dem Arbeitselementbereich zuordnen";
+DELCSTApp.AssignWorkElementLength.Title="Produkt der Länge eines Arbeitselements zuordnen";
+DELCSTApp.AssignWorkElementEach.Title="Produkte Arbeitselementen einzeln zuordnen ";
+DELCSTApp.AssignWorkPackageEach.Title="Jedes Produkt einem Arbeitspaket zuordnen ";
+DELCSTApp.AssignWorkPackageArea.Title="Produkt einem Arbeitspaketbereich zuordnen ";
+DELCSTApp.AssignWorkPackageLength.Title="Produkt der Arbeitspaketlänge zuordnen ";
+DELCSTApp.AssignWorkPackageGroup.Title="Produkt einer Arbeitspaketgruppe zuordnen ";
+
+DELCSTApp.AssignWorkPackageEach.Title="Produktzuordnung aufheben";
+
+//-------------------------------------------------
+//				Scope
+//-------------------------------------------------
+DELCSTApp.CreateScopeLink.Title="Gültigkeitsbereich erzeugen";
+DELCSTApp.ReconnectScope.Title="Gültigkeitsbereich neu verbinden";
+DELCSTApp.ReviseAndReconnectScope.Title="Gültigkeitsbereich überarbeiten und neu verbinden";
+DELCSTApp.DeleteScopeLink.Title="Gültigkeitsbereich löschen";
+DELCSTApp.CreatePartialScopeLink.Title="Partiellen Gültigkeitsbereich erzeugen";
+DELCSTApp.DeletePartialScopeLink.Title="Partiellen Gültigkeitsbereich löschen";
+DELCSTApp.StretchPartialScopeLink.Title="Partiellen Gültigkeitsbereich strecken";
+DELCSTApp.SwitchToFullScopeLink.Title="Von Teilbereich in die volle Ansicht wechseln";
+
+//-------------------------------------------------
+//-------------------------------------------------
+DELCSTApp.AddExisting.Title="Vorhandene hinzufügen";
+DELCSTApp.DetachInstance.Title="Zuordnung aufheben";
+
+//-------------------------------------------------
+//				Replace
+//-------------------------------------------------
+DELCSTApp.ReplaceByLatestRevision.Title="Durch neueste Revision ersetzen";
+DELCSTApp.ReplaceByExisting.Title="Durch bestehende ersetzen";
+DELCSTApp.ReplaceByNewRevision.Title="Durch neue Revision ersetzen";
+DELCSTApp.ReplaceByNewReference.Title="Durch neue ersetzen";
+DELCSTApp.ReplaceWhereUsed.Title="Ersetzen, wo verwendet";
+
+//-------------------------------------------------
+//				Cut Copy
+//-------------------------------------------------
+DELCSTApp.Cut.Title="Schneiden";
+DELCSTApp.Copy.Title="Kopieren";
+DELCSTApp.Paste.Title="Einfügen";
+
+//-------------------------------------------------
+DELCSTApp.CreateUpdateProcessStructure.Title="Struktur für Aktualisierungsprozess erstellen";
+DELCSTApp.ChangeImpactAnalysis.Title="Analyse von Änderungsauswirkungen";
+
+DELCSTApp.Relations.Title="Beziehungen";
+DELCSTApp.DisplayProperties.Title="Informationen";
+CollabSharing_Workbench.ActionBar_ChangeOwner.Title="Verschieben";
+CollabSharing_Workbench.ActionBar_TransferOwnership.Title="Eigentümer ändern";
+DELCSTApp.ShowCharacteristicsCmd.Title="Merkmalverwaltung";
+DELCSTApp.ShowConsolidatedCharactscsCmd.Title="Merkmalverwaltung: Konsolidierte Ansicht";
+
+//=============================================================================
+// 								Item Management
+//=============================================================================
+DELCSTApp.ItemManagement.Title="Elementverwaltung";
+
+//-------------------------------------------------
+DELCSTApp.CustomerExtension.Title="Kundenerweiterung";
+DELCSTApp.ViewRelationships.Title="Beziehungen anzeigen";
+//-------------------------------------------------
+DELCSTApp.Document.Title="Dokument";
+DELCSTApp.Characteristics.Title="Eigenschaften";
+DELCSTApp.AlternatesAndSubstitutes.Title="Alternativen und Ersatz";
+DELCSTApp.Alternates.Title="Alternativen";
+DELCSTApp.ResultingProduct.Title="Resultierendes Produkt";
+DELCSTApp.Substitutes.Title="Ersatz";
+DELCSTApp.Responsibilities.Title="Verantwortungsbereiche";
+DELCSTApp.Origin.Title="Ursprung";
+DELCSTApp.CapableResource.Title="Geeignete Ressource";
+//-------------------------------------------------
+DELCSTApp.NavigateResources.Title="Geeignete Ressourcen navigieren";
+DELCSTApp.Resources.Title="Geeignete Ressourcen verwalten";
+DELCSTApp.NavigateRequirements.Title="Anforderungen navigieren";
+DELCSTApp.Requirements.Title="Anforderungen verwalten";
+
+//=============================================================================
+// 								Configuration
+//=============================================================================
+DELCSTApp.Configuration.Title="Konfiguration";
+
+//-------------------------------------------------
+DELCSTApp.SetAuthoringContext.Title="Authoring-Kontext festlegen";
+DELCSTApp.Dictionnary.Title="Datenverzeichnis";
+DELCSTApp.FilterConfiguration.Title="Filterkonfiguration";
+
+//=============================================================================
+// 								View
+//=============================================================================
+DELCSTApp.View.Title="Anzeigen";
+
+//-------------------------------------------------
+DELCSTApp.ExpandAll.Title="Alles erweitern";
+DELCSTApp.ExpandNLevel.Title="Ebene N erweitern";
+//-------------------------------------------------
+DELCSTApp.CollapseAll.Title="Alles ausblenden";
+DELCSTApp.UserDefinedExplore.Title="Benutzerdefiniertes Untersuchen";
+//-------------------------------------------------
+DELCSTApp.ToggleBodyView.Title="Produktansicht umschalten";
+DELCSTApp.Toggle3DView.Title="3D-Ansicht umschalten";
+DELCSTApp.ToggleGraphView.Title="Diagrammansicht umschalten";
+//-------------------------------------------------
+DELCSTApp.Filter.Title="Filter";
+DELCSTApp.ToggleAssignedParts.Title="Zugewiesene Teile umschalten";
+DELCSTApp.ToggleQuantityView.Title="Mengenansicht umschalten";
+//-------------------------------------------------
+DELCSTApp.Reframe.Title="Ansicht ausrichten";
+DELCSTApp.ReframeOn.Title="Ansicht ausrichten auf";
+DELCSTApp.ToggleOrientation.Title="Ausrichtung umschalten";
+DELCSTApp.ToggleOverview.Title="Übersicht umschalten";
+
+DELCSTApp.ShowLogPanel.Title="Protokoll anzeigen";
+DELCSTApp.Show3DViewerCmd.Title="3DOperations Viewer starten";
+
+//=============================================================================
+// 								Tools
+//=============================================================================
+DELCSTApp.Tools.Title="Tools";
+
+DELCSTApp.EditViewPreferences.Title="Anzeigeeinstellungen";
+DELCSTApp.LayoutPreferences.Title="Layouteinstellungen";
+
+DELCSTApp.ExportCSV.Title="CSV exportieren";
+DELCSTApp.LoadRelations.Title="Beziehungen laden";
+DELCSTApp.RelationalExplorerCmd.Title="Verbundener Explorer";
+//-------------------------------------------------
+DELCSTApp.CustomizeColumns.Title="Spalten anpassen";
+DELCSTApp.ExportExcel.Title="Nach Excel exportieren";
+
+DELCSTApp.Delete.Title="Löschen...";
+DELCSTApp.CreateMfgItemStructure.Title="CST-Elementstruktur erstellen";
+DELCSTApp.UpdateMfgItemStructure.Title="CST-Elementstruktur aktualisieren";
+DELCSTApp.ManageInconsistentLinks.Title="Verwaltung von Änderungsauswirkungen";
+DELCSTApp.BIEssentialsCmd.Title="B.I. Essentials – Zuordnungsstatus";
+DELCSTApp.BIAltSub.Title="B.I. Essentials – Alternativen- & Ersatzstatus";
+DELCSTApp.CreateInstance.Title="Instanz erstellen";
+DELCSTApp.CreateLink.Title="Verknüpfung erstellen";
+DELCSTApp.SearchAndAddInstanceCommand.Title="Einfügen";
+DELCSTApp.InsertAsCopy.Title="Als Kopie einfügen";
+DELCSTApp.duplicate.Title="Duplizieren";
+DELCSTApp.DuplicateAdv.Title="Erweitertes Duplizieren";
+DELCSTApp.DELCreateEngineeringMadeFromItem.Title="„Engineering aus“-Element erstellen";
+
+//=============================================================================
+// 								lifecycle
+//=============================================================================
+DELCSTApp.Lifecycle.Title="Lebenszyklus";

@@ -1,0 +1,9 @@
+{
+  "betaOptions": [
+    {
+      "id": "FUN143768",
+      "title": "Aprire le app web come schede del browser",
+      "description": "Le app Web di 3DCompass si apriranno in schede dedicate anziché nella finestra di anteprima del dashboard."
+    }
+  ]
+}

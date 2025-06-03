@@ -1,0 +1,7 @@
+{
+  "success": "Réussite",
+  "failure": "Echec",
+  "neutral": "Avertissement",
+  "aborted": "Abandonné",
+  "title": " Etat de l'opération de détachement"
+}

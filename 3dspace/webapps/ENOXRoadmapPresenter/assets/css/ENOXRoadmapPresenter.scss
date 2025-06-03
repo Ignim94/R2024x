@@ -1,0 +1,1048 @@
+.xpfl-roadmap-container {
+    height: 100%;
+    width: 100%;
+    border: 2px;
+    position: absolute;
+    top: 0px;
+}
+
+.xpfl-roadmap-container .split-view-vertical-container .top-container.withoverflowhidden, .xpfl-roadmap-container .split-view-vertical-container .bot-container.withoverflowhidden {
+        border: 2px;
+}
+
+.xpfl-roadmap-container .split-view-vertical-container .top-container {
+        display:inline-flex;
+}
+
+.xpfl-roadmap-container .split-view-vertical-container .top-container .dropinvite {
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+    font-size: 16px;
+    color: #368ec4;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+
+.xpfl-roadmap-container #dummyparent {
+         min-width: inherit;
+     }
+
+.xpfl-roadmap-container div#col-1 {
+        min-width: 300px;
+    }
+
+.xpfl-roadmap-container .sidebar-navigation {
+        width: 38px;
+        height: 100%;
+        display: inline-block;
+        vertical-align: top;
+        overflow: hidden;
+}
+
+.xpfl-roadmap-container .sidebar-navigation .sidebar-icons {
+            width: 38px;
+            height: 38px;
+            text-align: center;
+            font-size: 1.5em;
+            line-height: 1.7em;
+            color: #b4b6ba;
+            cursor: pointer;
+        }
+
+// .xpfl-roadmap-container .enox-collection-toolbar-v2-container .enox-collection-toolbar-right-menu-wrapper {
+//     padding-top: 20px;
+//     /* margin-top: 20px; */
+//     /* height: 40px; */
+// }
+
+.xpfl-roadmap-container .xmodel-list-view {
+        /*height: calc(100% - 75px);*/
+        flex:1;
+        padding-right: 2px;
+    margin-top: 25px;
+    }
+
+.xpfl-roadmap-container .mdllv-empty-container {
+        top: 0px !important;
+        width: inherit;
+    }
+
+.xpfl-roadmap-container .wux-layouts-responsivecollectionview {
+        min-width: inherit !important;
+    }
+
+.xpfl-roadmap-container .roadmap-drop-region {
+        border : 1px solid #368ec4 !important;
+        border-radius : 2px !important;
+        width: inherit;
+        height: inherit;
+    }
+
+.xpfl-roadmap-container .xpfl-roadmap-backlog-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        border-bottom: 1px solid #f4f5f6;
+        border-right: 1px solid #f4f5f6;
+    }
+
+/* new slideIn changes */
+@media screen and (device-width: 768px) and (device-height: 1024px) {
+    body {
+        max-width: 730px !important;
+    }
+}
+
+.xpfl-roadmap-container * {
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+.wux-layouts-slidingviews-page-content{
+overflow: hidden !important;
+}
+
+li.wux-layouts-slidingviews-page {
+overflow: hidden !important;
+}
+
+.miniTextSize{
+font-size:1em !important;
+}
+
+.maxTextSize{
+font-size:5em !important;
+}
+
+.FAB-FilterActionButton.btn-defaultGlobalDnD{
+min-width:100%;
+padding-top:5px;
+    margin-top: 5px;
+}
+
+.FAB-FilterActionButton{
+margin-left:1px !important;
+}
+
+.wux-layouts-slidingviews{
+height:100%;
+width:100%;
+}
+
+.displayNone{
+display:none;
+}
+
+.wux-layouts-slidingviews .wux-layouts-slidingviews-content-view {
+height: 100% !important;
+min-height: 100px !important;
+}
+
+.wux-layouts-slidingviews-views{
+padding: 1px 10px !important;
+border-bottom: 0 !important;
+}
+
+.primaryGraph-GWTMode{
+display: inline !important;
+}
+
+.secondaryTable-GWTMode{
+    position: relative !important;
+        display: table-row;
+}
+
+.counterGWTClass{
+height:200px;
+}
+
+.tableHolderDiv{
+height:100%;
+}
+
+.wux-tree-treelistview{
+height:100%;
+}
+
+.table-container tbody td {
+white-space: nowrap;
+max-width: 50vw;
+}
+
+.tableWrap tbody td {
+white-space: normal;
+max-width: 50vw;
+    vertical-align: top;
+}
+
+.tableWrap{
+display: inline-block;
+}
+
+.table-container{
+ width: 100%;
+}
+
+.indicatorContainer{
+height: 100%;
+float: right;
+display:inline-block;
+border-style: solid;
+border-color: #D1D4D4;
+border-left-width: 1px;
+}
+
+.widgetHelpButton {
+height: 100%;
+min-width: 39px;
+border-style: solid;
+border-color: #D1D4D4;
+border-left-width: 1px;
+float: right;
+display:inline-block;
+color: #B4B6BA;
+font-size: 1.5em !important;
+}
+
+.statusSeperator {
+width: 1px;
+background-color: black;
+height: 100%;
+display:inline-block;
+}
+
+.moduleContent {
+padding: 0px 0px 0px 0px !important;
+}
+
+@media (max-width: 700px){
+.defaultFilterFooter {
+    width:100% !important;
+}
+}
+
+@media (max-width: 400px){
+.notification-text{
+    display: none !important;
+}
+}
+
+.productOwnerPie{
+height:100%;
+}
+
+.productStateBar{
+display:none;
+}
+
+@media (min-height: 300px) and (min-width: 1200px) {
+.productStateBar{
+display:block;
+    height:40%;
+}
+
+.productOwnerPie{
+    height:60%;
+}
+}
+
+@media (min-height: 600px) and (max-width: 1000px){
+.productStateBar{
+    display:block;
+    height:40%;
+}
+
+.productOwnerPie{
+    height:60%;
+}
+}
+
+.notification-text-heading{
+    color: #787878;
+}
+
+.widgetFooterDIV{
+ height: 30px;
+ border-top-width: 1px;
+border-color: #F2F2F2;
+border-style: solid;
+}
+
+.highchart-print-btn{
+position: absolute;
+z-index: 2;
+right: 2px;
+top: 2px;
+opacity: 0.5;
+}
+
+.row-container:hover {
+cursor: pointer;
+    background-color: #368ec4 !important;
+color: #FFFFFF !important;
+}
+
+.FBSTableWrap thead th {
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.FBSTableWrap tbody td {
+white-space: initial !important;
+}
+
+.FBS-counter-counterpanel {
+width: 100%;
+display: inline-block;
+vertical-align: top;
+text-align: center;
+border: 1px solid #005686;
+border-top: 0px;
+    box-shadow: 0 1px 2px -1px #005686;
+box-sizing: border-box;
+background-color: #F9F9F9;
+}
+
+.FBS-counter-CounterValueHolder {
+display: flex;
+justify-content: space-between;
+padding: 0px 2px 0 2px;
+}
+
+.FBS-counter-panelholder {
+padding-left: 10px;
+padding-right: 15px;
+}
+
+.flexClass {
+display: flex;
+justify-content: space-between;
+}
+
+.FBS-counter-CounterValue {
+font-size: 48px;
+font-weight: bold;
+text-shadow: 1px 1px 1px black;
+text-align: center;
+}
+
+.FBS-counter-counterValue-title {
+    font-family: '3ds';
+text-align: center;
+    word-wrap: break-word;
+max-height: 40px;
+max-width: 100px;
+overflow-y: hidden;
+}
+
+.FBS-counter-counterpanel-title {
+ font-family: '3ds';
+background-color: #005686;
+color: white;
+text-align: center;
+border-top-left-radius: 3.5px;
+border-top-right-radius: 3.5px;
+}
+
+.FBS-counter-panelholder-outerDiv {
+ padding: 0px 5px 10px 5px;
+}
+
+@media (min-width: 1200px) {
+    /* For Big screens phones: */ .FBSLayoutDiv {
+       max-width: 50%;
+}
+}
+
+.FBSSingleLayoutDiv{
+max-height: 800px;
+}
+
+@media (max-width: 1200px) {
+.FBSLayoutDiv {
+       max-height: 400px;
+       height:50% !important;
+}
+}
+
+.FBSLayoutDiv{
+height: inherit;
+width: inherit;
+display: inline-block;
+}
+
+.slider_Push_graph{
+    padding-top: 20px;
+}
+
+.FBS-top-slider-container{
+color : white;
+background-color: #3990C5;
+border-top-right-radius: 3.5px;
+border-top-left-radius: 3.5px;
+}
+
+.FBS-top-Slider-Arrow {
+    height: 16px;
+    font-size: small;
+    margin-top: 10px;
+    width: 5em !important;
+    margin-left: 0px !important;
+    border-bottom-right-radius: 3em;
+    border-bottom-left-radius: 3em;
+}
+
+.FBS-top-Slider-open {
+    color: inherit;
+    box-shadow: 0 4px 10px -1px #4a4848;
+    background-color: inherit;
+}
+
+.FBS-top-Slider-closed {
+color: inherit;
+background-color: inherit;
+}
+
+.wux-panels-panelbase {
+color: inherit !important;
+}
+
+.wux-panels-sidepanelHandler-open {
+    box-shadow: 0px 4px 6px -1px #4a4545;
+        background-color: #3990C5;
+        height: 0.5em !important;
+}
+
+.wux-panels-sidepanelHandler-closed {
+    background-color: #3990C5;
+    border-top-right-radius: 3.5px;
+    border-top-left-radius: 3.5px;
+}
+
+.wux-panels-sidepanelHandler-closed:hover {
+        background-color: #3990C5;
+}
+
+.wux-ui-effects-slide-up {
+-webkit-transform: translate3d(0, -100%, 0);
+-moz-transform: translate3d(0, -100%, 0);
+-ms-transform: translate3d(0, -100%, 0);
+-o-transform: translate3d(0, -100%, 0);
+transform: translate3d(0, -100%, 0);
+}
+
+.wux-ui-effects-slide-down {
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
+-ms-transform: translate3d(0, 0, 0);
+-o-transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
+}
+
+/*
+
+START: Slider right left
+
+*/
+.wux-panels-sidepanel {
+transition: all 0.2s ease-in-out;
+position: absolute;
+z-index: 1;
+}
+
+.FBS-left-slider-container{
+color: #368EC4;
+background-color: rgba(226, 226, 226, 0.24);
+border-bottom-right-radius: 12px;
+border-top-right-radius: 12px;
+}
+
+.wux-ui-effects-slide-left-IN {
+-webkit-transform: translate3d(-100%,0, 0);
+-moz-transform: translate3d(-100%,0, 0);
+-ms-transform: translate3d(-100%,0, 0);
+-o-transform: translate3d(-100%,0, 0);
+transform: translate3d(-100%,0, 0);
+left: 20px;
+}
+
+.wux-ui-effects-slide-left-OUT {
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
+-ms-transform: translate3d(0, 0, 0);
+-o-transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
+}
+
+.FBS-left-slider-container:hover{
+background-color: #E2E2E2;
+}
+
+.wux-panels-sidepanel.FBS-left-slider-container.wux-ui-effects-slide-left-OUT{
+background-color: #E2E2E2;
+}
+
+.FBS-right-slider-container{
+color: #368EC4;
+background-color: rgba(226, 226, 226, 0.24);
+border-bottom-left-radius: 12px;
+border-top-left-radius: 12px;
+}
+
+.FBS-right-slider-container:hover{
+background-color: #E2E2E2;
+}
+
+.wux-panels-sidepanel.FBS-right-slider-container.wux-ui-effects-slide-right-OUT{
+background-color: #E2E2E2;
+}
+
+.wux-ui-effects-slide-right-OUT {
+-webkit-transform: translate3d(0,0, 0);
+-moz-transform: translate3d(0,0, 0);
+-ms-transform: translate3d(0,0, 0);
+-o-transform: translate3d(0,0, 0);
+transform: translate3d(0,0, 0);
+}
+
+.wux-ui-effects-slide-right-IN {
+-webkit-transform: translate3d(100%, 0, 0);
+-moz-transform: translate3d(100%, 0, 0);
+-ms-transform: translate3d(100%, 0, 0);
+-o-transform: translate3d(100%, 0, 0);
+transform: translate3d(100%, 0, 0);
+right: 20px !important;
+}
+
+.viewIndicator {
+display: inline-block;
+width: 9px;
+height: 9px;
+margin-left: 3px;
+border: 1px solid gray;
+border-radius: 50%;
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
+
+.slidingViewsScrollButtons {
+    position: relative;
+    top: 50%;
+    z-index: 50;
+}
+
+.btn.status-slides-scroll-left{
+top: 8px;
+position: absolute;
+z-index: 5;
+width: 20px;
+left: -11px;
+height: 38px;
+min-width: initial;
+padding: 0;
+cursor: pointer;
+font-size: 2em;
+background: 0;
+border: 0;
+}
+
+.btn.status-slides-scroll-right {
+top: 8px;
+position: absolute;
+z-index: 5;
+width: 20px;
+right: -5px;
+height: 38px;
+min-width: initial;
+padding: 0;
+cursor: pointer;
+font-size: 2em;
+background: 0;
+border: 0;
+}
+
+.status-slides-scroll-left {
+left: 0px;
+}
+
+.status-slides-scroll-right {
+right: 0px;
+}
+
+.backlogListContainer {
+    display:flex;
+    flex-direction: column;
+	height: inherit;
+	border-color: transparent !important;
+	border-width: 1px !important;
+	border: solid;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.listViewSlideContainer {
+    display: flex;
+    flex-direction:column;
+	height: inherit;
+	border-color: transparent !important;
+	border-width: 1px !important;
+	border: solid;
+	margin-left: 2px;
+	margin-right: 2px;
+	width: 100%;
+}
+
+.backlogListContainer.enox-drag-over {
+	height: inherit;
+    border-width: 2px !important;
+    border-color: #368EC4 !important;
+}
+
+.listViewSlideContainer.enox-drag-over {
+	height: inherit;
+    border-width: 2px !important;
+    border-color: #368EC4 !important;
+}
+
+.backlogListContainer.containerSelected.enox-drag-over {
+	height: inherit;
+    border-width: 2px !important;
+    border-color: #368EC4 !important;
+}
+
+.listViewSlideContainer.containerSelected.enox-drag-over {
+	height: inherit;
+    border-width: 2px !important;
+    border-color: #368EC4 !important;
+}
+
+.xpfl-roadmap-container .xmodel-list-view.enox-drag-over {
+    border-width: 0px !important;
+}
+
+.xpfl-roadmap-container .listViewHeader {
+    width: 100%;
+    flex: 0.01;
+    margin-top: 5px;
+}
+
+.xpfl-roadmap-container .listViewHeaderText {
+    text-align: center;
+	width: 100%;
+	float: left;
+    margin-top: 25px;
+    margin-bottom: -15px;
+	font-size: small;
+	font-family: arial;
+	font-weight: bold;
+    color: #3d3d3d;
+    text-overflow: ellipsis;
+}
+
+.xpfl-roadmap-container .listViewHeaderActions {
+    width: 10%;
+    float: right;
+    margin-top: 0px;
+    display: contents;
+  }
+
+.xpfl-roadmap-container .listViewPlusActionContainer {
+    position : absolute;
+    right : 10px;
+    z-index : 1000;
+    background-color: white;
+    height: 44px;
+    width: 44px;
+    border-width: 1px;
+    border: solid;
+    border-color: lightgrey;
+    border-radius: 50px;
+    cursor:default;
+    user-select: none;
+}
+
+.xpfl-roadmap-container .listViewPlusAction {
+    height: 32px;
+    width: 32px;
+    font-size:x-large;
+    position : absolute;
+    right : 10px;
+    bottom: 15px;
+    z-index : 1000;
+    cursor:pointer;
+}
+
+.hideIt {
+    display: none !important;
+}
+
+.containerSelected {
+    border-color: #368ec4 !important;
+    border-width: 1px !important;
+}
+
+.rdmpSlidesRowContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+/*For Compact View management*/
+.backlogTab{
+    height: 100%;
+	width: 100%;
+}
+
+.backlogTab .xpfl-roadmap-container {
+        position: relative;
+    /*Accordeon Expander Management*/
+}
+
+.backlogTab .xpfl-roadmap-container .bot-container.withoverflowhidden {
+            height: calc(100% - 40px);
+        }
+
+.backlogTab .xpfl-roadmap-container .pendingBacklogItems, .backlogTab .xpfl-roadmap-container .committedBacklogItems {
+            height: 100%;
+            width: 100%;
+        }
+
+// .backlogTab .xpfl-roadmap-container .enox-collection-toolbar-v2-container .enox-collection-toolbar-right-menu-wrapper {
+//     padding-top: 5px;
+// }
+
+.backlogTab .xpfl-roadmap-container .xmodel-list-view {
+            /*height: calc(100% - 75px);*/
+            flex:1;
+    margin : 0px;
+        }
+
+.backlogTab .xpfl-roadmap-container .split-view-vertical-container {
+            display:table;
+}
+
+.backlogTab .xpfl-roadmap-container .split-view-vertical-container .top-container {
+                display: table-row;
+                height:50px !important;
+           }
+
+.backlogTab .xpfl-roadmap-container .split-view-vertical-container .bot-container {
+                display: table-row;
+           }
+/*
+.backlogTab .xpfl-roadmap-container .wux-controls-abstract {
+
+
+            managed below
+
+            &.wux-controls-expander-placeholder.wux-controls-expander{
+
+                height:50% !important;
+
+            }
+        }
+*/
+.backlogTab .xpfl-roadmap-container .wux-controls-abstract.wux-controls-accordeon-container {
+            height: 100%;
+    display: table-cell;
+        }
+
+.backlogTab .xpfl-roadmap-container .wux-controls-expander-container.wux-controls-expander-filled-separate {
+    height: 100%;
+}
+
+.backlogTab .xpfl-roadmap-container .wux-controls-expander-body.wux-controls-expander-body-toggle {
+            /*height: calc(100% - 26px);*/
+            height: calc(100% - 40px);
+            width: 100%;
+        }
+
+.backlogTab .xpfl-roadmap-container .collapsedExpander {
+            height : 35px !important;
+        }
+
+.backlogTab .xpfl-roadmap-container .expandedExpander {
+            height : 97% !important;
+        }
+
+.backlogTab .xpfl-roadmap-container .normalExpander {
+            height : 50% !important;
+        }
+
+.field{
+  margin: 8px;
+  }
+
+  .fieldLabel {
+    position: initial;
+    background: white;
+    overflow: hidden;
+  font-size: 13.5px;
+    font-weight: bold;
+  }
+
+  .xpfl-roadmap-container .split-view-vertical-container .bot-container {
+    height: calc(100% - 65px) !important;
+  }
+
+  .xpfl-roadmap-container .split-view-vertical-container .bot-container .triptych-right-content {
+    border: 2px solid #b4b6ba !important;
+    overflow: hidden;
+  }
+
+  .roadmap-informationPanel-facets .characteristics-editor-view .characteristics-view-icons-bar {
+      display: block !important;
+  }
+
+  .scoringmodel-form {
+    padding: '10px';
+    overflow-y: 'auto';
+  }
+
+  .xpfl-roadmap-container .listViewFooter {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    float: right;
+    display: none;
+    align-self: flex-end;
+  }
+
+.listViewFooter .listViewFooterContent {
+    float: right;
+}
+
+  .saveBtn {
+    margin-right: 10px;
+  }
+
+  .editAction {
+    display: none;
+    float: right;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+
+  .expandAction {
+    float: right;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+
+  .content-tab-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-tab-container > textarea {
+      display: none;
+    }
+
+.content-tab-container .rich-object-content {
+      flex: 1;
+      border: 1px #b4b6ba solid;
+    border-radius: 5px;
+}
+
+.content-tab-container .rich-object-content > div {
+        height: 100%;
+        border: 0;
+        /* border-radius: 10px; */
+        box-shadow: none;
+      }
+
+.content-tab-container .rich-object-content .cke_inner {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+}
+
+.content-tab-container .rich-object-content .cke_inner .cke_contents {
+          height: 100%;
+          flex: 1;
+        }
+
+.content-tab-container .content-actions-container {
+      text-align: right;
+      padding: 5px 0;
+    }
+
+.content-tab-container .content-actions-container button {
+    margin-left: 5px;
+  }
+
+.wux-ui-3ds-info:hover, .wux-ui-3ds-info.active {
+    color: #000 !important;
+}
+
+.wux-ui-3ds-eye:hover, .wux-ui-3ds-eye.active {
+    color: #000 !important;
+}
+
+#xpflRoadmapContainer .enox-generated-toolbar-container {
+  position: static !important;
+}
+
+.xpfl-roadmap-container .enox-generated-toolbar-actions {
+  align-items: inherit;
+}
+
+.xpfl-roadmap-container  #stableSeperator{
+  margin-top: 10px; }
+
+.xpfl-roadmap-container .rdmp_unit_context {
+  width: 350px !important; }
+
+  .xpfl-roadmap-container .enox-generated-toolbar-stable-container {
+    /* align-items: flex-start; */
+    align-items: baseline; }
+    .xpfl-roadmap-container .enox-generated-toolbar-stable-container .wux-controls-toolbar-farContainer {
+      z-index: 333;
+      overflow: visible;
+      align-items: flex-start; }
+    .xpfl-roadmap-container .enox-generated-toolbar-stable-container focus-within {
+      height: 200px; }
+    .xpfl-roadmap-container .enox-generated-toolbar-stable-container .ds-dialog .form {
+      padding: 0 0 0 0 !important; }
+    .xpfl-roadmap-container .enox-generated-toolbar-stable-container .wux-tweakers-string.rdmp_unit_context .ds-dialog.ds-detail-display.ddv-view {
+      align-self: flex-start; }
+.rdmp_unit_context .form .form-group .object-list li .btn .fonticon {
+    font-size: 15px !important;
+  }
+
+.rdmp_unit_context .form .form-group li.object-card.active {
+    background: white !important;
+  }
+
+.rdmp_unit_context .form .form-group li.object-card:last-child {
+      background: white !important;
+  }
+
+.rdmp_unit_context .draggable-item .object-card-value {
+      float : left ;
+      color: black ;
+  }
+
+.rdmp_unit_context .object-list .autocomplete .autocomplete-item>* {
+    flex : 0 0 auto !important;
+  }
+
+.rdmp_unit_context .ds-dialog.ds-detail-display.ddv-view {
+    width:100%;
+  }
+
+.xpfl-roadmap-container .top-container.withoverflowhidden {
+    z-index: 5;
+    position: relative;
+    overflow: visible;
+}
+
+.xpfl-roadmap-container .bot-container.withoverflowhidden {
+    z-index: 0;
+    position: relative;
+}
+
+.rdmp_unit_context:focus-within {
+    height:250px;
+}
+
+.xpfl-roadmap-container .enox-generated-toolbar-actions .wux-controls-toolbar-farContainer {
+    align-items: flex-start;
+}
+.xpfl-roadmap-container .pendingBacklogItems .enox-generated-toolbar-actions .wux-controls-toolbar-farContainer {
+    align-items: flex-start;
+  margin-top: 27px;
+}
+.xpfl-roadmap-container .enox-generated-toolbar-stable-container .wux-controls-toolbar-farContainer {
+  align-items: flex-start; }
+
+.xpfl-roadmap-container .enox-generated-toolbar-actions .wux-controls-toolbar-farContainer .rdmp_unit_context .form.form-vertical.ddv-main {
+  padding: 0px;
+}
+
+.xpfl-roadmap-container .enox-generated-toolbar-actions .wux-controls-toolbar-farContainer .rdmp_unit_context .ds-dialog.ds-detail-display.ddv-view {
+  align-self: flex-start;
+}
+
+.xpfl-roadmap-container .rdmp_unit_context .autocomplete-suggestsDisplayed .autocomplete-suggests {
+  width:270px;
+  margin-top: 3px;
+}
+
+.xpfl-roadmap-container .rdmp_unit_context .object-list .autocomplete.autocomplete-filled .autocomplete-input.form-control {
+	padding-right: 0px;
+}
+
+.xpfl-roadmap-container .rdmp_unit_context .wux-controls-toolbar.wux-toolbar-horizontal .wux-controls-toolbar-separator, .xpfl-roadmap-container .wux-controls-toolbar.wux-toolbar-horizontal .wux-controls-toolbar-category-separator {
+    border-right: 0px;
+}
+
+.rdmp_unit_context .form .form-group .object-list li .actions {
+    display: none;
+}
+
+.xpfl-roadmap-container .enox-generated-toolbar-container .enox-generated-toolbar-actions {
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    float: right;
+    align-items: flex-start;
+    position: absolute;
+}
+.ideationstreams .wux-controls-autoComplete{
+  width: 350px;
+  margin-top: -10px;
+}
+#roadmap-settings-dialog .wux-controls-combobox{
+  margin-top: -10px
+}
+#roadmap-settings-dialog .wux-controls-abstract .wux-controls-combobox[touch-mode] {
+  margin-top: -10px;
+  width: 350px;
+}
+.backlogListContainer .xmdllv-collectiontoolbar-container .enox-generated-toolbar-stable-container {
+  display: none
+}
+.backlogListContainer .xmdllv-collectiontoolbar-container .enox-generated-toolbar-unstable-container {
+  margin-top : -50px
+}
+.backlogListContainer .xmdllv-collectiontoolbar-container #stableSeperator {
+  display: none
+}
+.ideationstreams .searchButton{
+      /* display: flex; */
+      height: 37px;
+      margin-left: -8px;
+      margin-top: -2px;
+      /* border: 1px solid #b4b6ba; */
+      width: 30px;
+      align-items: center;
+}
+#roadmap-settings-dialog .wux-controls-combobox[touch-mode] {
+  width: 350px;
+  float: right;
+  margin-left: 40px;
+}
+.listViewCommunityInfo {
+  line-height: 13px;
+  max-height: 26px;
+  color: #78befa; }
+.xpfl-roadmap-container .xmodel-list-view .xmdllv-collectiontoolbar-container {
+    height: 10px;
+}
+
+.module a:hover{
+	text-decoration: underline;
+}

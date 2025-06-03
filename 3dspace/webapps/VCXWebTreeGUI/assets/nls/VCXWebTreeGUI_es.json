@@ -1,0 +1,13 @@
+{
+  "VCXAssembly.PanelTitle": "Ensamblaje",
+  "CIDAssembly.PanelTitle": "Contenido",
+  "VCXDesign.PanelTitle": "Diseño",
+  "SelectionSets": "Conjuntos de selecciones",
+  "Hotspots": "Zonas activas",
+  "VCXStyles.PanelTitle": "Estilos",
+  "VCXTreeToolbarSelectLeaves": "Seleccionar hojas descendientes",
+  "VCXTreeToolbarChgSelectionVis": "Cambiar la visibilidad de la selección",
+  "VCXTreeToolbarNewSelectionSet": "Crear un nuevo conjunto de selección con la selección actual",
+  "VCXHideDressupsCmd": "Ocultar todos los arreglos",
+  "VCXTreeToolbarCollapseAll": "Plegar la estructura"
+}

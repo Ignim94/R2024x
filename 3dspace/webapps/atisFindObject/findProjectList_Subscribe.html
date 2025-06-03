@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+  <head>
+	<link rel="stylesheet" type="text/css" href="../../common/styles/emxUIForm.css">	
+	<!-- 
+		DS/3DXHighcharts/3DXHighcharts
+		DS/PlatformAPI/PlatformAPI : 위젯 간 데이터공유 & 연계 (publish )	
+		DS/ENO6WPlugins/jQuery
+		DS/i3DXCompassServices/i3DXCompassServices
+		
+		 function(API, jQuery){} 대신  function(API, $){}) 도 가능. cmgi3DXCompassServices
+	-->
+	<script>
+			
+		require(["DS/PlatformAPI/PlatformAPI",
+			     "DS/i3DXCompassServices/i3DXCompassServices",
+			 	 "DS/WAFData/WAFData" ], function(API, i3DXCompassServices, WAFData){
+				
+				let x3dPlatformId = widget.getValue("x3dPlatformId");
+				let myWidget = {
+					drawingTable : function(dataRep){
+			
+						let table = "<table class='form'>";
+						for (let key in dataRep) {
+					        if (dataRep.hasOwnProperty(key)) {
+					            // ✅ 데이터 값에서 ','를 기준으로 분리 (첫 번째 값 = 제목, 두 번째 값 = 내용)
+					        	//console.log("Key:....................................................... " + key);  // key 값 확인
+					            //console.log("Value check: " + dataRep[key]);  // value 값 확인
+					            
+					            let [title, value] = dataRep[key].split(",");
+					            //console.log("Title: " + title);  // title 값 확인
+					            //console.log("Value: " + value);  // value 값 확인
+
+					            table += "<tr>" +
+					                             "<td class='label' id='projectInfo_"+key+"'>" + title.trim() + "</td>" +
+					                             "<td class='field'>" + (value.trim() === "null" ? "" : value.trim()) + "</td>" +
+					                         "</tr>";
+					        }	//jQuery로 Table 생성하는걸로 변경
+					    }
+						table += "</table>";
+						widget.body.innerHTML = table;	  
+					},
+					displayData : function(){
+							
+					},
+					getData: function(oid){
+						i3DXCompassServices.getServiceUrl({
+							serviceName : "3DSpace",
+							platformId : x3dPlatformId,
+							onFailure : function(result) {
+								alert(result);
+							},
+							onComplete : function(serviceUrl) {
+								let restUrl = "";
+								//restUrl = serviceUrl
+								//		+ "/resources/CommonModel/findObject";
+								//alert(restUrl);
+								restUrl = "https://local.3ds.org/3dspace"
+										+ "/resources/CommonModel/ObjectInfo";
+								//alert(restUrl);
+								WAFData.authenticatedRequest(restUrl, {
+									method : 'GET',
+									data : {'oid':oid,
+									}, //data는 optional임. restURl 호출을 했을 때, /Path가 findObjectd인 해당 파일에서 request.getParameter같은걸로 받아서 쓸 수 있음.
+									type : 'json',
+									onFailure : function(result) {
+										alert(result);
+										widget.body.innerHTML = "rest Service Error: "
+												+ result;
+									},
+									onComplete : function(dataRep) {
+
+										//console.log(dataRep);
+										myWidget.drawingTable(dataRep);
+										console.log("Good");
+									}
+								});
+							}
+						});
+					},
+					onLoadWidget: function(){
+						widget.body.innerHTML = "Platform API TEST ===> Subscribe16";
+						
+						API.subscribe("PlatformAPITest", function( data ){
+							let oid = data.oid;
+							myWidget.getData(oid);
+							widget.body.innerHTML = "object id: "+ oid;
+						});
+					},
+					
+					
+				};
+				
+				
+				API.subscribe("PlatformAPITest", function( data ){
+					
+				});
+				widget.addEvent("onLoad", myWidget.onLoadWidget);
+				API.publish 
+				
+			});
+		
+	</script>
+	
+	
+  </head>
+  <body>
+  </body>
+  
+</html>
+
+

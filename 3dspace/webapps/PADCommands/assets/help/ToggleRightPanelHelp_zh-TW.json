@@ -1,0 +1,5 @@
+{
+"ToggleRightPanel.Title":"顯示側邊面板",
+"ToggleRightPanel.ShortHelp":"在側邊窗格的不同標籤中顯示所選物件的相關資訊。",
+"ToggleRightPanel.LongHelp":"可用的標籤取決於其啟動的來源應用程式，以及所選擇的物件類型。"
+}

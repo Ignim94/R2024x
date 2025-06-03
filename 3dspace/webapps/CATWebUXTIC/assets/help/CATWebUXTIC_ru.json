@@ -1,0 +1,14 @@
+{
+"CATWebUXGenerateIssueHdr.Title":"Сгенерировать проблему",
+"CATWebUXGenerateIssueHdr.ShortHelp":"Позволяет создать проблему.",
+"CATWebUXGenerateCAHdr.Title":"Создать задание на изменение",
+"CATWebUXGenerateCAHdr.ShortHelp":"Позволяет создать задание на изменение.",
+"CATWebUXGenerateIssueTemplateHdr.Title":"Создать неполадку из шаблона",
+"CATWebUXGenerateIssueTemplateHdr.ShortHelp":"Позволяет создать неполадку на основе шаблона.",
+"PIMWebUXGenerateCAHdr.Title":"Создать задание на изменение",
+"PIMWebUXGenerateCAHdr.ShortHelp":"Позволяет создать задание на изменение.",
+"PIMWebUXGenerateIssueHdr.Title":"Создать проблему",
+"PIMWebUXGenerateIssueHdr.ShortHelp":"Позволяет создать проблему.",
+"PIMWebUXGenerateIssueTemplateHdr.Title":"Создать неполадку из шаблона",
+"PIMWebUXGenerateIssueTemplateHdr.ShortHelp":"Позволяет создать неполадку на основе шаблона."
+}

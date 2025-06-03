@@ -1,0 +1,5 @@
+{
+"ToggleRightPanel.Title":"Afficher le panneau latéral",
+"ToggleRightPanel.ShortHelp":"Affiche des informations sur l'objet sélectionné sous différents onglets d'un panneau latéral.",
+"ToggleRightPanel.LongHelp":"Les onglets disponibles dépendent de l'app à partir de laquelle ils sont lancés et du type d'objet sélectionné."
+}

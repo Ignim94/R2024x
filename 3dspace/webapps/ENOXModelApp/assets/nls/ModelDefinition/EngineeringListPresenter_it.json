@@ -1,0 +1,15 @@
+{
+  "_title": "Elenco degli elementi di progettazione",
+  "_priority": "Priorità",
+  "_items": "Elementi",
+  "_item": "Articolo",
+  "_associate": "Associa",
+  "_open": "Apri",
+  "_physicalProduct": "Prodotto fisico",
+  "_inWork": "In corso",
+  "_private": "Privato",
+  "_frozen": "Congelato",
+  "_released": "Rilasciato",
+  "_obsolete": "Obsoleto",
+  "_emptyPanelMessage": "Non è stato configurato un prodotto fisico per la versione del modello"
+}

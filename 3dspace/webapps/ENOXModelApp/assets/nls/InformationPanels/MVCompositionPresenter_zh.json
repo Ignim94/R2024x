@@ -1,0 +1,21 @@
+{
+  "ERROR_DATA_LOAD_TITLE": "获取模型版本组合时出错。",
+  "ERROR_DATA_ADD_TITLE": "添加模型版本组合时出错。",
+  "ERROR_DATA_REMOVE_TITLE": "移除模型版本组合时出错。",
+  "ERROR_DATA_REPLACE_TITLE": "替换模型修订版时出错。",
+  "ERROR_DATA_DEFAULT_TITLE": "您无法执行操作。",
+  "ERROR_DATA_LOAD_MSG": "验证您是否有权访问此对象。",
+  "ERROR_SAME_REVISION_TITLE": "已选择相同修订版",
+  "ERROR_SAME_REVISION_MSG": "选择要替换的不同修订版",
+  "title_label": "标题",
+  "revision_label": "修订版",
+  "isLastRevision_label": "是最新修订版",
+  "modelName_label": "模型名称",
+  "owner_label": "所有者",
+  "type_label": "类型",
+  "add_action_label": "添加模型版本",
+  "replace_action_label": "替换为修订版",
+  "remove_action_label": "移除",
+  "information_action_label": "信息",
+  "searchLabel": "选择模型版本"
+}

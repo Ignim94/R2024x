@@ -1,0 +1,7 @@
+.xcad-modal{
+    width:800px;
+    height:600px;
+    overflow:hidden;
+    padding:0;
+    z-index:40039 !important; 
+}

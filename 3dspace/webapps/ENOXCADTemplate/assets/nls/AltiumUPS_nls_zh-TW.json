@@ -1,0 +1,16 @@
+{
+  "AltiumPCBProject.label": "Altium PCB 專案",
+  "AltiumSchematic.label": "Altium 示意圖",
+  "PrintedCircuitBoard.label": "Altium 布局",
+  "AltiumPCBProjectTemplate.label": "Altium PCB 專案",
+  "AltiumSchematicTemplate.label": "Altium 示意圖",
+  "AltiumLayoutTemplate.label": "Altium 布局",
+  "field.title.label": "標題",
+  "field.title.placeholder": "在此輸入標題",
+  "field.description.label": "說明",
+  "field.description.placeholder": "在此輸入簡短說明",
+  "field.name.label": "名稱",
+  "field.name.AltiumPCBProject.placeholder": "在此輸入 Altium PCB 專案名稱",
+  "field.name.AltiumSchematic.placeholder": "在此輸入 Altium 示意圖名稱",
+  "field.name.PrintedCircuitBoard.placeholder": "在此輸入 Altium 布局名稱"
+}

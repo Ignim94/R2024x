@@ -1,0 +1,12 @@
+m|DELPXPCorpusWeb\DelmiaCorpusBaseTypings.mweb
+b|j|n,u
+b|c|c,m
+v|6.426.4.24106|3.2
+r|G:\R426\BSF\.
+t|DELPXPCorpusWeb\DelmiaCorpusBaseTypings.mweb\LocalGenerated\win_b64\DELCorpusBuiltIn.js|1713216230|258
+s|DELPXPCorpusWeb\DelmiaCorpusBaseTypings.mweb\src\DELCorpusBuiltIn.ts|1707726864|762
+t|win_b64\typings\DelmiaCorpusBaseTypings\DELCorpusBuiltIn.d.ts|1713216230|473
+s|DELPXPCorpusWeb\DelmiaCorpusBaseTypings.mweb\src\DELCorpusBuiltIn.ts|1707726864|762
+t|win_b64\webapps\DelmiaCorpusBaseTypings\DELCorpusBuiltIn.js|1713216230|258
+g|DELPXPCorpusWeb\DelmiaCorpusBaseTypings.mweb\LocalGenerated\win_b64\DELCorpusBuiltIn.js|1713216230|258
+u|DELPXPCorpusWeb\DelmiaCorpusBaseTypings.mweb\src\DELCorpusBuiltIn.ts|1707726864|762

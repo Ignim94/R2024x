@@ -1,0 +1,15 @@
+{
+  "_title": "工程项目列表",
+  "_priority": "优先级",
+  "_items": "项目",
+  "_item": "项目",
+  "_associate": "关联",
+  "_open": "打开",
+  "_physicalProduct": "物理产品",
+  "_inWork": "工作中",
+  "_private": "私人",
+  "_frozen": "已冻结",
+  "_released": "已发布",
+  "_obsolete": "作废",
+  "_emptyPanelMessage": "您的模型版本没有任何已配置的物理产品"
+}

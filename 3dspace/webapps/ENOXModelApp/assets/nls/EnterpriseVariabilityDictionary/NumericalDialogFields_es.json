@@ -1,0 +1,18 @@
+{
+  "_panelTitle": "Crear parámetro numérico",
+  "_titleLabel": "Título",
+  "_dimensionLabel": "Cota",
+  "_unitLabel": "Unidad",
+  "_kindLabel": "Tipo",
+  "_rangeLabel": "Intervalo",
+  "_integerKindLabel": "Entero",
+  "_realKindLable": "Real",
+  "_minValueLabel": "Valor mín.",
+  "_maxValueLabel": "Valor máx.",
+  "_noDimensionLabel": "Sin dimensión",
+  "_okAction": "Aceptar",
+  "_cancelAction": "Cancelar",
+  "_mandatoryFieldError": "Introduzca los campos obligatorios",
+  "_incorrectRangeError": "El valor mínimo debe ser inferior al valor máximo",
+  "_uniqueNameError": "El nombre (título) del parámetro numérico ya existe"
+}

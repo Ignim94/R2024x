@@ -1,0 +1,21 @@
+{
+  "activities": "Start Activities",
+  "enterprise_variability_dictionary": "Enterprise Variability",
+  "favorite_items": "Favorite items",
+  "model_definition": "Model Versions",
+  "my_work": "My work",
+  "recent_items": "Recent Items",
+  "_home" :  "Home",
+
+  "start_activities" : "Start Activities",
+  "new_model_version" : "New Model Version",
+  "open_model_version" : "Open Model Version",
+  "start_new_activity" : "Start a New Activity",
+
+  "quick_access" : "Quick Access",
+  "my_model_versions": "My Model Versions",
+  "recently_opened" : "Recent",
+  "enterprise_variability" : "Enterprise Variability",
+  "my_units" : "My Units",
+  "access_your_work": "Access Your Work"
+}

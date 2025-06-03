@@ -1,0 +1,63 @@
+.csiegui-content-version {
+  box-sizing: border-box;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0px 10px 0px 10px; }
+  .csiegui-content-version > span {
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: medium; }
+  .csiegui-content-version .wux-controls-toggle:not([touch-mode]).wux-controls-switch .wux-label {
+    margin-left: 5px;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: medium; }
+  .csiegui-content-version .csiegui-help-link > span {
+    color: orange;
+    margin-right: 5px;
+    font-size: 20px;
+    top: -1px;
+    position: relative; }
+  .csiegui-content-version.csiegui-content-version-play {
+    margin: 0px; }
+    .csiegui-content-version.csiegui-content-version-play > span {
+      font-size: 12px; }
+    .csiegui-content-version.csiegui-content-version-play .wux-controls-toggle:not([touch-mode]).wux-controls-switch .wux-label {
+      font-size: 12px; }
+    .csiegui-content-version.csiegui-content-version-play .csiegui-help-link > span {
+      font-size: 14px;
+      top: 0px; }
+
+.csiegui-save-graph-dialog {
+  box-sizing: border-box; }
+  .csiegui-save-graph-dialog .sch-dialog-content {
+    user-select: none;
+    height: auto; }
+    .csiegui-save-graph-dialog .sch-dialog-content .csiegui-content-title {
+      box-sizing: border-box;
+      font-weight: bold;
+      font-size: medium;
+      padding: 10px; }
+    .csiegui-save-graph-dialog .sch-dialog-content .wux-controls-button {
+      display: flex;
+      padding: 10px;
+      margin: 10px; }
+      .csiegui-save-graph-dialog .sch-dialog-content .wux-controls-button .wux-button-icon-placeholder {
+        margin-left: 10px;
+        color: #42a2da; }
+      .csiegui-save-graph-dialog .sch-dialog-content .wux-controls-button .csiegui-button-content {
+        flex-grow: 1;
+        padding-left: 20px;
+        padding-right: 10px; }
+        .csiegui-save-graph-dialog .sch-dialog-content .wux-controls-button .csiegui-button-content div {
+          white-space: break-spaces; }
+          .csiegui-save-graph-dialog .sch-dialog-content .wux-controls-button .csiegui-button-content div:first-child {
+            font-weight: bold;
+            font-size: medium; }
+          .csiegui-save-graph-dialog .sch-dialog-content .wux-controls-button .csiegui-button-content div:last-child {
+            font-style: italic; }
+
+.csiegui-help-link {
+  box-sizing: border-box;
+  cursor: help; }

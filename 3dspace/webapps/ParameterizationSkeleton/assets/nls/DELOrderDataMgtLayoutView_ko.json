@@ -1,0 +1,12 @@
+{
+  "NbDigits": "자릿수",
+  "NbDigitsInfo": "자릿수의 경우 양의 정수는 6자리 이상이어야 하며, 수식 길이는 40자를 초과할 수 없습니다.",
+  "PrefixValueEmptyInfo": "접두사는 비워 둘 수 없습니다.",
+  "NbDigitsNaN": "자릿수는 6보다 큰 양의 정수입니다.",
+  "Dash": "-",
+  "Under_Score": "_",
+  "Dot": ".",
+  "Plus": "+",
+  "Slash": "/",
+  "Empty": ""
+}

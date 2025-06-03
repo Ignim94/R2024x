@@ -1,0 +1,19 @@
+{
+  "sourcing.notification.event.request.statusChange.setting": "我的请求或分配的请求已被批准/拒绝",
+  "sourcing.notification.event.request.duedate.setting": "我的请求或分配的请求将接近其到期日期",
+  "sourcing.notification.event.request.needclarification.setting": "我的请求或分配的请求需要澄清",
+  "sourcing.notification.event.request.submit.setting": "我的请求或分配的请求已提交",
+  "sourcing.notification.event.memberAccessUpdate.setting": "成员已在我的请求或分配的请求中添加或移除",
+  "sourcing.notification.event.request.promoted.setting": "我的请求或分配的请求更改成熟度",
+  "sourcing.notification.person.request.submit.msg": "<strong>###REQUESTOWNER###</strong> 已为您分配 <strong>###REQUESTNAME###</strong>。所需操作的到期日期为 <strong>###DUEDATE###</strong>。",
+  "sourcing.notification.person.request.promote.msg": "<strong>###REQUESTOWNER###</strong> 已将 <strong>###REQUESTNAME###</strong> 请求升级到 <strong>###STATE###</strong> 状态。",
+  "sourcing.notification.person.request.demote.msg": "<strong>###REQUESTOWNER###</strong> 已将 <strong>###REQUESTNAME###</strong> 请求降级到 <strong>###STATE###</strong> 状态。",
+  "sourcing.notification.person.request.duedate.msg": "<strong>###REQUESTNAME###</strong> 已超过其到期日期。到期日期 <strong>###DUEDATE###</strong>。",
+  "sourcing.notification.person.request.approve.msg": "<strong>###REQUESTOWNER###</strong> 已批准请求 <strong>###REQUESTNAME###</strong>。",
+  "sourcing.notification.person.request.reject.msg": "<strong>###REQUESTOWNER###</strong> 已拒绝请求 <strong>###REQUESTNAME###</strong>。",
+  "sourcing.notification.person.request.cancel.msg": "<strong>###REQUESTOWNER###</strong> 已取消请求 <strong>###REQUESTNAME###</strong>。",
+  "sourcing.notification.person.request.needsclarification.msg": "<strong>###requestAsignee###</strong> 已发送需要说明的 <strong>###REQUESTNAME###</strong> 请求。",
+  "sourcing.notification.person.request.submitclarification.msg": "<strong>###REQUESTOWNER###</strong> 已提交请求 <strong>###REQUESTNAME###</strong> 的说明",
+  "sourcing.notification.person.memberAccessUpdate.msg": "<strong>###GRANTOR###</strong> 已将您作为 <strong>###REQUESACCESS###</strong> 添加到 <strong>###REQUESTNAME###</strong> 上",
+  "sourcing.notification.person.memberAccessDelete.msg": "<strong>###GRANTOR###</strong> 已将您作为 <strong>###REQUESACCESS###</strong> 从 <strong>###REQUESTNAME###</strong> 上移除"
+}

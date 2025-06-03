@@ -1,0 +1,1 @@
+define("DS/3DWorkbook/js/models/WkbNavPanelModel",["UWA/Core","UWA/Class","DS/3DWorkbook/js/WkbUtils","UWA/Promise","DS/CoreEvents/ModelEvents"],function(o,e,s,W,k){});

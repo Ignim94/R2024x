@@ -1,0 +1,1 @@
+define("DS/DocumentMultiFilePreview/DocumentMultiFilePreview_cs",{});define("DS/DocumentMultiFilePreview/assets/nls/DocumentPreview",{Maximize:"Maximalizovat",Close:"Zavřít",Restore:"Obnovit",Download:"Stáhnout",Download_File:"Stáhnout soubor",Download_Document:"Stáhnout dokument",INFORMATION:"Informace"});

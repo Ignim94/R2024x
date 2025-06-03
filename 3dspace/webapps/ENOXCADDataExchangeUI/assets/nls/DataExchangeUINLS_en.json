@@ -1,0 +1,11 @@
+{
+	"xcadimport.modal.title": "Import Package",
+	"browse.Folder.DialogTitle": "Click to browse file on disk",
+	"xcadimport.drive.label" : "3D Drive",
+	"xcadimport.disk.radio.label" : "File on disk",
+	"xcadimport.select.button.label" : "Open",
+	"xcadimport.cancel.button.label" : "Cancel",
+	"xcadimport.zip.selection" : "Please select a proper package file",
+	"exchange_app_close": "Close",
+	"exchange_app_close_info": "App before launching new Export or Import"
+}

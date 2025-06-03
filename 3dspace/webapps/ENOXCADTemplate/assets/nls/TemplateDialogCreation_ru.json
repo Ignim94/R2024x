@@ -1,0 +1,23 @@
+{
+  "notSpecified": "Не указано",
+  "title": "Заголовок",
+  "titleerrortext": "Введите заголовок.",
+  "titleplaceholder": "Введите название здесь",
+  "description": "Описание",
+  "descplaceholder": "Введите краткое описание здесь",
+  "targetype": "Целевой тип 3DEXPERIENCE",
+  "targettypeerrortext": "Укажите целевой тип 3DEXPERIENCE.",
+  "file": "Файл",
+  "fileerror": "Выберите файл.",
+  "fileplaceholder": "Выбрать файл",
+  "browse": "Обзор",
+  "cancel": "Отмена",
+  "save": "Сохранить",
+  "createshared": "Создать как выпущенный",
+  "createprivate": "Создать как черновик",
+  "reset": "Сброс",
+  "createtemplate": "Создать шаблон",
+  "edittemplate": "Редактировать шаблон",
+  "createAs": "Создать как ",
+  "createAsInWork": "Создать как в состоянии В работе"
+}

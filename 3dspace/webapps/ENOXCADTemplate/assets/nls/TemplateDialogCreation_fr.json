@@ -1,0 +1,23 @@
+{
+  "notSpecified": "Non spécifié",
+  "title": "Titre",
+  "titleerrortext": "Entrez un titre.",
+  "titleplaceholder": "Entrer le titre ici",
+  "description": "Description",
+  "descplaceholder": "Entrer une courte description ici",
+  "targetype": "Type 3DEXPERIENCE cible",
+  "targettypeerrortext": "Spécifiez un type 3DEXPERIENCE cible.",
+  "file": "Fichier",
+  "fileerror": "Sélectionnez un fichier.",
+  "fileplaceholder": "Sélectionner un fichier",
+  "browse": "Parcourir",
+  "cancel": "Annuler",
+  "save": "Enregistrer",
+  "createshared": "Créer à l'état Distribué",
+  "createprivate": "Créer comme brouillon",
+  "reset": "Réinitialiser",
+  "createtemplate": "Créer un modèle",
+  "edittemplate": "Editer un modèle",
+  "createAs": "Créer comme ",
+  "createAsInWork": "Créer comme En traitement"
+}

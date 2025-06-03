@@ -1,0 +1,5 @@
+{
+"ToggleRightPanel.Title":"Seitenbereich anzeigen",
+"ToggleRightPanel.ShortHelp":"Zeigt Informationen über das ausgewählte Objekt auf verschiedenen Registerkarten in einem Navigationsbereich.",
+"ToggleRightPanel.LongHelp":"Die verfügbaren Registerkarten hängen von der App ab, aus der der Befehl gestartet wird, und dem Typ des ausgewählten Objekts."
+}

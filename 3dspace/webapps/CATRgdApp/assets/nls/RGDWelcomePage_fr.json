@@ -1,0 +1,17 @@
+{
+  "WelcomeScreen.Title": "Conception du modèle de rapport",
+  "WelcomeScreen.linksCategories.ContentAndKnowledge": "Contenu et connaissance",
+  "WelcomeScreen.linksCategories.SocialNetworks": "Réseaux sociaux",
+  "WelcomeScreen.ContentAndKnowledge.linkText": "Assistance utilisateur",
+  "WelcomeScreen.WhatsNew.linkText": "Nouveautés",
+  "WelcomeScreen.SocialNetworks.linkText": "Communautés",
+  "WelcomeScreen.Buttons.New": "Créer un modèle",
+  "WelcomeScreen.Buttons.Open": "Ouvrir des modèles",
+  "WelcomeScreen.Buttons.Templates": "Modèles",
+  "WelcomeScreen.Buttons.ImportTemplates": "Importer des modèles",
+  "WelcomeScreen.Buttons.Config": "Configurer",
+  "WelcomeScreen.InputTypes.Done": "Terminé",
+  "loader": "Chargement...",
+  "quitConfiguration": "Quitter la configuration",
+  "message_quitConfiguration": "Les modifications actuelles peuvent être perdues, continuer ?"
+}

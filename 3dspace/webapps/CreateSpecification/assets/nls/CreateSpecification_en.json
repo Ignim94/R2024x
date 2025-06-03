@@ -1,0 +1,14 @@
+{
+	"NoResults": "Release snapshot template not found",
+	"NewSpecification": "New Document",
+	"NewEngineeringItem": "New Product",
+	"LoadingError": "An error occurred while loading the fields. Refresh the page.",
+	"SpecificationCreateSuccess": "The technical specification was created.",
+	"SpecificationCreateFailure": "An error occurred while creating the technical specification. Contact your Business Administrator.",
+	"PhysicalPrdCreateSuccess" : "The product was created.",
+	"PhysicalPrdCreateFailure" :"An error occurred while creating the product.",
+	"RequiredFields": "Specify values in all mandatory fields.",
+	"CreatingTechSpecLoader" : "Creating {title}...",
+	"CorrectFields" : "Correct the Fields.",
+	"SelectTemplate":"Select Template"
+}

@@ -1,0 +1,5 @@
+{
+  "sourcing.notification.event.memberAccessUpdate.setting": "自分の資格または割り当てられた資格にメンバーが追加または除去されました",
+  "sourcing.notification.person.memberAccessUpdate.msg": "<strong>###GRANTOR###</strong> さんによって <strong>###REQUESACCESS###</strong> として <strong>###REQUESTNAME###</strong> に追加されました",
+  "sourcing.notification.person.memberAccessDelete.msg": "<strong>###GRANTOR###</strong> さんが <strong>###REQUESACCESS###</strong> として <strong>###REQUESTNAME###</strong> で除去されました"
+}

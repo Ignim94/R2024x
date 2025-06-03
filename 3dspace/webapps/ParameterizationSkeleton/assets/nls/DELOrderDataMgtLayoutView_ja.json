@@ -1,0 +1,12 @@
+{
+  "NbDigits": "桁数",
+  "NbDigitsInfo": "桁数は 6 以上の正の整数でなければならず、式の長さは 40 文字以下です",
+  "PrefixValueEmptyInfo": "接頭部は空白にできません",
+  "NbDigitsNaN": "桁数は 6 より大きい正の整数です",
+  "Dash": "-",
+  "Under_Score": "_",
+  "Dot": ".",
+  "Plus": "+",
+  "Slash": "/",
+  "Empty": ""
+}

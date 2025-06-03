@@ -1,0 +1,13 @@
+{
+  "WelcomeScreen.Title": "Berichterstellung",
+  "WelcomeScreen.linksCategories.ContentAndKnowledge": "Inhalt & Wissen",
+  "WelcomeScreen.linksCategories.SocialNetworks": "Soziale Netzwerke",
+  "WelcomeScreen.ContentAndKnowledge.linkText": "Benutzerhilfe",
+  "WelcomeScreen.WhatsNew.linkText": "Neue Funktionen",
+  "WelcomeScreen.SocialNetworks.linkText": "Communitys",
+  "WelcomeScreen.Buttons.AddReport": "Bericht hinzufügen",
+  "WelcomeScreen.Buttons.Open": "Berichte öffnen",
+  "WelcomeScreen.Buttons.Reports": "Berichte",
+  "WelcomeScreen.Buttons.OutputFormats": "Ausgabeformate",
+  "WelcomeScreen.InvalidFileFormat": "Ungültiges Dateiformat"
+}

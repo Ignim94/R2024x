@@ -1,0 +1,20 @@
+{
+  "dsspec:ContinuousInstance.default": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:DefaultRelMask.public"
+    },
+    {
+      "property": "computed",
+      "key": "referencedObject",
+      "fetchOnce": false,
+      "example": ""
+    },
+    {
+      "property": "computed",
+      "key": "quantity",
+      "fetchOnce": false,
+      "example": ""
+    }
+  ]
+}

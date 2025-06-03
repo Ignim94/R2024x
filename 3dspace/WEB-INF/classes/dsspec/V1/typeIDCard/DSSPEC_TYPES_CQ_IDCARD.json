@@ -1,0 +1,19 @@
+{
+    "dsspec:ContinuousInstance": {
+       "isPublic":false,
+       "kindOf": "content",
+       "beType": "relationship_VPMInstance",
+       "rootLinks":["dseng:EngItem"],
+       "parentType":"dseng:EngInstance",
+       "customizationSupport":true,
+       "patchCSRF":true,
+       "cestamp":true,
+       "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsspec.V1.dictionaries.dsspecCQAttributeDictionary",
+       "defaultMask": "dsspec:ContinuousInstance.default",
+       "optionCheck" : {
+           "modify"      : true,
+           "produce"     : true,
+           "navigate"    : false
+       }
+   }
+}

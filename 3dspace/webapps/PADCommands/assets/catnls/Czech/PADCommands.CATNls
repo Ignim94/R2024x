@@ -1,0 +1,41 @@
+<meta charset="UTF-8"/>
+PADCommands.treelistview.Title="Zobrazení stromového seznamu";
+PADCommands.graphview.Title="Zobrazení grafu";
+PADCommands.tileview.Title="Zobrazení dlaždic";
+PADCommands.thumbnailview.Title="Zobrazení miniatur";
+
+PADCommands.XSCExpand.Title="Rozbalit";
+PADCommands.ExpandAll.Title="Rozbalit vše";
+PADCommands.ExpandN.Title="Rozbalit n úrovní";
+PADCommands.CollapseAll.Title="Sbalit vše";
+PADCommands.XSCSelect.Title="Vybrat";
+PADCommands.SelectChildren.Title="Vybrat potomky";
+PADCommands.SelectAll.Title="Vybrat všechny viditelné";
+PADCommands.SelectInversion.Title="Vybrat obráceně";
+PADCommands.SelectParent.Title="Vybrat rodiče";
+PADCommands.SelectSiblings.Title="Vybrat sourozence";
+PADCommands.SelectLeaves.Title="Vybrat listy";
+
+PADCommands.ReframeAll.Title="Zaměřit na vše";
+PADCommands.ReframeOn.Title="Přerámovat na";
+PADCommands.ToggleOverview.Title="Přepnout přehled";
+PADCommands.GraphLayoutMode.Title="Kompaktní/nekompaktní";
+PADCommands.LayoutDown.Title="Dole";
+PADCommands.LayoutRight.Title="Vpravo";
+PADCommands.LayoutUp.Title="Nahoře";
+PADCommands.LayoutLeft.Title="Vlevo";
+PADCommands.SwapThumbState.Title="Skrýt/zobrazit miniaturu";
+
+PADCommands.RootPanel.Title="Zobrazit kořeny";
+PADCommands.ToggleRightPanel.Title="Zobrazit boční panel";
+PADCommands.Properties.Title="Vlastnosti";
+PADCommands.RelationIPExplorer.Title="Vztahy";
+PADCommands.Print.Title="Tisk";
+PADCommands.PrintOptions.Title="Možnosti tisku";
+PADCommands.CleanAll.Title="Vymazat pohled";
+PADCommands.Find.Title="Vyhledat";
+PADCommands.ExportCSV.Title="Exportovat";
+PADCommands.ExportCSVOptions.Title="Možnosti exportu";
+PADCommands.ColumnVisibility.Title="Přizpůsobit pohled";
+
+PADCommands.OpenInCADHdr.Title="Otevřít";

@@ -1,0 +1,77 @@
+.toolbar-view-container {
+	width: 100%;
+	min-height: 40px;
+	height: 35px;
+	font-size: 18px;
+	background-color: white;
+	position: relative;
+	top: 0;
+}
+
+.toolbar-view-container .toolbar-element .panel-icon-wrapper {
+	cursor: pointer;
+	position: absolute;
+}
+
+.toolbar-view-container .toolbar-element .panel-icon-wrapper .fonticon {
+	margin: 0;
+	width: 100%;
+	color: #b4b6ba;
+}
+
+.toolbar-view-container .toolbar-element .panel-icon-wrapper .fonticon:hover
+	{
+	color: #368ec4;
+}
+
+.toolbar-view-container .toolbar-element .panel-icon-wrapper .fonticon.selected
+	{
+	color: #368ec4;
+}
+
+.toolbar-view-container .toolbar-element .panel-icon-wrapper.import-panel
+	{
+	right: 99px;
+	top: 4px;
+}
+
+.toolbar-view-container .toolbar-element .panel-icon-wrapper.information-panel
+	{
+	right: 72px;
+	top: 4px;
+}
+
+.toolbar-view-container .toolbar-element .panel-icon-wrapper.link-panel
+	{
+	right: 45px;
+	top: 4px;
+}
+
+.toolbar-view-container .toolbar-element .import-panel-seperator {
+	border-right: 2px solid #b4b6ba;
+    margin-right: 4px;
+    margin-left: 4px;
+    height: 70%;
+    position: absolute;
+    right: 30px;
+    top: 3px;
+}
+
+.toolbar-view-container .toolbar-element .panel-icon-wrapper.importzip-panel
+	{
+	right: 5px;
+	top: 4px;
+}
+
+.toolbar-view-container .toolbar-element .body-content {
+	position: absolute;
+	overflow: hidden;
+	height: 100%;
+	left: 38px;
+	width: calc(100% - 76px);
+}
+
+.toolbar-view-container .toolbar-element .body-content.noleftshift {
+	left: 5px;
+	width: calc(100% - 33px);
+}

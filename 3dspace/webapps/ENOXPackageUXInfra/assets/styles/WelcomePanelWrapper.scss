@@ -1,0 +1,501 @@
+.welcome-panel-section {
+  display: flex;
+  background-color: #003c5a !important;
+  flex-direction:column;
+  height:100%;
+}
+.welcome-panel-section > div {
+  font-size: 30px;
+}
+.welcome-panel-section > div.title-section 
+{
+ 				font-family: '3ds';
+    			font-size: 2.5rem;
+    			line-height: 3.5rem;
+    			font-weight: bold;
+    			text-align: center;
+    			color: white;
+    			margin-top:10px;
+}
+
+.welcome-panel-section > div.introduction-section  
+{
+ 				font-size: 1.75rem !important;
+                line-height: 1.25 !important;;
+                text-align: center;
+    			color: white;
+    			padding: 4px;
+}
+    			 
+.welcome-panel-section > div.custom-activity-section {
+  font-size: 30px;
+  width:100%;
+  height:100%;
+}
+.welcome-panel-view-container
+{
+ 	background-color: #003c5a !important;
+}
+
+ .welcome-panel-view-container  .welcome-panel-element .panel-content .activity-section .activity-btn {
+   height:52px !important;
+   width:100% !important;
+}
+
+.welcome-panel-view-container  .activity-section .activity-btn .fonticon
+{
+
+font-size:2.5rem !important;
+transform: scale(0.8, 0.8);
+}
+
+.welcome-panel-view-container .all-activity-section
+{
+	align-items: center;
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    width: 98%;
+    justify-content: center;
+}
+
+.welcome-panel-section > div.custom-footer-section
+	{
+    margin-top:auto; 
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+	flex: 0 0 auto;
+    padding-bottom:12px;
+    margin-left: 12rem;
+	}
+	
+div.custom-footer-section  > div.link-column.link-categories
+ {
+ 
+ columns: 1;
+ column-gap: 7rem;
+ }
+ 
+div.custom-footer-section > div.link-column.link-categories > .link-category
+ {
+ font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 0 1.3rem 0;
+    opacity: .85;
+    }
+    
+    
+div.custom-footer-section > div.user-assistance.link-column.link-items
+ {
+ column-rule: thin solid white;
+ columns: 2;
+ column-gap: 7rem;
+ 
+ }
+ 
+ 
+ div.custom-footer-section > div.user-assistance.link-column.link-items > .link-item
+{
+	display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    transition: background-color .15s ease-in-out;
+    width: 140%;
+
+}
+
+
+div.custom-footer-section .link-column.link-items .link-item .link-anchor {
+    color: white;
+    opacity: .85;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+ div.custom-footer-section .link-column.link-items .link-item .link-anchor:hover {
+    opacity: 1;
+}
+
+
+div.custom-footer-section .link-column.link-items .link-item .link-anchor:hover .link-title {
+    text-decoration: underline;
+    color: white;
+}
+
+
+div.custom-footer-section .link-column.link-items .link-item .link-anchor:hover {
+    opacity: 1;
+}
+
+.welcome-panel-view-container .welcome-panel-element .separator {
+	display:none;
+}
+
+.welcome-panel-view-container .welcome-panel-element .panel-content .activity-section .activity-btn
+{
+   
+    color: white !important;
+    font-weight: normal;
+    text-align: center;
+    font-size:1.6rem;
+    
+    justify-content: center !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-radius: .4rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    padding-right: 10px;
+}
+
+.welcome-panel-view-container .welcome-panel-element .panel-content .activity-section .activity-btn:hover
+{
+   background-color: rgba(255,255,255,0.2);
+}
+
+.welcome-panel-view-container .welcome-panel-element .activity-section .text-element
+{
+
+    margin: 0 0 0 .5rem !important;
+    white-space: nowrap !important;
+    color: white !important;
+    /* overflow: hidden; */
+    text-overflow: ellipsis !important;
+    font-weight: normal !important;
+    font-family: Arial,sans-serif !important;
+    padding-left:0px !important
+
+}
+
+
+.welcomePanelSection{
+	height:100%;
+}
+
+.welcomePanelFirstDiv{
+	height:100%;
+}
+
+
+
+/* selected button*/
+/* CSS changes for selected command in activity section*/
+.welcome-panel-view-container .welcome-panel-element .panel-content .activity-section .activity-btn.selected
+{
+
+
+    color: white !important;
+    border-left: 0px solid !important;
+    background-color: #fff !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.2)) !important;
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.2)) !important;
+    z-index: 5000 !important;
+    position: relative;
+    will-change: filter;
+
+}
+
+/* CSS changes for command in activity section collapsed mode*/
+.welcome-panel-view-container .welcome-panel-element .activity-section  .activity-btn.selected .text-element
+{
+color: #005686 !important;
+}
+
+/* CSS changes for font icon in activity section*/
+.welcome-panel-view-container .welcome-panel-element .activity-section .activity-btn.selected .fonticon
+{
+	color: #005686 !important;
+}
+
+/* CSS changes for selected command in activity section */
+.welcome-panel-view-container .welcome-panel-element .activity-section  .activity-btn.selected:after
+{
+    content: '' !important;
+    position: absolute !important;
+    width: 23% !important;
+    right: -13.5%;
+    background: #fff !important;
+    display: block !important;
+    top: -1px !important;
+    bottom: -1px !important;
+    clip-path: polygon(86% 0,30% 0,30% 100.9%,86% 100.9%,100% 50%);
+    -webkit-clip-path: polygon(86% 0,30% 0,30% 100.9%,86% 100.9%,100% 50%);
+    box-sizing: border-box !important;
+ }
+
+
+/* collapsed Mode*/
+.welcome-panel-view-container.collapsed .activity-section .text-element {
+    display: none;
+}
+
+.welcome-panel-section.collapsed .title-section {
+    display: none;
+}
+
+.welcome-panel-section.collapsed .introduction-section {
+    display: none;
+}
+
+
+
+.welcome-panel-view-container.collapsed .activity-section .activity-btn .fonticon
+{
+
+    margin-left: 0 !important;
+    color: white !important;
+    padding-right: 0px !important;
+    transform: scale(0.8, 0.8);
+
+}
+
+
+.welcome-panel-view-container.collapsed   .welcome-panel-element .activity-section .activity-btn.selected:after
+{
+
+display:none !important
+
+}
+
+.welcome-panel-view-container.collapsed .welcome-panel-element .panel-content .activity-section .activity-btn.selected
+{
+
+background-color: rgba(255,255,255,0.2) !important;
+
+}
+
+.welcome-panel-view-container.collapsed .welcome-panel-element .activity-section .activity-btn.selected .fonticon
+{
+
+color: white !important;
+}
+
+.welcome-panel-section.collapsed .custom-footer-section #content_knowledge
+{
+
+	display:none !important;
+
+}
+
+.welcome-panel-section.collapsed .custom-footer-section > div.user-assistance.link-column.link-items
+ {
+ columns: 1;
+ 
+ }
+ 
+ .welcome-panel-section.collapsed .custom-footer-section > div.user-assistance.link-column.link-items > .link-item
+ {
+  margin-left: -20px;
+  font-size: 2rem;
+  width: 250%;
+ 
+ }
+ 
+ .welcome-panel-view-container.collapsed .activity-section .activity-btn .fonticon
+{
+
+    margin-left: 0 !important;
+    color: white !important;
+    padding-right: 0px !important;
+    transform: scale(0.8, 0.8);
+
+}
+
+/* CSS changes for command in activity section collapsed mode*/
+.welcome-panel-view-container.collapsed .welcome-panel-element .panel-content .activity-section .activity-btn
+{
+	border-style: 0 !important;
+    border-width: 0 !important;
+    height: 40px !important;
+    margin: 0 !important;
+    padding-right:0 !important;
+}
+
+.welcome-panel-section.collapsed > div.custom-footer-section
+{
+    margin-left: 2.5rem !important;
+}
+
+
+.welcome-panel-view-container .welcome-panel-element .activity-section{
+    width: 90% !important;
+}
+
+.welcome-panel-view-container .scroller-content.no-native-scrollbars {
+    overflow-x: visible;
+    overflow-y: visible;
+    -ms-overflow-style: none;
+}
+
+
+.welcome-panel-view-container.collapsed .activity-section{
+	width:100% !important;
+	padding:0 !important;
+} 
+
+@media screen and (max-height:640px) and (max-width:360px){
+
+.welcome-panel-section .scroller-content {
+	    position: relative;
+}
+
+ .welcome-panel-section > div.custom-activity-section {
+
+  font-size: 30px;
+  width:100%;
+  height:100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.welcome-panel-section > div.title-section 
+{
+ 				font-family: '3ds';
+    			font-size: 2rem;
+    			line-height: 3rem;
+    			font-weight: bold;
+    			text-align: center;
+    			color: white;
+}
+
+.welcome-panel-section > div.introduction-section  
+{
+ 				font-size: 15px !important;
+                font-weight: normal !important;
+                line-height: 18px !important;
+                text-align: center;
+    			color: white;
+}
+
+.welcome-panel-view-container{
+	border-right:0 !important;
+	 margin: 0 5px 0 -2px !important;
+}
+
+.welcome-panel-view-container .welcome-panel-element .activity-section .activity-btn {
+	width:100% !important;
+	font-size:1.2rem !important;
+}
+
+.welcome-panel-view-container.expanded .activity-section {
+    margin-left: -15px !important;
+    padding: 5px 15px 5px 10px !important;
+}
+
+.welcome-panel-view-container .welcome-panel-element .activity-section  .activity-btn.selected:after
+{
+    content: '' !important;
+    position: absolute !important;
+    width: 23% !important;
+    right: -11.5% !important;
+    background: #fff !important;
+    display: block !important;
+    top: -1px !important;
+    bottom: -1px !important;
+    clip-path: polygon(86% 0,30% 0,30% 100.9%,86% 100.9%,100% 50%);
+    -webkit-clip-path: polygon(86% 0,30% 0,30% 100.9%,86% 100.9%,100% 50%);
+    box-sizing: border-box !important;
+ }
+ 
+ .welcome-panel-view-container.expanded .activity-section {
+    padding: 5px 5px 5px 10px !important;
+}
+
+.welcome-panel-view-container .welcome-panel-element .activity-section {
+    width: 99% !important;
+}
+.welcome-panel-section > div.custom-footer-section {
+    margin-left: 7rem;
+}
+.triptych-container .triptych-left.open.borderLeft {
+     border-right: 0; 
+}
+}
+
+@media screen and (max-height:850px) and (max-width:420px){
+ .welcome-panel-section > div.custom-activity-section {
+
+  font-size: 30px;
+  width:100%;
+  height:100%;
+  margin-left: 15px;
+}
+
+.welcome-panel-section > div.title-section 
+{
+ 				font-family: '3ds';
+    			font-size: 2rem;
+    			line-height: 3.5rem;
+    			font-weight: bold;
+    			text-align: center;
+    			color: white;
+}
+
+.welcome-panel-section > div.introduction-section  
+{
+ 				font-size: 15px !important;
+                font-weight: normal !important;
+                line-height: 18px !important;
+                text-align: center;
+    			color: white;
+}
+
+.welcome-panel-view-container{
+border-right:0 !important;
+width:95% !important;
+margin: 0 5px 0 -2px !important;
+}
+
+.welcome-panel-view-container .welcome-panel-element .activity-section .activity-btn {
+width:100% !important;
+font-size:1.2rem !important;
+}
+
+
+.welcome-panel-view-container .welcome-panel-element .activity-section  .activity-btn.selected:after
+{
+    content: '' !important;
+    position: absolute !important;
+    width: 23% !important;
+    right: -11.5% !important;
+    background: #fff !important;
+    display: block !important;
+    top: -1px !important;
+    bottom: -1px !important;
+    clip-path: polygon(86% 0,30% 0,30% 100.9%,86% 100.9%,100% 50%);
+    -webkit-clip-path: polygon(86% 0,30% 0,30% 100.9%,86% 100.9%,100% 50%);
+    box-sizing: border-box !important;
+ }
+ 
+ .welcome-panel-section > div.custom-footer-section {
+    margin-left: 7rem;
+}
+.triptych-container .triptych-left.open.borderLeft {
+     border-right: 0; 
+}
+}
+
+.welcome-panel-view-container .welcome-panel-element .panel-content{
+overflow:visible !important;
+}
+
+.welcome-panel-view-container {
+ border:0 !important;
+}
+
+.welcome-panel-view-container .scroller-scrollbar-x {
+display:none;
+}
+
+.welcome-panel-view-container.expanded .activity-section {
+    padding: 0px 0px 0px 0px !important;
+}
+

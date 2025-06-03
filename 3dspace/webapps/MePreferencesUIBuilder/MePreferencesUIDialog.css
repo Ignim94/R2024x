@@ -1,0 +1,85 @@
+.me-preference-item {
+    display: flex;
+}
+
+.me-preference-label-left {
+
+    display: flex;
+    align-self: center;
+    margin-top: 5px;
+    max-width: 168px;
+    width: min(42%, 168px);
+    margin-bottom: 5px;
+}
+
+.me_preference_label_right {
+    margin-left: 10px;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+.me-preference-control-right {
+    margin-left: 4px;
+    align-self: center;
+    margin-top: 5px;
+    width: calc(100% - (min(42%, 168px) + 25px));
+}
+
+.me-preference-group-title {
+    font-size: 12px;
+    margin-left: 14px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.itemlockbutton {
+    margin-right: 5px;
+    align-self: center;
+    min-width: 16px;
+    max-width: 21px;
+}
+
+.buttongrplockclass {
+    align-self: center;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    min-width: 16px;
+}
+
+.colorpickerlockclass {
+    margin-right: 10px;
+    min-width: 16px;
+}
+
+.checkboxlockclass {
+    margin-right: 10px;
+    min-width: 16px;
+    align-self: center;
+}
+
+.group-lock-class {
+    display: inline-flex;
+}
+
+.me-preferences-all-itmes-in-a-group {
+    padding-left: 10px;
+}
+
+.child-div-right {
+    height: 100%;
+    width: auto;
+    /*overflow: scroll;*/
+}
+
+.me-preference-main-view {
+    height: calc(100% - 45px);
+    width: 100%;
+}
+
+.me-preference-item-container-desc {
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+

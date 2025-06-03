@@ -1,0 +1,21 @@
+{
+  "no_3dspace_url": "URL du service 3DSpace introuvable",
+  "open_post_editing": "Ouvrir la post-édition",
+  "produce_final_report": "Générer le rapport final",
+  "report_is_up_to_date": "Le rapport est à jour",
+  "report_is_not_up_to_date": "Le rapport n'est pas à jour",
+  "report_never_generated": "Ce rapport n'a pas été généré",
+  "status_Created": "Créé",
+  "status_Running": "En cours",
+  "status_Submitted": "Envoyé",
+  "status_NeedPostEdition": "Cette génération nécessite une action de post-édition",
+  "status_NeedPostEditionAndWithChanges": "Cette génération nécessite une action de post-édition",
+  "status_Failed": "Echec",
+  "status_Succeeded": "Réussite",
+  "status_Completed": "Terminé",
+  "status_Aborted": "Abandonné",
+  "target_document_display": "Document cible : <small>{0}</small>",
+  "target_file_display": "Fichier cible : <small>{0}</small>",
+  "unreachable_target_document": "Document cible introuvable",
+  "unreachable_target_file": "Fichier cible introuvable : <small>{0}</small>"
+}

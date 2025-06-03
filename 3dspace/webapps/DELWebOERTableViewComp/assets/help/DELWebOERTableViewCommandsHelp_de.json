@@ -1,0 +1,13 @@
+{
+"DELWebOERTableViewCompExpandAll.Title":"Alle erweitern",
+"DELWebOERTableViewCompCollapseAll.Title":"Alle ausblenden",
+"DELWebOERTableViewCompReframe.Title":"Ansicht ausrichten",
+"DELWebOERTableViewCompShowAll.Title":"Alle anzeigen",
+"DELWebOERTableViewCompShowOnly.Title":"Nur anzeigen",
+"DELWebOERTableViewCompRemoveRoot.Title":"Stamm entfernen",
+"DELWebOERTableViewCompOpenWith.Title":"Öffnen mit",
+"DELWebOERTableViewCompLoadFTA.Title":"FTA laden",
+"DELWebOERTableViewCompRemoveFTA.Title":"FTA entfernen",
+"DELWebOERTableViewCompLoadAllFTA.Title":"Alle FTAs laden",
+"DELWebOERTableViewCompRemoveAllFTA.Title":"Alle FTAs entfernen"
+}

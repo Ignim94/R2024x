@@ -1,0 +1,5 @@
+{
+"ToggleRightPanel.Title":"Exibir painel lateral",
+"ToggleRightPanel.ShortHelp":"Exibe informações sobre o objeto selecionado em diferentes abas em um painel lateral.",
+"ToggleRightPanel.LongHelp":"As abas disponíveis dependem do aplicativo em que elas são abertas e do tipo de objeto selecionado."
+}

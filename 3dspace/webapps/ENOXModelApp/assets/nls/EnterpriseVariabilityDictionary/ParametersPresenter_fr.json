@@ -1,0 +1,21 @@
+{
+  "_create": "Nouveau",
+  "_delete": "Supprimer",
+  "_parameterSingle": "Paramètre numérique",
+  "_parameterMultiple": "Paramètres numériques",
+  "_ERROR_PATCH_PARAMETER": "Erreur lors de la modification du paramètre numérique.",
+  "_ERROR_CREATE_PARAMETER": "Erreur lors de la création du paramètre numérique.",
+  "_ERROR_DELETE_PARAMETER": "Erreur lors de la suppression des paramètres numériques.",
+  "_ERROR_GET_PARAMETER_DETAILS": "Erreur lors de l'extraction des informations de paramètre numérique.",
+  "_ERROR_GET_PARAMETERS": "Erreur lors de l'extraction des paramètres numériques.",
+  "_ERROR_INCORRECT_VALUE_RANGE": "La valeur minimum doit être inférieure à la valeur maximum.",
+  "_information": "Information",
+  "_msg_drop_to_create_variant": "Déposer ici pour créer un nouveau paramètre numérique",
+  "_name": "Nom",
+  "_open": "Ouvrir",
+  "_dimension": "Dimension",
+  "_rangeLabel": "Plage",
+  "_rangeValueDelimiter": " - ",
+  "_createParamterLabel": "Créer des paramètres numériques",
+  "_creation_successful": "Création réussie."
+}

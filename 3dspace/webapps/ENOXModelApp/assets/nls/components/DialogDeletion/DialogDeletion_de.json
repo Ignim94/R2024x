@@ -1,0 +1,16 @@
+{
+  "ok": "OK",
+  "cancel": "Abbrechen",
+  "noTitle": "Ohne Titel",
+  "noDescription": "Keine Beschreibung",
+  "templateSentence": "Möchten Sie dies wirklich durchführen: ",
+  "no": "Nein",
+  "selected": "ausgewählt",
+  "item": "Element",
+  "items": "Elemente",
+  "TXT_DELETE": "Löschen",
+  "remove": "Entfernen",
+  "destroy": "Zerstören",
+  "More_information": "Weitere Informationen",
+  "delete_Message": "Möchten Sie wirklich {1} {0}?"
+}

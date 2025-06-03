@@ -1,0 +1,1 @@
+define("DS/DELWebViewerUtils/DELWebViewerUtils_ja",{});define("DS/DELWebViewerUtils/assets/nls/CustomCodes",{"Error.InvalidInput.Message":"入力が無効です。","Error.BuildupInitializationFailed.Message":"ビルドアップ コンテンツまたはビルドアップ コンテキストの初期化に失敗しました。","Error.ConnectionFailed.Message":"クラウド環境内でノードへの接続が失われました。"});

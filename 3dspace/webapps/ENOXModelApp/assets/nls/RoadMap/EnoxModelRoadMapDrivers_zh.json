@@ -1,0 +1,14 @@
+{
+  "BACKLOG_ITEMS": "候选项",
+  "BACKLOGS_TITLE": "候选项",
+  "DROP_HERE_FOR_PLAN": "将项目放置到此处以将其目标至 ",
+  "DROP_HERE_FOR_BACKLOG": "将项目放置到此处以添加为候选项",
+  "COMMITTED_FOR_THIS_REVISION": "此修订版的目标 ",
+  "BACKLOG": "候选项",
+  "COMMITTED": "目标项",
+  "ROADMAP_SETTINGS": "驱动程序设置",
+  "MANAGE_ROADMAP_SETTINGS": "管理驱动程序设置",
+  "SAME_BACKLOG_ITEM_LOADED": "已加载驱动程序。",
+  "HIDE_BACKLOG_PANE": "隐藏候选项窗格",
+  "SHOW_BACKLOG_PANE": "显示候选项窗格"
+}

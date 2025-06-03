@@ -1,0 +1,22 @@
+{
+"CreateAssemblyAndScope.Title":"Servicebaugruppe und Gültigkeitsbereichsverknüpfung erzeugen",
+"CreateAssemblyAndScope.ShortHelp":"Erzeugt eine Servicebaugruppe mit einer Bereichsverknüpfung einem Produkt oder Teil.",
+"CreateAssemblyAndScope.LongHelp":"Wählen Sie ein Produkt oder ein Teil aus und klicken Sie auf <uicontrol> Servicebaugruppe und Gültigkeitsbereichsverknüpfung erzeugen</uicontrol>, um eine Servicebaugruppe mit einer Bereichsverknüpfung zu einem Produkt oder Teil zu erzeugen.",
+"CreateProvideAndScope.Title":"Serviceteil und Gültigkeitsbereichsverknüpfung erzeugen",
+"CreateProvideAndScope.ShortHelp":"Erzeugt ein Serviceteil mit einer Bereichsverknüpfung zu einem Produkt oder Teil.",
+"CreateProvideAndScope.LongHelp":"Wählen Sie ein Produkt oder ein Teil aus und klicken Sie auf <uicontrol>Serviceteil und Gültigkeitsbereichsverknüpfung erzeugen</uicontrol>, um ein Serviceteil mit einer Gültigkeitsbereichsverknüpfung zu einem Produkt oder Teil zu erstellen.",
+"CreateMaterialAndScope.Title":"Fertigungsmaterial und Gültigkeitsbereichsverknüpfung erzeugen",
+"CreateMaterialAndScope.ShortHelp":"Erzeugt ein Fertigungsmaterial mit einer Gültigkeitsbereichsverknüpfung zu einem Produkt oder Teil.",
+"CreateMaterialAndScope.LongHelp":"Wählen Sie ein Produkt oder ein Teil aus und klicken Sie auf <uicontrol>Fertigungsmaterial und Gültigkeitsbereichsverknüpfung erzeugen</uicontrol>, um ein Fertigungsmaterial mit einer Bereichsverknüpfung zu einem Produkt oder Teil zu erzeugen.",
+"CreateKitAndScope.Title":"Serviceset und Gültigkeitsbereichsverknüpfung erstellen",
+"CreateKitAndScope.ShortHelp":"Erstellt ein Serviceset mit einer Bereichsverknüpfung zu einem Produkt oder Teil.",
+"CreateKitAndScope.LongHelp":"Wählen Sie ein Produkt oder ein Teil aus und klicken Sie auf <uicontrol>Serviceset und Gültigkeitsbereichsverknüpfung erzeugen</uicontrol>, um ein Serviceset mit einer Gültigkeitsbereichsverknüpfung zu einem Produkt oder Teil zu erstellen.",
+"CreateServiceAttachingAndScope.Title":"Service-Zuordnungsteil und Gültigkeitsbereichsverknüpfung erzeugen",
+"CreateServiceAttachingAndScope.ShortHelp":"Erzeugt ein Service-Zuordnungsteil mit einer Gültigkeitsbereichsverknüpfung zu einem Produkt oder Teil.",
+"CreateServiceAttachingAndScope.LongHelp":"Wählen Sie ein Produkt oder ein Teil aus und klicken Sie auf <uicontrol>Service-Zuordnungsteil und Gültigkeitsbereichsverknüpfung erzeugen</uicontrol>, um ein Service-Zuordnungsteil mit einer Gültigkeitsbereichsverknüpfung zu einem Produkt oder Teil zu erzeugen.",
+"CreateServiceSpareAndScope.Title":"Ersatzteil und Gültigkeitsbereichsverknüpfung erzeugen",
+"CreateServiceSpareAndScope.ShortHelp":"Erzeugt ein Ersatzteil mit einer Gültigkeitsbereichsverknüpfung zu einem Produkt oder einem Teil.",
+"CreateServiceSpareAndScope.LongHelp":"Wählen Sie ein Produkt oder ein Teil aus und klicken Sie auf <uicontrol>Ersatzteil und Gültigkeitsbereichsverknüpfung erzeugen</uicontrol>, um ein Ersatzteil mit einer Gültigkeitsbereichsverknüpfung zu einem Produkt oder einem Teil zu erzeugen.",
+"Show3DOperationViewerCmd.Title":"3DOperations Viewer starten",
+"Show3DOperationViewerCmd.ShortHelp":"Öffnet die App <wintitle>3DOperations Viewer</wintitle> im Voranzeigemodus."
+}

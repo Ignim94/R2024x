@@ -1,0 +1,74 @@
+[
+	{
+		"text": "Title",
+		"dataIndex": "tree",
+		"typeRepresentation": "string",
+		"pinned":	"left",
+		"width": "150",
+		"minWidth": "40"
+	},
+	{
+		"text": "",
+		"dataIndex": "relicon",
+		"typeRepresentation": "icon",
+		"width": "30",
+		"minWidth": "10"
+	},
+	{
+		"text": "Circular Links",
+		"dataIndex": "cycliclinkicon",
+		"typeRepresentation": "icon",
+		"width": "30",
+		"minWidth": "10"
+	},
+	{
+		"text": "Instance Name",
+		"dataIndex": "instancename",
+		"icon": "flow-cascade"
+	},
+	{
+		"text": "Revision",
+		"dataIndex": "rev"
+	},
+	{
+		"text": "Type",
+		"dataIndex": "type"
+	},
+	{
+		"text": "Description",
+		"dataIndex": "desc"
+	},
+	{
+		"text": "Owner",
+		"dataIndex": "owner",
+		"typeRepresentation": "string"
+	},
+	{
+		"text": "Name",
+		"dataIndex": "name"
+	},
+	{
+		"text": "Maturity",
+		"dataIndex": "state",
+		"alignment": "center",
+		"typeRepresentation": "string"
+	},
+	{
+		"text": "CAD Format",
+		"dataIndex": "cadoriginicon",
+		"typeRepresentation": "icon",
+		"alignment": "center",
+		"width": "80",
+		"minWidth": "50"
+	},
+	{
+		"text": "Purpose",
+		"dataIndex": "purpose",
+		"pinned" : "right",
+		"typeRepresentation": "purpose",
+		"editableFlag": true,
+		"editionPolicy": "EditionInPlace",
+		"width": "120",
+		"minWidth": "40"
+	}
+]

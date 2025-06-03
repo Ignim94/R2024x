@@ -1,0 +1,21 @@
+{
+  "Nb_New": "{nbNew} nový objekt",
+  "Nb_Mod": "{nbMod} změněný objekt",
+  "Nb_Exc": "{nbExc} vyloučený objekt",
+  "Nb_Inc": "{nbInc} zahrnutý objekt",
+  "Save_stats": "Rozsah uložení zahrnuje: ",
+  "Unreserve_checkbox": "Odemknout",
+  "PGP_checkbox": "Přidat grafické vlastnosti výrobku",
+  "PMR_checkbox": "Přidat vlastnosti flexibility výrobku",
+  "KeepIteration_checkbox": "Zachovat předchozí iteraci",
+  "Async_checkbox": "Uložení na pozadí",
+  "Work_Under": "Ukládání v rámci akce změny: ",
+  "No_DefaultBookmark": "Nebyla nalezena žádná výchozí záložka.",
+  "Not_AllObjectsInBookmark": "Přiřaďte záložku všem objektům",
+  "Not_AllLocked": "Zamkněte všechny zahrnuté objekty",
+  "No_ReadAccess": "U některých objektů není přístup ke čtení",
+  "SaveComment_checkbox": "Přidat komentář",
+  "ExposePublication_checkbox": "Vystavit publikace",
+  "AddComment_textbox": "Sem zadejte komentář...",
+  "ApplyMaterial_checkbox": "Použít materiál v 3DEXPERIENCE"
+}

@@ -1,0 +1,17 @@
+{
+"dseng:MakeFromBaseMask.public": [
+		"dseng:basic.id",
+		"dseng:basic.type.public"
+],
+"dseng:MakeFromDetails.public": [
+	{
+		"property": "computed",
+		"key": "MakeFromData",
+		"fetchOnce": false,
+		"example": "com.dassault_systemes.enovia.xapps.dsmbmf.implementations.dsmbmfOpenAPIImpl.getMakeFromDataInstance"
+	}
+]
+}
+
+
+

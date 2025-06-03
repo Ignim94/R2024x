@@ -1,0 +1,1 @@
+define("DS/CATRelatedData3DGrid/CATRelatedData3DGrid_ru",{});define("DS/CATRelatedData3DGrid/assets/nls/CATRelatedData3DGrid",{lblOk:"ОК",lblApply:"Применить",lblClose:"Закрыть",lblPitch:"Шаг",lblDirection1:"Первая метка направления",lblDirection2:"Вторая метка направления",lblDirection3:"Третья метка направления"});

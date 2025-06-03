@@ -1,0 +1,23 @@
+{
+  "aboutItem": "O platformě 3DEXPERIENCE Platform",
+  "about": "O aplikaci",
+  "support": "Podpěra",
+  "getStartedItem": "Můžete začít",
+  "cookies": "Soubory cookie",
+  "discoverItem": "Vyzkoušejte {0}",
+  "getSupportItem": "Získat podporu",
+  "supportCommunitiesItem": "Uživatelské komunity",
+  "loading": "Probíhá načítání...",
+  "xAppError": "Chyba při načítání aplikace...",
+  "xAppErrorTitle": "Aplikaci nelze načíst.",
+  "xAppErrorContent": "Ověřte připojení k internetu nebo se obraťte na správce.",
+  "actionMaximize": "Maximalizovat",
+  "actionMinimize": "Minimalizovat",
+  "actionClose": "Zavřít",
+  "mobilePairing": "Párování mobilní aplikace",
+  "updatePlanned": "Plánovaná aktualizace",
+  "cloudComunityButton": "Buďte informováni díky cloudové komunitě",
+  "readMore": "Více informací",
+  "dismissUpgradePrompt": "Zrušit",
+  "upgradePromptMessage": "Platforma <b>3D</b>EXPERIENCE Platform bude aktualizována na verzi <b>{EventProductVersion}</b> dne <b>{eventDate}</b>. Během této operace byste platformu neměli používat, dokud neobdržíte oznámení o dokončení aktualizace."
+}

@@ -1,0 +1,10 @@
+m|ENOXAppsFoundationsUX\ENOXSplittedView.mweb
+b|j|n,u
+b|c|n,m
+v|6.426.0.23148|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\ENOXSplittedView\css\ENOXSplittedView.css|1685324127|298
+s|ENOXAppsFoundationsUX\ENOXSplittedView.mweb\src\css\ENOXSplittedView.css|1494841225|380
+t|win_b64\webapps\ENOXSplittedView\js\ENOXSplittedView.js|1494851662|8903
+s|ENOXAppsFoundationsUX\ENOXSplittedView.mweb\src\js\ENOXSplittedView.js|1494851662|8903
+u|win_b64\code\toolcmds\csscompressor.bat|1685139395|38

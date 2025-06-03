@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XSCViews.Title="Вид";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XSCTools.Title="Инструменты";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.Lifecycle.Title="Жизненный цикл";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.Collaboration.Title="Совместная работа";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.SaveSession.Title="Сохранить активное окно";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ShareAsPicture.Title="Опубликовать как изображение";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ShareAs3D.Title="Опубликовать как 3D-объект";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.RefreshHome.Title="Обновить";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReloadAll.Title="Перезагрузить все";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReserveHdr.Title="Заблокировать";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.UnreserveHdr.Title="Разблокировать";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.PropertiesHdr.Title="Свойства";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.GetRevisionHdr.Title="Получить редакцию";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReplaceByRevisionHdr.Title="Заменить редакцией";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReplaceByLatestRevisionHdr.Title="Заменить последней редакцией";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.UpdateRevisionsHdr.Title="Обновить редакции";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.RevisionsHdr.Title="Редакции";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReloadFromServerHdr.Title="Перезагрузить с сервера";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReplaceContentHdr.Title="Заменить содержимое";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.RelationIPExplorer.Title="Взаимосвязи";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.OptionsHdr.Title="Параметры...";
+
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.View.Title="Вид";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.Tools.Title="Инструменты";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XCADExport.Title="Экспорт X-CAD";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XCADImport.Title="Импорт X-CAD";

@@ -1,0 +1,5 @@
+{
+  "sourcing.notification.event.memberAccessUpdate.setting": "成员已在我的资格或分配的资格中添加或移除",
+  "sourcing.notification.person.memberAccessUpdate.msg": "<strong>###GRANTOR###</strong> 已将您作为 <strong>###REQUESACCESS###</strong> 添加到 <strong>###REQUESTNAME###</strong> 上",
+  "sourcing.notification.person.memberAccessDelete.msg": "<strong>###GRANTOR###</strong> 已将您作为 <strong>###REQUESACCESS###</strong> 从 <strong>###REQUESTNAME###</strong> 上移除"
+}

@@ -1,0 +1,188 @@
+{
+	"dsprcs:instanceDetails.referencedObject": {
+		"isReferencedObject": true
+	},
+	"dsprcs:parentObject": {
+		"isReferencedObject": true,
+		"isSingleValued": true
+	},
+	"dsprcs:WorkPlanEnterpriseAttributes": {
+		"conceptualName": "DELLmiWorkPlanSystemReference.dsprcs:WorkPlanEnterpriseAttributes"
+	},
+	"dsprcs:HeaderWorkPlanEnterpriseAttributes": {
+		"conceptualName": "DELLmiHeaderWorkPlanReference.dsprcs:HeaderWorkPlanEnterpriseAttributes"
+	},
+	"dsprcs:MfgOperationEnterpriseAttributes": {
+		"conceptualName": "DELLmiOperationPPRReference.dsprcs:MfgOperationEnterpriseAttributes"
+	},
+	"dsprcs:AllHeaderOperationsEnterpriseAttributes": {
+		"conceptualName": "DELLmiHeaderOperationReference.dsprcs:AllHeaderOperationsEnterpriseAttributes"
+	},
+	"dsprcs:HeaderOperationEnterpriseAttributes": {
+		"conceptualName": "DELLmiHeaderOperationReference.dsprcs:HeaderOperationEnterpriseAttributes"
+	},
+	"dsprcs:interruptible": {
+		"conceptualName": "DELLmiHeaderOperationReference.interruptible"
+	},
+	"dsprcs:manageVariant": {
+		"conceptualName": "DELLmiHeaderOperationReference.manageVariant, DELLmiGeneralOperationReference.manageVariant"
+	},
+	"dsprcs:sequencingModeForOperation": {
+		"conceptualName": "DELLmiHeaderOperationReference.sequencingMode, DELLmiGeneralOperationReference.sequencingMode"
+	},
+	"dsprcs:sequencingMode": {
+		"conceptualName": "DELLmiPPRSystemReference.sequencingMode, DELLmiPPRHeaderProcessReferenceAbstract.sequencingMode"
+	},	
+	"dsprcs:rollup": {
+		"conceptualName": "DELLmiHeaderOperationReference.rollup, DELLmiGeneralOperationReference.rollup"
+	},
+	"dsprcs:program.getTimeConstraintFromOperationOcc": {
+		"isReferencedObject": true,
+		"metaTypeNameForPublicURI": "dsprcs:MfgOperationInstance",
+		"3dspaceParentPaths": "from.physicalid",
+		"indexParentPaths": "from.physicalid"
+	},
+	"dsprcs:program.getTimeConstraintToOperationOcc": {
+		"isReferencedObject": true,
+		"metaTypeNameForPublicURI": "dsprcs:MfgOperationInstance",
+		"3dspaceParentPaths": "from.physicalid",
+		"indexParentPaths": "from.physicalid"
+	},
+	"dsprcs:program.getPrimaryCapableResource": {
+		"isReferencedObject": true,
+		"isSingleValued": true
+	},
+	"dsprcs:program.getSecondaryCapableResource": {
+		"isReferencedObject": true,
+		"isSingleValued": true
+	},
+	"dsprcs:program.getSecondaryCapableResourceDependsOn": {
+		"isReferencedObject": true,
+		"isSingleValued": true,
+		"3dspaceParentPaths": "relationship.from.physicalid",
+		"indexParentPaths": "pathsr:R_203"
+	},
+	"dsprcs:program.getItemSpecificationItemRef": {
+		"isReferencedObject": true,
+		"isSingleValued": true
+	},
+	"dsprcs:program.getItemSpecificationProcessRef": {
+		"isReferencedObject": true,
+		"isSingleValued": true
+	},
+	"dsprcs:program.getItemSpecificationScopeContext": {
+		"property": "computed",
+		"key": "scopeContext",
+		"example": "",
+		"fetchOnce": true,
+		"description": "The manufacturing item instance that act as the context for the scope item.",
+		"isReferencedObject": true,
+		"isSingleValued": true,
+		"3dspaceParentPaths": "from.physicalid",
+		"indexParentPaths": "from.physicalid"
+	},
+	"dsprcs:program.getItemSpecificationOperationOcc": {
+		"isReferencedObject": true,
+		"metaTypeNameForPublicURI": "dsprcs:MfgOperationInstance",
+		"3dspaceParentPaths": "from.physicalid",
+		"indexParentPaths": "from.physicalid"
+	},
+	"dsprcs:program.getItemSpecificationItemOcc": {
+		"isReferencedObject": true,
+		"metaTypeNameForPublicURI": "dsmfg:MfgItemInstance",
+		"3dspaceParentPaths": "from.physicalid",
+		"indexParentPaths": "from.physicalid"
+	},
+	"dsprcs:program.getPreAssignedWorkCenterResource": {
+		"isSingleValued": true,
+		"isReferencedObject": true
+	},
+	"dsprcs:program.getPreAssignedWorkCenterOperationOcc": {
+		"isReferencedObject": true,
+		"3dspaceParentPaths": "from.physicalid",
+		"indexParentPaths": "from.physicalid"
+	},
+	"dsprcs:program.getProcessAssetContext": {
+		"isReferencedObject": true,
+		"isSingleValued": true,
+		"keyInResponse": "dsprcs:AssetContext"
+	},
+	"dsprcs:PrimaryResourceLinkDetail.document": {
+		"isReferencedObject": false
+	},
+	"dsprcs:SecondaryResourceLinkDetail.availabilityMode": {
+		"isReferencedObject": false
+	},
+	"dsprcs:SecondaryResourceLinkDetail.capableResourceId": {
+		"isReferencedObject": false
+	},
+	"dsprcs:SecondaryResourceLinkDetail.document": {
+		"isReferencedObject": false
+	},
+	"dsprcs:AssignedOrganization.organizationRef": {
+		"isSingleValued": true
+	},
+	"dsprcs:DELLmiGeneralOperationReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiGeneralOperationReference.dsprcs:DELLmiGeneralOperationReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiLoadingOperationReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiLoadingOperationReference.dsprcs:DELLmiLoadingOperationReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiUnLoadingOperationReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiUnLoadingOperationReference.dsprcs:DELLmiUnLoadingOperationReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiRemoveMaterialOperationReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiLoadingOperationReference.dsprcs:DELLmiGeneralOperationReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiTransferOperationReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiTransferOperationReference.dsprcs:DELLmiTransferOperationReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiPunctualOperationReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiPunctualOperationReference.dsprcs:DELLmiPunctualOperationReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiCurveOperationReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiCurveOperationReference.dsprcs:DELLmiCurveOperationReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiInterruptOperationReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiInterruptOperationReference.dsprcs:DELLmiInterruptOperationReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiBufferOperationReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiBufferOperationReference.dsprcs:DELLmiBufferOperationReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiSinkOperationReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiSinkOperationReference.dsprcs:DELLmiSinkOperationReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiSourceOperationReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiSourceOperationReference.dsprcs:DELLmiSourceOperationReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiQtyControlProcessReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiQtyControlProcessReference.dsprcs:DELLmiQtyControlProcessReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiGeneralSystemReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiGeneralSystemReference.dsprcs:DELLmiGeneralSystemReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiTransformationSystemReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiTransformationSystemReference.dsprcs:DELLmiTransformationSystemReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiTransferSystemReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiTransferSystemReference.dsprcs:DELLmiTransferSystemReferenceEnterpriseAttributes"
+	},
+	"dsprcs:DELLmiStorageSystemReferenceEnterpriseAttributes": {
+		"conceptualName": "DELLmiStorageSystemReference.dsprcs:DELLmiStorageSystemReferenceEnterpriseAttributes"
+	},
+	"dsprcs:BufferSystemEnterpriseAttributes": {
+		"conceptualName": "BufferSystem.dsprcs:BufferSystemEnterpriseAttributes"
+	},
+	"dsprcs:SinkSystemEnterpriseAttributes": {
+		"conceptualName": "SinkSystem.dsprcs:SinkSystemEnterpriseAttributes"
+	},
+	"dsprcs:SourceSystemEnterpriseAttributes": {
+		"conceptualName": "SourceSystem.dsprcs:SourceSystemEnterpriseAttributes"
+	},
+	"dsprcs:ServiceHeaderWorkPlanEnterpriseAttributes": {
+		"conceptualName": "DELLmiServiceHeaderWorkPlanReference.dsprcs:ServiceHeaderWorkPlanEnterpriseAttributes"
+	},
+	"dsprcs:ServiceWorkPlanEnterpriseAttributes": {
+		"conceptualName": "DELLmiServiceWorkPlanSystemReference.dsprcs:ServiceWorkPlanEnterpriseAttributes"
+	}
+}

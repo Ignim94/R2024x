@@ -1,0 +1,67 @@
+.app-container{
+	height : 100%;
+	width: 100%;
+	position: relative;
+}
+
+/*	Default box-sizing */
+* {
+	box-sizing: border-box;
+}
+
+
+#BubbleContainer{
+	z-index: 30002;
+}
+
+main{
+	height : 900px !important;
+	width: 100%;
+}
+
+.widget-Loading-Error-Message {
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+	padding: 4%;
+	margin-top: 20%;
+	margin-bottom: 30%;
+	margin-left: 30%;
+	margin-right: 30%;
+  font-weight: bold;
+	color: $color_copy_gray;
+}
+
+/*Module Management*/
+.module-container
+{
+	border-top: 2px solid rgba(192, 192, 192, 0);
+	border-top-style: inset;
+}
+
+.module-container.focus
+{
+    border-top: 2px solid #368ec4;
+}
+/*Module Management*/
+
+
+/*********************/
+/***	FOR ODT		**/
+/*********************/
+div.module.moduleUwa.windowed-view > div.moduleWrapper {
+	height: 850px;
+	width: 100%;
+}
+.module{
+	width: 100% !important;
+}
+
+div.module.moduleUwa.windowed-view > div.moduleWrapper > div.moduleContent.environment-uwa.windowed-view {
+	height: 850px;
+	width: 100%;
+}
+/*********************/
+/***	FOR ODT		**/
+/*********************/

@@ -1,0 +1,26 @@
+PowerBySOLIDWORKS_dataexchange.XSCViews.Title = "View";
+PowerBySOLIDWORKS_dataexchange.XSCTools.Title = "Tools";
+PowerBySOLIDWORKS_dataexchange.Lifecycle.Title="Lifecycle";
+PowerBySOLIDWORKS_dataexchange.SaveSession.Title="Save Active Window";
+PowerBySOLIDWORKS_dataexchange.SaveSessionAsNew.Title="Save Active Window As New";
+PowerBySOLIDWORKS_dataexchange.ShareAsPicture.Title="Publish as Picture";
+PowerBySOLIDWORKS_dataexchange.ShareAs3D.Title="Publish as 3D";
+PowerBySOLIDWORKS_dataexchange.RefreshHome.Title="Refresh";
+PowerBySOLIDWORKS_dataexchange.ReloadAll.Title="Reload all";
+PowerBySOLIDWORKS_dataexchange.ReserveHdr.Title="Lock";
+PowerBySOLIDWORKS_dataexchange.UnreserveHdr.Title="Unlock";
+PowerBySOLIDWORKS_dataexchange.PropertiesHdr.Title="Properties";
+PowerBySOLIDWORKS_dataexchange.GetRevisionHdr.Title="Get Revision";
+PowerBySOLIDWORKS_dataexchange.ReplaceByRevisionHdr.Title="Replace by Revision";
+PowerBySOLIDWORKS_dataexchange.ReplaceByLatestRevisionHdr.Title = "Replace by Latest Revision";
+PowerBySOLIDWORKS_dataexchange.UpdateRevisionsHdr.Title = "Update Revisions";
+PowerBySOLIDWORKS_dataexchange.RevisionsHdr.Title = "Revisions";
+PowerBySOLIDWORKS_dataexchange.ReloadFromServerHdr.Title="Reload from Server";
+PowerBySOLIDWORKS_dataexchange.ReplaceContentHdr.Title="Replace Content";
+PowerBySOLIDWORKS_dataexchange.RelationIPExplorer.Title = "Relations";
+PowerBySOLIDWORKS_dataexchange.OptionsHdr.Title = "Options...";
+
+PowerBySOLIDWORKS_dataexchange.View.Title = "View";
+PowerBySOLIDWORKS_dataexchange.Tools.Title = "Tools";
+PowerBySOLIDWORKS_dataexchange.XCADExport.Title = "X-CAD Export";
+PowerBySOLIDWORKS_dataexchange.XCADImport.Title = "X-CAD Import";

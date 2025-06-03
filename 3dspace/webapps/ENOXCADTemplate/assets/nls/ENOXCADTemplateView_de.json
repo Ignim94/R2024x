@@ -1,0 +1,18 @@
+{
+  "cadsubtypefield": "3DEXPERIENCE Typ",
+  "cadtypefield": "CAD-Typ",
+  "templatefield": "Vorlagen",
+  "managetemplates": "Vorlagen verwalten",
+  "newfromok": "OK",
+  "newfromcancel": "Abbrechen",
+  "newfromtemplate": "Neu von Vorlage",
+  "msg_success_templatecreate": "Die Vorlage wurde erfolgreich erstellt.",
+  "msg_success_edittemplate": "Die Vorlage wurde erfolgreich geändert.",
+  "msg_error_editmodifyaccess": "Sie müssen über die Berechtigung zum Ändern dieser Vorlage verfügen. Überprüfen Sie Ihre Anmeldeinformationen oder wenden Sie sich an den Administrator.",
+  "msg_success_listtemplate": "Vorlagenliste wurde erfolgreich geladen",
+  "msg_success_notemplate": "Für diesen Typ ist keine Vorlage verfügbar",
+  "msg_error_mandfieldempty": "Pflichtfelder sind leer",
+  "msg_error_templateempty": "Vorlagenfeld ist leer",
+  "msg_error_cadtypeempty": "CAD-Typfeld ist leer",
+  "mysession_newfromdlg_title": "Neu aus Vorlage"
+}

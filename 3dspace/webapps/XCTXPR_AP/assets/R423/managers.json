@@ -1,0 +1,205 @@
+{
+  "VCXActorDocManager": {
+		"impl": "DS/VCXWebKernel/VCXActorDocManager",
+		"extensions": {
+		  "VCXIModifiable": "DS/VCXWebKernel/VCXModifiableActorDocManager",
+		  "CATI3DExperienceObject": "DS/CAT3DExpModel/extensions/CATE3DExperienceObject"
+		}
+	},
+  "VCXExperience":	
+	{	
+		"impl": "DS/VCXWebComposer/VCXExperience"
+	},	
+  "VCXDressupManager":	
+	{	
+		"impl": "DS/VCXWebDressup/VCXDressupManager",
+		"extensions": {	
+			"W3AISGNodeHolder": "DS/VCXWebDressup/VCXDressupManagerSGNodeHolder",
+			"VCXISensible": "DS/VCXWebComposer/VCXASensible",
+			"VCXIModelNavigable": "DS/VCXWebDressup/VCXDressupModelNavigable"
+		}
+	},
+	"VCXSectionManager":
+	{
+		"impl" : "DS/VCXWebDressup/VCXSectionManager"
+	},
+	"VCXImageManager":
+	{
+		"impl" : "DS/VCXWebVisualization/VCXImageManager"
+	},
+	"VCXComponentBomManager":
+	{
+		"impl": "DS/VCXWebSMGApp/VCXComponentBomManager",
+		"extensions":
+		{
+			"VCXIModifiable": "DS/VCXWebSMGApp/VCXBomManagerModifiable"
+		}
+	},
+	"VCXGUIManager":	
+	{	
+		"impl" : "DS/VCXWebGUI/VCXGUIManager",
+		"extensions": {	
+			"VCXIModifiable": "DS/VCXWebGUI/VCXModifiableGUIManager"
+		}
+	},
+	"VCXNotificationManager":
+	{
+		"impl" : "DS/VCXWebKernel/VCXNotificationManager"
+	},
+	"VCXSelectionManager":	
+	{	
+		"impl" : "DS/VCXWebKernel/VCXSelectionManager",
+		"extensions": {	
+			"VCXIModifiable": "DS/VCXWebKernel/VCXModifiableSelectionManager"
+		}
+	},
+	"VCXSelectManager":
+	{
+		"impl": "DS/VCXWebKernel/VCXSelectManager"
+	},
+	"VCXWebSelectionManager":
+	{
+		"impl": "DS/VCXWebKernel/VCXWebSelectionManager"
+	},
+	"VCXMultiUserInputManager":
+	{
+		"impl": "DS/VCXWebKernel/VCXMultiUserInputManager"
+	},
+	"VCXMaterialManager":
+	{
+		"impl": "DS/VCXWebVisualization/VCXMaterialManager"
+	},
+	"VCXPaperManager":
+	{
+		"impl": "DS/VCXWebVisualization/VCXPaperManager"
+	},
+	"VCXManipulatorManager":
+	{
+		"impl": "DS/VCXWebVisualization/VCXManipulatorManager"
+	},
+	"VCXHyperlinkManager":
+	{
+		"impl": "DS/VCXWebComposer/VCXHyperlinkManager"
+	},
+	"VCXStylesManager":
+	{
+		"impl": "DS/VCXWebStyles/VCXStylesManager"
+	},
+	"VCXVisuManager":
+	{
+		"impl": "DS/VCXWebVisualization/VCXVisuManager"
+	},
+	"VCXDragDropManager":
+	{
+		"impl": "DS/VCXWebComposer/VCXDragDropManager"
+	},
+	"VCXRobotAdapter":
+	{
+		"impl": "DS/VCXWebVisualization/VCXRobotAdapter"
+	},
+	"VCXVolatileGhostingManager":
+	{
+		"impl": "DS/VCXWebVolatileGhosting/VCXVolatileGhostingManager"
+	},
+	"VCXExplodeBoxManager":
+	{
+		"impl": "DS/VCXWebExplodeServices/VCXExplodeBoxManager"
+	},
+	"VCXNLSManager":
+	{
+		"impl": "DS/VCXWebExperienceBase/VCXNLSManager"
+	},
+	"VCXQueryEngine":
+	{
+		"impl": "DS/VCXWebQueryEngine/VCXQueryEngine"
+	},
+	"VCXPulseManager":
+	{
+		"impl": "DS/VCXWebPulseManager/VCXPulseManager"
+	},
+	"VCXAPIManager":
+	{
+		"impl": "DS/VCXWebKernel/VCXAPIManager"
+	}, 
+	"VCXMarkerManager":
+	{
+		"impl": "DS/VCXWebKernel/VCXMarkerManager"
+	},
+	"VCXHotspotManager":
+	{
+		"impl": "DS/VCXWebComposer/VCXHotspotManager"
+	},
+	"VCXSelectionSetManager":
+	{
+		"impl": "DS/VCXWebComposer/VCXSelectionSetManager"
+	},
+	"VCXDRMManager":	
+	{	
+		"impl":  "DS/VCXWebKernel/VCXDRMManager",
+		"extensions": {	
+			"VCXIModifiable": "DS/VCXWebKernel/VCXModifiableDRMManager",
+			"VCXIModifiableView": "DS/VCXWebKernel/VCXModifiableDRMManager"
+		}
+	},
+	"VCXCanonicsManager":
+	{
+		"impl": "DS/VCXWebCanonics/VCXCanonicsManager"
+	},
+	"VCXUserInputControllerManager":
+	{
+		"impl": "DS/VCXWebComposer/VCXUserInputControllerManager"
+	},
+	"CATContextManager":
+	{
+		"impl": "DS/VCXWebAuthoringServices/CATContextManager"
+	},
+	"CAT3DXLinkManager":
+	{
+		"impl": "DS/CAT3DExpModel/managers/CAT3DXLinkManager"
+	},
+	"CAT3DXLoaderManager":
+	{
+		"impl": "DS/CAT3DExpModel/managers/CAT3DXLoaderManager"
+	},
+	"ExpTrackManager_Spec":
+	{
+		"impl" : "DS/VCXWebKernel/ExpTrackManager_Spec",
+		"extensions": {	
+			"CATI3DExperienceObject": "DS/CAT3DExpModel/extensions/CATE3DExperienceObject",
+			"CATI3DXJSONProcessor": "DS/VCXWebExperienceLoader/CATE3DXJSONProcessorExpTrackManager_Spec"
+			}
+	},
+	"VCXVectoManager":
+	{
+		"impl": "DS/VCXWebAuthoringApp/VCXVectoManager"
+	},
+	"VCXCAT3DXModelManager":
+	{
+		"impl": "DS/VCXWebAuthoringApp/VCX3DXModelManager"
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

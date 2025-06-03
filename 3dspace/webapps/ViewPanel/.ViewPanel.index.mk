@@ -1,0 +1,10 @@
+m|WebVisualization\ViewPanel.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.4.24097|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\ViewPanel\ViewPanel.js|1712385311|8052
+s|WebVisualization\ViewPanel.mweb\src\ViewPanel.js|1613986666|1
+u|WebVisualization\ViewPanel.mweb\src\ViewPanelController.js|1710345837|19351
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

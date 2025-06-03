@@ -1,0 +1,198 @@
+{
+	"dsmvspec:PerformanceSpecMask.Basic.Public": [		
+		"dsspec:basic.id.public",
+		"dsspec:basic.type.public",
+		"dsspec:basic.name.public",
+		"dsspec:basic.identifier.public",
+		"dsspec:basic.revision.public",
+		"dsspec:basic.organization.public",
+		"dsspec:basic.collabspace.public",
+		"dsspec:basic.created.utc.public",
+		"dsspec:basic.modified.utc.public",
+		"dsspec:basic.state.public",
+		"dsspec:basic.owner.public",
+		"dsspec:attribute.title.public",
+		"dsspec:basic.description.public",
+		"dsspec:attribute.notes.public",
+		{
+			"property": "attribute[PerformanceSpec.Category]",
+			"key": "category"
+		}
+	],
+	"dsmvspec:TestMethodMask.Common.Public": [
+		"dsspec:basic.name.public",
+		"dsspec:basic.identifier.public",
+		"dsspec:basic.revision.public",
+		"dsspec:attribute.title.public",
+		{
+			"property": "islast",
+			"key": "isLatest"
+		},
+		{
+			"property": "computed",
+			"key": "source",
+            		"format": "string",
+            		"example":"$3DSpace"
+		},
+		{
+			"property": "computed",
+			"key": "relativePath",
+            		"format": "string",
+            		"example": "/resources/v1/modeler/documents/C9AD8256....."
+		}
+
+	],
+	"dsspec:PerfCharBaseMask.compute":[
+		{
+			"property": "computed",
+			"key": "sequence",
+            		"format": "string",
+            		"example":"1,2.."
+		},
+		{
+			"property": "computed",
+			"key": "id",
+            		"format": "string"
+		}
+	],
+        "dsmvspec:PerformanceCharMask.Common": [
+		"dsspec:basic.to.type.public",
+		"dsspec:basic.to.name.public",
+		"dsspec:basic.to.revision.public",
+		"dsspec:basic.to.description.public",
+		"dsspec:attribute.to.title.public",
+		"dsspec:attribute.to.notes.public",
+		"dsspec:basic.to.organization.public",
+		"dsspec:basic.to.collabspace.public",
+		"dsspec:basic.to.created.utc.public",
+		"dsspec:basic.to.modified.utc.public",
+		"dsspec:basic.to.state.public",
+		"dsspec:basic.to.owner.public",
+		{
+			"property": "to.attribute[MeasurementCharacteristic.Min]",
+			"key": "min",
+			"format": "double"
+		},
+		{
+			"property": "to.attribute[MeasurementCharacteristic.IsMinIncluded]",
+			"key": "isMinIncluded",
+			"format": "boolean"
+		},
+		{
+			"property": "to.attribute[MeasurementCharacteristic.Target]",
+			"key": "target",
+			"format": "double"
+		},
+		{
+			"property": "to.attribute[DescriptiveCharacteristic.Target]",
+			"key": "target",
+			"format": "string"
+		},
+		{
+			"property": "to.attribute[MeasurementCharacteristic.Max]",
+			"key": "max",
+			"format": "double"
+		},
+		{
+			"property": "to.attribute[MeasurementCharacteristic.IsMaxIncluded]",
+			"key": "isMaxIncluded",
+			"format": "boolean"
+		},
+		{
+			"property": "to.attribute[MeasurementCharacteristic.DisplayUnit]",
+			"key": "unitOfMeasure",
+			"format": "string"
+		},
+		{
+			"property": "to.attribute[MeasurementCharacteristic.UnitOfMeasure]",
+			"key": "unitOfMeasureId",
+			"format": "string"
+		},
+		{
+			"property": "to.attribute[MeasurementCharacteristic.DisplayDimension]",
+			"key": "dimension",
+			"format": "string"
+		},
+		{
+			"property": "to.attribute[MeasurementCharacteristic.Dimension]",
+			"key": "dimensionId",
+			"format": "string"
+		},
+		{
+			"property": "to.attribute[CharacteristicRoutineReleaseLimits.Lower]",
+			"key": "lowerRoutineReleaseLimit",
+			"format": "double"
+		},
+		{
+			"property": "to.attribute[CharacteristicRoutineReleaseLimits.Upper]",
+			"key": "upperRoutineReleaseLimit",
+			"format": "double"
+		},
+		{
+			"property": "to.attribute[CharacteristicSpecificationLimits.Lower]",
+			"key": "lowerSpecificationLimit",
+			"format": "double"
+		},
+		{
+			"property": "to.attribute[CharacteristicSpecificationLimits.Upper]",
+			"key": "upperSpecificationLimit",
+			"format": "double"
+		},
+		{
+			"property": "to.attribute[MeasurementCharacteristic.CharacteristicPrecision]",
+			"key": "precision",
+			"format": "double"
+		},
+		{
+			"property": "to.attribute[PerformanceChar.Priority]",
+			"key": "priority",
+			"format": "integer"
+		},
+		{
+			"property": "to.attribute[PerformanceChar.MissedTargetAction]",
+			"key": "missedTargetAction"
+		},
+		{
+			"property": "to.from[PerformanceTest].to.physicalid",
+			"key": "testMethods",
+			"maskAppliesTo": "bus",
+			"mask": "dsmvspec:TestMethodMask.Common.Public"
+		},
+		"dsmvspec:pcCustomerAttributes",
+		"dsmvspec:pcEnterpriseAttributes"
+	],
+	"dsmvspec:PerformanceCharMask.Common.Public": [
+		{
+			"property": "attribute[PerformanceChar.Sequence]",
+			"key": "sequence",
+			"format": "string"
+		},
+		{
+			"property": "physicalid",
+			"key": "identifier"
+		},
+		{
+			"property": "physicalid",
+			"key": "id"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmvspec:PerformanceCharMask.Common"
+		}
+	],
+	"dsmvspec:PerformanceSpecMask.Common.Public": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvspec:PerformanceSpecMask.Basic.Public"
+		},
+		{
+			"property": "from[PerformanceChar].physicalid",
+			"key": "characteristics",
+			"maskAppliesTo": "rel",
+			"mask": "dsmvspec:PerformanceCharMask.Common.Public"
+		},
+		"dsmveno:CustomerAttributes",
+ 		"dsmvspec:psEnterpriseAttributes"
+	]
+
+}

@@ -1,0 +1,52 @@
+{
+  "kanban": {
+    "resolutionDate": {
+      "overdue": "En retard",
+      "none": "Aucune date",
+      "today": "Aujourd'hui",
+      "tomorrow": "Demain",
+      "week": "Cette semaine",
+      "future": "Futur"
+    },
+    "all": "Tout",
+    "dnd": {
+      "unsupportedPromote": "Impossible de promouvoir les problèmes directement de l'état {currState} à {state}.",
+      "unsupportedDemote": "Impossible de rétrograder les problèmes directement de l'état {currState} à {state}.",
+      "cannotEditClosedIssues": "Certains problèmes sont déjà terminés et ne peuvent pas être mis à jour.",
+      "placeholder": "Déposer ici",
+      "notAllSameStatePromote": "Impossible de promouvoir/rétrograder des problèmes qui n'ont pas le même état."
+    },
+    "warning": {
+      "closed": "Le filtre pour afficher les problèmes à l'état Terminé n'est pas sélectionné.<br>Vous pouvez l'activer dans vos préférences de filtre."
+    },
+    "tooltips": {
+      "chizu": "Cliquez pour afficher la colonne :<br> {title}",
+      "leftArrow": "Passer à la colonne précédente",
+      "rightArrow": "Aller à la colonne suivante"
+    }
+  },
+  "dnd": {
+    "partiallyNotSupported": "Certains objets ne sont pas pris en charge.",
+    "notSupported": "Ce type de contenu n'est pas pris en charge. Veuillez utiliser l'app appropriée depuis Compass pour ouvrir ce type de contenu.",
+    "onlyIssues": "Opération \"Déposer\" disponible sur les problèmes uniquement.",
+    "dialogTitle": "Attacher {number} objet(s) à : {issue}",
+    "whereToDrop": "Où voulez-vous attacher ces objets ?",
+    "alreadyAttached": "Cet objet est déjà joint au problème.",
+    "attach": "Attacher",
+    "cancel": "Annuler"
+  },
+  "tagger": {
+    "waiting": {
+      "title": "Application de balises 6WTags...",
+      "label": "Les problèmes seront filtrés en fonction des balises 6WTags précédentes."
+    },
+    "cancel": "Annuler"
+  },
+  "error": {
+    "0": {
+      "title": "Ce contenu n'est plus accessible.",
+      "subtitle": "Actualisez le widget.",
+      "message": "L'objet a peut-être été supprimé ou vous ne disposez plus de l'accès requis."
+    }
+  }
+}

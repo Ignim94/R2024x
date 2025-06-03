@@ -1,0 +1,10 @@
+{
+  "EMPTY_CONTENT": "没有要比较的匹配内容",
+  "Constrained_Criteria": "约束条件",
+  "Driving_Criteria": "驱动条件",
+  "NOStructureAvailable": "结构比较不可用",
+  "EMPTY_RULE_IDS": "空规则 ID",
+  "Failed_to_fetch_mv_Id": "无法获取 MV ID",
+  "Failed_to_fetch_Rules_definition": "无法获取规则定义",
+  "No_Rules_Definition": "无规则定义"
+}

@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySOLIDWORKS_dataexchange.XSCViews.Title="보기";
+PowerBySOLIDWORKS_dataexchange.XSCTools.Title="도구";
+PowerBySOLIDWORKS_dataexchange.Lifecycle.Title="라이프사이클";
+PowerBySOLIDWORKS_dataexchange.SaveSession.Title="활성 창 저장";
+PowerBySOLIDWORKS_dataexchange.SaveSessionAsNew.Title="활성 창을 새로 저장";
+PowerBySOLIDWORKS_dataexchange.ShareAsPicture.Title="사진으로 게시";
+PowerBySOLIDWORKS_dataexchange.ShareAs3D.Title="3D로 게시";
+PowerBySOLIDWORKS_dataexchange.RefreshHome.Title="새로 고침";
+PowerBySOLIDWORKS_dataexchange.ReloadAll.Title="모두 다시 로드";
+PowerBySOLIDWORKS_dataexchange.ReserveHdr.Title="잠금";
+PowerBySOLIDWORKS_dataexchange.UnreserveHdr.Title="잠금 해제";
+PowerBySOLIDWORKS_dataexchange.PropertiesHdr.Title="속성";
+PowerBySOLIDWORKS_dataexchange.GetRevisionHdr.Title="리비전 가져오기";
+PowerBySOLIDWORKS_dataexchange.ReplaceByRevisionHdr.Title="리비전으로 대치";
+PowerBySOLIDWORKS_dataexchange.ReplaceByLatestRevisionHdr.Title="최신 리비전으로 대치";
+PowerBySOLIDWORKS_dataexchange.UpdateRevisionsHdr.Title="리비전 업데이트";
+PowerBySOLIDWORKS_dataexchange.RevisionsHdr.Title="리비전";
+PowerBySOLIDWORKS_dataexchange.ReloadFromServerHdr.Title="서버에서 다시 로드";
+PowerBySOLIDWORKS_dataexchange.ReplaceContentHdr.Title="콘텐츠 대치";
+PowerBySOLIDWORKS_dataexchange.RelationIPExplorer.Title="관계";
+PowerBySOLIDWORKS_dataexchange.OptionsHdr.Title="옵션...";
+
+PowerBySOLIDWORKS_dataexchange.View.Title="보기";
+PowerBySOLIDWORKS_dataexchange.Tools.Title="도구";
+PowerBySOLIDWORKS_dataexchange.XCADExport.Title="X-CAD 내보내기";
+PowerBySOLIDWORKS_dataexchange.XCADImport.Title="X-CAD 불러오기";

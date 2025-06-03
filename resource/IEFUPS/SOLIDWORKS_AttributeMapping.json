@@ -1,0 +1,64 @@
+{
+	"attributes": {
+		"defaultSupportedAttributesForType": {
+			"VPMReference": [
+				{
+					"attributeName": "revision",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "V_versionComment",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "V_Name",
+					"direction": "CADToMx"
+				},
+				{
+					"attributeName": "V_description",
+					"direction": "Both"
+				}
+			],
+			"Drawing": [
+				{
+					"attributeName": "revision",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "V_Name",
+					"direction": "CADToMx"
+				},
+				{
+					"attributeName": "current",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "originated",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "V_versionComment",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "V_description",
+					"direction": "Both"
+				}
+			],
+			"XCADModelRepReference": [
+				{
+					"attributeName": "V_versionComment",
+					"direction": "MxToCAD"
+				},
+				{
+					"attributeName": "V_Name",
+					"direction": "CADToMx"
+				},
+				{
+					"attributeName": "V_description",
+					"direction": "Both"
+				}
+			]
+		}
+	}
+}

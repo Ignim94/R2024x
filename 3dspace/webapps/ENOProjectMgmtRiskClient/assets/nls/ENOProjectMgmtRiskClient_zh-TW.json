@@ -1,0 +1,23 @@
+{
+  "RISK": "風險",
+  "RISKS": "風險",
+  "IMPACT": "Impact",
+  "CLASS_TYPE": "風險類型",
+  "ABATEMENT": "消除計畫",
+  "RPN": "評等",
+  "RISK_TREND": "風險趨勢",
+  "SHOW_COMPLETED": "顯示已完成的風險",
+  "ALL_CONTEXT_ITEMS": "所有關聯風險",
+  "ALL_PROJECT_RISKS": "所有專案風險",
+  "OWNED": "我的風險",
+  "ALL_MY_ASSIGNED_ITEMS": "全部 (我的風險 + 已指派)",
+  "PROJECT_RISKS": "專案風險",
+  "SUB_PROJECT_RISKS": "專案 + 子專案風險",
+  "ASSOCIATED_RISKS": "相關風險",
+  "RISK_PROFILE": "風險設定檔",
+  "FROM_PROFILE": "從設定檔",
+  "RISK_TEMPLATE": "風險範本",
+  "DUPLICATE_NO_CONTEXT_ACCESS": "您可能沒有內容存取權，無法複製下列物件 ",
+  "RISK_PROFILE_DOES_NOT_EXIST": "風險設定檔不存在",
+  "RISK_PROFILE_EXECUTION_CONTEXT_NOT_SUPPORTED": "不支援針對所選關聯執行風險概況"
+}

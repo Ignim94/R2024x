@@ -1,0 +1,9 @@
+m|LibraryNGUX\PLMNewLibraryActive.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.7.24270|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\PLMNewLibraryActive\PLMNewLibraryActive.js|1727379113|14554
+s|LibraryNGUX\PLMNewLibraryActive.mweb\src\PLMNewLibraryActiveController.js|1727243827|36712
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

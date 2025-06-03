@@ -1,0 +1,7 @@
+{
+  "popuptitle": "Odstranit z oblíbených – {favname}",
+  "title": "Nelze získat přístup k {favname}.",
+  "subtitle": "Záložka již není přístupná: Mohla být odstraněna nebo nemusíte mít požadovanou odpovědnost v prostoru pro spolupráci pro zobrazení záložky.",
+  "question": "Chcete odebrat záložku {favname} z části Oblíbené?",
+  "buttonRemove": "Odebrat"
+}

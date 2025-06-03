@@ -1,0 +1,10 @@
+<meta charset="UTF-8"/>
+DMUCommands.3DcompareCmdHdr.Title="Сравнение 3D";
+DMUCommands.DMU2DCompareCmdHdr.Title="Сравнение 2D";
+DMUCommands.DMUReqCompareCmdHdr.Title="Сравнение требований";
+DMUCommands.normalViewCmdHdr.Title="Перпендикулярный вид";
+DMUCommands.DMUColorOpacityOverloadHdr.Title="Цвет и непрозрачность заливки";
+DMUCommands.DMUPositionOverloadHdr.Title="Переместить";
+DMUCommands.DMULevelSelectorHdr.Title="Отобразить селектор уровней";
+DMUCommands.DMURemoveOverloadHdr.Title="Удалить перегрузку";
+DMUCommands.DMUEditPropertiesHdr.Title="Информация";

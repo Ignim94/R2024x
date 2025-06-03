@@ -1,0 +1,1 @@
+define("DS/ENOSpecMultiGridCommon/ENOSpecMultiGridCommon_en",{});define("DS/ENOSpecMultiGridCommon/assets/nls/SpecMultiGridCommon",{Loading:"Loading...",WrapLoader:"Wraping...",UnwrapLoader:"Unwraping...",ExportCSV:"Export",Wrap:"Wrap",Unwrap:"Unwrap",Print:"Print",ResetChanges:"Reset",Message_CmdEmptyGridCheck:'Drag, search or select a product specification to "{operation}".'});

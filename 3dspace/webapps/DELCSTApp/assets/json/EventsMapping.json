@@ -1,0 +1,158 @@
+{
+    "select" : {
+        "EBOM": ["CBOM", "CMDS", "LINKS", "IMPLEMENTMOD", "MFGSTRUCTUREMOD", "AUTHORLINKMOD", "PROPERTIES", "MFG3DVIEWERMOD"],
+        "CBOM": ["EBOM", "CMDS", "LINKS", "ORIGIN", "ALTERNATES_AND_SUBSTITUTES", "ALTERNATE", "RESULTING_PRODUCT_VIEW", "CAPRESOURCE", "IMPLEMENTMOD", "MFGSTRUCTUREMOD", "AUTHORLINKMOD", "PROPERTIES", "GROUPINGMOD", "MFG3DVIEWERMOD", "SUBSTITUTES", "RESPONSIBILITY"],
+        "AUXILIARY": ["CMDS", "LINKS", "AUTHORLINKMOD", "PROPERTIES"],
+        "ORIGIN": ["CMDS", "PROPERTIES"],
+        "ALTERNATES_AND_SUBSTITUTES": ["CMDS", "PROPERTIES"],
+        "ALTERNATE": ["CMDS", "PROPERTIES"],
+        "RESULTING_PRODUCT_VIEW": ["CMDS", "PROPERTIES"],
+        "CAPRESOURCE": ["CMDS", "PROPERTIES"],
+        "MIL": ["MIL"],
+        "SUBSTITUTES": ["CMDS", "PROPERTIES"],
+        "RESPONSIBILITY": ["CMDS", "PROPERTIES"]
+    },
+
+    "SearchAndAddCommand" : {
+        "EBOM": ["EBOM"],
+        "CBOM": ["CBOM"],
+        "ORIGIN": ["ORIGIN"],
+        "ALTERNATE": ["ALTERNATE"],
+        "RESULTING_PRODUCT_VIEW": ["RESULTING_PRODUCT_VIEW"],
+        "CAPRESOURCE": ["CAPRESOURCE"],
+        "SUBSTITUTES": ["SUBSTITUTES"],
+        "RESPONSIBILITY": ["RESPONSIBILITY"]
+    },
+    "selectNodes" : {
+        "EBOM": ["CBOM"],
+        "CBOM": ["EBOM"],
+        "UDECMDMOD":["CBOM", "EBOM"],
+		"MFG3DVIEWERMOD" : ["EBOM"]
+    },
+    "unSelectNodes": {
+		"MFG3DVIEWERMOD" : ["EBOM"]
+    },
+    "ActionRemove" : {
+        "ALTERNATE": ["ALTERNATE"],
+        "RESULTING_PRODUCT_VIEW": ["RESULTING_PRODUCT_VIEW"],
+        "CAPRESOURCE": ["CAPRESOURCE"],
+        "ORIGIN": ["ORIGIN"],
+        "SUBSTITUTES": ["SUBSTITUTES"],
+        "RESPONSIBILITY": ["RESPONSIBILITY"]
+    },
+    "AlternateBL" : {
+        "ALTERNATE": ["ALTERNATE"]
+    },
+    "CapableResourceBL" : {
+        "CAPRESOURCE": ["CAPRESOURCE"]
+    },
+    "Hide" : {
+        "CommandsService": ["EBOM", "CBOM", "AUXILIARY"]
+    },
+    "HideAll" : {
+        "CommandsService": ["EBOM", "CBOM", "AUXILIARY"]
+    },
+    "ExportCSVCmd" : {
+        "CommandsService" : ["CBOM"]
+    },
+    "LoadRelations" : {
+        "CommandsService" : ["CBOM"],
+        "AUTHORLINKMOD" : ["CBOM"]
+    },
+    "DuplicateAdvCmd" : {
+        "CommandsService": ["CBOM", "AUXILIARY"]
+    },
+    "refreshImpacted" : {
+        "EBOM" : ["AUXILIARY","CBOM", "LINKS", "MFG3DVIEWERMOD"],
+        "CBOM" : ["AUXILIARY","EBOM", "LINKS", "ORIGIN", "ALTERNATE", "RESULTING_PRODUCT_VIEW", "CAPRESOURCE", "MFG3DVIEWERMOD","SUBSTITUTES", "RESPONSIBILITY"],
+        "AUTHORLINKMOD" : ["CBOM","AUXILIARY","EBOM", "LINKS", "ORIGIN", "ALTERNATE", "RESULTING_PRODUCT_VIEW", "CAPRESOURCE","SUBSTITUTES", "RESPONSIBILITY"],
+        "IMPLEMENTMOD" : ["CBOM","AUXILIARY","EBOM", "LINKS", "ORIGIN", "ALTERNATE", "RESULTING_PRODUCT_VIEW", "CAPRESOURCE","SUBSTITUTES", "RESPONSIBILITY"],
+        "AUXILIARY" : ["CBOM","EBOM", "LINKS"],
+        "LINKS" : ["CBOM","AUXILIARY","EBOM", "ORIGIN", "ALTERNATE", "RESULTING_PRODUCT_VIEW", "CAPRESOURCE","SUBSTITUTES", "RESPONSIBILITY"],
+        "INSTCMDMOD" : ["CBOM","AUXILIARY","EBOM", "LINKS", "ORIGIN", "ALTERNATE", "RESULTING_PRODUCT_VIEW", "CAPRESOURCE","SUBSTITUTES", "RESPONSIBILITY"],
+        "INSTCMDV2MOD" : ["CBOM","AUXILIARY","EBOM", "LINKS", "ORIGIN", "ALTERNATE", "RESULTING_PRODUCT_VIEW", "CAPRESOURCE","SUBSTITUTES", "RESPONSIBILITY"]
+    },
+    "removeRoot": {
+        "EBOM": ["EBOM"],
+        "CBOM": ["CBOM"]
+    },
+    "updateCrossHighlight": {
+        "EBOM": ["CBOM"],
+        "CBOM": ["EBOM"]
+    },
+    "change3DVisibility": {
+        "CBOM": ["EBOM"]
+    },
+    "change3DVisibilityfromEBOMview" : {
+		"EBOM": ["MFG3DVIEWERMOD"]
+	},
+    "set3DVisibilityState": {
+		"MFG3DVIEWERMOD": ["EBOM"]
+	},
+    "HideIn3D" : {
+        "CBOM": ["CBOM"]
+    },
+    "ShowIn3D" : {
+        "CBOM": ["CBOM"]
+    },
+    "addRootNode" : {
+        "CBOM": ["CBOM", "MFG3DVIEWERMOD"]
+    },
+    "visibleNodesChanged": {
+        "EBOM": ["EBOM"],
+        "CBOM": ["CBOM"],
+        "ORIGIN": ["ORIGIN"],
+        "ALTERNATE": ["ALTERNATE"],
+        "CAPRESOURCE": ["CAPRESOURCE"],
+        "SUBSTITUTES": ["SUBSTITUTES"],
+        "RESPONSIBILITY": ["RESPONSIBILITY"]
+    },
+    "Filter3DApplied": {
+        "EBOM": ["CBOM"]
+    },
+    "resetBIModel": {
+        "BIPlugin" : ["EBOM", "CBOM", "MIL"]
+    },
+    "activateProcurementGrouping": {
+        "GROUPINGMOD": ["GROUPINGMOD"]
+    },
+    "AddMfgItemToMBOMAltSub": {
+        "ALTERNATES_AND_SUBSTITUTES": ["ALTERNATES_AND_SUBSTITUTES"]
+    },
+    "LoadDropContent" : {
+        "LandingPageService": ["CBOM"]
+    },
+    "ReplaceByAlternate": {
+        "ALTERNATES_AND_SUBSTITUTES": ["ALTERNATES_AND_SUBSTITUTES"]
+    },
+    "doReplaceByMfgAlternate": {
+        "ALTERNATES_AND_SUBSTITUTES": ["CBOM"]
+    },
+    "activateFlattenView": {
+        "GROUPINGMOD": ["GROUPINGMOD"]
+    },
+    "LoadIn3DViewer" : {
+		"CBOM": ["MFG3DVIEWERMOD"]
+	},	
+	"ReframeIn3DViewer" : {
+		"EBOM": ["MFG3DVIEWERMOD"]
+    },
+    "updateEINAttribute": {
+        "LifecycleService": ["CBOM"]
+    }, 
+    "widgetLinked": {
+		"MFG3DVIEWERMOD": ["CBOM","EBOM"]
+	},
+	"widgetUnlinked": {
+		"MFG3DVIEWERMOD": ["CBOM","EBOM"]
+	}, 
+    "highlightIn3D" : {
+		"EBOM": ["MFG3DVIEWERMOD"]
+    },
+    "update3DVisibilityState": {
+		"MFG3DVIEWERMOD": ["EBOM"]
+	},
+    "toggle3DVisibilityState": {
+		"EBOM":["EBOM"]
+	}
+}

@@ -1,0 +1,53 @@
+{
+  "cadexportconfig.text.title": "标题",
+  "cadexportconfig.toggle.drawing": "包括工程图",
+  "cadexportconfig.error.root3dexp.v5selected": {
+    "title": "您无法导出 3DEXPERIENCE 对象",
+    "subtitle": "选择有效的导出目标。"
+  },
+  "cadexportconfig.error.3dexpselected": {
+    "title": "您无法导出 3DEXPERIENCE 对象",
+    "subtitle": "选择有效内容。"
+  },
+  "cadexportconfig.error.rolesmatch": {
+    "title": "您必须具有导出内容的权限。",
+    "subtitle": "验证您的凭据，或联系您的管理员寻求支持。"
+  },
+  "cadexportconfig.error.multicadsupport": {
+    "title": "请选择具有相同 CAD 格式值的对象。"
+  },
+  "cadexportconfig.error.cadsupport": {
+    "title": "您无法导出具有此 CAD 格式的数据。"
+  },
+  "cadexportconfig.error.rootecservice": {
+    "title": "无法导出数据。",
+    "subtitle": "无法访问导出服务。请验证您的系统是否已配置为导出此数据类型。"
+  },
+  "cadexportconfig.error.selCV5.rootdifferentnode": {
+    "title": "如果根节点是 3DEXPERIENCE 节点，则无法导出 CATIA V5 节点。"
+  },
+  "cadexportconfig.error.ecasroot": {
+    "title": "无法导出数据。",
+    "subtitle": "选定对象将嵌入式零部件作为其根节点。"
+  },
+  "XEError.ExportECNotSupported": {
+    "title": "您无法导出嵌入式部件。"
+  },
+  "XEError.UnsupportedInputDatatype": {
+    "title": "您无法导出此类对象。"
+  },
+  "XEError.ExportVPNotSupported": {
+    "title": "您无法导出虚拟实例。"
+  },
+  "cadexportconfig.field.expandlevel": "选择展开级别",
+  "cadexportconfig.field.expandall": "全部展开",
+  "cadexportconfig.field.expandnlevel": "展开 N 层",
+  "cadexportconfig.field.expandnlevel.value": "展开级别值",
+  "derived.format.toggle": "包括衍生格式",
+  "download.derived.outputs": "派生格式选项",
+  "combo.field.3dformat": "3D 格式",
+  "label.select3DFormat": "选择 3D 格式",
+  "combo.field.2dformat": "2D 格式",
+  "label.select2DFormat": "选择 2D 格式",
+  "cadexportconfig.field.select.expandlevel": "展开级别选项"
+}

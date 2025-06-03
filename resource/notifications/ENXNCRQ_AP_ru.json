@@ -1,0 +1,19 @@
+{
+  "sourcing.notification.event.request.statusChange.setting": "Мой запрос или назначенный запрос утвержден/отклонен",
+  "sourcing.notification.event.request.duedate.setting": "Для моего запроса или назначенного запроса приближается срок выполнения",
+  "sourcing.notification.event.request.needclarification.setting": "Мой запрос или назначенный запрос требует уточнения",
+  "sourcing.notification.event.request.submit.setting": "Мой запрос или назначенный запрос отправлен",
+  "sourcing.notification.event.memberAccessUpdate.setting": "Участники добавлены или удалены из моего запроса или назначенного запроса",
+  "sourcing.notification.event.request.promoted.setting": "Для моего запроса или назначенного запроса изменена готовность",
+  "sourcing.notification.person.request.submit.msg": "Пользователь <strong>###REQUESTOWNER###</strong> назначил вам запрос <strong>###REQUESTNAME###</strong>. Необходимо к <strong>###DUEDATE###</strong> выполнить требуемое действие.",
+  "sourcing.notification.person.request.promote.msg": "Пользователь <strong>###REQUESTOWNER###</strong> повысил запрос <strong>###REQUESTNAME###</strong> до состояния <strong>###STATE###</strong>.",
+  "sourcing.notification.person.request.demote.msg": "Пользователь <strong>###REQUESTOWNER###</strong> понизил запрос <strong>###REQUESTNAME###</strong> до состояния <strong>###STATE###</strong>.",
+  "sourcing.notification.person.request.duedate.msg": "Срок выполнения запроса <strong>###REQUESTNAME###</strong> истек. Срок выполнения: <strong>###DUEDATE###</strong>.",
+  "sourcing.notification.person.request.approve.msg": "Пользователь <strong>###REQUESTOWNER###</strong> утвердил запрос <strong>###REQUESTNAME###</strong>.",
+  "sourcing.notification.person.request.reject.msg": "Пользователь <strong>###REQUESTOWNER###</strong> отклонил запрос <strong>###REQUESTNAME###</strong>.",
+  "sourcing.notification.person.request.cancel.msg": "Пользователь <strong>###REQUESTOWNER###</strong> отменил запрос <strong>###REQUESTNAME###</strong>.",
+  "sourcing.notification.person.request.needsclarification.msg": "Пользователь <strong>###requestAsignee###</strong> отправил запрос <strong>###REQUESTNAME###</strong> на уточнение.",
+  "sourcing.notification.person.request.submitclarification.msg": "Пользователь <strong>###REQUESTOWNER###</strong> отправил уточнение по запросу <strong>###REQUESTNAME###</strong>",
+  "sourcing.notification.person.memberAccessUpdate.msg": "Пользователь <strong>###GRANTOR###</strong> добавил вас с ролью <strong>###REQUESACCESS###</strong> по запросу <strong>###REQUESTNAME###</strong>",
+  "sourcing.notification.person.memberAccessDelete.msg": "Пользователь <strong>###GRANTOR###</strong> отменил ваш доступ с ролью <strong>###REQUESACCESS###</strong> по запросу <strong>###REQUESTNAME###</strong>"
+}

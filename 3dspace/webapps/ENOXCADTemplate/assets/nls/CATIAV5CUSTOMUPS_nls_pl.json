@@ -1,0 +1,7 @@
+{
+  "assembly.label": "Produkt",
+  "component.label": "Część",
+  "drawing.label": "Rysunek",
+  "PartNumber": "Numer części",
+  "FileName": "Nazwa pliku"
+}

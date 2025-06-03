@@ -1,0 +1,1 @@
+define("DS/DELWebViewerUtils/DELWebViewerUtils_en",{});define("DS/DELWebViewerUtils/assets/nls/CustomCodes",{"Error.InvalidInput.Message":"Invalid Input provided.","Error.BuildupInitializationFailed.Message":"Initialization of buildup content or buildup context is failed.","Error.ConnectionFailed.Message":"Connection to the node has been lost within the cloud environment."});

@@ -1,0 +1,5 @@
+{
+"ToggleRightPanel.Title":"显示侧边面板",
+"ToggleRightPanel.ShortHelp":"在侧窗格中的不同选项卡中显示有关所选对象的信息。",
+"ToggleRightPanel.LongHelp":"可用选项卡取决于从中启动命令的应用程序，以及选定对象的类型。"
+}

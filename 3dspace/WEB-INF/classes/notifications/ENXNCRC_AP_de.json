@@ -1,0 +1,19 @@
+{
+  "sourcing.notification.event.request.statusChange.setting": "Meine Anfrage oder zugewiesene Anfrage wurde genehmigt/abgelehnt",
+  "sourcing.notification.event.request.duedate.setting": "Meine Anfrage oder zugewiesene Anfrage nähert sich dem Fälligkeitsdatum",
+  "sourcing.notification.event.request.needclarification.setting": "Meine Anfrage oder zugewiesene Anfrage muss geklärt werden",
+  "sourcing.notification.event.request.submit.setting": "Meine Anfrage oder zugewiesene Anfrage wurde übermittelt",
+  "sourcing.notification.event.memberAccessUpdate.setting": "Mitglieder werden zu meiner Anfrage oder zugewiesenen Anfrage hinzugefügt oder entfernt",
+  "sourcing.notification.event.request.promoted.setting": "Meine Anfrage oder zugewiesene Anfrage ändert den Bearbeitungsstatus",
+  "sourcing.notification.person.request.submit.msg": "<strong>###REQUESTOWNER###</strong> hat Ihnen <strong>###REQUESTNAME###</strong> zugeordnet. Am <strong>###DUEDATE###</strong> ist diese erforderliche Aktion fällig.",
+  "sourcing.notification.person.request.promote.msg": "<strong>###REQUESTOWNER###</strong> hat die Anfrage <strong>###REQUESTNAME###</strong> zum Stadium <strong>###STATE###</strong> hochgestuft.",
+  "sourcing.notification.person.request.demote.msg": "<strong>###REQUESTOWNER###</strong> hat die Anfrage <strong>###REQUESTNAME###</strong> zum Stadium <strong>###STATE###</strong> zurückgestuft.",
+  "sourcing.notification.person.request.duedate.msg": "<strong>###REQUESTNAME###</strong> hat sein Fälligkeitsdatum überschritten. Fälligkeitsdatum: <strong>###DUEDATE###</strong>.",
+  "sourcing.notification.person.request.approve.msg": "<strong>###REQUESTOWNER###</strong> hat die Anfrage <strong>###REQUESTNAME###</strong>genehmigt.",
+  "sourcing.notification.person.request.reject.msg": "<strong>###REQUESTOWNER###</strong> hat die Anfrage <strong>###REQUESTNAME###</strong> abgelehnt.",
+  "sourcing.notification.person.request.cancel.msg": "<strong>###REQUESTOWNER###</strong> hat die Anfrage <strong>###REQUESTNAME###</strong> storniert.",
+  "sourcing.notification.person.request.needsclarification.msg": "<strong>###requestAsignee###</strong> hat die Anfrage <strong>###REQUESTNAME###</strong> zur weiteren Klärung gesendet.",
+  "sourcing.notification.person.request.submitclarification.msg": "<strong>###REQUESTOWNER###</strong> hat die Klärung für die Anfrage <strong>###REQUESTNAME###</strong> gesendet",
+  "sourcing.notification.person.memberAccessUpdate.msg": "<strong>###GRANTOR###</strong> hat Sie als <strong>###REQUESACCESS###</strong> zu <strong>###REQUESTNAME###</strong> hinzugefügt.",
+  "sourcing.notification.person.memberAccessDelete.msg": "<strong>###GRANTOR###</strong> hat Sie als <strong>###REQUESACCESS###</strong> von <strong>###REQUESTNAME###</strong> entfernt."
+}

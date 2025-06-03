@@ -1,0 +1,23 @@
+{
+  "enterprise_dictionary_breadcrumb": "Variabilité d'entreprise",
+  "model_definition_breadcrumb": "Versions du modèle",
+  "open_mv_search_title": "Sélectionner une version de modèle à ouvrir",
+  "newModelVersion": "Nouvelle version de modèle",
+  "addExistingPrefLabel": "ajouterPréfExistante",
+  "MSG_UNABLE_TO_GET_SUBTYPES": "Impossible d'obtenir les sous-types de la version du modèle.",
+  "NO_MODELVERSION_ATTACHED_ERROR": "Aucune version de modèle n'est associée au/à la ",
+  "CUSTOMER_ATTRIBUTE_LOADING_WARNING": "Echec du chargement des attributs client !",
+  "TYPE_MODELVERSION": "Version du modèle",
+  "TYPE_PRODUCTCONFIGURATION": "Configuration de produit",
+  "TYPE_MANUFACTURINGPLAN": "Plan de fabrication",
+  "TYPE_CONFIGURATIONRULE": "Règle de configuration",
+  "TYPE_VARIANT": "Variante",
+  "TYPE_VARIANTVALUE": "Valeur de variante",
+  "TYPE_OPTIONGROUP": "Options",
+  "TYPE_OPTIONGROUPVALUE": "Valeur des options",
+  "PREPARING_FOR_ROADMAP_VIEW": "Préparation de l'affichage du calendrier de lancement",
+  "ROADMAP_VIEW": "Vue du calendrier de lancement",
+  "MODELDEF": "ENOVIA - Model Definition",
+  "ROADMAP_VIEW_IS_REFRESHING": "Veuillez patienter, la vue du calendrier de lancement est en cours d'actualisation…",
+  "GETTING_THINGS_READY": "Préparation en cours…"
+}

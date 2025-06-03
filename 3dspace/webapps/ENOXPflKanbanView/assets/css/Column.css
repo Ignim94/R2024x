@@ -1,0 +1,196 @@
+/* Override WebUX CSS */
+/*
+.kanban-container .wux-layouts-collectionview {
+    position: initial !important;
+    top: initial !important;
+    left: initial !important;
+    bottom: initial !important;
+    height: calc(100%);
+}
+
+.kanban-container .wux-controls-responsivetileview.wux-ui-state-activated {
+    box-shadow: initial;
+}
+
+.kanban-container .wux-scroller.wux-ui-is-rendered {
+    overflow-x: hidden;
+}
+*/
+/* To avoid the borders 
+.kanban-container .wux-layouts-collectionview .wux-layouts-left-scroller-container:not([empty]) {
+    border-right: none !important;
+}
+
+.kanban-container .wux-layouts-collectionview .wux-layouts-right-scroller-container:not([empty]) {
+    border-left: none !important;
+}
+*/
+
+/* Content */
+.kanban-container .kanban-container-column {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-left: 1px solid #e2e4e3;
+    flex: auto;
+}
+
+.kanban-container .kanban-container-column.visible.first {
+    border-left: none;
+}
+
+/* The header */
+.kanban-container .kanban-container-column .column-header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10px 5px 5px 5px;
+}
+
+.kanban-container .kanban-container-column .column-header-label {
+    font-size: 20px;
+    line-height: 20px;
+    color: #368ec4;
+}
+
+.kanban-container .kanban-container-column .column-header-count {
+    font-size: 15px;
+    line-height: 20px;
+    color: #b4b6ba;
+    margin-left: 5px;
+}
+
+/* The content */
+.kanban-container .kanban-container-column .column-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/* Sub label container */
+.kanban-container .sub-label-container {
+    display: flex;
+    line-height: 22px;
+}
+
+.kanban-container .sub-label-container .fonticon {
+    color: #b4b6ba;
+}
+
+/* Priority column */
+.kanban-container .issue-list-priority {
+    margin-right: 5px;
+}
+
+.kanban-container .issue-list-priority-icon.low {
+    color: #477738;
+}
+
+.kanban-container .issue-list-priority-icon.medium {
+    color: #00b8de;
+}
+
+.kanban-container .issue-list-priority-icon.high {
+    color: #e87b00;
+}
+
+.kanban-container .issue-list-priority-icon.urgent {
+    color: #ea4f37;
+}
+
+/* Assignees column */
+.kanban-container .issue-assignees-list,
+.kanban-container .issue-owner-list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.kanban-container .issue-assignees-list .issue-assignees-image,
+.kanban-container .issue-owner-list .issue-owner-image {
+    font-size: 11px;
+    flex: 0 1 auto;
+    position: relative;
+    display: inline-block;
+    min-width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 .2em 0 .2em;
+    cursor: pointer;
+}
+
+.kanban-container .issue-assignees-list .issue-assignees-image img,
+.kanban-container .issue-owner-list .issue-owner-image img {
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+/* Status bar 
+.kanban-container .wux-controls-responsivetileview-statusbaricon.wux-ui-3ds {
+    cursor: pointer;
+}*/
+
+/* DnD on column */
+.kanban-container .kanban-container-column .column-overlay .column-overlay-label {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.kanban-container .kanban-container-column .column-overlay .column-overlay-icon {
+    font-size: 18px;
+}
+
+.kanban-container .kanban-container-column .kanban-dragged-tile {
+    opacity: 0.5;
+    background-color: initial;
+}
+
+/* Hovered tile */
+.kanban-container .kanban-container-column .kanban-hovered-tile {
+    opacity: 0.5;
+}
+
+/*
+.kanban-container .kanban-container-column .kanban-hovered-tile .wux-controls-responsivetileview {
+    opacity: 0.5;
+    border-color: #368ec4;
+    outline: 2px solid #368ec4;
+}*/
+
+.kanban-container .kanban-container-column .column-overlay {
+    position: absolute;
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.kanban-container .kanban-container-column.drop-authorized .column-overlay {
+    border: #42a2da 1px solid;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f5f6;
+    opacity: 0.8;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Special case for 'Closed' column when not filtered */
+.kanban-container .kanban-container-column.not-filtered .column-header {
+    opacity: 0.5;
+}
+
+.kanban-container .kanban-container-column .not-filtered-warning {
+    margin-left: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #E87B00;
+}

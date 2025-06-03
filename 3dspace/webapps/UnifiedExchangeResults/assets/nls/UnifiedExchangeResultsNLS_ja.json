@@ -1,0 +1,17 @@
+{
+  "exchangeresults.heading.label.default": "ダウンロードをまもなく開始します",
+  "exchangeresults.heading.label.download.data.start": "データをダウンロードしています。",
+  "exchangeresults.heading.label.download.data.end": "データがダウンロードされました。",
+  "exchangeresults.heading.label.download.data.fail": "データをダウンロードできませんでした。",
+  "exchangeresults.heading.label.download.report.start": "レポートをダウンロードしています。",
+  "exchangeresults.heading.label.download.report.end": "レポートがダウンロードされました。",
+  "exchangeresults.heading.label.download.report.fail": "レポートをダウンロードできませんでした。",
+  "exchangeresults.heading.label.download.content.start": "コンテンツをダウンロードしています。",
+  "exchangeresults.heading.label.download.content.end": "コンテンツがダウンロードされました。",
+  "exchangeresults.heading.label.download.content.fail": "コンテンツをダウンロードできませんでした。",
+  "exchangeresults.heading.label.download.data.nourl": "データが利用できないため、ダウンロードを処理できませんでした。",
+  "exchangeresults.heading.label.download.report.nourl": "レポートが利用できないため、ダウンロードを処理できませんでした。",
+  "exchangeresults.heading.label.download.content.nourl": "コンテンツが利用できないため、ダウンロードを処理できませんでした。",
+  "exchangeresults.heading.label.download.nojob": "ジョブが使用できないため、ダウンロードを処理できませんでした。",
+  "exchangeresults.button.label.showjobdetails": "ジョブの詳細を表示します"
+}

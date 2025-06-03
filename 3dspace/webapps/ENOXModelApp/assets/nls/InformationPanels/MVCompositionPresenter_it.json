@@ -1,0 +1,21 @@
+{
+  "ERROR_DATA_LOAD_TITLE": "Errore durante il recupero della composizione della versione del modello.",
+  "ERROR_DATA_ADD_TITLE": "Errore durante l'aggiunta della composizione della versione del modello.",
+  "ERROR_DATA_REMOVE_TITLE": "Errore durante la rimozione della composizione della versione del modello.",
+  "ERROR_DATA_REPLACE_TITLE": "Errore durante la sostituzione della revisione della versione del modello.",
+  "ERROR_DATA_DEFAULT_TITLE": "Impossibile eseguire l'azione.",
+  "ERROR_DATA_LOAD_MSG": "Verificare di avere accesso a questo oggetto.",
+  "ERROR_SAME_REVISION_TITLE": "Stessa revisione selezionata",
+  "ERROR_SAME_REVISION_MSG": "Selezionare una revisione diversa da sostituire",
+  "title_label": "Titolo",
+  "revision_label": "Revisione",
+  "isLastRevision_label": "È l'ultima revisione",
+  "modelName_label": "Nome del modello",
+  "owner_label": "Proprietario",
+  "type_label": "Tipo",
+  "add_action_label": "Aggiungi versione modello",
+  "replace_action_label": "Sostituisci con revisione",
+  "remove_action_label": "Rimuovi",
+  "information_action_label": "Informazioni",
+  "searchLabel": "Seleziona una versione del modello"
+}

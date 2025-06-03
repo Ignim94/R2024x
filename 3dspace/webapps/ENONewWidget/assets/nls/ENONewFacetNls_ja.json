@@ -1,0 +1,8 @@
+{
+  "defaultFacetCreate": "プロパティ",
+  "classificationFacet": "分類",
+  "revisionFacet": "リビジョン",
+  "releaseSnapshotFacet": "スナップショット テンプレートをリリース",
+  "MaterialFacet": "マテリアル",
+  "filesFacet": "ファイル"
+}

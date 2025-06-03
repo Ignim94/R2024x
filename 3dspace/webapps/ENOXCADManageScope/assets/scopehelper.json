@@ -1,0 +1,32 @@
+{
+"cadmastericon": [
+		{
+			"cadmaster": "CATIAV5",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/CATIAV5.png"
+		},
+		{
+			"cadmaster": "SOLIDWORKS",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/SOLIDWORKS.png"
+		},
+		{
+			"cadmaster": "AUTOCAD",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/AUTOCAD.png"
+		},
+		{
+			"cadmaster": "INVENTOR",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/INVENTOR.png"
+		},
+		{
+			"cadmaster": "NX",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/NX.png"
+		},
+		{
+			"cadmaster": "3DEXPERIENCE",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/3DEXPERIENCE.png"
+		},
+		{
+			"cadmaster": "REVIT",
+			"iconPath": "/webapps/ENOXCADUtils/assets/icons/cad/Revit.png"
+		}
+	]
+}

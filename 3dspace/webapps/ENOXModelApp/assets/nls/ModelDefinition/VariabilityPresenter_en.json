@@ -1,0 +1,47 @@
+{
+  "add": "Add",
+  "information": "Information",
+  "open": "Open",
+  "remove": "Remove",
+  "newVariant" : "New Variant",
+  "newOptionGroup" : "New Option Group",
+  "newParameter" : "New Numerical Parameter",
+  "addExisting" : "Add Existing",
+  "attachValues" : "Attach Values",
+  "attachOptions" : "Attach Options",
+
+   "facet_Text_values" :"Values",
+   "facet_Text_options":"Options",
+
+  "ERROR_VARIABILITY_ALLOCATION" : "Variability Allocation failed for this Model Version!",
+  "ERROR_VARIABILITY_DEALLOCATION" : "Variability De-allocation failed for this Model Version!",
+  "ERROR_GET_ENT_VARIABILITY_DEFINTION" : "Error while fetching Enterprise Variability Dictionary Information.",
+  "ERROR_UPDATE_VAR_INSTANCE_ATTRIBUTES" : "Error while updating Variability Instance Information.",
+  "ENTERPRISE_DICTIONARY" : "Enterprise Variants and Options",
+  "ERROR_ALLOCATING_OG_WITHOUT_OPTIONS" : "Variability Allocation failed: Option Group without Option/s cannot be added.",
+  "ERROR_ALLOCATING_VARIABILITY_WITHOUT_CONTENTS": "Variability Allocation failed: Option Group without Option/s or Variant without Value/s cannot be added.",
+  "ERROR_CREATE_VARIANT" : "Error while creating Variant",
+  "ERROR_CREATE_VALUE" : "Error while creating Value",
+  "ERROR_CREATE_OPTION_GROUP" : "Error while creating Option Group",
+  "ERROR_CREATE_OPTION" : "Error while creating Option",
+  "ERROR_CREATE_PARAMETER" : "Error while creating Parameter",
+  "ERROR_GET_OPTIONS" : "Error while fetching Options",
+  "ERROR_GET_VALUES" : "Error while fetching Values",
+  "ERROR_GET_PARAMETER_DETAILS" : "Error while fetching Parameter Information",
+  "EMPTY_CONTENT_MESSAGE" : "You do not have any item yet. <br> Use the <span class=\"fonticon fonticon-plus\"></span> icon to add one",
+  "RangeValueDelimiter" : " to ",
+  "addExistingPref" : "'Add Existing' variability : allocate all values/options for selected variants/option groups.",
+  "addExistingSearchTitle" : "Add Existing Variability",
+  "addExistingFrom":"Add Existing From",
+
+  "_item" : "Item",
+  "_items" : "Items",
+
+  "VariabilityGroupType": "Options Group",
+  "VariantType" : "Variant",
+  "ValueType" : "Value",
+  "OptionType" : "Option",
+  "ParameterType" : "Parameter",
+  
+  "Tagger_Applied": "Tagger Applied"
+}

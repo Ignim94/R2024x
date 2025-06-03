@@ -1,0 +1,8 @@
+{
+  "defaultFacetCreate": "Właściwości",
+  "classificationFacet": "Klasyfikacje",
+  "revisionFacet": "Poprawka",
+  "releaseSnapshotFacet": "Szablon zwalniania migawki",
+  "MaterialFacet": "Materiał",
+  "filesFacet": "Pliki"
+}

@@ -1,0 +1,9 @@
+{
+  "betaOptions": [
+    {
+      "id": "FUN143768",
+      "title": "将 Web 应用程序作为浏览器选项卡打开",
+      "description": "3DCompass Web 应用程序将在专用选项卡中打开，而不是在仪表板预览窗口中打开。"
+    }
+  ]
+}

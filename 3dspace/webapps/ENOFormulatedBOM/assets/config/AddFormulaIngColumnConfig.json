@@ -1,0 +1,109 @@
+{
+	"columns": [
+		{
+			"dataIndex": "Title",
+			"text": "label_Title",
+			"typeRepresentation": "string",
+			"pinned": "left",
+			"alwaysVisibleFlag": true,
+			"editableFlag": false,
+			"allowUnsafeHTMLContent": true,
+			"autoRowHeightFlag": false,
+			"visibleFlag": true,
+			"width": "20%"
+		},
+		{
+			"dataIndex": "FormulaQunatityPercent",
+			"text": "label_Quantity_Percentage",
+			"children": [
+				{
+					"dataIndex": "targetPercent",
+					"text": "label_Target",
+					"typeRepresentation": "string",
+					"alwaysVisibleFlag": true,
+					"editableFlag": true,
+					"allowUnsafeHTMLContent": false,
+					"autoRowHeightFlag": false,
+					"exportFlag": true,
+					"visibleFlag": true,
+					"width": "9%"
+				},
+				{
+					"dataIndex": "minPercent",
+					"text": "label_Min",
+					"typeRepresentation": "string",
+					"alwaysVisibleFlag": true,
+					"editableFlag": true,
+					"allowUnsafeHTMLContent": false,
+					"autoRowHeightFlag": false,
+					"exportFlag": true,
+					"visibleFlag": true,
+					"width": "9%"
+				},
+				{
+					"dataIndex": "maxPercent",
+					"text": "label_Max",
+					"typeRepresentation": "string",
+					"alwaysVisibleFlag": true,
+					"editableFlag": true,
+					"allowUnsafeHTMLContent": false,
+					"autoRowHeightFlag": false,
+					"exportFlag": true,
+					"visibleFlag": true,
+					"width": "9%"
+				},
+				{
+					"dataIndex": "lossPercent",
+					"text": "label_Loss",
+					"typeRepresentation": "string",
+					"placeholder": "Enter Loss",
+					"alwaysVisibleFlag": true,
+					"editableFlag": true,
+					"allowUnsafeHTMLContent": true,
+					"autoRowHeightFlag": false,
+					"exportFlag": true,
+					"visibleFlag": true,
+					"width": "9%"
+				}
+			]
+		},
+		{
+			"dataIndex": "isQS",
+			"text": "label_QS",
+			"typeRepresentation": "independantBoolean",
+			"width": "10%",
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": true,
+			"editionPolicy": "EditionInPlace"
+		},
+		{
+			"dataIndex": "type",
+			"text": "label_Type",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"visibleFlag": true
+		},
+		{
+			"dataIndex": "ds6wg:revision",
+			"text": "label_Revision",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"visibleFlag": true,
+			"width": "8%"
+		},
+		{
+			"dataIndex": "ds6w:status",
+			"text": "label_Maturity",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"visibleFlag": true
+		}
+	]
+}

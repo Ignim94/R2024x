@@ -1,0 +1,21 @@
+{
+  "no_3dspace_url": "3DSpace Service-URL kann nicht gefunden werden",
+  "open_post_editing": "Post-Editing öffnen",
+  "produce_final_report": "Abschlussbericht erzeugen",
+  "report_is_up_to_date": "Der Bericht ist auf dem aktuellen Stand",
+  "report_is_not_up_to_date": "Der Bericht ist nicht aktuell",
+  "report_never_generated": "Dieser Bericht wurde nicht erstellt",
+  "status_Created": "Erstellt",
+  "status_Running": "Wird ausgeführt",
+  "status_Submitted": "Gesendet",
+  "status_NeedPostEdition": "Für diese Generierung ist eine Nachbearbeitungsaktion erforderlich.",
+  "status_NeedPostEditionAndWithChanges": "Für diese Generierung ist eine Nachbearbeitungsaktion erforderlich.",
+  "status_Failed": "Fehlgeschlagen",
+  "status_Succeeded": "Erfolgreich",
+  "status_Completed": "Abgeschlossen",
+  "status_Aborted": "Abgebrochen",
+  "target_document_display": "Zieldokument: <small>{0}</small>",
+  "target_file_display": "Zieldatei: <small>{0}</small>",
+  "unreachable_target_document": "Zieldokument nicht gefunden",
+  "unreachable_target_file": "Zieldatei nicht gefunden: <small>{0}</small>"
+}

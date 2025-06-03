@@ -1,0 +1,80 @@
+{
+    "version": "2.0",
+    "viewSetSelectorArray": [
+      {
+        "viewSetMod": "DS/RequirementCompareIntegration/viewDefs/RequirementSpecViewDef",
+        "viewSetName": "STANDARD",
+        "UseCases": [
+          {
+            "app": "COMPARE",
+            "roles": [ "*" ],
+            "typeInfoArray": [
+              {
+                "type": "Requirement Specification",
+                "service": "3DSpace"
+              }
+            ]
+          }
+        ],
+        "MainToolbarConfig": [
+          {
+            "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+            "DoNotInclude": [
+              "compareSettings.includeFacets.externalRelations"
+            ]
+          }
+        ]
+      },
+      {
+        "viewSetMod": "DS/RequirementCompareIntegration/viewDefs/RequirementViewDef",
+        "viewSetName": "STANDARD",
+        "UseCases": [
+          {
+            "app": "COMPARE",
+            "roles": [ "*" ],
+            "typeInfoArray": [
+              {
+                "type": "Requirement",
+                "service": "3DSpace"
+              }
+            ]
+          }
+        ],
+        "MainToolbarConfig": [
+          {
+            "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+            "DoNotInclude": [
+              "compareSettings.includeFacets.externalRelations"
+            ]
+          }
+        ]
+      },
+      {
+        "viewSetMod": "DS/RequirementCompareIntegration/viewDefs/CommentViewDef",
+        "viewSetName": "STANDARD",
+        "UseCases": [
+          {
+            "app": "COMPARE",
+            "roles": [ "*" ],
+            "typeInfoArray": [
+              {
+                "type": "Comment",
+                "service": "3DSpace"
+              }
+            ]
+          }
+        ],
+        "MainToolbarConfig": [
+          {
+            "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+            "DoNotInclude": [
+              "compareSettings.includeFacets.externalRelations"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+
+
+

@@ -1,0 +1,218 @@
+{
+	"columns": [{
+			"dataIndex": "madeFrom",
+			"text": "",
+			"width": 30,
+			"typeRepresentation": "image",
+			"pinned": "left",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"autoRowHeightFlag" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		 },
+		 {
+			"dataIndex": "tree",
+			"text": "label_Title",
+			"typeRepresentation": "string",
+			"pinned": "left",
+			"width": 150,
+			"alwaysVisibleFlag": true,
+			"editableFlag": true,
+			"forbiddenCheck" : false,
+			"allowUnsafeHTMLContent" : false,
+			"autoRowHeightFlag" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "menu",
+			"text": "ColumnActions",
+			"width": 60,
+			"pinned": "left",
+			"alwaysVisibleFlag": true,
+			"sortableFlag": true,
+			"groupableFlag": false,
+			"typeRepresentation": "contextMenu",
+			"editableFlag" : false,
+			"editionPolicy"  : "EditionOnClick",
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : false,
+			"visibleFlag" : true
+			
+		},
+		{
+			"dataIndex": "partNumber",
+			"text": "label_PartNumber",
+			"width": 90,
+			"typeRepresentation": "url",
+			"hyperlinkTarget": "_self",
+			"alwaysVisibleFlag": true,
+			"allowUnsafeHTMLContent" : false,
+			"autoRowHeightFlag" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "uomupdated",
+			"text": "Quantity",
+			"width": 350,
+			"typeRepresentation": "UWAObject",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"alwaysVisibleFlag": true,
+			"autoRowHeightFlag" : false,
+			"sortableFlag": false,
+			"exportFlag" : true,
+			"groupableFlag":false,
+			"visibleFlag" : true,
+			"editionPolicy" : "EditionOnOver"
+		},
+		{
+			"dataIndex": "coreMaterial",
+			"text": "label_Material",
+			"width": 100,
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"autoRowHeightFlag" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "ds6w:type",
+			"text": "label_Type",
+			"width": 100,
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"autoRowHeightFlag" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "ds6wg:revision",
+			"text": "label_Revision",
+			"width": 70,
+			"typeRepresentation": "url",
+			"hyperlinkTarget": "_self",
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "ds6w:status",
+			"text": "label_Maturity",
+			"typeRepresentation": "url",
+			"hyperlinkTarget": "_self",
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "name",
+			"text": "label_Name",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "referenceName",
+			"text": "label_ReferenceName",
+			"width": 90,
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"autoRowHeightFlag" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "ds6w:description",
+			"text": "label_Description",
+			"typeRepresentation": "string",
+			"editableFlag": true,
+			"allowUnsafeHTMLContent" : false,
+			"autoRowHeightFlag" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "ds6w:responsible",
+			"text": "label_Owner",
+			"typeRepresentation": "url",
+			"hyperlinkTarget": "_self",
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+            "dataIndex": "Alternate",
+            "text" : "label_Alternate",
+            "typeRepresentation": "url",
+            "hyperlinkTarget": "_self",
+			"exportFlag" : false,
+			"visibleFlag" : true
+        },
+		{
+			"dataIndex": "ds6w:cadMaster",
+			"text": "CADMaster",
+			"width": 80,
+			"typeRepresentation": "image",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : false,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "ds6w:modified",
+			"text": "label_LastModified",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "ds6w:created",
+			"text": "label_CreationDate",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "masterTitle",
+			"text": "MasterTitle",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "masterIdentifier",
+			"text": "MasterIdentifier",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : true
+		},
+		{
+			"dataIndex": "level",
+			"text": "Structure_Level",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent" : false,
+			"exportFlag" : true,
+			"visibleFlag" : false,
+			"sortableFlag": true
+		}
+
+	]
+}
+

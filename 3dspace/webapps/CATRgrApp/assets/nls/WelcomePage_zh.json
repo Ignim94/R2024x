@@ -1,0 +1,13 @@
+{
+  "WelcomeScreen.Title": "报告生成",
+  "WelcomeScreen.linksCategories.ContentAndKnowledge": "内容和知识工程",
+  "WelcomeScreen.linksCategories.SocialNetworks": "社交网络",
+  "WelcomeScreen.ContentAndKnowledge.linkText": "用户帮助",
+  "WelcomeScreen.WhatsNew.linkText": "新增内容",
+  "WelcomeScreen.SocialNetworks.linkText": "社区",
+  "WelcomeScreen.Buttons.AddReport": "添加报告",
+  "WelcomeScreen.Buttons.Open": "打开报告",
+  "WelcomeScreen.Buttons.Reports": "报告",
+  "WelcomeScreen.Buttons.OutputFormats": "输出格式",
+  "WelcomeScreen.InvalidFileFormat": "文件格式无效"
+}

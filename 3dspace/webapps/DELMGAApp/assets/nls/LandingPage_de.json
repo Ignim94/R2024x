@@ -1,0 +1,11 @@
+{
+  "App.Title": "Manufacturing Process Management",
+  "App.Motto": "Fertigungspläne definieren",
+  "Restore.Title": "Wiederherstellen",
+  "Restore.FontIcon": "Schriftsymbol Schriftsymbol-Reset",
+  "Open.Title": "Öffnen",
+  "Open.FontIcon": "Schriftsymbol Schriftsymbol-öffnen",
+  "CreateWorkPlan.Title": "Arbeitsplan erstellen",
+  "CreateWorkPlan.FontIcon": "Schriftsymbol Schriftsymbol-plus",
+  "DragAndDrop.Title": "Öffnen"
+}

@@ -1,0 +1,1 @@
+define("DS/Utilities/Utilities_de",{});define("DS/Utilities/assets/nls/translation",{help:"Hilfe"});

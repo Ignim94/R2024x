@@ -1,0 +1,18 @@
+{
+  "boolean": [
+    {
+      "displayValue" : "True",
+      "value" : "true"
+    },
+    {
+      "displayValue" : "False",
+      "value" : "false"
+    }
+  ],
+  "dateTime": [
+    {
+      "displayValue" : "Today",
+      "value" : "$TODAY"
+    }
+  ]
+}

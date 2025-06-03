@@ -1,0 +1,11 @@
+<meta charset="UTF-8"/>
+XAppLandingPage.Title="Verwaltung von Werkseinrichtungen";
+XAppLandingPage.App.Title="Verwaltung von Werkseinrichtungen";
+
+XAppLandingPage.Create.Title="Neu erzeugen";
+XAppLandingPage.Create.Description="Neues Werk erstellen";
+
+XAppLandingPage.Load.Title="Bestehende laden";
+XAppLandingPage.Load.Description="Bestehendes Werk laden";
+
+XAppLandingPage.Drop="Oder fügen Sie Ihre Inhalte hier ein";

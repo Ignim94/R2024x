@@ -1,0 +1,15 @@
+m|DELWKOApp\DELPPWNavigationServices_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELPPWNavigationServices_FD02\DELPPWNavigationServices_FD02.js|1700691861|78871
+s|DELWKOApp\DELPPWNavigationServices_FD02.mweb\src\NavigateOnDB.js|1679512043|44218
+u|DELWKOApp\DELPPWNavigationServices_FD02.mweb\src\NavigateOnDemand.js|1679513078|8137
+u|DELWKOApp\DELPPWNavigationServices_FD02.mweb\src\NavigateOnIndex.js|1679517005|233023
+u|DELWKOApp\DELPPWNavigationServices_FD02.mweb\src\NavigateUtil.js|1679512071|26557
+u|DELWKOApp\DELPPWNavigationServices_FD02.mweb\src\NavigationBase.js|1679513082|4389
+u|DELWKOApp\DELPPWNavigationServices_FD02.mweb\src\PathSRParser.js|1679512077|33416
+u|DELWKOApp\DELPPWNavigationServices_FD02.mweb\src\SwitchDBModeManager.js|1695897352|3504
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

@@ -1,0 +1,43 @@
+{
+    "idCard_attributes":{  
+        "ds6w:status":{
+            "defaultVisibility":true,
+            "displayWhenMinified":true,
+            "id":"ds6w:status",
+            "visibility":true
+        },
+        "ds6w:responsible":{
+            "defaultVisibility":true,
+            "displayWhenMinified":true,
+            "id":"ds6w:responsible",
+            "visibility":true
+        },
+        "ds6w:modified":{
+            "defaultVisibility":true,
+            "displayWhenMinified":true,
+            "id":"ds6w:modified",
+            "visibility":true
+        },
+        "ds6w:type":{
+            "defaultVisibility":true,
+            "displayWhenMinified":false,
+            "id":"ds6w:type",
+            "visibility":true
+        }
+    },
+	"idCard_ExternalAttribites":{
+		"ds6w:selected":{
+            "defaultVisibility":true,
+            "displayWhenMinified":false,
+            "id":"ds6w:selected",
+            "visibility":true
+        },
+        "ds6w:Traceability scope":{
+            "defaultVisibility":true,
+            "displayWhenMinified":false,
+            "id":"ds6w:Traceability scope",
+            "visibility":true
+        }
+
+    }
+}

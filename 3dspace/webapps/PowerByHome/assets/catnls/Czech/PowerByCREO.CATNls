@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+PowerByCREO.XSCViews.Title="Zobrazení";
+PowerByCREO.XSCTools.Title="Nástroje";
+PowerByCREO.Lifecycle.Title="Životní cyklus";
+PowerByCREO.Collaboration.Title="Spolupráce";
+PowerByCREO.SaveSession.Title="Uložit aktivní okno";
+PowerByCREO.RefreshHome.Title="Obnovit";
+PowerByCREO.ReloadAll.Title="Znovu načíst vše";
+PowerByCREO.ReserveHdr.Title="Zamknout";
+PowerByCREO.UnreserveHdr.Title="Odemknout";
+PowerByCREO.PropertiesHdr.Title="Vlastnosti";
+PowerByCREO.ReplaceByRevisionHdr.Title="Nahradit revizí";
+PowerByCREO.ReloadFromServerHdr.Title="Znovu načíst ze serveru";
+PowerByCREO.RelationIPExplorer.Title="Vztahy";
+PowerByCREO.OptionsHdr.Title="Možnosti...";
+PowerByCREO.View.Title="Zobrazení";
+PowerByCREO.Tools.Title="Nástroje";

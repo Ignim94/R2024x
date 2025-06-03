@@ -1,0 +1,15 @@
+{
+  "_title": "Lista de elementos de ingeniería",
+  "_priority": "Prioridad",
+  "_items": "Elementos",
+  "_item": "Elemento",
+  "_associate": "Asociado",
+  "_open": "Abrir",
+  "_physicalProduct": "Producto físico",
+  "_inWork": "En curso",
+  "_private": "Privado",
+  "_frozen": "Congelado",
+  "_released": "Emitido",
+  "_obsolete": "Obsoleto",
+  "_emptyPanelMessage": "No tiene ningún producto físico configurado para su versión de modelo"
+}

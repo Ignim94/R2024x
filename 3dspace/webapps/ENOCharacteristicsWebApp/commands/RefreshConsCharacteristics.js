@@ -1,0 +1,1 @@
+define("DS/ENOCharacteristicsWebApp/commands/RefreshConsCharacteristics",["DS/ENOCharacteristicsWebApp/commands/RefreshCharacteristics"],function(e){"use strict";return e.extend({init:function(e){this._parent(e)}})});

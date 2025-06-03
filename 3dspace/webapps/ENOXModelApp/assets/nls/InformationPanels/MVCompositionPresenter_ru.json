@@ -1,0 +1,21 @@
+{
+  "ERROR_DATA_LOAD_TITLE": "Ошибка при получении состава версии модели.",
+  "ERROR_DATA_ADD_TITLE": "Ошибка при добавлении состава версии модели.",
+  "ERROR_DATA_REMOVE_TITLE": "Ошибка при удалении состава версии модели.",
+  "ERROR_DATA_REPLACE_TITLE": "Ошибка при замене редакции версии модели.",
+  "ERROR_DATA_DEFAULT_TITLE": "Не удается выполнить действие.",
+  "ERROR_DATA_LOAD_MSG": "Убедитесь, что у вас есть доступ к этому объекту.",
+  "ERROR_SAME_REVISION_TITLE": "Выбрана та же редакция",
+  "ERROR_SAME_REVISION_MSG": "Выберите другую редакцию для замены",
+  "title_label": "Заголовок",
+  "revision_label": "Редакция",
+  "isLastRevision_label": "Является последней редакцией",
+  "modelName_label": "Имя модели",
+  "owner_label": "Владелец",
+  "type_label": "Тип",
+  "add_action_label": "Добавить версию модели",
+  "replace_action_label": "Заменить редакцией",
+  "remove_action_label": "Удалить",
+  "information_action_label": "Информация",
+  "searchLabel": "Выбрать версию модели"
+}

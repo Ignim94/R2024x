@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+<!-- Copyright 2014 , Dassault Systemes. All rights reserved. -->
+
+<head>
+
+	<title>Publisher Widget App</title>
+
+	<!-- Application Metas Start -->
+
+	<meta name="description" content="CAA Web Apps basic use case  pub/sub" />
+	<meta name="keywords" content="CAA Use Case" />
+
+	<!-- Application Metas End -->
+
+	<!-- Application JS Start -->
+	<script>
+		/* global widget,require */
+		require(['DS/PlatformAPI/PlatformAPI'],
+			function (PlatformAPI) {
+				'use strict';
+
+				var myWidget = {
+
+					//onLoad: event triggered when the widget is launched  
+					//--------------------------------------------------
+					onLoad: function () {
+						var html = "<div>" +
+							"<br>"+
+							"<label class='myLblType' >Init JSON</label> " +
+							"<textarea class='myInitData' rows='5' cols='90'></textarea>" +
+							"<br>" +
+							"<button style='margin-right:16px' class='initType'>Initilize View</button>" +
+							"<br><br>" +
+							"<label class='myLblType' >Input JSON</label> " +
+							"<textarea class='myInputType' rows='5' cols='90'></textarea>" +
+							"<br>" +
+							"<button class='myButtonType'>Push to Publish</button>" +
+							"<br><br>" +
+							"<br><br>" +
+							"<label class='myLblType' >Received JSON</label> " +
+							"<br>" +
+							"<textarea class='myReceiveType' rows='5' cols='90'></textarea>" +
+							"</div>";
+
+						widget.body.innerHTML = html;
+
+						var initData = widget.body.querySelector('.myInitData');
+						var initButton = widget.body.querySelector('.initType');
+						initButton.addEventListener("click", function () {
+							var jsonArr = initData.value;
+							PlatformAPI.subscribe('webinwin:web:notification', myWidget.onPublishText);
+							PlatformAPI.publish('webinwin:win:notification', jsonArr);
+						});
+
+						var button = widget.body.querySelector('.myButtonType');
+						var expandXML = widget.body.querySelector('.myInputType');
+
+						button.addEventListener("click", function () {
+
+							var jsonarr = JSON.stringify(expandXML.value)
+							//var jsonData = JSON.stringify(jsonarr, null, 4)
+
+							PlatformAPI.publish('webinwin:win:notification', expandXML.value);
+							PlatformAPI.subscribe('webinwin:web:notification', myWidget.onPublishText);
+						});
+					},
+
+					onPublishText: function (returnData) {
+						var receivedText = widget.body.querySelector('.myReceiveType');
+						receivedText.value = returnData;
+					}
+				};
+				widget.addEvent('onLoad', myWidget.onLoad);
+			});
+	</script>
+	<!-- Application JS End -->
+</head>
+
+<body>
+</body>
+
+</html>

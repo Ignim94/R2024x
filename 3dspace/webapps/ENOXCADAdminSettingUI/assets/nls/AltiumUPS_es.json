@@ -1,0 +1,22 @@
+{
+  "ECADUPSPCBReferenceDesignatorLabel": "Designador de referencia de PCB",
+  "ECADUPSPCBReferenceDesignatorInfo": "define el designador de referencia que se utilizará para la placa de circuito impreso en la estructura del producto",
+  "ECADUPSPackageNamePropertyLabel": "Propiedad del nombre del paquete",
+  "ECADUPSPackageNamePropertyInfo": "define el nombre de la propiedad ECAD del componente de Altium que se utiliza para derivar el nombre del paquete durante la importación inicial",
+  "ECADUPSPackageDescriptionPropertyLabel": "Propiedad de descripción de paquete",
+  "ECADUPSPackageDescriptionPropertyInfo": "define el nombre de la propiedad ECAD del componente de Altium que se utiliza para derivar la descripción del paquete durante la importación inicial",
+  "ECADUPSUseClassificationLabel": "Usar clasificación de biblioteca electrónica",
+  "ECADUPSUseClassificationInfo": "define si se debe utilizar la clasificación de biblioteca o las categorías locales para componentes electrónicos ",
+  "ECADUPSElectronicLibraryLabel": "Biblioteca de componentes electrónicos",
+  "ECADUPSElectronicLibraryInfo": "define la biblioteca superior que se utiliza para clasificar los componentes electrónicos. Proporcione la ruta de clasificación completa, por ejemplo, \\Biblioteca electrónica\\Componentes.",
+  "AltiumUPSECADCategoriesLabel": "Categorías de componentes",
+  "AltiumUPSECADCategoriesInfo": "Categorías de componentes utilizadas si no se selecciona Clasificación de biblioteca",
+  "AltiumUPSEnterpriseItemNumberPropertyLabel": "Propiedad de número de elemento empresarial",
+  "AltiumUPSEnterpriseItemNumberPropertyInfo": "Define el nombre del parámetro de Altium que contiene el número de elemento empresarial",
+  "ECADClassificationPathDefinitionPropertyLabel": "Propiedad de asignación automática de clases",
+  "ECADClassificationPathDefinitionPropertyInfo": "Define el nombre del parámetro Altium para almacenar la ruta de clasificación para la importación",
+  "ProductStructureGroupLabel": "Estructura de producto",
+  "ClassificationGroupLabel": "Clasificación",
+  "SaveGroupLabel": "Guardar",
+  "EnterpriseItemNumberLabel": "Número de elemento empresarial"
+}

@@ -1,0 +1,16 @@
+m|WebappsUtils\WebappsUtils.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.4.24135|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\WebappsUtils\WebappsUtils.js|1715720963|14492
+s|WebappsUtils\WebappsUtils.mweb\src\Console.js|1715710955|1609
+u|WebappsUtils\WebappsUtils.mweb\src\Emitter.js|1715710955|2476
+u|WebappsUtils\WebappsUtils.mweb\src\Inherit.js|1715710955|8390
+u|WebappsUtils\WebappsUtils.mweb\src\Map.js|1715710955|1592
+u|WebappsUtils\WebappsUtils.mweb\src\Performance.js|1715710955|7932
+u|WebappsUtils\WebappsUtils.mweb\src\Promise.js|1715710955|13819
+u|WebappsUtils\WebappsUtils.mweb\src\Utils.js|1715710955|18279
+u|WebappsUtils\WebappsUtils.mweb\src\WebappsUtils.js|1715710955|5597
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

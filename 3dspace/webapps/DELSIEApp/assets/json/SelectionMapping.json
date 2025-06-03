@@ -1,0 +1,131 @@
+{
+  "selection": {
+    "IMPMOD":[
+        "IMPMOD"
+    ],
+    "RESULTINGMOD": [
+        "EBOM"
+    ],
+    "SBOM": [
+      "EBOM"
+    ],
+    "EBOM": [
+      "SBOM"
+    ],
+    "ORIGIN": [
+      "ORIGIN",
+      "SBOM"
+    ],
+    "ALTERNATES_AND_SUBSTITUTES": [
+      "ALTERNATES_AND_SUBSTITUTES",
+      "SBOM"
+    ],
+    "ALTERNATE": [
+      "ALTERNATE",
+      "SBOM"
+    ],
+    "SUBSTITUTES": [
+      "SUBSTITUTES",
+      "SBOM"
+    ],
+    "REQUIREMENT_VIEW" : [
+      "REQUIREMENT_VIEW",
+      "SBOM"
+    ],
+    "RESULTING_PRODUCT_VIEW": [
+      "RESULTING_PRODUCT_VIEW",
+      "SBOM"
+    ],
+    "CAPRESOURCE": [
+      "CAPRESOURCE",
+      "SBOM"
+    ],
+    "RESPONSIBILITY": [
+      "RESPONSIBILITY",
+      "SBOM"
+    ],
+    "AUXILIARY": [
+      "EBOM",
+      "SBOM"
+    ],
+    "INSTCMDMOD": [
+      "SBOM",
+      "AUXILIARY"
+    ],"INSTCMDV2MOD": [
+      "SBOM",
+      "AUXILIARY"
+    ],
+    "MFGITEMREPLACEMOD": [
+      "SBOM",
+      "AUXILIARY"
+    ],  
+    "UDECMDMOD": [
+      "EBOM",
+      "SBOM"
+    ],
+    "DELCMDMOD": [
+      "SBOM",
+      "AUXILIARY",
+      "ALTERNATE",
+      "ORIGIN",
+      "CAPRESOURCE",
+      "SUBSTITUTES",
+      "RESPONSIBILITY"
+    ],
+    "CMDS": [
+      "SBOM",
+      "EBOM",
+      "AUXILIARY",
+      "ALTERNATE",
+      "ORIGIN",
+      "CAPRESOURCE",
+      "SUBSTITUTES",
+      "RESPONSIBILITY"
+    ],
+    "LINKS": [
+      "SBOM",
+      "EBOM",
+      "AUXILIARY"
+    ],
+    "AUTHORLINKMOD": [
+      "SBOM",
+      "EBOM",
+      "AUXILIARY"
+    ],
+    "ExternalService" :[
+      "SBOM",
+      "EBOM",
+      "AUXILIARY"
+    ],
+    "FilterService" :[
+      "SBOM",
+      "EBOM"
+    ],
+    "IMPLEMENTMOD" : [
+      "EBOM",
+      "SBOM"
+    ],
+    "MFGSTRUCTUREMOD" : [
+      "EBOM",
+      "SBOM"
+    ],
+    "PROPERTIES" :  [
+      "SBOM",
+      "EBOM",
+      "AUXILIARY",
+      "ALTERNATE",
+      "ORIGIN",
+      "CAPRESOURCE",
+      "SUBSTITUTES",
+      "RESPONSIBILITY"
+    ],
+    "GROUPINGMOD": [
+        "EBOM",
+        "SBOM",
+        "AUXILIARY"
+    ],
+	"MFG3DVIEWERMOD": [
+	  "SBOM"
+    ]
+  }
+}

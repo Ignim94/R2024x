@@ -1,0 +1,14 @@
+m|CAT3DAnnotationWebUI\CAT3DAnnotationWebUXinWin.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\CAT3DAnnotationWebUXinWin\CAT3DAnnotationWebUXinWin.js|1700693115|4582
+s|CAT3DAnnotationWebUI\CAT3DAnnotationWebUXinWin.mweb\src\CAT3DAnnotationWebUXinWin.js|1615982700|101
+t|win_b64\webapps\CAT3DAnnotationWebUXinWin\CATWeb3DAnnotAttrListCustomView.html|1685324838|2592
+s|CAT3DAnnotationWebUI\CAT3DAnnotationWebUXinWin.mweb\src\CATWeb3DAnnotAttrListCustomView.html|1623161483|2592
+t|win_b64\webapps\CAT3DAnnotationWebUXinWin\CATWeb3DAnnotAttrListTable.html|1685324838|1362
+s|CAT3DAnnotationWebUI\CAT3DAnnotationWebUXinWin.mweb\src\CATWeb3DAnnotAttrListTable.html|1632920577|1362
+u|CAT3DAnnotationWebUI\CAT3DAnnotationWebUXinWin.mweb\src\CATWeb3DAnnotAttrListTable.js|1634916056|9057
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

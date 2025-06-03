@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:widget="http://www.netvibes.com/ns/">
+<head>
+
+<!-- 
+		i3DXCompassServices 컴파스의 정보를 가져오기 위해 사용하는것.	
+		urlData 는 https://cmg.3ds.org/3dspace
+	-->
+<script>
+	require([ "DS/i3DXCompassServices/i3DXCompassServices" ], function(
+			i3DXCompassServices) {
+		let x3dPlatformId = widget.getValue("x3dPlatformId");
+
+		let myWidget = {
+			onLoadWidget : function() {
+				i3DXCompassServices.getServiceUrl({
+					serviceName : "3DSpace",
+					platformId : x3dPlatformId,
+					onFailure : function(result) {
+						alert(result);
+					},
+					onComplete : function(urlData) {
+						console.log(urlData);
+						alert(urlData);
+					}
+
+				});
+			}
+		};
+		widget.addEvent("onLoad", myWidget.onLoadWidget);
+	});
+</script>
+
+
+</head>
+<body>
+</body>
+
+</html>
+
+

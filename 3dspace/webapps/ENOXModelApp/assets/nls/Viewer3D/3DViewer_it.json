@@ -1,0 +1,5 @@
+{
+  "ERROR_Loading3DContent": "Caricamento vista 3D non riuscito",
+  "ERROR_PreparingFilter": "Preparazione dell'espressione filtro non riuscita",
+  "ERROR_FilterValidation": "Convalida dell'espressione filtro non riuscita"
+}

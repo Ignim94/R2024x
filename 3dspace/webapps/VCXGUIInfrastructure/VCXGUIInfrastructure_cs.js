@@ -1,0 +1,1 @@
+define("DS/VCXGUIInfrastructure/VCXGUIInfrastructure_cs",{});define("DS/VCXGUIInfrastructure/assets/nls/VCXGUIInfrastructure",{"VCXProperties.Menu":"Nabídka","VCXScenarios.PanelTitle":"Prostředí","VCXRatios.PanelTitle":"Plátno","VCXProperties.PanelTitle":"Vlastnosti","VCXSamplesBrower.PanelTitle":"Prohlížeč vzorků"});

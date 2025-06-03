@@ -1,0 +1,24 @@
+#Prog Kwe_ExportRuleSet_Remove( iPLMIDSet : #In PLMIDSet, oPLMIDSet : #Out PLMIDSet ) : VoidType
+{
+let RsRuleEntity                            (PLMRouteSet)
+let PLMRouteParam                           (PLMRouteSet)
+let PLMIDSetParam                           (PLMIDSet)
+let PLMIDSetPLMCheckCustomData              (PLMIDSet)
+let restrictedPLMIDSet                      (PLMIDSet)
+let restrictedRuleSetPLMIDSet               (PLMIDSet)
+
+
+/* Get rules entities */
+restrictedRuleSetPLMIDSet = Restrict(iPLMIDSet, "PLMKnowHowRuleSet/PLMRuleSet")
+RsRuleEntity = ExecutePLMFunction( "PLMKnowHowRuleSet", "kwe_expand_rules", restrictedRuleSetPLMIDSet )
+
+restrictedPLMIDSet = Restrict(Ids(RsRuleEntity), "PLMKnowHowCheck/PLMCheck")
+PLMIDSetParam = ExecuteJavaProcedure("com.dassault_systemes.parameter_modeler.procedures.PlmParameterProcedure_AllParams", restrictedPLMIDSet)
+
+PLMIDSetPLMCheckCustomData =  ExecuteJavaProcedure("com.dassault_systemes.dq.completion.plmruleset.EKLProcedure_AllPLMCheckCustomData", restrictedPLMIDSet)
+
+
+/* Provide back all that stuff */
+oPLMIDSet = iPLMIDSet + Ids(RsRuleEntity) + PLMIDSetParam + PLMIDSetPLMCheckCustomData
+
+}

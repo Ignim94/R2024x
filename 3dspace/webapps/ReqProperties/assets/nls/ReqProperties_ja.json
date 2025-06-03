@@ -1,0 +1,41 @@
+{
+  "documentsList": {
+    "referenceDocumentLabel": "参照ドキュメント",
+    "specificationDocumentLabel": "仕様ドキュメント",
+    "noDocsFound": "選択したオブジェクトのドキュメントが見つかりませんでした。添付するには、下のドキュメントをドラッグ アンド ドロップします ",
+    "noDocsFound-referenceDocs": "添付ファイルが見つかりません",
+    "noDocsFound-specificationDocs": "ドキュメントが見つかりません",
+    "noReferenceDocsFound": "選択したオブジェクトの参照ドキュメントが見つかりません",
+    "insertDocuments": "挿入するドキュメントを選択",
+    "ctx": {
+      "openIn3DPlay": "3DPlay",
+      "checkInDocument": "チェックイン",
+      "checkOutDocument": "チェック アウト",
+      "detachDocument": "切り離し",
+      "attachDocument": "添付",
+      "downloadDocument": "ダウンロード",
+      "deleteDocument": "削除"
+    },
+    "masks": {
+      "createDocumentMask": "新規ドキュメントの作成",
+      "attachDocumentMask": "ドキュメントの添付",
+      "checkinDocumentMask": "ドキュメントのチェックイン",
+      "checkoutDocumentMask": "ドキュメントのチェックアウト",
+      "downloadDocumentMask": "ドキュメントのダウンロード中",
+      "detachDocumentMask": "ドキュメントの切り離し",
+      "deleteDocumentMask": "ドキュメントの削除",
+      "searchDocuments": "添付するドキュメントを検索"
+    },
+    "notifs": {
+      "cannotCheckInDocument": "ドキュメントをチェックインできません",
+      "cannotDownloadDoc": "ドキュメントをダウンロードできません",
+      "cannotDeleteDoc": "ドキュメントを削除できません",
+      "cannotDetachDoc": "ドキュメントを切り離せません",
+      "unableCreateDocumentRep": "リプリゼンテーションにドキュメントを接続できません",
+      "attachDocumentFailed": "ドキュメントの添付に失敗しました",
+      "somedroppedobjnotvalid": "一部のオブジェクトをドキュメントとして添付できません",
+      "nofileselected": "ファイルが選択されていません"
+    }
+  },
+  "rich_attr_head": "カスタム属性"
+}

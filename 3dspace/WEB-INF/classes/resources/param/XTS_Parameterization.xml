@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="TechnicalSpecification">
+	<Domain id="AttributeDef">
+	
+		<Family id="TestMethodSpecification">
+			<Constant id="appType" value="CBP"/>
+			<Constant id="type" value="Test Method Specification"/>
+			<Constant id="package" value="TechnicalSpecification"/>
+		</Family>
+		
+		<Family id="CopyandGraphicsSpecification">
+			<Constant id="appType" value="CBP"/>
+			<Constant id="type" value="Copy and Graphics Specification"/>
+			<Constant id="package" value="TechnicalSpecification"/>
+		</Family>
+		
+		<Family id="PalletInformationSpecification">
+			<Constant id="appType" value="CBP"/>
+			<Constant id="type" value="Pallet Information Specification"/>
+			<Constant id="package" value="TechnicalSpecification"/>
+		</Family>
+		
+		<Family id="ProcessTechnicalSpecification">
+			<Constant id="appType" value="CBP"/>
+			<Constant id="type" value="Process Technical Specification"/>
+			<Constant id="package" value="TechnicalSpecification"/>
+		</Family>
+		
+	</Domain>
+
+	<Domain id="ObjectIdentification">
+		<Family id="ObjectIdentifier">
+		
+			<Parameter id="TestMethodSpecificationPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="TMS" />
+				<Argument id="SuffixArg" type="string" default="" />
+				<Constant id="type" value="Test Method Specification" />
+				<Constant id="appType" value="CBP" />
+				<Constant id="sogName" value="type_TestMethodSpecification"/> 
+			    <Constant id="sogRevision" value=""/>
+			</Parameter>
+			
+			<Parameter id="CopyandGraphicsSpecificationPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="CG" />
+				<Argument id="SuffixArg" type="string" default="" />
+				<Constant id="type" value="Copy and Graphics Specification" />
+				<Constant id="appType" value="CBP" />
+				<Constant id="sogName" value="type_CopyandGraphicsSpecification"/> 
+			    <Constant id="sogRevision" value=""/>
+			</Parameter>
+			
+			<Parameter id="PalletInformationSpecificationPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="PI" />
+				<Argument id="SuffixArg" type="string" default="" />
+				<Constant id="type" value="Pallet Information Specification" />
+				<Constant id="appType" value="CBP" />
+				<Constant id="sogName" value="type_PalletInformationSpecification"/> 
+			    <Constant id="sogRevision" value=""/>
+			</Parameter>
+			
+			<Parameter id="ProcessTechnicalSpecificationPrefixSuffix"
+				implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+				<Argument id="PrefixArg" type="string" default="PTS" />
+				<Argument id="SuffixArg" type="string" default="" />
+				<Constant id="type" value=" Process Technical Specification" />
+				<Constant id="appType" value="CBP" />
+				<Constant id="sogName" value="type_ProcessTechnicalSpecification"/> 
+			    <Constant id="sogRevision" value=""/>
+			</Parameter>
+			
+		</Family>
+	</Domain>
+
+</OOTBParameterization>

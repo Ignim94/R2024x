@@ -1,0 +1,83 @@
+.multigrid-edit-container {
+	height :100%;
+	display : flex;
+	flex-direction: column;
+	position:relative;
+}
+.multigrid-edit-container .wux-layouts-header .wux-tweakers-string-label{
+	font-weight: 700 !important;
+    color: #77797c; 
+}
+.multigrid-edit-container .wux-layouts-header .wux-layouts-left-header-poolcontainer .wux-layouts-datagridview-column-header-cell{
+	line-height:25px !important;
+}
+.multigrid-attr-header-content-container{
+    display : grid ;
+    grid-template-columns: calc(100% - 30px) 30px;
+    line-height : 25px;
+    height: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    font-weight:700 !important;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+.multigrid-attr-header-text-container{
+    display : grid;
+    grid-template-rows : 1fr 1fr; 
+    font:inherit;
+    font-size:12px;
+    font-family: Arial;
+    padding-left: 7px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;
+    word-wrap: normal;
+    word-break: normal
+}
+.text-line1 , .text-line2 {
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;
+    word-wrap: normal;
+    word-break: normal
+}
+.multigrid-attr-header-right-actions-container{
+   margin-right: 2px;
+   cursor: pointer;
+   display: inline-block;
+   flex: 1 1 auto;
+   align-self: center;
+   text-align: center;
+   vertical-align: middle;
+   /* width: 20px; */
+   height: 100%;
+}
+.multigrid-attr-header-right-actions-container .wux-ui-3ds-info{
+	/*min-width:16px;*/
+	color:#77797c;	/*IR-1300210-color changed from b4b6ba changed to 77797c*/	
+	padding-top: 69%;
+	/*font-size: 12px;*/ 
+}
+.multigrid-attr-header-right-actions-container .wux-ui-3ds-info:hover{
+	cursor:pointer;
+	color:#3d3d3d;	 
+}
+
+.remove-ext-message-icon .fonticon-attention{
+    font-size: 2.3em;
+    vertical-align: middle;
+    color: red;
+    font-weight: bold;
+    padding-right : 3px;
+}
+
+.remove-ext-message-icon {
+	display : inline-flex;
+	padding-bottom : 8px;
+}
+.message-container {
+	padding-top: 8px;
+	font-family:Arial
+}

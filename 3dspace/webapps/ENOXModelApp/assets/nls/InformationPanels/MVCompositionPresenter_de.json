@@ -1,0 +1,21 @@
+{
+  "ERROR_DATA_LOAD_TITLE": "Fehler beim Abrufen der Modellversionszusammensetzung.",
+  "ERROR_DATA_ADD_TITLE": "Fehler beim Hinzufügen der Modellversionszusammensetzung.",
+  "ERROR_DATA_REMOVE_TITLE": "Fehler beim Entfernen der Modellversionszusammensetzung.",
+  "ERROR_DATA_REPLACE_TITLE": "Fehler beim Ersetzen der Modellversionsrevision.",
+  "ERROR_DATA_DEFAULT_TITLE": "Sie können die Aktion nicht ausführen.",
+  "ERROR_DATA_LOAD_MSG": "Stellen Sie sicher, dass Sie Zugriff auf dieses Objekt haben.",
+  "ERROR_SAME_REVISION_TITLE": "Gleiche Revision ausgewählt",
+  "ERROR_SAME_REVISION_MSG": "Andere zu ersetzende Revision auswählen",
+  "title_label": "Titel",
+  "revision_label": "Revision",
+  "isLastRevision_label": "Ist neueste Revision",
+  "modelName_label": "Modellname",
+  "owner_label": "Eigentümer",
+  "type_label": "Typ",
+  "add_action_label": "Modellversion hinzufügen",
+  "replace_action_label": "Durch Revision ersetzen",
+  "remove_action_label": "Entfernen",
+  "information_action_label": "Informationen",
+  "searchLabel": "Modellversion auswählen"
+}

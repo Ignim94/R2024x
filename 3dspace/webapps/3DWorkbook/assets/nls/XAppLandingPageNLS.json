@@ -1,0 +1,6 @@
+{
+	"dev_comment": "The values in this json override the default values",
+	"App.Title": "3DWorkbook",
+	"DragDrop.TipStart": ""
+
+}

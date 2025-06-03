@@ -1,0 +1,40 @@
+<OOTBParameterization>
+<Domain id="IssueParameterization" regSuite="IssueManagement">	
+	<Family id="IssueApproval" icon="iconParameterizationIdentification.gif">
+		<Parameter id="ISS_ApprovalEnforcement" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="String" input="combobox" default="UserChoice">
+				<Value id="Always"/>
+				<Value id="Never"/>
+				<Value id="UserChoice"/>
+			</Argument>
+			<Constant id="expression" value="ISS_ApprovalEnforcement" />
+		</Parameter>		
+	</Family>
+	<Family id="IssueClosure" icon="iconParameterizationIdentification.gif">
+		<Parameter id="ISS_CancellationClosure" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_CancellationClosure" />
+		</Parameter>
+		<Parameter id="ISS_ResolutionClosure" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_ResolutionClosure" />
+		</Parameter>	
+		<Parameter id="ISS_CancelledReopening" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_CancelledReopening" />
+		</Parameter>	
+		<Parameter id="ISS_ResolutionReopening" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_ResolutionReopening" />
+		</Parameter>	
+	</Family>
+</Domain>
+</OOTBParameterization>

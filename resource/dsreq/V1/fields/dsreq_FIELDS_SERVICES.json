@@ -1,0 +1,38 @@
+{
+	"dsmvreq:attribute.Priority": {
+		"property":"attribute[Priority]",
+		"key":"Priority"
+	},
+	"dsmvreq:attribute.Difficulty": {
+		"property":"attribute[Difficulty]",
+		"key":"Difficulty"
+	},
+	"dsmvreq:attribute.Synopsis": {
+		"property":"attribute[Synopsis]",
+		"key":"Synopsis"
+	},
+	"dsmvreq:attribute.ContentType": {
+		"property":"attribute[Content Type]",
+		"key":"ContentType"
+	},
+	"dsmvreq:attribute.ContentData": {
+		"property":"attribute[Content Data]",
+		"key":"ContentData"
+	},
+	"dsmvreq:attribute.UserRequirementImportance": {
+		"property":"attribute[User Requirement Importance]",
+		"key":"UserRequirementImportance"
+	},
+	"dsmvreq:attribute.AccessType": {
+		"property":"attribute[Access Type]",
+		"key":"AccessType"
+	},
+	"dsmvreq:attribute.RequirementCategory": {
+		"property":"attribute[Requirement Category]",
+		"key":"RequirementCategory"
+	},
+	"dsmvreq:attribute.RequirementClassification": {
+		"property":"attribute[Requirement Classification]",
+		"key":"RequirementClassification"
+	}	
+}

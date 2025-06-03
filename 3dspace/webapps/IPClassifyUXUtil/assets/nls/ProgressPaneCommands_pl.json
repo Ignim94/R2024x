@@ -1,0 +1,11 @@
+{
+  "Cancel": "Anuluj",
+  "PROGRESS": "Postęp",
+  "Pending": "Oczekujące",
+  "Completed": "Ukończone",
+  "Failed": "Niepowodzenie",
+  "Cancelled": "Anulowano",
+  "CancelAll": "Anuluj wszystkie",
+  "inProgress": "W toku",
+  "searchQueryChanged": "Zmień wyszukiwaną kwerendę"
+}

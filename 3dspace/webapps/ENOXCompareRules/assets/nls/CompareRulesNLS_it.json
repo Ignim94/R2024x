@@ -1,0 +1,10 @@
+{
+  "EMPTY_CONTENT": "NESSUN CONTENUTO CORRISPONDENTE DA CONFRONTARE",
+  "Constrained_Criteria": "Criteri vincolati",
+  "Driving_Criteria": "Criteri guida",
+  "NOStructureAvailable": "CONFRONTO TRA STRUTTURE NON DISPONIBILE",
+  "EMPTY_RULE_IDS": "ID regola vuoto",
+  "Failed_to_fetch_mv_Id": "Impossibile recuperare Id MV",
+  "Failed_to_fetch_Rules_definition": "Impossibile recuperare la definizione delle regole",
+  "No_Rules_Definition": "Nessuna definizione regole"
+}

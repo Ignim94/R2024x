@@ -1,0 +1,11 @@
+m|DELPPWModules\DELPPWLinksModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.7.24227|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELPPWLinksModule\DELPPWLinksModule.js|1723663493|23358
+s|DELPPWModules\DELPPWLinksModule.mweb\src\LinksModule.js|1712157980|18621
+u|DELPPWModules\DELPPWLinksModule.mweb\src\LinksUI.js|1723551221|68616
+u|DELPPWModules\DELPPWLinksModule.mweb\src\UsagePointsManagerUI.js|1711534069|7471
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

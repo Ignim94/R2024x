@@ -1,0 +1,45 @@
+{
+	"dsprcs:DataCollectRow": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				{
+					"dcType": {
+						"crudKey": "dcType",
+						"payloadType": "Integer"
+					},
+					"URI_RootId": {
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				}
+			]
+		}
+	},
+	"dsprcs:DataCollectPlan": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1
+		}
+	},
+	"dsprcs:DataCollectPlanInstance": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey": "instances",
+			"mandKeys": [
+				{
+					"referencedObject": {
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					"URI_RootId": {
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				}
+			]
+		}
+	}
+}

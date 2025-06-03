@@ -1,0 +1,30 @@
+.welcome-panel-element .all-activity-section {
+		#welcome > div.text-element {
+				font-size: 22px;
+			    font-family: arial bold, sans-serif;
+			    color: #77797c;
+			    text-align: left;
+		}
+		
+		#welcome #welcome-message {
+				pointer-events: none;
+		}
+		
+		#welcome #welcome-message > div {
+				font-size: 13px;
+				font-family: arial regular, sans-serif;
+				color: #B4B6BA;
+				text-align: left;
+		}
+		
+		#actions > div.text-element, #quickaccess  > div.text-element,
+		 #SpecializedView  > div.text-element{
+				font-size: 13px;
+				font-family: arial, sans-serif;
+				color: #77797c;
+		}
+		
+		.action-new > div  {
+	    		font-family: arial bold, sans-serif;
+		}
+}

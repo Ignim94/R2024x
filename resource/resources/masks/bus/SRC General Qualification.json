@@ -1,0 +1,96 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "type"
+			},
+			{
+			    "name":"Title",
+			    "status": "RW"
+			},
+			{
+				"name": "name",
+				"status": "R"
+			},
+			{
+				"name": "revision"
+			},
+			{
+				"name": "description",
+				"status": "RW"
+			},
+			{
+				"name": "current"
+			},
+			{
+				"name": "originated"
+			},
+			{
+				"name": "modified"
+			},
+			{
+				"name": "owner"
+			},
+			{
+				"name": "organization"
+			},
+			{
+				"name": "project"
+			},
+			{
+				"name": "SRCQUALIFICATION.Approved",
+				"status": "RW"
+			},
+			{
+				"name": "SRCQUALIFICATION.Comments",
+				"status": "RW"
+			},
+			{
+				"name": "SRCQUALIFICATION.Restriction",
+				"status": "RW"
+			},
+			{
+				"name": "SRC General Qualification.Is Orderable",
+				"status": "RW"
+			},
+			{
+				"name": "SRC General Qualification.Last Time Buy",
+				"status": "RW"
+			},
+			{
+				"name": "SRCQUALIFICATION.SRCEffectivityStartDate",
+				"status": "RW"
+			},
+			{
+				"name": "SRCQUALIFICATION.SRCEffectivityEndDate",
+				"status": "RW"
+			}
+		]
+	},
+	"details": {
+		"attributes": {
+			"description": {
+				"forbiddenChar": ".\\/#,[]$^@*?%:'\"<>;|"
+			},
+			"SRCQUALIFICATION.Comments": {
+				"forbiddenChar": ".\\/#,[]$^@*?%:'\"<>;|"
+			},
+			"SRC General Qualification.Is Orderable": {
+				"authorized_required": true,
+				"authorizedValues": [
+					"Yes",
+					"No"
+				]
+			},
+			"PLMEntity.V_Name": {
+				"relation": "SRC Qualification Target",
+				"From": true,
+				"nls": "Target"
+			},
+			"Title": {
+				"mandatory": true
+			}
+		}
+	},
+	"revision": "0"
+}

@@ -1,0 +1,21 @@
+{
+  "_create": "New",
+  "_delete": "Delete",
+  "_parameterSingle" : "Numerical Parameter",
+  "_parameterMultiple" : "Numerical Parameters",
+  "_ERROR_PATCH_PARAMETER": "Error while modifying Numerical Parameter.",
+  "_ERROR_CREATE_PARAMETER": "Error while creating Numerical Parameter.",
+  "_ERROR_DELETE_PARAMETER": "Error while deleting Numerical Parameter/s.",
+  "_ERROR_GET_PARAMETER_DETAILS": "Error while fetching Numerical Parameter Information.",
+  "_ERROR_GET_PARAMETERS": "Error while fetching Numerical Parameters.",
+  "_ERROR_INCORRECT_VALUE_RANGE" : "Min Value should be less than Max Value",
+  "_information": "Information",
+  "_msg_drop_to_create_variant": "Drop here to create new Numerical Parameter",
+  "_name": "Name",
+  "_open": "Open",
+  "_dimension" : "Dimension",
+  "_rangeLabel" : "Range",
+  "_rangeValueDelimiter" : " - ",
+  "_createParamterLabel" : "Create Numerical Parameters",
+  "_creation_successful" : "Creation successful."
+}

@@ -1,0 +1,118 @@
+multigrid-container,
+.multigrid-left-panel,
+.multigrid-middle-panel,
+.multigrid-right-panel {
+	width : 100%;
+	height : 100%;
+}
+#multiEdit-main-div{
+width : 100%;
+height : 100%;
+
+
+}
+.multigrid-panel-icon-wrapper{
+	left:0px;
+	margin-left:5px;
+	cursor:pointer;
+	position:absolute;
+}
+.multigrid-panel-icon-wrapper .fonticon {
+    margin: 0;
+    width: 100%;
+    color: #77797c/*IR-1300210-color changed from b4b6ba changed to 77797c*/
+}
+.multigrid-middle-panel{
+	display:flex;
+	flex-direction:row;
+}
+
+.multigrid-container{
+width : 100%;
+	height : 100%;
+
+
+}
+.multigrid-container .grid-icons{
+	color : #77797c/*IR-1300210-color changed from b4b6ba changed to 77797c*/
+}
+
+.multigrid-widget-container .grid-icons:hover{
+	color : #3d3d3d;
+}
+
+.multigrid-widget-container .grid-icons:active{
+	color : #005686;
+}
+
+
+.multigrid-middle-panel-container {
+	width : 100%;
+	height : 100%;
+}
+.multigrid-topbar-container {
+  justify-content: space-between;
+  display: inline-flex;
+  color: #b4b6ba;
+  width:calc(100% - 10px);
+  height:45px;
+}
+.multigrid-topbar-left {
+	display:inline-block;
+	left: 0;
+	width:20px;
+    padding-left: 3px;
+    padding-top: 3px;
+    cursor: pointer;
+    height:100;
+}
+.multigrid-topbar-middle {
+	display:inline-block;
+	width:calc(100% - 20px);
+	padding-left:10px;
+}
+.multigrid-topbar-container .multigrid-topbar-left .fonticon {
+    margin: 0;
+    width: 100%;
+    color: #77797c/*IR-1300210-color changed from b4b6ba changed to 77797c*/
+}
+#multigrid-item-tab-view { 
+    height: calc(100% - 45px);
+     width: 100%;
+}
+#multigrid-item-tab-contentview{
+	height:100%;
+	width:100%;
+}
+.multigrid-topbar-container .multigrid-topbar-left .fonticon:hover {
+    color: #368ec4
+}
+
+.wux-tweakers-string-label[alignment=far] {
+    text-align: left !important;
+}
+.wux-tweakers-string-label[alignment=center] {
+    text-align: left !important;
+}
+.multigrid-middle-panel .hover {
+	border: 1px dashed #368ec4;
+    border-radius: 10px;
+} 
+
+.multigrid-toolbar-name {
+	font-size: 18px;
+    font-weight: 700;
+    line-height: 2.1em;
+    color: #77797c;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+.infoIconActive {
+	color: rgb(54, 142, 196) !important;
+}
+
+
+
+
+

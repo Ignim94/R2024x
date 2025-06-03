@@ -1,0 +1,22 @@
+{
+  "ECADUPSPCBReferenceDesignatorLabel": "Indicateur de référence de PCB",
+  "ECADUPSPCBReferenceDesignatorInfo": "définit l'indicateur de référence à utiliser pour la carte à circuits imprimés dans la structure produit",
+  "ECADUPSPackageNamePropertyLabel": "Propriété Nom de paquet",
+  "ECADUPSPackageNamePropertyInfo": "définit le nom de la propriété ECAD du composant Altium utilisé pour dériver le nom du paquet pendant l'importation initiale",
+  "ECADUPSPackageDescriptionPropertyLabel": "Propriété Description de paquet",
+  "ECADUPSPackageDescriptionPropertyInfo": "définit le nom de la propriété ECAD de l'Altium Composant utilisé pour dériver la description du paquet pendant l'importation initiale",
+  "ECADUPSUseClassificationLabel": "Utiliser la classification de bibliothèque Electronique",
+  "ECADUPSUseClassificationInfo": "définit si la classification de bibliothèque ou les catégories locales doivent être utilisées pour les composants électroniques ",
+  "ECADUPSElectronicLibraryLabel": "Bibliothèque de composants électroniques",
+  "ECADUPSElectronicLibraryInfo": "définit la bibliothèque la plus en haut qui est utilisée pour classifier les composants électroniques. Indiquez le chemin de classification complet, par exemple \\Electronic Library\\Components",
+  "AltiumUPSECADCategoriesLabel": "Catégories de composants",
+  "AltiumUPSECADCategoriesInfo": "Catégories de composants utilisées si Classification de bibliothèque n'est pas sélectionné",
+  "AltiumUPSEnterpriseItemNumberPropertyLabel": "Propriété du numéro d'élément d'entreprise",
+  "AltiumUPSEnterpriseItemNumberPropertyInfo": "Définit le nom du paramètre Altium qui contient le numéro d'élément d'entreprise",
+  "ECADClassificationPathDefinitionPropertyLabel": "Propriété d'affectation automatique de classe",
+  "ECADClassificationPathDefinitionPropertyInfo": "Définit le nom du paramètre Altium pour stocker le chemin de classification pour l'importation",
+  "ProductStructureGroupLabel": "Structure produit",
+  "ClassificationGroupLabel": "Classification",
+  "SaveGroupLabel": "Enregistrer",
+  "EnterpriseItemNumberLabel": "Numéro d'élément d'entreprise"
+}

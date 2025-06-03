@@ -1,0 +1,67 @@
+.CADSearchContainer {
+	position: fixed;
+    left: 45%;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+    text-align: center;
+    height: 45px;
+    max-width: 250px;
+    pointer-events: auto;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.CADSelectionNavigatiorTopBar {
+	display: inline-block;
+    width: auto;
+    min-width: 120px;
+    background-color: rgba(241,241,241,0.94);
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    border-radius: 0 0 4px 4px;
+    border-color: #727476;
+    padding: 1px;
+    max-height: 45px;
+}
+
+.CADSearchLabel {
+	display: inline-block !important;
+    line-height: 44px !important;
+    vertical-align: middle !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.CADSelectionNavigateActions {
+	display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.CADSearch-controls-button {
+	min-width: 25px !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+
+.CADSearch3DSelectButton {
+	margin-right: 5px;
+    margin-top: 1px;
+}
+
+.CloseButtonTouch {
+	font-size: 20px;
+    position: relative;
+    padding-right: 3px;
+    padding-top: 3px;
+    z-index: 2;
+    top: -7px;
+    right: 0;
+    color: #b4b6ba;
+}
+
+.CloseButtonTouch:hover {
+	color: #3d3d3d;
+	cursor: pointer;
+}

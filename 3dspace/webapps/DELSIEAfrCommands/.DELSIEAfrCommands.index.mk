@@ -1,0 +1,12 @@
+m|DELSIEApp\DELSIEAfrCommands.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.6.24176|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELSIEAfrCommands\DELSIEAfrCommands.js|1719263817|2728
+s|DELSIEApp\DELSIEAfrCommands.mweb\src\AssignProductCmd.js|1679412602|2014
+u|DELSIEApp\DELSIEAfrCommands.mweb\src\CreateMfgItemAndLinkAltSubstCmd.js|1718899706|2252
+u|DELSIEApp\DELSIEAfrCommands.mweb\src\CreateMfgItemAndResultingProductCmd.js|1719002525|2549
+u|DELSIEApp\DELSIEAfrCommands.mweb\src\CreateMfgItemAndScopeCmd.js|1719001826|2495
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

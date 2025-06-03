@@ -1,0 +1,7 @@
+{
+  "success": "성공",
+  "failure": "실패",
+  "neutral": "경고",
+  "aborted": "중단됨",
+  "title": " 분리 작업 상태"
+}

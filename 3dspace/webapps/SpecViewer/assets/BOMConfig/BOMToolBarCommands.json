@@ -1,0 +1,138 @@
+{
+	"actions": [
+		{
+			"key": "DefineFilter",
+			"text": "label_AdvancedFilter",
+			"fonticon": "filter"
+		},
+		{
+			"key": "bomViews",
+			"text": "label_QuantityMode",
+			"fonticon": "object-reference",
+			"persistencyKey": "bomQuantityMode",
+			"isSelectable": true,
+			"subMenu": [
+				{
+					"text": "label_InstanceMode",
+					"key": "instance",
+					"fonticon": "object-instance",
+					"type": "CheckItem",
+					"isDefault": false
+				},
+				{
+					"text": "label_QuantityMode",
+					"key": "quantity",
+					"fonticon": "object-reference",
+					"type": "CheckItem",
+					"isDefault": true
+				}
+			]
+		},
+		{
+			"key": "add",
+			"text": "add",
+			"fonticon": "plus",
+			"subMenu": [
+				{
+					"text": "label_EngineeringItem",
+					"type": "separator"
+				},
+				{
+					"text": "addExistingItem",
+					"fonticon": "3dproduct-insert",
+					"key": "add",
+					"isVisible": true
+				},
+				{
+					"text": "addExistingRawMat",
+					"fonticon": "raw-material",
+					"key": "addRawMat",
+					"isVisible": true
+				},
+				{
+					"text": "addExistingFP",
+					"fonticon": "formulated-product",
+					"key": "addFP",
+					"isVisible": true
+				},
+				{
+					"text": "addNewItem",
+					"fonticon": "3dproduct-add",
+					"key": "create",
+					"isVisible": true
+				},
+				{
+					"text": "addNewRawMat",
+					"fonticon": "raw-material-add",
+					"key": "createRawMat",
+					"isVisible": true
+				},
+				{
+					"text": "makeFromItem",
+					"type": "separator"
+				},
+				{
+					"text": "addExistingItem",
+					"fonticon": "part-made-from",
+					"key": "addMBMFItem"
+				},
+				{
+					"text": "addExistingRawMat",
+					"fonticon": "raw-material",
+					"key": "addMBMFRawMat",
+					"isVisible": true
+				},
+				{
+					"text": "addExistingFP",
+					"fonticon": "formulated-product",
+					"key": "addMBMFFP"
+				}
+			]
+		},
+		{
+			"key":"AuthPaste",
+			"text":"label_Paste",
+			"fonticon":"paste"
+		},
+		{
+			"key": "removeitem",
+			"text": "label_Detach",
+			"fonticon": "tree-delete"
+		},
+		{
+			"key": "deleteItem",
+			"text": "label_Delete",
+			"fonticon": "trash"
+		},
+		{
+			"key": "reorder",
+			"text": "label_Reorder",
+			"fonticon": "tree-reorder"
+		},
+		{
+			"key": "expand",
+			"text": "label_expand",
+			"fonticon": "flow-tree",
+			"subMenu": [
+				{
+					"text": "label_expandAll",
+					"fonticon": "flow-tree-expand-down",
+					"key": "expandall",
+					"isVisible": true
+				},
+				{
+					"text": "label_expandNLevel",
+					"fonticon": "flow-tree-expand-down-cog",
+					"key": "expandNLevel",
+					"isVisible": true
+				},
+				{
+					"text": "label_collapseall",
+					"fonticon": "flow-tree-expand-up",
+					"key": "collapseall",
+					"isVisible": true
+				}
+			]
+		}
+	]
+}

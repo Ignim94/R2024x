@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XSCViews.Title="보기";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XSCTools.Title="도구";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.Lifecycle.Title="라이프사이클";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.Collaboration.Title="협업";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.SaveSession.Title="활성 창 저장";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ShareAsPicture.Title="사진으로 게시";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ShareAs3D.Title="3D로 게시";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.RefreshHome.Title="새로 고침";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReloadAll.Title="모두 다시 로드";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReserveHdr.Title="잠금";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.UnreserveHdr.Title="잠금 해제";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.PropertiesHdr.Title="속성";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.GetRevisionHdr.Title="리비전 가져오기";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReplaceByRevisionHdr.Title="리비전으로 대치";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReplaceByLatestRevisionHdr.Title="최신 리비전으로 대치";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.UpdateRevisionsHdr.Title="리비전 업데이트";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.RevisionsHdr.Title="리비전";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReloadFromServerHdr.Title="서버에서 다시 로드";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.ReplaceContentHdr.Title="콘텐츠 대치";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.RelationIPExplorer.Title="관계";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.OptionsHdr.Title="옵션...";
+
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.View.Title="보기";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.Tools.Title="도구";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XCADExport.Title="X-CAD 내보내기";
+PowerBySOLIDWORKS_nosimu_iterations_nosaveasnew.XCADImport.Title="X-CAD 불러오기";

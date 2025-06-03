@@ -1,0 +1,33 @@
+{
+  "afrConfigurations": [
+    {
+      "afrVersion": "0.1",
+      "afrCode": "DS/DMUReviewWebApp/DMUReviewAppInit",
+      "afrFamily": "PAD3DViewerFamily",
+      "afrTransitionsFrom": {
+        "ENOR3R_AP": {
+          "type": "CreateNewContainer"
+        }
+      },
+      "afrTransitionsFromFamily": {
+        "PAD3DViewerFamily": {
+          "type": "ReuseContext"
+        }
+      },
+      "afrTransitionsTo": {
+        "_default_": {
+          "type": "CreateNewContainer"
+        }
+      }
+    },
+    {
+      "afrAppId": "ENOR3R_AP",
+      "debug": true,
+      "afrSpecializations": ["ENOR3R_AP", "ENOR3R_AP_2D", "ENOR3R_AP_Document", "ENOR3R_AP_MSR", "ENOR3R_AP_PIM", "ENOR3R_AP_R2V", "R3RFormat_AP_3D", "R3RFormat_AP_2D", "R3RFormat_AP_MSR"]
+    }
+  ],
+  "afrPreferences": {
+    "repositoryName": "DMUWebAppsRepository",
+    "preferenceName": "ENOR3R_AP_Beta_Version"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "defaultFacetCreate": "Свойства",
+  "classificationFacet": "Классификации",
+  "revisionFacet": "Редакция",
+  "releaseSnapshotFacet": "Шаблон снимка выпуска",
+  "MaterialFacet": "Материал",
+  "filesFacet": "Файлы"
+}

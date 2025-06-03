@@ -1,0 +1,23 @@
+[
+	{
+		"text": "Title",
+		"dataIndex": "tree",
+		"pinned": "left"
+	},
+	{
+		"text": "Name",
+		"dataIndex": "name"
+	},
+	{
+		"text": "Maturity",
+		"dataIndex": "maturity"
+	},
+	{
+		"text": "Description",
+		"dataIndex": "desc"
+	},
+	{
+		"text": "3DEXPERIENCE Type",
+		"dataIndex": "type3dx"
+	}
+]

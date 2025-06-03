@@ -1,0 +1,2 @@
+PROJECT=3ds/ERKernel
+REVISION=dffecedf3c95ce4ce27adb8901120ea188a56c06

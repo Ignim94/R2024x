@@ -1,0 +1,20 @@
+{
+  "Preferences.Title": "Preferenze",
+  "3DSApp.TECMEPA_AP": "Comune",
+  "SaveButton.Label": "Salva",
+  "ResetButton.Label": "Ripristina",
+  "PreferencesTab.Title": "Preferenze",
+  "CollectionViewLabel.Label": "Predefinito",
+  "CollectionViewDescription.Label": "",
+  "AdminSaveSuccessNotification.Label": "Il profilo predefinito è stato salvato",
+  "AdminSaveFailureNotification.Label": "Si è verificato un errore",
+  "AdminNotification.Title": "Il profilo predefinito è stato modificato",
+  "AdminNotification.SubTitle": "È possibile ricaricare per ottenere le preferenze modificate.\n Alcune modifiche potrebbero andare perse.\n Se si salva, le modifiche sovrascriveranno il profilo corrente.",
+  "adminUserNotification.SubTitle": "Se si salva, alcune modifiche potrebbero non essere prese in considerazione.",
+  "adminUserNotification.Title": "Le preferenze sono state modificate da un amministratore",
+  "userNotification.Title": "Le preferenze sono state modificate da qualche altra parte.",
+  "reset.Title": "Reimposta profilo",
+  "reset.SubTitle": "Reimpostare tutte le preferenze per questo profilo?",
+  "AdminSaveReqEmptyNotification.Label": "Niente da salvare",
+  "AdminPartialSaveNotification.Label": "Preferenze salvate parzialmente"
+}

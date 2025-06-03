@@ -1,0 +1,56 @@
+{
+    "type": "tree",
+    "id": "Common Preferences",
+    "children": [
+      {
+        "type": "node",
+        "id": "TECMEPA_AP"
+      },
+      {
+        "type": "node",
+        "id": "ENOR3D_AP"
+      },
+      {
+        "type": "node",
+        "id": "ENOR3R_AP"
+      },
+      {
+        "type": "node",
+        "id": "ENOR3V_AP"
+      },
+      {
+        "type": "node",
+        "id": "ENXDISC_AP"
+      },
+      {
+        "type": "node",
+        "id": "ENOI3S_AP"
+      },
+      {
+        "type": "node",
+        "id": "ENOI3D_AP"
+      },
+      {
+        "type": "node",
+        "id": "CATA3I_AP"
+      },
+      {
+        "type": "node",
+        "id": "CATC3D_AP"
+      },
+      {
+        "type": "node",
+        "id": "SWXXDWI_AP"
+      },
+      {
+        "type": "node",
+        "id": "XCTIRS_AP"
+      },
+      {
+        "type": "node",
+        "id": "CAT3DCM_AP"
+      }
+    ]
+  }
+
+

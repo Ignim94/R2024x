@@ -1,0 +1,18 @@
+{
+  "cadsubtypefield": "Type 3DEXPERIENCE",
+  "cadtypefield": "Type de CAD",
+  "templatefield": "Modèles",
+  "managetemplates": "Gérer les modèles",
+  "newfromok": "OK",
+  "newfromcancel": "Annuler",
+  "newfromtemplate": "Créer à partir d’un modèle",
+  "msg_success_templatecreate": "La création du modèle a réussi.",
+  "msg_success_edittemplate": "La modification du modèle a réussi.",
+  "msg_error_editmodifyaccess": "Vous devez être autorisé à modifier ce modèle. Vérifiez vos informations d'identification ou contactez votre administrateur pour obtenir de l'aide.",
+  "msg_success_listtemplate": "La liste des modèles a été chargée avec succès",
+  "msg_success_notemplate": "Aucun modèle n'est disponible pour ce type",
+  "msg_error_mandfieldempty": "Les champs obligatoires sont vides",
+  "msg_error_templateempty": "Le champ Modèles est vide.",
+  "msg_error_cadtypeempty": "Le champ Type CAO est vide",
+  "mysession_newfromdlg_title": "Créer à partir d’un modèle"
+}

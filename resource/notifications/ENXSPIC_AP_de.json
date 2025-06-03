@@ -1,0 +1,5 @@
+{
+  "sourcing.notification.event.memberAccessUpdate.setting": "Mitglieder werden zu meiner Qualifikation oder zugewiesenen Qualifikation hinzugefügt oder entfernt",
+  "sourcing.notification.person.memberAccessUpdate.msg": "<strong>###GRANTOR###</strong> hat Sie als <strong>###REQUESACCESS###</strong> zu <strong>###REQUESTNAME###</strong> hinzugefügt.",
+  "sourcing.notification.person.memberAccessDelete.msg": "<strong>###GRANTOR###</strong> hat Sie als <strong>###REQUESACCESS###</strong> von <strong>###REQUESTNAME###</strong> entfernt."
+}

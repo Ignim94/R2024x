@@ -1,0 +1,52 @@
+<BOTYPEFIELDS name="FTAAttribute">
+<FIELD name="FTAIDENTIFIER" select="attribute[FTAIdentifier]" type="STRING" sixw="ds6wg:FTAIdentifier" />
+</BOTYPEFIELDS>
+<!-- Begin of FTARequirement indexation Attributes -->
+<BOTYPEFIELDS name="PlmFTARequirementAttributes">
+  <FIELD name="reqfta.itf" key="FTARequirementModel" select="interface[FTARequirementModel].name" type="STRING"/>
+  <FIELD name="reqfta.ParamName" key="ParamName" select="attribute[ParamName]" type="STRING" multiValued="TRUE"/>
+  <FIELD name="reqfta.ParamType" key="ParamType" select="attribute[ParamType]" type="STRING" multiValued="TRUE"/>
+  <FIELD name="reqfta.ParamString" key="ParamString" select="attribute[ParamString]" type="STRING" multiValued="TRUE"/>
+  <FIELD name="reqfta.ParamDouble" key="ParamDouble" select="attribute[ParamDouble]" type="STRING" multiValued="TRUE"/>
+  <FIELD name="reqfta.ParamInt" key="ParamInt" select="attribute[ParamInt]" type="STRING" multiValued="TRUE"/>
+  <FIELD name="reqfta.ParamPrecision" key="ParamPrecision" select="attribute[ParamPrecision]" type="STRING" multiValued="TRUE"/>
+  <FIELD name="reqfta.ParamUnit" key="ParamUnit" select="attribute[ParamUnit]" type="STRING" multiValued="TRUE"/>
+  <FIELD name="reqfta.FTAVisu" key="FTAVisu" select="attribute[FTAVisu]" type="STRING" multiValued="FALSE"/>
+</BOTYPEFIELDS>
+<BOTYPE.EXTFIELDS includes="PlmFTARequirementAttributes" name="Requirement"/>
+<!-- Begin of GeometricalRequirement indexation Attributes -->
+<BOTYPEFIELDS name="PlmGeometricalRequirement" application="RMT">
+	<FIELD name="RMT_DS_REQ_FTA_Discipline" select="attribute[DS_REQ_FTA_Discipline]" type="STRING,PARAMETRIC" sixw="ds6wg:DS_REQ_FTA_Discipline"/>
+	<FIELD name="RMT_DS_REQ_FTA_IsActive" select="attribute[DS_REQ_FTA_IsActive]" type="BOOLEAN,PARAMETRIC" sixw="ds6wg:DS_REQ_FTA_IsActive"/>
+	<FIELD name="RMT_DS_REQ_FTA_LocalArea" select="attribute[DS_REQ_FTA_LocalArea]" type="STRING" sixw="ds6wg:DS_REQ_FTA_LocalArea"/>
+	<FIELD name="RMT_DS_REQ_FTA_Function" select="attribute[DS_REQ_FTA_Function]" type="STRING" multiValued="TRUE" sixw="ds6wg:DS_REQ_FTA_Function"/>
+	<FIELD name="RMT_DS_REQ_FTA_GeomtricalRequirementType" select="attribute[DS_REQ_FTA_GeomtricalRequirementType]" type="STRING,PARAMETRIC" sixw="ds6wg:DS_REQ_FTA_GeomtricalRequirementType"/>
+	<FIELD name="RMT_DS_REQ_FTA_GPSStandardType" select="attribute[DS_REQ_FTA_GPSStandardType]" type="STRING,PARAMETRIC" sixw="ds6wg:DS_REQ_FTA_GPSStandardType"/>
+	<FIELD name="RMT_DS_REQ_FTA_Interchangeabilityconstraint" select="attribute[DS_REQ_FTA_Interchangeabilityconstraint]" type="BOOLEAN,PARAMETRIC" sixw="ds6wg:DS_REQ_FTA_Interchangeabilityconstraint"/>
+	<FIELD name="RMT_DS_REQ_FTA_Nominalvaluespecification" select="attribute[DS_REQ_FTA_Nominalvaluespecification]" type="BOOLEAN,PARAMETRIC" sixw="ds6wg:DS_REQ_FTA_Nominalvaluespecification"/>
+	<FIELD name="RMT_DS_REQ_FTA_Unit" select="attribute[DS_REQ_FTA_Unit]" type="STRING,PARAMETRIC" sixw="ds6wg:DS_REQ_FTA_Unit"/>
+	<FIELD name="RMT_DS_REQ_FTA_Nominalvalue" select="attribute[DS_REQ_FTA_Nominalvalue]" type="DOUBLE" sixw="ds6wg:DS_REQ_FTA_Nominalvalue"/>
+	<FIELD name="RMT_DS_REQ_FTA_Nominalvalue2specification" select="attribute[DS_REQ_FTA_Nominalvalue2specification]" type="BOOLEAN,PARAMETRIC" sixw="ds6wg:DS_REQ_FTA_Nominalvalue2specification"/>
+	<FIELD name="RMT_DS_REQ_FTA_Unit2" select="attribute[DS_REQ_FTA_Unit2]" type="STRING,PARAMETRIC" sixw="ds6wg:DS_REQ_FTA_Unit2"/>
+	<FIELD name="RMY_DS_REQ_FTA_Nominalvalue2" select="attribute[DS_REQ_FTA_Nominalvalue2]" type="DOUBLE" sixw="ds6wg:DS_REQ_FTA_Nominalvalue2"/>
+	<FIELD name="RMT_DS_REQ_FTA_Toleranceminspecification" select="attribute[DS_REQ_FTA_Toleranceminspecification]" type="BOOLEAN,PARAMETRIC" sixw="ds6wg:DS_REQ_FTA_Toleranceminspecification"/>
+	<FIELD name="RMT_DS_REQ_FTA_Toleranceminvalue" select="attribute[DS_REQ_FTA_Toleranceminvalue]" type="DOUBLE" sixw="ds6wg:DS_REQ_FTA_Toleranceminvalue"/>
+	<FIELD name="RMT_DS_REQ_FTA_Tolerancemaxspecification" select="attribute[DS_REQ_FTA_Tolerancemaxspecification]" type="BOOLEAN,PARAMETRIC" sixw="ds6wg:DS_REQ_FTA_Tolerancemaxspecification"/>
+	<FIELD name="RMT_DS_REQ_FTA_Tolerancemaxvalue" select="attribute[DS_REQ_FTA_Tolerancemaxvalue]" type="DOUBLE" sixw="ds6wg:DS_REQ_FTA_Tolerancemaxvalue"/>
+	<FIELD name="RMT_DS_REQ_FTA_Statisticaltolerancespecification" select="attribute[DS_REQ_FTA_Statisticaltolerancespecification]" type="BOOLEAN,PARAMETRIC" sixw="ds6wg:DS_REQ_FTA_Statisticaltolerancespecification"/>
+	<FIELD name="RMT_DS_REQ_FTA_Statisticalpopulation" select="attribute[DS_REQ_FTA_Statisticalpopulation]" type="STRING" sixw="ds6wg:DS_REQ_FTA_Statisticalpopulation"/>
+	<FIELD name="RMT_DS_REQ_FTA_WorstCasecalculation" select="attribute[DS_REQ_FTA_WorstCasecalculation]" type="BOOLEAN,PARAMETRIC" sixw="ds6wg:DS_REQ_FTA_WorstCasecalculation"/>
+	<FIELD name="RMT_DS_REQ_FTA_ComputedWCvariationmin" select="attribute[DS_REQ_FTA_ComputedWCvariationmin]" type="DOUBLE" sixw="ds6wg:DS_REQ_FTA_ComputedWCvariationmin"/>
+	<FIELD name="RMT_DS_REQ_FTA_ComputedWCvariationmax" select="attribute[DS_REQ_FTA_ComputedWCvariationmax]" type="DOUBLE" sixw="ds6wg:DS_REQ_FTA_ComputedWCvariationmax"/>
+	<FIELD name="RMT_DS_REQ_FTA_Computedstatisticaldistribution" select="attribute[DS_REQ_FTA_Computedstatisticaldistribution]" type="STRING" multiValued="TRUE" sixw="ds6wg:DS_REQ_FTA_Computedstatisticaldistribution"/>
+	<FIELD name="RMT_DS_REQ_FTA_Computedstatisticalminvariation" select="attribute[DS_REQ_FTA_Computedstatisticalminvariation]" type="DOUBLE" multiValued="TRUE" sixw="ds6wg:DS_REQ_FTA_Computedstatisticalminvariation"/>
+	<FIELD name="RMT_DS_REQ_FTA_Computedstatisticalmaxvariation" select="attribute[DS_REQ_FTA_Computedstatisticalmaxvariation]" type="DOUBLE" multiValued="TRUE" sixw="ds6wg:DS_REQ_FTA_Computedstatisticalmaxvariation"/>
+	<FIELD name="RMT_DS_REQ_FTA_Statisticalrejectionrate" select="attribute[DS_REQ_FTA_Statisticalrejectionrate]" type="DOUBLE" multiValued="TRUE" sixw="ds6wg:DS_REQ_FTA_Statisticalrejectionrate"/>
+	<FIELD name="RMT_DS_REQ_FTA_Statisticalcalculationmethod" select="attribute[DS_REQ_FTA_Statisticalcalculationmethod]" type="STRING" multiValued="TRUE" sixw="ds6wg:DS_REQ_FTA_Statisticalcalculationmethod"/>
+	<FIELD name="RMT_DS_REQ_FTA_Retainedcalculationresult " select="attribute[DS_REQ_FTA_Retainedcalculationresult]" type="STRING" sixw="ds6wg:DS_REQ_FTA_Retainedcalculationresult"/>
+</BOTYPEFIELDS>
+<BOTYPE.EXTFIELDS includes="PlmGeometricalRequirement" name="GeometricalRequirement_Abstract"/>
+<BOTYPE.EXTFIELDS includes="PlmGeometricalRequirement" name="GeometricalRequirement_Inst"/>
+<BOTYPE.EXTFIELDS includes="PlmGeometricalRequirement" name="GeometricalRequirement"/>
+
+

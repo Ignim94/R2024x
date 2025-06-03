@@ -1,0 +1,12 @@
+{
+  "NbDigits": "位数",
+  "NbDigitsInfo": "位数必须是一个 >= 6 的正整数，并且公式长度不能 > 40 个字符",
+  "PrefixValueEmptyInfo": "前缀不能为空",
+  "NbDigitsNaN": "位数是大于 6 的正整数",
+  "Dash": "-",
+  "Under_Score": "_",
+  "Dot": ".",
+  "Plus": "+",
+  "Slash": "/",
+  "Empty": ""
+}

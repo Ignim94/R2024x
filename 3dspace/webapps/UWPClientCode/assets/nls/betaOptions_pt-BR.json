@@ -1,0 +1,9 @@
+{
+  "betaOptions": [
+    {
+      "id": "FUN143768",
+      "title": "Abrir aplicativos Web como guias do navegador",
+      "description": "Apps da Web do 3DCompass serão abertos em guias separadas, e não na janela de visualização do painel."
+    }
+  ]
+}

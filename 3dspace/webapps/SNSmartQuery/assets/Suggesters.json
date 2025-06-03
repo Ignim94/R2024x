@@ -1,0 +1,11 @@
+{
+  "providers" : [
+      "DS/SNSmartQuery/Suggesters/TypeSuggester",
+      "DS/SNSmartQuery/Suggesters/InterfaceSuggester",
+      "DS/SNSmartQuery/Suggesters/PredicateSuggester",
+      "DS/SNSmartQuery/Suggesters/KeywordSuggester",
+      "DS/SNSmartQuery/Suggesters/LogicalOperatorSuggester",
+      "DS/SNSmartQuery/Suggesters/RelationalOperatorSuggester",
+      "DS/SNSmartQuery/Suggesters/PredicateValueSuggester"
+  ]
+}

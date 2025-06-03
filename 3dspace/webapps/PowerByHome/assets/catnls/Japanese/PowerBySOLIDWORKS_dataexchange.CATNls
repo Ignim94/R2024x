@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySOLIDWORKS_dataexchange.XSCViews.Title="ビュー";
+PowerBySOLIDWORKS_dataexchange.XSCTools.Title="ツール";
+PowerBySOLIDWORKS_dataexchange.Lifecycle.Title="ライフサイクル";
+PowerBySOLIDWORKS_dataexchange.SaveSession.Title="アクティブ ウィンドウを保存";
+PowerBySOLIDWORKS_dataexchange.SaveSessionAsNew.Title="アクティブ ウィンドウを新規として保存";
+PowerBySOLIDWORKS_dataexchange.ShareAsPicture.Title="ピクチャとしてパブリッシュ";
+PowerBySOLIDWORKS_dataexchange.ShareAs3D.Title="3D としてパブリッシュ";
+PowerBySOLIDWORKS_dataexchange.RefreshHome.Title="リフレッシュ";
+PowerBySOLIDWORKS_dataexchange.ReloadAll.Title="すべてを再ロード";
+PowerBySOLIDWORKS_dataexchange.ReserveHdr.Title="ロック";
+PowerBySOLIDWORKS_dataexchange.UnreserveHdr.Title="ロック解除";
+PowerBySOLIDWORKS_dataexchange.PropertiesHdr.Title="プロパティ";
+PowerBySOLIDWORKS_dataexchange.GetRevisionHdr.Title="リビジョンを取得";
+PowerBySOLIDWORKS_dataexchange.ReplaceByRevisionHdr.Title="リビジョンで置換";
+PowerBySOLIDWORKS_dataexchange.ReplaceByLatestRevisionHdr.Title="最新リビジョンで置換";
+PowerBySOLIDWORKS_dataexchange.UpdateRevisionsHdr.Title="リビジョンを更新";
+PowerBySOLIDWORKS_dataexchange.RevisionsHdr.Title="リビジョン";
+PowerBySOLIDWORKS_dataexchange.ReloadFromServerHdr.Title="サーバーから再ロード";
+PowerBySOLIDWORKS_dataexchange.ReplaceContentHdr.Title="コンテンツを置換";
+PowerBySOLIDWORKS_dataexchange.RelationIPExplorer.Title="関係";
+PowerBySOLIDWORKS_dataexchange.OptionsHdr.Title="オプション...";
+
+PowerBySOLIDWORKS_dataexchange.View.Title="ビュー";
+PowerBySOLIDWORKS_dataexchange.Tools.Title="ツール";
+PowerBySOLIDWORKS_dataexchange.XCADExport.Title="X-CAD エクスポート";
+PowerBySOLIDWORKS_dataexchange.XCADImport.Title="X-CAD のインポート";

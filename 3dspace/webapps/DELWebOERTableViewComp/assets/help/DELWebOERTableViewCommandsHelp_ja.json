@@ -1,0 +1,13 @@
+{
+"DELWebOERTableViewCompExpandAll.Title":"すべてを展開",
+"DELWebOERTableViewCompCollapseAll.Title":"すべてを折りたたむ",
+"DELWebOERTableViewCompReframe.Title":"リフレーム",
+"DELWebOERTableViewCompShowAll.Title":"すべて表示",
+"DELWebOERTableViewCompShowOnly.Title":"次のみを表示します",
+"DELWebOERTableViewCompRemoveRoot.Title":"ルートを除去",
+"DELWebOERTableViewCompOpenWith.Title":"オプションを指定して開く",
+"DELWebOERTableViewCompLoadFTA.Title":"FTA を読み込み",
+"DELWebOERTableViewCompRemoveFTA.Title":"FTA を除去",
+"DELWebOERTableViewCompLoadAllFTA.Title":"FTA をすべて読み込み",
+"DELWebOERTableViewCompRemoveAllFTA.Title":"すべての FTA を除去"
+}

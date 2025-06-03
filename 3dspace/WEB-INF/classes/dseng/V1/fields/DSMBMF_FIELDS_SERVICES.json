@@ -1,0 +1,16 @@
+{
+     "dseng:basic.id": {
+        "property": "physicalid",
+        "key": "id",
+        "label": "CRS.common.Label.Attribute.Id",
+        "example": "EE562168015FFCF14F940A513C63AA77",
+        "description": "Entity physical id"
+    },
+    "dseng:basic.type.public": {
+        "property": "type",
+        "key": "type",
+        "label": "CRS.common.Label.Attribute.Type",
+        "example": "DBType",
+        "description": "Basic type value"
+    }
+}

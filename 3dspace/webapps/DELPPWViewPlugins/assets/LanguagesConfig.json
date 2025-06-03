@@ -1,0 +1,15 @@
+{
+    "en" : ["AG", "AU", "BS", "BB", "BZ", "CA", "DM", "GD", "GY", "IE", "JM", "NZ", "KN", "LC", "VC", "TT", "GB", "US"],
+    "fr" : ["BF", "BI", "BJ", "BL", "CD", "CF", "CG", "CI", "CM", "DJ", "DZ", "FR", "GA", "GF", "GN", "GP", "GQ", "HT", "KM", "LU", "MG", "ML", "MQ", "MR", "MU", "NC", "NE", "PF", "PM", "RE", "RW", "SC", "SN", "TD", "TG", "TN", "VU", "YT"],
+    "es" : ["AR", "BZ", "BO", "CL", "CO", "CR", "CU", "DO", "EC", "SV", "GQ", "GT", "HN", "MX", "NI", "PA", "PY", "PE", "ES", "UY", "VE"],
+    "de" : ["AT", "BE", "CH", "DE", "LI", "LU"],
+    "it" : ["CH", "IT", "SM", "VA"],
+    "ja" : ["JP"], 
+    "cs" : ["CZ"],
+    "ko" : ["KP", "KR"],
+    "pl" : ["PL"],
+    "pt-BR" : ["BR"],
+    "ru" : ["RU", "BY", "KZ", "KG"],
+    "zh-CN" : ["CN", "SG"],
+    "zh-TW" : ["TW", "HK", "MO"]
+}

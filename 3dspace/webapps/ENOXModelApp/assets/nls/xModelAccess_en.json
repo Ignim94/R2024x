@@ -1,0 +1,45 @@
+{
+  "state_obsolete" : "Obsolete",
+  "state_release" : "Release",
+  "state_review" : "Frozen",
+  "creation_error_title" : "You cannot create this type of object",
+  "deletion_error_title" : "You cannot delete this type of object" ,
+  "remove_error_title" : "You cannot remove this type of object",
+  "addExisting_error_title" : "You cannot perform add existing operation on this type of object" ,
+  "upload_error_title" : "You cannot upload files for this type of object",
+  "copyFrom_error_title" : "You cannot perform Copy from operation.",
+  "save_error_title" : "You cannot perform Save operation.",
+  "move_error_title" : "You cannot perform Move operation.",
+  "share_error_title" : "You cannot perform Share operation.",
+  "derive_error_title" : "You cannot perform Branch operation.",
+  "revise_error_title" : "You cannot perform Revise operation.",
+  "duplicate_error_title" : "You cannot perform duplicate operation.",
+  "edit_details_warning_child" : "You cannot modify content as object is in {0} state",
+  "edit_details_warning_parent" : "You cannot modify content as parent Model Version is in Frozen state.",
+
+  "default_err_message" : "You cannot perform this operation on this type of object",
+
+  "error_credentials_description_creation" : "You may not have the required access role in the target collaborative space to create this type of object.",
+  "error_credentials_description_deletion" : "You may not have the required access role in the target collaborative space to delete this type of object.",
+  "error_credentials_description_remove" : "You may not have the required access role in the target collaborative space to remove this type of object.",
+  "error_credentials_description_addExisting" : "You may not have the required access role in the target collaborative space to add existing object.",
+  "error_credentials_description_upload" : "You may not have the required access role in the target collaborative space to upload file.",
+  "error_credentials_description_copyFrom" : "You may not have the required access role in the target collaborative space to perform copy from operation.",
+  "error_credentials_description_save" : "You may not have the required access role in the target collaborative space to perform save operation.",
+  "error_credentials_description_move" : "You may not have the required access role in the target collaborative space to perform move operation.",
+  "error_credentials_description_share" : "You may not have the required access role in the target collaborative space to perform share operation.",
+  "error_credentials_description_editDetails" :  "You may not have the required access role in the target collaborative space to modify content.",
+
+  "error_credentials_description" : "You may not have the required access role in the target collaborative space.",
+
+  "error_subtitle_credentials" : "Verify that you are using correct credentials.",
+
+  "error_subtitle_frozenMV" : "Verify the current state of parent Model Version.",
+  "error_description_frozenMV" : "You can not perform action as parent Model Version is in Frozen state",
+  "error_subtitle_frozenVariant" : "Verify the current state of parent Variant.",
+  "error_description_frozenVariant" : "You can not perform action as parent Variant is in Frozen state",
+  "error_subtitle_frozenOG" : "Verify the current state of parent Option Group.",
+  "error_description_frozenOG" : "You can not perform action as parent Option Group is in Frozen state",
+  "error_child_obsolete" : "Verify the current state of the object",
+  "error_child_desc": "You cannot perform this action as current object is in frozen state"
+}

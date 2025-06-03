@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+PowerBySOLIDWORKS_dataexchange.XSCViews.Title="檢視";
+PowerBySOLIDWORKS_dataexchange.XSCTools.Title="工具";
+PowerBySOLIDWORKS_dataexchange.Lifecycle.Title="生命週期";
+PowerBySOLIDWORKS_dataexchange.SaveSession.Title="儲存使用中視窗";
+PowerBySOLIDWORKS_dataexchange.SaveSessionAsNew.Title="將使用中視窗另存新檔";
+PowerBySOLIDWORKS_dataexchange.ShareAsPicture.Title="以圖片發佈";
+PowerBySOLIDWORKS_dataexchange.ShareAs3D.Title="以 3D 發佈";
+PowerBySOLIDWORKS_dataexchange.RefreshHome.Title="重新整理";
+PowerBySOLIDWORKS_dataexchange.ReloadAll.Title="全部重新載入";
+PowerBySOLIDWORKS_dataexchange.ReserveHdr.Title="鎖定";
+PowerBySOLIDWORKS_dataexchange.UnreserveHdr.Title="解除鎖定";
+PowerBySOLIDWORKS_dataexchange.PropertiesHdr.Title="屬性";
+PowerBySOLIDWORKS_dataexchange.GetRevisionHdr.Title="取得修訂版";
+PowerBySOLIDWORKS_dataexchange.ReplaceByRevisionHdr.Title="以修訂版取代";
+PowerBySOLIDWORKS_dataexchange.ReplaceByLatestRevisionHdr.Title="以最新修訂版取代";
+PowerBySOLIDWORKS_dataexchange.UpdateRevisionsHdr.Title="更新修訂版";
+PowerBySOLIDWORKS_dataexchange.RevisionsHdr.Title="修訂版";
+PowerBySOLIDWORKS_dataexchange.ReloadFromServerHdr.Title="從伺服器重新載入";
+PowerBySOLIDWORKS_dataexchange.ReplaceContentHdr.Title="取代內容";
+PowerBySOLIDWORKS_dataexchange.RelationIPExplorer.Title="限制條件";
+PowerBySOLIDWORKS_dataexchange.OptionsHdr.Title="選項...";
+
+PowerBySOLIDWORKS_dataexchange.View.Title="檢視";
+PowerBySOLIDWORKS_dataexchange.Tools.Title="工具";
+PowerBySOLIDWORKS_dataexchange.XCADExport.Title="X-CAD 輸出";
+PowerBySOLIDWORKS_dataexchange.XCADImport.Title="X-CAD 輸入";

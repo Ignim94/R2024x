@@ -1,0 +1,15 @@
+{
+  "appDescription": "Navegue por sus modelos 3D de una forma sencilla y eficaz",
+  "rootFrozen": "La sesión se ha congelado después de una transición",
+  "transitionRefusedStaticMapping": "La configuración del producto con instancia no es compatible con la aplicación de destino",
+  "transitionRefusedFlexibleAssemblies": "Los ensamblajes flexibles no son compatibles con la aplicación de destino",
+  "pointCloudClassificationLayer": {
+    "title": "Coloración de la clasificación LAS",
+    "headerTooltip": "La clasificación LAS es el esquema de clasificación predefinido definido por la American Society for Photogrammetry and Remote Sensing (ASPRS) para la categoría de datos deseada."
+  },
+  "pointCloudElevationLayer": {
+    "title": "Coordinar la coloración",
+    "comboLabel": "Eje: ",
+    "tooltip": "La coordenada \"x\" se mide a lo largo del eje este-oeste, la coordenada \"y\" se mide a lo largo del eje norte-sur y la coordenada \"z\" mide la altura o la elevación."
+  }
+}

@@ -1,0 +1,1 @@
+define("DS/ENOFormulatedProduct/util/Constants",["UWA/Class"],function(t){"use strict";return t.singleton({FP_BASE_URL:"resources/formulatedproduct/v1/"})});

@@ -1,0 +1,18 @@
+{
+"Home.Title":"ホーム",
+"Home.ShortHelp":"ホーム ページに移動します。",
+"InsertTemplates.Title":"既存のテンプレートを追加",
+"InsertTemplates.ShortHelp":"リストの一番上に既存のテンプレートを挿入します。",
+"CreateTemplate.Title":"テンプレートを作成",
+"CreateTemplate.ShortHelp":"リストの一番上に新しいテンプレートを挿入します。",
+"ImportTemplates.Title":"テンプレートをインポート",
+"ImportTemplates.ShortHelp":"JSON ファイルから 1 つ以上のテンプレートをインポートします。",
+"ImportTemplates.LongHelp":"テンプレートを含む JSON ファイルをドロップします。",
+"Widget.WebHelp":"CATRtwUserMap/CATRtw-c-ov.htm",
+"InsertTemplates.WebHelp":"CATRtwUserMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"InsertTemplates.PanelHelp":"CATRtwUAPanelMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"CreateTemplate.WebHelp":"CATRtwUserMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"CreateTemplate.PanelHelp":"CATRtwUAPanelMap/CATRtw-t-Templates-Create.htm#CATRtw-t-Templates-Create",
+"ImportTemplates.WebHelp":"CATRtwUserMap/CATRtw-t-Templates-Import.htm#CATRtw-t-Templates-Import",
+"ImportTemplates.PanelHelp":"CATRtwUAPanelMap/CATRtw-t-Templates-Import.htm#CATRtw-t-Templates-Import"
+}

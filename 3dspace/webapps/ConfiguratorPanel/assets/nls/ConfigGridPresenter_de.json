@@ -1,0 +1,18 @@
+{
+  "titleLabel": "Titel",
+  "typeLabel": "Typ",
+  "sequenceNoLabel": "Sequenznummer",
+  "selectionMode": "Einschließen/Ausschließen",
+  "configurationLabel": "Konfiguration",
+  "variantType": "Variante",
+  "valueType": "Wert",
+  "variabilityGroupType": "Optionsgruppe",
+  "optionType": "Option",
+  "parameterType": "Parameter",
+  "loadingStatusLabel": "Produktkonfigurationen werden geladen",
+  "totalPCLabel": "Gesamtproduktkonfigurationen",
+  "totalVariablityLabel": "Gesamtvariabilität",
+  "applySelectionAction": "Auf Auswahl anwenden",
+  "openPCAction": "Öffnen",
+  "differentRuleModelMsg": "Die Quellproduktkonfiguration hat eine andere Regelbewertungsebene"
+}

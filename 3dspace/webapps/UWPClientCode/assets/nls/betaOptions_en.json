@@ -1,0 +1,9 @@
+{
+    "betaOptions": [
+        {
+            "id": "FUN143768",
+            "title": "Open Web Apps as Browser Tabs",
+            "description": "3DCompass Web apps will open in dedicated tabs instead of Dashboard preview window."
+        }
+    ]
+}

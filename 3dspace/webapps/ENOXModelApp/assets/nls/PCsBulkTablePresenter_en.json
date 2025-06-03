@@ -1,0 +1,21 @@
+{
+    "TotalVariability" : "Total Variability",
+    "TotalProductConfigurations" : "Total Product Configurations",
+    "ConfigurationsLoading" : "Configurations Loading",
+    "ConflictComputing" : "Conflicts Computing",
+    "SuggestionsCoomputing" : "Suggestions Computing",
+    "GetRuleDetailsError": "Error while fetching Rule Information.",
+    "CompleteModeNotification": "Product Configurations will be edited and saved in mode complete",
+    "NoUserSelection" : "Rule Level - Complete - select atleast 1 value",
+    "Option" : "Option",
+    "isConflictingWith": "is conflicting with",
+    "andAlsoConflictingWith" : "and also conflicting with",
+    "PCSaveSuccessMessage" : "Configurations saved successfully",
+    "PCSaveFailureMessage" : "Failed to save Configurations",
+    "HighlightDifferences":"Highlight Differences",
+    "UnHighlightDifferences":"UnHighlight Differences",
+    "Enable_Edit":"Enable Edit",
+    "Disable_Edit":"Disable Edit",
+    "BC_conflict_title" : "Base Configuration is not valid",
+    "BC_conflict_message" : "Please define at least one of the values Available, Default or Selected for every mandatory variants."
+}

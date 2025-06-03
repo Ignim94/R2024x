@@ -1,0 +1,14 @@
+m|LibraryNGUX\JSZipTools.mweb
+b|j|n,m
+b|c|n,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\JSZipTools\JSZip.js|1700692098|477
+s|LibraryNGUX\JSZipTools.mweb\src\JSZip.js|1683757897|874
+t|win_b64\webapps\JSZipTools\JSZipTools.js|1700692098|48
+s|LibraryNGUX\JSZipTools.mweb\src\JSZipTools.js|1683758132|81
+t|win_b64\webapps\JSZipTools\libraries\JSZipUtils\jszip-utils.min.js|1700692102|1765
+s|LibraryNGUX\JSZipTools.mweb\src\libraries\JSZipUtils\jszip-utils.min.js|1682396371|1777
+t|win_b64\webapps\JSZipTools\libraries\JSZip\jszip.min.js|1700692101|96863
+s|LibraryNGUX\JSZipTools.mweb\src\libraries\JSZip\jszip.min.js|1682396342|97437
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

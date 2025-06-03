@@ -1,0 +1,11 @@
+m|DELWebWidgetLinkInfra\DELWebWidgetLinkInfra.mweb
+b|j|c,m
+b|c|c,m
+v|6.426.1.23326|3.2
+r|G:\R426\BSF\.
+t|win_b64\webapps\DELWebWidgetLinkInfra\DELWebWidgetLinkInfra.js|1700691869|8145
+s|DELWebWidgetLinkInfra\DELWebWidgetLinkInfra.mweb\src\WidgetLinkContentController.js|1699257504|6798
+u|DELWebWidgetLinkInfra\DELWebWidgetLinkInfra.mweb\src\WidgetLinkInfraController.js|1699003305|7048
+u|DELWebWidgetLinkInfra\DELWebWidgetLinkInfra.mweb\src\WidgetLinkProxyController.js|1698996370|9324
+u|win_b64\code\toolcmds\mkwebconcat.bat|1685139395|287
+u|win_b64\code\toolcmds\terser.bat|1700685953|365

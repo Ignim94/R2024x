@@ -1,0 +1,14 @@
+{
+    "dschar:PerformanceSpec": {
+        "summary":"Performance Specification",
+        "description": "Performance Specification",
+        "PUBLICMasks": [
+        	
+        ],
+        "PUBLICExtensions": [],
+		"PROTECTEDExtensions": [],
+        "PROTECTEDMasks": [],
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExcludedURIs":["GETAll", "getItems", "DELETEBulk", "BULKUPDATE"]
+    }
+}

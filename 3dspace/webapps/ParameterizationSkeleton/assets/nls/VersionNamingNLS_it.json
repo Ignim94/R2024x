@@ -1,0 +1,22 @@
+{
+  "SelectAFile": "Seleziona un file...",
+  "BrowseButtonText": "Sfoglia",
+  "UploadButtonText": "Carica",
+  "ResetButtonText": "Reimposta tutte le sequenze estese",
+  "DownloadButtonText": "Scarica",
+  "DownloadFailedAlert": "Download non riuscito",
+  "NoFileToUpload": "Niente da caricare, selezionare prima un file",
+  "UploadSuccessAlert": "Caricamento file riuscito",
+  "UploadFailedAlert": "Caricamento del file non riuscito",
+  "ResetSuccessAlert": "Reimpostazione riuscita",
+  "ResetFailedAlert": "Reimpostazione non riuscita",
+  "VersionNamingExtHeader": "Caricare/scaricare le definizioni delle sequenze di revisione estese",
+  "VersionNamingLogHeader": "Caricare/scaricare le definizioni della logica della sequenza di revisione",
+  "VersionNamingExtTooltip": "1. Scaricare il file JSON con le sequenze di revisione estese già dichiarate.<br/>2. Nel file JSON, aggiungere, modificare o rimuovere le sequenze di revisione estese a propria scelta.<br/>3. Caricare il file aggiornato.",
+  "VersionNamingExtTypeHeader": "Assegna sequenza di revisione estesa ai tipi",
+  "VersionNamingExtTypeTooltip": "1. Espandere la struttura tipo nella colonna Tipo.<br/>2. Selezionare il tipo che si desidera impostare o reimpostare la sequenza.<br/>3. Selezionare nella colonna Sequenza di revisione estesa la sequenza da impostare.",
+  "ERSAssociationSuccessAlert": "ERS impostata correttamente",
+  "VersionNamingLogTypeHeader": "Assegna logica della sequenza di revisione ai tipi",
+  "VersionNamingLogTypeTooltip": "1. Espandere la struttura tipo nella colonna Tipo.<br/>2. Selezionare il tipo che si desidera impostare o reimpostare la sequenza.<br/>3. Selezionare nella colonna Logica della sequenza di revisione la sequenza da impostare.",
+  "RSLAssociationSuccessAlert": "RSL impostata correttamente"
+}

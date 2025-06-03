@@ -1,0 +1,11 @@
+{
+    "appID":"ENXCRMC_AP",
+    "notifications":[
+		"sourcing.notification.event.request.statusChange.setting",
+		"sourcing.notification.event.request.duedate.setting",
+		"sourcing.notification.event.request.needclarification.setting",
+		"sourcing.notification.event.request.submit.setting",
+		"sourcing.notification.event.memberAccessUpdate.setting",
+		"sourcing.notification.event.request.promoted.setting"
+	]
+}

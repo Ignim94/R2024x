@@ -1,0 +1,215 @@
+//=============================================================================
+// 								Fixed
+//=============================================================================
+DELSIEApp.LandingPage.Title="Home";
+DELSIEApp.Refresh.Title="Refresh Selected";
+DELSIEApp.Hide.Title="Remove selected object(s)";
+DELSIEApp.Authoring.Title="Authoring";
+DELSIEApp.HideAll.Title="Remove all object(s)";
+DELSIEApp.Refresh.Title="Refresh selected object(s)";
+DELSIEApp.RefreshAll.Title="Refresh All";
+
+DELSIEApp.ToggleAuxiliaryView.Title="Auxiliary View";
+DELSIEApp.ProductsParts.Title="Product And Parts";
+DELSIEApp.ServiceItems.Title="Service Items";
+
+//=============================================================================
+// 								Authoring
+//=============================================================================
+DELSIEApp.Authoring.Title="Authoring";
+
+//-------------------------------------------------
+//				Create
+//-------------------------------------------------
+DELSIEApp.InsertCreateAssembly.Title="Service Assembly";
+DELSIEApp.InsertCreateKit.Title="Service Kit";
+DELSIEApp.InsertProvide.Title="Service Part";
+DELSIEApp.InsertInstallation.Title="Installation";
+DELSIEApp.InsertContinuousServiceMaterial.Title="Create Service continuous Part";
+DELSIEApp.CreateContinuousServiceMaterialAndScope.Title="Create Service continuous Part and scope link";
+DELSIEApp.InsertCreateServiceAttaching.Title="Create Service Attaching Part";
+DELSIEApp.InsertCreateServiceSpare.Title="Create Spare Item";
+
+//-------------------------------------------------
+//				Create Process & Scope
+//-------------------------------------------------
+DELSIEApp.CreateAssemblyAndScope.Title="Create Service Assembly and Scope";
+DELSIEApp.CreateMaterialAndScope.Title="Create Service Material and Scope";
+DELSIEApp.CreateKitAndScope.Title="Create Service Kit and Scope";
+DELSIEApp.CreateProvideAndScope.Title="Create Service Part and Scope";
+DELSIEApp.CreateServiceAttachingAndScope.Title="Create Service Attaching Part and Scope Link";
+DELSIEApp.CreateServiceSpareAndScope.Title="Create Spare Item and Scope Link";
+//-------------------------------------------------
+//				Create Process & Resulting Product Link
+//-------------------------------------------------
+DELSIEApp.CreateAssemblyAndResultingProduct.Title="Create Service Assembly and Resulting Product Link";
+DELSIEApp.CreateMaterialAndResultingProduct.Title="Create Service Material and Resulting Product Link";
+DELSIEApp.CreateKitAndResultingProduct.Title="Create Service Kit and Resulting Product Link";
+DELSIEApp.CreateProvideAndResultingProduct.Title="Create Service Part and Resulting Product Link";
+DELSIEApp.CreateServiceAttachingAndResultingProduct.Title="Create Service Attaching Part and Resulting Product Link";
+DELSIEApp.CreateServiceSpareAndResultingProduct.Title="Create Spare Item and Resulting Product Link";
+//-----------------------------------------------------------------------------
+//				Create Process & Scope/ResultingProduct Link for Alternate Substitutes
+//-----------------------------------------------------------------------------
+DELSIEApp.CreateAssemblyAndScopeAltSubst.Title="Create Service Assembly and Scope";
+DELSIEApp.CreateKitAndScopeAltSubst.Title="Create Service Kit and Scope";
+DELSIEApp.CreateProvideAndScopeAltSubst.Title="Create Service Part and Scope";
+DELSIEApp.CreateServiceAttachingAndScopeAltSubst.Title="Create Service Attaching Part and Scope";
+DELSIEApp.CreateServiceSpareAndScopeAltSubst.Title="Create Spare Item and Scope";
+//----------------------------------------------------
+DELSIEApp.CreateAssemblyAndResultingProductAltSubst.Title="Create Service Assembly and Resulting Product Link";
+DELSIEApp.CreateKitAndResultingProductAltSubst.Title="Create Service Kit and Resulting Product Link";
+DELSIEApp.CreateProvideAndResultingProductAltSubst.Title="Create Service Part and Resulting Product Link";
+DELSIEApp.CreateServiceAttachingAndResultingProductAltSubst.Title="Create Service Attaching Part and Resulting Product Link";
+DELSIEApp.CreateServiceSpareAndSResultingProductAltSubst.Title="Create Spare Item nd Resulting Product Link";
+
+//-------------------------------------------------
+//				Product Assignation
+//-------------------------------------------------
+DELSIEApp.AssignAssembly.Title="Assign Product to Service Assembly";
+DELSIEApp.AssignKit.Title="Assign Product to Service Kit";
+DELSIEApp.AssignProvide.Title="Assign Product to Service Part ";
+DELSIEApp.AssignServiceAttaching.Title="Assign Product to Service Attaching Part";
+DELSIEApp.AssignServiceSpare.Title="Assign Product to Service Spare Item";
+DELSIEApp.UnassignProduct.Title="Unassign Product";
+
+//-------------------------------------------------
+//				Scope
+//-------------------------------------------------
+DELSIEApp.CreateScopeLink.Title="Create Scope";
+DELSIEApp.ReconnectScope.Title="Reconnect Scope";
+DELSIEApp.ReviseAndReconnectScope.Title="Revise and Reconnect Scope";
+DELSIEApp.DeleteScopeLink.Title="Delete Scope";
+DELSIEApp.CreatePartialScopeLink.Title="Create Partial Scope";
+DELSIEApp.DeletePartialScopeLink.Title="Delete Partial Scope";
+DELSIEApp.StretchPartialScopeLink.Title="Stretch Partial Scope";
+DELSIEApp.SwitchToFullScopeLink.Title="Switch Partial To Full Scope";
+
+//-------------------------------------------------
+//-------------------------------------------------
+DELSIEApp.AddExisting.Title="Add Existing";
+DELSIEApp.DetachInstance.Title="Detach";
+
+//-------------------------------------------------
+//				Replace
+//-------------------------------------------------
+DELSIEApp.ReplaceByLatestRevision.Title="Replace By Latest Revision";
+DELSIEApp.ReplaceByExisting.Title="Replace By Existing";
+DELSIEApp.ReplaceByNewRevision.Title="Replace By New Revision";
+DELSIEApp.ReplaceByNewReference.Title="Replace By New";
+DELSIEApp.ReplaceWhereUsed.Title="Replace Where Used";
+
+//-------------------------------------------------
+//				Cut Copy
+//-------------------------------------------------
+DELSIEApp.Cut.Title="Cut";
+DELSIEApp.Copy.Title="Copy";
+DELSIEApp.Paste.Title="Paste";
+
+//-------------------------------------------------
+DELSIEApp.CreateUpdateProcessStructure.Title="Create Update Process Structure";
+DELSIEApp.ChangeImpactAnalysis.Title="Change Impact Analysis";
+
+DELSIEApp.Relations.Title="Relations";
+DELSIEApp.DisplayProperties.Title="Information";
+CollabSharing_Workbench.ActionBar_ChangeOwner.Title="Move";
+CollabSharing_Workbench.ActionBar_TransferOwnership.Title="Change owner";
+DELSIEApp.ShowCharacteristicsCmd.Title="Characteristics Management";
+DELSIEApp.ShowConsolidatedCharactscsCmd.Title="Characteristics Management: Consolidated View";
+
+//=============================================================================
+// 								Item Management
+//=============================================================================
+DELSIEApp.ItemManagement.Title="Item Management";
+
+//-------------------------------------------------
+DELSIEApp.CustomerExtension.Title="Customer Extension";
+DELSIEApp.ViewRelationships.Title="View Relationships";
+//-------------------------------------------------
+DELSIEApp.Document.Title="Document";
+DELSIEApp.Characteristics.Title="Characteristics";
+DELSIEApp.AlternatesAndSubstitutes.Title="Alternates and Substitutes";
+DELSIEApp.Alternates.Title="Alternates";
+DELSIEApp.ResultingProduct.Title="Resulting Product";
+DELSIEApp.Substitutes.Title="Substitutes";
+DELSIEApp.Responsibilities.Title="Responsibilities";
+DELSIEApp.Origin.Title="Origin";
+DELSIEApp.CapableResource.Title="Capable Resource";
+//-------------------------------------------------
+DELSIEApp.NavigateResources.Title="Navigate Capable Resources";
+DELSIEApp.Resources.Title="Manage Capable Resources";
+DELSIEApp.NavigateRequirements.Title="Navigate Requirements";
+DELSIEApp.Requirements.Title="Manage Requirements";
+DELSIEApp.Requirement.Title="Manage Requirement";
+
+//=============================================================================
+// 								Configuration
+//=============================================================================
+DELSIEApp.Configuration.Title="Configuration";
+
+//-------------------------------------------------
+DELSIEApp.SetAuthoringContext.Title="Set Authoring Context";
+DELSIEApp.Dictionnary.Title="Dictionnary";
+DELSIEApp.FilterConfiguration.Title="Filter Configuration";
+
+//=============================================================================
+// 								View
+//=============================================================================
+DELSIEApp.View.Title="View";
+
+//-------------------------------------------------
+DELSIEApp.ExpandAll.Title="Expand all";
+DELSIEApp.ExpandNLevel.Title="Expand N Level";
+//-------------------------------------------------
+DELSIEApp.CollapseAll.Title="Collapse all";
+DELSIEApp.UserDefinedExplore.Title="User Defined Explore";
+//-------------------------------------------------
+DELSIEApp.ToggleBodyView.Title="Toggle Product View";
+DELSIEApp.Toggle3DView.Title="Toggle 3D View";
+DELSIEApp.ToggleGraphView.Title="Toggle Graph View";
+//-------------------------------------------------
+DELSIEApp.Filter.Title="Filter";
+DELSIEApp.ToggleAssignedParts.Title="Toggle Assigned Parts";
+DELSIEApp.ToggleQuantityView.Title="Toggle Quantity View";
+//-------------------------------------------------
+DELSIEApp.Reframe.Title="Reframe";
+DELSIEApp.ReframeOn.Title="Reframe On";
+DELSIEApp.ToggleOrientation.Title="Toggle Orientation";
+DELSIEApp.ToggleOverview.Title="Toggle Overview";
+
+DELSIEApp.ShowLogPanel.Title="Show Log";
+DELSIEApp.Show3DViewerCmd.Title="Launch 3DOperations Viewer";
+
+//=============================================================================
+// 								Tools
+//=============================================================================
+DELSIEApp.Tools.Title="Tools";
+
+DELSIEApp.EditViewPreferences.Title="View Preferences";
+DELSIEApp.LayoutPreferences.Title="Layout Preferences";
+
+DELSIEApp.ExportCSV.Title="Export CSV";
+DELSIEApp.LoadRelations.Title="Load Relations";
+DELSIEApp.RelationalExplorerCmd.Title="Relational Explorer";
+//-------------------------------------------------
+DELSIEApp.CustomizeColumns.Title="Customize Columns";
+DELSIEApp.ExportExcel.Title="Export Excel";
+
+DELSIEApp.Delete.Title="Delete...";
+DELSIEApp.CreateMfgItemStructure.Title="Create SIE Item Structure";
+DELSIEApp.UpdateMfgItemStructure.Title="Update SIE Item Structure";
+DELSIEApp.ManageInconsistentLinks.Title="Change Impact Management";
+DELSIEApp.BIEssentialsCmd.Title="B.I. Essentials - Assignment Status";
+DELSIEApp.BIAltSub.Title="B.I. Essentials - Alternate & Substitute Status";
+DELSIEApp.CreateInstance.Title="Create Instance";
+DELSIEApp.CreateLink.Title="Create Link";
+DELSIEApp.SearchAndAddInstanceCommand.Title="Insert";
+DELSIEApp.InsertAsCopy.Title="Insert as Copy";
+DELSIEApp.duplicate.Title="Duplicate";
+DELSIEApp.DuplicateAdv.Title="Advanced Duplicate";
+DELSIEApp.DELCreateEngineeringMadeFromItem.Title="Create Engineering Made From Item";
+
+//=============================================================================
+// 								lifecycle
+//=============================================================================
+DELSIEApp.Lifecycle.Title="Lifecycle";

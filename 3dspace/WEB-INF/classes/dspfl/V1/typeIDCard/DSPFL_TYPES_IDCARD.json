@@ -1,0 +1,371 @@
+{
+    "dspfl:Model": {
+        "kindOf":"root",
+        "beType": "type_Model",
+        "feAggregatedTypes":["dspfl:ParameterInstance"],
+        "fePointedTypes":["dspfl:Rule", "dspfl:ModelVersion"],
+        "defaultMask":"dsmvpfl:ModelBaseMask",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflModelAttributeDictionary",
+        "isPublic": true,
+        "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+
+    },
+    "dspfl:ModelVersion": {
+        "kindOf":"root",
+        "beType": "type_Products",
+        "feAggregatedTypes":["dspfl:VariantInstance", "dspfl:VariabilityGroup"],
+        "fePointedTypes":["dspfl:ProductConfiguration"],
+        "defaultMask":"dsmvpfl:ModelVersionBaseMask",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflModelVersionAttributeDictionary",
+        "contentLinks": ["dspfl:ConfigurationRule","dspfl:ProductConfiguration","dspfl:VariantInstance","dspfl:OptionGroupInstance","dspfl:ParameterInstance","dspfl:ManufacturingPlan","dspfl:BaseConfiguration"],
+        "extensionLinks": ["dspfl:ModelVersionEnterpriseAttributes", "dslc:changeImpact"],
+        "customerAttribute":true,
+        "customizationSupport":true,
+        "patchCSRF": true,
+        "isPublic": true,
+        "search" : true,
+        "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+    "dspfl:ManufacturingPlan":{
+        "kindOf":"content",
+        "beType": "type_ManufacturingPlan",
+        "defaultMask":"dsmvpfl:MfgPlanBaseMask",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflManufacturingPlanAttributeDictionary",
+        "rootLinks": ["dspfl:ModelVersion"],
+        "customizationSupport":true,
+        "patchCSRF": true,
+        "isPublic": true,
+      	"optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+    "dspfl:VariantValue": {
+        "kindOf":"content",
+        "beType": "type_VariantValue",
+        "defaultMask":"dsmvpfl:ValueBaseMask",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflVariabilityAttributeDictionary",
+        "rootLinks": ["dspfl:Variant"],
+        "extensionLinks": ["dspfl:VariantValueEnterpriseAttributes"],
+        "customizationSupport":true,
+        "customerAttribute":true,
+        "patchCSRF": true,
+        "isPublic": true,
+         "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+    "dspfl:Variant": {
+        "kindOf":"root",
+        "beType": "type_Variant",
+        "feAggregatedTypes":["dspfl:VariantInstance"],
+        "search": true,
+        "defaultMask":"dsmvpfl:VariantBaseMask",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflVariabilityAttributeDictionary",
+        "contentLinks": ["dspfl:VariantValue"],
+        "extensionLinks": ["dspfl:VariantEnterpriseAttributes"],
+        "customizationSupport":true,
+        "customerAttribute":true,
+        "patchCSRF": true,
+        "isPublic": true,
+        "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+    "dspfl:VariabilityGroup": {
+        "kindOf":"root",
+        "beType": "type_VariabilityGroup",
+        "search": true,
+        "feAggregatedTypes":["dspfl:OptionGroupInstance"],
+        "defaultMask":"dsmvpfl:VariabilityGroupBaseMask",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflVariabilityAttributeDictionary",
+        "contentLinks": ["dspfl:Option"],
+        "patchCSRF": true,
+        "isPublic": true,
+        "extensionLinks": ["dspfl:OptionGroupEnterpriseAttributes"],
+        "customizationSupport":true,
+        "customerAttribute":true,
+       	"optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+     "dspfl:Parameter": {
+        "kindOf":"root",
+        "beType": "type_VariantParameter",
+        "defaultMask":"dsmvpfl:ParameterBaseMask",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflVariantParameterAttributeDictionary",
+        "isPublic": true,
+        "search" : true,
+        "extensionLinks": ["dspfl:ParameterEnterpriseAttributes"],
+        "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+    "dspfl:Option": {
+        "kindOf":"content",
+        "beType": "type_VariabilityOption",
+        "defaultMask":"dsmvpfl:OptionBaseMask",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflVariabilityAttributeDictionary",
+        "rootLinks": ["dspfl:VariabilityGroup"],
+        "patchCSRF": true,
+        "extensionLinks": ["dspfl:OptionEnterpriseAttributes"],
+        "customizationSupport":true,
+        "customerAttribute":true,
+        "isPublic": true,
+        "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },   
+    "dspfl:Rule":{
+        "kindOf":"root",
+        "beType": "type_ConfigurationRule",
+        "defaultMask":"dsmvpfl:RuleBaseMask",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflRuleAttributeDictionary",
+        "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },"dspfl:ConfigurationRule":{
+       "kindOf":"content",
+       "beType": "type_ConfigurationRule",
+       "rootLinks": ["dspfl:ModelVersion"],
+       "defaultMask":"dsmvpfl:ConfigurationRuleBaseMask",        
+       "isPublic": true,
+        "customerAttribute":true,
+        "customizationSupport":true,
+        "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+    "dspfl:MatrixRule":{
+        "kindOf":"root",
+        "beType": "type_ConfigurationRule",
+        "defaultMask":"dsmvpfl:RuleBaseMask",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflRuleAttributeDictionary",
+        "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+     "dspfl:ExpressionRule":{
+        "kindOf":"root",
+        "beType": "type_ConfigurationRule",
+        "defaultMask":"dsmvpfl:RuleBaseMask",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflRuleAttributeDictionary",
+        "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+     "dspfl:ProductConfiguration":{
+        "kindOf":"content",
+        "beType": "type_ProductConfiguration",
+        "feAggregatedTypes":["dspfl:CriteriaConfigurationInstance"],
+        "defaultMask":"dsmvpfl:ProductConfigurationBaseMask",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflProductConfigurationAttributeDictionary",
+        "rootLinks": ["dspfl:ModelVersion"],
+       
+        "customizationSupport":true,
+        "patchCSRF": true,
+        "isPublic": true,
+      	"optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+    "dspfl:BaseConfiguration": {
+        "kindOf": "content",
+        "beType": "type_ModelType",
+        "defaultMask": "dsmvpfl:BaseConfigurationBaseMask",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflBaseConfigurationAttributeDictionary",
+        "rootLinks": [
+            "dspfl:ModelVersion"
+        ],
+        "customizationSupport": false,
+        "patchCSRF": true,
+        "isPublic": true,
+      	"optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+    "dspfl:VariantInstance":{
+     "kindOf":"content",
+     "beType": "relationship_ConfigurationFeatures",
+     "fePointedTypes":["dspfl:Variant"],
+     "classesWhere":"to.attribute[Configuration Selection Type]==Single",
+     "patchCSRF": true,
+     "defaultMask":"dsmvpfl:InstanceIDMask",
+     "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflVariantInstanceAttributeDictionary",
+     "isPublic": true,
+     "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+    
+    "dspfl:OptionGroupInstance":{
+      "kindOf":"content",
+      "beType": "relationship_ConfigurationFeatures",
+      "classesWhere":"to.attribute[Configuration Selection Type]==Multiple",
+      "patchCSRF": true,
+      "defaultMask":"dsmvpfl:InstanceIDMask",
+      "fePointedTypes":["dspfl:VariabilityGroup"],
+      "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflOptionGroupInstanceAttributeDictionary",
+      "isPublic": true,
+       "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+     "dspfl:ParameterInstance":{
+     "kindOf":"content",
+     "beType": "virtual_Configuration Features",
+     "defaultMask":"dsmvpfl:ParameterInstanceMask",
+     "fePointedTypes":["dspfl:Parameter"],
+     "implementationClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.implementations.dspflContentParameterInstance",
+      "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+    "dspfl:VariantValueInstance":{
+     "kindOf":"content",
+     "beType": "relationship_VariantValues",
+     "fePointedTypes":["dspfl:VariantValue"],
+      "optionCheck" : {
+            "modify"      : false,
+            "produce"     : false,
+            "navigate"    : false
+        }
+    },
+    "dspfl:OptionInstance":{
+     "kindOf":"content",
+     "beType": "relationship_GroupedVariabilityCriteria",
+     "fePointedTypes":["dspfl:Option"],
+      "optionCheck" : {
+            "modify"      : false,
+            "produce"     : false,
+            "navigate"    : false
+        }
+    },
+    "dspfl:CriteriaConfigurationInstance":{
+     "kindOf":"content",
+     "beType": "relationship_SelectedOptions",
+     "fePointedTypes":["dspfl:VariantInstance",
+                       "dspfl:VariantValueInstance",
+                       "dspfl:OptionGroupInstance",
+                       "dspfl:OptionInstance",
+                       "dspfl:Parameter"],                 
+     "optionCheck" : {
+            "modify"      : true,
+            "produce"     : true,
+            "navigate"    : false
+        }
+    },
+    "dspfl:Portfolio":{
+     "kindOf":"root",
+     "beType": "type_Portfolio",
+     "defaultMask":"dsmvpfl:PortfolioBaseMask",
+     "optionCheck" : {
+            "modify"      : false,
+            "produce"     : false,
+            "navigate"    : false
+        },
+	 "cestamp":true
+    },
+    "dspfl:ProductLine":{
+     "kindOf":"root",
+     "beType": "type_ProductLine",
+     "defaultMask":"dsmvpfl:ProductLineBaseMask",
+     "optionCheck" : {
+            "modify"      : false,
+            "produce"     : false,
+            "navigate"    : false
+        },
+	 "cestamp":true
+    },
+    "dspfl:ModelVersionEnterpriseAttributes": {
+        "kindOf":"extension",    
+        "beType": "XP_ModelVersion_Ext",
+        "customerAttribute":true
+    },
+    
+      "dspfl:VariantEnterpriseAttributes": {
+        "kindOf":"extension",    
+        "beType": "XP_Variant_Ext",
+        "customerAttribute":true
+    },
+    
+       "dspfl:VariantValueEnterpriseAttributes": {
+        "kindOf":"extension",    
+        "beType": "XP_VariantValue_Ext",
+        "customerAttribute":true
+    },
+    
+       "dspfl:OptionGroupEnterpriseAttributes": {
+        "kindOf":"extension",    
+        "beType": "XP_OptionGroup_Ext",
+        "customerAttribute":true
+    },
+    
+      "dspfl:OptionEnterpriseAttributes": {
+        "kindOf":"extension",    
+        "beType": "XP_Option_Ext",
+        "customerAttribute":true
+    },
+    
+       "dspfl:ParameterEnterpriseAttributes": {
+        "kindOf":"extension",    
+        "beType": "XP_VariantParameter_Ext",
+        "customerAttribute":true
+    },
+    
+    
+    "dspfl:Unit": {
+		"kindOf": "root",
+		"patchCSRF": true,
+		"isPublic": true,
+		"search": true,
+		"beType": "type_Builds",
+		"defaultMask": "dsmvpfl:UnitBaseMask",
+		"attributeMappingClass": "com.dassault_systemes.enovia.xapps.dspfl.V1.dictionaries.dspflUnitAttributeDictionary",
+		"optionCheck": {
+			"modify": false,
+			"produce": false,
+			"navigate": false
+		}
+	}
+    
+    
+    
+}

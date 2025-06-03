@@ -1,0 +1,21 @@
+{
+  "_create": "Neu",
+  "_delete": "Löschen",
+  "_parameterSingle": "Numerischer Parameter",
+  "_parameterMultiple": "Numerische Parameter",
+  "_ERROR_PATCH_PARAMETER": "Fehler beim Ändern des numerischen Parameters.",
+  "_ERROR_CREATE_PARAMETER": "Fehler beim Erstellen des numerischen Parameters.",
+  "_ERROR_DELETE_PARAMETER": "Fehler beim Löschen der numerischen Parameter.",
+  "_ERROR_GET_PARAMETER_DETAILS": "Fehler beim Abrufen der numerischen Parameterinformationen.",
+  "_ERROR_GET_PARAMETERS": "Fehler beim Abrufen der numerischen Parameter.",
+  "_ERROR_INCORRECT_VALUE_RANGE": "Der Mindestwert muss niedriger als der Maximalwert sein",
+  "_information": "Informationen",
+  "_msg_drop_to_create_variant": "Hier ablegen, um neuen numerischen Parameter zu erstellen",
+  "_name": "Name",
+  "_open": "Öffnen",
+  "_dimension": "Abmessung",
+  "_rangeLabel": "Bereich",
+  "_rangeValueDelimiter": " - ",
+  "_createParamterLabel": "Numerische Parameter erzeugen",
+  "_creation_successful": "Erstellung erfolgreich."
+}

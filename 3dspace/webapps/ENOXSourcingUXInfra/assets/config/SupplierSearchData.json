@@ -1,0 +1,14 @@
+{
+  "level": [
+  	"Potential Supplier",
+    "Candidate Supplier",
+    "Supplier",
+    "Partner",
+    "Refused Supplier"
+  ],
+  "preferences": [
+    "Not Preferred",
+    "Default",
+    "Preferred"
+  ]
+}

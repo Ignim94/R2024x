@@ -1,0 +1,87 @@
+{
+	"rules": [
+		{
+			"id": "rule1",
+			"desc": "3DEXPERIENCE node with purpose value from connector and non-editable",
+			"condition": {
+				"cadorigin": "3DEXPERIENCE"
+			},
+			"target": {
+				"purpose": "_CONNECTOR_INPUT_"
+			},
+			"default": "true",
+			"noneditable": "true"
+		},
+		{
+			"id": "rule2",
+			"desc": "Node specific to integration with Purpose value as For Edit by default and editable",
+			"condition": {
+				"cadorigin": "INTEGRATION"
+			},
+			"target": {
+				"purpose": "edit"
+			},
+			"defeault": "true",
+			"noneditable": "false"
+		},
+		{
+			"id": "rule3",
+			"desc": " Node not specific to integration with purpose value as Exclude and non-editable",
+			"condition": {
+				"cadorigin": "NOT_INTEGRATION"
+			},
+			"target": {
+				"purpose": "exclude"
+			},
+			"default": "true",
+			"noneditable": "true"
+		},
+		{
+			"id": "rule4",
+			"desc": "Purpose value of node specific to integration of specified IEF Type Classification or cadtype should be non-editable",
+			"condition": {
+				"cadtype_class": "_CONNECTOR_INPUT_",
+				"cadtype": "_CONNECTOR_INPUT_"
+			},
+			"noneditable": "true"
+		},
+		{
+			"id": "Rule_Default_Purpose_ReadOnly",
+			"desc": "Node specific to integration with Purpose value as Read-Only by default and editable",
+			"condition": {
+				"cadorigin": "INTEGRATION"
+			},
+			"target": {
+				"purpose": "readonly"
+			},
+			"defeault": "true",
+			"noneditable": "false"
+		},
+		{
+			"id": "prop_rule_nlevel",
+			"priority": "P0",
+			"desc": "To propagate Purpose value from given node to its n-level children node if they it matches the specific cadtype or IEF Type Classification",
+			"condition": {
+				"purpose": [
+					"edit","readonly","exclude"
+				],
+				"cadtype_class": "_CONNECTOR_INPUT_",
+				"cadtype": "_CONNECTOR_INPUT_"
+			},
+			"target": {
+				"propagate": "N_LEVEL"
+			}
+		},
+		{
+			"id": "prop_rule_purpose_nlevel",
+			"priority": "P0",
+			"desc": "To propagate Purpose value from given node to its n-level children node if it matches the specified purpose",
+			"condition": {
+				"purposekey": "_CONNECTOR_INPUT_"
+			},
+			"target": {
+				"propagate": "N_LEVEL"
+			}
+		}
+	]
+}

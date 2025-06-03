@@ -1,0 +1,11 @@
+{
+  "ContextualMenu.OpenWith": "オプションを指定して開く",
+  "BuildUp.description": "ビルドアップのオン/オフ",
+  "BuildUp.Loading.description": "ビルドアップの初期化中",
+  "PositionMatrix.description": "位置マトリックス",
+  "PositionMatrix.Title": "位置マトリックス",
+  "Requirement.description": "要求",
+  "LoadRequirement.tooltip": "FTA をロード",
+  "RemoveRequirement.tooltip": "FTA を除去",
+  "Owner.description": "所有者"
+}

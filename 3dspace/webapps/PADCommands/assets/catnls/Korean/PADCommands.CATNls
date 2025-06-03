@@ -1,0 +1,41 @@
+<meta charset="UTF-8"/>
+PADCommands.treelistview.Title="트리 목록 보기";
+PADCommands.graphview.Title="그래프 보기";
+PADCommands.tileview.Title="타일 보기";
+PADCommands.thumbnailview.Title="섬네일 보기";
+
+PADCommands.XSCExpand.Title="확장";
+PADCommands.ExpandAll.Title="모두 확장";
+PADCommands.ExpandN.Title="n단계 확장";
+PADCommands.CollapseAll.Title="모두 축소";
+PADCommands.XSCSelect.Title="선택";
+PADCommands.SelectChildren.Title="하위 선택";
+PADCommands.SelectAll.Title="표시되는 모든 항목 선택";
+PADCommands.SelectInversion.Title="도치 선택";
+PADCommands.SelectParent.Title="상위 선택";
+PADCommands.SelectSiblings.Title="형제 선택";
+PADCommands.SelectLeaves.Title="리프 선택";
+
+PADCommands.ReframeAll.Title="모두 맞춤";
+PADCommands.ReframeOn.Title="프레임 다시 생성 켜기";
+PADCommands.ToggleOverview.Title="개요 토글";
+PADCommands.GraphLayoutMode.Title="압축/비압축";
+PADCommands.LayoutDown.Title="아래";
+PADCommands.LayoutRight.Title="오른쪽";
+PADCommands.LayoutUp.Title="위";
+PADCommands.LayoutLeft.Title="왼쪽";
+PADCommands.SwapThumbState.Title="섬네일 숨기기/표시";
+
+PADCommands.RootPanel.Title="루트 표시";
+PADCommands.ToggleRightPanel.Title="측면 패널 표시";
+PADCommands.Properties.Title="속성";
+PADCommands.RelationIPExplorer.Title="관계";
+PADCommands.Print.Title="인쇄";
+PADCommands.PrintOptions.Title="인쇄 옵션";
+PADCommands.CleanAll.Title="보기 지우기";
+PADCommands.Find.Title="찾기";
+PADCommands.ExportCSV.Title="내보내기";
+PADCommands.ExportCSVOptions.Title="내보내기 옵션";
+PADCommands.ColumnVisibility.Title="보기 사용자 정의";
+
+PADCommands.OpenInCADHdr.Title="열기";
