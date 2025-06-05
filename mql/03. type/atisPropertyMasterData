@@ -1,0 +1,8 @@
+### delete type atisPropertyMasterData;
+
+add type atisPropertyMasterData 
+ attribute atisPropertyType
+ attribute atisPropertyEvalUnit
+;
+
+add property type_atisPropertyMasterData on program eServiceSchemaVariableMapping.tcl to type atisPropertyMasterData;

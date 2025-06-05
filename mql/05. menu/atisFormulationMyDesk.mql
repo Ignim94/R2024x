@@ -1,0 +1,47 @@
+# Add menu atisFormulationMyDesk
+#copy menu "atisFormulationMyDesk" "atisFormulationMyDesk_backup";
+#del menu "atisFormulationMyDesk";
+add menu "atisFormulationMyDesk"
+	description "LIMS Menu"
+	label "emxFramework.Command.FormulationManagement"
+	href ""
+	alt ""
+	!hidden
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+	setting "Licensed Product" "ENO_BPS_TP,ENOCHMT_TP"
+	command "atisRawMaterialListCmd"
+	command "atisCharacteristicMastersCmd"
+	command "atisFoodPublicCodeListCmd"
+	command "atisProductCommand"
+	command "atisHandlingUnitPartCommand"
+	command "atisFormulationPhaseCommand"
+	command "atisProcessingInstructionCommand"
+	command "atisDiscardedRawMaterialsListCmd"
+property "installed date" value "2022-3-24"
+property "original name" value "atisFormulationMyDesk"
+property "version" value "V6R2022X"
+;
+
+
+mod menu atisFormulationMyDesk
+ add command atisPropertyMasterDataCommand
+ add command atisPropertyDataCommand;
+ 
+ mod menu atisFormulationMyDesk
+  remove command atisPropertyMasterDataCommand
+  remove command atisPropertyDataCommand;
+
+### 2024.12.12 
+add menu atisFormulationRawMaterialDesk
+ command atisRawMaterialListCmd
+ command atisDiscardedRawMaterialsListCmd
+;
+mod menu atisFormulationRawMaterialDesk
+ label 'emxFramework.Label.AtisFormulationRawMaterialDesk';
+ 
+mod menu atisFormulationMyDesk
+ remove  command atisRawMaterialListCmd
+ remove command atisDiscardedRawMaterialsListCmd
+ add menu atisFormulationRawMaterialDesk
+;

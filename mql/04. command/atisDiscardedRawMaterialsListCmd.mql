@@ -1,0 +1,9 @@
+### href '${COMMON_DIR}/emxIndentedTable.jsp?program=atisRawMaterial:getDiscardedRawMaterialList&table=atisDiscardedRawMaterialsTable&header=emxFramework.Label.DiscardedRawMaterial&selection=multiple&freezePane=Name&pageSize=100'
+modify command atisDiscardedRawMaterialsListCmd
+    href '${COMMON_DIR}/emxIndentedTable.jsp?program=atisRawMaterial:getDiscardedRawMaterialList&table=atisRawMaterialListTable&header=emxFramework.Label.DiscardedRawMaterial&selection=multiple&freezePane=Name&pageSize=100'
+;
+
+mod command  atisDiscardedRawMaterialsListCmd 
+    href '${COMMON_DIR}/emxIndentedTable.jsp?program=atisRawMaterial:getDiscardedRawMaterialList&table=atisDiscardRawMaterialListTable&header=emxFramework.Label.DiscardedRawMaterial&selection=multiple&freezePane=Name&pageSize=100'
+;
+

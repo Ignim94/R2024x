@@ -1,0 +1,35 @@
+#delete table atisCUPProposalCostTable system
+
+add table atisCUPProposalCostTable system
+column 
+  name 'Name'
+  bus '$<attribute[Title]>'
+  label 'emxFramework.Atisproposal.Attribute.AtisProposalCost1'
+  setting "Field Type" "attribute"
+  setting 'Registered Suite' 'Framework'
+column 
+  name 'atisCUPProposalCostCost'
+  bus '$<to[atisCUPProposalMember].attribute[atisCUPProposalCostCost]>'
+  label 'emxFramework.Atisproposal.Attribute.AtisProposalCost2'
+  setting "Field Type" "attribute"
+  setting 'Admin Type' 'attribute'
+  setting 'Registered Suite' 'Framework'
+column 
+  name 'atisCUPProposalCostUnit'
+  bus '$<to[atisCUPProposalMember].attribute[atisCUPProposalCostUnit]>'
+  label 'emxFramework.Atisproposal.Attribute.AtisProposalCost3'
+  setting "Field Type" "attribute"
+  setting 'Registered Suite' 'Framework'
+column 
+  name 'atisCUPProposalCostEqui'
+  bus '$<to[atisCUPProposalMember].attribute[atisCUPProposalCostEqui]>'
+  label 'emxFramework.Atisproposal.Attribute.AtisProposalCost4'
+  setting "Field Type" "attribute"
+  setting 'Registered Suite' 'Framework'
+column 
+  name 'atisCUPProposalCostEquiCost'
+  bus '$<to[atisCUPProposalMember].attribute[atisCUPProposalCostEquiCost]>'
+  label 'emxFramework.Atisproposal.Attribute.AtisProposalCost5'
+  setting "Field Type" "attribute"
+  setting 'Registered Suite' 'Framework'
+;

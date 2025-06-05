@@ -1,0 +1,14 @@
+add command atisProcessingInstructionCreate 
+    label 'emxFramework.Command.atisProcessingInstructionCreate' 
+    href '${COMMON_DIR}/emxCreate.jsp?form=atisProcessingInstructionCreateForm&submitAction=refreshCaller&nameField=both&autoNameChecked=true&SuiteDirectory=programcentral&createJPO=atisProcessingInstruction:createProcessingInstruction' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Image' '${COMMON_DIR}/images/iconActionCreate.png' 
+    setting 'Popup Modal' true 
+    setting 'Target Location' 'slidein' 
+;
+
+mod command atisProcessingInstructionCreate 
+    label 'emxFramework.Command.atisProcessingInstructionCreate' 
+    href '${COMMON_DIR}/emxCreate.jsp?form=atisProcessingInstructionCreateForm&type=type_ProcessingInstruction&header=emxFramework.Common.atisProcessingInstructionCommand&submitAction=none&nameField=both&autoNameChecked=true&SuiteDirectory=programcentral&createJPO=atisProcessingInstruction:createProcessingInstruction&showApply=true' 
+;
+

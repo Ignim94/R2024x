@@ -1,0 +1,97 @@
+del form "atisProcessingInstructionCreateForm";
+add form atisProcessingInstructionCreateForm web 
+    field 
+        name "type" 
+	    businessobject  "$<type>" 
+	    setting "Admin Type" "Type" 
+	    setting "Field Type" "basic" 
+	    setting "Access Expression" "false" 
+    field 
+        name "policy" 
+	    businessobject  "$<policy>" 
+	    setting "Admin Type" "Policy" 
+	    setting "Field Type" "basic" 
+	    setting "Access Expression" "false" 
+    field 
+	    name 'type2' 
+		label 'emxProgramCentral.Common.Type'
+		setting 'Field Type' 'programHTMLOutput' 
+		setting 'program' 'atisCommonUtil' 
+		setting 'function' 'getType'
+		setting 'Editable' false 
+		setting 'Required' true 
+		setting "Registered Suite"  "ProgramCentral" 
+	field 
+	    name "name" 
+		businessobject  "$<name>" 
+		label "emxFramework.Attribute.attrMaNo" 
+		setting "Admin Type" "name" 
+		setting "Field Type" "basic" 
+		setting "Registered Suite"  "Framework" 
+	field 
+	    name "atisProcessCondition" 
+		label 'emxFramework.Attribute.atisProcessConditionName' 
+		bus '$<attribute[atisProcessCondition]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Editable' true 
+		setting 'Required' true
+    field 
+	    name atisGDC_CODE 
+		label 'emxFramework.Attribute.atisGDC_CODE' 
+		bus '$<attribute[atisGDC_CODE]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Editable' true 
+		setting 'Required' true 
+	field 
+		name atisRectTemperature
+		label 'emxFramework.Attribute.atisRectTemperature' 
+		bus '$<attribute[atisRectTemperature]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Field Size' '10'
+	field 
+		name atisRectTime
+		label 'emxFramework.Attribute.atisRectTime' 
+		bus '$<attribute[atisRectTime]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Field Size' '10'
+	field 
+		name atisDecompDegree
+		label 'emxFramework.Attribute.atisDecompDegree' 
+		bus '$<attribute[atisDecompDegree]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Field Size' '10'
+	field 
+		name atisDesalinationVolume
+		label 'emxFramework.Attribute.atisDesalinationVolume' 
+		bus '$<attribute[atisDesalinationVolume]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+	field 
+		name atisPH
+		label 'emxFramework.Attribute.atisPH' 
+		bus '$<attribute[atisPH]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Field Size' '10'
+	field 
+		name atisSignificant
+		label 'emxFramework.Attribute.atisSignificant' 
+		bus '$<attribute[atisSignificant]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting "Input Type" "textarea"
+	field 
+		name description
+		label 'emxFramework.Attribute.atisDesc' 
+		bus 'description' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'basic' 
+		setting "Input Type" "textarea"
+;
+add property 'form_atisProcessingInstructionCreateForm' on program 'eServiceSchemaVariableMapping.tcl' to 'form' 'atisProcessingInstructionCreateForm';
+

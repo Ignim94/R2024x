@@ -1,0 +1,13 @@
+# Add command atisFoodFormulationProposalCommand
+#copy command "atisFoodFormulationProposalCommand" "atisFoodFormulationProposalCommand_backup";
+#del command "atisFoodFormulationProposalCommand";
+add command "atisFoodFormulationProposalCommand"
+	description "Consumer Unit Part Proposal"
+	label "emxFramework.Command.AtisCUPProposal"
+	href "${COMMON_DIR}/emxForm.jsp?form=atisCUPProposalViewForm&header=emxFramework.FormulationPart.AtisCUPProposal&"
+	alt "null"
+	code ""
+	!hidden
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+;

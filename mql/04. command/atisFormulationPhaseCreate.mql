@@ -1,0 +1,12 @@
+add command atisFormulationPhaseCreate 
+    label 'emxFramework.Command.atisFormulationPhaseCreate' 
+    href '${COMMON_DIR}/emxCreate.jsp?form=atisFormulationPhaseCreateForm&submitAction=refreshCaller&nameField=both&autoNameChecked=true&SuiteDirectory=programcentral&createJPO=atisFormulationPhase:createFormulationPhase' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Image' '${COMMON_DIR}/images/iconActionCreate.png' 
+    setting 'Popup Modal' true 
+    setting 'Target Location' 'slidein' 
+;
+
+mod command atisFormulationPhaseCreate 
+    href '${COMMON_DIR}/emxCreate.jsp?form=atisFormulationPhaseCreateForm&type=type_FormulationPhase&header=emxFramework.Common.atisFormulationPhaseCommand&submitAction=refreshCaller&nameField=both&autoNameChecked=true&SuiteDirectory=programcentral&createJPO=atisFormulationPhase:createFormulationPhase&showApply=true' 
+;

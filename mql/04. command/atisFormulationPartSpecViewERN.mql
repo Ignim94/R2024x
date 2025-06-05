@@ -1,0 +1,9 @@
+# delete command atisFormulationPartSpecViewERN;
+
+add command atisFormulationPartSpecViewERN
+ label 'emxFramework.Label.AtisFormulationPartSpecViewERN'
+ href '${COMMON_DIR}/atisFormulationPartSpecViewERN.jsp?action=Alert'
+	setting "Registered Suite" "Framework"
+	setting "Image" "${COMMON_DIR}/images/iconMenuMaterialsCompliance.gif"
+	setting "Target Location" "hiddenFrame"
+;

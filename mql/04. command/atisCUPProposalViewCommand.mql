@@ -1,0 +1,14 @@
+# Add command atisCUPProposalViewCommand
+#copy command "atisCUPProposalViewCommand" "atisCUPProposalViewCommand_backup";
+#del command "atisCUPProposalViewCommand";
+add command "atisCUPProposalViewCommand"
+	description "Consumer Unit Part Proposal"
+	label "emxFramework.Command.AtisCUPProposal"
+	href "${COMMON_DIR}/emxForm.jsp?form=atisCUPProposalViewForm&header=emxFramework.FormulationPart.AtisCUPProposal&editLink=true&toolbar=atisCUPProposalToolbar"
+	alt "null"
+	code ""
+	!hidden
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+	setting "Access Expression" "(type=='Consumer Unit Part') || (type=='')"
+;

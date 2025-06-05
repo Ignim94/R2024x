@@ -1,0 +1,22 @@
+add command atisAddExistingProcessingInstruction
+  description 'Add existing Processing Instructions to BOM'
+  label 'Processing Instruction'
+  href '${SUITE_DIR}/emxGLSEngrFullSearchPreProcess.jsp?calledMethod=addExisting&searchFor=type_ProcessingInstruction'
+  setting "Image" "${COMMON_DIR}/images/iconActionAdd.gif"
+  setting "Licensed Product" "ENO_CPO_TP"
+  setting "Popup Modal" "true"
+  setting "Registered Suite" "CPN"
+  setting "Row Select" "single"
+  setting "Submit" "true"
+  setting "Target Location" "listHidden"
+  nothidden
+;
+
+mod command atisAddExistingProcessingInstruction
+    label 'emxFramework.Common.atisProcessingInstructionCommand'
+    href '../cpn/emxGLSEngrFullSearchPreProcess.jsp?calledMethod=addExisting&searchFor=type_ProcessingInstruction'
+    add setting 'Registered Suite' 'Framework'
+;
+
+
+

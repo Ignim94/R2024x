@@ -1,0 +1,14 @@
+#delete table atisFormulationPartSpecViewRevisionTable system
+
+add table atisFormulationPartSpecViewRevisionTable system
+column 
+    name 'Revision'
+    bus '$<revision>'
+    label 'emxFramework.Basic.Revision'
+    setting 'Registered Suite' 'Framework'
+column 
+    name 'Description'
+    bus '$<description>'
+    label 'emxFramework.Basic.Description'
+    setting 'Registered Suite' 'Framework'
+;

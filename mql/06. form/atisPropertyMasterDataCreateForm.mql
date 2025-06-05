@@ -1,0 +1,34 @@
+# del form "atisPropertyMasterDataCreateForm";
+add form atisPropertyMasterDataCreateForm web 
+  field 
+    name "type" 
+    businessobject  "$<type>" 
+    setting "Admin Type" "Type" 
+    setting "Field Type" "basic" 
+    setting "Access Expression" "false" 
+  field 
+    name "policy" 
+    businessobject  "$<policy>" 
+    setting "Admin Type" "Policy" 
+    setting "Field Type" "basic" 
+    setting "Access Expression" "false"  
+  field 
+    name "atisPropertyType" 
+    label 'emxFramework.Attribute.AtisPropertyType' 
+    bus '$<attribute[atisPropertyType]>' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Range Function' 'getPropertyType'
+    setting 'Range Program' 'atisPropertiesData'
+    setting 'Input Type' 'combobox' 
+    setting 'Field Type' 'attribute' 
+    setting 'Required' false
+  field 
+    name atisPropertyEvalUnit 
+    label 'emxFramework.Attribute.AtisPropertyEvalUnit' 
+    bus '$<attribute[atisPropertyEvalUnit]>' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Field Type' 'attribute' 
+    setting 'Required' false 
+;
+add property 'form_atisPropertyMasterDataCreateForm' on program 'eServiceSchemaVariableMapping.tcl' to 'form' 'atisPropertyMasterDataCreateForm';
+

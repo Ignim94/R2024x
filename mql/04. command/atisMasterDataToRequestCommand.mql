@@ -1,0 +1,18 @@
+# Add command atisMasterDataToRequestCommand
+#copy command "atisMasterDataToRequestCommand" "atisMasterDataToRequestCommand_backup";
+#del command "atisMasterDataToRequestCommand";
+add command "atisMasterDataToRequestCommand"
+	description "Request List Command"
+	label "emxFramework.Command.AtisMasterDataToRequestCommand"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisPropertyRequest:getPropertyRequestList&table=atisPropertyRequestTable&header=emxFramework.Command.AtisMasterDataToRequestCommand&selection=single&freezePane=Name&pageSize=100&scrollPageSize=50&sortColumnName=atisRequestDate&sortDirection=descending"
+	alt "null"
+	code ""
+	!hidden
+	setting 'Access Expression' '(type == "Raw Material") || (type == "Consumer Unit Part")' 
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+;
+
+mod command "atisMasterDataToRequestCommand"
+    href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisPropertiesData:findMasterDataToPropertiesData&table=aitsPartPropertyTable&header=emxFramework.Command.AtisMasterDataToRequestCommand&selection=single&freezePane=Name&pageSize=100&scrollPageSize=50&sortColumnName=atisRequestDate&sortDirection=descending"
+;

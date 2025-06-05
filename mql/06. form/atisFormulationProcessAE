@@ -1,0 +1,65 @@
+add form atisFormulationProcessAE web
+#당량(g/eq)
+	field 
+		name atis_equivalent 
+		label 'emxFramework.Attribute.atis_equivalent' 
+		bus '$<attribute[atis_equivalent]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+#수율
+	field 
+		name atis_yield 
+		label 'emxFramework.Attribute.atis_yield' 
+		bus '$<attribute[atis_yield]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+#점도(cps@75) 
+	field 
+		name atis_viscosity_cps75 
+		label 'emxFramework.Attribute.atis_viscosity_cps75' 
+		bus '$<attribute[atis_viscosity_cps75]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+#점도(cps@100) 
+	field 
+		name atis_viscosity_cps100 
+		label 'emxFramework.Attribute.atis_viscosity_cps100' 
+		bus '$<attribute[atis_viscosity_cps100]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+#Hy-Cl(ppm)
+	field 
+		name atis_HyCl
+		label 'emxFramework.Attribute.atis_HyCl' 
+		bus '$<attribute[atis_HyCl]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+#GPC(Mn/Mw)
+	field 
+		name atis_GPC
+		label 'emxFramework.Attribute.atis_GPC' 
+		bus '$<attribute[atis_GPC]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+#잔존 용제 함량(ppm)
+	field 
+		name atis_residual_solvent_content
+		label 'emxFramework.Attribute.atis_residual_solvent_content' 
+		bus '$<attribute[atis_residual_solvent_content]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+#잔존 ECH 함량(ppm)
+	field 
+		name atis_residual_ECH_content
+		label 'emxFramework.Attribute.atis_residual_ECH_content' 
+		bus '$<attribute[atis_residual_ECH_content]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+#비고
+	field 
+		name atis_remark
+		label 'emxFramework.Attribute.atis_remark' 
+		bus '$<attribute[atis_remark]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+;

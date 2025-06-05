@@ -1,0 +1,46 @@
+# del form "atisPropertyMasterDataForm";
+add form atisPropertyMasterDataForm web
+  field 
+    name "name" 
+    businessobject  "$<name>" 
+    label "emxFramework.Common.Name" 
+    setting "Admin Type" "name" 
+    setting "Field Type" "basic" 
+    setting "Registered Suite"  "Framework" 
+    setting "Group Name" "Basic"
+    setting "Editable" "false"
+    setting 'Required' true 
+  field 
+    name "Revision" 
+    businessobject  "$<revision>" 
+    label "emxEngineeringCentral.Common.Rev"
+    setting "Field Type" "basic" 
+    setting "Registered Suite" "EngineeringCentral"
+    setting "Group Name" "Basic"
+    setting "Editable" "false"
+  field 
+    name description
+    label 'emxFramework.Attribute.atisDesc' 
+    bus 'description' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Field Type' 'basic' 
+    setting "Input Type" "textarea"
+  field 
+    name "atisPropertyType" 
+    label 'emxFramework.Attribute.AtisPropertyType' 
+    bus '$<attribute[atisPropertyType]>' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Field Type' 'attribute' 
+    setting 'Editable' true 
+    setting 'Required' false
+  field 
+    name atisPropertyEvalUnit 
+    label 'emxFramework.Attribute.AtisPropertyEvalUnit' 
+    bus '$<attribute[atisPropertyEvalUnit]>' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Field Type' 'attribute' 
+    setting 'Editable' true 
+    setting 'Required' false   
+;
+add property 'form_atisPropertyMasterDataForm' on program 'eServiceSchemaVariableMapping.tcl' to 'form' 'atisPropertyMasterDataForm';
+

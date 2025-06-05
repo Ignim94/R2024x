@@ -1,0 +1,57 @@
+# del form "atisPropertyDataForm";
+add form atisPropertyDataForm web
+  field 
+    name "name" 
+    businessobject  "$<name>" 
+    label "emxFramework.Common.Name" 
+    setting "Admin Type" "name" 
+    setting "Field Type" "basic" 
+    setting "Registered Suite"  "Framework" 
+    setting "Group Name" "Basic"
+    setting "Editable" "false"
+    setting 'Required' true 
+  field 
+    name "Revision" 
+    businessobject  "$<revision>" 
+    label "emxEngineeringCentral.Common.Rev"
+    setting "Field Type" "basic" 
+    setting "Registered Suite" "EngineeringCentral"
+    setting "Group Name" "Basic"
+    setting "Editable" "false"
+  field 
+    name "atisPropertyType" 
+    label 'emxFramework.Attribute.AtisPropertyType' 
+    bus '$<attribute[atisPropertyType]>' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Field Type' 'attribute' 
+    setting 'Editable' true 
+    setting 'Required' false
+  field 
+    name atisPropertyEvalUnit 
+    label 'emxFramework.Attribute.AtisPropertyEvalUnit' 
+    bus '$<attribute[atisPropertyEvalUnit]>' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Field Type' 'attribute' 
+    setting 'Editable' true 
+    setting 'Required' false 
+  field 
+    name atisEvalResult
+    label 'emxFramework.Attribute.AtisEvalResult' 
+    bus '$<attribute[atisEvalResult]>' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Field Type' 'attribute' 
+    setting 'Field Size' '10'
+    setting 'Editable' true
+    setting 'Input Type' 'textarea'
+    setting 'Required' false
+  field 
+    name atisRelatedData
+    label 'emxFramework.Field.AtisRelatedData' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Input Type' textbox
+    setting 'Field Type'  "programHTMLOutput"
+    setting 'program' 'atisPropertiesData'
+    setting 'function' 'getRelMasterData';
+;
+add property 'form_atisPropertyDataForm' on program 'eServiceSchemaVariableMapping.tcl' to 'form' 'atisPropertyDataForm';
+

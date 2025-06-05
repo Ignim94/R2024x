@@ -1,0 +1,63 @@
+del form "atisFormulationPhaseForm";
+add form atisFormulationPhaseForm web 
+	field 
+	    name "name" 
+		businessobject  "$<name>" 
+		label "emxFramework.Attribute.attrMaNo" 
+		setting "Admin Type" "name" 
+		setting "Field Type" "basic" 
+		setting "Registered Suite"  "Framework" 
+		setting "Group Name" "Basic"
+	field 
+	    name "Revision" 
+		businessobject  "$<revision>" 
+		label "emxEngineeringCentral.Common.Rev"
+		setting "Field Type" "basic" 
+		setting "Registered Suite" "EngineeringCentral"
+		setting "Group Name" "Basic"
+		setting "Editable" "false"
+	field 
+	    name "Title" 
+		label 'emxFramework.Attribute.atisPhaseTitle' 
+		bus '$<attribute[attribute_Title]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Admin Type' 'attribute_Title'
+		setting 'Editable' true 
+		setting 'Required' true
+	field 
+		name description
+		label 'emxFramework.Attribute.atisDesc' 
+		bus 'description' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'basic' 
+		setting 'Admin Type' 'description'
+		setting 'Input Type' 'textarea'
+		setting 'Editable' true 
+	field
+		name "Originated"
+		label "emxEngineeringCentral.Label.Originated"
+		businessobject  "originated"
+		setting "Registered Suite" "EngineeringCentral"
+		setting "Group Name" "Date"
+		setting "format" "date"
+		setting "Editable" "false"
+	field
+		name "Modified"
+		label "emxEngineeringCentral.Label.Modified"
+		businessobject  "modified"
+		setting "Registered Suite" "EngineeringCentral"
+		setting "Group Name" "Date"
+		setting "format" "date"
+		setting "Editable" "false"
+	field
+		name "Owner"
+		label "Owner"
+		businessobject  "$<owner>"
+		setting "Registered Suite" "Framework"
+		setting "format" "user"
+		setting "Editable" "false"
+		setting "Field Type" "basic"
+;
+add property 'form_atisFormulationPhaseForm' on program 'eServiceSchemaVariableMapping.tcl' to 'form' 'atisFormulationPhaseForm';
+

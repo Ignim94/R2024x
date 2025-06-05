@@ -1,0 +1,134 @@
+del form "atisProcessingInstructionForm";
+add form atisProcessingInstructionForm web
+	field 
+	    name "name" 
+		businessobject  "$<name>" 
+		label "emxFramework.Attribute.attrMaNo" 
+		setting "Admin Type" "name" 
+		setting "Field Type" "basic" 
+		setting "Registered Suite"  "Framework" 
+		setting "Group Name" "Basic"
+		setting "Editable" "false"
+		setting 'Required' true 
+	field 
+	    name "Revision" 
+		businessobject  "$<revision>" 
+		label "emxEngineeringCentral.Common.Rev"
+		setting "Field Type" "basic" 
+		setting "Registered Suite" "EngineeringCentral"
+		setting "Group Name" "Basic"
+		setting "Editable" "false"
+	field 
+	    name "atisProcessCondition" 
+		label 'emxFramework.Attribute.atisProcessConditionName' 
+		bus '$<attribute[atisProcessCondition]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Editable' true 
+		setting 'Required' true
+    field 
+	    name atisGDC_CODE 
+		label 'emxFramework.Attribute.atisGDC_CODE' 
+		bus '$<attribute[atisGDC_CODE]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Editable' true 
+		setting 'Required' true 
+#	field
+#		name "SectionHeader1"
+#		label "Attribute"
+#		alt ""
+#		range ""
+#		update ""
+#		setting "Registered Suite" "EngineeringCentral"
+#		setting "Field Type" "Section Header"
+#		setting "Section Level" "1"
+	field 
+		name atisRectTemperature
+		label 'emxFramework.Attribute.atisRectTemperature' 
+		bus '$<attribute[atisRectTemperature]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Field Size' '10'
+		setting 'Editable' true 
+		setting 'Required' false 
+	field 
+		name atisRectTime
+		label 'emxFramework.Attribute.atisRectTime' 
+		bus '$<attribute[atisRectTime]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Field Size' '10'
+		setting 'Editable' true 
+		setting 'Required' false 
+	field 
+		name atisDecompDegree
+		label 'emxFramework.Attribute.atisDecompDegree' 
+		bus '$<attribute[atisDecompDegree]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Field Size' '10'
+		setting 'Editable' true 
+		setting 'Required' false 
+	field 
+		name atisDesalinationVolume
+		label 'emxFramework.Attribute.atisDesalinationVolume' 
+		bus '$<attribute[atisDesalinationVolume]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Editable' true 
+		setting 'Required' false 
+	field 
+		name atisPH
+		label 'emxFramework.Attribute.atisPH' 
+		bus '$<attribute[atisPH]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Field Size' '10'
+		setting 'Editable' true 
+		setting 'Required' false 
+	field 
+		name atisSignificant
+		label 'emxFramework.Attribute.atisSignificant' 
+		bus '$<attribute[atisSignificant]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting "Input Type" "textarea"
+		setting 'Editable' true 
+		setting 'Required' false 
+	field 
+		name description
+		label 'emxFramework.Attribute.atisDesc' 
+		bus 'description' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'basic' 
+		setting "Input Type" "textarea"
+		setting 'Editable' true 
+		setting 'Required' false 
+	field
+		name "Originated"
+		label "emxEngineeringCentral.Label.Originated"
+		businessobject  "originated"
+		setting "Registered Suite" "EngineeringCentral"
+		setting "Group Name" "Date"
+		setting "format" "date"
+		setting "Editable" "false"
+	field
+		name "Modified"
+		label "emxEngineeringCentral.Label.Modified"
+		businessobject  "modified"
+		setting "Registered Suite" "EngineeringCentral"
+		setting "Group Name" "Date"
+		setting "format" "date"
+		setting "Editable" "false"
+	field
+		name "Owner"
+		label "Owner"
+		businessobject  "$<owner>"
+		setting "Registered Suite" "Framework"
+		setting "format" "user"
+		setting "Editable" "false"
+		setting "Field Type" "basic"
+;
+add property 'form_atisProcessingInstructionForm' on program 'eServiceSchemaVariableMapping.tcl' to 'form' 'atisProcessingInstructionForm';
+

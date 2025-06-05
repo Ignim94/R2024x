@@ -1,0 +1,23 @@
+add relationship 'atisProductsToPart' 
+    description 'Connect Products to Part' 
+    nothidden 
+    preventduplicates 
+    from 
+        type 'Products' 
+        meaning '' 
+        revision 'none' 
+        clone 'none' 
+        cardinality 'one' 
+        notpropagatemodify 
+        propagateconnection 
+    to 
+        type 'Formulation Part','Consumer Unit Part' 
+        meaning '' 
+        revision 'none' 
+        clone 'none' 
+        cardinality 'many' 
+        notpropagatemodify 
+        propagateconnection 
+;
+
+

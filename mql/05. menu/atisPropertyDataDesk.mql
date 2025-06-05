@@ -1,0 +1,23 @@
+# del menu "atisPropertyDataDesk";
+add menu "atisPropertyDataDesk"
+	description ""
+	label "emxFramework.Command.AtisPropertyDataDesk"
+	href ""
+	alt ""
+	!hidden
+    command "atisPropertyDataRequestCommand"
+    command "atisPropertyDataCommand"
+    command "atisPropertyMasterDataCommand"
+    setting "Licensed Product" ENO_BPS_TP,ENOCHMT_TP
+    setting "Registered Suite" Framework
+    setting "Target Location" content 
+;
+
+mod  menu "atisPropertyDataDesk"
+	add command "atisGenericDelete"
+;
+
+mod menu "atisPropertyDataDesk"
+ order command atisPropertyMasterDataCommand 2;
+ 
+mod menu "atisPropertyDataDesk" add command atisPropertyDataCUPCommand;

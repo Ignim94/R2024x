@@ -1,0 +1,23 @@
+# delete table atisProposalViewTable system;
+add table atisProposalViewTable system
+  column
+   name Name
+   label 'emxFramework.Common.Name'
+   href '${COMMON_DIR}/emxTree.jsp'
+   bus '$<name>'
+   setting 'Registered Suite' 'Framework'
+  column
+   name description
+   label 'emxFramework.Common.Description'
+   bus '$<description>'
+   setting 'Registered Suite' 'Framework'
+   setting 'Editable' 'true'
+  column 
+   name 'atisCUPProposalCostUnit'
+   bus '$<to[atisCUPToCUPProposal].from.attribute[V_Name]>'
+   label 'emxFramework.Atisproposal.Attribute.AtisCUPSelect'
+   href '${COMMON_DIR}/emxTree.jsp'
+   setting 'Alternate OID expression' '$<to[atisCUPToCUPProposal].from.id>'
+   setting "Field Type" "attribute"
+   setting 'Registered Suite' 'Framework'
+;

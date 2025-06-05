@@ -1,0 +1,14 @@
+# delete command atisPropertyMasterDataCreateCommand 
+add command atisPropertyMasterDataCreateCommand 
+    label 'emxFramework.Command.atisPropertyMasterDataCreateCommand' 
+    href '${COMMON_DIR}/emxCreate.jsp?form=atisPropertyDataCreateForm&submitAction=refreshCaller&nameField=both&autoNameChecked=true&SuiteDirectory=programcentral&createJPO=atisPropertiesData:createPropertyMasterData' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Image' '${COMMON_DIR}/images/iconActionCreate.png' 
+    setting 'Popup Modal' true 
+    setting 'Target Location' 'slidein' 
+;
+
+
+mod command atisPropertyMasterDataCreateCommand 
+href '${COMMON_DIR}/emxCreate.jsp?form=atisPropertyMasterDataCreateForm&submitAction=refreshCaller&nameField=both&autoNameChecked=true&SuiteDirectory=programcentral&createJPO=atisPropertiesData:createPropertyMasterData'; 
+

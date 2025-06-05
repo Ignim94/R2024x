@@ -1,0 +1,9 @@
+# Formulation Process. 03. 분석 및 평가 커맨드
+#delete command atisFormulationProcessAECommand
+
+add command atisFormulationProcessAECommand
+ label 'emxFramework.Common.atisFormulationProcessAECommand'
+ 	href "${COMMON_DIR}/emxForm.jsp?editLink=true&form=atisFormulationProcessAE"
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+;

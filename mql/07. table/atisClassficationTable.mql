@@ -1,0 +1,43 @@
+del table "atisClassficationTable" system;
+add table "atisClassficationTable" system
+	column
+		name "Name"
+		label "emxFramework.Common.Name"
+		businessobject  "$<name>"
+		alt ""
+		range ""
+		update ""
+		sorttype "none"
+		setting "Draggable" "true"
+		setting "Registered Suite" "Framework"
+	column
+		name "Image"
+		label ""
+		alt ""
+		range ""
+		update ""
+		sorttype "none"
+		setting "Auto Filter" "False"
+		setting "Column Type" "Image"
+		setting "Popup Modal" "true"
+		setting "Image Size" "format_mxThumbnailImage"
+		setting "Width" "100"
+	column
+		name "Description"
+		label "emxFramework.Common.Description"
+		businessobject  "description"
+		alt ""
+		range ""
+		update ""
+		sorttype "none"
+		setting "Admin Type" "description"
+		setting "Registered Suite" "Framework"
+		setting "Editable" "true"
+		setting "Field Type" "basic"
+		setting "Input Type" "textarea"
+		setting "Width" "360"
+;
+add property 'table_atisClassficationTable' on program 'eServiceSchemaVariableMapping.tcl' to table 'atisClassficationTable' system;
+
+
+

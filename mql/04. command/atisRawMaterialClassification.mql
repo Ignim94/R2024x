@@ -1,0 +1,79 @@
+
+#del command "atisRawMaterialClassification";
+
+add command "atisRawMaterialClassification"
+	description "atisRawMaterialClassification"
+	label "emxFramework.Label.atisRawMaterialClassification"
+	href "${COMMON_DIR}/emxPortal.jsp?portal=atisClassficationPortal"
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+;
+
+mod menu type_Part add command "atisRawMaterialClassification";
+
+
+mod command "atisRawMaterialClassification" 
+ href "${COMMON_DIR}/emxIndentedTable.jsp?program=cmgTest:getTCSClassification&table=atisClassficationTable&header=emxFramework.Label.atisTCSClassficationCommand&selection=multiple&freezePane=Name"
+;
+
+
+#### table - command - channel - portal 
+
+
+add table atisClassficationTable system
+ column
+  name Name
+  bus '$<name>'
+  label 'emxFramework.Common.Name'  
+  setting 'Registered Suite' 'Framework'
+ column
+  name Image
+  setting 'Auto Filter' False
+  setting 'Column Type' Image
+  setting 'Image Size' format_mxThumbnailImage
+  setting 'Popup Modal' true
+  setting 'Width' 100
+;   
+
+
+add command atisTCSClassficationCommand
+ label 'emxFramework.Label.atisTCSClassficationCommand'
+ href "${COMMON_DIR}/emxIndentedTable.jsp?program=cmgTest:getTCSClassification&table=atisClassficationTable&header=emxFramework.Label.atisTCSClassficationCommand&selection=multiple&freezePane=Name"
+; 
+add command atisGHSCommand
+ label 'emxFramework.Label.atisGHSCommand'
+ href "${COMMON_DIR}/emxIndentedTable.jsp?program=cmgTest:getGHS&table=atisClassficationTable&header=emxFramework.Label.atisGHSCommand&selection=multiple&freezePane=Name"
+; 
+
+
+add channel atisTCSClassficationChannel
+	description 'atisTCSClassficationChannel'
+	command 'atisTCSClassficationCommand'
+	property "installer" value "ENOVIAEngineering"
+	property "application" value "Framework"
+	property "original name" value "atisTCSClassficationChannel"
+;
+add property channel_atisTCSClassficationChannel on prog eServiceSchemaVariableMapping.tcl to channel atisTCSClassficationChannel
+;
+
+add channel atisGHSChannel
+	description 'atisGHSChannel'
+	command 'atisGHSCommand'
+	property "installer" value "ENOVIAEngineering"
+	property "application" value "Framework"
+	property "original name" value "atisGHSChannel"
+;
+add property channel_atisGHSChannel on prog eServiceSchemaVariableMapping.tcl to channel atisGHSChannel
+;
+
+# delete  portal atisClassficationPortal;
+add portal atisClassficationPortal
+ description 'atisClassficationPortal'
+ label 'emxFramework.Label.atisClassficationPortal'
+ channel 'atisTCSClassficationChannel'
+ channel 'atisGHSChannel'
+ property "installer" value "ENOVIAEngineering"
+ property "application" value "Framework"
+ property "original name" value "atisClassficationPortal"
+;
+

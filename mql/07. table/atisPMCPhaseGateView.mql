@@ -1,0 +1,27 @@
+#copy table "atisPMCPhaseGateView" "atisPMCPhaseGateView_backup" fromuser system touser system;
+#del table "atisPMCPhaseGateView" system;
+add table "atisPMCPhaseGateView" system
+	column
+		name "DynamicColumn"
+		label "Other"
+		businessobject  "name"
+		alt ""
+		range ""
+		update ""
+		sorttype "none"
+		setting "Draggable" "true"
+		setting "Dynamic Column Function" "getAtisPhaseGateViewDynamicColumns"
+		setting "Registered Suite" "ProgramCentral"
+		setting "Column Type" "Dynamic"
+		setting "Dynamic Column Program" "emxGateReport"
+property "installer" value "ENOVIAEngineering"
+property "application" value "ProgramManagementBase"
+property "installed date" value "02-13-2022"
+property "original name" value "atisPMCPhaseGateView"
+property "version" value "R421"
+;
+
+add property 'table_atisPMCPhaseGateView' on program 'eServiceSchemaVariableMapping.tcl' to table 'atisPMCPhaseGateView' system;
+
+### copy table atisPMCPhaseGateView atisatisPMCPhaseGateView fromuser system touser system;
+mod table atisatisPMCPhaseGateView 

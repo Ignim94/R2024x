@@ -1,0 +1,8 @@
+copy command CPNFormulationProcesses atisCPNFormulationPart;
+
+
+modify command atisCPNFormulationPart
+    label 'emxCPN.command.CPNFormulationPart'
+    href '../common/emxIndentedTable.jsp?table=CPNFormulationPartsandProcesses&program= enoGLSFormulationUI:getFormulationPart&selection=multiple&header=emxCPN.CPNFormulationProcess.Header&toolbar=CPNFormulationProcessActionsMenu'
+    add setting 'Access Expression' '(type.kindof[$<type_FoodFormulation>])'
+;

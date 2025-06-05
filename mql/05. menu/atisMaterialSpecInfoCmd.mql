@@ -1,0 +1,13 @@
+# Add command atisMaterialSpecInfoCmd
+#copy command "atisMaterialSpecInfoCmd" "atisMaterialSpecInfoCmd_backup";
+#del command "atisMaterialSpecInfoCmd";
+add command "atisMaterialSpecInfoCmd"
+	description "specInfo"
+	label "emxFramework.Label.RelatedMaterialSpecInfo"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisRawMaterial:getMaterialToSpec&selection=multiple&table=atisMaterialSpecListTable&header=emxFramework.Label.RelatedMaterialSpecInfo&showApply=true&editLink=true&insertNewRow=false"
+	alt "null"
+	code ""
+	!hidden
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+;

@@ -1,0 +1,15 @@
+add command atisHandlingUnitPartCreate 
+    label 'emxFramework.Command.atisHandlingUnitPartCreate' 
+    href '${COMMON_DIR}/emxCreate.jsp?form=atisHandlingUnitPartCreateForm&altType=type_HandlingUnitPart&header=emxFramework.Common.atisHandlingUnitPartCommand&submitAction=refreshCaller&nameField=both&autoNameChecked=true&SuiteDirectory=programcentral&createJPO=atisHandlingUnitPart:createHandlingUnitPart' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Image' '${COMMON_DIR}/images/iconActionCreate.png' 
+    setting 'Popup Modal' true 
+    setting 'Target Location' 'slidein' 
+;
+
+mod command atisHandlingUnitPartCreate 
+    href '${COMMON_DIR}/emxCreate.jsp?form=atisHandlingUnitPartCreateForm&altType=type_HandlingUnitPart&header=emxFramework.Common.atisHandlingUnitPartCommand&submitAction=refreshCaller&nameField=both&autoNameChecked=true&SuiteDirectory=programcentral&createJPO=atisHandlingUnitPart:createHandlingUnitPart&showApply=true' 
+;
+
+
+

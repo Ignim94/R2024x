@@ -1,0 +1,22 @@
+#copy command FormulationPartProperites atisFormulationPartSpecView;
+#mod channel FormulationPartSummary add command atisFormulationPartSpecView;
+
+
+mod command atisFormulationPartSpecView
+ label 'emxCPN.FormulationPart.SpecView'
+ href '${COMMON_DIR}/emxForm.jsp?form=type_CPNFormulationPartSpecViewForm&editLink=true&mode=view&toolbar=CPNFormulationPartPropertiesActions&preProcessJavaScript=preProcessInEditFormulationPart'
+;
+
+
+command atisFormulationPartSpecView
+ label 'emxFramework.FormulationPart.SpecView'
+ setting 'Registered Suite' 'Framework';
+
+ 
+mod command "atisFormulationPhaseCommand"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisFormulationPhase:getFormulationPhase&table=aitsFormulationPhaseTable&header=emxFramework.Common.atisFormulationPhaseCommand&selection=multiple&editLink=false&toolbar=atisFormulationPhaseListToolbar&sortColumnName=modified&sortDirection=descending"
+;
+
+
+mod command atisFormulationPartSpecView
+  href '${COMMON_DIR}/emxForm.jsp?form=type_CPNFormulationPartSpecViewForm&toolbar=atisFormulationPartSpecViewToolbar';

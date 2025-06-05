@@ -1,0 +1,13 @@
+# Add command atisPropertyDataRequestCommand
+#copy command "atisPropertyDataRequestCommand" "atisPropertyDataRequestCommand_backup";
+#del command "atisPropertyDataRequestCommand";
+add command "atisPropertyDataRequestCommand"
+	description "Request List Command"
+	label "emxFramework.Command.AtisPropertyDataRequestCommand"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisPropertyRequest:getPropertyRequestList&table=atisPropertyRequestTable&header=emxFramework.Label.atisPropertyRequestList&selection=single&freezePane=Name&pageSize=100&scrollPageSize=50&toolbar=atisPropertyRequestListToolbar&sortColumnName=atisRequestDate&sortDirection=descending"
+	alt "null"
+	code ""
+	!hidden
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+;

@@ -1,0 +1,24 @@
+# copy policy 'atisPropertyDataPolicy' 'atisPropertyDataPolicy_backup'
+# delete policy 'atisPropertyDataPolicy'
+add policy 'atisPropertyDataPolicy'
+    description    'atisPropertyData Policy'
+    sequence       '1,2,3,...'
+    store          'STORE'
+    nothidden
+    type           'atisPropertyData','atisPropertyMasterData'
+    state 'Active'
+        revision FALSE
+        version  TRUE
+        promote  TRUE
+        checkouthistory  TRUE
+        owner  all
+        public  all
+    state 'Inactive'
+        revision TRUE
+        version  TRUE
+        promote  FALSE
+        checkouthistory  TRUE
+        owner  all
+        public  all
+;
+add property 'policy_atisPropertyDataPolicy' on program 'eServiceSchemaVariableMapping.tcl' to 'policy' 'atisPropertyDataPolicy';

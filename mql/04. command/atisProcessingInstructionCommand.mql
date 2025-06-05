@@ -1,0 +1,24 @@
+# Add command atisProcessingInstructionCommand
+#copy command "atisProcessingInstructionCommand" "atisProcessingInstructionCommand_backup";
+#del command "atisProcessingInstructionCommand";
+add command "atisProcessingInstructionCommand"
+	description "atisFormulationMyDesk - Processing Instruction Command"
+	label "emxFramework.Common.atisProcessingInstructionCommand"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=cmgTest:findProcessingInstruction&table=aitsProcessingInstructionTable&selection=multiple&editLink=true"
+	alt "null"
+	code ""
+	!hidden
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+;
+
+
+mod command "atisProcessingInstructionCommand"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=cmgTest:findProcessingInstruction&table=aitsProcessingInstructionTable&selection=multiple&editLink=true&toolbar=atisProcessingInstructionListToolbar"
+;
+
+
+
+
+
+

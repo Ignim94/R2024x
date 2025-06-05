@@ -1,0 +1,8 @@
+### copy command PMCGateDashboardReport atisPMCGateDashboardReport;
+
+mod command atisPMCGateDashboardReport label 'emxFramework.Command.AtisPMCPhaseGateView';
+mod command atisPMCGateDashboardReport setting 'Registered Suite' Framework;
+
+mod command atisPMCGateDashboardReport 
+ href '${COMMON_DIR}/emxIndentedTable.jsp?table=atisPMCPhaseGateView&program=emxGateReport:atisexpandPhaseGateView&sortColumnName=none&freezePane=labels&hideLaunchButton=true&customize=false&displayView=details&autoFilter=false&showPageURLIcon=false&rowGrouping=false&Export=false&tableHeadClass=phase-gate-view'
+;

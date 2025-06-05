@@ -1,0 +1,218 @@
+del form "atisConsumerUnitPartCreateForm";
+add form atisConsumerUnitPartCreateForm web 
+    field 
+        name "type" 
+	    businessobject  "$<type>" 
+	    setting "Admin Type" "Type" 
+	    setting "Field Type" "basic" 
+	    setting "Access Expression" "false" 
+    field 
+        name "policy" 
+	    businessobject  "$<policy>" 
+	    setting "Admin Type" "Policy" 
+	    setting "Field Type" "basic" 
+	    setting "Access Expression" "false" 
+    field 
+	    name 'type2' 
+		label 'emxProgramCentral.Common.Type'
+		setting 'Field Type' 'programHTMLOutput' 
+		setting 'program' 'atisCommonUtil' 
+		setting 'function' 'getType'
+		setting 'Editable' false 
+		setting 'Required' true 
+		setting "Registered Suite"  "ProgramCentral" 
+	field 
+	    name "name" 
+		businessobject  "$<name>" 
+		label "emxFramework.Attribute.attrMaNo" 
+		setting "Admin Type" "name" 
+		setting "Field Type" "basic" 
+		setting "Registered Suite"  "Framework" 
+	field
+		name "V_Name"
+		label "emxFramework.Attribute.atis_MarketingName"
+		businessobject  "$<attribute[attribute_V_Name].value>"
+		alt ""
+		range ""
+		update ""
+		setting "Admin Type" "attribute_V_Name"
+		setting "Registered Suite" "Framework"
+		setting "Required" "true"
+		setting "Group Name" "Specification"
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute'
+		setting 'Required' 'true'
+    field 
+	    name atisGDC_CODE 
+		label 'emxFramework.Attribute.atisGDC_CODE' 
+		bus '$<attribute[atisGDC_CODE]>' 
+		setting 'Admin Type' 'attribute_atisGDC_CODE' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'true'
+	field 
+		name atisProductLine
+		label 'emxFramework.Attribute.atisProductLine' 
+		range ${COMMON_DIR}/emxFullSearch.jsp?field=TYPES=type_ProductLine&selection=single&excludeOIDprogram=cmgTest:excludeSubstance
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Editable' 'true'
+		setting 'Required' 'true'
+	field 
+		name atisTCSYN 
+		label 'emxProgramCentral.Attribute.atisTCSYN' 
+		setting 'Registered Suite' 'ProgramCentral' 
+		setting 'Field Type' 'attribute' 
+		setting 'Editable' true 
+		setting 'Required' true 
+		setting 'OnChange Handler' 'validateRawMateiralTCSYN' 
+		setting 'Input Type' 'combobox' 
+		setting "Range Function" "getTCSYN" 
+		setting "Range Program" "cmgTest" 
+	field 
+		name atisTCSYNclassification 
+		label 'emxFramework.Attribute.atisTCSYNclassification' 
+		range '${COMMON_DIR}/emxFullSearch.jsp?field=TYPES=Substance Classification&selection=multiple&excludeOIDprogram=cmgTest:excludeSubstance'
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Editable' true 
+		setting 'Required' true 
+	field 
+		name atis_equivalent 
+		label 'emxFramework.Attribute.atis_equivalent' 
+		bus '$<attribute[atis_equivalent]>' 
+		setting 'Admin Type' 'attribute_atis_equivalent' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'false'
+		setting 'Field Size' '10'
+	field 
+		name atis_viscosity_cps25 
+		label 'emxFramework.Attribute.atis_viscosity_cps25' 
+		bus '$<attribute[atis_viscosity_cps25]>' 
+		setting 'Admin Type' 'attribute_atis_viscosity_cps25' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'false' 
+		setting 'Field Size' '10'
+	field 
+		name atis_Gardner 
+		label 'emxFramework.Attribute.atis_Gardner' 
+		bus '$<attribute[atis_Gardner]>' 
+		setting 'Admin Type' 'attribute_atis_Gardner' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'false' 
+		setting 'Field Size' '10'
+	field 
+		name atis_weight
+		label 'emxFramework.Attribute.atis_weight' 
+		bus '$<attribute[atis_weight]>' 
+		setting 'Admin Type' 'attribute_atis_weight' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'false' 
+		setting 'Field Size' '10'
+	field 
+		name atis_chlorine 
+		label 'emxFramework.Attribute.atis_chlorine' 
+		bus '$<attribute[atis_chlorine]>' 
+		setting 'Admin Type' 'attribute_atis_chlorine' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'false' 
+	field 
+		name atis_yield 
+		label 'emxFramework.Attribute.atis_yield' 
+		bus '$<attribute[atis_yield]>' 
+		setting 'Admin Type' 'attribute_atis_yield' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'false' 
+		setting 'Field Size' '10'
+	field
+		name "SectionHeader1"
+		label "Extended Attributes"
+		alt ""
+		range ""
+		update ""
+		setting "Registered Suite" "EngineeringCentral"
+		setting "Field Type" "Section Header"
+		setting "Section Level" "1"
+	field 
+		name atis_viscosity_cps75 
+		label 'emxFramework.Attribute.atis_viscosity_cps75' 
+		bus '$<attribute[atis_viscosity_cps75]>' 
+		setting 'Admin Type' 'attribute_atis_viscosity_cps75' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'false' 
+	field 
+		name atis_viscosity_cps100 
+		label 'emxFramework.Attribute.atis_viscosity_cps100' 
+		bus '$<attribute[atis_viscosity_cps100]>' 
+		setting 'Admin Type' 'attribute_atis_viscosity_cps100' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'false' 
+	field 
+		name atis_HyCl
+		label 'emxFramework.Attribute.atis_HyCl' 
+		bus '$<attribute[atis_HyCl]>' 
+		setting 'Admin Type' 'attribute_atis_HyCl' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'false' 
+		setting 'Field Size' '10'
+	field 
+		name atis_GPC
+		label 'emxFramework.Attribute.atis_GPC' 
+		bus '$<attribute[atis_GPC]>' 
+		setting 'Admin Type' 'attribute_atis_GPC' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'false' 
+	field 
+		name atis_residual_solvent_content
+		label 'emxFramework.Attribute.atis_residual_solvent_content' 
+		bus '$<attribute[atis_residual_solvent_content]>' 
+		setting 'Admin Type' 'attribute_atis_residual_solvent_content' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'false' 
+		setting 'Field Size' '40'
+	field 
+		name atis_residual_ECH_content
+		label 'emxFramework.Attribute.atis_residual_ECH_content' 
+		bus '$<attribute[atis_residual_ECH_content]>' 
+		setting 'Admin Type' 'attribute_atis_residual_ECH_content' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'false' 
+		setting 'Field Size' '40'
+	field 
+		name atis_remark
+		label 'emxFramework.Attribute.atis_remark' 
+		bus '$<attribute[atis_remark]>' 
+		setting 'Admin Type' 'attribute_atis_residual_ECH_content' 
+		setting 'Editable' 'true'
+		setting 'Field Type' 'attribute' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Required' 'false' 
+		setting 'Input Type' 'textarea'
+;
+add property 'form_atisConsumerUnitPartCreateForm' on program 'eServiceSchemaVariableMapping.tcl' to 'form' 'atisConsumerUnitPartCreateForm';
+

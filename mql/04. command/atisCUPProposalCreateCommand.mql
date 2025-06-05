@@ -1,0 +1,17 @@
+# Add command atisCUPProposalCreateCommand
+#copy command "atisCUPProposalCreateCommand" "atisCUPProposalCreateCommand_backup";
+#del command "atisCUPProposalCreateCommand";
+add command "atisCUPProposalCreateCommand"
+	description "Create Deploy Request Button"
+	label "emxProgramCentral.Button.DeployRequestCreate"
+	href "${COMMON_DIR}/emxCreate.jsp?form=atisCUPProposalViewCreateForm&nameField=autoname&type=type_atisCUPProposal&policy=atisCUPProposalPolicy&submitAction=refreshCaller&createJPO=atisCUPProposal:createCUPProposal&autoNameChecked=true&header=emxFramework.Command.AtisCUPProposal"
+	alt "null"
+	code ""
+	!hidden
+	setting "Popup Size" "Large"
+	setting "Target Location" "popup"
+	setting "Registered Suite" "Framework"
+	setting "Access Function" "canCreateCUPProposal"
+	setting "Access Program" "atisCUPProposal"
+	setting "Image" "${COMMON_DIR}/images/iconActionCreate.png"
+;

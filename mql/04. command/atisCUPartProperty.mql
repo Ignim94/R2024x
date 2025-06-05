@@ -1,0 +1,18 @@
+copy command ENCPartProperty atisCUPartProperty;
+modify command atisCUPartProperty 
+    add setting 'Access Expression' '(type=="Consumer Unit Part")'
+;
+modify command atisCUPartProperty 
+    href "${COMMON_DIR}/emxForm.jsp?form=atis_ConsumerUnitPart&toolbar=ENCpartPartDetailsToolBar&HelpMarker=emxhelppartproperties&showChangeMgtToolbar=true&initialMode=view&ECMChangeControlAppAccessJPO=enoUnifiedBOM&ECMChangeControlAppAccessMethod=showECMChangeControlCommands"
+;
+modify command atisCUPartProperty 
+    href "${COMMON_DIR}/emxForm.jsp?form=atis_ConsumerUnitPart&toolbar=ENCpartPartDetailsToolBar&HelpMarker=emxhelppartproperties&showChangeMgtToolbar=true&initialMode=view"
+;
+modify command atisCUPartProperty 
+    href "${COMMON_DIR}/emxForm.jsp?form=atisConsumerUnitPart&toolbar=ENCpartPartDetailsToolBar&HelpMarker=emxhelppartproperties&showChangeMgtToolbar=true&initialMode=view"
+;
+modify command atisCUPartProperty 
+    label 'emxFramework.Command.PMCPropertiesPortal'
+    alt 'emxFramework.Command.Properties'
+    add setting 'Registered Suite' 'ProgramCentral'
+;

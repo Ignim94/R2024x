@@ -1,0 +1,11 @@
+add command "atisSpecView"
+	description "atisSpecView"
+	label "Spec View"
+	href "${COMMON_DIR}/emxBlank.jsp"
+	alt "null"
+	code ""
+	!hidden
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+;
+

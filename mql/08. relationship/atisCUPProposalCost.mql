@@ -1,0 +1,12 @@
+#atisCUPProposalCostCost
+#atisCUPProposalCostUnit
+#atisCUPProposalCostEqui
+#atisCUPProposalCostEquiCost
+
+
+mod rel atisCUPProposalCost
+remove attribute atisCUPProposalMemberHeadcount 
+remove attribute atisCUPProposalMemberPercent 
+remove attribute atisCUPProposalMemberMM 
+remove attribute atisCUPProposalMemberDuration 
+;

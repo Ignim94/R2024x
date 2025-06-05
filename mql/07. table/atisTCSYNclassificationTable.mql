@@ -1,0 +1,32 @@
+del table "atisTCSYNclassificationTable" system;
+add table "atisTCSYNclassificationTable" system
+	column
+		name "Name"
+		label "emxFramework.Common.Name"
+		businessobject  "$<name>"
+		alt ""
+		range ""
+		update ""
+		sorttype "none"
+		setting "Draggable" "true"
+		setting "Registered Suite" "Framework"
+		setting "Editable" "true"
+	column
+		name "Description"
+		label "emxFramework.Common.Description"
+		businessobject  "description"
+		alt ""
+		range ""
+		update ""
+		sorttype "none"
+		setting "Admin Type" "description"
+		setting "Registered Suite" "Framework"
+		setting "Editable" "true"
+		setting "Field Type" "basic"
+		setting "Input Type" "textarea"
+		setting "Width" "150"
+;
+add property 'table_atisTCSYNclassificationTable' on program 'eServiceSchemaVariableMapping.tcl' to table 'atisTCSYNclassificationTable' system;
+
+
+

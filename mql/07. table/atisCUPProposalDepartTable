@@ -1,0 +1,36 @@
+# delete table atisCUPProposalDepartTable system
+
+add table atisCUPProposalDepartTable system
+column 
+ name Name
+ bus  $<attribute[Title]>
+ label 'emxFramework.Atisproposal.Attribute.AtisProposalDepartment1'
+ setting 'Field Type' 'attribute'
+ setting 'Registered Suite' 'Framework'
+column 
+ name atisCUPProposalDepartM
+ bus  $<attribute[atisCUPProposalDepartM]>
+ label 'emxFramework.Atisproposal.Attribute.AtisProposalDepartment2'
+ setting 'Field Type' 'attribute'
+ setting 'Registered Suite' 'Framework'
+ setting "Group Header" 'emxFramework.Atisproposal.Attribute.AtisProposalDepartmentMS'
+column 
+ name atisCUPProposalDepartS
+ bus  $<attribute[atisCUPProposalDepartS]>
+ label 'emxFramework.Atisproposal.Attribute.AtisProposalDepartment3'
+ setting 'Field Type' 'attribute'
+ setting 'Registered Suite' 'Framework'
+ setting "Group Header" 'emxFramework.Atisproposal.Attribute.AtisProposalDepartmentMS'
+column 
+ name atisCUPProposalDepartR
+ bus  $<attribute[atisCUPProposalDepartR]>
+ label 'emxFramework.Atisproposal.Attribute.AtisProposalDepartment4'
+ setting 'Field Type' 'attribute'
+ setting 'Registered Suite' 'Framework'
+column 
+ name atisCUPProposalOutS
+ bus  $<attribute[atisCUPProposalDepartOutS]>
+ label 'emxFramework.Atisproposal.Attribute.AtisProposalDepartment5'
+ setting 'Field Type' 'attribute'
+ setting 'Registered Suite' 'Framework'
+;

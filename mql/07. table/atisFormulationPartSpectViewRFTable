@@ -1,0 +1,220 @@
+#delete table atisFormulationPartSpectViewRFTable system
+
+add table atisFormulationPartSpectViewRFTable system
+column 
+    name 'Name'
+    bus '$<name>'
+    label 'emxFramework.Basic.Name'
+    setting 'Registered Suite' 'Framework'
+column
+  name "type"
+  businessobject  "$<type>"
+  label 'emxFramework.Basic.Type'
+  setting "Admin Type" "Type"
+  setting "Field Type" "basic"
+  setting 'Registered Suite' 'Framework'
+column
+  name "dsecription"
+  businessobject  "$<description>"
+  label 'emxFramework.Basic.Description'
+  setting "Admin Type" "Type"
+  setting "Field Type" "basic"
+  setting 'Registered Suite' 'Framework'
+column
+	name       Min
+	label      emxFramework.FormulaBOM.Min
+	relationship $<attribute[attribute_Min].value>
+	sorttype   numeric
+	setting    'Attribute Name' attribute_Min
+	setting    'Input Type' textbox
+	setting    'Registered Suite' Framework
+	setting    'Validate' checkForValidQuantity
+	setting    'format' numeric
+	setting    'function' getFormulaBOMAttributeValue
+	setting    'program' enoGLSFormulationProcessUI
+	setting    'Access Expression' false
+column
+ 	name       Quantity
+	label      emxFramework.FormulaBOM.Quantity
+	relationship $<attribute[attribute_Quantity].value>
+	setting    'Attribute Name' attribute_Quantity
+	setting    'Column Type' program
+	setting    'Input Type' textbox
+	setting    'Registered Suite' Framework
+	setting    'Validate' checkForValidQuantity
+	setting    'format' numeric
+	setting    'function' getFormulaBOMAttributeValue
+	setting    'program' enoGLSFormulationProcessUI
+column
+	name       Max
+	label      emxFramework.FormulaBOM.Max
+	relationship $<attribute[attribute_Max].value>
+	sorttype   numeric
+	setting    'Attribute Name' attribute_Max
+	setting    'Input Type' textbox
+	setting    'Registered Suite' Framework
+	setting    'Validate' checkForValidQuantity
+	setting    'format' numeric
+	setting    'function' getFormulaBOMAttributeValue
+	setting    'program' enoGLSFormulationProcessUI
+	setting    'Access Expression' false
+column
+	name       Loss
+	label      emxFramework.FormulaBOM.Loss
+	relationship $<attribute[attribute_Loss].value>
+	setting    'Attribute Name' attribute_Loss
+	setting    'Input Type' textbox
+	setting    'Registered Suite' Framework
+	setting    'Validate' checkForValidQuantity
+	setting    'format' numeric
+	setting    'function' getFormulaBOMAttributeValue
+	setting    'program' enoGLSFormulationProcessUI
+	setting    'Access Expression' false	
+column
+ 	name       Total
+	label      emxFramework.FormulaBOM.Total
+	relationship '$<attribute[attribute_Total].value>'
+	setting    'Attribute Name' attribute_Total
+	setting    'Editable' true
+	setting    'Registered Suite' Framework
+	setting    'Validate' checkForValidQuantity
+	setting    'format' numeric
+	setting    'function' getFormulaBOMAttributeValue
+	setting    'program' enoGLSFormulationProcessUI
+	setting    'Access Expression' false
+;	
+
+
+### 공정조건 ( 반응온도 ~ 특이사항 ) 6개 컬럼 추가
+mod table atisFormulationPartSpectViewRFTable system
+column
+        label      emxFramework.Attribute.atisRectTemperature
+        relationship $<attribute[atisRectTemperature]>
+        name       atisRectTemperature
+        setting    'Admin Type' attribute_atisRectTemperature
+        setting    'Field Type' attribute
+        setting    'Registered Suite' Framework
+        setting    'Required' false
+        setting    'Width' 100
+column
+        label      emxFramework.Attribute.atisRectTime
+        relationship $<attribute[atisRectTime]>
+        name       atisRectTime
+        setting    'Admin Type' attribute_atisRectTime
+        setting    'Field Type' attribute
+        setting    'Registered Suite' Framework
+        setting    'Width' 100
+column
+        label      emxFramework.Attribute.atisDecompDegree
+        businessobject $<attribute[atisDecompDegree]>
+        name       atisDecompDegree
+        setting    'Admin Type' attribute_atisDecompDegree
+        setting    'Field Type' attribute
+        setting    'Registered Suite' Framework
+        setting    'Width' 80
+column
+        label      emxFramework.Attribute.atisDesalinationVolume
+        relationship $<attribute[atisDesalinationVolume]>
+        name       atisDesalinationVolume
+        setting    'Admin Type' attribute_atisDesalinationVolume
+        setting    'Field Type' attribute
+        setting    'Registered Suite' Framework
+        setting    'Width' 100
+column
+        label      emxFramework.Attribute.atisPH
+        relationship $<attribute[atisPH]>
+        name       atisPH
+        setting    'Admin Type' attribute_atisPH
+        setting    'Field Type' attribute
+        setting    'Registered Suite' Framework
+        setting    'Width' 60
+column
+        label      emxFramework.Attribute.atisSignificant
+        relationship $<attribute[atisSignificant]>
+        name       atisSignificant
+        setting    'Admin Type' attribute_atisSignificant
+        setting    'Field Type' attribute
+        setting    'Input Type' textarea
+        setting    'Registered Suite' Framework
+        setting    'Width' 358
+;
+
+### 순서,배치(Batch),단위 컬럼 추가
+
+mod table atisFormulationPartSpectViewRFTable system
+column
+        label      emxCPN.label.TreeOrder
+        businessobject $<attribute[attribute_FindNumber].value>
+        order	   4
+        name       'Find Number'
+        setting    'Add Input Type' textbox
+        setting    'Column Type' program
+        setting    'Editable' false
+        setting    'Field Type' attribute
+        setting    'Input Type' textbox
+        setting    'Registered Suite' CPN
+        setting    'Required' false
+        setting    'Sort Program' enoGLSSortFomulaIngredientElements
+        setting    'Sort Type' other
+        setting    'Update Function' updateFindNumber
+        setting    'Update Program' enoGLSFormulationProcessUI
+        setting    'Width' 88
+        setting    'function' getFindNumberSB
+        setting    'program' enoGLSFormulationProcessUI
+;
+
+mod table atisFormulationPartSpectViewRFTable system
+column
+        label      emxFramework.Label.atisFormulationPartTitleOrInstruction
+        name       Title
+        order 5
+        setting    'Column Type' program
+        setting    'Edit Access Function' isTypeFormulationPhaseOrProcessingInstruction
+        setting    'Edit Access Program' enoGLSFormulationProcessUI
+        setting    'Editable' false
+        setting    'Field Type' basic
+        setting    'Registered Suite' Framework
+        setting    'Update Function' updateTitle
+        setting    'Update Program' enoGLSFormulationProcessUI
+        setting    'Width' 150
+        setting    'function' getFormulaBOMDescription
+        setting    'program' enoGLSFormulationProcessUI
+column
+        label      emxEngineeringCentral.Label.UnitOfMeasure
+        relationship $<attribute[attribute_UnitofMeasure].value>
+        name       UOM
+        order 7
+        setting    'Admin Type' attribute_UnitofMeasure
+        setting    'Attribute Name' attribute_UnitofMeasure
+        setting    'Column Type' program
+        setting    'Edit Access Function' isNotTypeFormulationPhaseOrProcessingInstruction
+        setting    'Edit Access Program' enoGLSFormulationProcessUI
+        setting    'Editable' true
+        setting    'Field Type' attribute
+        setting    'Input Type' combobox
+        setting    'Mass Update' false
+        setting    'Registered Suite' EngineeringCentral
+        setting    'Update Function' updateFormulaBOMAttributeValue
+        setting    'Update Program' enoGLSFormulationProcessUI
+        setting    'Width' 82
+        setting    'function' getFormulaBOMAttributeValue
+        setting    'program' enoGLSFormulationProcessUI
+;
+
+mod table atisFormulationPartSpectViewRFTable system column mod 
+  name "Title" setting 'Width' 150;
+mod table atisFormulationPartSpectViewRFTable system column mod 
+  name "Name" setting 'Width' 130;
+mod table atisFormulationPartSpectViewRFTable system column mod 
+  name "type" setting 'Width' 70; 
+mod table atisFormulationPartSpectViewRFTable system column mod 11
+ setting 'Width' 50;
+ mod table atisFormulationPartSpectViewRFTable system column mod 12
+ setting 'Width' 50; 
+ mod table atisFormulationPartSpectViewRFTable system column mod 13
+ setting 'Width' 50; 
+ mod table atisFormulationPartSpectViewRFTable system column mod 14
+ setting 'Width' 50; 
+ mod table atisFormulationPartSpectViewRFTable system column mod 15
+ setting 'Width' 50; 
+ 

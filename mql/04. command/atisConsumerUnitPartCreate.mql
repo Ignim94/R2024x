@@ -1,0 +1,16 @@
+add command atisConsumerUnitPartCreate 
+    label 'emxFramework.Command.atisConsumerUnitPartCreate' 
+    href '${COMMON_DIR}/emxCreate.jsp?form=atisConsumerUnitPartCreateForm&submitAction=refreshCaller&nameField=both&autoNameChecked=true&SuiteDirectory=programcentral&createJPO=atisConsumerUnitPart:createConsumerUnitPart' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Image' '${COMMON_DIR}/images/iconActionCreate.png' 
+    setting 'Popup Modal' true 
+    setting 'Target Location' 'slidein' 
+;
+
+mod command atisConsumerUnitPartCreate 
+    label 'emxFramework.Command.atisConsumerUnitPartCreate' 
+    href '${COMMON_DIR}/emxCreate.jsp?form=atisConsumerUnitPartCreateForm&altType=type_ConsumerUnitPart&header=emxFramework.Common.atisProductCommand&submitAction=refreshCaller&nameField=both&autoNameChecked=true&SuiteDirectory=programcentral&createJPO=atisConsumerUnitPart:createConsumerUnitPart' 
+;
+
+
+

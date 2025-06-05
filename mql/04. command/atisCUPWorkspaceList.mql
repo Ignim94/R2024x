@@ -1,0 +1,28 @@
+# Add command atisCUPWorkspaceList
+#copy command "atisCUPWorkspaceList" "atisCUPWorkspaceList_backup";
+#del command "atisCUPWorkspaceList";
+add command "atisCUPWorkspaceList"
+	description ""
+	label "emxFramework.Command.AtisFormulationWorkspaceList"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisCUPProposal:getCUPWorkspace&table=atisFolderSummaryTable&header=emxFramework.Command.AtisFormulationWorkspaceList&selection=multiple&HelpMarker=emxhelpworkspaces&displayView=details&expandProgram=emxProjectFolder:getTableExpandProjectVaultData"
+	alt "emxFramework.Command.AtisFormulationWorkspaceList"
+	code ""
+	!hidden
+	setting "Access Expression" '(type=="Consumer Unit Part")'
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+	setting "Licensed Product" "ENOPRSP_AP"
+property "installer" value "ENOVIAEngineering"
+property "application" value "CPNAccelerator"
+property "installed date" value "02-14-2022"
+property "original name" value "ENCPartProperty"
+property "version" value "R420.HF1"
+;
+
+mod command "atisCUPWorkspaceList"
+href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisCUPProposal:getCUPWorkspace&table=atisFolderSummaryTable&header=emxFramework.Command.AtisFormulationWorkspaceList&selection=multiple&HelpMarker=emxhelpworkspaces&displayView=details&expandProgram=emxProjectFolder:getTableExpandProjectVaultData"
+;
+
+
+href '${COMMON_DIR}/emxIndentedTable.jsp?program=atisCUPProposal:getCUPWorkspace&table=
+	

@@ -1,0 +1,84 @@
+del form "atisHandlingUnitPartForm";
+add form atisHandlingUnitPartForm web
+	field 
+	    name "name" 
+		businessobject  "$<name>" 
+		label "emxFramework.Attribute.attrMaNo" 
+		setting "Admin Type" "name" 
+		setting "Field Type" "basic" 
+		setting "Registered Suite"  "Framework" 
+		setting "Group Name" "Basic"
+		setting "Editable" "false"
+		setting 'Required' true 
+	field 
+	    name "Revision" 
+		businessobject  "$<revision>" 
+		label "emxEngineeringCentral.Common.Rev"
+		setting "Field Type" "basic" 
+		setting "Registered Suite" "EngineeringCentral"
+		setting "Group Name" "Basic"
+		setting "Editable" "false"
+	field 
+	    name "Title" 
+		label 'emxFramework.Label.atisDeviceName' 
+		bus '$<attribute[attribute_V_Name]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Admin Type' 'attribute_V_Name'
+		setting 'Editable' true 
+		setting 'Required' true
+    field 
+	    name atisGDC_CODE 
+		label 'emxFramework.Attribute.atisGDC_CODE' 
+		bus '$<attribute[atisGDC_CODE]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Editable' true 
+		setting 'Required' true 
+	field 
+		name atisManufacture
+		label 'emxFramework.Attribute.atisManufacture' 
+		bus '$<attribute[attribute_atisManufacture]>' 
+		range '${COMMON_DIR}/emxFullSearch.jsp?field=TYPES=type_Company&table=PLCDesignResponsibilitySearchTable&selection=single&submitAction=refreshCaller&hideHeader=true&submitURL=../productline/SearchUtil.jsp&fieldNameActual=atisManufactureOID&fieldNameDisplay=atisManufactureDisplay&mode=Chooser&chooserType=RDO&HelpMarker=emxhelpfullsearch&typeAheadTable=PLCTypeAheadTable'
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Editable' 'true'
+		setting 'Required' 'false'
+		setting 'Update Program' 'atisHandlingUnitPart'
+		setting 'Update Function' 'updateatisManufacture'
+	field 
+		name description
+		label 'emxFramework.Attribute.atisDesc' 
+		bus 'description' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'basic' 
+		setting "Input Type" "textarea"
+		setting 'Editable' true 
+		setting 'Required' false 
+	field
+		name "Originated"
+		label "emxEngineeringCentral.Label.Originated"
+		businessobject  "originated"
+		setting "Registered Suite" "EngineeringCentral"
+		setting "Group Name" "Date"
+		setting "format" "date"
+		setting "Editable" "false"
+	field
+		name "Modified"
+		label "emxEngineeringCentral.Label.Modified"
+		businessobject  "modified"
+		setting "Registered Suite" "EngineeringCentral"
+		setting "Group Name" "Date"
+		setting "format" "date"
+		setting "Editable" "false"
+	field
+		name "Owner"
+		label "Owner"
+		businessobject  "$<owner>"
+		setting "Registered Suite" "Framework"
+		setting "format" "user"
+		setting "Editable" "false"
+		setting "Field Type" "basic"
+;
+add property 'form_atisHandlingUnitPartForm' on program 'eServiceSchemaVariableMapping.tcl' to 'form' 'atisHandlingUnitPartForm';
+

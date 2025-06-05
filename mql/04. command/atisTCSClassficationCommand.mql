@@ -1,0 +1,5 @@
+mod command atisTCSClassficationCommand 
+    href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisRawMaterial:getTCS&table=atisTCSYNclassificationTable&header=emxFramework.Label.atisTCSClassficationCommand&selection=multiple&freezePane=Name"
+;
+
+

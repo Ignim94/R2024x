@@ -1,0 +1,28 @@
+# Add command atisPMCTaskMoveUp
+#copy command "atisPMCTaskMoveUp" "atisatisPMCTaskMoveUp";
+#del command "atisatisPMCTaskMoveUp";
+add command "atisPMCTaskMoveUp"
+	description "atisPMCTaskMoveUp"
+	label "null"
+	href "${SUITE_DIR}/emxProgramCentralUtil.jsp?SubMode=moveUp&mode=MoveTasks&postProcessJPO=cmgTest:updateFolder"
+	alt "emxProgramCentral.TaskIndentaion.MoveUp"
+	code ""
+	!hidden
+	setting "Target Location" "listHidden"
+	setting "Registered Suite" "ProgramCentral"
+	setting "Access Expression" "(current.access[modify] == true)"
+	setting "Licensed Product" "ENO_PGE_TP"
+	setting "Submit" "true"
+	setting "Access Function" "hasAccessForWBSView"
+	setting "Access Program" "emxTask"
+	setting "Row Select" "single"
+	setting "Image" "${COMMON_DIR}/images/iconMoveUp.png"
+	user "VPLMViewer"
+	user "3DSRestrictedReader"
+	user "Project User"
+property "installer" value "ENOVIAEngineering"
+property "application" value "ProgramManagementBase"
+property "installed date" value "02-13-2022"
+property "original name" value "atisPMCTaskMoveUp"
+property "version" value "R422"
+;

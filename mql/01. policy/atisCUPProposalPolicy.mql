@@ -1,0 +1,52 @@
+add policy 'atisCUPProposalPolicy'
+    description    'atisCUPProposal Policy'
+    sequence       '1,2,3,...'
+    store          'STORE'
+    nothidden
+    type           'atisCUPProposal'
+    state 'Active'
+        revision FALSE
+        version  TRUE
+        promote  TRUE
+        checkouthistory  TRUE
+        owner  all
+        public  all
+    state 'Inactive'
+        revision TRUE
+        version  TRUE
+        promote  FALSE
+        checkouthistory  TRUE
+        owner  all
+        public  all
+;
+
+add property 'policy_atisCUPProposalPolicy' on program 'eServiceSchemaVariableMapping.tcl' to 'policy' 'atisCUPProposalPolicy';
+
+ 
+mod policy atisCUPProposalPolicy
+add
+  state 'Preliminary'
+        revision TRUE
+        version  TRUE
+        promote  FALSE
+        checkouthistory  TRUE
+        owner  all
+        public  all
+add 
+  state 'Review'
+        revision TRUE
+        version  TRUE
+        promote  FALSE
+        checkouthistory  TRUE
+        owner  all
+        public  all
+add 
+	state 'complete'
+        revision TRUE
+        version  TRUE
+        promote  FALSE
+        checkouthistory  TRUE
+        owner  all
+        public  all
+;
+

@@ -1,0 +1,11 @@
+copy command atisHandlingUnitPartCommand atisProductCommand;
+mod  command atisProductCommand label 'emxFramework.Common.atisProductCommand';
+mod command atisProductCommand href '${COMMON_DIR}/emxIndentedTable.jsp?program=cmgTest:findAtisProduct&table=aitsfindHandlingUnitPartTable&selection=multiple&editLink=true';
+
+mod command atisProductCommand 
+  href '${COMMON_DIR}/emxIndentedTable.jsp?program=atisConsumerUnitPart:getConsumerUnitPart&table=aitsfindHandlingUnitPartTable&header=emxFramework.Label.ConsumerUnitPart&selection=multiple&freezePane=Name,Title&pageSize=100&scrollPageSize=50&toolbar=atisRawMaterialListToolbar'
+;
+
+
+
+

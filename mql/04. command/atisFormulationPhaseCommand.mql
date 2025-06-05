@@ -1,0 +1,13 @@
+# Add command atisFormulationPhaseCommand
+#copy command "atisFormulationPhaseCommand" "atisFormulationPhaseCommand_backup";
+#del command "atisFormulationPhaseCommand";
+add command "atisFormulationPhaseCommand"
+	description "atisFormulationMyDesk - Formulation Phase Command"
+	label "emxFramework.Common.atisFormulationPhaseCommand"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=cmgTest:findFormulationPhase&table=aitsFormulationPhaseTable&selection=multiple&editLink=true"
+	alt "null"
+	code ""
+	!hidden
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+;

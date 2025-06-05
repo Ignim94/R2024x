@@ -1,0 +1,5 @@
+mod command atisGHSCommand 
+    href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisRawMaterial:getGHS&table=atisClassficationTable&header=emxFramework.Label.atisGHSCommand&selection=multiple&freezePane=Name"
+;
+
+

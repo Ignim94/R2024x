@@ -1,0 +1,13 @@
+# Add command atisRawMaterialListCmd
+#copy command "atisRawMaterialListCmd" "atisRawMaterialListCmd_backup";
+#del command "atisRawMaterialListCmd";
+add command "atisRawMaterialListCmd"
+	description "atisRawMaterialListCmd"
+	label "emxFramework.Label.RawMaterial"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisRawMaterial:getRawMaterialList&table=atisRawMaterialListTable&header=emxFramework.Label.RawMaterial&selection=multiple&freezePane=Name,Title&pageSize=100&scrollPageSize=50&toolbar=atisRawMaterialListToolbar"
+	alt "null"
+	code ""
+	!hidden
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+;

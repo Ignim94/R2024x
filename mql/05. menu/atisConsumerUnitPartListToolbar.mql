@@ -1,0 +1,20 @@
+del menu "atisConsumerUnitPartListToolbar";
+add menu "atisConsumerUnitPartListToolbar"
+	description ""
+	label "null"
+	href ""
+	alt ""
+	!hidden
+#	menu "atisConsumerUnitPartListToolbarAction"
+    command "atisConsumerUnitPartCreate"
+	command "atisGenericDelete"
+;
+
+
+
+
+
+
+
+
+

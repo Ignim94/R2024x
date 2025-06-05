@@ -1,0 +1,28 @@
+add relationship 'atisPropertiesDataRel' 
+    description 'Connect MasterData - PropertiesData' 
+    nothidden 
+    preventduplicates 
+    from 
+        type 'Formulation Part','Raw Material' 
+        meaning '' 
+        revision 'none' 
+        clone 'none' 
+        cardinality 'one'
+        notpropagatemodify 
+        propagateconnection 
+    to 
+        type 'atisPropertyData' 
+        meaning '' 
+        revision 'none' 
+        clone 'none' 
+        cardinality 'many' 
+        notpropagatemodify 
+        propagateconnection 
+;
+
+
+mod relationship 'atisPropertiesDataRel'
+ from add type "Consumer Unit Part";
+ 
+ mod relationship 'atisPropertiesDataRel'
+ to add type "atisCUPPropertyData";

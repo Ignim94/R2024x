@@ -1,0 +1,38 @@
+copy command atisFormulationWorkspaceList atisFormulationWorkspaceList;
+
+mod command atisFormulationWorkspaceList 
+  href '${COMMON_DIR}/emxIndentedTable.jsp?program=atisConsumerUnitPart:getConsumerUnitPart&table=aitsfindHandlingUnitPartTable&header=emxFramework.Label.ConsumerUnitPart&selection=multiple&freezePane=Name,Title&pageSize=100&scrollPageSize=50&toolbar=atisRawMaterialListToolbar'
+;
+
+
+
+
+mod command atisFormulationWorkspaceList 
+ add setting 'Licensed Product' 'ENOPRSP_AP';
+ 
+mod command atisFormulationWorkspaceList 
+ label 'emxFramework.Command.AtisFormulationWorkspaceList';
+ 
+ mod command atisFormulationWorkspaceList 
+  alt 'emxFramework.Command.AtisFormulationWorkspaceList';
+  
+mod command atisFormulationWorkspaceList 
+  add setting 'Registered Suite' Framework;
+
+mod command atisFormulationWorkspaceList href '${COMMON_DIR}/emxIndentedTable.jsp?program=emxWorkspace:getAllMyDeskWorkspace,emxWorkspace:getActiveMyDeskWorkspace&table=TMCMyDeskWorkspaceSummary&header=emxFramework.Command.AtisFormulationWorkspaceList&toolbar=TMCWorkspaceSummaryToolBar&programLabel=emxTeamCentral.Filter.All,emxTeamCentral.Filter.InWork&sortColumnName=Name&sortDirection=ascending&selection=multiple&HelpMarker=emxhelpworkspaces&displayView=details';
+ 
+mod command atisFormulationWorkspaceList
+   remove setting 'Access Function'
+   remove setting 'Access Program'
+  ;
+mod command atisFormulationWorkspaceList
+   add setting "Target Location" "content";
+mod command atisFormulationWorkspaceList href '${COMMON_DIR}/emxIndentedTable.jsp?program=atisCUPProposal:getWorkspace&table=atisFolderSummaryTable&header=emxFramework.Command.AtisFormulationWorkspaceList&selection=multiple&HelpMarker=emxhelpworkspaces&displayView=details';
+
+mod command atisFormulationWorkspaceList 
+  href '${COMMON_DIR}/emxIndentedTable.jsp?program=atisCUPProposal:getWorkspace&table=atisFolderSummaryTable&header=emxFramework.Command.AtisFormulationWorkspaceList&selection=multiple&HelpMarker=emxhelpworkspaces&displayView=details'
+;
+
+
+
+&expandProgram=emxProjectFolder:getTableExpandProjectVaultData

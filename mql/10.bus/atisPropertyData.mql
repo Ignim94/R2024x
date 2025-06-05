@@ -1,0 +1,24 @@
+add bus "atisPropertyData" "test" ""
+ policy atisPropertyDataPolicy
+ vault "eService Administration"
+ description "test property data"
+;
+
+
+add bus "atisPropertyData" "PD-000001" ""
+ policy atisPropertyDataPolicy
+ vault "eService Administration"
+ description "1040-004B-PropertyData"om
+;
+
+mod policy atisPropertyDataPolicy add type atisCUPPropertyData;
+
+
+add bus "atisCUPPropertyData" "PP-000001" ""
+ policy atisPropertyDataPolicy
+ vault "eService Administration"
+ description "Test PP-000001"
+;
+
+
+add bus 'Workspace Vault' 

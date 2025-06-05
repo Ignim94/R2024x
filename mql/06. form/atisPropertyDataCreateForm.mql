@@ -1,0 +1,52 @@
+# del form "atisPropertyDataCreateForm";
+add form atisPropertyDataCreateForm web 
+  field 
+    name "type" 
+    businessobject  "$<type>" 
+    setting "Admin Type" "Type" 
+    setting "Field Type" "basic" 
+    setting "Access Expression" "false" 
+  field 
+    name "policy" 
+    businessobject  "$<policy>" 
+    setting "Admin Type" "Policy" 
+    setting "Field Type" "basic" 
+    setting "Access Expression" "false"  
+  field 
+    name "atisPropertyType" 
+    label 'emxFramework.Attribute.AtisPropertyType' 
+    bus '$<attribute[atisPropertyType]>' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Range Function' 'getPropertyType'
+    setting 'Range Program' 'atisPropertiesData'
+    setting 'Input Type' 'combobox' 
+    setting 'Field Type' 'attribute' 
+    setting 'Required' false
+  field 
+    name atisPropertyEvalUnit 
+    label 'emxFramework.Attribute.AtisPropertyEvalUnit' 
+    bus '$<attribute[atisPropertyEvalUnit]>' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Field Type' 'attribute' 
+    setting 'Required' false 
+  field 
+    name atisPropertyMaster
+    label 'emxFramework.Attribute.AtisPropertyMaster' 
+    range '${COMMON_DIR}/emxFullSearch.jsp?field=TYPES=type_atisPropertyMasterData&selection=single'
+    setting 'Registered Suite' 'Framework' 
+    setting 'Field Type' 'basic' 
+    setting 'Required' false
+    setting 'Show Clear Button' true   
+	setting 'Input Type' textbox
+  field 
+    name atisFormulationPart
+    label 'emxFramework.Attribute.AtisFormulationPart' 
+    range '${COMMON_DIR}/emxFullSearch.jsp?field=TYPES=type_FormulationPart&selection=single'
+    setting 'Registered Suite' 'Framework' 
+    setting 'Field Type' 'basic' 
+    setting 'Required' false
+    setting 'Show Clear Button' true   
+	setting 'Input Type' textbox
+;
+add property 'form_atisPropertyDataCreateForm' on program 'eServiceSchemaVariableMapping.tcl' to 'form' 'atisPropertyDataCreateForm';
+

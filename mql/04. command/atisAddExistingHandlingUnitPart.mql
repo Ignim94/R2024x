@@ -1,0 +1,24 @@
+add command atisAddExistingHandlingUnitPart
+  description 'Add existing Handling Unit Part to BOM'
+  label 'Handling Unit Part'
+  href '${SUITE_DIR}/emxGLSEngrFullSearchPreProcess.jsp?calledMethod=addExisting&searchFor=type_HandlingUnitPart'
+  setting "Image" "${COMMON_DIR}/images/iconActionAdd.gif"
+  setting "Licensed Product" "ENO_CPO_TP"
+  setting "Popup Modal" "true"
+  setting "Registered Suite" "CPN"
+  setting "Row Select" "single"
+  setting "Submit" "true"
+  setting "Target Location" "listHidden"
+  nothidden
+;
+
+
+mod command atisAddExistingHandlingUnitPart
+    label 'emxFramework.Common.atisHandlingUnitPartCommand'
+    href '../cpn/emxGLSEngrFullSearchPreProcess.jsp?calledMethod=addExisting&searchFor=type_HandlingUnitPart'
+    add setting 'Registered Suite' 'Framework'
+;
+
+
+
+

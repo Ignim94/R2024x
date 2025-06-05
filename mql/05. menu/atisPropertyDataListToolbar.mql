@@ -1,0 +1,24 @@
+# del menu "atisPropertyDataListToolbar";
+add menu "atisPropertyDataListToolbar"
+	description ""
+	label "null"
+	href ""
+	alt ""
+	!hidden
+#	menu "atisPropertyDataListToolbarAction"
+    command "atisPropertyDataCreateCommand"
+;
+
+mod  menu "atisPropertyDataListToolbar"
+	add command "atisGenericDelete"
+;
+
+mod  menu "atisPropertyDataListToolbar"
+	remove command "atisPropertyDataCreateCommand"
+;
+
+mod  menu "atisPropertyDataListToolbar"
+	add command "atisPropertyDataCreateCommand"
+;
+
+mod  menu "atisPropertyDataListToolbar" order  command "atisPropertyDataCreateCommand" 1;

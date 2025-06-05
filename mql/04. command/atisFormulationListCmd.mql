@@ -1,0 +1,14 @@
+# Add command atisFormulationListCmd
+#copy command "atisFormulationListCmd" "atisFormulationListCmd_backup";
+#del command "atisFormulationListCmd";
+add command "atisFormulationListCmd"
+	description "To View Formulations"
+	label "emxFramework.Label.Formulation"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=enoGLSFormulationUI:getFormulations&table=CPNFormulationFamilies&selection=multiple&header=emxFramework.Label.Formulation&toolbar=CPNFormulationActionsMenu&rowGroupingColumnNames=Stage"
+	alt "null"
+	code ""
+	!hidden
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+	setting "Licensed Product" "ENO_PLC_TP"
+;

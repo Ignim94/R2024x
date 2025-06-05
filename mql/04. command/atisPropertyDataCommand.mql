@@ -1,0 +1,24 @@
+# Add command atisPropertyDataCommand
+#copy command "atisPropertyDataCommand" "atisPropertyDataCommand_backup";
+#del command "atisPropertyDataCommand";
+add command "atisPropertyDataCommand"
+	description "atisFormulationMyDesk -PropertyEvalData Command"
+	label "emxFramework.Common.atisPropertyDataCommand"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisPropertiesData:findPropertyData&table=aitsPropertyDataTable&selection=multiple&toolbar=atisPropertyDataListToolbar"
+	alt "null"
+	code ""
+	!hidden
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+;
+
+
+mod command "atisPropertyDataCommand"
+  href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisPropertiesData:findPropertyData&table=aitsPropertyDataTable&selection=multiple&toolbar=atisPropertyDataListToolbar"
+;
+
+
+mod command "atisPropertyDataCommand"
+label "emxFramework.Common.AtisPropertyDataCommand";
+
+

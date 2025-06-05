@@ -1,0 +1,19 @@
+#del command "atisHandlingUnitPartCommand";
+add command "atisHandlingUnitPartCommand"
+	description "atisFormulationMyDesk - Handling Unit Part Command"
+	label "emxFramework.Common.atisHandlingUnitPartCommand"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisHandlingUnitPart:getFormulationPhase&table=aitsFormulationPhaseTable&header=emxFramework.Common.atisFormulationPhaseCommand&selection=multiple&editLink=true&toolbar=atisFormulationPhaseListToolbar&sortColumnName=modified&sortDirection=descending"
+	alt "null"
+	code ""
+	!hidden
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+;
+
+
+mod command "atisHandlingUnitPartCommand"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisHandlingUnitPart:getHandlingUnitPart&table=aitsHandlingUnitPartTable&header=emxFramework.Common.atisHandlingUnitPartCommand&selection=multiple&editLink=false&toolbar=atisHandlingUnitPartListToolbar&sortColumnName=modified&sortDirection=descending"
+;
+
+
+

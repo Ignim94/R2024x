@@ -1,0 +1,17 @@
+# Add command atisFormulationProposalList
+#copy command "atisFormulationProposalList" "atisFormulationProposalList_backup";
+#del command "atisFormulationProposalList";
+add command "atisFormulationProposalList"
+	description "ProposalList"
+	label "emxFramework.Command.AtisCUPProposal"
+	href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisCUPProposal:getProposalList&table=atisProposalViewTable&selection=multiple&header=emxFramework.Command.AtisCUPProposal&toolbar=atisProposalToolbar"
+	alt "null"
+	code ""
+	!hidden
+	#setting "Licensed Product" "ENOPRSP_AP"
+	setting "Target Location" "content"
+	setting "Registered Suite" "Framework"
+;
+
+mod command "atisFormulationProposalList" href "${COMMON_DIR}/emxIndentedTable.jsp?program=atisCUPProposal:getProposalList&table=atisProposalViewTable&selection=multiple&header=emxFramework.Command.AtisCUPProposal&toolbar=atisProposalToolbar"
+;

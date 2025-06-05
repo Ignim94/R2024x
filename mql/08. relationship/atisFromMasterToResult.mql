@@ -1,0 +1,23 @@
+add relationship 'atisFromMasterToResult' 
+    description 'Connect MasterData - PropertiesData' 
+    nothidden 
+    preventduplicates 
+    from 
+        type 'atisPropertyMasterData' 
+        meaning '' 
+        revision 'none' 
+        clone 'none' 
+        cardinality 'one'
+        notpropagatemodify 
+        propagateconnection 
+    to 
+        type 'atisPropertyData' 
+        meaning '' 
+        revision 'none' 
+        clone 'none' 
+        cardinality 'many' 
+        notpropagatemodify 
+        propagateconnection 
+;
+
+

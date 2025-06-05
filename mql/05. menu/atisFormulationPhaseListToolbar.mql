@@ -1,0 +1,11 @@
+del menu "atisFormulationPhaseListToolbar";
+add menu "atisFormulationPhaseListToolbar"
+	description ""
+	label "null"
+	href ""
+	alt ""
+	!hidden
+#	menu "atisFormulationPhaseListToolbarAction"
+    command "atisFormulationPhaseCreate"
+	command "atisGenericDelete"
+;

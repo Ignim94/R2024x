@@ -1,0 +1,11 @@
+del menu "atisHandlingUnitPartListToolbar";
+add menu "atisHandlingUnitPartListToolbar"
+	description ""
+	label "null"
+	href ""
+	alt ""
+	!hidden
+#	menu "atisHandlingUnitPartListToolbarAction"
+    command "atisHandlingUnitPartCreate"
+	command "atisGenericDelete"
+;

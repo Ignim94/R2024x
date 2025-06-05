@@ -1,0 +1,12 @@
+copy command ENCPartProperty atisFormulationPhaseProperty;
+modify command atisFormulationPhaseProperty 
+    add setting 'Access Expression' '(type=="Formulation Phase")'
+;
+modify command atisFormulationPhaseProperty 
+    href "${COMMON_DIR}/emxForm.jsp?form=atisFormulationPhaseForm&toolbar=ENCpartPartDetailsToolBar&HelpMarker=emxhelppartproperties&showChangeMgtToolbar=true&initialMode=view"
+;
+modify command atisFormulationPhaseProperty 
+    label 'emxFramework.Command.PMCPropertiesPortal'
+    alt 'emxFramework.Command.Properties'
+    add setting 'Registered Suite' 'ProgramCentral'
+;

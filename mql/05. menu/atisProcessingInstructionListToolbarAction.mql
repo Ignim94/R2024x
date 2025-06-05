@@ -1,0 +1,9 @@
+del menu "atisProcessingInstructionListToolbarAction";
+add menu "atisProcessingInstructionListToolbarAction"
+	description ""
+	label "null"
+	href ""
+	alt ""
+	!hidden
+	command atisProcessingInstructionCreate
+;

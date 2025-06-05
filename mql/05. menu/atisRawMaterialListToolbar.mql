@@ -1,0 +1,10 @@
+del menu "atisRawMaterialListToolbar";
+add menu "atisRawMaterialListToolbar"
+	description ""
+	label "null"
+	href ""
+	alt ""
+	!hidden
+	menu "atisRawMaterialListToolbarAction"
+	command "atisGenericDelete"
+;

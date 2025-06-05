@@ -1,0 +1,9 @@
+#del command atisRawMaterialListAddRawMaterial;
+add command atisRawMaterialListAddRawMaterial 
+    label 'emxFramework.label.AddRawMaterial' 
+    href '${COMMON_DIR}/emxCreate.jsp?form=rawMaterialCreateForm&submitAction=refreshCaller&nameField=both&autoNameChecked=true&SuiteDirectory=programcentral&createJPO=cmgTest:createRawMaterial' 
+    setting 'Registered Suite' 'Framework' 
+    setting 'Image' '${COMMON_DIR}/images/iconActionCreate.png' 
+    setting 'Popup Modal' true 
+    setting 'Target Location' 'slidein' 
+;

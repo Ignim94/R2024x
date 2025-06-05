@@ -1,0 +1,12 @@
+# Add menu atisProposalToolbar
+#copy menu "atisProposalToolbar" "atisProposalToolbar_backup";
+#del menu "atisProposalToolbar";
+add menu "atisProposalToolbar"
+	description ""
+	label "null"
+	href ""
+	alt ""
+	!hidden
+	command "atisProposalCreateCommand"
+	command "atisGenericDelete"
+;

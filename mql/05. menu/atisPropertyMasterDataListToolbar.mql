@@ -1,0 +1,14 @@
+# del menu "atisPropertyMasterDataListToolbar";
+add menu "atisPropertyMasterDataListToolbar"
+	description ""
+	label "null"
+	href ""
+	alt ""
+	!hidden
+#	menu "atisPropertyMasterDataListToolbarAction"
+    command "atisPropertyMasterDataCreateCommand"
+;
+
+mod  menu "atisPropertyMasterDataListToolbar"
+	add command "atisGenericDelete"
+;

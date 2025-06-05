@@ -1,0 +1,9 @@
+### delete type atisCUPPropertyData;
+
+add type atisCUPPropertyData 
+ attribute atisPropertyType
+ attribute atisPropertyEvalUnit
+ attribute atisEvalResult
+;
+
+add property type_atisCUPPropertyData on program eServiceSchemaVariableMapping.tcl to type atisCUPPropertyData;

@@ -1,0 +1,69 @@
+del form "atisHandlingUnitPartCreateForm";
+add form atisHandlingUnitPartCreateForm web 
+    field 
+        name "type" 
+	    businessobject  "$<type>" 
+	    setting "Admin Type" "Type" 
+	    setting "Field Type" "basic" 
+	    setting "Access Expression" "false" 
+    field 
+        name "policy" 
+	    businessobject  "$<policy>" 
+	    setting "Admin Type" "Policy" 
+	    setting "Field Type" "basic" 
+	    setting "Access Expression" "false" 
+    field 
+	    name 'type2' 
+		label 'emxProgramCentral.Common.Type'
+		setting 'Field Type' 'programHTMLOutput' 
+		setting 'program' 'atisCommonUtil' 
+		setting 'function' 'getType'
+		setting 'Editable' false 
+		setting 'Required' true 
+		setting "Registered Suite"  "ProgramCentral" 
+	field 
+	    name "name" 
+		businessobject  "$<name>" 
+		label "emxFramework.Attribute.attrMaNo" 
+		setting "Admin Type" "name" 
+		setting "Field Type" "basic" 
+		setting "Registered Suite"  "Framework" 
+	field
+		name "V_Name"
+		label "emxFramework.Label.atisDeviceName"
+		businessobject  "$<attribute[attribute_V_Name].value>"
+		alt ""
+		range ""
+		update ""
+		setting "Admin Type" "attribute_V_Name"
+		setting "Registered Suite" "Framework"
+		setting "Required" "true"
+		setting "Group Name" "Specification"
+		setting "Editable" "true"
+		setting "Field Type" "attribute"
+    field 
+	    name atisGDC_CODE 
+		label 'emxFramework.Attribute.atisGDC_CODE' 
+		bus '$<attribute[atisGDC_CODE]>' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Editable' true 
+		setting 'Required' true 
+	field 
+		name atisManufacture
+		label 'emxFramework.Attribute.atisManufacture' 
+		range '${COMMON_DIR}/emxFullSearch.jsp?field=TYPES=type_Company&table=PLCDesignResponsibilitySearchTable&selection=single&submitAction=refreshCaller&hideHeader=true&submitURL=../productline/SearchUtil.jsp&fieldNameActual=atisManufactureOID&fieldNameDisplay=atisManufactureDisplay&mode=Chooser&chooserType=RDO&HelpMarker=emxhelpfullsearch&typeAheadTable=PLCTypeAheadTable'
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'attribute' 
+		setting 'Editable' 'true'
+		setting 'Required' 'false'
+	field 
+		name description
+		label 'emxFramework.Attribute.atisDesc' 
+		bus 'description' 
+		setting 'Registered Suite' 'Framework' 
+		setting 'Field Type' 'basic' 
+		setting "Input Type" "textarea"
+;
+add property 'form_atisHandlingUnitPartCreateForm' on program 'eServiceSchemaVariableMapping.tcl' to 'form' 'atisHandlingUnitPartCreateForm';
+

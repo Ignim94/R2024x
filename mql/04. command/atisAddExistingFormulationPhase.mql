@@ -1,0 +1,23 @@
+add command atisAddExistingFormulationPhase
+  description 'Add existing Formulation Phase to BOM'
+  label 'Formulation Phase'
+  href '${SUITE_DIR}/emxGLSEngrFullSearchPreProcess.jsp?calledMethod=addExisting&searchFor=type_FormulationPhase'
+  setting "Image" "${COMMON_DIR}/images/iconActionAdd.gif"
+  setting "Licensed Product" "ENO_CPO_TP"
+  setting "Popup Modal" "true"
+  setting "Registered Suite" "CPN"
+  setting "Row Select" "single"
+  setting "Submit" "true"
+  setting "Target Location" "listHidden"
+  nothidden
+;
+
+mod command atisAddExistingFormulationPhase
+    label 'emxFramework.Common.atisFormulationPhaseCommand'
+    href '../cpn/emxGLSEngrFullSearchPreProcess.jsp?calledMethod=addExisting&searchFor=type_FormulationPhase'
+    add setting 'Registered Suite' 'Framework'
+;
+
+mod command atisAddExistingFormulationPhase
+    href '../cpn/emxGLSEngrFullSearchPreProcess.jsp?calledMethod=copyPhaseFrom&searchFor=type_FormulationPhase'
+;

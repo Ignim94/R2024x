@@ -1,0 +1,41 @@
+#delete table atisCUPProposalMemberTable system
+
+add table atisCUPProposalMemberTable system
+column 
+  name 'Name'
+  bus '$<attribute[Title]>'
+  label 'emxFramework.Atisproposal.Attribute.AtisProposalPerson1'
+  setting "Field Type" "attribute"
+  setting 'Registered Suite' 'Framework'
+column 
+  name 'atisCUPProposalMemberHeadcount'
+  bus '$<to[atisCUPProposalMember].attribute[atisCUPProposalMemberHeadcount]>'
+  label 'emxFramework.Atisproposal.Attribute.AtisProposalPerson2'
+  setting "Field Type" "attribute"
+  setting 'Registered Suite' 'Framework'
+ column 
+   name 'atisCUPProposalMemberPercent'
+   label 'emxFramework.Atisproposal.Attribute.AtisProposalPerson3'
+   setting "Column Type" "program"
+   setting 'Registered Suite' 'Framework'
+   setting 'function' 'getCUPProposalMemberPercent'
+   setting 'program' 'atisCUPProposal'
+column 
+  name 'atisCUPProposalMemberDuration'
+  bus '$<to[atisCUPProposalMember].attribute[atisCUPProposalMemberDuration]>'
+  label 'emxFramework.Atisproposal.Attribute.AtisProposalPerson4'
+  setting "Field Type" "attribute"
+  setting 'Registered Suite' 'Framework'
+column 
+  name 'atisCUPProposalMemberMM'
+  bus '$<to[atisCUPProposalMember].attribute[atisCUPProposalMemberMM]>'
+  label 'emxFramework.Atisproposal.Attribute.AtisProposalPerson5'
+  setting "Field Type" "attribute"
+  setting 'Registered Suite' 'Framework'
+column 
+  name 'description'
+  bus '$<description>'
+  label 'emxFramework.Atisproposal.Attribute.AtisProposalPerson6'
+  setting "Field Type" "attribute"
+  setting 'Registered Suite' 'Framework'
+;
