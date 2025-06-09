@@ -1,0 +1,8 @@
+### delete type atisTestAttr1;
+
+add attribute atisTestAttr1
+ description 'test attr1'
+ type string
+;
+
+add property type_atisTestAttr1 on program eServiceSchemaVariableMapping.tcl to attribute atisTestAttr1;
