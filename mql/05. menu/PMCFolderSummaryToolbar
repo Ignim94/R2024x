@@ -1,0 +1,4 @@
+
+mod menu PMCFolderSummaryToolBar add command atisProjectSpaceBookmarkDupCommand;
+
+mod menu PMCFolderSummaryToolBar order command atisProjectSpaceBookmarkDupCommand 4;

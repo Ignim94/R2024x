@@ -1,815 +1,815 @@
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Vector;
-import java.util.stream.Collectors;
-
-import com.matrixone.apps.cpn.util.BusinessUtil;
-import com.matrixone.apps.domain.DomainConstants;
-import com.matrixone.apps.domain.DomainObject;
-import com.matrixone.apps.domain.DomainRelationship;
-import com.matrixone.apps.domain.util.ContextUtil;
-import com.matrixone.apps.domain.util.EnoviaResourceBundle;
-import com.matrixone.apps.domain.util.FrameworkException;
-import com.matrixone.apps.domain.util.FrameworkUtil;
-import com.matrixone.apps.domain.util.MapList;
-import com.matrixone.apps.domain.util.PersonUtil;
-
-import matrix.db.Context;
-import matrix.db.JPO;
-import matrix.util.StringList;
-
-
-public class atisPropertyRequest_mxJPO {
-
-    public MapList getPropertyRequestList(Context context, String[] args) throws Exception{
-    	MapList returnList = null;
-    	HashMap programMap = (HashMap) JPO.unpackArgs(args);
-        String objectId    = (String) programMap.get("objectId");
-        String reportFormat = (String) programMap.get("reportFormat");
-		try {
-			StringList typeSelects = new StringList("id");
-			String objectWhere = "";
+//import java.util.HashMap;
+//import java.util.Iterator;
+//import java.util.Locale;
+//import java.util.Map;
+//import java.util.Vector;
+//import java.util.stream.Collectors;
+//
+//import com.dassault_systemes.i3dx.appsmodel.model.util.BusinessObjectUtil;
+//import com.matrixone.apps.domain.DomainConstants;
+//import com.matrixone.apps.domain.DomainObject;
+//import com.matrixone.apps.domain.DomainRelationship;
+//import com.matrixone.apps.domain.util.ContextUtil;
+//import com.matrixone.apps.domain.util.EnoviaResourceBundle;
+//import com.matrixone.apps.domain.util.FrameworkException;
+//import com.matrixone.apps.domain.util.FrameworkUtil;
+//import com.matrixone.apps.domain.util.MapList;
+//import com.matrixone.apps.domain.util.PersonUtil;
+//
+//import matrix.db.Context;
+//import matrix.db.JPO;
+//import matrix.util.StringList;
+//
+//
+//public class atisPropertyRequest_mxJPO {
+//
+//    public MapList getPropertyRequestList(Context context, String[] args) throws Exception{
+//    	MapList returnList = null;
+//    	HashMap programMap = (HashMap) JPO.unpackArgs(args);
+//        String objectId    = (String) programMap.get("objectId");
+//        String reportFormat = (String) programMap.get("reportFormat");
+//		try {
+//			StringList typeSelects = new StringList("id");
+//			String objectWhere = "";
+////			DomainObject domainObject = DomainObject.newInstance(context, objectId);
+////			returnList = domainObject.getRelatedObjects(context, "atisPropertiesDataRel", "atisPropertyData",
+////					typeSelects, null, false, true, (short) 1, objectWhere, null, 0);
+//			if(objectId != null && !"".equals(objectId)) {
+//				DomainObject domainObject = DomainObject.newInstance(context, objectId);
+//				if("Formulation Part".equals(domainObject.getInfo(context, "type"))) {
+//					objectWhere = "to[atisPartToRequest].from.to[atisProductsToPart].from.from[Formulation Propagate].to.id=='"+objectId+"'";	
+//				} else {
+//					objectWhere = "to[atisPartToRequest].from.id=='"+objectId+"'";
+//				}
+//			}
+//			returnList = DomainObject.findObjects(context, "atisPropertyRequest", "*", "*", "*", "*", 
+//					objectWhere, null, true, typeSelects, (short) 0);
+//		} catch(Exception e) {
+//			//e.printStackTrace();
+//		}
+//		return returnList;
+//    }
+//    
+//    public Vector getPolicyForTable(Context context, String[] args)throws Exception{
+//    	Vector returnList = new Vector();
+//    	Map paramMap 		= JPO.unpackArgs(args);
+//    	MapList mlLevel 	= (MapList) paramMap.get(BusinessUtil.OBJECT_LIST);
+//    	Iterator itr = mlLevel.iterator();
+//    	while(itr.hasNext()){
+//    		String requestState = "";
+//    		Map objMap = (Map) itr.next();
+//    		String objID = (String) objMap.get(DomainConstants.SELECT_ID);
+//    		if(objID != null && !"".equals(objID)) {
+//    			try {
+//    				DomainObject domObj = new DomainObject(objID);	
+//    				String current = domObj.getInfo(context, "current");
+//    				requestState=EnoviaResourceBundle.getProperty(context, "emxFrameworkStringResource", context.getLocale(), "emxFramework.State.atisPropertyDataRequestPolicy.".concat(current.replace(' ', '_')));  
+//    				//requestState=XSSUtil.encodeForHTML(context, requestState);
+//    			}catch(Exception e) {
+//    				requestState = "";
+//    			}
+//    		}
+//    		returnList.add(requestState);
+//    	}
+//    	return returnList;
+//    }
+//    
+//    public Map createPropertyRequest(Context context, String[] args) throws Exception {
+//    	Map returnMap = new HashMap();
+//    	String id = null;
+//    	StringBuffer text = new StringBuffer();
+//    	try {
+//    		ContextUtil.startTransaction(context, true);
+//    		
+//    		Map paramMap = JPO.unpackArgs(args);
+//    		
+//    		String title = (String) paramMap.get("Title");
+//    		String description = (String) paramMap.get("description");
+//    		String atisEvalManager = (String) paramMap.get("atisEvalManager");
+//    		String atisPropertyType = (String) paramMap.get("atisPropertyType");
+//    		String atisPropertyEvalUnit = (String) paramMap.get("atisPropertyEvalUnit");
+//    		String atisTargetOID = (String) paramMap.get("TargetOID");
+//    		String atisMasterHidden = (String) paramMap.get("MasterHidden");
+//    		String objectId = (String) paramMap.get("objectId");
+//    		
+//    		DomainObject domainObject = new DomainObject();
+//    		String name = domainObject.getAutoGeneratedName(context, "type_atisPropertyRequest", null);
+//    		java.time.LocalDate nowLocalDate = java.time.LocalDate.now();
+//    		String year = String.valueOf(nowLocalDate.getYear());
+//    		name = name.replace("{YY}", year.substring(2));
+//    		domainObject.createObject(context, "atisPropertyRequest", name, "1", "atisPropertyDataRequestPolicy", "eService Production");
+//    		domainObject.setDescription(context, description);
+//
+//    		Map attrMap = new HashMap();
+//    		attrMap.put("Title", title);
+//    		attrMap.put("atisEvalManager", atisEvalManager);
+//    		attrMap.put("atisPropertyType", atisPropertyType);
+//    		attrMap.put("atisPropertyEvalUnit", atisPropertyEvalUnit);
+//    		domainObject.setAttributeValues(context, attrMap);
+//    		
+//    		DomainObject targetDo = DomainObject.newInstance(context, atisTargetOID);
+//    		DomainRelationship.connect(context, targetDo, "atisPartToRequest", domainObject);
+//    		if("Consumer Unit Part".equals(targetDo.getInfo(context, "type"))) {
+//    			
+//    		}
+//    		if(atisMasterHidden != null) {
+//    			StringList masterList = FrameworkUtil.split(atisMasterHidden,",");
+//    			StringList selects = new StringList();
+//    			selects.add("attribute[atisPropertyType]");
+//    			selects.add("attribute[atisPropertyEvalUnit]");
+//    			DomainObject dom = new DomainObject();
+//    			for(int i=0,size=masterList.size();i<size;i++) {
+//    				dom.setId(masterList.get(i));
+//    				attrMap = dom.getInfo(context, selects);
+//    				atisPropertyType = (String) attrMap.get("attribute[atisPropertyType]");
+//    	    		atisPropertyEvalUnit = (String) attrMap.get("attribute[atisPropertyEvalUnit]");
+//    				attrMap = new HashMap();
+//    				attrMap.put("atisPropertyType", atisPropertyType);
+//    				attrMap.put("atisPropertyEvalUnit", atisPropertyEvalUnit);
+//    				String pname = DomainObject.getAutoGeneratedName(context, "type_atisPropertyMasterData", "");
+//    				dom.createObject(context, "atisPropertyData", pname, "1", "atisPropertyDataPolicy", "eService Production");
+//    				dom.setAttributeValues(context, attrMap);
+//    				DomainRelationship.connect(context, domainObject, "atisRequsetToPropertyData", dom);
+//    			}
+//    		}
+//			
+//			/*
+//    		try {
+//            	Map requestMap = new HashMap();
+//            	requestMap.put("objectId",domainObject.getInfo(context, "id"));
+//            	requestMap.put("AutoNameSeries","");
+//            	requestMap.put("Name","");
+//            	requestMap.put("Vault","eService Production");
+//            	requestMap.put("Description","Physical Property Request Accept");
+//            	requestMap.put("Template","RT-000100");
+//            	requestMap.put("TemplateOID","40038.25834.16936.43079");
+//            	requestMap.put("autoNameChecked","true");
+//            	requestMap.put("RouteBasePurpose","Approval");
+//            	requestMap.put("RouteCompletionAction","Promote Connected Object");
+//            	requestMap.put("AutoStopOnRejection","Immediate");
+//            	requestMap.put("selscope","All");
+//            	requestMap.put("PreserveTaskOwner","False");
+//            	Map resultMap = JPO.invoke(context, "emxRoute", null, "createRouteProcess", JPO.packArgs(args), HashMap.class);
+//            } catch (Exception ex) {
+//                throw new Exception(ex);
+//            } finally {
+//            	ContextUtil.popContext(context);
+//            }
+//    		*/
+//    		ContextUtil.commitTransaction(context);
+//    		returnMap.put("id", domainObject.getInfo(context, "id"));
+//    	} catch(Exception ex) {
+//    		ContextUtil.abortTransaction(context);
+//    		ex.printStackTrace();
+//    		throw new Exception("Create Process Failed.\nPlease contact to Administrator");
+//    	}
+//    	return returnMap;
+//    }
+//    
+//    public Vector getRequestListForTable(Context context, String[] args)throws Exception{
+//    	Vector returnList = new Vector();
+//    	Map paramMap 		= JPO.unpackArgs(args);
+//    	MapList mlLevel 	= (MapList) paramMap.get(BusinessObjectUtil.OBJECT_LIST);
+//    	String tableName 	= (String)((Map) paramMap.get("paramList")).get("table");
+//    	
+//    	StringList selectStms= new StringList();
+//    	selectStms.add("from[atisRequsetToPropertyData].to.id");
+//    	StringList selectStms2= new StringList();
+//    	selectStms2.add("attribute[atisPropertyEvalUnit]");
+//    	selectStms2.add("attribute[atisEvalResult]");
+//    	Iterator itr = mlLevel.iterator();
+//    	while(itr.hasNext()){
+//    		StringBuffer sbHref  = new StringBuffer();sbHref.append("<table>");
+//    		Map objMap = (Map) itr.next();
+//    		String objID = (String) objMap.get(DomainConstants.SELECT_ID);
+//    		if(objID != null && !"".equals(objID)) {
+//    			try {
+//    				DomainObject domObj = new DomainObject(objID);	
+//    				Map map = domObj.getInfo(context, selectStms, selectStms);
+//    				StringList partIdList = (StringList) map.get("from[atisRequsetToPropertyData].to.id");
+//    				if(partIdList != null) {
+//    					for(int i=0,size=partIdList.size();i<size;i++) {						
+//    						String partId = partIdList.get(i);
+//    						domObj.setId(partId);
+//    						map = domObj.getInfo(context, selectStms2);
+//    						String unit = (String) map.get("attribute[atisPropertyEvalUnit]");
+//    						unit = unit == null ? "" : unit;
+//    						String result = (String) map.get("attribute[atisEvalResult]");
+//    						result = result == null ? "" : result;
+//    						sbHref.append("<tr><td style='padding: 5px;width: 150px;'>");
+//    						sbHref.append(unit);
+////    						sbHref.append("</td><td style='padding: 5px;'>");
+////    						sbHref.append(result);
+//    						sbHref.append("</td></tr>");
+//    					}
+//    				}
+//    			}catch(Exception e) {
+//    				
+//    			}
+//    		}
+//    		sbHref.append("</table>");
+//    		returnList.add(sbHref.toString());
+//    	}
+//    	return returnList;
+//    }
+//    
+//    @SuppressWarnings("unchecked")
+//    public void setRequestDate(Context context, String[] args) throws Exception {
+//    	try {
+//    		String objectId = args[0];
+//            String current = args[1];
+//            String next = args[2];
+//            
+//            java.time.LocalDate nowLocalDate = java.time.LocalDate.now();
+//            java.time.format.DateTimeFormatter formatter = java.time.format.DateTimeFormatter.ofPattern("MM/dd/yyyy", Locale.US);
+//            String today = nowLocalDate.format(formatter);
+//            
+//            DomainObject domainObject = DomainObject.newInstance(context, objectId);
+//            domainObject.setAttributeValue(context, "atisRequestDate", today);
+//    	} catch(Exception e) {
+//    		
+//    	}
+//    }
+//    
+//    @SuppressWarnings("unchecked")
+//    public void setCompleteDate(Context context, String[] args) throws Exception {
+//    	try {
+//    		String objectId = args[0];
+//            String current = args[1];
+//            String next = args[2];
+//            
+//            java.time.LocalDate nowLocalDate = java.time.LocalDate.now();
+//            java.time.format.DateTimeFormatter formatter = java.time.format.DateTimeFormatter.ofPattern("MM/dd/yyyy", Locale.US);
+//            String today = nowLocalDate.format(formatter);
+//            
+//            DomainObject domainObject = DomainObject.newInstance(context, objectId);
+//            domainObject.setAttributeValue(context, "atisCompleteDate", today);
+//    	} catch(Exception e) {
+//    		
+//    	}
+//    }
+//    
+//    public String displayPropertyRequestCreateFormRequestor(Context context, String[] args) throws Exception {
+//    	String requestor = "";
+//    	try {
+//    		requestor = PersonUtil.getFullName(context);
+//    	} catch(Exception e) {
+//    		
+//    	}
+//    	return requestor;
+//    }
+//    
+//    public String displayPropertyRequestCreateFormTarget(Context context, String[] args) throws Exception {
+//    	String target = "";
+//    	try {
+//    		Map programMap = JPO.unpackArgs(args);
+//    		java.util.Set<String> keySet = programMap.keySet();
+//    		java.util.Iterator<String> keyIter = keySet.iterator();
+//    		while(keyIter.hasNext()) {
+//    			System.out.println(keyIter.next());
+//    		}
+//    		Map requestMap = (Map) programMap.get("requestMap");
+//    		String objectId = (String) requestMap.get("objectId");
+//    		if(objectId != null && !"".equals(objectId)) {
+//    			StringList selectSmts = new StringList();
+//    			selectSmts.add("type");
+//    			selectSmts.add("name");
+//    			selectSmts.add("attribute[V_Name]");
+//    			selectSmts.add("to[Formulation Propagate].from.attribute[Title]");
+//    			DomainObject domainObject = DomainObject.newInstance(context, objectId);
+//    			Map map = domainObject.getInfo(context, selectSmts);
+//    			String type = (String) map.get("type");
+//    			if("Raw Material".equals(type)) {
+//    				target = (String) map.get("attribute[V_Name]");
+//    			} else if("Formulation Part".equals(type)) {
+//    				target = (String) map.get("to[Formulation Propagate].from.attribute[Title]");
+//    			}
+//    			target = (target == null || "".equals(target)) ? ((String) map.get("name")) : target;
+//    		}
+//    	} catch(Exception e) {
+//    		
+//    	}
+//    	return target;
+//    }
+//    
+//    public StringList getTargetName(Context context, String[] args)throws Exception{
+//    	StringList returnList = new StringList();
+//    	Map paramMap 		= JPO.unpackArgs(args);
+//    	MapList mlLevel 	= (MapList) paramMap.get(BusinessUtil.OBJECT_LIST);
+//    	StringList selectSmts = new StringList();
+//    	selectSmts.add("type");
+//    	selectSmts.add("name");
+//    	selectSmts.add("attribute[Title]");
+//    	selectSmts.add("attribute[V_Name]");
+//    	selectSmts.add("attribute[atisGDC_CODE]");
+//    	selectSmts.add("to[Formulation Propagate].from.attribute[Title]");
+//    	Iterator itr = mlLevel.iterator();
+//    	while(itr.hasNext()){
+//    		Map objMap = (Map) itr.next();
+//    		String objID = (String) objMap.get(DomainConstants.SELECT_ID);
+//    		String sb = "";
+//    		if(objID != null && !"".equals(objID)) {
+//    			DomainObject domObj = DomainObject.newInstance(context);	
+//    			try {
+//    				domObj.setId(objID);
+//    				MapList maplist = domObj.getRelatedObjects(context, "atisPartToRequest", "*", selectSmts, null, true, false, (short) 1, "", "", 0);
+//    				sb = ((java.util.List<Map>) maplist).stream().map(m -> {
+//    					String title = "";
+//    					String code = "";
+//    					String type = (String) m.get("type");
+//    					if("Formulation Part".equals(type)) {
+//    						title = (String) m.get("to[Formulation Propagate].from.attribute[Title]");
+//    						title = title + " (" + (String) m.get("name") + ")";
+//    					} else if("Raw Material".equals(type)) {
+//    						title = (String) m.get("attribute[V_Name]");
+//    						code = (String) m.get("attribute[atisGDC_CODE]");
+//    						if(code != null && !"".equals(code)) {
+//    							title = title + " (" + code +")";
+//    						}
+//    					} else if("Consumer Unit Part".equals(type)) {
+//    						title = (String) m.get("attribute[V_Name]");
+//    					}
+//    					else {
+//    						title = (String) m.get("attribute[V_Name]");
+//    						title = (title == null || "".equals(title)) ? (String) m.get("attribute[Title]") : title;
+//    						title = (title == null || "".equals(title)) ? (String) m.get("name") : title;
+//    					}
+//    					return title;
+//    				}).collect(Collectors.joining("<BR/>"));
+//    			}catch(Exception e) {
+//    				sb = "";
+//    			}
+//    		}
+//    		returnList.add(sb);
+//    	}
+//    	return returnList;
+//    }
+//    
+//    
+//	/**
+//  	 * Select the Target Field
+//  	 * @param Context context
+//  	 * @param args holds information about object.
+//  	 * @return Target Field.
+//  	 * @throws Exception if operation fails.
+//  	 */
+//	@com.matrixone.apps.framework.ui.ProgramCallable
+//	public String selectTargetList(Context context,String[] args) throws Exception {
+//		System.out.println("selectTargetList(Context context,String[] args)");
+//		StringBuilder sb = new StringBuilder();
+//		HashMap programMap = (HashMap) JPO.unpackArgs(args);
+//		HashMap requestMap = (HashMap) programMap.get("requestMap");
+//		String strMode = (String) requestMap.get("mode");
+//		String objectId = (String) programMap.get("objectId");
+//		String contributors = DomainObject.EMPTY_STRING;
+//		StringList finalContributorList=new StringList();
+//		String functionality = (String) requestMap.get("functionality");
+//
+//		// For export to CSV
+//		String exportFormat = null;
+//		boolean exportToExcel = false;
+//		if(requestMap!=null && requestMap.containsKey("reportFormat")){
+//			exportFormat = (String)requestMap.get("reportFormat");
+//		}
+//		if("CSV".equals(exportFormat)){
+//			exportToExcel = true;
+//		}
+//
+//		if("AddToNewChangeAction".equals(functionality) || "AddToNewCA".equals(functionality) || "addChangeActionUnderChangeOrder".equalsIgnoreCase(functionality) || "addChangeActionUnderChangeRequest".equalsIgnoreCase(functionality)){
+//			objectId = null;
+//		}
+//		
+//		StringList selectSmts = new StringList();
+//		selectSmts.add("id");
+//    	selectSmts.add("type");
+//    	selectSmts.add("name");
+//    	selectSmts.add("attribite[Title]");
+//    	selectSmts.add("attribite[V_Name]");
+//    	selectSmts.add("to[Formulation Propagate].from.attribute[Title]");
+//		MapList maplist = new MapList();
+//		if(objectId != null && !"".equals(objectId)) {			
+//			DomainObject domObj = DomainObject.newInstance(context);	
+//			domObj.setId(objectId);
+//			maplist = domObj.getRelatedObjects(context, "atisPartToRequest", "*", selectSmts, null, true, false, (short) 1, "", "", 0);
+//		}
+//		
+//		if("edit".equalsIgnoreCase(strMode) || "create".equalsIgnoreCase(strMode)) {
+//			String add= EnoviaResourceBundle.getProperty(context, "EnterpriseChangeMgt", "EnterpriseChangeMgt.Command.AddContributor", context.getSession().getLanguage());
+//			String remove = EnoviaResourceBundle.getProperty(context, "EnterpriseChangeMgt", "EnterpriseChangeMgt.Command.Remove", context.getSession().getLanguage());
+//			//XSSOK
+//			sb.append("<input type=\"hidden\" name=\"IsTargetFieldModified\" id=\"IsTargetFieldModified\" value=\"false\" readonly=\"readonly\" />"); 
+//			//XSSOK
+//			String targets = ((java.util.List<Map>) maplist).stream().map(m -> (String) m.get("id")).collect(Collectors.joining(","));
+//			sb.append("<input type=\"hidden\" name=\"TargetHidden\" id=\"TargetHidden\" value=\""+targets+"\" readonly=\"readonly\" />");
+//			
+//			sb.append("<table>");
+//			sb.append("<tr>");
+//			sb.append("<th rowspan=\"2\">");
+//			sb.append("<select name=\"Target\" style=\"width:200px\" multiple=\"multiple\">");
+//			
+//			sb.append(((java.util.List<Map>) maplist).stream().map(m -> {
+//				String id = (String) m.get("id");
+//				String name = (String) m.get("name");
+//				return "<option value=\""+id+"\" >" + name + "</option>";
+//			}).collect(Collectors.joining()));
+//
+//			sb.append("</select>");
+//			sb.append("</th>");
+//			sb.append("<td>");
+//			sb.append("<a href=\"javascript:addTarget()\">");
+//			sb.append("<img src=\"../common/images/iconStatusAdded.gif\" width=\"12\" height=\"12\" border=\"0\" />");
+//			sb.append("</a>");
+//			sb.append("<a href=\"javascript:addTargetList()\">");
+//			//XSSOK
+//			sb.append(add);
+//			sb.append("</a>");
+//			//sb.append("</div>");
+//			sb.append("</td>");
+//			sb.append("</tr>");
+//			sb.append("<tr>");
+//			sb.append("<td>");
+//			sb.append("<a href=\"javascript:removeTarget()\">");
+//			sb.append("<img src=\"../common/images/iconStatusRemoved.gif\" width=\"12\" height=\"12\" border=\"0\" />");
+//			sb.append("</a>");
+//			sb.append("<a href=\"javascript:removeTarget()\">");
+//			//XSSOK
+//			sb.append(remove);
+//			sb.append("</a>");
+//			sb.append("</td>");
+//			sb.append("</tr>");
+//			sb.append("</table>");
+//			
+////			sb.append("<script>");
+////			sb.append("function addTarget(){");
+////			sb.append("	var contributorHidden = document.getElementById(\"TargetHidden\");");
+////			sb.append("	var sURL=	'../common/emxFullSearch.jsp?field=TYPES=type_Person:CURRENT=policy_Person.state_Active&amp;txtExcludeOIDs='+contributorHidden.value+'&amp;table=AEFGeneralSearchResults&amp;selection=multiple&amp;hideHeader=true&amp;submitURL=../enterprisechangemgtapp/ECMUtil.jsp?mode=searchUtilPerson&amp;targetTag=select&amp;selectName=Contributor&amp;inputFieldHidden=ContributorHidden';");
+////			sb.append("	showChooser(sURL, 850, 630);");
+////			sb.append("}");
+////			sb.append("function removeTarget(){");
+////			sb.append("	var selectTag = document.getElementsByName(\"Target\");");
+////			sb.append("	var selectedOptionsValue = \"\";");
+////			sb.append("	var bIsTargetFieldModified = \"false\";");
+////			sb.append("	for (var i=selectTag[0].options.length-1;i>=0;i--) {");
+////			sb.append("		if (selectTag[0].options[i].selected) {");
+////			sb.append("			if (selectedOptionsValue!=\"\") {");
+////			sb.append("				selectedOptionsValue += \",\";");
+////			sb.append("			}");
+////			sb.append("			selectedOptionsValue += selectTag[0].options[i].value;");
+////			sb.append("			selectTag[0].remove(i);");
+////			sb.append("			bIsTargetFieldModified = \"true\";");
+////			sb.append("		}");
+////			sb.append("	}");
+////			sb.append("	if(bIsTargetFieldModified===\"true\"){");
+////			sb.append("		var bIsTargetFieldModified = document.getElementById(\"bIsTargetFieldModified\");");
+////			sb.append("		isContributorFieldModified.value = \"true\";");
+////			sb.append("	}");
+////			sb.append("	var targetHidden = document.getElementById(\"TargetHidden\");");
+////			sb.append("	var targetHiddenValues = targetHidden.value.split(\",\");");
+////			sb.append("	var selectedOptionsValues = selectedOptionsValue.split(\",\");");
+////			sb.append("	var targetHiddenNewValue = \"\";");
+////			sb.append("	for (var j=0;j<targetHiddenValues.length;j++) {");
+////			sb.append("		var targetHiddenValue = targetHiddenValues[j];");
+////			sb.append("		var contains = \"false\";");
+////			sb.append("		for (var k=0;k<selectedOptionsValues.length;k++) {");
+////			sb.append("    		var selectedOptionValue = selectedOptionsValues[k];");
+////			sb.append("    		if (targetHiddenValue == selectedOptionValue) {");
+////			sb.append("    			contains = \"true\";");
+////			sb.append("    		}");
+////			sb.append("    	}");
+////			sb.append("		if (contains == \"false\") {");
+////			sb.append("			if (targetHiddenNewValue!=\"\") {");
+////			sb.append("				targetHiddenNewValue += \",\"");
+////			sb.append("    		}");
+////			sb.append("			targetHiddenNewValue += targetHiddenValue;");
+////			sb.append("		}");
+////			sb.append("	}");
+////			sb.append("	targetHidden.value = targetHiddenNewValue;");
+////			sb.append("}");
+////			sb.append("</script>");
+//		} else {
+//			//XSSOK
+//			String targets = ((java.util.List<Map>) maplist).stream().map(m -> (String) m.get("id")).collect(Collectors.joining(","));
+//			sb.append("<input type=\"hidden\" name=\"TargetHidden\" id=\"TargetHidden\" value=\""+targets+"\" readonly=\"readonly\" />");
+//			
+//			String targetName = "";
+//			String trtn = "\n";
+//			if(!exportToExcel) {
+//				trtn = "<br>";
+//			}
+//			sb.append(((java.util.List<Map>) maplist).stream().map(m -> {
+//				String title = "";
+//				String id = (String) m.get("id");
+//				String type = (String) m.get("type");
+//				String name = (String) m.get("name");
+//				if("Formulation Part".equals(type)) {
+//					title = (String) m.get("to[Formulation Propagate].from.attribute[Title]");
+//					title = title + " (" + name + ")";
+//				} else if("Raw Material".equals(type)) {
+//					title = (String) m.get("attribute[V_Name]");
+//				} else if("Consumer Unit Part".equals(type)) {
+//					title = (String) m.get("attribute[V_Name]");
+//				}
+//				else {
+//					title = (String) m.get("attribute[V_Name]");
+//					title = (title == null || "".equals(title)) ? (String) m.get("attribute[Title]") : title;
+//					title = (title == null || "".equals(title)) ? name : title;
+//				}
+//				
+//				//XSSOK
+//				title = title + "<input type=\"hidden\" name=\""+name+"\" value=\""+id+"\" />";
+//				//XSSOK
+//				
+//				return title;
+//			}).collect(Collectors.joining(trtn)));
+//		}
+//		return sb.toString();
+//	}
+//	
+//	@SuppressWarnings("rawtypes")
+//    @com.matrixone.apps.framework.ui.ProgramCallable
+//	public Map <String, StringList> getTargetTypeRangeValues(Context context, String [] args) throws Exception {
+//		String[] typeList = {"Consumer Unit Part", "Raw Material"};
+//		StringList actualList = new StringList();
+//    	StringList displayList = new StringList();
+//    	for(int i=0,size=typeList.length;i<size;i++) {
+//    		actualList.add("type_"+typeList[i].replace(" ", ""));
+//    		displayList.add(EnoviaResourceBundle.getProperty(context, "emxFrameworkStringResource", context.getLocale(), "emxFramework.Type."+typeList[i].replace(' ', '_')));
+//    	}
+//    	HashMap<String, StringList> hashMap = new HashMap<String, StringList>(2);
+//		hashMap.put("field_choices", StringList.create(actualList));
+//		hashMap.put("field_display_choices", StringList.create(displayList));
+//		return hashMap;
+//    }
+//	
+//	public StringList getTargetType(Context context, String[] args)throws Exception{
+//    	StringList returnList = new StringList();
+//    	Map paramMap 		= JPO.unpackArgs(args);
+//    	MapList mlLevel 	= (MapList) paramMap.get(BusinessUtil.OBJECT_LIST);
+//    	StringList selectSmts = new StringList();
+//    	selectSmts.add("type");
+//    	selectSmts.add("name");
+//    	selectSmts.add("attribute[Title]");
+//    	selectSmts.add("attribute[V_Name]");
+//    	selectSmts.add("attribute[atisGDC_CODE]");
+//    	selectSmts.add("to[Formulation Propagate].from.attribute[Title]");
+//    	Iterator itr = mlLevel.iterator();
+//    	while(itr.hasNext()){
+//    		Map objMap = (Map) itr.next();
+//    		String objID = (String) objMap.get(DomainConstants.SELECT_ID);
+//    		String sb = "";
+//    		if(objID != null && !"".equals(objID)) {
+//    			DomainObject domObj = DomainObject.newInstance(context);	
+//    			try {
+//    				domObj.setId(objID);
+//    				MapList maplist = domObj.getRelatedObjects(context, "atisPartToRequest", "*", selectSmts, null, true, false, (short) 1, "", "", 0);
+//    				sb = ((java.util.List<Map>) maplist).stream().map(m -> {
+//    					String type = (String) m.get("type");
+//    					String title = EnoviaResourceBundle.getProperty(context, "emxFrameworkStringResource", context.getLocale(), "emxFramework.Type."+type.replace(' ', '_'));
+//    					return title;
+//    				}).collect(Collectors.joining("<BR/>"));
+//    			}catch(Exception e) {
+//    				sb = "";
+//    			}
+//    		}
+//    		returnList.add(sb);
+//    	}
+//    	return returnList;
+//    }
+//	
+//    public MapList getPropertyResultList(Context context, String[] args) throws Exception{
+//    	MapList returnList = null;
+//    	HashMap programMap = (HashMap) JPO.unpackArgs(args);
+//        String objectId    = (String) programMap.get("objectId");
+//        String reportFormat = (String) programMap.get("reportFormat");
+//		try {
+//			StringList typeSelects = new StringList("id");
+//			String objectWhere = "";
+////			DomainObject domainObject = DomainObject.newInstance(context, objectId);
+////			returnList = domainObject.getRelatedObjects(context, "atisPartToRequest", "atisPropertyRequest",
+////					typeSelects, null, false, true, (short) 0, objectWhere, null, 0);
+//			objectWhere = "";
+//			if(objectId != null && !"".equals(objectId)) {
+//				objectWhere = " && to[atisPartToRequest].from.id == '" + objectId + "'";
+//			}
+//			returnList = DomainObject.findObjects(context, "atisPropertyRequest", "*", "*", "*", "*", 
+//					objectWhere, null, true, typeSelects, (short) 0);
+//			
+//			
+//		} catch(Exception e) {
+//			//e.printStackTrace();
+//		}
+//		return returnList;
+//    }
+//    
+//    public MapList getPropertyDataList(Context context, String[] args) throws Exception{
+//    	MapList returnList = null;
+//    	HashMap programMap = (HashMap) JPO.unpackArgs(args);
+//        String objectId    = (String) programMap.get("objectId");
+//        String reportFormat = (String) programMap.get("reportFormat");
+//		try {
+//			StringList typeSelects = new StringList("id");
+//			String objectWhere = "";
 //			DomainObject domainObject = DomainObject.newInstance(context, objectId);
-//			returnList = domainObject.getRelatedObjects(context, "atisPropertiesDataRel", "atisPropertyData",
-//					typeSelects, null, false, true, (short) 1, objectWhere, null, 0);
-			if(objectId != null && !"".equals(objectId)) {
-				DomainObject domainObject = DomainObject.newInstance(context, objectId);
-				if("Formulation Part".equals(domainObject.getInfo(context, "type"))) {
-					objectWhere = "to[atisPartToRequest].from.to[atisProductsToPart].from.from[Formulation Propagate].to.id=='"+objectId+"'";	
-				} else {
-					objectWhere = "to[atisPartToRequest].from.id=='"+objectId+"'";
-				}
-			}
-			returnList = DomainObject.findObjects(context, "atisPropertyRequest", "*", "*", "*", "*", 
-					objectWhere, null, true, typeSelects, (short) 0);
-		} catch(Exception e) {
-			//e.printStackTrace();
-		}
-		return returnList;
-    }
-    
-    public Vector getPolicyForTable(Context context, String[] args)throws Exception{
-    	Vector returnList = new Vector();
-    	Map paramMap 		= JPO.unpackArgs(args);
-    	MapList mlLevel 	= (MapList) paramMap.get(BusinessUtil.OBJECT_LIST);
-    	Iterator itr = mlLevel.iterator();
-    	while(itr.hasNext()){
-    		String requestState = "";
-    		Map objMap = (Map) itr.next();
-    		String objID = (String) objMap.get(DomainConstants.SELECT_ID);
-    		if(objID != null && !"".equals(objID)) {
-    			try {
-    				DomainObject domObj = new DomainObject(objID);	
-    				String current = domObj.getInfo(context, "current");
-    				requestState=EnoviaResourceBundle.getProperty(context, "emxFrameworkStringResource", context.getLocale(), "emxFramework.State.atisPropertyDataRequestPolicy.".concat(current.replace(' ', '_')));  
-    				//requestState=XSSUtil.encodeForHTML(context, requestState);
-    			}catch(Exception e) {
-    				requestState = "";
-    			}
-    		}
-    		returnList.add(requestState);
-    	}
-    	return returnList;
-    }
-    
-    public Map createPropertyRequest(Context context, String[] args) throws Exception {
-    	Map returnMap = new HashMap();
-    	String id = null;
-    	StringBuffer text = new StringBuffer();
-    	try {
-    		ContextUtil.startTransaction(context, true);
-    		
-    		Map paramMap = JPO.unpackArgs(args);
-    		
-    		String title = (String) paramMap.get("Title");
-    		String description = (String) paramMap.get("description");
-    		String atisEvalManager = (String) paramMap.get("atisEvalManager");
-    		String atisPropertyType = (String) paramMap.get("atisPropertyType");
-    		String atisPropertyEvalUnit = (String) paramMap.get("atisPropertyEvalUnit");
-    		String atisTargetOID = (String) paramMap.get("TargetOID");
-    		String atisMasterHidden = (String) paramMap.get("MasterHidden");
-    		String objectId = (String) paramMap.get("objectId");
-    		
-    		DomainObject domainObject = new DomainObject();
-    		String name = domainObject.getAutoGeneratedName(context, "type_atisPropertyRequest", null);
-    		java.time.LocalDate nowLocalDate = java.time.LocalDate.now();
-    		String year = String.valueOf(nowLocalDate.getYear());
-    		name = name.replace("{YY}", year.substring(2));
-    		domainObject.createObject(context, "atisPropertyRequest", name, "1", "atisPropertyDataRequestPolicy", "eService Production");
-    		domainObject.setDescription(context, description);
-
-    		Map attrMap = new HashMap();
-    		attrMap.put("Title", title);
-    		attrMap.put("atisEvalManager", atisEvalManager);
-    		attrMap.put("atisPropertyType", atisPropertyType);
-    		attrMap.put("atisPropertyEvalUnit", atisPropertyEvalUnit);
-    		domainObject.setAttributeValues(context, attrMap);
-    		
-    		DomainObject targetDo = DomainObject.newInstance(context, atisTargetOID);
-    		DomainRelationship.connect(context, targetDo, "atisPartToRequest", domainObject);
-    		if("Consumer Unit Part".equals(targetDo.getInfo(context, "type"))) {
-    			
-    		}
-    		if(atisMasterHidden != null) {
-    			StringList masterList = FrameworkUtil.split(atisMasterHidden,",");
-    			StringList selects = new StringList();
-    			selects.add("attribute[atisPropertyType]");
-    			selects.add("attribute[atisPropertyEvalUnit]");
-    			DomainObject dom = new DomainObject();
-    			for(int i=0,size=masterList.size();i<size;i++) {
-    				dom.setId(masterList.get(i));
-    				attrMap = dom.getInfo(context, selects);
-    				atisPropertyType = (String) attrMap.get("attribute[atisPropertyType]");
-    	    		atisPropertyEvalUnit = (String) attrMap.get("attribute[atisPropertyEvalUnit]");
-    				attrMap = new HashMap();
-    				attrMap.put("atisPropertyType", atisPropertyType);
-    				attrMap.put("atisPropertyEvalUnit", atisPropertyEvalUnit);
-    				String pname = DomainObject.getAutoGeneratedName(context, "type_atisPropertyMasterData", "");
-    				dom.createObject(context, "atisPropertyData", pname, "1", "atisPropertyDataPolicy", "eService Production");
-    				dom.setAttributeValues(context, attrMap);
-    				DomainRelationship.connect(context, domainObject, "atisRequsetToPropertyData", dom);
-    			}
-    		}
-			
-			/*
-    		try {
-            	Map requestMap = new HashMap();
-            	requestMap.put("objectId",domainObject.getInfo(context, "id"));
-            	requestMap.put("AutoNameSeries","");
-            	requestMap.put("Name","");
-            	requestMap.put("Vault","eService Production");
-            	requestMap.put("Description","Physical Property Request Accept");
-            	requestMap.put("Template","RT-000100");
-            	requestMap.put("TemplateOID","40038.25834.16936.43079");
-            	requestMap.put("autoNameChecked","true");
-            	requestMap.put("RouteBasePurpose","Approval");
-            	requestMap.put("RouteCompletionAction","Promote Connected Object");
-            	requestMap.put("AutoStopOnRejection","Immediate");
-            	requestMap.put("selscope","All");
-            	requestMap.put("PreserveTaskOwner","False");
-            	Map resultMap = JPO.invoke(context, "emxRoute", null, "createRouteProcess", JPO.packArgs(args), HashMap.class);
-            } catch (Exception ex) {
-                throw new Exception(ex);
-            } finally {
-            	ContextUtil.popContext(context);
-            }
-    		*/
-    		ContextUtil.commitTransaction(context);
-    		returnMap.put("id", domainObject.getInfo(context, "id"));
-    	} catch(Exception ex) {
-    		ContextUtil.abortTransaction(context);
-    		ex.printStackTrace();
-    		throw new Exception("Create Process Failed.\nPlease contact to Administrator");
-    	}
-    	return returnMap;
-    }
-    
-    public Vector getRequestListForTable(Context context, String[] args)throws Exception{
-    	Vector returnList = new Vector();
-    	Map paramMap 		= JPO.unpackArgs(args);
-    	MapList mlLevel 	= (MapList) paramMap.get(BusinessUtil.OBJECT_LIST);
-    	String tableName 	= (String)((Map) paramMap.get("paramList")).get("table");
-    	
-    	StringList selectStms= new StringList();
-    	selectStms.add("from[atisRequsetToPropertyData].to.id");
-    	StringList selectStms2= new StringList();
-    	selectStms2.add("attribute[atisPropertyEvalUnit]");
-    	selectStms2.add("attribute[atisEvalResult]");
-    	Iterator itr = mlLevel.iterator();
-    	while(itr.hasNext()){
-    		StringBuffer sbHref  = new StringBuffer();sbHref.append("<table>");
-    		Map objMap = (Map) itr.next();
-    		String objID = (String) objMap.get(DomainConstants.SELECT_ID);
-    		if(objID != null && !"".equals(objID)) {
-    			try {
-    				DomainObject domObj = new DomainObject(objID);	
-    				Map map = domObj.getInfo(context, selectStms, selectStms);
-    				StringList partIdList = (StringList) map.get("from[atisRequsetToPropertyData].to.id");
-    				if(partIdList != null) {
-    					for(int i=0,size=partIdList.size();i<size;i++) {						
-    						String partId = partIdList.get(i);
-    						domObj.setId(partId);
-    						map = domObj.getInfo(context, selectStms2);
-    						String unit = (String) map.get("attribute[atisPropertyEvalUnit]");
-    						unit = unit == null ? "" : unit;
-    						String result = (String) map.get("attribute[atisEvalResult]");
-    						result = result == null ? "" : result;
-    						sbHref.append("<tr><td style='padding: 5px;width: 150px;'>");
-    						sbHref.append(unit);
-//    						sbHref.append("</td><td style='padding: 5px;'>");
-//    						sbHref.append(result);
-    						sbHref.append("</td></tr>");
-    					}
-    				}
-    			}catch(Exception e) {
-    				
-    			}
-    		}
-    		sbHref.append("</table>");
-    		returnList.add(sbHref.toString());
-    	}
-    	return returnList;
-    }
-    
-    @SuppressWarnings("unchecked")
-    public void setRequestDate(Context context, String[] args) throws Exception {
-    	try {
-    		String objectId = args[0];
-            String current = args[1];
-            String next = args[2];
-            
-            java.time.LocalDate nowLocalDate = java.time.LocalDate.now();
-            java.time.format.DateTimeFormatter formatter = java.time.format.DateTimeFormatter.ofPattern("MM/dd/yyyy", Locale.US);
-            String today = nowLocalDate.format(formatter);
-            
-            DomainObject domainObject = DomainObject.newInstance(context, objectId);
-            domainObject.setAttributeValue(context, "atisRequestDate", today);
-    	} catch(Exception e) {
-    		
-    	}
-    }
-    
-    @SuppressWarnings("unchecked")
-    public void setCompleteDate(Context context, String[] args) throws Exception {
-    	try {
-    		String objectId = args[0];
-            String current = args[1];
-            String next = args[2];
-            
-            java.time.LocalDate nowLocalDate = java.time.LocalDate.now();
-            java.time.format.DateTimeFormatter formatter = java.time.format.DateTimeFormatter.ofPattern("MM/dd/yyyy", Locale.US);
-            String today = nowLocalDate.format(formatter);
-            
-            DomainObject domainObject = DomainObject.newInstance(context, objectId);
-            domainObject.setAttributeValue(context, "atisCompleteDate", today);
-    	} catch(Exception e) {
-    		
-    	}
-    }
-    
-    public String displayPropertyRequestCreateFormRequestor(Context context, String[] args) throws Exception {
-    	String requestor = "";
-    	try {
-    		requestor = PersonUtil.getFullName(context);
-    	} catch(Exception e) {
-    		
-    	}
-    	return requestor;
-    }
-    
-    public String displayPropertyRequestCreateFormTarget(Context context, String[] args) throws Exception {
-    	String target = "";
-    	try {
-    		Map programMap = JPO.unpackArgs(args);
-    		java.util.Set<String> keySet = programMap.keySet();
-    		java.util.Iterator<String> keyIter = keySet.iterator();
-    		while(keyIter.hasNext()) {
-    			System.out.println(keyIter.next());
-    		}
-    		Map requestMap = (Map) programMap.get("requestMap");
-    		String objectId = (String) requestMap.get("objectId");
-    		if(objectId != null && !"".equals(objectId)) {
-    			StringList selectSmts = new StringList();
-    			selectSmts.add("type");
-    			selectSmts.add("name");
-    			selectSmts.add("attribute[V_Name]");
-    			selectSmts.add("to[Formulation Propagate].from.attribute[Title]");
-    			DomainObject domainObject = DomainObject.newInstance(context, objectId);
-    			Map map = domainObject.getInfo(context, selectSmts);
-    			String type = (String) map.get("type");
-    			if("Raw Material".equals(type)) {
-    				target = (String) map.get("attribute[V_Name]");
-    			} else if("Formulation Part".equals(type)) {
-    				target = (String) map.get("to[Formulation Propagate].from.attribute[Title]");
-    			}
-    			target = (target == null || "".equals(target)) ? ((String) map.get("name")) : target;
-    		}
-    	} catch(Exception e) {
-    		
-    	}
-    	return target;
-    }
-    
-    public StringList getTargetName(Context context, String[] args)throws Exception{
-    	StringList returnList = new StringList();
-    	Map paramMap 		= JPO.unpackArgs(args);
-    	MapList mlLevel 	= (MapList) paramMap.get(BusinessUtil.OBJECT_LIST);
-    	StringList selectSmts = new StringList();
-    	selectSmts.add("type");
-    	selectSmts.add("name");
-    	selectSmts.add("attribute[Title]");
-    	selectSmts.add("attribute[V_Name]");
-    	selectSmts.add("attribute[atisGDC_CODE]");
-    	selectSmts.add("to[Formulation Propagate].from.attribute[Title]");
-    	Iterator itr = mlLevel.iterator();
-    	while(itr.hasNext()){
-    		Map objMap = (Map) itr.next();
-    		String objID = (String) objMap.get(DomainConstants.SELECT_ID);
-    		String sb = "";
-    		if(objID != null && !"".equals(objID)) {
-    			DomainObject domObj = DomainObject.newInstance(context);	
-    			try {
-    				domObj.setId(objID);
-    				MapList maplist = domObj.getRelatedObjects(context, "atisPartToRequest", "*", selectSmts, null, true, false, (short) 1, "", "", 0);
-    				sb = ((java.util.List<Map>) maplist).stream().map(m -> {
-    					String title = "";
-    					String code = "";
-    					String type = (String) m.get("type");
-    					if("Formulation Part".equals(type)) {
-    						title = (String) m.get("to[Formulation Propagate].from.attribute[Title]");
-    						title = title + " (" + (String) m.get("name") + ")";
-    					} else if("Raw Material".equals(type)) {
-    						title = (String) m.get("attribute[V_Name]");
-    						code = (String) m.get("attribute[atisGDC_CODE]");
-    						if(code != null && !"".equals(code)) {
-    							title = title + " (" + code +")";
-    						}
-    					} else if("Consumer Unit Part".equals(type)) {
-    						title = (String) m.get("attribute[V_Name]");
-    					}
-    					else {
-    						title = (String) m.get("attribute[V_Name]");
-    						title = (title == null || "".equals(title)) ? (String) m.get("attribute[Title]") : title;
-    						title = (title == null || "".equals(title)) ? (String) m.get("name") : title;
-    					}
-    					return title;
-    				}).collect(Collectors.joining("<BR/>"));
-    			}catch(Exception e) {
-    				sb = "";
-    			}
-    		}
-    		returnList.add(sb);
-    	}
-    	return returnList;
-    }
-    
-    
-	/**
-  	 * Select the Target Field
-  	 * @param Context context
-  	 * @param args holds information about object.
-  	 * @return Target Field.
-  	 * @throws Exception if operation fails.
-  	 */
-	@com.matrixone.apps.framework.ui.ProgramCallable
-	public String selectTargetList(Context context,String[] args) throws Exception {
-		System.out.println("selectTargetList(Context context,String[] args)");
-		StringBuilder sb = new StringBuilder();
-		HashMap programMap = (HashMap) JPO.unpackArgs(args);
-		HashMap requestMap = (HashMap) programMap.get("requestMap");
-		String strMode = (String) requestMap.get("mode");
-		String objectId = (String) programMap.get("objectId");
-		String contributors = DomainObject.EMPTY_STRING;
-		StringList finalContributorList=new StringList();
-		String functionality = (String) requestMap.get("functionality");
-
-		// For export to CSV
-		String exportFormat = null;
-		boolean exportToExcel = false;
-		if(requestMap!=null && requestMap.containsKey("reportFormat")){
-			exportFormat = (String)requestMap.get("reportFormat");
-		}
-		if("CSV".equals(exportFormat)){
-			exportToExcel = true;
-		}
-
-		if("AddToNewChangeAction".equals(functionality) || "AddToNewCA".equals(functionality) || "addChangeActionUnderChangeOrder".equalsIgnoreCase(functionality) || "addChangeActionUnderChangeRequest".equalsIgnoreCase(functionality)){
-			objectId = null;
-		}
-		
-		StringList selectSmts = new StringList();
-		selectSmts.add("id");
-    	selectSmts.add("type");
-    	selectSmts.add("name");
-    	selectSmts.add("attribite[Title]");
-    	selectSmts.add("attribite[V_Name]");
-    	selectSmts.add("to[Formulation Propagate].from.attribute[Title]");
-		MapList maplist = new MapList();
-		if(objectId != null && !"".equals(objectId)) {			
-			DomainObject domObj = DomainObject.newInstance(context);	
-			domObj.setId(objectId);
-			maplist = domObj.getRelatedObjects(context, "atisPartToRequest", "*", selectSmts, null, true, false, (short) 1, "", "", 0);
-		}
-		
-		if("edit".equalsIgnoreCase(strMode) || "create".equalsIgnoreCase(strMode)) {
-			String add= EnoviaResourceBundle.getProperty(context, "EnterpriseChangeMgt", "EnterpriseChangeMgt.Command.AddContributor", context.getSession().getLanguage());
-			String remove = EnoviaResourceBundle.getProperty(context, "EnterpriseChangeMgt", "EnterpriseChangeMgt.Command.Remove", context.getSession().getLanguage());
-			//XSSOK
-			sb.append("<input type=\"hidden\" name=\"IsTargetFieldModified\" id=\"IsTargetFieldModified\" value=\"false\" readonly=\"readonly\" />"); 
-			//XSSOK
-			String targets = ((java.util.List<Map>) maplist).stream().map(m -> (String) m.get("id")).collect(Collectors.joining(","));
-			sb.append("<input type=\"hidden\" name=\"TargetHidden\" id=\"TargetHidden\" value=\""+targets+"\" readonly=\"readonly\" />");
-			
-			sb.append("<table>");
-			sb.append("<tr>");
-			sb.append("<th rowspan=\"2\">");
-			sb.append("<select name=\"Target\" style=\"width:200px\" multiple=\"multiple\">");
-			
-			sb.append(((java.util.List<Map>) maplist).stream().map(m -> {
-				String id = (String) m.get("id");
-				String name = (String) m.get("name");
-				return "<option value=\""+id+"\" >" + name + "</option>";
-			}).collect(Collectors.joining()));
-
-			sb.append("</select>");
-			sb.append("</th>");
-			sb.append("<td>");
-			sb.append("<a href=\"javascript:addTarget()\">");
-			sb.append("<img src=\"../common/images/iconStatusAdded.gif\" width=\"12\" height=\"12\" border=\"0\" />");
-			sb.append("</a>");
-			sb.append("<a href=\"javascript:addTargetList()\">");
-			//XSSOK
-			sb.append(add);
-			sb.append("</a>");
-			//sb.append("</div>");
-			sb.append("</td>");
-			sb.append("</tr>");
-			sb.append("<tr>");
-			sb.append("<td>");
-			sb.append("<a href=\"javascript:removeTarget()\">");
-			sb.append("<img src=\"../common/images/iconStatusRemoved.gif\" width=\"12\" height=\"12\" border=\"0\" />");
-			sb.append("</a>");
-			sb.append("<a href=\"javascript:removeTarget()\">");
-			//XSSOK
-			sb.append(remove);
-			sb.append("</a>");
-			sb.append("</td>");
-			sb.append("</tr>");
-			sb.append("</table>");
-			
-//			sb.append("<script>");
-//			sb.append("function addTarget(){");
-//			sb.append("	var contributorHidden = document.getElementById(\"TargetHidden\");");
-//			sb.append("	var sURL=	'../common/emxFullSearch.jsp?field=TYPES=type_Person:CURRENT=policy_Person.state_Active&amp;txtExcludeOIDs='+contributorHidden.value+'&amp;table=AEFGeneralSearchResults&amp;selection=multiple&amp;hideHeader=true&amp;submitURL=../enterprisechangemgtapp/ECMUtil.jsp?mode=searchUtilPerson&amp;targetTag=select&amp;selectName=Contributor&amp;inputFieldHidden=ContributorHidden';");
-//			sb.append("	showChooser(sURL, 850, 630);");
-//			sb.append("}");
-//			sb.append("function removeTarget(){");
-//			sb.append("	var selectTag = document.getElementsByName(\"Target\");");
-//			sb.append("	var selectedOptionsValue = \"\";");
-//			sb.append("	var bIsTargetFieldModified = \"false\";");
-//			sb.append("	for (var i=selectTag[0].options.length-1;i>=0;i--) {");
-//			sb.append("		if (selectTag[0].options[i].selected) {");
-//			sb.append("			if (selectedOptionsValue!=\"\") {");
-//			sb.append("				selectedOptionsValue += \",\";");
-//			sb.append("			}");
-//			sb.append("			selectedOptionsValue += selectTag[0].options[i].value;");
-//			sb.append("			selectTag[0].remove(i);");
-//			sb.append("			bIsTargetFieldModified = \"true\";");
-//			sb.append("		}");
-//			sb.append("	}");
-//			sb.append("	if(bIsTargetFieldModified===\"true\"){");
-//			sb.append("		var bIsTargetFieldModified = document.getElementById(\"bIsTargetFieldModified\");");
-//			sb.append("		isContributorFieldModified.value = \"true\";");
-//			sb.append("	}");
-//			sb.append("	var targetHidden = document.getElementById(\"TargetHidden\");");
-//			sb.append("	var targetHiddenValues = targetHidden.value.split(\",\");");
-//			sb.append("	var selectedOptionsValues = selectedOptionsValue.split(\",\");");
-//			sb.append("	var targetHiddenNewValue = \"\";");
-//			sb.append("	for (var j=0;j<targetHiddenValues.length;j++) {");
-//			sb.append("		var targetHiddenValue = targetHiddenValues[j];");
-//			sb.append("		var contains = \"false\";");
-//			sb.append("		for (var k=0;k<selectedOptionsValues.length;k++) {");
-//			sb.append("    		var selectedOptionValue = selectedOptionsValues[k];");
-//			sb.append("    		if (targetHiddenValue == selectedOptionValue) {");
-//			sb.append("    			contains = \"true\";");
-//			sb.append("    		}");
-//			sb.append("    	}");
-//			sb.append("		if (contains == \"false\") {");
-//			sb.append("			if (targetHiddenNewValue!=\"\") {");
-//			sb.append("				targetHiddenNewValue += \",\"");
-//			sb.append("    		}");
-//			sb.append("			targetHiddenNewValue += targetHiddenValue;");
-//			sb.append("		}");
-//			sb.append("	}");
-//			sb.append("	targetHidden.value = targetHiddenNewValue;");
-//			sb.append("}");
-//			sb.append("</script>");
-		} else {
-			//XSSOK
-			String targets = ((java.util.List<Map>) maplist).stream().map(m -> (String) m.get("id")).collect(Collectors.joining(","));
-			sb.append("<input type=\"hidden\" name=\"TargetHidden\" id=\"TargetHidden\" value=\""+targets+"\" readonly=\"readonly\" />");
-			
-			String targetName = "";
-			String trtn = "\n";
-			if(!exportToExcel) {
-				trtn = "<br>";
-			}
-			sb.append(((java.util.List<Map>) maplist).stream().map(m -> {
-				String title = "";
-				String id = (String) m.get("id");
-				String type = (String) m.get("type");
-				String name = (String) m.get("name");
-				if("Formulation Part".equals(type)) {
-					title = (String) m.get("to[Formulation Propagate].from.attribute[Title]");
-					title = title + " (" + name + ")";
-				} else if("Raw Material".equals(type)) {
-					title = (String) m.get("attribute[V_Name]");
-				} else if("Consumer Unit Part".equals(type)) {
-					title = (String) m.get("attribute[V_Name]");
-				}
-				else {
-					title = (String) m.get("attribute[V_Name]");
-					title = (title == null || "".equals(title)) ? (String) m.get("attribute[Title]") : title;
-					title = (title == null || "".equals(title)) ? name : title;
-				}
-				
-				//XSSOK
-				title = title + "<input type=\"hidden\" name=\""+name+"\" value=\""+id+"\" />";
-				//XSSOK
-				
-				return title;
-			}).collect(Collectors.joining(trtn)));
-		}
-		return sb.toString();
-	}
-	
-	@SuppressWarnings("rawtypes")
-    @com.matrixone.apps.framework.ui.ProgramCallable
-	public Map <String, StringList> getTargetTypeRangeValues(Context context, String [] args) throws Exception {
-		String[] typeList = {"Consumer Unit Part", "Raw Material"};
-		StringList actualList = new StringList();
-    	StringList displayList = new StringList();
-    	for(int i=0,size=typeList.length;i<size;i++) {
-    		actualList.add("type_"+typeList[i].replace(" ", ""));
-    		displayList.add(EnoviaResourceBundle.getProperty(context, "emxFrameworkStringResource", context.getLocale(), "emxFramework.Type."+typeList[i].replace(' ', '_')));
-    	}
-    	HashMap<String, StringList> hashMap = new HashMap<String, StringList>(2);
-		hashMap.put("field_choices", StringList.create(actualList));
-		hashMap.put("field_display_choices", StringList.create(displayList));
-		return hashMap;
-    }
-	
-	public StringList getTargetType(Context context, String[] args)throws Exception{
-    	StringList returnList = new StringList();
-    	Map paramMap 		= JPO.unpackArgs(args);
-    	MapList mlLevel 	= (MapList) paramMap.get(BusinessUtil.OBJECT_LIST);
-    	StringList selectSmts = new StringList();
-    	selectSmts.add("type");
-    	selectSmts.add("name");
-    	selectSmts.add("attribute[Title]");
-    	selectSmts.add("attribute[V_Name]");
-    	selectSmts.add("attribute[atisGDC_CODE]");
-    	selectSmts.add("to[Formulation Propagate].from.attribute[Title]");
-    	Iterator itr = mlLevel.iterator();
-    	while(itr.hasNext()){
-    		Map objMap = (Map) itr.next();
-    		String objID = (String) objMap.get(DomainConstants.SELECT_ID);
-    		String sb = "";
-    		if(objID != null && !"".equals(objID)) {
-    			DomainObject domObj = DomainObject.newInstance(context);	
-    			try {
-    				domObj.setId(objID);
-    				MapList maplist = domObj.getRelatedObjects(context, "atisPartToRequest", "*", selectSmts, null, true, false, (short) 1, "", "", 0);
-    				sb = ((java.util.List<Map>) maplist).stream().map(m -> {
-    					String type = (String) m.get("type");
-    					String title = EnoviaResourceBundle.getProperty(context, "emxFrameworkStringResource", context.getLocale(), "emxFramework.Type."+type.replace(' ', '_'));
-    					return title;
-    				}).collect(Collectors.joining("<BR/>"));
-    			}catch(Exception e) {
-    				sb = "";
-    			}
-    		}
-    		returnList.add(sb);
-    	}
-    	return returnList;
-    }
-	
-    public MapList getPropertyResultList(Context context, String[] args) throws Exception{
-    	MapList returnList = null;
-    	HashMap programMap = (HashMap) JPO.unpackArgs(args);
-        String objectId    = (String) programMap.get("objectId");
-        String reportFormat = (String) programMap.get("reportFormat");
-		try {
-			StringList typeSelects = new StringList("id");
-			String objectWhere = "";
-//			DomainObject domainObject = DomainObject.newInstance(context, objectId);
-//			returnList = domainObject.getRelatedObjects(context, "atisPartToRequest", "atisPropertyRequest",
+//			returnList = domainObject.getRelatedObjects(context, "atisRequsetToPropertyData", "atisPropertyData",
 //					typeSelects, null, false, true, (short) 0, objectWhere, null, 0);
-			objectWhere = "";
-			if(objectId != null && !"".equals(objectId)) {
-				objectWhere = " && to[atisPartToRequest].from.id == '" + objectId + "'";
-			}
-			returnList = DomainObject.findObjects(context, "atisPropertyRequest", "*", "*", "*", "*", 
-					objectWhere, null, true, typeSelects, (short) 0);
-			
-			
-		} catch(Exception e) {
-			//e.printStackTrace();
-		}
-		return returnList;
-    }
-    
-    public MapList getPropertyDataList(Context context, String[] args) throws Exception{
-    	MapList returnList = null;
-    	HashMap programMap = (HashMap) JPO.unpackArgs(args);
-        String objectId    = (String) programMap.get("objectId");
-        String reportFormat = (String) programMap.get("reportFormat");
-		try {
-			StringList typeSelects = new StringList("id");
-			String objectWhere = "";
-			DomainObject domainObject = DomainObject.newInstance(context, objectId);
-			returnList = domainObject.getRelatedObjects(context, "atisRequsetToPropertyData", "atisPropertyData",
-					typeSelects, null, false, true, (short) 0, objectWhere, null, 0);
-			
-		} catch(Exception e) {
-			//e.printStackTrace();
-		}
-		return returnList;
-    }
-    
-	/**
-  	 * Select the Target Field
-  	 * @param Context context
-  	 * @param args holds information about object.
-  	 * @return Target Field.
-  	 * @throws Exception if operation fails.
-  	 */
-	@com.matrixone.apps.framework.ui.ProgramCallable
-	public String selectMasterList(Context context,String[] args) throws Exception {
-		StringBuilder sb = new StringBuilder();
-		try {
-			HashMap programMap = (HashMap) JPO.unpackArgs(args);
-			HashMap requestMap = (HashMap) programMap.get("requestMap");
-			String strMode = (String) requestMap.get("mode");
-			String objectId = (String) requestMap.get("objectId");
-			
-			// For export to CSV
-			String exportFormat = null;
-			boolean exportToExcel = false;
-			if(requestMap!=null && requestMap.containsKey("reportFormat")){
-				exportFormat = (String)requestMap.get("reportFormat");
-			}
-			if("CSV".equals(exportFormat)){
-				exportToExcel = true;
-			}
-			
-			StringList selectSmts = new StringList();
-			selectSmts.add("id");
-	    	selectSmts.add("attribute[atisPropertyType]");
-	    	selectSmts.add("attribute[atisPropertyEvalUnit]");
-	    	selectSmts.add("from[atisRequsetToPropertyData].to.attribute[atisPropertyType]");
-	    	selectSmts.add("from[atisRequsetToPropertyData].to.attribute[atisPropertyEvalUnit]");
-			String targets = "";
-			StringList titles = new StringList();
-			if(objectId != null && !"".equals(objectId)) {			
-				DomainObject domObj = DomainObject.newInstance(context,objectId);
-				
-				Map map = domObj.getInfo(context, selectSmts, selectSmts);
-				StringList types = (StringList) map.get("from[atisRequsetToPropertyData].to.attribute[atisPropertyType]");
-				StringList units = (StringList) map.get("from[atisRequsetToPropertyData].to.attribute[atisPropertyEvalUnit]");
-				if(types != null && !"".equals(types)) {					
-					StringBuffer sbWhere = new StringBuffer();
-					for(int i=0,size=types.size();i<size;i++) {
-						if(sbWhere.length()>0) {
-							sbWhere.append(" || ");
-						}
-						sbWhere.append("(attribute[atisPropertyType]=='").append(types.get(i)).append("' && attribute[atisPropertyEvalUnit]=='").append(units.get(i)).append("')");
-					}
-					System.out.println("sbWhere.toString():"+sbWhere.toString());
-					MapList maplist = DomainObject.findObjects(context, "atisPropertyMasterData", "*", "*", "*", "*", 
-							sbWhere.toString(), null, true, selectSmts, (short) 0);
-					java.util.Iterator iter = maplist.iterator();
-					while(iter.hasNext()) {
-						map = (Map) iter.next();
-						targets = targets + (targets.length()>1?",":"") + (String) map.get("id");
-						titles.add((String) map.get("attribute[atisPropertyType]") + " " + (String) map.get("attribute[atisPropertyEvalUnit]"));
-					}
-				}
-				targets = targets == null ? "" : targets;
-			}
-			if("edit".equalsIgnoreCase(strMode) || "create".equalsIgnoreCase(strMode)) {
-				String add= EnoviaResourceBundle.getProperty(context, "Framework", "emxFramework.Label.atisAddMaterial", context.getSession().getLanguage());
-				String remove = EnoviaResourceBundle.getProperty(context, "Framework", "emxFramework.Label.atisRemoveMaterial", context.getSession().getLanguage());
-				//XSSOK
-				sb.append("<input type=\"hidden\" name=\"IsMasterFieldModified\" id=\"IsMasterFieldModified\" value=\"false\" readonly=\"readonly\" />"); 
-				//XSSOK
-				sb.append("<input type=\"hidden\" name=\"MasterHidden\" id=\"MasterHidden\" value=\""+targets+"\" readonly=\"readonly\" />");
-				
-				sb.append("<table>");
-				sb.append("<tr>");
-				sb.append("<th rowspan=\"2\">");
-				sb.append("<select name=\"Master\" style=\"width:200px\" multiple=\"multiple\">");
-				
-				StringList targetList = FrameworkUtil.split(targets, ",");
-				DomainObject domObj = DomainObject.newInstance(context);	
-				for(int k=0,size=targetList.size();k<size;k++) {
-					sb.append("<option value=\"").append(targetList.get(k)).append("\" >").append(titles.get(k)).append("</option>");
-				}
-
-				sb.append("</select>");
-				sb.append("</th>");
-				sb.append("<td>");
-				sb.append("<img src=\"../common/images/iconStatusAdded.gif\" width=\"12\" height=\"12\" border=\"0\" />");
-				sb.append("<a href=\"javascript:addPropertyMaster()\">");
-				//XSSOK
-				sb.append(add);
-				sb.append("</a>");
-				//sb.append("</div>");
-				sb.append("</td>");
-				sb.append("</tr>");
-				sb.append("<tr>");
-				sb.append("<td>");
-				sb.append("<img src=\"../common/images/iconStatusRemoved.gif\" width=\"12\" height=\"12\" border=\"0\" />");
-				sb.append("<a href=\"javascript:removePropertyMaster()\">");
-				//XSSOK
-				sb.append(remove);
-				sb.append("</a>");
-				sb.append("</td>");
-				sb.append("</tr>");
-				sb.append("</table>");
-			} else {
-				//XSSOK
-				sb.append("<input type=\"hidden\" name=\"MasterHidden\" id=\"MasterHidden\" value=\""+targets+"\" readonly=\"readonly\" />");
-				
-				String targetName = "";
-				String trtn = "\n";
-				if(!exportToExcel) {
-					trtn = "<br>";
-				}
-				StringList targetList = FrameworkUtil.split(targets, ",");
-				DomainObject domObj = DomainObject.newInstance(context);	
-				for(int k=0,size=targetList.size();k<size;k++) {
-					sb.append("<input type=\"hidden\" name=\"").append(titles.get(k)).append("\" value=\"").append(targetList.get(k)).append("\" />");
-					sb.append("<p>").append(titles.get(k)).append("</p>");
-				}
-			}
-		}catch(Exception e) {
-			e.printStackTrace();
-		}
-		return sb.toString();
-	}
-	
-	public void updateMasterList(Context context, String[] args) throws FrameworkException {
-    	try {
-    		HashMap programMap = (HashMap) JPO.unpackArgs(args);
-        	HashMap requestMap = (HashMap) programMap.get("requestMap");
-        	HashMap paramMap = (HashMap) programMap.get("paramMap");
-        	String objectId = (String) paramMap.get("objectId");
-        	String[] targetHiddens = (String[]) requestMap.get("MasterHidden");
-        	String targetHidden = (targetHiddens == null || "".equals(targetHiddens)) ? "NONE" : targetHiddens[0];
-        	System.out.println("targetHidden:"+targetHidden+", objectId:"+objectId);
-        	DomainObject domainObject = DomainObject.newInstance(context, objectId);
-        	StringList selectSmts = new StringList();
-        	selectSmts.add("id");
-        	selectSmts.add("attribute[atisPropertyType]");
-        	selectSmts.add("attribute[atisPropertyEvalUnit]");
-        	MapList maplist = domainObject.getRelatedObjects(context, "atisRequsetToPropertyData", "atisPropertyData", selectSmts, null, false, true, (short) 1, "", null, 0);
-        	if("NONE".equals(targetHidden)) {
-        		if(maplist.size()>0) {        			
-        			String[] dellist = ((java.util.List<Map>) maplist).stream().map(m->(String) m.get("id")).toArray(String[]::new);
-        			DomainObject.deleteObjects(context, dellist);
-        		}
-        	} else {
-        		Map<String, String> map = ((java.util.List<Map>) maplist).stream().collect(Collectors.toMap(m->(String)m.get("attribute[atisPropertyType]")+(String)m.get("attribute[atisPropertyEvalUnit]"), m->(String)m.get("id")));
-        		map.values().stream().forEach(s->{System.out.println(s);});
-        		maplist = DomainObject.findObjects(context, "atisPropertyMasterData", "*", "*", "*", "*", "id matchlist '"+targetHidden+"' ','", null, true, selectSmts, (short) 0); 
-            	java.util.Iterator iter = maplist.iterator();
-            	while(iter.hasNext()) {
-            		Map m = (Map) iter.next();
-            		String type = (String) m.get("attribute[atisPropertyType]");
-            		String unit = (String) m.get("attribute[atisPropertyEvalUnit]");
-            		String id = (String) m.get("id");
-            		if(map.get(type+unit) != null) {
-            			map.remove(type+unit);
-            		} else {
-            			DomainObject dom = DomainObject.newInstance(context);
-        				Map attrMap = new HashMap();
-        				attrMap.put("atisPropertyType", type);
-        				attrMap.put("atisPropertyEvalUnit", unit);
-        				String pname = DomainObject.getAutoGeneratedName(context, "type_atisPropertyMasterData", "");
-        				dom.createObject(context, "atisPropertyData", pname, "1", "atisPropertyDataPolicy", "eService Production");
-        				dom.setAttributeValues(context, attrMap);
-        				DomainRelationship.connect(context, domainObject, "atisRequsetToPropertyData", dom);
-            		}
-            	}
-            	if(!map.isEmpty()) {
-            		String[] dellist = map.values().stream().toArray(String[]::new);
-            		DomainObject.deleteObjects(context, dellist);
-            	}
-        	}
-        	
-    	} catch(Exception e) {
-    		e.printStackTrace();
-    		throw new FrameworkException("Update Process Failed.\nPlease contact to Administrator");
-    	}
-    }
-	
-	@com.matrixone.apps.framework.ui.ProgramCallable
-	public String selectTargetType(Context context,String[] args) throws Exception {
-		String title = "";
-		try {
-			StringBuilder sb = new StringBuilder();
-			HashMap programMap = (HashMap) JPO.unpackArgs(args);
-			HashMap requestMap = (HashMap) programMap.get("requestMap");
-			String objectId = (String) programMap.get("objectId");
-			DomainObject domainObject = DomainObject.newInstance(context, objectId);
-			String type = domainObject.getInfo(context, "type");
-			title = EnoviaResourceBundle.getProperty(context, "emxFrameworkStringResource", context.getLocale(), "emxFramework.Type."+type.replace(' ', '_'));			
-		} catch(Exception e) {
-			
-		}
-		return title;
-	}
-}
+//			
+//		} catch(Exception e) {
+//			//e.printStackTrace();
+//		}
+//		return returnList;
+//    }
+//    
+//	/**
+//  	 * Select the Target Field
+//  	 * @param Context context
+//  	 * @param args holds information about object.
+//  	 * @return Target Field.
+//  	 * @throws Exception if operation fails.
+//  	 */
+//	@com.matrixone.apps.framework.ui.ProgramCallable
+//	public String selectMasterList(Context context,String[] args) throws Exception {
+//		StringBuilder sb = new StringBuilder();
+//		try {
+//			HashMap programMap = (HashMap) JPO.unpackArgs(args);
+//			HashMap requestMap = (HashMap) programMap.get("requestMap");
+//			String strMode = (String) requestMap.get("mode");
+//			String objectId = (String) requestMap.get("objectId");
+//			
+//			// For export to CSV
+//			String exportFormat = null;
+//			boolean exportToExcel = false;
+//			if(requestMap!=null && requestMap.containsKey("reportFormat")){
+//				exportFormat = (String)requestMap.get("reportFormat");
+//			}
+//			if("CSV".equals(exportFormat)){
+//				exportToExcel = true;
+//			}
+//			
+//			StringList selectSmts = new StringList();
+//			selectSmts.add("id");
+//	    	selectSmts.add("attribute[atisPropertyType]");
+//	    	selectSmts.add("attribute[atisPropertyEvalUnit]");
+//	    	selectSmts.add("from[atisRequsetToPropertyData].to.attribute[atisPropertyType]");
+//	    	selectSmts.add("from[atisRequsetToPropertyData].to.attribute[atisPropertyEvalUnit]");
+//			String targets = "";
+//			StringList titles = new StringList();
+//			if(objectId != null && !"".equals(objectId)) {			
+//				DomainObject domObj = DomainObject.newInstance(context,objectId);
+//				
+//				Map map = domObj.getInfo(context, selectSmts, selectSmts);
+//				StringList types = (StringList) map.get("from[atisRequsetToPropertyData].to.attribute[atisPropertyType]");
+//				StringList units = (StringList) map.get("from[atisRequsetToPropertyData].to.attribute[atisPropertyEvalUnit]");
+//				if(types != null && !"".equals(types)) {					
+//					StringBuffer sbWhere = new StringBuffer();
+//					for(int i=0,size=types.size();i<size;i++) {
+//						if(sbWhere.length()>0) {
+//							sbWhere.append(" || ");
+//						}
+//						sbWhere.append("(attribute[atisPropertyType]=='").append(types.get(i)).append("' && attribute[atisPropertyEvalUnit]=='").append(units.get(i)).append("')");
+//					}
+//					System.out.println("sbWhere.toString():"+sbWhere.toString());
+//					MapList maplist = DomainObject.findObjects(context, "atisPropertyMasterData", "*", "*", "*", "*", 
+//							sbWhere.toString(), null, true, selectSmts, (short) 0);
+//					java.util.Iterator iter = maplist.iterator();
+//					while(iter.hasNext()) {
+//						map = (Map) iter.next();
+//						targets = targets + (targets.length()>1?",":"") + (String) map.get("id");
+//						titles.add((String) map.get("attribute[atisPropertyType]") + " " + (String) map.get("attribute[atisPropertyEvalUnit]"));
+//					}
+//				}
+//				targets = targets == null ? "" : targets;
+//			}
+//			if("edit".equalsIgnoreCase(strMode) || "create".equalsIgnoreCase(strMode)) {
+//				String add= EnoviaResourceBundle.getProperty(context, "Framework", "emxFramework.Label.atisAddMaterial", context.getSession().getLanguage());
+//				String remove = EnoviaResourceBundle.getProperty(context, "Framework", "emxFramework.Label.atisRemoveMaterial", context.getSession().getLanguage());
+//				//XSSOK
+//				sb.append("<input type=\"hidden\" name=\"IsMasterFieldModified\" id=\"IsMasterFieldModified\" value=\"false\" readonly=\"readonly\" />"); 
+//				//XSSOK
+//				sb.append("<input type=\"hidden\" name=\"MasterHidden\" id=\"MasterHidden\" value=\""+targets+"\" readonly=\"readonly\" />");
+//				
+//				sb.append("<table>");
+//				sb.append("<tr>");
+//				sb.append("<th rowspan=\"2\">");
+//				sb.append("<select name=\"Master\" style=\"width:200px\" multiple=\"multiple\">");
+//				
+//				StringList targetList = FrameworkUtil.split(targets, ",");
+//				DomainObject domObj = DomainObject.newInstance(context);	
+//				for(int k=0,size=targetList.size();k<size;k++) {
+//					sb.append("<option value=\"").append(targetList.get(k)).append("\" >").append(titles.get(k)).append("</option>");
+//				}
+//
+//				sb.append("</select>");
+//				sb.append("</th>");
+//				sb.append("<td>");
+//				sb.append("<img src=\"../common/images/iconStatusAdded.gif\" width=\"12\" height=\"12\" border=\"0\" />");
+//				sb.append("<a href=\"javascript:addPropertyMaster()\">");
+//				//XSSOK
+//				sb.append(add);
+//				sb.append("</a>");
+//				//sb.append("</div>");
+//				sb.append("</td>");
+//				sb.append("</tr>");
+//				sb.append("<tr>");
+//				sb.append("<td>");
+//				sb.append("<img src=\"../common/images/iconStatusRemoved.gif\" width=\"12\" height=\"12\" border=\"0\" />");
+//				sb.append("<a href=\"javascript:removePropertyMaster()\">");
+//				//XSSOK
+//				sb.append(remove);
+//				sb.append("</a>");
+//				sb.append("</td>");
+//				sb.append("</tr>");
+//				sb.append("</table>");
+//			} else {
+//				//XSSOK
+//				sb.append("<input type=\"hidden\" name=\"MasterHidden\" id=\"MasterHidden\" value=\""+targets+"\" readonly=\"readonly\" />");
+//				
+//				String targetName = "";
+//				String trtn = "\n";
+//				if(!exportToExcel) {
+//					trtn = "<br>";
+//				}
+//				StringList targetList = FrameworkUtil.split(targets, ",");
+//				DomainObject domObj = DomainObject.newInstance(context);	
+//				for(int k=0,size=targetList.size();k<size;k++) {
+//					sb.append("<input type=\"hidden\" name=\"").append(titles.get(k)).append("\" value=\"").append(targetList.get(k)).append("\" />");
+//					sb.append("<p>").append(titles.get(k)).append("</p>");
+//				}
+//			}
+//		}catch(Exception e) {
+//			e.printStackTrace();
+//		}
+//		return sb.toString();
+//	}
+//	
+//	public void updateMasterList(Context context, String[] args) throws FrameworkException {
+//    	try {
+//    		HashMap programMap = (HashMap) JPO.unpackArgs(args);
+//        	HashMap requestMap = (HashMap) programMap.get("requestMap");
+//        	HashMap paramMap = (HashMap) programMap.get("paramMap");
+//        	String objectId = (String) paramMap.get("objectId");
+//        	String[] targetHiddens = (String[]) requestMap.get("MasterHidden");
+//        	String targetHidden = (targetHiddens == null || "".equals(targetHiddens)) ? "NONE" : targetHiddens[0];
+//        	System.out.println("targetHidden:"+targetHidden+", objectId:"+objectId);
+//        	DomainObject domainObject = DomainObject.newInstance(context, objectId);
+//        	StringList selectSmts = new StringList();
+//        	selectSmts.add("id");
+//        	selectSmts.add("attribute[atisPropertyType]");
+//        	selectSmts.add("attribute[atisPropertyEvalUnit]");
+//        	MapList maplist = domainObject.getRelatedObjects(context, "atisRequsetToPropertyData", "atisPropertyData", selectSmts, null, false, true, (short) 1, "", null, 0);
+//        	if("NONE".equals(targetHidden)) {
+//        		if(maplist.size()>0) {        			
+//        			String[] dellist = ((java.util.List<Map>) maplist).stream().map(m->(String) m.get("id")).toArray(String[]::new);
+//        			DomainObject.deleteObjects(context, dellist);
+//        		}
+//        	} else {
+//        		Map<String, String> map = ((java.util.List<Map>) maplist).stream().collect(Collectors.toMap(m->(String)m.get("attribute[atisPropertyType]")+(String)m.get("attribute[atisPropertyEvalUnit]"), m->(String)m.get("id")));
+//        		map.values().stream().forEach(s->{System.out.println(s);});
+//        		maplist = DomainObject.findObjects(context, "atisPropertyMasterData", "*", "*", "*", "*", "id matchlist '"+targetHidden+"' ','", null, true, selectSmts, (short) 0); 
+//            	java.util.Iterator iter = maplist.iterator();
+//            	while(iter.hasNext()) {
+//            		Map m = (Map) iter.next();
+//            		String type = (String) m.get("attribute[atisPropertyType]");
+//            		String unit = (String) m.get("attribute[atisPropertyEvalUnit]");
+//            		String id = (String) m.get("id");
+//            		if(map.get(type+unit) != null) {
+//            			map.remove(type+unit);
+//            		} else {
+//            			DomainObject dom = DomainObject.newInstance(context);
+//        				Map attrMap = new HashMap();
+//        				attrMap.put("atisPropertyType", type);
+//        				attrMap.put("atisPropertyEvalUnit", unit);
+//        				String pname = DomainObject.getAutoGeneratedName(context, "type_atisPropertyMasterData", "");
+//        				dom.createObject(context, "atisPropertyData", pname, "1", "atisPropertyDataPolicy", "eService Production");
+//        				dom.setAttributeValues(context, attrMap);
+//        				DomainRelationship.connect(context, domainObject, "atisRequsetToPropertyData", dom);
+//            		}
+//            	}
+//            	if(!map.isEmpty()) {
+//            		String[] dellist = map.values().stream().toArray(String[]::new);
+//            		DomainObject.deleteObjects(context, dellist);
+//            	}
+//        	}
+//        	
+//    	} catch(Exception e) {
+//    		e.printStackTrace();
+//    		throw new FrameworkException("Update Process Failed.\nPlease contact to Administrator");
+//    	}
+//    }
+//	
+//	@com.matrixone.apps.framework.ui.ProgramCallable
+//	public String selectTargetType(Context context,String[] args) throws Exception {
+//		String title = "";
+//		try {
+//			StringBuilder sb = new StringBuilder();
+//			HashMap programMap = (HashMap) JPO.unpackArgs(args);
+//			HashMap requestMap = (HashMap) programMap.get("requestMap");
+//			String objectId = (String) programMap.get("objectId");
+//			DomainObject domainObject = DomainObject.newInstance(context, objectId);
+//			String type = domainObject.getInfo(context, "type");
+//			title = EnoviaResourceBundle.getProperty(context, "emxFrameworkStringResource", context.getLocale(), "emxFramework.Type."+type.replace(' ', '_'));			
+//		} catch(Exception e) {
+//			
+//		}
+//		return title;
+//	}
+//}

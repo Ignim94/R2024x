@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-import com.atis.atisFoodSafetyKoreaService;
+
 import com.matrixone.apps.domain.DomainConstants;
 import com.matrixone.apps.domain.DomainObject;
 import com.matrixone.apps.domain.util.ContextUtil;

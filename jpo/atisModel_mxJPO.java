@@ -2,9 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import com.atis.atisFoodSafetyKoreaService;
-import com.dassault_systemes.enovia.formulation.custom.enumeration.FormulationRelationship;
-import com.dassault_systemes.enovia.formulation.custom.enumeration.FormulationType;
+
 import com.matrixone.apps.domain.DomainConstants;
 import com.matrixone.apps.domain.DomainObject;
 import com.matrixone.apps.domain.DomainRelationship;
@@ -41,7 +39,7 @@ public class atisModel_mxJPO {
     		String desc = (String) paramMap.get("atisProcessCondition");
     		
     		DomainObject domainObject = new DomainObject();
-    		domainObject.createObject(context, "Model", name, "A", "Processing Information", "eService Production");
+    		//domainObject.createObject(context, "Model", name, "A", "Processing Information", "eService Production");
     		domainObject.setDescription(context, desc);
 
     		Map attrMap = new HashMap();

@@ -1,0 +1,14 @@
+# delete command atisProjectSpaceBookmarkDupCommand;
+
+add command atisProjectSpaceBookmarkDupCommand
+ label 'emxFramework.Label.AtisProjectSpaceBookmarkDupCommand'
+ href '${COMMON_DIR}/atisProjectSpaceBookmarkDuplicate.jsp?action=Update&submitAction=refreshCaller'
+	setting "Registered Suite" "Framework"
+	setting "Image" "${COMMON_DIR}/images/iconActionRefresh.png"
+	setting "Submit" true
+	setting 'Access Expression' 'type=="Project Space"'
+	setting "Target Location" "hiddenFrame"
+;
+
+mod command atisProjectSpaceBookmarkDupCommand
+ add setting 'Access Expression' 'type=="Project Space"';

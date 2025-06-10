@@ -4,9 +4,6 @@ import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.atis.atisFoodSafetyKoreaService;
-import com.dassault_systemes.enovia.formulation.custom.enumeration.FormulationRelationship;
-import com.dassault_systemes.enovia.formulation.custom.enumeration.FormulationType;
 import com.matrixone.apps.domain.DomainConstants;
 import com.matrixone.apps.domain.DomainObject;
 import com.matrixone.apps.domain.DomainRelationship;
